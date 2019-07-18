@@ -1,0 +1,37 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'macOS-10.14'
+
+steps:
+- script: |
+    brew install hub
+    git config --local user.name "Biolab"
+    git config --local user.email "info@biolab.si"
+    echo "it works" > test.txt
+    git checkout -b test_autoupdates
+    git add .
+    git commit -m "Serverfiles update  ***NO_CI***"
+  displayName: 'Commit updated datasets'
+
+- task: DownloadSecureFile@1
+  name: deploy_key
+  inputs:
+    secureFile: deploy_key
+  displayName: 'Get the deploy key'
+
+- script: |
+    echo Installing $(deploy_key.secureFilePath) ...
+    mkdir ~/.ssh && mv $(deploy_key.secureFilePath) ~/.ssh/id_rsa
+    chmod 700 ~/.ssh && chmod 600 ~/.ssh/id_rsa
+    ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+    git remote set-url --push origin git@github.com:JakaKokosar/bioinformatics-serverfiles.git
+    git status
+    git remote -v
+    # hub pull-request --base jakakokosar:master --head jakakokosar:test_autoupdates
+    git push origin HEAD:test_autoupdates
+  displayName: 'Update results'
+  # condition: |
+  #   and(not(eq(variables['Build.Reason'], 'PullRequest')),
+  #       eq(variables['Build.SourceBranch'], 'refs/heads/test_autoupdates'))
