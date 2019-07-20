@@ -4,7 +4,25 @@ import sys
 from collections import defaultdict
 
 from Orange.data import Table, Domain, StringVariable
-from orangecontrib.bioinformatics.ncbi.gene import GeneMatcher, Gene
+from orangecontrib.bioinformatics.ncbi.gene import GeneMatcher, Gene, GeneInfo
+
+
+def gene_history(file_path: str):
+    taxonomy_col = 0
+    current_id_col = 1
+    discontinued_id_col = 2
+
+    with gzip.open(file_path, 'rb') as fp:
+        # skip header
+        fp.readline()
+
+        # store lines in memory
+        out_dict = {}
+        for line in fp:
+            info = tuple(line.decode().strip().split('\t'))
+            out_dict[(info[taxonomy_col], info[discontinued_id_col])] = info[current_id_col]
+
+    return out_dict
 
 
 def panglao_db(file_path: str):
@@ -48,13 +66,13 @@ def panglao_db(file_path: str):
     description_column = StringVariable('Function')
 
     # construct data table for mouse
-    gm_mouse = GeneMatcher('10090', case_insensitive=True)
+    gm_mouse = GeneMatcher('10090')
     mouse_table = Table(domain, genes_by_organism['Mouse'])
     mouse_table = gm_mouse.match_table_column(mouse_table, 'Name', entrez_id_column)
     mouse_table = Table.concatenate([mouse_table, _gene_function_table(description_column, gm_mouse)])
 
     # construct data table for human
-    gm_human = GeneMatcher('9606', case_insensitive=True)
+    gm_human = GeneMatcher('9606')
     human_table = Table(domain, genes_by_organism['Human'])
     human_table = gm_human.match_table_column(human_table, 'Name', entrez_id_column)
     human_table = Table.concatenate([human_table, _gene_function_table(description_column, gm_human)])
@@ -124,15 +142,24 @@ def cell_marker_db(file_path: str):
                 data.append(gene_entry)
 
     table = Table(domain, data)
-    genes = [Gene(name) for name in table.get_column_view('Entrez ID')[0]]
-    for gene in genes:
-        gene.ncbi_id = gene.input_name
-        gene.load_ncbi_info()
+
+    human_gene_info = GeneInfo('9606')
+    mouse_gene_info = GeneInfo('10090')
+
+    gh = gene_history('temp/gene_history.gz')
+    genes = []
+    for input_id, organism, name in zip(table.get_column_view('Entrez ID')[0], table.get_column_view('Organism')[0], table.get_column_view('Name')[0]):
+        gene_id_status = gh.get(('9606' if organism == 'Human' else '10090', input_id), None)
+        if gene_id_status not in [None, '-']:
+            input_id = gene_id_status
+
+        gene = human_gene_info.get(input_id, mouse_gene_info.get(input_id, None))
+        genes.append(gene)
 
     description_column = StringVariable('Function')
     domain = Domain([], metas=table.domain.metas + (description_column,))
     table = table.transform(domain)
-    table[:, description_column] = [[gene.description] for gene in genes]
+    table[:, description_column] = [[gene.description if gene else "discontinued or unknown"] for gene in genes]
     table.save(f'data/marker_genes/{file_name}')
 
 
