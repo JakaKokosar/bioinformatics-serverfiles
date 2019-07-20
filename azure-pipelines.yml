@@ -1,51 +1,74 @@
 # A pipeline with no CI trigger
-trigger: none
+trigger: 
+- master
 
 # no PR builds
 pr: none
 
-schedules:
-- cron: "*/5 * * * *"
-  displayName: test schedules every 5min
-  always: true
-  branches:
-    include:
-      - master
+# schedules:
+# - cron: "*/5 * * * *"
+#   displayName: test schedules every 5min
+#   always: true
+#   branches:
+#     include:
+#       - master
 
-pool:
-  vmImage: 'macOS-10.14'
+jobs:
 
-steps:
-- script: brew install hub
+- job: serverfiles_update
+  pool:
+    vmImage: 'macOS-10.14'
+  strategy:
+    matrix:
+      Python37:
+        python.version: '3.7'
 
-- task: DownloadSecureFile@1
-  name: deploy_key
-  inputs:
-    secureFile: deploy_key
-  displayName: 'Get the ssh deploy key'
+  steps:
+    - task: UsePythonVersion@0
+      inputs:
+        versionSpec: '$(python.version)'
+        architecture: 'x64'
 
-- script: |
-    mkdir ~/.ssh && mv $(deploy_key.secureFilePath) ~/.ssh/id_rsa
-    chmod 700 ~/.ssh && chmod 600 ~/.ssh/id_rsa
-    ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-  displayName: 'Install ssh key'
+    - script: python -m pip install --upgrade pip setuptools wheel numpy
+      displayName: 'Install build tools'
 
-- script: |
-    git config --local user.name "jakakokosar"
-    git config --local user.email "jaka.kokosar@gmail.com"
-    git checkout -b $(date +"%Y/%m/%d")
-    echo "it works $(date +%Y/%m/%d_%H:%M)" > test.txt
-    git add .
-    git commit -m "Serverfiles update  ***NO_CI***"
-  displayName: 'Commit updated files'
+    - script: |
+        brew install hub
+        python -m pip install --upgrade pip pyqt5 orange3 plumbum serverfiles sqlite_utils https://github.com/jakakokosar/orange3-bioinformatics/archive/overhaul_gene_module.zip
+      displayName: 'Install requirements'
 
-- script: |
-    export GITHUB_TOKEN=$(github.access)
-    git remote set-url origin git@github.com:JakaKokosar/bioinformatics-serverfiles.git
-    hub pull-request --push --no-edit --message "$(date +%Y/%m/%d) - Serverfiles update"
-    sudo rm ~/.ssh/id_rsa
-    # git push origin -u HEAD:serverfiles_update_$(date +"%Y/%m/%d_%H_%M")
-  displayName: 'Create Pull Request'
-  condition: |
-    and(not(eq(variables['Build.Reason'], 'PullRequest')),
-        eq(variables['Build.SourceBranch'], 'refs/heads/master')) 
+    - task: DownloadSecureFile@1
+      name: deploy_key
+      inputs:
+        secureFile: deploy_key
+      displayName: 'Get the ssh deploy key'
+
+    - script: |
+        mkdir ~/.ssh && mv $(deploy_key.secureFilePath) ~/.ssh/id_rsa
+        chmod 700 ~/.ssh && chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+      displayName: 'Install ssh key'
+
+    - script: |
+        python update_serverfiles.py
+        python prepare_serverfiles.py
+
+    - script: |
+        git config --local user.name "jakakokosar"
+        git config --local user.email "jaka.kokosar@gmail.com"
+        git checkout -b $(date +"%Y/%m/%d")
+        git status --long --verbose
+        git add .
+        git commit -m "Serverfiles update  ***NO_CI***"
+      displayName: 'Commit updated files'
+
+    - script: |
+        export GITHUB_TOKEN=$(github.access)
+        git remote set-url origin git@github.com:JakaKokosar/bioinformatics-serverfiles.git
+        hub pull-request --push --no-edit --message "$(date +%Y/%m/%d) - Serverfiles update"
+        sudo rm ~/.ssh/id_rsa
+        # git push origin -u HEAD:serverfiles_update_$(date +"%Y/%m/%d_%H_%M")
+      condition: |
+        and(not(eq(variables['Build.Reason'], 'PullRequest')),
+           eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+      displayName: 'Create Pull Request'

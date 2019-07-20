@@ -25,7 +25,7 @@ data_path = os.path.abspath(os.path.join(__file__, '../../data'))
 def go_gene_sets(tax_id: str) -> None:
     domain = 'go'
     ontology = go.Ontology(filename=f'{data_path}/{domain}/gene_ontology.obo')
-    annotations = go.Annotations(tax_id, path=f'{data_path}/{domain}/{tax_id}.tab', ontology=ontology)
+    annotations = go.Annotations(tax_id, filename=f'{data_path}/{domain}/{tax_id}.tab', ontology=ontology)
 
     def to_gene_set(term: go.Term) -> Optional[GeneSet]:
         genes = annotations.get_genes_by_go_term(term.id)
@@ -58,12 +58,11 @@ def dicty_mutant_gene_sets(org):
             phenotype = phenotype.replace(",", " ")
             gene_symbols = [phenotypes.mutant_genes(mutant)[0] for mutant in mutants]
             gene_matcher.genes = gene_symbols
-            gene_matcher.run_matcher()
             genes = []
 
             for gene in gene_matcher.genes:
-                if gene.ncbi_id is not None:
-                    genes.append(int(gene.ncbi_id))
+                if gene.gene_id is not None:
+                    genes.append(int(gene.gene_id))
 
             if len(gene_symbols) != len(genes):
                 print(len(gene_symbols), len(genes))
@@ -133,12 +132,11 @@ def cytoband_gene_sets(tax_id: str) -> None:
                 b = band.decode().split('\t')
                 gene_symbols = b[2:]
                 gene_matcher.genes = gene_symbols
-                gene_matcher.run_matcher()
 
                 genes = []
                 for gene in gene_matcher.genes:
-                    if gene.ncbi_id is not None:
-                        genes.append(int(gene.ncbi_id))
+                    if gene.gene_id is not None:
+                        genes.append(gene.gene_id)
 
                 genesets.append(GeneSet(gs_id=b[0], name=b[1], genes=genes if b[2:] else [],
                                         hierarchy=('Cytobands',), organism='9606', link=''))
@@ -169,12 +167,11 @@ def reactome_gene_sets(tax_id: str) -> None:
                 for path in content:
                     gene_symbols = path.split('\t')[2:] if path.split('\t')[2:] else []
                     gene_matcher.genes = gene_symbols
-                    gene_matcher.run_matcher()
                     genes = []
 
                     for gene in gene_matcher.genes:
-                        if gene.ncbi_id is not None:
-                            genes.append(str(gene.ncbi_id))
+                        if gene.gene_id is not None:
+                            genes.append(str(gene.gene_id))
 
                     pathway = path.split('\t')[0].replace(',', ' ')
                     pathway_id = path.split('\t')[1].replace(',', ' ')
@@ -198,7 +195,7 @@ if __name__ == "__main__":
     for common_tax_id in taxonomy.common_taxids():
         reactome_gene_sets(common_tax_id)
         cytoband_gene_sets(common_tax_id)
-        # dicty_mutant_gene_sets(common_tax_id) TODO: re-enable this after orange3-bioinformatics release
+        #dicty_mutant_gene_sets(common_tax_id) TODO: re-enable this after orange3-bioinformatics release
 
         try:
             kegg_gene_sets(common_tax_id)
