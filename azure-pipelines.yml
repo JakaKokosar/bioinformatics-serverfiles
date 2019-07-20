@@ -1,0 +1,52 @@
+# schedules:
+# - cron: "*/5 * * * *"
+#   displayName: test schedules every 5min
+#   always: true
+#   branches:
+#     include:
+#       - master
+#       - azure-pipelines
+
+trigger:
+- master
+
+pool:
+  vmImage: 'macOS-10.14'
+
+steps:
+- script: |
+    # git config --local user.name "serverfiles-update"
+    # git config --local user.email "info@biolab.si"
+    brew install hub
+    git checkout -b serverfiles_update_$(date +"%Y/%m/%d_%H_%M")
+    echo "it works $(date +%Y/%m/%d %H:%M)" > test.txt
+    git add .
+    git commit -m "Serverfiles update [skip ci]"
+  displayName: 'Commit updated files'
+
+- task: DownloadSecureFile@1
+  name: deploy_key
+  inputs:
+    secureFile: deploy_key
+  displayName: 'Get the deploy key'
+
+- script: |
+    echo Installing $(deploy_key.secureFilePath) ...
+    mkdir ~/.ssh && mv $(deploy_key.secureFilePath) ~/.ssh/id_rsa
+    chmod 700 ~/.ssh && chmod 600 ~/.ssh/id_rsa
+    ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+    export GITHUB_TOKEN=$(github.access)
+    git status
+    git remote -vv
+    git remote set-url origin git@github.com:JakaKokosar/bioinformatics-serverfiles.git
+    hub pull-request --push --no-edit --message '$(date +"%Y/%m/%d_%H_%M") - Serverfiles update'
+    echo $(github.access)
+    # echo $(GITHUB_TOKEN)
+    cat ~/.config/hub
+    # git push origin -u HEAD:serverfiles_update_$(date +"%Y/%m/%d_%H_%M")
+  displayName: 'Push to origin'
+  # env:
+  #   GITHUB_TOKEN: $(github.access)
+  # condition: |
+  #   and(not(eq(variables['Build.Reason'], 'PullRequest')),
+  #       eq(variables['Build.SourceBranch'], 'refs/heads/test_autoupdates')) 
