@@ -15,7 +15,7 @@
     "full_name_from_nomenclature_authority": "-",
     "nomenclature_status": "-",
     "other_designations": [],
-    "modification_date": "20190706"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -14973,7 +14973,7 @@
     "other_designations": [
       "Red1p"
     ],
-    "modification_date": "20190608"
+    "modification_date": "20190713"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -18537,7 +18537,7 @@
     "other_designations": [
       "mRNA splicing protein SPP382"
     ],
-    "modification_date": "20190608"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -23719,7 +23719,7 @@
     "other_designations": [
       "autophagy protein ATG9"
     ],
-    "modification_date": "20190609"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -24825,7 +24825,7 @@
     "other_designations": [
       "DNA-directed DNA polymerase delta POL3"
     ],
-    "modification_date": "20190707"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -25447,7 +25447,7 @@
     "other_designations": [
       "E3 ubiquitin-protein ligase BRE1"
     ],
-    "modification_date": "20190609"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -29218,7 +29218,7 @@
     "other_designations": [
       "histone demethylase GIS1"
     ],
-    "modification_date": "20190319"
+    "modification_date": "20190713"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -34837,7 +34837,7 @@
     "other_designations": [
       "chromatin-remodeling protein SWR1"
     ],
-    "modification_date": "20190707"
+    "modification_date": "20190713"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -36094,7 +36094,7 @@
     "other_designations": [
       "elongation factor 2"
     ],
-    "modification_date": "20190505"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -45528,7 +45528,7 @@
     "other_designations": [
       "HSP70/90 family co-chaperone CNS1"
     ],
-    "modification_date": "20190505"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -50200,7 +50200,7 @@
     "other_designations": [
       "bifunctional 2-aminoadipate transaminase/aromatic-amino-acid:2-oxoglutarate transaminase"
     ],
-    "modification_date": "20190609"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -51789,7 +51789,7 @@
     "other_designations": [
       "U2-type spliceosomal complex subunit CWC23"
     ],
-    "modification_date": "20190608"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -59117,7 +59117,7 @@
     "other_designations": [
       "Hgh1p"
     ],
-    "modification_date": "20190609"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -65698,7 +65698,7 @@
     "other_designations": [
       "spindle checkpoint protein MAD2"
     ],
-    "modification_date": "20190505"
+    "modification_date": "20190713"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -67241,7 +67241,7 @@
     "other_designations": [
       "DNA polymerase delta subunit POL32"
     ],
-    "modification_date": "20190707"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -67399,7 +67399,7 @@
     "other_designations": [
       "cytochrome c "
     ],
-    "modification_date": "20190707"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -68036,7 +68036,7 @@
     "other_designations": [
       "bifunctional phosphatidyl-N-methylethanolamine N-methyltransferase/phosphatidyl-N-dimethylethanolamine N-methyltransferase"
     ],
-    "modification_date": "20190608"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -68058,7 +68058,7 @@
     "other_designations": [
       "Ran GTPase-binding protein MOG1"
     ],
-    "modification_date": "20190611"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -70876,7 +70876,7 @@
     "other_designations": [
       "phosphatidylinositol-3-phosphatase SAC1"
     ],
-    "modification_date": "20190707"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -75505,7 +75505,7 @@
     "other_designations": [
       "Ntr2p"
     ],
-    "modification_date": "20190608"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -85287,7 +85287,7 @@
     "other_designations": [
       "cleavage polyadenylation factor subunit SYC1"
     ],
-    "modification_date": "20190608"
+    "modification_date": "20190713"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -86711,7 +86711,7 @@
     "other_designations": [
       "NuA4 histone acetyltransferase complex catalytic subunit ESA1"
     ],
-    "modification_date": "20190608"
+    "modification_date": "20190713"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -86985,7 +86985,7 @@
     "other_designations": [
       "centrin"
     ],
-    "modification_date": "20190608"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -93182,7 +93182,7 @@
     "other_designations": [
       "Hop1p"
     ],
-    "modification_date": "20190608"
+    "modification_date": "20190713"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -98157,7 +98157,7 @@
     "other_designations": [
       "recombinase RAD52"
     ],
-    "modification_date": "20190707"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -100860,7 +100860,7 @@
     "other_designations": [
       "ATP-dependent RNA helicase NAM7"
     ],
-    "modification_date": "20190608"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -104465,7 +104465,7 @@
     "other_designations": [
       "RNA-DNA hybrid ribonuclease"
     ],
-    "modification_date": "20180909"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -107507,7 +107507,7 @@
     "other_designations": [
       "Rim21p"
     ],
-    "modification_date": "20190608"
+    "modification_date": "20190713"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -108726,7 +108726,7 @@
     "other_designations": [
       "Atg2p"
     ],
-    "modification_date": "20190609"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -109426,7 +109426,7 @@
     "other_designations": [
       "Hsp70 family ATPase SSB2"
     ],
-    "modification_date": "20190609"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -111527,7 +111527,7 @@
     "other_designations": [
       "Yaf9p"
     ],
-    "modification_date": "20190609"
+    "modification_date": "20190713"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -113750,7 +113750,7 @@
     "other_designations": [
       "putative phosphoric monoester hydrolase"
     ],
-    "modification_date": "20181007"
+    "modification_date": "20190713"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -116220,7 +116220,7 @@
     "other_designations": [
       "Hsp90 family chaperone HSP82"
     ],
-    "modification_date": "20190707"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -124534,7 +124534,7 @@
     "other_designations": [
       "RNA-binding ribosome biosynthesis protein MRD1"
     ],
-    "modification_date": "20190707"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -124982,7 +124982,7 @@
     "other_designations": [
       "Spn1p"
     ],
-    "modification_date": "20190609"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -130833,7 +130833,7 @@
     "other_designations": [
       "histone methyltransferase SET1"
     ],
-    "modification_date": "20190505"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -131275,7 +131275,7 @@
     "other_designations": [
       "aromatic-amino-acid:2-oxoglutarate transaminase"
     ],
-    "modification_date": "20190609"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -131699,7 +131699,7 @@
     "other_designations": [
       "Rtt107p"
     ],
-    "modification_date": "20190608"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
@@ -134911,7 +134911,7 @@
     "other_designations": [
       "amino acid starvation-responsive transcription factor GCN4"
     ],
-    "modification_date": "20190609"
+    "modification_date": "20190720"
   },
   {
     "species": "Saccharomyces cerevisiae",
