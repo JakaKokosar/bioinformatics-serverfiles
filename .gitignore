@@ -109,3 +109,4 @@ venv.bak/
 # temporary folders
 temp/
 serverfiles/
+serverfiles_dump.tar.gz
