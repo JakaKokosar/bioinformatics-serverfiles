@@ -195,7 +195,7 @@ if __name__ == "__main__":
     for common_tax_id in taxonomy.common_taxids():
         reactome_gene_sets(common_tax_id)
         cytoband_gene_sets(common_tax_id)
-        #dicty_mutant_gene_sets(common_tax_id) TODO: re-enable this after orange3-bioinformatics release
+        # dicty_mutant_gene_sets(common_tax_id) TODO: re-enable this after orange3-bioinformatics release
 
         try:
             kegg_gene_sets(common_tax_id)
