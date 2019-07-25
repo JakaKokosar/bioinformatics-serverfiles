@@ -34,7 +34,7 @@ def go_gene_sets(tax_id: str) -> None:
             return GeneSet(
                 gs_id=term.id,
                 name=term.name,
-                genes=genes,
+                genes=set(genes),
                 hierarchy=('GO', term.namespace),
                 organism=tax_id,
                 link=f'http://amigo.geneontology.org/amigo/term/{term.id}'
@@ -58,11 +58,11 @@ def dicty_mutant_gene_sets(org):
             phenotype = phenotype.replace(",", " ")
             gene_symbols = [phenotypes.mutant_genes(mutant)[0] for mutant in mutants]
             gene_matcher.genes = gene_symbols
-            genes = []
+            genes = set()
 
             for gene in gene_matcher.genes:
                 if gene.gene_id is not None:
-                    genes.append(int(gene.gene_id))
+                    genes.add(str(gene.gene_id))
 
             if len(gene_symbols) != len(genes):
                 print(len(gene_symbols), len(genes))
@@ -93,10 +93,10 @@ def kegg_gene_sets(tax_id: str) -> None:
 
         if pway.pathway_attributes():
             kegg_names = kegg_org.get_genes_by_pathway(id)
-            mapped_genes = []
+            mapped_genes = set()
             for gene in kegg_names:
                 try:
-                    mapped_genes.append(ncbi_id_mapper[gene.upper()])
+                    mapped_genes.add(ncbi_id_mapper[gene.upper()])
                 except KeyError:
                     # some kegg names can not be matched to ncbi ids
                     # they are included in geneset anyway
@@ -133,12 +133,12 @@ def cytoband_gene_sets(tax_id: str) -> None:
                 gene_symbols = b[2:]
                 gene_matcher.genes = gene_symbols
 
-                genes = []
+                genes = set()
                 for gene in gene_matcher.genes:
                     if gene.gene_id is not None:
-                        genes.append(gene.gene_id)
+                        genes.add(gene.gene_id)
 
-                genesets.append(GeneSet(gs_id=b[0], name=b[1], genes=genes if b[2:] else [],
+                genesets.append(GeneSet(gs_id=b[0], name=b[1], genes=genes if b[2:] else set(),
                                         hierarchy=('Cytobands',), organism='9606', link=''))
 
         for gs_group in GeneSets(genesets).split_by_hierarchy():
@@ -167,11 +167,11 @@ def reactome_gene_sets(tax_id: str) -> None:
                 for path in content:
                     gene_symbols = path.split('\t')[2:] if path.split('\t')[2:] else []
                     gene_matcher.genes = gene_symbols
-                    genes = []
+                    genes = set()
 
                     for gene in gene_matcher.genes:
                         if gene.gene_id is not None:
-                            genes.append(str(gene.gene_id))
+                            genes.add(str(gene.gene_id))
 
                     pathway = path.split('\t')[0].replace(',', ' ')
                     pathway_id = path.split('\t')[1].replace(',', ' ')
@@ -195,7 +195,7 @@ if __name__ == "__main__":
     for common_tax_id in taxonomy.common_taxids():
         reactome_gene_sets(common_tax_id)
         cytoband_gene_sets(common_tax_id)
-        #dicty_mutant_gene_sets(common_tax_id) TODO: re-enable this after orange3-bioinformatics release
+        # dicty_mutant_gene_sets(common_tax_id) TODO: re-enable this after orange3-bioinformatics release
 
         try:
             kegg_gene_sets(common_tax_id)

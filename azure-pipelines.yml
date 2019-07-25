@@ -1,16 +1,18 @@
-# no CI trigger
-trigger: none
-
-# no PR builds
-pr: none
-
 schedules:
-- cron: "0 7 1/14 * *" # At 07:00 AM, every 14 days (https://cronexpressiondescriptor.azurewebsites.net/)
+# - cron: "0 7 1/14 * *" # At 07:00 AM, every 14 days (https://cronexpressiondescriptor.azurewebsites.net/)
+- cron: '5 16 * * *'
   displayName: Update schedule
   always: true
   branches:
     include:
-      - master
+     - master
+
+# no CI trigger
+trigger:
+  - master
+
+# no PR builds
+pr: none
 
 jobs:
 
@@ -66,7 +68,6 @@ jobs:
         git remote set-url origin git@github.com:JakaKokosar/bioinformatics-serverfiles.git
         hub pull-request --push --no-edit --message "$(date +%Y/%m/%d) - Serverfiles update"
         sudo rm ~/.ssh/id_rsa
-        # git push origin -u HEAD:serverfiles_update_$(date +"%Y/%m/%d_%H_%M")
       condition: |
         and(not(eq(variables['Build.Reason'], 'PullRequest')),
            eq(variables['Build.SourceBranch'], 'refs/heads/master'))

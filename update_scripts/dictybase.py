@@ -6,8 +6,8 @@ from typing import List, Dict, Any
 
 def mutant_to_dict(mutant: List[str], mutant_types: Dict[str, bool]) -> Dict[str, Any]:
     return {
-        'systematic_name': mutant[0],
-        'strain_descriptor': mutant[1],
+        'systematic_name': mutant[0].strip(),
+        'strain_descriptor': mutant[1].strip(),
         'associated_genes': mutant[2].split(' | '),
         'phenotypes': mutant[3].split(' | '),
         'mutant_types': mutant_types,
