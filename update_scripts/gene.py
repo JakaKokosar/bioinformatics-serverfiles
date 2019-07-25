@@ -71,14 +71,20 @@ def gene_info_to_dict(gene_data: tuple):
         'symbol': gene_data[symbol],
         'synonyms': pipe_delimited_to_list(gene_data[synonyms]),
         'db_refs': parse_db_refs(gene_data[db_refs]),
-        'description': gene_data[description],
-        'locus_tag': gene_data[locus_tag],
-        'chromosome': gene_data[chromosome],
-        'map_location': gene_data[map_location],
-        'type_of_gene': gene_data[type_of_gene],
-        'symbol_from_nomenclature_authority': gene_data[symbol_from_nomenclature_authority],
-        'full_name_from_nomenclature_authority': gene_data[full_name_from_nomenclature_authority],
-        'nomenclature_status': gene_data[nomenclature_status],
+        'description': gene_data[description] if gene_data[description] != '-' else None,
+        'locus_tag': gene_data[locus_tag] if gene_data[locus_tag] != '-' else None,
+        'chromosome': gene_data[chromosome] if gene_data[chromosome] != '-' else None,
+        'map_location': gene_data[map_location] if gene_data[map_location] != '-' else None,
+        'type_of_gene': gene_data[type_of_gene] if gene_data[type_of_gene] != '-' else None,
+        'symbol_from_nomenclature_authority':
+            gene_data[symbol_from_nomenclature_authority]
+            if gene_data[symbol_from_nomenclature_authority] != '-'
+            else None,
+        'full_name_from_nomenclature_authority':
+            gene_data[full_name_from_nomenclature_authority]
+            if gene_data[full_name_from_nomenclature_authority] != '-'
+            else None,
+        'nomenclature_status': gene_data[nomenclature_status] if gene_data[nomenclature_status] != '-' else None,
         'other_designations': pipe_delimited_to_list(gene_data[other_designations]),
         'modification_date': gene_data[modification_date],
     }
@@ -117,4 +123,3 @@ if __name__ == "__main__":
 
     for tax in common_taxids():
         to_json(tax)
-

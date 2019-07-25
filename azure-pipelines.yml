@@ -23,8 +23,6 @@ jobs:
       Python37:
         python.version: '3.7'
 
-
-
   steps:
     - task: UsePythonVersion@0
       inputs:
@@ -36,7 +34,7 @@ jobs:
 
     - script: |
         brew install hub
-        python -m pip install --upgrade pip pyqt5 orange3 plumbum https://github.com/jakakokosar/orange3-bioinformatics/archive/overhaul_gene_module.zip
+        python -m pip install --upgrade pip pyqt5 orange3 plumbum serverfiles sqlite_utils https://github.com/jakakokosar/orange3-bioinformatics/archive/overhaul_gene_module.zip
       displayName: 'Install requirements'
 
     - task: DownloadSecureFile@1
@@ -52,7 +50,8 @@ jobs:
       displayName: 'Install ssh key'
 
     - script: |
-        python update.py
+        python update_serverfiles.py
+        python prepare_serverfiles.py
 
     - script: |
         git config --local user.name "jakakokosar"
