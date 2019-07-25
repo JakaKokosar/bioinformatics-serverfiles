@@ -1,17 +1,16 @@
 # A pipeline with no CI trigger
-trigger: 
-- master
+trigger: none
 
 # no PR builds
 pr: none
 
-# schedules:
-# - cron: "*/5 * * * *"
-#   displayName: test schedules every 5min
-#   always: true
-#   branches:
-#     include:
-#       - master
+schedules:
+- cron: "0 7 1/14 * *" # At 07:00 AM, every 14 days (https://cronexpressiondescriptor.azurewebsites.net/)
+  displayName: Update schedule
+  always: true
+  branches:
+    include:
+      - master
 
 jobs:
 
@@ -59,7 +58,7 @@ jobs:
         git checkout -b $(date +"%Y/%m/%d")
         git status --long --verbose
         git add .
-        git commit -m "Serverfiles update  ***NO_CI***"
+        git commit -m "Serverfiles update $(date +%Y/%m/%d)"
       displayName: 'Commit updated files'
 
     - script: |
@@ -72,3 +71,14 @@ jobs:
         and(not(eq(variables['Build.Reason'], 'PullRequest')),
            eq(variables['Build.SourceBranch'], 'refs/heads/master'))
       displayName: 'Create Pull Request'
+
+    - task: CopyFiles@2
+      condition: eq(variables['Agent.JobStatus'], 'Succeeded')
+      inputs:
+        contents: serverfiles_dump.tar.gz
+        targetFolder: $(Build.ArtifactStagingDirectory)
+
+    - task: PublishBuildArtifacts@1
+      condition: eq(variables['Agent.JobStatus'], 'Succeeded')
+      inputs:
+        pathtoPublish: $(Build.ArtifactStagingDirectory)
