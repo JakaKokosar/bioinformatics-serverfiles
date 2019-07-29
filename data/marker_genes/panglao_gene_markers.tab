@@ -7819,7 +7819,7 @@ Human	CELA2A	Acinar cells	PanglaoDB	https://panglaodb.se/	63036	chymotrypsin lik
 Human	CPB1	Acinar cells	PanglaoDB	https://panglaodb.se/	1360	carboxypeptidase B1
 Human	CELA1	Acinar cells	PanglaoDB	https://panglaodb.se/	1990	chymotrypsin like elastase 1
 Human	RNASE1	Acinar cells	PanglaoDB	https://panglaodb.se/	6035	ribonuclease A family member 1, pancreatic
-Human	AMY2B	Acinar cells	PanglaoDB	https://panglaodb.se/	280	amylase alpha 2B (pancreatic)
+Human	AMY2B	Acinar cells	PanglaoDB	https://panglaodb.se/	280	amylase alpha 2B
 Human	CPA2	Acinar cells	PanglaoDB	https://panglaodb.se/	1358	carboxypeptidase A2
 Human	CPA1	Acinar cells	PanglaoDB	https://panglaodb.se/	1357	carboxypeptidase A1
 Human	CELA3B	Acinar cells	PanglaoDB	https://panglaodb.se/	23436	chymotrypsin like elastase 3B
@@ -8133,7 +8133,7 @@ Human	PITX1	Anterior pituitary gland cells	PanglaoDB	https://panglaodb.se/	5307	
 Human	GH1	Anterior pituitary gland cells	PanglaoDB	https://panglaodb.se/	2688	growth hormone 1
 Human	TSHB	Anterior pituitary gland cells	PanglaoDB	https://panglaodb.se/	7252	thyroid stimulating hormone subunit beta
 Human	PAX7	Anterior pituitary gland cells	PanglaoDB	https://panglaodb.se/	5081	paired box 7
-Human	LHB	Anterior pituitary gland cells	PanglaoDB	https://panglaodb.se/	3972	luteinizing hormone beta polypeptide
+Human	LHB	Anterior pituitary gland cells	PanglaoDB	https://panglaodb.se/	3972	luteinizing hormone subunit beta
 Human	S100B	Astrocytes	PanglaoDB	https://panglaodb.se/	6285	S100 calcium binding protein B
 Human	SLC1A2	Astrocytes	PanglaoDB	https://panglaodb.se/	6506	solute carrier family 1 member 2
 Human	GFAP	Astrocytes	PanglaoDB	https://panglaodb.se/	2670	glial fibrillary acidic protein
@@ -9226,7 +9226,7 @@ Human	LARP1B	Distal tubule cells	PanglaoDB	https://panglaodb.se/	55132	La ribonu
 Human	CLCNKB	Distal tubule cells	PanglaoDB	https://panglaodb.se/	1188	chloride voltage-gated channel Kb
 Human	KLHL3	Distal tubule cells	PanglaoDB	https://panglaodb.se/	26249	kelch like family member 3
 Human	KLK1	Distal tubule cells	PanglaoDB	https://panglaodb.se/	3816	kallikrein 1
-Human	KCNJ1	Distal tubule cells	PanglaoDB	https://panglaodb.se/	3758	potassium voltage-gated channel subfamily J member 1
+Human	KCNJ1	Distal tubule cells	PanglaoDB	https://panglaodb.se/	3758	potassium inwardly rectifying channel subfamily J member 1
 Human	HOXD8	Distal tubule cells	PanglaoDB	https://panglaodb.se/	3234	homeobox D8
 Human	KL	Distal tubule cells	PanglaoDB	https://panglaodb.se/	9365	klotho
 Human	EGF	Distal tubule cells	PanglaoDB	https://panglaodb.se/	1950	epidermal growth factor
@@ -9236,7 +9236,7 @@ Human	DEFB1	Distal tubule cells	PanglaoDB	https://panglaodb.se/	1672	defensin be
 Human	FXYD2	Distal tubule cells	PanglaoDB	https://panglaodb.se/	486	FXYD domain containing ion transport regulator 2
 Human	USMG5	Distal tubule cells	PanglaoDB	https://panglaodb.se/	84833	ATP synthase membrane subunit DAPIT
 Human	TRHDE	Distal tubule cells	PanglaoDB	https://panglaodb.se/	29953	thyrotropin releasing hormone degrading enzyme
-Human	KCNJ16	Distal tubule cells	PanglaoDB	https://panglaodb.se/	3773	potassium voltage-gated channel subfamily J member 16
+Human	KCNJ16	Distal tubule cells	PanglaoDB	https://panglaodb.se/	3773	potassium inwardly rectifying channel subfamily J member 16
 Human	RHCG	Distal tubule cells	PanglaoDB	https://panglaodb.se/	51458	Rh family C glycoprotein
 Human	SOSTDC1	Distal tubule cells	PanglaoDB	https://panglaodb.se/	25928	sclerostin domain containing 1
 Human	SCNN1A	Distal tubule cells	PanglaoDB	https://panglaodb.se/	6337	sodium channel epithelial 1 alpha subunit
@@ -9248,7 +9248,7 @@ Human	AVPR2	Distal tubule cells	PanglaoDB	https://panglaodb.se/	554	arginine vas
 Human	TH	Dopaminergic neurons	PanglaoDB	https://panglaodb.se/	7054	tyrosine hydroxylase
 Human	SLC6A3	Dopaminergic neurons	PanglaoDB	https://panglaodb.se/	6531	solute carrier family 6 member 3
 Human	FOXA2	Dopaminergic neurons	PanglaoDB	https://panglaodb.se/	3170	forkhead box A2
-Human	KCNJ6	Dopaminergic neurons	PanglaoDB	https://panglaodb.se/	3763	potassium voltage-gated channel subfamily J member 6
+Human	KCNJ6	Dopaminergic neurons	PanglaoDB	https://panglaodb.se/	3763	potassium inwardly rectifying channel subfamily J member 6
 Human	NR4A2	Dopaminergic neurons	PanglaoDB	https://panglaodb.se/	4929	nuclear receptor subfamily 4 group A member 2
 Human	LMX1B	Dopaminergic neurons	PanglaoDB	https://panglaodb.se/	4010	LIM homeobox transcription factor 1 beta
 Human	CACNA2D2	Dopaminergic neurons	PanglaoDB	https://panglaodb.se/	9254	calcium voltage-gated channel auxiliary subunit alpha2delta 2
@@ -9505,7 +9505,7 @@ Human	EGFL7	Endothelial cells	PanglaoDB	https://panglaodb.se/	51162	EGF like dom
 Human	FLT1	Endothelial cells	PanglaoDB	https://panglaodb.se/	2321	fms related tyrosine kinase 1
 Human	EPAS1	Endothelial cells	PanglaoDB	https://panglaodb.se/	2034	endothelial PAS domain protein 1
 Human	EDNRB	Endothelial cells	PanglaoDB	https://panglaodb.se/	1910	endothelin receptor type B
-Human	KCNJ8	Endothelial cells	PanglaoDB	https://panglaodb.se/	3764	potassium voltage-gated channel subfamily J member 8
+Human	KCNJ8	Endothelial cells	PanglaoDB	https://panglaodb.se/	3764	potassium inwardly rectifying channel subfamily J member 8
 Human	CD82	Endothelial cells	PanglaoDB	https://panglaodb.se/	3732	CD82 molecule
 Human	CHST1	Endothelial cells	PanglaoDB	https://panglaodb.se/	8534	carbohydrate sulfotransferase 1
 Human	PLAC8	Endothelial cells	PanglaoDB	https://panglaodb.se/	51316	placenta associated 8
@@ -10024,7 +10024,7 @@ Human	HDC	Ependymal cells	PanglaoDB	https://panglaodb.se/	3067	histidine decarbo
 Human	PCP4L1	Ependymal cells	PanglaoDB	https://panglaodb.se/	654790	Purkinje cell protein 4 like 1
 Human	DYNLRB2	Ependymal cells	PanglaoDB	https://panglaodb.se/	83657	dynein light chain roadblock-type 2
 Human	TMEM107	Ependymal cells	PanglaoDB	https://panglaodb.se/	84314	transmembrane protein 107
-Human	RIIAD1	Ependymal cells	PanglaoDB	https://panglaodb.se/	284485	regulatory subunit of type II PKA R-subunit (RIIa) domain containing 1
+Human	RIIAD1	Ependymal cells	PanglaoDB	https://panglaodb.se/	284485	regulatory subunit of type II PKA R-subunit domain containing 1
 Human	TMEM212	Ependymal cells	PanglaoDB	https://panglaodb.se/	389177	transmembrane protein 212
 Human	RSPH1	Ependymal cells	PanglaoDB	https://panglaodb.se/	89765	radial spoke head component 1
 Human	CCDC153	Ependymal cells	PanglaoDB	https://panglaodb.se/	283152	coiled-coil domain containing 153
@@ -10772,7 +10772,7 @@ Human	COX4I2	Glomus cells	PanglaoDB	https://panglaodb.se/	84701	cytochrome c oxi
 Human	IL1R1	Glomus cells	PanglaoDB	https://panglaodb.se/	3554	interleukin 1 receptor type 1
 Human	TNFRSF1A	Glomus cells	PanglaoDB	https://panglaodb.se/	7132	TNF receptor superfamily member 1A
 Human	CTH	Glomus cells	PanglaoDB	https://panglaodb.se/	1491	cystathionine gamma-lyase
-Human	CBS	Glomus cells	PanglaoDB	https://panglaodb.se/	875	cystathionine-beta-synthase
+Human	CBS	Glomus cells	PanglaoDB	https://panglaodb.se/	875	cystathionine beta-synthase
 Human	GJA1	Glomus cells	PanglaoDB	https://panglaodb.se/	2697	gap junction protein alpha 1
 Human	KCNK3	Glomus cells	PanglaoDB	https://panglaodb.se/	3777	potassium two pore domain channel subfamily K member 3
 Human	ASIC1	Glomus cells	PanglaoDB	https://panglaodb.se/	41	acid sensing ion channel subunit 1
@@ -10786,8 +10786,8 @@ Human	GFRA2	Glomus cells	PanglaoDB	https://panglaodb.se/	2675	GDNF family recept
 Human	GAP43	Glomus cells	PanglaoDB	https://panglaodb.se/	2596	growth associated protein 43
 Human	MMP9	Glomus cells	PanglaoDB	https://panglaodb.se/	4318	matrix metallopeptidase 9
 Human	IL6ST	Glomus cells	PanglaoDB	https://panglaodb.se/	3572	interleukin 6 signal transducer
-Human	KCNJ11	Glomus cells	PanglaoDB	https://panglaodb.se/	3767	potassium voltage-gated channel subfamily J member 11
-Human	KCNJ8	Glomus cells	PanglaoDB	https://panglaodb.se/	3764	potassium voltage-gated channel subfamily J member 8
+Human	KCNJ11	Glomus cells	PanglaoDB	https://panglaodb.se/	3767	potassium inwardly rectifying channel subfamily J member 11
+Human	KCNJ8	Glomus cells	PanglaoDB	https://panglaodb.se/	3764	potassium inwardly rectifying channel subfamily J member 8
 Human	ABCC8	Glomus cells	PanglaoDB	https://panglaodb.se/	6833	ATP binding cassette subfamily C member 8
 Human	KCNK9	Glomus cells	PanglaoDB	https://panglaodb.se/	51305	potassium two pore domain channel subfamily K member 9
 Human	SLC17A7	Glutaminergic neurons	PanglaoDB	https://panglaodb.se/	57030	solute carrier family 17 member 7
@@ -12531,8 +12531,8 @@ Human	APOE	Müller cells	PanglaoDB	https://panglaodb.se/	348	apolipoprotein E
 Human	DBI	Müller cells	PanglaoDB	https://panglaodb.se/	1622	diazepam binding inhibitor, acyl-CoA binding protein
 Human	GNAI2	Müller cells	PanglaoDB	https://panglaodb.se/	2771	G protein subunit alpha i2
 Human	GPR37	Müller cells	PanglaoDB	https://panglaodb.se/	2861	G protein-coupled receptor 37
-Human	KCNJ2	Müller cells	PanglaoDB	https://panglaodb.se/	3759	potassium voltage-gated channel subfamily J member 2
-Human	KCNJ10	Müller cells	PanglaoDB	https://panglaodb.se/	3766	potassium voltage-gated channel subfamily J member 10
+Human	KCNJ2	Müller cells	PanglaoDB	https://panglaodb.se/	3759	potassium inwardly rectifying channel subfamily J member 2
+Human	KCNJ10	Müller cells	PanglaoDB	https://panglaodb.se/	3766	potassium inwardly rectifying channel subfamily J member 10
 Human	SPC25	Müller cells	PanglaoDB	https://panglaodb.se/	57405	SPC25 component of NDC80 kinetochore complex
 Human	ITM2B	Müller cells	PanglaoDB	https://panglaodb.se/	9445	integral membrane protein 2B
 Human	ATG4B	Müller cells	PanglaoDB	https://panglaodb.se/	23192	autophagy related 4B cysteine peptidase
@@ -13070,7 +13070,7 @@ Human	SNAP25	Neurons	PanglaoDB	https://panglaodb.se/	6616	synaptosome associated
 Human	VSNL1	Neurons	PanglaoDB	https://panglaodb.se/	7447	visinin like 1
 Human	PACSIN1	Neurons	PanglaoDB	https://panglaodb.se/	29993	protein kinase C and casein kinase substrate in neurons 1
 Human	CACNA2D1	Neurons	PanglaoDB	https://panglaodb.se/	781	calcium voltage-gated channel auxiliary subunit alpha2delta 1
-Human	SGIP1	Neurons	PanglaoDB	https://panglaodb.se/	84251	SH3 domain GRB2 like endophilin interacting protein 1
+Human	SGIP1	Neurons	PanglaoDB	https://panglaodb.se/	84251	SH3GL interacting endocytic adaptor 1
 Human	ATP6V0A1	Neurons	PanglaoDB	https://panglaodb.se/	535	ATPase H+ transporting V0 subunit a1
 Human	MYO5A	Neurons	PanglaoDB	https://panglaodb.se/	4644	myosin VA
 Human	DYNC1I1	Neurons	PanglaoDB	https://panglaodb.se/	1780	dynein cytoplasmic 1 intermediate chain 1
@@ -13283,9 +13283,9 @@ Human	MAPK8IP2	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	23542	
 Human	EBF3	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	253738	EBF transcription factor 3
 Human	MAPK15	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	225689	mitogen-activated protein kinase 15
 Human	CNGA4	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	1262	cyclic nucleotide gated channel subunit alpha 4
-Human	KIF1BP	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	26128	KIF1 binding protein
+Human	KIF1BP	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	26128	kinesin family binding protein
 Human	EML2	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	24139	EMAP like 2
-Human	RIIAD1	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	284485	regulatory subunit of type II PKA R-subunit (RIIa) domain containing 1
+Human	RIIAD1	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	284485	regulatory subunit of type II PKA R-subunit domain containing 1
 Human	CCDC184	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	387856	coiled-coil domain containing 184
 Human	MACROD1	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	28992	mono-ADP ribosylhydrolase 1
 Human	RNF220	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	55182	ring finger protein 220
@@ -13721,7 +13721,7 @@ Human	ACTA2	Pericytes	PanglaoDB	https://panglaodb.se/	59	actin alpha 2, smooth m
 Human	DES	Pericytes	PanglaoDB	https://panglaodb.se/	1674	desmin
 Human	RGS5	Pericytes	PanglaoDB	https://panglaodb.se/	8490	regulator of G protein signaling 5
 Human	ABCC9	Pericytes	PanglaoDB	https://panglaodb.se/	10060	ATP binding cassette subfamily C member 9
-Human	KCNJ8	Pericytes	PanglaoDB	https://panglaodb.se/	3764	potassium voltage-gated channel subfamily J member 8
+Human	KCNJ8	Pericytes	PanglaoDB	https://panglaodb.se/	3764	potassium inwardly rectifying channel subfamily J member 8
 Human	CD248	Pericytes	PanglaoDB	https://panglaodb.se/	57124	CD248 molecule
 Human	DLK1	Pericytes	PanglaoDB	https://panglaodb.se/	8788	delta like non-canonical Notch ligand 1
 Human	TEK	Pericytes	PanglaoDB	https://panglaodb.se/	7010	TEK receptor tyrosine kinase
@@ -14264,7 +14264,7 @@ Human	CDKN1C	Podocytes	PanglaoDB	https://panglaodb.se/	1028	cyclin dependent kin
 Human	AQP2	Principal cells	PanglaoDB	https://panglaodb.se/	359	aquaporin 2
 Human	SCNN1A	Principal cells	PanglaoDB	https://panglaodb.se/	6337	sodium channel epithelial 1 alpha subunit
 Human	AQP3	Principal cells	PanglaoDB	https://panglaodb.se/	360	aquaporin 3 (Gill blood group)
-Human	KCNJ1	Principal cells	PanglaoDB	https://panglaodb.se/	3758	potassium voltage-gated channel subfamily J member 1
+Human	KCNJ1	Principal cells	PanglaoDB	https://panglaodb.se/	3758	potassium inwardly rectifying channel subfamily J member 1
 Human	AVPR2	Principal cells	PanglaoDB	https://panglaodb.se/	554	arginine vasopressin receptor 2
 Human	SCNN1G	Principal cells	PanglaoDB	https://panglaodb.se/	6340	sodium channel epithelial 1 gamma subunit
 Human	HSD11B2	Principal cells	PanglaoDB	https://panglaodb.se/	3291	hydroxysteroid 11-beta dehydrogenase 2
@@ -14566,7 +14566,7 @@ Human	EMX2	Radial glia cells	PanglaoDB	https://panglaodb.se/	2018	empty spiracle
 Human	CDH4	Radial glia cells	PanglaoDB	https://panglaodb.se/	1002	cadherin 4
 Human	SPRY1	Radial glia cells	PanglaoDB	https://panglaodb.se/	10252	sprouty RTK signaling antagonist 1
 Human	AXIN2	Radial glia cells	PanglaoDB	https://panglaodb.se/	8313	axin 2
-Human	RIIAD1	Radial glia cells	PanglaoDB	https://panglaodb.se/	284485	regulatory subunit of type II PKA R-subunit (RIIa) domain containing 1
+Human	RIIAD1	Radial glia cells	PanglaoDB	https://panglaodb.se/	284485	regulatory subunit of type II PKA R-subunit domain containing 1
 Human	HMOX1	Red pulp macrophages	PanglaoDB	https://panglaodb.se/	3162	heme oxygenase 1
 Human	TREML4	Red pulp macrophages	PanglaoDB	https://panglaodb.se/	285852	triggering receptor expressed on myeloid cells like 4
 Human	CD86	Red pulp macrophages	PanglaoDB	https://panglaodb.se/	942	CD86 molecule
@@ -14734,7 +14734,7 @@ Human	PTGDS	Satellite glial cells	PanglaoDB	https://panglaodb.se/	5730	prostagla
 Human	SOX2	Satellite glial cells	PanglaoDB	https://panglaodb.se/	6657	SRY-box transcription factor 2
 Human	CDH1	Satellite glial cells	PanglaoDB	https://panglaodb.se/	999	cadherin 1
 Human	CXCL8	Satellite glial cells	PanglaoDB	https://panglaodb.se/	3576	C-X-C motif chemokine ligand 8
-Human	KCNJ10	Satellite glial cells	PanglaoDB	https://panglaodb.se/	3766	potassium voltage-gated channel subfamily J member 10
+Human	KCNJ10	Satellite glial cells	PanglaoDB	https://panglaodb.se/	3766	potassium inwardly rectifying channel subfamily J member 10
 Human	AQP4	Satellite glial cells	PanglaoDB	https://panglaodb.se/	361	aquaporin 4
 Human	CNGA3	Satellite glial cells	PanglaoDB	https://panglaodb.se/	1261	cyclic nucleotide gated channel subunit alpha 3
 Human	TLR4	Satellite glial cells	PanglaoDB	https://panglaodb.se/	7099	toll like receptor 4
