@@ -1,4 +1,104 @@
 tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
+4536	2885880	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885881	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885881	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885882	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885883	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885884	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885885	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885886	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885886	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885887	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885887	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885888	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885888	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885889	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885891	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885892	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885892	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885893	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885893	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885895	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885896	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885896	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885897	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885898	GO:0005739	RCA	-	mitochondrion	-	Component
+4536	2885898	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885899	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885900	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885901	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885901	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885902	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885902	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885903	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885904	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885905	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885906	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885906	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885907	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885908	GO:0005739	RCA	-	mitochondrion	-	Component
+4536	2885908	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885909	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885910	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885910	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885911	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885911	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885912	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885912	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885913	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885913	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885914	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885915	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885916	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885917	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885918	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885919	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885919	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885920	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885921	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885921	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885922	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885923	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885924	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885925	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885925	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885926	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885927	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885927	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885928	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885930	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885931	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885932	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885937	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885938	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885938	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885939	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885941	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885942	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885943	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885944	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885945	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885947	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885949	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885950	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885951	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885952	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885952	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885953	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885954	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885955	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885956	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885956	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	2885957	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885958	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885960	GO:0005739	RCA	-	mitochondrion	-	Component
+4536	2885960	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885961	GO:0005739	RCA	-	mitochondrion	-	Component
+4536	2885961	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885962	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885963	GO:0009536	IC	-	plastid	12520024	Component
+4536	2885963	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
+4536	3276630	GO:0009536	IC	-	plastid	12520024	Component
 39946	3950675	GO:0005739	IC	-	mitochondrion	12520024	Component
 39946	3950679	GO:0005739	IC	-	mitochondrion	12520024	Component
 39946	3950679	GO:0016020	RCA	-	membrane	-	Component
