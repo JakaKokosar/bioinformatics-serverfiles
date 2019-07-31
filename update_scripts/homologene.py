@@ -43,17 +43,18 @@ def homologene(file_path: str, history: Dict[Tuple[str, str], str]):
         # Note: if '-' -> discontinued
         #       if 'some id' -> new entrez id
         #       if None -> valid entrez id
-        gene_id_status = history.get((columns[tax_id], columns[entrez_id]), None)
+        gene_id_history = history.get((columns[tax_id], columns[entrez_id]), None)
 
         if not columns[tax_id] in common_tax_ids:
             continue
-        elif gene_id_status == '-':
+        elif gene_id_history == '-':
             continue
 
-        if gene_id_status is None:
+        if gene_id_history is None:
             gene_id = columns[entrez_id]
         else:
-            gene_id = gene_id_status
+            continue
+            # gene_id = gene_id_status
 
         homologs_out.append([columns[group_id], columns[tax_id], gene_id])
 
