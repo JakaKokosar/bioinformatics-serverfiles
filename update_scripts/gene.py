@@ -63,7 +63,23 @@ def parse_db_refs(value: str) -> dict:
     return out_dict
 
 
+def load_homologs():
+    file_name = 'homologene.tab'
+
+    with open(f'data/homologene/{file_name}', 'r') as fp:
+        _homologs = {l[2]: tuple(l) for l in [line.strip().split('\t') for line in fp.readlines()]}
+        _homologs_by_group = defaultdict(list)
+
+        for _, (hid, tax, gid) in _homologs.items():
+            _homologs_by_group[hid].append((hid, tax, gid))
+
+    return _homologs, _homologs_by_group
+
+
 def gene_info_to_dict(gene_data: tuple):
+    homology_group = homologs.get(str(gene_data[gene_id]), [None])[0]
+    homolog_genes = {tax: gid for (_, tax, gid) in homologs_by_group.get(homology_group, [])
+                     if homology_group and tax != gene_data[tax_id]}
     return {
         'species': common_taxid_to_name(to_species[gene_data[tax_id]]),
         'tax_id': gene_data[tax_id],
@@ -87,6 +103,8 @@ def gene_info_to_dict(gene_data: tuple):
         'nomenclature_status': gene_data[nomenclature_status] if gene_data[nomenclature_status] != '-' else None,
         'other_designations': pipe_delimited_to_list(gene_data[other_designations]),
         'modification_date': gene_data[modification_date],
+        'homology_group_id': homology_group,
+        'homologs': homolog_genes
     }
 
 
@@ -120,6 +138,7 @@ if __name__ == "__main__":
     to_species = {tax: taxonomy_db.get_species(tax) for strains in supported_taxonomies for tax in strains}
 
     gene_info = load_gene_info(sys.argv[1])
+    homologs, homologs_by_group = load_homologs()
 
     for tax in common_taxids():
         to_json(tax)
