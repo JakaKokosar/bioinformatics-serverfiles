@@ -47,12 +47,12 @@ def go_gene_sets(tax_id: str) -> None:
         gs_group.to_gmt_file_format(f'{data_path}/gene_sets/{filename(hierarchy, tax_id)}')
 
 
-def dicty_mutant_gene_sets(org):
+def dicty_mutant_gene_sets(tax_id: str):
     """ Return dicty mutant phenotype gene sets from Dictybase
     """
-    if org == '352472':
+    if tax_id == '44689':
         gene_sets = []
-        gene_matcher = GeneMatcher('352472')
+        gene_matcher = GeneMatcher('44689')
 
         for phenotype, mutants in phenotypes.phenotype_mutants().items():
             phenotype = phenotype.replace(",", " ")
@@ -64,19 +64,18 @@ def dicty_mutant_gene_sets(org):
                 if gene.gene_id is not None:
                     genes.add(str(gene.gene_id))
 
-            if len(gene_symbols) != len(genes):
-                print(len(gene_symbols), len(genes))
-
             gs = GeneSet(gs_id=phenotype,
                          name=phenotype,
                          genes=genes,
                          hierarchy=('Dictybase', 'Phenotypes'),
-                         organism='352472',
+                         organism=tax_id,
                          link='')
 
             gene_sets.append(gs)
 
-        return GeneSets(gene_sets)
+        for gs_group in GeneSets(gene_sets).split_by_hierarchy():
+            hierarchy = gs_group.common_hierarchy()
+            gs_group.to_gmt_file_format(f'{data_path}/gene_sets/{filename(hierarchy, tax_id)}')
 
 
 def kegg_gene_sets(tax_id: str) -> None:
@@ -193,17 +192,17 @@ def reactome_gene_sets(tax_id: str) -> None:
 if __name__ == "__main__":
 
     for common_tax_id in taxonomy.common_taxids():
-        reactome_gene_sets(common_tax_id)
-        cytoband_gene_sets(common_tax_id)
-        # dicty_mutant_gene_sets(common_tax_id) TODO: re-enable this after orange3-bioinformatics release
+        # reactome_gene_sets(common_tax_id)
+        # cytoband_gene_sets(common_tax_id)
+        dicty_mutant_gene_sets(common_tax_id) # TODO: re-enable this after orange3-bioinformatics release
 
-        try:
-            kegg_gene_sets(common_tax_id)
-        except taxonomy.utils.UnknownSpeciesIdentifier as e:
-            # KEGG organism code not found
-            pass
-        try:
-            go_gene_sets(common_tax_id)
-        except FileNotFoundError as e:
-            # Organism is not supported in Gene Ontology module
-            pass
+        # try:
+        #     kegg_gene_sets(common_tax_id)
+        # except taxonomy.utils.UnknownSpeciesIdentifier as e:
+        #     # KEGG organism code not found
+        #     pass
+        # try:
+        #     go_gene_sets(common_tax_id)
+        # except FileNotFoundError as e:
+        #     # Organism is not supported in Gene Ontology module
+        #     pass

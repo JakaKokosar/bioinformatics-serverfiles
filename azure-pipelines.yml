@@ -34,7 +34,7 @@ jobs:
 
     - script: |
         brew install hub
-        python -m pip install --upgrade pip pyqt5 orange3 plumbum serverfiles sqlite_utils https://github.com/jakakokosar/orange3-bioinformatics/archive/overhaul_gene_module.zip
+        python -m pip install --upgrade pip pyqt5 orange3 plumbum serverfiles sqlite_utils https://github.com/jakakokosar/orange3-bioinformatics/archive/master.zip
       displayName: 'Install requirements'
 
     - task: DownloadSecureFile@1
