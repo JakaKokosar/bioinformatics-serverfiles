@@ -1,13 +1,14 @@
 """ Gene sets update script """
 import os
 import io
-import tempfile
+
 from zipfile import ZipFile
 from typing import Optional
 from urllib.request import urlopen
+from collections import defaultdict
 
+from Orange.data import Table
 from orangecontrib.bioinformatics import go, kegg
-from orangecontrib.bioinformatics.omim import OMIM, diseases, disease_genes
 from orangecontrib.bioinformatics.dicty import phenotypes
 from orangecontrib.bioinformatics.kegg import caching
 from orangecontrib.bioinformatics.ncbi import taxonomy
@@ -189,20 +190,55 @@ def reactome_gene_sets(tax_id: str) -> None:
             gs_group.to_gmt_file_format(f'{data_path}/gene_sets/{filename(hierarchy, tax_id)}')
 
 
+def gene_marker_sets():
+    file_names = ['panglao_gene_markers.tab', 'cellMarker_gene_markers.tab']
+    file_name_to_hier = {'panglao_gene_markers.tab': 'Panglao', 'cellMarker_gene_markers.tab': 'CellMarker'}
+
+    for file_name in file_names:
+        file_path = f'{data_path}/marker_genes/{file_name}'
+
+        sets_by_org = {'9606': defaultdict(list), '10090': defaultdict(list)}
+        name_to_tax = {'Human': '9606', 'Mouse': '10090'}
+
+        for row in Table(file_path):
+            tax_id = name_to_tax[row['Organism']]
+            cell_type = row['Cell Type']
+            gene_id = row['Entrez ID']
+            sets_by_org[tax_id][cell_type].append(gene_id)
+
+        for tax_id, cell_types in sets_by_org.items():
+            gene_sets = []
+
+            for cell_type, genes in cell_types.items():
+                gs = GeneSet(gs_id=str(cell_type),
+                             name=str(cell_type),
+                             genes=set([str(gene) for gene in genes if gene != '?']),
+                             hierarchy=('Marker Genes', file_name_to_hier[file_name]),
+                             organism=tax_id,
+                             link='')
+
+                gene_sets.append(gs)
+
+            for gs_group in GeneSets(gene_sets).split_by_hierarchy():
+                hierarchy = gs_group.common_hierarchy()
+                gs_group.to_gmt_file_format(f'{data_path}/gene_sets/{filename(hierarchy, tax_id)}')
+
+
 if __name__ == "__main__":
-
     for common_tax_id in taxonomy.common_taxids():
-        # reactome_gene_sets(common_tax_id)
-        # cytoband_gene_sets(common_tax_id)
-        dicty_mutant_gene_sets(common_tax_id) # TODO: re-enable this after orange3-bioinformatics release
+        reactome_gene_sets(common_tax_id)
+        cytoband_gene_sets(common_tax_id)
+        dicty_mutant_gene_sets(common_tax_id)
 
-        # try:
-        #     kegg_gene_sets(common_tax_id)
-        # except taxonomy.utils.UnknownSpeciesIdentifier as e:
-        #     # KEGG organism code not found
-        #     pass
-        # try:
-        #     go_gene_sets(common_tax_id)
-        # except FileNotFoundError as e:
-        #     # Organism is not supported in Gene Ontology module
-        #     pass
+        try:
+            kegg_gene_sets(common_tax_id)
+        except taxonomy.utils.UnknownSpeciesIdentifier as e:
+            # KEGG organism code not found
+            pass
+        try:
+            go_gene_sets(common_tax_id)
+        except FileNotFoundError as e:
+            # Organism is not supported in Gene Ontology module
+            pass
+
+    gene_marker_sets()

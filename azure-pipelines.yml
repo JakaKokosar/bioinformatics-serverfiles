@@ -1,6 +1,5 @@
 schedules:
-# - cron: "0 7 1/14 * *" # At 07:00 AM, every 14 days (https://cronexpressiondescriptor.azurewebsites.net/)
-- cron: '0 4 * * *'
+- cron: "0 7 1/14 * *" # At 07:00 AM, every 14 days (https://cronexpressiondescriptor.azurewebsites.net/)
   displayName: Update schedule
   always: true
   branches:
@@ -8,7 +7,8 @@ schedules:
      - master
 
 # no CI trigger
-trigger: none
+trigger:
+  - master
 
 # no PR builds
 pr: none
