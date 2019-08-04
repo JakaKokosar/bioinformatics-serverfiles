@@ -1,5 +1,6 @@
 schedules:
-- cron: "0 7 1/14 * *" # At 07:00 AM, every 14 days (https://cronexpressiondescriptor.azurewebsites.net/)
+# - cron: "0 7 1/14 * *" # At 07:00 AM, every 14 days (https://cronexpressiondescriptor.azurewebsites.net/)
+- corn:  "0 12 * * *"
   displayName: Update schedule
   always: true
   branches:
