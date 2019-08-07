@@ -15,6 +15,7 @@ pr: none
 
 jobs:
 
+
 - job: update_serverfiles
   pool:
     vmImage: 'macOS-10.14'
