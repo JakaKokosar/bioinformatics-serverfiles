@@ -15,7 +15,7 @@ pr: none
 
 jobs:
 
-- job: serverfiles_update
+- job: knowledge_base_update
   pool:
     vmImage: 'macOS-10.14'
   strategy:
@@ -51,7 +51,6 @@ jobs:
 
     - script: |
         python update_serverfiles.py
-        python prepare_serverfiles.py
 
     - script: |
         git config --local user.name "jakakokosar"
@@ -71,14 +70,3 @@ jobs:
         and(not(eq(variables['Build.Reason'], 'PullRequest')),
            eq(variables['Build.SourceBranch'], 'refs/heads/master'))
       displayName: 'Create Pull Request'
-
-    - task: CopyFiles@2
-      condition: eq(variables['Agent.JobStatus'], 'Succeeded')
-      inputs:
-        contents: serverfiles_dump.tar.gz
-        targetFolder: $(Build.ArtifactStagingDirectory)
-
-    - task: PublishBuildArtifacts@1
-      condition: eq(variables['Agent.JobStatus'], 'Succeeded')
-      inputs:
-        pathtoPublish: $(Build.ArtifactStagingDirectory)
