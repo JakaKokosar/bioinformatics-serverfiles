@@ -6,7 +6,7 @@ pr: none
 
 jobs:
 
-- job: serverfiles_update
+- job: prepare_serverfiles
   pool:
     vmImage: 'macOS-10.14'
   strategy:
@@ -24,8 +24,7 @@ jobs:
       displayName: 'Install build tools'
 
     - script: |
-        brew install hub
-        python -m pip install --upgrade pip pyqt5 orange3 plumbum serverfiles sqlite_utils https://github.com/jakakokosar/orange3-bioinformatics/archive/master.zip
+        python -m pip install --upgrade pip pyqt5 orange3 requests
       displayName: 'Install requirements'
 
     - script: |
@@ -42,3 +41,6 @@ jobs:
       condition: eq(variables['Agent.JobStatus'], 'Succeeded')
       inputs:
         pathtoPublish: $(Build.ArtifactStagingDirectory)
+
+    - script: |
+        python handle_serverfiles_drop.py $(service.biolab.token) $(Build.BuildId)

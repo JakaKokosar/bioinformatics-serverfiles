@@ -1,6 +1,6 @@
 schedules:
 # - cron: "0 7 1/14 * *" # At 07:00 AM, every 14 days (https://cronexpressiondescriptor.azurewebsites.net/)
-- cron: '0 7 * * *'
+- cron: '0 14 * * *'
   displayName: Update schedule
   always: true
   branches:
@@ -15,7 +15,8 @@ pr: none
 
 jobs:
 
-- job: knowledge_base_update
+
+- job: update_serverfiles
   pool:
     vmImage: 'macOS-10.14'
   strategy:
