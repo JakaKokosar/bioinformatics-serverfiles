@@ -1,7 +1,7 @@
 schedules:
 # - cron: "0 7 1/14 * *" # At 07:00 AM, every 14 days (https://cronexpressiondescriptor.azurewebsites.net/)
-- cron: '15 * * * *'
-  displayName: Update schedule
+- cron: '0 10 * * *'
+  displayName: 10:00 AM (UTC + 1:00) daily build
   always: true
   branches:
     include:
