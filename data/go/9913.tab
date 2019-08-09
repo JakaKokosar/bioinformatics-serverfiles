@@ -36728,6 +36728,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	540554	GO:0043368	ISS	-	positive T cell selection	-	Process
 9913	540554	GO:0043383	ISS	-	negative T cell selection	-	Process
 9913	540554	GO:0050852	ISS	-	T cell receptor signaling pathway	-	Process
+9913	540559	GO:0004364	IEA	-	glutathione transferase activity	-	Function
+9913	540559	GO:0008270	IEA	-	zinc ion binding	-	Function
+9913	540559	GO:0017124	IEA	-	SH3 domain binding	-	Function
+9913	540559	GO:0043295	IEA	-	glutathione binding	-	Function
+9913	540559	GO:0043523	IEA	-	regulation of neuron apoptotic process	-	Process
+9913	540559	GO:0050750	IEA	-	low-density lipoprotein particle receptor binding	-	Function
+9913	540559	GO:1903203	IEA	-	regulation of oxidative stress-induced neuron death	-	Process
 9913	540564	GO:0003684	IEA	-	damaged DNA binding	-	Function
 9913	540564	GO:0005815	IEA	-	microtubule organizing center	-	Component
 9913	540564	GO:0006289	IEA	-	nucleotide-excision repair	-	Process
