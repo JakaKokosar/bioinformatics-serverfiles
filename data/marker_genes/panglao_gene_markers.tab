@@ -264,7 +264,7 @@ Mouse	LOXL4	Alpha cells	PanglaoDB	https://panglaodb.se/	67573	lysyl oxidase-like
 Mouse	PLCE1	Alpha cells	PanglaoDB	https://panglaodb.se/	74055	phospholipase C, epsilon 1
 Mouse	GC	Alpha cells	PanglaoDB	https://panglaodb.se/	14473	vitamin D binding protein
 Mouse	KLHL41	Alpha cells	PanglaoDB	https://panglaodb.se/	228003	kelch-like 41
-Mouse	FEV	Alpha cells	PanglaoDB	https://panglaodb.se/	260298	FEV (ETS oncogene family)
+Mouse	FEV	Alpha cells	PanglaoDB	https://panglaodb.se/	260298	FEV transcription factor, ETS family member
 Mouse	PTGER3	Alpha cells	PanglaoDB	https://panglaodb.se/	19218	prostaglandin E receptor 3 (subtype EP3)
 Mouse	RFX6	Alpha cells	PanglaoDB	https://panglaodb.se/	320995	regulatory factor X, 6
 Mouse	SMARCA1	Alpha cells	PanglaoDB	https://panglaodb.se/	93761	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 1
@@ -716,8 +716,8 @@ Mouse	FBXO9	Basophils	PanglaoDB	https://panglaodb.se/	71538	f-box protein 9
 Mouse	GABBR1	Basophils	PanglaoDB	https://panglaodb.se/	54393	gamma-aminobutyric acid (GABA) B receptor, 1
 Mouse	GPR183	Basophils	PanglaoDB	https://panglaodb.se/	321019	G protein-coupled receptor 183
 Mouse	HGF	Basophils	PanglaoDB	https://panglaodb.se/	15234	hepatocyte growth factor
-Mouse	HIST1H1D	Basophils	PanglaoDB	https://panglaodb.se/	14957	histone cluster 1, H1d
-Mouse	HIST1H2AC	Basophils	PanglaoDB	https://panglaodb.se/	319164	histone cluster 1, H2ac
+Mouse	HIST1H1D	Basophils	PanglaoDB	https://panglaodb.se/	14957	H1.3 linker histone, cluster member
+Mouse	HIST1H2AC	Basophils	PanglaoDB	https://panglaodb.se/	319164	H2A clustered histone 6
 Mouse	IFITM1	Basophils	PanglaoDB	https://panglaodb.se/	68713	interferon induced transmembrane protein 1
 Mouse	INF2	Basophils	PanglaoDB	https://panglaodb.se/	70435	inverted formin, FH2 and WH2 domain containing
 Mouse	JAZF1	Basophils	PanglaoDB	https://panglaodb.se/	231986	JAZF zinc finger 1
@@ -1373,7 +1373,7 @@ Mouse	RNASE6	Dendritic cells	PanglaoDB	https://panglaodb.se/	78416	ribonuclease,
 Mouse	PLAC8	Dendritic cells	PanglaoDB	https://panglaodb.se/	231507	placenta-specific 8
 Mouse	IFITM6	Dendritic cells	PanglaoDB	https://panglaodb.se/	213002	interferon induced transmembrane protein 6
 Mouse	EAR2	Dendritic cells	PanglaoDB	https://panglaodb.se/	13587	eosinophil-associated, ribonuclease A family, member 2
-Mouse	H2AFY	Dendritic cells	PanglaoDB	https://panglaodb.se/	26914	H2A histone family, member Y
+Mouse	H2AFY	Dendritic cells	PanglaoDB	https://panglaodb.se/	26914	macroH2A.1 histone
 Mouse	SLC11A1	Dendritic cells	PanglaoDB	https://panglaodb.se/	18173	solute carrier family 11 (proton-coupled divalent metal ion transporters), member 1
 Mouse	PDPN	Dendritic cells	PanglaoDB	https://panglaodb.se/	14726	podoplanin
 Mouse	S100B	Dendritic cells	PanglaoDB	https://panglaodb.se/	20203	S100 protein, beta polypeptide, neural
@@ -2890,7 +2890,7 @@ Mouse	CCDC91	Germ cells	PanglaoDB	https://panglaodb.se/	67015	coiled-coil domain
 Mouse	SPATA3	Germ cells	PanglaoDB	https://panglaodb.se/	70060	spermatogenesis associated 3
 Mouse	LRRC46	Germ cells	PanglaoDB	https://panglaodb.se/	69297	leucine rich repeat containing 46
 Mouse	PDCL2	Germ cells	PanglaoDB	https://panglaodb.se/	79455	phosducin-like 2
-Mouse	H1FNT	Germ cells	PanglaoDB	https://panglaodb.se/	70069	H1 histone family, member N, testis-specific
+Mouse	H1FNT	Germ cells	PanglaoDB	https://panglaodb.se/	70069	H1.7 linker histone
 Mouse	TSSK6	Germ cells	PanglaoDB	https://panglaodb.se/	83984	testis-specific serine kinase 6
 Mouse	COX8C	Germ cells	PanglaoDB	https://panglaodb.se/	75483	cytochrome c oxidase subunit 8C
 Mouse	CETN1	Germ cells	PanglaoDB	https://panglaodb.se/	26369	centrin 1
@@ -5590,7 +5590,7 @@ Mouse	HOMER2	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	26557	ho
 Mouse	CKMT1	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	12716	creatine kinase, mitochondrial 1, ubiquitous
 Mouse	MYCBP	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	56309	MYC binding protein
 Mouse	RD3	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	74023	retinal degeneration 3
-Mouse	HIST2H2BE	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	319190	histone cluster 2, H2be
+Mouse	HIST2H2BE	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	319190	H2B clustered histone 21
 Mouse	SCN9A	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	20274	sodium channel, voltage-gated, type IX, alpha
 Mouse	ABHD16A	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	193742	abhydrolase domain containing 16A
 Mouse	IMPDH1	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	23917	inosine monophosphate dehydrogenase 1
@@ -6168,8 +6168,8 @@ Mouse	DENND5B	Plasma cells	PanglaoDB	https://panglaodb.se/	320560	DENN/MADD doma
 Mouse	EAF2	Plasma cells	PanglaoDB	https://panglaodb.se/	106389	ELL associated factor 2
 Mouse	GNG7	Plasma cells	PanglaoDB	https://panglaodb.se/	14708	guanine nucleotide binding protein (G protein), gamma 7
 Mouse	GPR25	Plasma cells	PanglaoDB	https://panglaodb.se/	383563	G protein-coupled receptor 25
-Mouse	HIST1H2AE	Plasma cells	PanglaoDB	https://panglaodb.se/	319166	histone cluster 1, H2ae
-Mouse	HIST1H2BG	Plasma cells	PanglaoDB	https://panglaodb.se/	319181	histone cluster 1, H2bg
+Mouse	HIST1H2AE	Plasma cells	PanglaoDB	https://panglaodb.se/	319166	H2A clustered histone 8
+Mouse	HIST1H2BG	Plasma cells	PanglaoDB	https://panglaodb.se/	319181	H2B clustered histone 8
 Mouse	IGHD	Plasma cells	PanglaoDB	https://panglaodb.se/	380797	immunoglobulin heavy constant delta
 Mouse	IGHE	Plasma cells	PanglaoDB	https://panglaodb.se/	380792	Immunoglobulin heavy constant epsilon
 Mouse	IGHM	Plasma cells	PanglaoDB	https://panglaodb.se/	16019	immunoglobulin heavy constant mu
@@ -6327,7 +6327,7 @@ Mouse	PTGS1	Platelets	PanglaoDB	https://panglaodb.se/	19224	prostaglandin-endope
 Mouse	GNG11	Platelets	PanglaoDB	https://panglaodb.se/	66066	guanine nucleotide binding protein (G protein), gamma 11
 Mouse	GRAP2	Platelets	PanglaoDB	https://panglaodb.se/	17444	GRB2-related adaptor protein 2
 Mouse	CTSA	Platelets	PanglaoDB	https://panglaodb.se/	19025	cathepsin A
-Mouse	HIST1H3H	Platelets	PanglaoDB	https://panglaodb.se/	319152	histone cluster 1, H3h
+Mouse	HIST1H3H	Platelets	PanglaoDB	https://panglaodb.se/	319152	H3 clustered histone 10
 Mouse	WIPF1	Platelets	PanglaoDB	https://panglaodb.se/	215280	WAS/WASL interacting protein family, member 1
 Mouse	ARHGDIB	Platelets	PanglaoDB	https://panglaodb.se/	11857	Rho, GDP dissociation inhibitor (GDI) beta
 Mouse	CDKN2D	Platelets	PanglaoDB	https://panglaodb.se/	12581	cyclin dependent kinase inhibitor 2D
@@ -6336,7 +6336,7 @@ Mouse	PDZK1IP1	Platelets	PanglaoDB	https://panglaodb.se/	67182	PDZK1 interacting
 Mouse	AGPAT1	Platelets	PanglaoDB	https://panglaodb.se/	55979	1-acylglycerol-3-phosphate O-acyltransferase 1 (lysophosphatidic acid acyltransferase, alpha)
 Mouse	SMOX	Platelets	PanglaoDB	https://panglaodb.se/	228608	spermine oxidase
 Mouse	SRGN	Platelets	PanglaoDB	https://panglaodb.se/	19073	serglycin
-Mouse	HIST1H2BK	Platelets	PanglaoDB	https://panglaodb.se/	319184	histone cluster 1, H2bk
+Mouse	HIST1H2BK	Platelets	PanglaoDB	https://panglaodb.se/	319184	H2B clustered histone 12
 Mouse	SH3BGRL2	Platelets	PanglaoDB	https://panglaodb.se/	212531	SH3 domain binding glutamic acid-rich protein like 2
 Mouse	ATP2A3	Platelets	PanglaoDB	https://panglaodb.se/	53313	ATPase, Ca++ transporting, ubiquitous
 Mouse	ALDH2	Platelets	PanglaoDB	https://panglaodb.se/	11669	aldehyde dehydrogenase 2, mitochondrial
@@ -6347,7 +6347,7 @@ Mouse	FHL1	Platelets	PanglaoDB	https://panglaodb.se/	14199	four and a half LIM d
 Mouse	VWF	Platelets	PanglaoDB	https://panglaodb.se/	22371	Von Willebrand factor
 Mouse	LAPTM5	Platelets	PanglaoDB	https://panglaodb.se/	16792	lysosomal-associated protein transmembrane 5
 Mouse	RASGRP2	Platelets	PanglaoDB	https://panglaodb.se/	19395	RAS, guanyl releasing protein 2
-Mouse	HIST1H2BC	Platelets	PanglaoDB	https://panglaodb.se/	68024	histone cluster 1, H2bc
+Mouse	HIST1H2BC	Platelets	PanglaoDB	https://panglaodb.se/	68024	H2B clustered histone 4
 Mouse	SLC2A3	Platelets	PanglaoDB	https://panglaodb.se/	20527	solute carrier family 2 (facilitated glucose transporter), member 3
 Mouse	ARHGAP10	Platelets	PanglaoDB	https://panglaodb.se/	78514	Rho GTPase activating protein 10
 Mouse	TREML2	Platelets	PanglaoDB	https://panglaodb.se/	328833	triggering receptor expressed on myeloid cells-like 2
@@ -7073,7 +7073,7 @@ Mouse	MUC1	Sebocytes	PanglaoDB	https://panglaodb.se/	17829	mucin 1, transmembran
 Mouse	HRH1	Sebocytes	PanglaoDB	https://panglaodb.se/	15465	histamine receptor H1
 Mouse	TPH1	Serotonergic neurons	PanglaoDB	https://panglaodb.se/	21990	tryptophan hydroxylase 1
 Mouse	SLC6A4	Serotonergic neurons	PanglaoDB	https://panglaodb.se/	15567	solute carrier family 6 (neurotransmitter transporter, serotonin), member 4
-Mouse	FEV	Serotonergic neurons	PanglaoDB	https://panglaodb.se/	260298	FEV (ETS oncogene family)
+Mouse	FEV	Serotonergic neurons	PanglaoDB	https://panglaodb.se/	260298	FEV transcription factor, ETS family member
 Mouse	TPH2	Serotonergic neurons	PanglaoDB	https://panglaodb.se/	216343	tryptophan hydroxylase 2
 Mouse	DDC	Serotonergic neurons	PanglaoDB	https://panglaodb.se/	13195	dopa decarboxylase
 Mouse	SLC18A2	Serotonergic neurons	PanglaoDB	https://panglaodb.se/	214084	solute carrier family 18 (vesicular monoamine), member 2
@@ -10677,7 +10677,7 @@ Human	GTSF1	Germ cells	PanglaoDB	https://panglaodb.se/	121355	gametocyte specifi
 Human	PPP3R2	Germ cells	PanglaoDB	https://panglaodb.se/	5535	protein phosphatase 3 regulatory subunit B, beta
 Human	TPPP2	Germ cells	PanglaoDB	https://panglaodb.se/	122664	tubulin polymerization promoting protein family member 2
 Human	LELP1	Germ cells	PanglaoDB	https://panglaodb.se/	149018	late cornified envelope like proline rich 1
-Human	SPERT	Germ cells	PanglaoDB	https://panglaodb.se/	220082	spermatid associated
+Human	SPERT	Germ cells	PanglaoDB	https://panglaodb.se/	220082	chibby family member 2
 Human	CATSPERZ	Germ cells	PanglaoDB	https://panglaodb.se/	25858	catsper channel auxiliary subunit zeta
 Human	MAEL	Germ cells	PanglaoDB	https://panglaodb.se/	84944	maelstrom spermatogenic transposon silencer
 Human	PGAM2	Germ cells	PanglaoDB	https://panglaodb.se/	5224	phosphoglycerate mutase 2
