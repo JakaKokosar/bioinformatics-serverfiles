@@ -15,7 +15,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20190727",
+    "modification_date": "20190810",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -57242,7 +57242,7 @@
     "other_designations": [
       "merozoite surface protein 2"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20190810",
     "homology_group_id": null,
     "homologs": {}
   },
