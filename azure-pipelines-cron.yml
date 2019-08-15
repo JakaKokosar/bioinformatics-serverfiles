@@ -1,6 +1,5 @@
 schedules:
 - cron: '0 7 1/14 * *' # At 07:00 AM, every 14 days (https://cronexpressiondescriptor.azurewebsites.net/)
-  displayName: 14:00 PM daily build
   always: true
   branches:
     include:
@@ -13,7 +12,6 @@ trigger: none
 pr: none
 
 jobs:
-
 
 - job: update_serverfiles
   pool:
