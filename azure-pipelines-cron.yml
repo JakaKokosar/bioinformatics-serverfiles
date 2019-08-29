@@ -3,7 +3,7 @@ schedules:
   always: true
   branches:
     include:
-     - master
+      - master
 
 # no CI trigger
 trigger: none
