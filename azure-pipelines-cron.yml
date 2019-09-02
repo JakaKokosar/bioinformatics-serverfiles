@@ -1,5 +1,6 @@
 schedules:
-- cron: '0 0 1 * *' # At 00:00 on day-of-month 1. (https://crontab.guru/once-a-month)
+- cron: "0 0 1 * *" # At 00:00 on day-of-month 1. (https://crontab.guru/once-a-month)
+  displayName: At 00:00 on day-of-month 1
   always: true
   branches:
     include:
