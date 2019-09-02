@@ -54,6 +54,23 @@
         }
     },
     {
+        "systematic_name": "DBS0351382",
+        "strain_descriptor": "myoB-/[act15]:GFP:myoB(1-921,1057-1111)",
+        "associated_genes": [
+            "myoB"
+        ],
+        "phenotypes": [
+            "abolished protein localization"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350826",
         "strain_descriptor": "pinA-",
         "associated_genes": [
@@ -13313,6 +13330,30 @@
         }
     },
     {
+        "systematic_name": "DBS0351359",
+        "strain_descriptor": "[act15]:myoB",
+        "associated_genes": [
+            "myoB"
+        ],
+        "phenotypes": [
+            "decreased pinocytosis",
+            "increased localization to cell cortex",
+            "delayed aggregation",
+            "decreased growth rate",
+            "aberrant F-actin organization",
+            "decreased cell motility",
+            "delayed development",
+            "decreased fruiting body size"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
         "systematic_name": "DBS0351037",
         "strain_descriptor": "[act15]:myoE(1-1005)",
         "associated_genes": [
@@ -21337,6 +21378,25 @@
             "multiple ": false,
             "other": false,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351372",
+        "strain_descriptor": "cadA-",
+        "associated_genes": [
+            "cadA"
+        ],
+        "phenotypes": [
+            "aberrant defense response to bacterium",
+            "decreased growth rate",
+            "aberrant response to oxidative stress"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -37596,6 +37656,75 @@
             "multiple ": false,
             "other": true,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351378",
+        "strain_descriptor": "myoB-/[act15]:GFP:myoB(1-720)",
+        "associated_genes": [
+            "myoB"
+        ],
+        "phenotypes": [
+            "abolished protein localization to plasma membrane"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351379",
+        "strain_descriptor": "myoB-/[act15]:GFP:myoB(1-800,813-1111)",
+        "associated_genes": [
+            "myoB"
+        ],
+        "phenotypes": [
+            "abolished protein localization to plasma membrane",
+            "abolished protein localization"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351380",
+        "strain_descriptor": "myoB-/[act15]:GFP:myoB(713-1111)",
+        "associated_genes": [
+            "myoB"
+        ],
+        "phenotypes": [
+            "abolished protein localization"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351367",
+        "strain_descriptor": "myoB-/[act15]:myoB(S332A)",
+        "associated_genes": [
+            "myoB"
+        ],
+        "phenotypes": [
+            "abolished protein phosphorylation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
         }
     },
     {
