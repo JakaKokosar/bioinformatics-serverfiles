@@ -6678,7 +6678,7 @@
     "other_designations": [
       "Zcf32p"
     ],
-    "modification_date": "20180428",
+    "modification_date": "20190831",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -6942,7 +6942,7 @@
     "other_designations": [
       "putative GTPase"
     ],
-    "modification_date": "20181110",
+    "modification_date": "20190831",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -33800,7 +33800,7 @@
     "other_designations": [
       "glutathione-independent methylglyoxalase"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20190831",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -110726,7 +110726,7 @@
     "other_designations": [
       "Upc2p"
     ],
-    "modification_date": "20190609",
+    "modification_date": "20190831",
     "homology_group_id": null,
     "homologs": {}
   },
