@@ -256,5 +256,5 @@ if __name__ == '__main__':
     with open('serverfiles/__INFO__', 'wt') as f:
         json.dump(info, f)
 
-    shutil.make_archive('serverfiles_dump', 'gztar', root_dir='serverfiles/')
+#    shutil.make_archive('serverfiles_dump', 'gztar', root_dir='serverfiles/')
     p.terminate()
