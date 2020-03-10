@@ -2,7 +2,7 @@ import re
 import requests
 
 from plumbum import local
-from plumbum.cmd import wget, FG
+from plumbum.cmd import wget
 
 
 def fetch_html(url: str) -> str:
