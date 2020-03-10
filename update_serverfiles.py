@@ -71,10 +71,15 @@ download_process['-O', f'temp/{developmental_mutants}'](base_url.format(developm
 download_process['-O', f'temp/{multiple_mutants}'](base_url.format(multiple_mutants))
 download_process['-O', f'temp/{other_mutants}'](base_url.format(other_mutants))
 
+print('Updating homologs ...')
 python('update_scripts/homologene.py', 'temp/homologene.data', 'temp/gene_history.gz')
+print('Updating genes ...')
 python('update_scripts/gene.py', 'temp/gene_info.gz')
+print('Updating marker genes ...')
 python('update_scripts/marker_genes.py', f'temp/{panglao_fn}', 'temp/all_cell_markers.txt')
+print('Updating GO ...')
 python('update_scripts/go.py', 'temp/gene2go.gz', 'temp/go-basic.obo')
+print('Updating dictybase phenotypes ...')
 python(
     'update_scripts/dictybase.py',
     f'temp/{all_mutants}',
@@ -84,4 +89,7 @@ python(
     f'temp/{developmental_mutants}',
     f'temp/{other_mutants}',
 )
+print('Updating gene sets ...')
 python('update_scripts/gene_sets.py')
+
+print('... All done!')

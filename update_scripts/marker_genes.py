@@ -38,10 +38,12 @@ def panglao_db(file_path: str):
     genes_by_organism = defaultdict(list)
     organism_mapper = {'Mm': 'Mouse', 'Hs': 'Human'}
 
-    def _gene_function_table(desc_col: StringVariable, gm_results: GeneMatcher):
-        _domain = Domain([], metas=[desc_col])
-        _data = [[str(gene.description) if gene.description else ''] for gene in gm_results.genes]
-        return Table(_domain, _data)
+    def _add_gene_function_column(table: Table, desc_col: StringVariable, gm_results: GeneMatcher):
+        _domain = table.domain
+        _domain = Domain(_domain.attributes, _domain.class_vars, _domain.metas + (desc_col,))
+        _table = table.transform(_domain)
+        _table[:, desc_col] = [[str(gene.description) if gene.description else ''] for gene in gm_results.genes]
+        return _table
 
     for line in content.split('\n'):
         columns = line.split('\t')
@@ -69,13 +71,15 @@ def panglao_db(file_path: str):
     gm_mouse = GeneMatcher('10090')
     mouse_table = Table(domain, genes_by_organism['Mouse'])
     mouse_table = gm_mouse.match_table_column(mouse_table, 'Name', entrez_id_column)
-    mouse_table = Table.concatenate([mouse_table, _gene_function_table(description_column, gm_mouse)])
+    mouse_table = _add_gene_function_column(mouse_table, description_column, gm_mouse)
+    # mouse_table = Table.concatenate([mouse_table, _add_gene_function_column(description_column, gm_mouse)])
 
     # construct data table for human
     gm_human = GeneMatcher('9606')
     human_table = Table(domain, genes_by_organism['Human'])
     human_table = gm_human.match_table_column(human_table, 'Name', entrez_id_column)
-    human_table = Table.concatenate([human_table, _gene_function_table(description_column, gm_human)])
+    human_table = _add_gene_function_column(human_table, description_column, gm_human)
+    # human_table = Table.concatenate([human_table, _gene_function_table(description_column, gm_human)])
 
     # return combined tables
     Table.concatenate([mouse_table, human_table], axis=0).save(f'data/marker_genes/{file_name}')
