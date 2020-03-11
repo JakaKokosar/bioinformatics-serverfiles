@@ -53,7 +53,6 @@ GO:0006578	GO:0006578,GO-biological_process,4530,amino-acid betaine biosynthetic
 GO:0006577	GO:0006577,GO-biological_process,4530,amino-acid betaine metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0006577	4345606
 GO:0006026	GO:0006026,GO-biological_process,4530,aminoglycan catabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0006026	4336263	4338718	4349267
 GO:0006022	GO:0006022,GO-biological_process,4530,aminoglycan metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0006022	4336263	4338718	4349267
-GO:0097164	GO:0097164,GO-biological_process,4530,ammonium ion metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0097164	4329955	4345606
 GO:0048856	GO:0048856,GO-biological_process,4530,anatomical structure development,_,_,http://amigo.geneontology.org/amigo/term/GO:0048856	4325061	4325772	4327304	4330018	4336591	4338204	4340185	4340310	4341462	4342080	4342787	4342826	4347514	9266285	9266343
 GO:0048646	GO:0048646,GO-biological_process,4530,anatomical structure formation involved in morphogenesis,_,_,http://amigo.geneontology.org/amigo/term/GO:0048646	4336591	4342787
 GO:0009653	GO:0009653,GO-biological_process,4530,anatomical structure morphogenesis,_,_,http://amigo.geneontology.org/amigo/term/GO:0009653	4330018	4336591	4338204	4342787
@@ -223,7 +222,6 @@ GO:0006897	GO:0006897,GO-biological_process,4530,endocytosis,_,_,http://amigo.ge
 GO:0015985	GO:0015985,GO-biological_process,4530,energy coupled proton transport, down electrochemical gradient,_,_,http://amigo.geneontology.org/amigo/term/GO:0015985	4343288	6450195
 GO:0015980	GO:0015980,GO-biological_process,4530,energy derivation by oxidation of organic compounds,_,_,http://amigo.geneontology.org/amigo/term/GO:0015980	3131436	4325317	4325621	4326795	4328859	4333018	4339718	4345926	4352871	6450121	6450122	6450138	6450144	6450161	6450162	6450198
 GO:0006112	GO:0006112,GO-biological_process,4530,energy reserve metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0006112	4339718
-GO:0051649	GO:0051649,GO-biological_process,4530,establishment of localization in cell,_,_,http://amigo.geneontology.org/amigo/term/GO:0051649	4327591	4331607	4342745	4343932	6450195	107276116
 GO:0051234	GO:0051234,GO-biological_process,4530,establishment of localization,_,_,http://amigo.geneontology.org/amigo/term/GO:0051234	4324550	4324813	4326045	4326209	4326342	4326365	4326444	4326507	4326649	4327022	4327460	4327591	4330207	4330226	4330539	4330845	4331015	4331281	4331607	4331646	4332183	4332187	4333216	4333669	4334148	4336912	4337645	4337963	4340312	4340751	4341645	4342745	4343122	4343288	4343617	4343728	4343932	4344834	4346653	4347630	4347971	4348108	4348111	4349323	4349327	4349331	4349339	4349475	4349517	4350398	4351314	4352546	6450195	9267484	9271816	9272029	107275597	107276116	107277983	107278286
 GO:0045184	GO:0045184,GO-biological_process,4530,establishment of protein localization,_,_,http://amigo.geneontology.org/amigo/term/GO:0045184	4327591	4331607	4331646	4342745	4343932	107276116
 GO:0006633	GO:0006633,GO-biological_process,4530,fatty acid biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0006633	4335627	4349544
@@ -264,12 +262,12 @@ GO:0035825	GO:0035825,GO-biological_process,4530,homologous recombination,_,_,ht
 GO:0042446	GO:0042446,GO-biological_process,4530,hormone biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0042446	4333202
 GO:0042445	GO:0042445,GO-biological_process,4530,hormone metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0042445	4325145	4328512	4329729	4330018	4333202	4335090	4337874
 GO:0009755	GO:0009755,GO-biological_process,4530,hormone-mediated signaling pathway,_,_,http://amigo.geneontology.org/amigo/term/GO:0009755	4327304	4337295	9266483	9272536	107277215	107278571	107278576	107278599
-GO:0098657	GO:0098657,GO-biological_process,4530,import into cell,_,_,http://amigo.geneontology.org/amigo/term/GO:0098657	4343617
 GO:0010229	GO:0010229,GO-biological_process,4530,inflorescence development,_,_,http://amigo.geneontology.org/amigo/term/GO:0010229	4340185	4341462	9266285
 GO:0015698	GO:0015698,GO-biological_process,4530,inorganic anion transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0015698	4337963	4352546
 GO:0098662	GO:0098662,GO-biological_process,4530,inorganic cation transmembrane transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0098662	4324550	4331015	4341645	4343288	6450195
 GO:0098771	GO:0098771,GO-biological_process,4530,inorganic ion homeostasis,_,_,http://amigo.geneontology.org/amigo/term/GO:0098771	4342826
 GO:0098660	GO:0098660,GO-biological_process,4530,inorganic ion transmembrane transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0098660	4324550	4331015	4341645	4343288	6450195
+GO:0044419	GO:0044419,GO-biological_process,4530,interspecies interaction between organisms,_,_,http://amigo.geneontology.org/amigo/term/GO:0044419	4336263	4338718	4349267	4351983
 GO:0006886	GO:0006886,GO-biological_process,4530,intracellular protein transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0006886	4327591	4331607	4342745	4343932	107276116
 GO:0035556	GO:0035556,GO-biological_process,4530,intracellular signal transduction,_,_,http://amigo.geneontology.org/amigo/term/GO:0035556	4324856	4326321	4330181	4331607	4331646	4335058	4348447	4351240	107275446	107276880
 GO:0046907	GO:0046907,GO-biological_process,4530,intracellular transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0046907	4327591	4331607	4342745	4343932	6450195	107276116
@@ -345,7 +343,7 @@ GO:0046364	GO:0046364,GO-biological_process,4530,monosaccharide biosynthetic pro
 GO:0005996	GO:0005996,GO-biological_process,4530,monosaccharide metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0005996	4325200	4334290	4340677
 GO:0015672	GO:0015672,GO-biological_process,4530,monovalent inorganic cation transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0015672	4324550	4331015	4341645	4343288	6450195
 GO:0001763	GO:0001763,GO-biological_process,4530,morphogenesis of a branching structure,_,_,http://amigo.geneontology.org/amigo/term/GO:0001763	4336591
-GO:0051704	GO:0051704,GO-biological_process,4530,multi-organism process,_,_,http://amigo.geneontology.org/amigo/term/GO:0051704	4336263	4338718	4347514	4349267	4351983	9266343
+GO:0051704	GO:0051704,GO-biological_process,4530,multi-organism process,_,_,http://amigo.geneontology.org/amigo/term/GO:0051704	4347514	9266343
 GO:0044703	GO:0044703,GO-biological_process,4530,multi-organism reproductive process,_,_,http://amigo.geneontology.org/amigo/term/GO:0044703	4347514	9266343
 GO:0007275	GO:0007275,GO-biological_process,4530,multicellular organism development,_,_,http://amigo.geneontology.org/amigo/term/GO:0007275	4325061	4325772	4327304	4330018	4336591	4340185	4340310	4341462	4342080	4342787	4342826	4347514	9266285	9266343
 GO:0032504	GO:0032504,GO-biological_process,4530,multicellular organism reproduction,_,_,http://amigo.geneontology.org/amigo/term/GO:0032504	4340310

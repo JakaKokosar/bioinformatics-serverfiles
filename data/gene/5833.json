@@ -15,7 +15,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20190810",
+    "modification_date": "20200307",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -105,7 +105,7 @@
     "other_designations": [
       "erythrocyte membrane protein 1, PfEMP1"
     ],
-    "modification_date": "20190126",
+    "modification_date": "20200215",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -4762,7 +4762,7 @@
     "other_designations": [
       "dihydrolipoamide acyltransferase component E2"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -6178,7 +6178,7 @@
     "other_designations": [
       "peroxiredoxin"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -6491,7 +6491,7 @@
     "other_designations": [
       "merozoite TRAP-like protein"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -6684,7 +6684,7 @@
     "other_designations": [
       "adenosine deaminase"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200215",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -7981,7 +7981,7 @@
     "other_designations": [
       "merozoite surface protein 3"
     ],
-    "modification_date": "20190309",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -8005,7 +8005,7 @@
     "other_designations": [
       "merozoite surface protein 6"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -8053,7 +8053,7 @@
     "other_designations": [
       "duffy binding-like merozoite surface protein"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -11542,7 +11542,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180805",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -12118,7 +12118,7 @@
     "other_designations": [
       "glyoxalase I"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -12551,7 +12551,7 @@
     "other_designations": [
       "cysteine proteinase falcipain 2a"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20191130",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -12623,7 +12623,7 @@
     "other_designations": [
       "rhoptry neck protein 4"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -13921,7 +13921,7 @@
     "other_designations": [
       "exported protein 1"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200208",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -14017,7 +14017,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -14617,7 +14617,7 @@
     "other_designations": [
       "pyruvate dehydrogenase E1 component subunit alpha"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -16658,7 +16658,7 @@
     "other_designations": [
       "apical membrane antigen 1"
     ],
-    "modification_date": "20180602",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -19111,7 +19111,7 @@
     "other_designations": [
       "apicoplast import protein Tic20, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -21198,7 +21198,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -22350,7 +22350,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -25420,7 +25420,7 @@
     "other_designations": [
       "cAMP-dependent protein kinase regulatory subunit"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20191130",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -25804,7 +25804,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -26908,7 +26908,7 @@
     "other_designations": [
       "macrophage migration inhibitory factor"
     ],
-    "modification_date": "20180415",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -32017,7 +32017,7 @@
     "other_designations": [
       "rhoptry neck protein 3"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -32753,7 +32753,7 @@
     "other_designations": [
       "erythrocyte membrane protein 1, PfEMP1"
     ],
-    "modification_date": "20180909",
+    "modification_date": "20191026",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -33951,7 +33951,7 @@
     "other_designations": [
       "DNA mismatch repair protein, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -33975,7 +33975,7 @@
     "other_designations": [
       "COBW domain-containing protein 1, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -34071,7 +34071,7 @@
     "other_designations": [
       "RNA-binding protein, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180421",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -34191,7 +34191,7 @@
     "other_designations": [
       "pentatricopeptide repeat domain-containing protein, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -34767,7 +34767,7 @@
     "other_designations": [
       "tRNA-dihydrouridine synthase, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -34815,7 +34815,7 @@
     "other_designations": [
       "aldo-keto reductase, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -35682,7 +35682,7 @@
     "other_designations": [
       "AAA family ATPase, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180805",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -36283,7 +36283,7 @@
     "other_designations": [
       "RNA-binding protein Nova-1, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -36475,7 +36475,7 @@
     "other_designations": [
       "protein SEY1, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -36571,7 +36571,7 @@
     "other_designations": [
       "NADP-specific glutamate dehydrogenase"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200215",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -36881,7 +36881,7 @@
     "other_designations": [
       "ubiquitin fusion degradation protein UFD1,putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -37672,7 +37672,7 @@
     "other_designations": [
       "copper transporter, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -38416,7 +38416,7 @@
     "other_designations": [
       "ABC transporter G family member 2"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20191010",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -38681,7 +38681,7 @@
     "other_designations": [
       "CorA-like Mg2+ transporter protein, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -38970,7 +38970,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -40074,7 +40074,7 @@
     "other_designations": [
       "microsomal signal peptidase protein, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -40098,7 +40098,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -40290,7 +40290,7 @@
     "other_designations": [
       "dynein-related AAA-type ATPase, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180805",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -40867,7 +40867,7 @@
     "other_designations": [
       "N-acetyltransferase, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -42668,7 +42668,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -42980,7 +42980,7 @@
     "other_designations": [
       "pyruvate dehydrogenase E1 component subunit beta"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -45573,7 +45573,7 @@
     "other_designations": [
       "cysteine proteinase falcipain 1"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -51074,7 +51074,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180805",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -51482,7 +51482,7 @@
     "other_designations": [
       "cytosolic glyoxalase II"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -52270,7 +52270,7 @@
     "other_designations": [
       "cysteine-rich protective antigen"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -52342,7 +52342,7 @@
     "other_designations": [
       "reticulocyte binding protein homologue 4"
     ],
-    "modification_date": "20180415",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -52388,7 +52388,7 @@
     "other_designations": [
       "reticulocyte binding protein homologue 5"
     ],
-    "modification_date": "20190629",
+    "modification_date": "20200229",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -55638,7 +55638,7 @@
     "other_designations": [
       "DNA polymerase alpha catalytic subunit A"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -56811,7 +56811,7 @@
     "other_designations": [
       "hexose transporter"
     ],
-    "modification_date": "20180909",
+    "modification_date": "20200118",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -57435,7 +57435,7 @@
     "other_designations": [
       "serine repeat antigen 5"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20191005",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -62082,7 +62082,7 @@
     "other_designations": [
       "rhoptry-associated protein 2"
     ],
-    "modification_date": "20180415",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -64907,7 +64907,7 @@
     "other_designations": [
       "F-actin-capping protein subunit beta, putative"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -66395,7 +66395,7 @@
     "other_designations": [
       "karyopherin beta"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -67428,7 +67428,7 @@
     "other_designations": [
       "palmitoyltransferase"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -68715,7 +68715,7 @@
     "other_designations": [
       "erythrocyte binding antigen-181"
     ],
-    "modification_date": "20180909",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -70636,7 +70636,7 @@
     "other_designations": [
       "glutamic acid-rich protein"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20191012",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -72097,7 +72097,7 @@
     "other_designations": [
       "high molecular weight rhoptry protein 3"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -73613,7 +73613,7 @@
     "other_designations": [
       "falstatin"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -73637,7 +73637,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180805",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -74333,7 +74333,7 @@
     "other_designations": [
       "type II NADH:ubiquinone oxidoreductase"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200104",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -74597,7 +74597,7 @@
     "other_designations": [
       "thioredoxin 3"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -76278,7 +76278,7 @@
     "other_designations": [
       "perforin-like protein 3"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -76783,7 +76783,7 @@
     "other_designations": [
       "thioredoxin-like protein 2"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -79974,7 +79974,7 @@
     "other_designations": [
       "3',5'-cyclic nucleotide phosphodiesterase,putative"
     ],
-    "modification_date": "20180407",
+    "modification_date": "20191130",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -81441,7 +81441,7 @@
     "other_designations": [
       "reticulocyte binding protein 2 homologue b"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -86431,7 +86431,7 @@
     "other_designations": [
       "erythrocyte binding antigen-140"
     ],
-    "modification_date": "20180909",
+    "modification_date": "20190831",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -89549,7 +89549,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -90317,7 +90317,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -91469,7 +91469,7 @@
     "other_designations": [
       "merozoite surface protein 7"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -91493,7 +91493,7 @@
     "other_designations": [
       "reticulocyte binding protein 2 homologue a"
     ],
-    "modification_date": "20190316",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -92405,7 +92405,7 @@
     "other_designations": [
       "kelch protein K13"
     ],
-    "modification_date": "20190706",
+    "modification_date": "20200222",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -92597,7 +92597,7 @@
     "other_designations": [
       "6-cysteine protein"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -93582,7 +93582,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180805",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -96076,7 +96076,7 @@
     "other_designations": [
       "circumsporozoite (CS) protein"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -96484,7 +96484,7 @@
     "other_designations": [
       "glutaredoxin 1"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -97204,7 +97204,7 @@
     "other_designations": [
       "60S acidic ribosomal protein P2"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -97948,7 +97948,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -98382,7 +98382,7 @@
     "other_designations": [
       "circumsporozoite-and TRAP-related protein"
     ],
-    "modification_date": "20180909",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -98550,7 +98550,7 @@
     "other_designations": [
       "microneme associated antigen"
     ],
-    "modification_date": "20180909",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -99414,7 +99414,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -100230,7 +100230,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -101929,7 +101929,7 @@
     "other_designations": [
       "erythrocyte binding antigen-175"
     ],
-    "modification_date": "20180415",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -102664,7 +102664,7 @@
     "other_designations": [
       "1-cys peroxiredoxin"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -106504,7 +106504,7 @@
     "other_designations": [
       "chloroquine resistance transporter"
     ],
-    "modification_date": "20190418",
+    "modification_date": "20200215",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -108518,7 +108518,7 @@
     "other_designations": [
       "karyopherin alpha"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -111397,7 +111397,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180805",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -113509,7 +113509,7 @@
     "other_designations": [
       "perforin-like protein 5"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -113553,7 +113553,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20190629",
+    "modification_date": "20200118",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -113789,7 +113789,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180805",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -114677,7 +114677,7 @@
     "other_designations": [
       "eukaryotic translation initiation factor 2-alpha kinase"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200208",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -114917,7 +114917,7 @@
     "other_designations": [
       "phospholipase, putative"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -115921,7 +115921,7 @@
     "other_designations": [
       "6-cysteine protein"
     ],
-    "modification_date": "20180415",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -118655,7 +118655,7 @@
     "other_designations": [
       "mRNA binding Pumilio-homology domain protein,putative"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20191026",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -119205,7 +119205,7 @@
     "other_designations": [
       "hexokinase"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -120834,7 +120834,7 @@
     "other_designations": [
       "TRAP-like protein"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -120906,7 +120906,7 @@
     "other_designations": [
       "malate:quinone oxidoreductase, putative"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20191228",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -120978,7 +120978,7 @@
     "other_designations": [
       "AP-2 complex subunit alpha, putative"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20200227",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -125193,7 +125193,7 @@
     "other_designations": [
       "apicoplast conserved ycf19 protein precursor,unknown function"
     ],
-    "modification_date": "20190704",
+    "modification_date": "20180406",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -127777,7 +127777,7 @@
     "other_designations": [
       "histidine-rich protein II"
     ],
-    "modification_date": "20180415",
+    "modification_date": "20191221",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -128215,7 +128215,7 @@
     "other_designations": [
       "heat shock protein 70"
     ],
-    "modification_date": "20180418",
+    "modification_date": "20190831",
     "homology_group_id": null,
     "homologs": {}
   },
