@@ -15,7 +15,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20190803",
+    "modification_date": "20200201",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -163,7 +163,7 @@
     "other_designations": [
       "polyprotein;protein F"
     ],
-    "modification_date": "20190824",
+    "modification_date": "20200308",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -233,10 +233,10 @@
     "species": "Hepatitis C virus",
     "tax_id": "63746",
     "gene_id": "37619432",
-    "symbol": "POLY",
+    "symbol": "D1Q49_gp1",
     "synonyms": [],
     "db_refs": {},
-    "description": "polyprotein;protein F",
+    "description": "polyprotein",
     "locus_tag": "D1Q49_gp1",
     "chromosome": null,
     "map_location": null,
@@ -245,9 +245,9 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [
-      "polyprotein;protein F"
+      "polyprotein"
     ],
-    "modification_date": "20190608",
+    "modification_date": "20191102",
     "homology_group_id": null,
     "homologs": {}
   },

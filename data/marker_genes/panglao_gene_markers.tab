@@ -405,6 +405,7 @@ Mouse	SLC1A6	Astrocytes	PanglaoDB	https://panglaodb.se/	20513	solute carrier fam
 Mouse	ETS1	Astrocytes	PanglaoDB	https://panglaodb.se/	23871	E26 avian leukemia oncogene 1, 5' domain
 Mouse	SLIT1	Astrocytes	PanglaoDB	https://panglaodb.se/	20562	slit guidance ligand 1
 Mouse	SNPH	Astrocytes	PanglaoDB	https://panglaodb.se/	241727	syntaphilin
+Mouse	IL23A	Astrocytes	PanglaoDB	https://panglaodb.se/	83430	interleukin 23, alpha subunit p19
 Mouse	CD2	B cells	PanglaoDB	https://panglaodb.se/	12481	CD2 antigen
 Mouse	CD5	B cells	PanglaoDB	https://panglaodb.se/	12507	CD5 antigen
 Mouse	MS4A1	B cells	PanglaoDB	https://panglaodb.se/	12482	membrane-spanning 4-domains, subfamily A, member 1
@@ -2194,6 +2195,7 @@ Mouse	CCL11	Eosinophils	PanglaoDB	https://panglaodb.se/	20292	chemokine (C-C mot
 Mouse	CCL5	Eosinophils	PanglaoDB	https://panglaodb.se/	20304	chemokine (C-C motif) ligand 5
 Mouse	CSF2	Eosinophils	PanglaoDB	https://panglaodb.se/	12981	colony stimulating factor 2 (granulocyte-macrophage)
 Mouse	IL5RA	Eosinophils	PanglaoDB	https://panglaodb.se/	16192	interleukin 5 receptor, alpha
+Mouse	SIGLECF	Eosinophils	PanglaoDB	https://panglaodb.se/	233186	sialic acid binding Ig-like lectin F
 Mouse	FOXJ1	Ependymal cells	PanglaoDB	https://panglaodb.se/	15223	forkhead box J1
 Mouse	TRIM71	Ependymal cells	PanglaoDB	https://panglaodb.se/	636931	tripartite motif-containing 71
 Mouse	SIX3	Ependymal cells	PanglaoDB	https://panglaodb.se/	20473	sine oculis-related homeobox 3
@@ -2397,6 +2399,7 @@ Mouse	PAQR5	Epithelial cells	PanglaoDB	https://panglaodb.se/	74090	progestin and
 Mouse	EPCAM	Epithelial cells	PanglaoDB	https://panglaodb.se/	17075	epithelial cell adhesion molecule
 Mouse	CLDN1	Epithelial cells	PanglaoDB	https://panglaodb.se/	12737	claudin 1
 Mouse	OCLN	Epithelial cells	PanglaoDB	https://panglaodb.se/	18260	occludin
+Mouse	MUC5AC	Epithelial cells	PanglaoDB	https://panglaodb.se/	17833	mucin 5, subtypes A and C, tracheobronchial/gastric
 Mouse	GHRL	Epsilon cells	PanglaoDB	https://panglaodb.se/	58991	ghrelin
 Mouse	ANXA13	Epsilon cells	PanglaoDB	https://panglaodb.se/	69787	annexin A13
 Mouse	PHGR1	Epsilon cells	PanglaoDB	https://panglaodb.se/	53906	proline/histidine/glycine-rich 1
@@ -5507,6 +5510,12 @@ Mouse	ITGA2	NK cells	PanglaoDB	https://panglaodb.se/	16398	integrin alpha 2
 Mouse	SERPINB9B	NK cells	PanglaoDB	https://panglaodb.se/	20706	serine (or cysteine) peptidase inhibitor, clade B, member 9b
 Mouse	STYK1	NK cells	PanglaoDB	https://panglaodb.se/	243659	serine/threonine/tyrosine kinase 1
 Mouse	CAR5B	NK cells	PanglaoDB	https://panglaodb.se/	56078	carbonic anhydrase 5b, mitochondrial
+Mouse	CLEC2D	NK cells	PanglaoDB	https://panglaodb.se/	93694	C-type lectin domain family 2, member d
+Mouse	CD247	NK cells	PanglaoDB	https://panglaodb.se/	12503	CD247 antigen
+Mouse	ZBTB16	NK cells	PanglaoDB	https://panglaodb.se/	235320	zinc finger and BTB domain containing 16
+Mouse	SPON2	NK cells	PanglaoDB	https://panglaodb.se/	100689	spondin 2, extracellular matrix protein
+Mouse	HOPX	NK cells	PanglaoDB	https://panglaodb.se/	74318	HOP homeobox
+Mouse	CD8A	NK cells	PanglaoDB	https://panglaodb.se/	12525	CD8 antigen, alpha chain
 Mouse	TH	Noradrenergic neurons	PanglaoDB	https://panglaodb.se/	21823	tyrosine hydroxylase
 Mouse	DDC	Noradrenergic neurons	PanglaoDB	https://panglaodb.se/	13195	dopa decarboxylase
 Mouse	DBH	Noradrenergic neurons	PanglaoDB	https://panglaodb.se/	13166	dopamine beta hydroxylase
@@ -7411,7 +7420,6 @@ Mouse	GDPD3	T cells	PanglaoDB	https://panglaodb.se/	68616	glycerophosphodiester 
 Mouse	TRAF1	T cells	PanglaoDB	https://panglaodb.se/	22029	TNF receptor-associated factor 1
 Mouse	IL2RA	T cells	PanglaoDB	https://panglaodb.se/	16184	interleukin 2 receptor, alpha chain
 Mouse	BATF3	T cells	PanglaoDB	https://panglaodb.se/	381319	basic leucine zipper transcription factor, ATF-like 3
-Mouse	GZMM	T cells	PanglaoDB	https://panglaodb.se/	16904	granzyme M (lymphocyte met-ase 1)
 Mouse	LAG3	T cells	PanglaoDB	https://panglaodb.se/	16768	lymphocyte-activation gene 3
 Mouse	CD8B1	T cells	PanglaoDB	https://panglaodb.se/	12526	CD8 antigen, beta chain 1
 Mouse	GZMK	T cells	PanglaoDB	https://panglaodb.se/	14945	granzyme K
@@ -7422,7 +7430,6 @@ Mouse	FMNL1	T cells	PanglaoDB	https://panglaodb.se/	57778	formin-like 1
 Mouse	S1PR4	T cells	PanglaoDB	https://panglaodb.se/	13611	sphingosine-1-phosphate receptor 4
 Mouse	CD247	T cells	PanglaoDB	https://panglaodb.se/	12503	CD247 antigen
 Mouse	MS4A4C	T cells	PanglaoDB	https://panglaodb.se/	64380	membrane-spanning 4-domains, subfamily A, member 4C
-Mouse	TBC1D10C	T cells	PanglaoDB	https://panglaodb.se/	108995	TBC1 domain family, member 10c
 Mouse	GIMAP5	T cells	PanglaoDB	https://panglaodb.se/	317757	GTPase, IMAP family member 5
 Mouse	CD28	T cells	PanglaoDB	https://panglaodb.se/	12487	CD28 antigen
 Mouse	CD160	T cells	PanglaoDB	https://panglaodb.se/	54215	CD160 antigen
@@ -7430,7 +7437,6 @@ Mouse	TCRG-C1	T cells	PanglaoDB	https://panglaodb.se/	107573	T cell receptor gam
 Mouse	TRDC	T cells	PanglaoDB	https://panglaodb.se/	100123473	T cell receptor delta, constant region
 Mouse	H2-T3	T cells	PanglaoDB	https://panglaodb.se/	15043	histocompatibility 2, T region locus 3
 Mouse	RHOH	T cells	PanglaoDB	https://panglaodb.se/	74734	ras homolog family member H
-Mouse	GIMAP7	T cells	PanglaoDB	https://panglaodb.se/	231932	GTPase, IMAP family member 7
 Mouse	KLRB1	T cells	PanglaoDB	https://panglaodb.se/	100043861	killer cell lectin-like receptor subfamily B member 1
 Mouse	CCR2	T cells	PanglaoDB	https://panglaodb.se/	12772	chemokine (C-C motif) receptor 2
 Mouse	IL2RB	T cells	PanglaoDB	https://panglaodb.se/	16185	interleukin 2 receptor, beta chain
@@ -7447,7 +7453,6 @@ Mouse	CD6	T cells	PanglaoDB	https://panglaodb.se/	12511	CD6 antigen
 Mouse	S100A4	T cells	PanglaoDB	https://panglaodb.se/	20198	S100 calcium binding protein A4
 Mouse	CCL5	T cells	PanglaoDB	https://panglaodb.se/	20304	chemokine (C-C motif) ligand 5
 Mouse	LCK	T cells	PanglaoDB	https://panglaodb.se/	16818	lymphocyte protein tyrosine kinase
-Mouse	NKG7	T cells	PanglaoDB	https://panglaodb.se/	72310	natural killer cell group 7 sequence
 Mouse	CD81	T cells	PanglaoDB	https://panglaodb.se/	12520	CD81 antigen
 Mouse	THY1	T cells	PanglaoDB	https://panglaodb.se/	21838	thymus cell antigen 1, theta
 Mouse	LAT	T cells	PanglaoDB	https://panglaodb.se/	16797	linker for activation of T cells
@@ -8269,6 +8274,7 @@ Human	SLC1A6	Astrocytes	PanglaoDB	https://panglaodb.se/	6511	solute carrier fami
 Human	ETS1	Astrocytes	PanglaoDB	https://panglaodb.se/	2113	ETS proto-oncogene 1, transcription factor
 Human	SLIT1	Astrocytes	PanglaoDB	https://panglaodb.se/	6585	slit guidance ligand 1
 Human	SNPH	Astrocytes	PanglaoDB	https://panglaodb.se/	9751	syntaphilin
+Human	IL23A	Astrocytes	PanglaoDB	https://panglaodb.se/	51561	interleukin 23 subunit alpha
 Human	CD2	B cells	PanglaoDB	https://panglaodb.se/	914	CD2 molecule
 Human	CD5	B cells	PanglaoDB	https://panglaodb.se/	921	CD5 molecule
 Human	MS4A1	B cells	PanglaoDB	https://panglaodb.se/	931	membrane spanning 4-domains A1
@@ -10282,6 +10288,7 @@ Human	PAQR5	Epithelial cells	PanglaoDB	https://panglaodb.se/	54852	progestin and
 Human	EPCAM	Epithelial cells	PanglaoDB	https://panglaodb.se/	4072	epithelial cell adhesion molecule
 Human	CLDN1	Epithelial cells	PanglaoDB	https://panglaodb.se/	9076	claudin 1
 Human	OCLN	Epithelial cells	PanglaoDB	https://panglaodb.se/	100506658	occludin
+Human	MUC5AC	Epithelial cells	PanglaoDB	https://panglaodb.se/	4586	mucin 5AC, oligomeric mucus/gel-forming
 Human	GHRL	Epsilon cells	PanglaoDB	https://panglaodb.se/	51738	ghrelin and obestatin prepropeptide
 Human	ANXA13	Epsilon cells	PanglaoDB	https://panglaodb.se/	312	annexin A13
 Human	PHGR1	Epsilon cells	PanglaoDB	https://panglaodb.se/	644844	proline, histidine and glycine rich 1
@@ -13332,6 +13339,13 @@ Human	NCR3	NK cells	PanglaoDB	https://panglaodb.se/	259197	natural cytotoxicity 
 Human	ADAMTS14	NK cells	PanglaoDB	https://panglaodb.se/	140766	ADAM metallopeptidase with thrombospondin type 1 motif 14
 Human	ITGA2	NK cells	PanglaoDB	https://panglaodb.se/	3673	integrin subunit alpha 2
 Human	STYK1	NK cells	PanglaoDB	https://panglaodb.se/	55359	serine/threonine/tyrosine kinase 1
+Human	CLEC2D	NK cells	PanglaoDB	https://panglaodb.se/	29121	C-type lectin domain family 2 member D
+Human	CD247	NK cells	PanglaoDB	https://panglaodb.se/	919	CD247 molecule
+Human	ZBTB16	NK cells	PanglaoDB	https://panglaodb.se/	7704	zinc finger and BTB domain containing 16
+Human	SPON2	NK cells	PanglaoDB	https://panglaodb.se/	10417	spondin 2
+Human	LAIR2	NK cells	PanglaoDB	https://panglaodb.se/	3904	leukocyte associated immunoglobulin like receptor 2
+Human	HOPX	NK cells	PanglaoDB	https://panglaodb.se/	84525	HOP homeobox
+Human	CD8A	NK cells	PanglaoDB	https://panglaodb.se/	925	CD8a molecule
 Human	TH	Noradrenergic neurons	PanglaoDB	https://panglaodb.se/	7054	tyrosine hydroxylase
 Human	DDC	Noradrenergic neurons	PanglaoDB	https://panglaodb.se/	1644	dopa decarboxylase
 Human	DBH	Noradrenergic neurons	PanglaoDB	https://panglaodb.se/	1621	dopamine beta-hydroxylase
@@ -15223,7 +15237,6 @@ Human	TRAF1	T cells	PanglaoDB	https://panglaodb.se/	7185	TNF receptor associated
 Human	IL2RA	T cells	PanglaoDB	https://panglaodb.se/	3559	interleukin 2 receptor subunit alpha
 Human	CD8B	T cells	PanglaoDB	https://panglaodb.se/	926	CD8b molecule
 Human	BATF3	T cells	PanglaoDB	https://panglaodb.se/	55509	basic leucine zipper ATF-like transcription factor 3
-Human	GZMM	T cells	PanglaoDB	https://panglaodb.se/	3004	granzyme M
 Human	GZMH	T cells	PanglaoDB	https://panglaodb.se/	2999	granzyme H
 Human	LAG3	T cells	PanglaoDB	https://panglaodb.se/	3902	lymphocyte activating 3
 Human	GZMK	T cells	PanglaoDB	https://panglaodb.se/	3003	granzyme K
@@ -15233,13 +15246,11 @@ Human	MYO1G	T cells	PanglaoDB	https://panglaodb.se/	64005	myosin IG
 Human	FMNL1	T cells	PanglaoDB	https://panglaodb.se/	752	formin like 1
 Human	S1PR4	T cells	PanglaoDB	https://panglaodb.se/	8698	sphingosine-1-phosphate receptor 4
 Human	CD247	T cells	PanglaoDB	https://panglaodb.se/	919	CD247 molecule
-Human	TBC1D10C	T cells	PanglaoDB	https://panglaodb.se/	374403	TBC1 domain family member 10C
 Human	GIMAP5	T cells	PanglaoDB	https://panglaodb.se/	55340	GTPase, IMAP family member 5
 Human	CD28	T cells	PanglaoDB	https://panglaodb.se/	940	CD28 molecule
 Human	CD160	T cells	PanglaoDB	https://panglaodb.se/	11126	CD160 molecule
 Human	TRDC	T cells	PanglaoDB	https://panglaodb.se/	28526	T cell receptor delta constant
 Human	RHOH	T cells	PanglaoDB	https://panglaodb.se/	399	ras homolog family member H
-Human	GIMAP7	T cells	PanglaoDB	https://panglaodb.se/	168537	GTPase, IMAP family member 7
 Human	KLRB1	T cells	PanglaoDB	https://panglaodb.se/	3820	killer cell lectin like receptor B1
 Human	CCR2	T cells	PanglaoDB	https://panglaodb.se/	729230	C-C motif chemokine receptor 2
 Human	IL2RB	T cells	PanglaoDB	https://panglaodb.se/	3560	interleukin 2 receptor subunit beta
@@ -15255,7 +15266,6 @@ Human	CD6	T cells	PanglaoDB	https://panglaodb.se/	923	CD6 molecule
 Human	S100A4	T cells	PanglaoDB	https://panglaodb.se/	6275	S100 calcium binding protein A4
 Human	CCL5	T cells	PanglaoDB	https://panglaodb.se/	6352	C-C motif chemokine ligand 5
 Human	LCK	T cells	PanglaoDB	https://panglaodb.se/	3932	LCK proto-oncogene, Src family tyrosine kinase
-Human	NKG7	T cells	PanglaoDB	https://panglaodb.se/	4818	natural killer cell granule protein 7
 Human	CD81	T cells	PanglaoDB	https://panglaodb.se/	975	CD81 molecule
 Human	THY1	T cells	PanglaoDB	https://panglaodb.se/	7070	Thy-1 cell surface antigen
 Human	LAT	T cells	PanglaoDB	https://panglaodb.se/	27040	linker for activation of T cells
