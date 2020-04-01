@@ -3,7 +3,7 @@ name: Update serverfiles
 # Note: https://crontab.guru/once-a-month
 on:
   schedule:
-    - cron:  '0 0 1 * *'
+    - cron:  '0 0 5 * *'
 
 jobs:
   update_job:

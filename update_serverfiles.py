@@ -7,7 +7,8 @@ from plumbum.cmd import wget
 
 def fetch_html(url: str) -> str:
     # todo: handle exceptions
-    return requests.get(url).content.decode('utf-8')
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0'}
+    return requests.get(url, headers=headers).content.decode('utf-8')
 
 
 def panglao_db_filename() -> str:
@@ -39,7 +40,7 @@ other_mutants = 'other-mutants.txt'
 
 
 python = local['python']
-download_process = wget['-P', 'temp/']
+download_process = wget['-P', 'temp/', "--user-agent='Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0'"]
 
 print(f'downloading gene info from {gene_info}')
 download_process(gene_info)
