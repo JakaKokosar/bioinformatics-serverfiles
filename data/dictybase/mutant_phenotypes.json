@@ -778,23 +778,6 @@
         }
     },
     {
-        "systematic_name": "DBS0350107",
-        "strain_descriptor": "DDB_G0280527-",
-        "associated_genes": [
-            "DDB_G0280527"
-        ],
-        "phenotypes": [
-            "decreased phagocytosis"
-        ],
-        "mutant_types": {
-            "null": true,
-            "overexpression": false,
-            "multiple ": false,
-            "other": false,
-            "developmental": false
-        }
-    },
-    {
         "systematic_name": "DBS0351082",
         "strain_descriptor": "DDB_G0281485-",
         "associated_genes": [
@@ -1509,7 +1492,8 @@
             "Dd5P1"
         ],
         "phenotypes": [
-            "wild type"
+            "wild type",
+            "decreased phagocytosis"
         ],
         "mutant_types": {
             "null": true,
@@ -1615,10 +1599,20 @@
             "Dd5P4"
         ],
         "phenotypes": [
+            "increased protein localization",
+            "increased protein phosphorylation",
+            "increased contractile vacuole size",
+            "aberrant contractile vacuole discharge",
             "decreased growth rate",
             "decreased phagocytosis",
             "decreased engulfment during phagocytosis",
-            "multiple tips in mound"
+            "aberrant endosome morphology",
+            "aberrant vacuole organization and biogenesis",
+            "increased infection rate by a gram-negative pathogenic bacterium",
+            "decreased protein localization",
+            "increased cell motility",
+            "multiple tips in mound",
+            "increased activation of GTPase activity"
         ],
         "mutant_types": {
             "null": true,
@@ -1678,6 +1672,25 @@
             "multiple ": false,
             "other": false,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351414",
+        "strain_descriptor": "Dd5P4-/[act15]:GFP:Dd5P4(D319G)",
+        "associated_genes": [
+            "Dd5P4"
+        ],
+        "phenotypes": [
+            "increased contractile vacuole size",
+            "aberrant contractile vacuole discharge",
+            "aberrant protein localization"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -2057,23 +2070,6 @@
         ],
         "phenotypes": [
             "aberrant protein modification"
-        ],
-        "mutant_types": {
-            "null": false,
-            "overexpression": false,
-            "multiple ": false,
-            "other": false,
-            "developmental": false
-        }
-    },
-    {
-        "systematic_name": "HL250",
-        "strain_descriptor": "HL250",
-        "associated_genes": [
-            "gmd"
-        ],
-        "phenotypes": [
-            "decreased growth rate"
         ],
         "mutant_types": {
             "null": false,
@@ -6982,30 +6978,6 @@
         }
     },
     {
-        "systematic_name": "DBS0351092",
-        "strain_descriptor": "[AS]:act15:aif",
-        "associated_genes": [
-            "aif"
-        ],
-        "phenotypes": [
-            "aberrant regulation of mitochondrial membrane potential",
-            "decreased growth rate",
-            "aberrant cell cycle",
-            "increased necrotic cell death",
-            "delayed development",
-            "decreased intracellular ATP level",
-            "aberrant response to oxidative stress",
-            "aberrant cell morphology"
-        ],
-        "mutant_types": {
-            "null": false,
-            "overexpression": false,
-            "multiple ": false,
-            "other": true,
-            "developmental": true
-        }
-    },
-    {
         "systematic_name": "DBS0350570",
         "strain_descriptor": "[AS]PARP",
         "associated_genes": [
@@ -7020,7 +6992,7 @@
             "pARTg"
         ],
         "phenotypes": [
-            "decreased non-apoptotic programmed cell death",
+            "decreased cell death",
             "aberrant positive regulation of mitochondrial membrane potential"
         ],
         "mutant_types": {
@@ -7028,7 +7000,7 @@
             "overexpression": false,
             "multiple ": true,
             "other": true,
-            "developmental": false
+            "developmental": true
         }
     },
     {
@@ -7049,6 +7021,36 @@
         }
     },
     {
+        "systematic_name": "DBS0351092",
+        "strain_descriptor": "[AS]aif",
+        "associated_genes": [
+            "aif"
+        ],
+        "phenotypes": [
+            "aberrant cellular homeostasis",
+            "aberrant regulation of mitochondrial membrane potential",
+            "aberrant mitochondrion morphology",
+            "increased gene expression",
+            "decreased gene expression",
+            "decreased growth rate",
+            "aberrant cell cycle",
+            "increased necrotic cell death",
+            "delayed development",
+            "decreased intracellular ATP level",
+            "aberrant response to oxidative stress",
+            "aberrant cell morphology",
+            "increased mitochondrial fission",
+            "aberrant mitochondrion organization"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": false,
+            "other": true,
+            "developmental": true
+        }
+    },
+    {
         "systematic_name": "DBS0304456",
         "strain_descriptor": "[AS]alrA/gcsA-",
         "associated_genes": [
@@ -7056,9 +7058,9 @@
             "gcsA"
         ],
         "phenotypes": [
-            "decreased growth rate in suspension",
             "aberrant cellular metabolic process",
             "increased gene expression",
+            "decreased growth rate",
             "cell cycle arrest"
         ],
         "mutant_types": {
@@ -7181,9 +7183,10 @@
     },
     {
         "systematic_name": "DBS0236982",
-        "strain_descriptor": "[AS]csbA",
+        "strain_descriptor": "[AS]csbA/csbB",
         "associated_genes": [
-            "csbA"
+            "csbA",
+            "csbB"
         ],
         "phenotypes": [
             "decreased cell-cell adhesion"
@@ -7360,6 +7363,7 @@
             "hspA"
         ],
         "phenotypes": [
+            "increased infection rate by a pathogenic bacterium",
             "decreased growth rate",
             "aberrant fruiting body morphology"
         ],
@@ -7564,6 +7568,26 @@
         }
     },
     {
+        "systematic_name": "DBS0350355",
+        "strain_descriptor": "[AS]proA-/proB-/lmpA-",
+        "associated_genes": [
+            "lmpA",
+            "proA",
+            "proB"
+        ],
+        "phenotypes": [
+            "wild type",
+            "decreased spore viability"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": true,
+            "developmental": true
+        }
+    },
+    {
         "systematic_name": "DBS0351311",
         "strain_descriptor": "[AS]proA/abpB(129-295)",
         "associated_genes": [
@@ -7592,11 +7616,13 @@
             "decreased secretion of lysosomal enzyme",
             "decreased exocytosis",
             "decreased pinocytosis",
+            "aberrant exocytosis",
             "increased basal F-actin level",
             "abolished growth",
             "development arrests at slug stage",
             "aberrant cytokinesis",
-            "decreased cell motility"
+            "decreased cell motility",
+            "increased phagocytosis"
         ],
         "mutant_types": {
             "null": true,
@@ -7659,26 +7685,6 @@
             "multiple ": true,
             "other": false,
             "developmental": false
-        }
-    },
-    {
-        "systematic_name": "DBS0350355",
-        "strain_descriptor": "[AS]proA/proB-/lmpA-",
-        "associated_genes": [
-            "lmpA",
-            "proA",
-            "proB"
-        ],
-        "phenotypes": [
-            "wild type",
-            "decreased spore viability"
-        ],
-        "mutant_types": {
-            "null": false,
-            "overexpression": false,
-            "multiple ": true,
-            "other": true,
-            "developmental": true
         }
     },
     {
@@ -9611,6 +9617,25 @@
         }
     },
     {
+        "systematic_name": "DBS0351488",
+        "strain_descriptor": "[act15]:FLAG:rasC(Q62L)",
+        "associated_genes": [
+            "rasC"
+        ],
+        "phenotypes": [
+            "abolished protein localization to plasma membrane",
+            "increased F-actin polymerization",
+            "decreased chemotaxis to cAMP"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": true,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0351292",
         "strain_descriptor": "[act15]:FLAG:sir2A",
         "associated_genes": [
@@ -9766,6 +9791,23 @@
         "mutant_types": {
             "null": false,
             "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351483",
+        "strain_descriptor": "[act15]:GFP:aqpB(1-208,219-294)",
+        "associated_genes": [
+            "aqpB"
+        ],
+        "phenotypes": [
+            "decreased response to hypo-osmotic stress"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
             "multiple ": false,
             "other": false,
             "developmental": false
@@ -12341,6 +12383,24 @@
         }
     },
     {
+        "systematic_name": "DBS0351485",
+        "strain_descriptor": "[act15]:fszB:GFP",
+        "associated_genes": [
+            "fszB"
+        ],
+        "phenotypes": [
+            "decreased mitochondrial fusion",
+            "decreased mitochondrial fission"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0349956",
         "strain_descriptor": "[act15]:fttB(K49E):GFP",
         "associated_genes": [
@@ -14041,6 +14101,40 @@
         }
     },
     {
+        "systematic_name": "DBS0351497",
+        "strain_descriptor": "[act15]:rasD(Q61L)",
+        "associated_genes": [
+            "rasD"
+        ],
+        "phenotypes": [
+            "decreased protein kinase activation"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": true,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351496",
+        "strain_descriptor": "[act15]:rasD(S17N)",
+        "associated_genes": [
+            "rasD"
+        ],
+        "phenotypes": [
+            "increased protein kinase activation"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": true,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0351212",
         "strain_descriptor": "[act15]:rasG(S17N)",
         "associated_genes": [
@@ -14286,9 +14380,9 @@
         "phenotypes": [
             "increased stalk width",
             "increased intracellular ATP level",
+            "increased infection rate by a pathogenic bacterium",
             "decreased growth rate",
             "increased number of mitochondria",
-            "increased infection rate by Legionella pneumophila",
             "decreased phototaxis",
             "decreased stalk length",
             "aberrant mitochondrion organization"
@@ -15127,6 +15221,41 @@
         }
     },
     {
+        "systematic_name": "DBS0351495",
+        "strain_descriptor": "[cotB]:FLAG:fbxD",
+        "associated_genes": [
+            "fbxD"
+        ],
+        "phenotypes": [
+            "delayed culmination"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "HW358",
+        "strain_descriptor": "[cotB]:fpaB:myc",
+        "associated_genes": [
+            "fpaB-1",
+            "fpaB-2"
+        ],
+        "phenotypes": [
+            "decreased resistance to reduced oxygen levels"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350705",
         "strain_descriptor": "[cotC]:pkaC",
         "associated_genes": [
@@ -15215,6 +15344,41 @@
             "multiple ": false,
             "other": true,
             "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351493",
+        "strain_descriptor": "[dscA]:His:agtA",
+        "associated_genes": [
+            "agtA"
+        ],
+        "phenotypes": [
+            "decreased sporulation"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351492",
+        "strain_descriptor": "[dscA]:His:agtA(D132A)",
+        "associated_genes": [
+            "agtA"
+        ],
+        "phenotypes": [
+            "aberrant stalk morphogenesis",
+            "abolished sporulation"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": true,
+            "developmental": true
         }
     },
     {
@@ -15468,9 +15632,9 @@
             "rac1B"
         ],
         "phenotypes": [
-            "decreased growth rate in suspension",
             "increased rate of endocytosis",
             "aberrant cytokinesis",
+            "decreased growth rate",
             "delayed development"
         ],
         "mutant_types": {
@@ -15489,7 +15653,7 @@
         ],
         "phenotypes": [
             "decreased rate of endocytosis",
-            "decreased growth rate in suspension",
+            "decreased growth rate",
             "abolished aggregation",
             "aberrant cell morphology"
         ],
@@ -15509,7 +15673,7 @@
         ],
         "phenotypes": [
             "decreased rate of endocytosis",
-            "decreased growth rate in suspension",
+            "decreased growth rate",
             "abolished aggregation",
             "aberrant cell morphology"
         ],
@@ -15529,7 +15693,7 @@
         ],
         "phenotypes": [
             "decreased rate of endocytosis",
-            "decreased growth rate in suspension",
+            "decreased growth rate",
             "abolished aggregation"
         ],
         "mutant_types": {
@@ -16240,6 +16404,7 @@
             "increased prestalk gene expression",
             "decreased prespore gene expression",
             "abolished phototaxis",
+            "increased prestalk cell differentiation",
             "multiple tips in mound"
         ],
         "mutant_types": {
@@ -16437,6 +16602,42 @@
         }
     },
     {
+        "systematic_name": "DBS0351461",
+        "strain_descriptor": "[tet]rasD(G12T)",
+        "associated_genes": [
+            "rasD"
+        ],
+        "phenotypes": [
+            "increased gene expression",
+            "increased prestalk cell differentiation"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": true,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351463",
+        "strain_descriptor": "[tet]rasD(G12T)/rigA-",
+        "associated_genes": [
+            "rasD",
+            "rigA"
+        ],
+        "phenotypes": [
+            "wild type"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": true,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350494",
         "strain_descriptor": "[tgrB1]:[RNAi]abcB3/[tgrC1]:GFP",
         "associated_genes": [
@@ -16519,6 +16720,74 @@
         }
     },
     {
+        "systematic_name": "DBS0351442",
+        "strain_descriptor": "[unk]:GFP:RasG",
+        "associated_genes": [
+            "rasG"
+        ],
+        "phenotypes": [
+            "increased macropinocytosis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351443",
+        "strain_descriptor": "[unk]:GFP:RasG(G12T)",
+        "associated_genes": [
+            "rasG"
+        ],
+        "phenotypes": [
+            "increased macropinocytosis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": true,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351444",
+        "strain_descriptor": "[unk]:GFP:RasS",
+        "associated_genes": [
+            "rasS"
+        ],
+        "phenotypes": [
+            "increased macropinocytosis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351445",
+        "strain_descriptor": "[unk]:GFP:RasS(G12V)",
+        "associated_genes": [
+            "rasS"
+        ],
+        "phenotypes": [
+            "increased macropinocytosis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": true,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350726",
         "strain_descriptor": "[unk]:GFP:cepE",
         "associated_genes": [
@@ -16534,6 +16803,24 @@
             "multiple ": false,
             "other": false,
             "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351454",
+        "strain_descriptor": "[unk]:GFP:piaA(G963E)",
+        "associated_genes": [
+            "piaA"
+        ],
+        "phenotypes": [
+            "delayed aggregation",
+            "decreased protein binding"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
         }
     },
     {
@@ -16678,6 +16965,28 @@
         }
     },
     {
+        "systematic_name": "DBS0236859",
+        "strain_descriptor": "[unk]:rasD(G12T)",
+        "associated_genes": [
+            "rasD"
+        ],
+        "phenotypes": [
+            "increased intracellular myo-inositol level",
+            "decreased gene expression",
+            "increased prestalk gene expression",
+            "decreased prespore gene expression",
+            "development arrests at tipped mound stage",
+            "increased protein kinase activation"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": true,
+            "developmental": true
+        }
+    },
+    {
         "systematic_name": "DBS0350837",
         "strain_descriptor": "[unk]:rasD(G12T)/[rasD]:rapA",
         "associated_genes": [
@@ -16749,6 +17058,23 @@
         "mutant_types": {
             "null": false,
             "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351430",
+        "strain_descriptor": "[unk]:tps9(N236A)",
+        "associated_genes": [
+            "tps9"
+        ],
+        "phenotypes": [
+            "decreased catalytic activity"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
             "multiple ": false,
             "other": false,
             "developmental": false
@@ -18943,7 +19269,7 @@
             "adprt1A"
         ],
         "phenotypes": [
-            "increased sensitivity to DNA-damaging agents",
+            "decreased resistance to DNA-damaging agents",
             "decreased double-strand break repair via nonhomologous end joining"
         ],
         "mutant_types": {
@@ -18989,7 +19315,7 @@
             "adprt2"
         ],
         "phenotypes": [
-            "increased sensitivity to DNA-damaging agents",
+            "decreased resistance to DNA-damaging agents",
             "increased sensitivity to cisplatin",
             "decreased double-strand break repair via nonhomologous end joining"
         ],
@@ -19008,8 +19334,8 @@
             "adprt1B"
         ],
         "phenotypes": [
-            "increased sensitivity to DNA-damaging agents",
             "wild type",
+            "decreased resistance to DNA-damaging agents",
             "decreased single-strand break repair",
             "aberrant cAMP wave formation"
         ],
@@ -19028,7 +19354,7 @@
             "adprt2"
         ],
         "phenotypes": [
-            "increased sensitivity to DNA-damaging agents",
+            "decreased resistance to DNA-damaging agents",
             "increased sensitivity to cisplatin",
             "decreased single-strand break repair",
             "decreased double-strand break repair"
@@ -19062,7 +19388,7 @@
         }
     },
     {
-        "systematic_name": "DBS0236117",
+        "systematic_name": "HW420",
         "strain_descriptor": "agtA-",
         "associated_genes": [
             "agtA"
@@ -19074,6 +19400,24 @@
             "null": true,
             "overexpression": false,
             "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "HW520",
+        "strain_descriptor": "agtA-/gnt1(1-253/H104D)",
+        "associated_genes": [
+            "agtA",
+            "gnt1"
+        ],
+        "phenotypes": [
+            "abolished culmination"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
             "other": false,
             "developmental": true
         }
@@ -20298,16 +20642,33 @@
         }
     },
     {
+        "systematic_name": "DBS0351484",
+        "strain_descriptor": "aqpB-",
+        "associated_genes": [
+            "aqpB"
+        ],
+        "phenotypes": [
+            "decreased cell motility"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0351067",
         "strain_descriptor": "araA-",
         "associated_genes": [
             "araA"
         ],
         "phenotypes": [
-            "increased protein kinase B activation",
             "delayed aggregation",
             "increased cell-substrate adhesion",
-            "decreased cell motility"
+            "decreased cell motility",
+            "increased protein kinase activation"
         ],
         "mutant_types": {
             "null": true,
@@ -20687,18 +21048,17 @@
         ],
         "phenotypes": [
             "abolished sporulation",
-            "decreased growth rate in suspension",
             "abolished macroautophagy",
             "increased number of autophagosomes",
             "aberrant autophagy",
             "increased infection rate by a gram-positive pathogenic bacterium",
             "aberrant cellular response to nitrogen starvation",
             "abolished SDF production",
+            "decreased growth rate",
             "increased infection rate by a gram-negative pathogenic bacterium",
             "aberrant vacuole organization and biogenesis",
             "abolished stalk cell differentiation",
             "abolished aggregation",
-            "decreased growth rate on bacterial plates",
             "aberrant defense response to yeast",
             "aberrant protein localization"
         ],
@@ -20955,6 +21315,25 @@
         }
     },
     {
+        "systematic_name": "DBS0351478",
+        "strain_descriptor": "atg5-",
+        "associated_genes": [
+            "atg5"
+        ],
+        "phenotypes": [
+            "abolished sporulation",
+            "decreased prespore gene expression",
+            "delayed development"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
         "systematic_name": "HR174",
         "strain_descriptor": "atg6-",
         "associated_genes": [
@@ -20998,6 +21377,66 @@
             "null": true,
             "overexpression": false,
             "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351476",
+        "strain_descriptor": "atg7-",
+        "associated_genes": [
+            "atg7"
+        ],
+        "phenotypes": [
+            "aberrant sorus morphology",
+            "decreased spore viability",
+            "decreased gene expression",
+            "decreased prespore cell differentiation",
+            "decreased prespore gene expression",
+            "delayed development"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351477",
+        "strain_descriptor": "atg7-/[act15]:YFP:atg7(C563A)",
+        "associated_genes": [
+            "atg7"
+        ],
+        "phenotypes": [
+            "aberrant sorus morphology",
+            "decreased spore viability",
+            "delayed development"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": true,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351479",
+        "strain_descriptor": "atg7-/[act15]:pkaC:YFP",
+        "associated_genes": [
+            "atg7",
+            "pkaC"
+        ],
+        "phenotypes": [
+            "decreased prespore gene expression",
+            "spores inviable"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
             "other": false,
             "developmental": true
         }
@@ -21103,6 +21542,7 @@
         "phenotypes": [
             "increased stalk width",
             "decreased pinocytosis",
+            "abolished sporulation",
             "aberrant sorus morphology",
             "aberrant autophagy",
             "decreased phagocytosis",
@@ -21111,7 +21551,10 @@
             "aberrant slug migration",
             "aberrant protein modification",
             "aberrant phagosome maturation",
+            "decreased prespore gene expression",
+            "decreased prespore cell differentiation",
             "decreased protein localization",
+            "delayed development",
             "aberrant fruiting body morphology",
             "aberrant slug formation",
             "multiple tips in mound",
@@ -21200,6 +21643,24 @@
         }
     },
     {
+        "systematic_name": "DBS0351480",
+        "strain_descriptor": "atg9-/[act15]:pkaC:YFP",
+        "associated_genes": [
+            "atg9",
+            "pkaC"
+        ],
+        "phenotypes": [
+            "spores inviable"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
         "systematic_name": "DBS0350731",
         "strain_descriptor": "atg9-/tipD-",
         "associated_genes": [
@@ -21279,6 +21740,26 @@
         }
     },
     {
+        "systematic_name": "DBS0351503",
+        "strain_descriptor": "bcas3-",
+        "associated_genes": [
+            "bcas3"
+        ],
+        "phenotypes": [
+            "decreased number of autophagosomes",
+            "aberrant phototaxis",
+            "decreased sporulation",
+            "aberrant fruiting body morphology"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
         "systematic_name": "DBS0351039",
         "strain_descriptor": "bzpF-",
         "associated_genes": [
@@ -21355,6 +21836,24 @@
         }
     },
     {
+        "systematic_name": "DBS0351486",
+        "strain_descriptor": "c2gapB-",
+        "associated_genes": [
+            "c2gapB"
+        ],
+        "phenotypes": [
+            "increased cell motility",
+            "increased activation of GTPase activity"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "TL97",
         "strain_descriptor": "cadA-",
         "associated_genes": [
@@ -21367,7 +21866,7 @@
             "increased chemotaxis to cAMP",
             "aberrant cytokinesis",
             "multiple tips",
-            "aberrant development",
+            "abolished sorting to prestalk region",
             "decreased sporulation",
             "delayed culmination",
             "increased prestalk cell differentiation"
@@ -23108,6 +23607,24 @@
         }
     },
     {
+        "systematic_name": "DBS0351402",
+        "strain_descriptor": "corA-",
+        "associated_genes": [
+            "corA"
+        ],
+        "phenotypes": [
+            "aberrant actin cytoskeleton organization",
+            "aberrant cytokinesis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "HG1569",
         "strain_descriptor": "corA-",
         "associated_genes": [
@@ -23288,6 +23805,42 @@
             "multiple ": true,
             "other": false,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351412",
+        "strain_descriptor": "corA-/mhcA-",
+        "associated_genes": [
+            "corA",
+            "mhcA"
+        ],
+        "phenotypes": [
+            "aberrant cytokinesis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351413",
+        "strain_descriptor": "corA-/piaA-",
+        "associated_genes": [
+            "corA",
+            "piaA"
+        ],
+        "phenotypes": [
+            "aberrant cytokinesis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -24505,7 +25058,7 @@
             "dclre1"
         ],
         "phenotypes": [
-            "increased sensitivity to DNA-damaging agents",
+            "decreased resistance to DNA-damaging agents",
             "decreased double-strand break repair via nonhomologous end joining",
             "aberrant double-strand break repair via homologous recombination"
         ],
@@ -25816,6 +26369,7 @@
             "aberrant F-actin organization",
             "increased cell size",
             "decreased growth rate",
+            "abolished protein localization",
             "increased F-actin depolymerization",
             "aberrant protein localization"
         ],
@@ -25823,6 +26377,24 @@
             "null": true,
             "overexpression": false,
             "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351395",
+        "strain_descriptor": "dlpA-/dlpB-",
+        "associated_genes": [
+            "dlpA",
+            "dlpB"
+        ],
+        "phenotypes": [
+            "aberrant cytokinesis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
             "other": false,
             "developmental": false
         }
@@ -25837,7 +26409,8 @@
             "aberrant cell separation during cytokinesis",
             "aberrant cytokinesis",
             "increased cell size",
-            "decreased growth rate"
+            "decreased growth rate",
+            "abolished protein localization"
         ],
         "mutant_types": {
             "null": true,
@@ -25976,7 +26549,7 @@
             "dnapkcs"
         ],
         "phenotypes": [
-            "increased sensitivity to DNA-damaging agents",
+            "decreased resistance to DNA-damaging agents",
             "decreased double-strand break repair via nonhomologous end joining"
         ],
         "mutant_types": {
@@ -26013,7 +26586,7 @@
             "dnapkcs"
         ],
         "phenotypes": [
-            "increased sensitivity to DNA-damaging agents",
+            "decreased resistance to DNA-damaging agents",
             "increased sensitivity to cisplatin"
         ],
         "mutant_types": {
@@ -26032,7 +26605,7 @@
             "exo1"
         ],
         "phenotypes": [
-            "increased sensitivity to DNA-damaging agents"
+            "decreased resistance to DNA-damaging agents"
         ],
         "mutant_types": {
             "null": false,
@@ -26755,10 +27328,10 @@
             "dspA"
         ],
         "phenotypes": [
-            "increased protein kinase B activation",
             "delayed aggregation",
             "increased cell-substrate adhesion",
-            "decreased cell motility"
+            "decreased cell motility",
+            "increased protein kinase activation"
         ],
         "mutant_types": {
             "null": true,
@@ -27903,7 +28476,7 @@
         "phenotypes": [
             "aberrant streaming",
             "aberrant tip formation",
-            "abolished protein kinase B activation",
+            "abolished protein kinase activation",
             "aberrant cellular response to extracellular stimulus",
             "abolished positive regulation of chemorepellant activity"
         ],
@@ -27967,6 +28540,25 @@
             "multiple ": true,
             "other": false,
             "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351474",
+        "strain_descriptor": "erkA-/regA-",
+        "associated_genes": [
+            "erkA",
+            "regA"
+        ],
+        "phenotypes": [
+            "decreased aggregate size",
+            "aberrant fruiting body morphology"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": true
         }
     },
     {
@@ -28112,7 +28704,7 @@
             "exo1"
         ],
         "phenotypes": [
-            "increased sensitivity to DNA-damaging agents",
+            "decreased resistance to DNA-damaging agents",
             "decreased double-strand break repair via homologous recombination"
         ],
         "mutant_types": {
@@ -28957,6 +29549,43 @@
             "multiple ": false,
             "other": false,
             "developmental": false
+        }
+    },
+    {
+        "systematic_name": "HW440",
+        "strain_descriptor": "fpaA(P143A)",
+        "associated_genes": [
+            "fpaA"
+        ],
+        "phenotypes": [
+            "delayed aggregation",
+            "decreased resistance to reduced oxygen levels"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "HW435",
+        "strain_descriptor": "fpaB-/AX2",
+        "associated_genes": [
+            "fpaB-1",
+            "fpaB-2"
+        ],
+        "phenotypes": [
+            "increased stalk length",
+            "increased resistance to decreased oxygen levels"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
         }
     },
     {
@@ -30135,8 +30764,25 @@
         }
     },
     {
+        "systematic_name": "DBS0351451",
+        "strain_descriptor": "gefB-/AX2",
+        "associated_genes": [
+            "gefB"
+        ],
+        "phenotypes": [
+            "wild type"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0236009",
-        "strain_descriptor": "gefB-",
+        "strain_descriptor": "gefB-/AX3",
         "associated_genes": [
             "gefB"
         ],
@@ -30242,11 +30888,48 @@
             "gefE"
         ],
         "phenotypes": [
-            "decreased positive regulation of GTPase activity",
-            "decreased response to DIF"
+            "decreased activation of GTPase activity",
+            "increased gene expression",
+            "decreased response to DIF",
+            "increased prespore cell differentiation"
         ],
         "mutant_types": {
             "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351462",
+        "strain_descriptor": "gefE-/uduB-",
+        "associated_genes": [
+            "gefE",
+            "uduB"
+        ],
+        "phenotypes": [
+            "wild type"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351450",
+        "strain_descriptor": "gefF:GFP",
+        "associated_genes": [
+            "gefF"
+        ],
+        "phenotypes": [
+            "decreased macropinocytosis"
+        ],
+        "mutant_types": {
+            "null": false,
             "overexpression": false,
             "multiple ": false,
             "other": false,
@@ -30680,6 +31363,24 @@
         }
     },
     {
+        "systematic_name": "HL250",
+        "strain_descriptor": "gmd(G108D)",
+        "associated_genes": [
+            "gmd"
+        ],
+        "phenotypes": [
+            "decreased spore germination",
+            "decreased growth rate"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
         "systematic_name": "DBS0236079",
         "strain_descriptor": "gmsA-",
         "associated_genes": [
@@ -30707,6 +31408,25 @@
         ],
         "mutant_types": {
             "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "HW503",
+        "strain_descriptor": "gnt1(1-253/H104D)",
+        "associated_genes": [
+            "gnt1"
+        ],
+        "phenotypes": [
+            "aberrant stalk morphogenesis",
+            "decreased resistance to reduced oxygen levels",
+            "abolished culmination"
+        ],
+        "mutant_types": {
+            "null": false,
             "overexpression": false,
             "multiple ": false,
             "other": false,
@@ -33557,8 +34277,8 @@
             "htt"
         ],
         "phenotypes": [
-            "decreased growth rate in suspension",
             "aberrant cell separation during cytokinesis",
+            "decreased growth rate",
             "decreased chemotaxis rate",
             "delayed development",
             "delayed gene expression",
@@ -34025,6 +34745,67 @@
         }
     },
     {
+        "systematic_name": "DBS0351435",
+        "strain_descriptor": "ireA-",
+        "associated_genes": [
+            "ireA"
+        ],
+        "phenotypes": [
+            "increased number of autophagosomes",
+            "decreased protein level",
+            "aberrant vacuole organization and biogenesis",
+            "aberrant gene expression",
+            "aberrant cellular response to stress",
+            "aberrant endoplasmic reticulum organization",
+            "aberrant protein localization"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351436",
+        "strain_descriptor": "ireA-/[act15]:ireA(K603N):GFP",
+        "associated_genes": [
+            "ireA"
+        ],
+        "phenotypes": [
+            "decreased protein level",
+            "aberrant endoplasmic reticulum organization",
+            "aberrant cellular response to stress"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": true,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351437",
+        "strain_descriptor": "ireA-/[act15]:ireA(N927A):GFP",
+        "associated_genes": [
+            "ireA"
+        ],
+        "phenotypes": [
+            "decreased protein level",
+            "aberrant endoplasmic reticulum organization",
+            "aberrant cellular response to stress"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": true,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0236031",
         "strain_descriptor": "kctd9-",
         "associated_genes": [
@@ -34367,6 +35148,24 @@
         }
     },
     {
+        "systematic_name": "DBS0351457",
+        "strain_descriptor": "kil1-/lrrkA-",
+        "associated_genes": [
+            "drkD",
+            "kil1"
+        ],
+        "phenotypes": [
+            "aberrant defense response to bacterium"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350043",
         "strain_descriptor": "kil2-",
         "associated_genes": [
@@ -34424,6 +35223,24 @@
         }
     },
     {
+        "systematic_name": "DBS0351458",
+        "strain_descriptor": "kil2-/lrrkA-",
+        "associated_genes": [
+            "drkD",
+            "kil2"
+        ],
+        "phenotypes": [
+            "aberrant defense response to bacterium"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350875",
         "strain_descriptor": "kil2-/vps13F-",
         "associated_genes": [
@@ -34440,6 +35257,29 @@
             "multiple ": true,
             "other": false,
             "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351502",
+        "strain_descriptor": "knkA-",
+        "associated_genes": [
+            "knkA"
+        ],
+        "phenotypes": [
+            "decreased spore germination",
+            "aberrant spore morphology",
+            "decreased gene expression",
+            "decreased number of autophagosomes",
+            "aberrant phototaxis",
+            "decreased sporulation",
+            "aberrant fruiting body morphology"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
         }
     },
     {
@@ -34666,7 +35506,7 @@
             "ku80"
         ],
         "phenotypes": [
-            "increased sensitivity to DNA-damaging agents",
+            "decreased resistance to DNA-damaging agents",
             "decreased double-strand break repair via nonhomologous end joining"
         ],
         "mutant_types": {
@@ -35060,8 +35900,17 @@
             "lmpA"
         ],
         "phenotypes": [
+            "decreased pinocytosis",
+            "decreased protein level",
+            "increased infection rate by a gram-positive pathogenic bacterium",
+            "decreased phagocytosis",
+            "decreased growth rate",
+            "decreased cell motility",
+            "aberrant phagosome maturation",
+            "decreased phagosomal proteolysis",
             "decreased fruiting body size",
-            "decreased sporulation"
+            "decreased sporulation",
+            "decreased lysosomal enzyme activity"
         ],
         "mutant_types": {
             "null": true,
@@ -35069,6 +35918,41 @@
             "multiple ": false,
             "other": false,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351481",
+        "strain_descriptor": "lmpB-",
+        "associated_genes": [
+            "lmpB"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351482",
+        "strain_descriptor": "lmpC-",
+        "associated_genes": [
+            "lmpC"
+        ],
+        "phenotypes": [
+            "decreased protein localization to cell surface",
+            "increased protein localization to cell surface"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -35188,6 +36072,25 @@
             "multiple ": false,
             "other": false,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351456",
+        "strain_descriptor": "lrrkA-",
+        "associated_genes": [
+            "drkD"
+        ],
+        "phenotypes": [
+            "aberrant defense response to bacterium",
+            "abolished growth",
+            "decreased phagosomal proteolysis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -35937,6 +36840,7 @@
             "mhcA"
         ],
         "phenotypes": [
+            "aberrant cellular response to fluid shear stress",
             "abolished bleb formation"
         ],
         "mutant_types": {
@@ -35973,6 +36877,7 @@
             "mhcA"
         ],
         "phenotypes": [
+            "aberrant streaming",
             "decreased cell motility"
         ],
         "mutant_types": {
@@ -35980,7 +36885,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": false
+            "developmental": true
         }
     },
     {
@@ -36155,8 +37060,8 @@
             "mhcA"
         ],
         "phenotypes": [
-            "decreased growth rate in suspension",
             "increased myosin II assembly",
+            "decreased growth rate",
             "aberrant chemotaxis"
         ],
         "mutant_types": {
@@ -36328,6 +37233,24 @@
         }
     },
     {
+        "systematic_name": "DBS0351411",
+        "strain_descriptor": "mhcA-/piaA-",
+        "associated_genes": [
+            "mhcA",
+            "piaA"
+        ],
+        "phenotypes": [
+            "aberrant cytokinesis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "CW0371",
         "strain_descriptor": "mhkA-",
         "associated_genes": [
@@ -36376,8 +37299,8 @@
             "mhkC"
         ],
         "phenotypes": [
-            "decreased growth rate in suspension",
             "increased myosin II assembly",
+            "decreased growth rate",
             "aberrant cytokinesis",
             "aberrant chemotaxis",
             "decreased cell motility"
@@ -36418,8 +37341,8 @@
             "mhkB"
         ],
         "phenotypes": [
-            "decreased growth rate in suspension",
             "increased myosin II assembly",
+            "decreased growth rate",
             "aberrant cytokinesis"
         ],
         "mutant_types": {
@@ -36852,8 +37775,8 @@
             "mlcE"
         ],
         "phenotypes": [
-            "decreased growth rate in suspension",
             "aberrant cytokinesis",
+            "decreased growth rate",
             "delayed aggregation",
             "aberrant taxis",
             "decreased cell motility",
@@ -37267,6 +38190,25 @@
         }
     },
     {
+        "systematic_name": "DBS0351489",
+        "strain_descriptor": "mvpA-/mvpB-",
+        "associated_genes": [
+            "mvpA",
+            "mvpB"
+        ],
+        "phenotypes": [
+            "decreased growth rate",
+            "aberrant cellular component organization or biogenesis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0236570",
         "strain_descriptor": "mybB-",
         "associated_genes": [
@@ -37446,13 +38388,13 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "decreased growth rate in suspension",
             "aberrant cytoskeleton organisation",
             "increased secretion of lysosomal enzyme",
             "increased filopodium formation",
             "aberrant aggregation",
             "aberrant cortical actin cytoskeleton stabilization",
             "aberrant endosomal transport",
+            "decreased growth rate",
             "aberrant F-actin organization",
             "delayed aggregation",
             "decreased cell motility",
@@ -37736,10 +38678,10 @@
         ],
         "phenotypes": [
             "increased secretion of lysosomal enzyme",
-            "decreased growth rate in suspension",
             "aberrant cytoskeleton organisation",
             "decreased pinocytosis",
             "increased filopodium formation",
+            "decreased growth rate",
             "aberrant F-actin organization",
             "decreased cell motility",
             "decreased fruiting body size"
@@ -38016,6 +38958,41 @@
         }
     },
     {
+        "systematic_name": "DBS0351400",
+        "strain_descriptor": "myoI-/[act15]:GFP:myoI(1-1020)",
+        "associated_genes": [
+            "myoI"
+        ],
+        "phenotypes": [
+            "abolished localization to pseudopodium",
+            "decreased filopodium formation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351398",
+        "strain_descriptor": "myoI-/[act15]:GFP:myoI(2057-2357)",
+        "associated_genes": [
+            "myoI"
+        ],
+        "phenotypes": [
+            "increased filopodium formation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0266890",
         "strain_descriptor": "myoI-/[act15]:GFP:myoI(809-1154)",
         "associated_genes": [
@@ -38028,6 +39005,23 @@
             "null": true,
             "overexpression": true,
             "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351399",
+        "strain_descriptor": "myoI-/[act15]:GFP:myoI(K23333A,K2336A)",
+        "associated_genes": [
+            "myoI"
+        ],
+        "phenotypes": [
+            "increased filopodium formation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
             "other": false,
             "developmental": false
         }
@@ -38833,6 +39827,47 @@
             "null": false,
             "overexpression": false,
             "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351466",
+        "strain_descriptor": "nola4(I23T)",
+        "associated_genes": [
+            "nola4"
+        ],
+        "phenotypes": [
+            "decreased resistance to DNA-damaging agents",
+            "decreased growth rate",
+            "increased growth rate",
+            "aberrant response to oxidative stress"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351467",
+        "strain_descriptor": "nola4(T33M)",
+        "associated_genes": [
+            "nola4"
+        ],
+        "phenotypes": [
+            "decreased resistance to DNA-damaging agents",
+            "decreased gene expression",
+            "decreased growth rate",
+            "increased growth rate",
+            "aberrant response to oxidative stress"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": false,
             "other": false,
             "developmental": false
         }
@@ -41285,8 +42320,9 @@
         ],
         "phenotypes": [
             "abolished sporulation",
-            "decreased peptidyl-proline hydroxylation",
+            "decreased resistance to reduced oxygen levels",
             "abolished stalk formation",
+            "abolished peptidyl-proline hydroxylation",
             "abolished culmination"
         ],
         "mutant_types": {
@@ -41362,6 +42398,23 @@
             "null": false,
             "overexpression": false,
             "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351455",
+        "strain_descriptor": "piaA(G917D)/[unk]:GFP:piaA(G963E)",
+        "associated_genes": [
+            "piaA"
+        ],
+        "phenotypes": [
+            "abolished aggregation"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": true,
             "other": false,
             "developmental": true
         }
@@ -41494,6 +42547,23 @@
             "aberrant protein localization to plasma membrane",
             "increased activation of GTPase activity",
             "abolished positive regulation of chemorepellant activity"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351403",
+        "strain_descriptor": "piaA-",
+        "associated_genes": [
+            "piaA"
+        ],
+        "phenotypes": [
+            "aberrant cytokinesis"
         ],
         "mutant_types": {
             "null": true,
@@ -41913,6 +42983,45 @@
         }
     },
     {
+        "systematic_name": "DBS0351429",
+        "strain_descriptor": "pip5k3-/AX2",
+        "associated_genes": [
+            "pip5k3"
+        ],
+        "phenotypes": [
+            "aberrant defense response to bacterium",
+            "aberrant phagosome maturation",
+            "increased infection rate by a gram-negative pathogenic bacterium",
+            "decreased phagosomal proteolysis",
+            "decreased protein localization"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351428",
+        "strain_descriptor": "pip5k3-/AX3",
+        "associated_genes": [
+            "pip5k3"
+        ],
+        "phenotypes": [
+            "aberrant macropinocytosis",
+            "decreased growth rate"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "SB16",
         "strain_descriptor": "pirA-",
         "associated_genes": [
@@ -42022,10 +43131,10 @@
             "decreased gene expression",
             "aberrant myosin II organization",
             "decreased activation of GTPase activity",
-            "aberrant cAMP signaling",
             "abolished catalytic activity",
             "aberrant F-actin organization",
             "aberrant CRAC localization to the plasma membrane",
+            "aberrant response to cAMP",
             "decreased protein kinase activation",
             "abolished aggregation",
             "aberrant protein localization to cell cortex",
@@ -43588,7 +44697,6 @@
             "decreased culmination",
             "increased protein phosphorylation",
             "decreased activation of GTPase activity",
-            "increased protein kinase B activation",
             "decreased cell motility",
             "delayed development",
             "delayed gene expression",
@@ -44301,6 +45409,24 @@
         }
     },
     {
+        "systematic_name": "DBS0351499",
+        "strain_descriptor": "pzoA-",
+        "associated_genes": [
+            "pzoA"
+        ],
+        "phenotypes": [
+            "aberrant cellular response to fluid shear stress",
+            "aberrant chemotaxis to cAMP"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350017",
         "strain_descriptor": "qdpr-",
         "associated_genes": [
@@ -44758,6 +45884,7 @@
         ],
         "phenotypes": [
             "aberrant cytokinesis",
+            "increased cell-substrate adhesion",
             "decreased cell motility",
             "aberrant cell morphology",
             "multiple tips in mound"
@@ -44805,6 +45932,24 @@
             "increased basal F-actin level",
             "increased lateral pseudopod formation",
             "increased cell motility"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351487",
+        "strain_descriptor": "rapgap3-",
+        "associated_genes": [
+            "rapgap3"
+        ],
+        "phenotypes": [
+            "increased cell motility",
+            "increased activation of GTPase activity"
         ],
         "mutant_types": {
             "null": true,
@@ -45008,7 +46153,8 @@
         ],
         "phenotypes": [
             "decreased phagocytosis",
-            "aberrant F-actin organization"
+            "aberrant F-actin organization",
+            "decreased macropinocytosis"
         ],
         "mutant_types": {
             "null": true,
@@ -45029,8 +46175,8 @@
             "aberrant F-actin organization",
             "increased cell size",
             "aberrant response to cAMP",
-            "abolished protein kinase B activation",
             "decreased cell motility",
+            "abolished protein kinase activation",
             "decreased protein kinase activation",
             "decreased taxis",
             "abolished aggregation",
@@ -45357,6 +46503,24 @@
         }
     },
     {
+        "systematic_name": "DBS0351449",
+        "strain_descriptor": "rasC-/rasS-",
+        "associated_genes": [
+            "rasC",
+            "rasS"
+        ],
+        "phenotypes": [
+            "increased macropinocytosis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0351213",
         "strain_descriptor": "rasC-[act15]:rasG(S17N)",
         "associated_genes": [
@@ -45376,24 +46540,6 @@
         }
     },
     {
-        "systematic_name": "DBS0236859",
-        "strain_descriptor": "rasD(G12T)",
-        "associated_genes": [
-            "rasD"
-        ],
-        "phenotypes": [
-            "development arrests at mound stage",
-            "development arrests at tipped mound stage"
-        ],
-        "mutant_types": {
-            "null": false,
-            "overexpression": true,
-            "multiple ": false,
-            "other": false,
-            "developmental": true
-        }
-    },
-    {
         "systematic_name": "DBS0236860",
         "strain_descriptor": "rasD-",
         "associated_genes": [
@@ -45409,6 +46555,24 @@
             "multiple ": false,
             "other": false,
             "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351459",
+        "strain_descriptor": "rasD-/AX3",
+        "associated_genes": [
+            "rasD"
+        ],
+        "phenotypes": [
+            "increased gene expression",
+            "increased prespore cell differentiation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
         }
     },
     {
@@ -45477,6 +46641,23 @@
             "multiple ": false,
             "other": false,
             "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351460",
+        "strain_descriptor": "rasG-/AX3",
+        "associated_genes": [
+            "rasG"
+        ],
+        "phenotypes": [
+            "increased prestalk cell differentiation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
         }
     },
     {
@@ -45578,14 +46759,33 @@
         }
     },
     {
+        "systematic_name": "DBS0351447",
+        "strain_descriptor": "rasG-/rasS-",
+        "associated_genes": [
+            "rasG",
+            "rasS"
+        ],
+        "phenotypes": [
+            "decreased macropinocytosis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0236872",
-        "strain_descriptor": "rasS-",
+        "strain_descriptor": "rasS-/AX2",
         "associated_genes": [
             "rasS"
         ],
         "phenotypes": [
-            "decreased pinocytosis",
             "decreased cell polarity",
+            "decreased macropinocytosis",
+            "decreased cell motility",
             "aberrant pinosome maturation"
         ],
         "mutant_types": {
@@ -45597,8 +46797,25 @@
         }
     },
     {
+        "systematic_name": "DBS0351446",
+        "strain_descriptor": "rasS-/AX2",
+        "associated_genes": [
+            "rasS"
+        ],
+        "phenotypes": [
+            "aberrant macropinocytosis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0236873",
-        "strain_descriptor": "rasS-",
+        "strain_descriptor": "rasS-/DH1",
         "associated_genes": [
             "rasS"
         ],
@@ -45620,7 +46837,7 @@
     },
     {
         "systematic_name": "DBS0351314",
-        "strain_descriptor": "rasS-",
+        "strain_descriptor": "rasS-/DdB",
         "associated_genes": [
             "rasS"
         ],
@@ -46023,7 +47240,7 @@
         ],
         "phenotypes": [
             "increased intracellular cAMP level",
-            "decreased number of spores"
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -46046,6 +47263,23 @@
             "decreased protein level",
             "aberrant contractile vacuole morphology",
             "decreased growth rate",
+            "aberrant cytokinesis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351504",
+        "strain_descriptor": "rdiA-",
+        "associated_genes": [
+            "rdiA"
+        ],
+        "phenotypes": [
             "aberrant cytokinesis"
         ],
         "mutant_types": {
@@ -46211,7 +47445,8 @@
         ],
         "phenotypes": [
             "increased intracellular cAMP level",
-            "decreased macropinocytosis"
+            "decreased macropinocytosis",
+            "aberrant cAMP wave formation"
         ],
         "mutant_types": {
             "null": true,
@@ -46223,7 +47458,7 @@
     },
     {
         "systematic_name": "DBS0350372",
-        "strain_descriptor": "regA-",
+        "strain_descriptor": "regA-/KAX3",
         "associated_genes": [
             "regA"
         ],
@@ -46273,6 +47508,41 @@
             "null": true,
             "overexpression": false,
             "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351475",
+        "strain_descriptor": "regA-/[act15]:erkA",
+        "associated_genes": [
+            "erkA",
+            "regA"
+        ],
+        "phenotypes": [
+            "delayed slug formation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351472",
+        "strain_descriptor": "regA-/[act15]:regA(R588A,R589A,L594A,I595A,L596A)",
+        "associated_genes": [
+            "regA"
+        ],
+        "phenotypes": [
+            "delayed development"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
             "other": false,
             "developmental": true
         }
@@ -46337,6 +47607,7 @@
             "regA"
         ],
         "phenotypes": [
+            "increased aggregate size",
             "delayed development"
         ],
         "mutant_types": {
@@ -46435,6 +47706,26 @@
         }
     },
     {
+        "systematic_name": "DBS0351473",
+        "strain_descriptor": "regA-/regA(R588A,R589A,L594A,I595A,L596)",
+        "associated_genes": [
+            "regA"
+        ],
+        "phenotypes": [
+            "precocious sporulation",
+            "increased protein binding",
+            "decreased aggregate size",
+            "aberrant fruiting body morphology"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
         "systematic_name": "DBS0236891",
         "strain_descriptor": "regA-/tagB-",
         "associated_genes": [
@@ -46477,7 +47768,7 @@
             "repB"
         ],
         "phenotypes": [
-            "increased sensitivity to DNA-damaging agents"
+            "decreased resistance to DNA-damaging agents"
         ],
         "mutant_types": {
             "null": false,
@@ -46936,6 +48227,7 @@
         ],
         "phenotypes": [
             "decreased thermotaxis",
+            "increased infection rate by a pathogenic bacterium",
             "decreased growth rate",
             "decreased phototaxis"
         ],
@@ -48507,9 +49799,15 @@
             "snfA"
         ],
         "phenotypes": [
+            "decreased pinocytosis",
+            "increased cell death",
             "decreased spore viability",
+            "decreased phagocytosis",
+            "decreased number of autophagosomes",
             "decreased prespore cell differentiation",
             "aberrant gene expression",
+            "aberrant protein modification",
+            "decreased autophagy",
             "aberrant development",
             "increased growth rate",
             "aberrant prestalk cell differentiation"
@@ -49622,9 +50920,12 @@
         ],
         "phenotypes": [
             "decreased slug migration",
+            "aberrant cellular process",
             "decreased cell motility",
+            "aberrant cAMP signaling during aggregation",
             "development arrests at tipped mound stage",
-            "increased protein level"
+            "increased protein level",
+            "aberrant signal transduction"
         ],
         "mutant_types": {
             "null": true,
@@ -49686,6 +50987,24 @@
             "multiple ": true,
             "other": false,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351501",
+        "strain_descriptor": "talB-/pikB-",
+        "associated_genes": [
+            "pikB",
+            "talB"
+        ],
+        "phenotypes": [
+            "aberrant cellular process"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -49758,7 +51077,8 @@
         ],
         "phenotypes": [
             "development arrests at loose mound stage",
-            "abolished cell-cell self recognition"
+            "abolished cell-cell self recognition",
+            "aberrant cAMP wave formation"
         ],
         "mutant_types": {
             "null": false,
@@ -50151,6 +51471,23 @@
         }
     },
     {
+        "systematic_name": "DBS0351500",
+        "strain_descriptor": "tipB-",
+        "associated_genes": [
+            "tipB"
+        ],
+        "phenotypes": [
+            "multiple tips in mound"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
         "systematic_name": "JS56",
         "strain_descriptor": "tipB-",
         "associated_genes": [
@@ -50383,11 +51720,11 @@
             "tnlB"
         ],
         "phenotypes": [
-            "increased protein kinase B activation",
             "decreased gene expression",
             "delayed aggregation",
             "increased cell-substrate adhesion",
-            "decreased cell motility"
+            "decreased cell motility",
+            "increased protein kinase activation"
         ],
         "mutant_types": {
             "null": false,
@@ -50449,6 +51786,30 @@
             "multiple ": false,
             "other": false,
             "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351498",
+        "strain_descriptor": "tpc2-",
+        "associated_genes": [
+            "tpc2"
+        ],
+        "phenotypes": [
+            "increased number of autophagosomes",
+            "aberrant Ca2+ signaling",
+            "increased gene expression",
+            "decreased gene expression",
+            "aberrant vegetative growth",
+            "increased protein kinase activity",
+            "delayed development",
+            "increased lysosomal pH"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
         }
     },
     {
@@ -50671,6 +52032,23 @@
             "multiple ": false,
             "other": false,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0350107",
+        "strain_descriptor": "tsc2-",
+        "associated_genes": [
+            "tsc2"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -50911,6 +52289,23 @@
             "increased gene expression",
             "decreased gene expression",
             "precocious development"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351464",
+        "strain_descriptor": "uduB-/AX3",
+        "associated_genes": [
+            "uduB"
+        ],
+        "phenotypes": [
+            "increased prestalk cell differentiation"
         ],
         "mutant_types": {
             "null": true,
@@ -51801,7 +53196,9 @@
             "decreased phagocytosis",
             "aberrant phagosome maturation",
             "decreased infection rate by a gram-positive pathogenic bacterium",
+            "increased infection rate by a gram-negative pathogenic bacterium",
             "decreased phagosomal proteolysis",
+            "decreased protein localization",
             "abolished phagosome re-neutralization",
             "aberrant protein localization"
         ],
