@@ -15,7 +15,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20190713",
+    "modification_date": "20200321",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -3224,7 +3224,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -6678,7 +6678,7 @@
     "other_designations": [
       "Zcf32p"
     ],
-    "modification_date": "20180428",
+    "modification_date": "20190831",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -6942,7 +6942,7 @@
     "other_designations": [
       "putative GTPase"
     ],
-    "modification_date": "20181110",
+    "modification_date": "20190831",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -7052,7 +7052,7 @@
     "other_designations": [
       "autophagy protein"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -8482,7 +8482,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -9428,7 +9428,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -12396,7 +12396,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -15034,7 +15034,7 @@
     "other_designations": [
       "Hsp70 family chaperone"
     ],
-    "modification_date": "20190804",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -16838,7 +16838,7 @@
     "other_designations": [
       "Adh1p"
     ],
-    "modification_date": "20190804",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -18136,7 +18136,7 @@
     "other_designations": [
       "ATP-dependent RNA helicase"
     ],
-    "modification_date": "20190804",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -19566,7 +19566,7 @@
     "other_designations": [
       "DNA-binding transcription factor"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200104",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -22118,7 +22118,7 @@
     "other_designations": [
       "trehalose-phosphatase"
     ],
-    "modification_date": "20181110",
+    "modification_date": "20191012",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -22624,7 +22624,7 @@
     "other_designations": [
       "Ras family GTPase"
     ],
-    "modification_date": "20181110",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -23196,7 +23196,7 @@
     "other_designations": [
       "Hsp90 family chaperone"
     ],
-    "modification_date": "20180929",
+    "modification_date": "20200125",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -23460,7 +23460,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -25198,7 +25198,7 @@
     "other_designations": [
       "Rpd3L histone deacetylase complex subunit"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -26694,7 +26694,7 @@
     "other_designations": [
       "mannose-ethanolamine phosphotransferase"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -30764,7 +30764,7 @@
     "other_designations": [
       "DNA-binding transcriptional regulator"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -33800,7 +33800,7 @@
     "other_designations": [
       "glutathione-independent methylglyoxalase"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20190831",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -37120,7 +37120,7 @@
     "other_designations": [
       "protein phosphatase 2A structural subunit"
     ],
-    "modification_date": "20190804",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -39210,7 +39210,7 @@
     "other_designations": [
       "protein phosphatase regulator"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -41652,7 +41652,7 @@
     "other_designations": [
       "DNA-directed RNA polymerase II core subunit"
     ],
-    "modification_date": "20180909",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -41762,7 +41762,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -42136,7 +42136,7 @@
     "other_designations": [
       "Def1p"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -43126,7 +43126,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -43170,7 +43170,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -44358,7 +44358,7 @@
     "other_designations": [
       "Mdr1p"
     ],
-    "modification_date": "20190505",
+    "modification_date": "20200328",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -44710,7 +44710,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -45062,7 +45062,7 @@
     "other_designations": [
       "Bfa1p"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -45502,7 +45502,7 @@
     "other_designations": [
       "beta-tubulin"
     ],
-    "modification_date": "20190804",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -48294,7 +48294,7 @@
     "other_designations": [
       "H3 histone acetyltransferase"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -52098,7 +52098,7 @@
     "other_designations": [
       "25S rRNA (uracil2843-N3)-methyltransferase"
     ],
-    "modification_date": "20181110",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -53066,7 +53066,7 @@
     "other_designations": [
       "Stb5p"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20191012",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -53990,7 +53990,7 @@
     "other_designations": [
       "U2 snRNP complex subunit"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -54210,7 +54210,7 @@
     "other_designations": [
       "Als5p"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20191214",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -56454,7 +56454,7 @@
     "other_designations": [
       "H(+)-exporting P2-type ATPase"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -64176,7 +64176,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -64660,7 +64660,7 @@
     "other_designations": [
       "ADP/ATP carrier protein"
     ],
-    "modification_date": "20190804",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -68796,7 +68796,7 @@
     "other_designations": [
       "alpha-tubulin"
     ],
-    "modification_date": "20190804",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -68862,7 +68862,7 @@
     "other_designations": [
       "Bgl22p"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -69302,7 +69302,7 @@
     "other_designations": [
       "Vph2p"
     ],
-    "modification_date": "20190511",
+    "modification_date": "20200328",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -69500,7 +69500,7 @@
     "other_designations": [
       "Snt1p"
     ],
-    "modification_date": "20190106",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -71568,7 +71568,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20190505",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -75924,7 +75924,7 @@
     "other_designations": [
       "AMP-activated serine/threonine-protein kinase catalytic subunit"
     ],
-    "modification_date": "20181110",
+    "modification_date": "20200222",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -76408,7 +76408,7 @@
     "other_designations": [
       "indolepyruvate decarboxylase 1"
     ],
-    "modification_date": "20190804",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -76584,7 +76584,7 @@
     "other_designations": [
       "mitogen-activated serine/threonine-protein kinase"
     ],
-    "modification_date": "20190804",
+    "modification_date": "20191026",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -82766,7 +82766,7 @@
     "other_designations": [
       "ubiquitin-specific protease"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -83382,7 +83382,7 @@
     "other_designations": [
       "AAA family ATPase peroxin 6"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -88244,7 +88244,7 @@
     "other_designations": [
       "mismatch repair protein"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -89454,7 +89454,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -89630,7 +89630,7 @@
     "other_designations": [
       "ATP-binding cassette transporter"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20191012",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -89894,7 +89894,7 @@
     "other_designations": [
       "exocyst subunit"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -90048,7 +90048,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -90598,7 +90598,7 @@
     "other_designations": [
       "DNA damage-responsive protein 48"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200208",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -91060,7 +91060,7 @@
     "other_designations": [
       "sulfite reductase subunit alpha"
     ],
-    "modification_date": "20180909",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -92028,7 +92028,7 @@
     "other_designations": [
       "Efg1p"
     ],
-    "modification_date": "20190804",
+    "modification_date": "20191208",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -94052,7 +94052,7 @@
     "other_designations": [
       "mRNA splicing protein"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -95592,7 +95592,7 @@
     "other_designations": [
       "Hsp70 family chaperone"
     ],
-    "modification_date": "20190804",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -97550,7 +97550,7 @@
     "other_designations": [
       "recombinase"
     ],
-    "modification_date": "20181110",
+    "modification_date": "20190921",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -100762,7 +100762,7 @@
     "other_designations": [
       "Cta3p"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -105052,7 +105052,7 @@
     "other_designations": [
       "Stb3p"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -106152,7 +106152,7 @@
     "other_designations": [
       "serine/threonine-protein kinase"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200222",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -106284,7 +106284,7 @@
     "other_designations": [
       "putative ATP-dependent RNA helicase"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -106856,7 +106856,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -109208,7 +109208,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -109450,7 +109450,7 @@
     "other_designations": [
       "Flo8p"
     ],
-    "modification_date": "20190316",
+    "modification_date": "20191221",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -110704,7 +110704,7 @@
     "other_designations": [
       "Rho family GTPase"
     ],
-    "modification_date": "20190707",
+    "modification_date": "20200308",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -110726,7 +110726,7 @@
     "other_designations": [
       "Upc2p"
     ],
-    "modification_date": "20190609",
+    "modification_date": "20190831",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -110814,7 +110814,7 @@
     "other_designations": [
       "phosphopyruvate hydratase"
     ],
-    "modification_date": "20190804",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -113080,7 +113080,7 @@
     "other_designations": [
       "alpha,alpha-trehalose-phosphate synthase (UDP-forming) TPS1"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20191012",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -117458,7 +117458,7 @@
     "other_designations": [
       "recombinase"
     ],
-    "modification_date": "20190505",
+    "modification_date": "20190921",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -120118,7 +120118,7 @@
     "other_designations": [
       "mannose-1-phosphate guanylyltransferase"
     ],
-    "modification_date": "20190804",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -120360,7 +120360,7 @@
     "other_designations": [
       "Mrr2p"
     ],
-    "modification_date": "20180805",
+    "modification_date": "20200314",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -125194,7 +125194,7 @@
     "other_designations": [
       "type 2A-related serine/threonine-protein phosphatase"
     ],
-    "modification_date": "20181110",
+    "modification_date": "20200209",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -127386,7 +127386,7 @@
     "other_designations": [
       "hypothetical protein"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200105",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -127496,7 +127496,7 @@
     "other_designations": [
       "Rad59p"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20190921",
     "homology_group_id": null,
     "homologs": {}
   },
