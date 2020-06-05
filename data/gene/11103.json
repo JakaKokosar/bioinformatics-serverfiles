@@ -15,7 +15,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20200328",
+    "modification_date": "20200516",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -57,7 +57,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20190327",
+    "modification_date": "20200516",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -99,7 +99,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20190327",
+    "modification_date": "20200516",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -141,7 +141,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20190327",
+    "modification_date": "20200516",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -163,7 +163,7 @@
     "other_designations": [
       "polyprotein;protein F"
     ],
-    "modification_date": "20200308",
+    "modification_date": "20200509",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -183,7 +183,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20190327",
+    "modification_date": "20200516",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -225,7 +225,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20190327",
+    "modification_date": "20200516",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -233,10 +233,10 @@
     "species": "Hepatitis C virus",
     "tax_id": "63746",
     "gene_id": "37619432",
-    "symbol": "D1Q49_gp1",
+    "symbol": "POLY",
     "synonyms": [],
     "db_refs": {},
-    "description": "polyprotein",
+    "description": "polyprotein;protein F",
     "locus_tag": "D1Q49_gp1",
     "chromosome": null,
     "map_location": null,
@@ -245,9 +245,9 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [
-      "polyprotein"
+      "polyprotein;protein F"
     ],
-    "modification_date": "20191102",
+    "modification_date": "20200421",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -267,7 +267,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20190327",
+    "modification_date": "20200516",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -309,7 +309,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20190327",
+    "modification_date": "20200516",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -351,7 +351,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20190327",
+    "modification_date": "20200516",
     "homology_group_id": null,
     "homologs": {}
   }

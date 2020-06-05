@@ -138,25 +138,32 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	944756	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	944757	GO:0001216	IDA	-	bacterial-type RNA polymerase transcriptional activator activity, sequence-specific DNA binding	9312050	Function
 511145	944757	GO:0003677	IEA	-	DNA binding	-	Function
+511145	944757	GO:0003700	IBA	-	DNA-binding transcription factor activity	21873635	Function
 511145	944757	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	944757	GO:0005737	IEA	-	cytoplasm	-	Component
 511145	944757	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
+511145	944757	GO:2000142	IBA	-	regulation of DNA-templated transcription, initiation	21873635	Process
 511145	944757	GO:2000144	IMP	-	positive regulation of DNA-templated transcription, initiation	1316901	Process
 511145	944758	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	944758	GO:0005886	IEA	-	plasma membrane	-	Component
+511145	944758	GO:0005887	IBA	-	integral component of plasma membrane	21873635	Component
 511145	944758	GO:0005887	IDA	-	integral component of plasma membrane	8943289	Component
 511145	944758	GO:0005887	ISM	-	integral component of plasma membrane	2839489	Component
 511145	944758	GO:0006811	IEA	-	ion transport	-	Process
 511145	944758	GO:0006814	IEA	-	sodium ion transport	-	Process
+511145	944758	GO:0006883	IBA	-	cellular sodium ion homeostasis	21873635	Process
 511145	944758	GO:0006883	IMP	-	cellular sodium ion homeostasis	2555351	Process
 511145	944758	GO:0006885	IEA	-	regulation of pH	-	Process
 511145	944758	GO:0015081	IEA	-	sodium ion transmembrane transporter activity	-	Function
 511145	944758	GO:0015297	IEA	-	antiporter activity	-	Function
+511145	944758	GO:0015385	IBA	-	sodium:proton antiporter activity	21873635	Function
 511145	944758	GO:0015385	IDA	-	sodium:proton antiporter activity	1645730|2839489	Function
 511145	944758	GO:0016020	IEA	-	membrane	-	Component
 511145	944758	GO:0016021	IEA	-	integral component of membrane	-	Component
+511145	944758	GO:0036376	IBA	-	sodium ion export across plasma membrane	21873635	Process
 511145	944758	GO:0036376	IDA	-	sodium ion export across plasma membrane	1645730	Process
 511145	944758	GO:0043157	IEP	-	response to cation stress	1657980	Process
+511145	944758	GO:0051453	IBA	-	regulation of intracellular pH	21873635	Process
 511145	944758	GO:0051453	IDA	-	regulation of intracellular pH	1645730	Process
 511145	944758	GO:1901612	IDA	-	cardiolipin binding	28077870	Function
 511145	944759	GO:0000028	IDA	-	ribosomal small subunit assembly	3297162	Process
@@ -356,7 +363,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	944775	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	944775	GO:0000166	IMP	-	nucleotide binding	10843852	Function
 511145	944775	GO:0004087	IDA	-	carbamoyl-phosphate synthase (ammonia) activity	3549732	Function
-511145	944775	GO:0004088	IBA	contributes_to	carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity	21873635	Function
 511145	944775	GO:0004088	IEA	-	carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity	-	Function
 511145	944775	GO:0005515	IPI	-	protein binding	9636022|10029528|10428826|12130656|15690043|19402753|22841294|23582331|24561554	Function
 511145	944775	GO:0005524	IDA	-	ATP binding	1737023	Function
@@ -1403,6 +1409,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	944852	GO:0090305	IEA	-	nucleic acid phosphodiester bond hydrolysis	-	Process
 511145	944852	GO:0090502	IEA	-	RNA phosphodiester bond hydrolysis, endonucleolytic	-	Process
 511145	944852	GO:1990516	IGI	-	ribonucleotide excision repair	23144626	Process
+511145	944854	GO:0004148	IBA	-	dihydrolipoyl dehydrogenase activity	21873635	Function
 511145	944854	GO:0004148	IDA	-	dihydrolipoyl dehydrogenase activity	3066354|12651118	Function
 511145	944854	GO:0004148	IEA	-	dihydrolipoyl dehydrogenase activity	-	Function
 511145	944854	GO:0005515	IPI	-	protein binding	15690043|16606699|16858726|24561554	Function
@@ -1427,8 +1434,10 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	944854	GO:0042802	IPI	-	identical protein binding	16858726	Function
 511145	944854	GO:0045250	IDA	-	cytosolic pyruvate dehydrogenase complex	329143	Component
 511145	944854	GO:0045454	IEA	-	cell redox homeostasis	-	Process
+511145	944854	GO:0050660	IBA	-	flavin adenine dinucleotide binding	21873635	Function
 511145	944854	GO:0050660	IDA	-	flavin adenine dinucleotide binding	4863745	Function
 511145	944854	GO:0050660	IEA	-	flavin adenine dinucleotide binding	-	Function
+511145	944854	GO:0055114	IBA	-	oxidation-reduction process	21873635	Process
 511145	944854	GO:0055114	IDA	-	oxidation-reduction process	3066354	Process
 511145	944854	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	944855	GO:0003677	IBA	-	DNA binding	21873635	Function
@@ -1801,11 +1810,14 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	944886	GO:0003824	IEA	-	catalytic activity	-	Function
 511145	944886	GO:0005515	IPI	-	protein binding	24561554	Function
 511145	944886	GO:0009437	IEA	-	carnitine metabolic process	-	Process
+511145	944886	GO:0016405	IBA	-	CoA-ligase activity	21873635	Function
 511145	944886	GO:0016405	IEA	-	CoA-ligase activity	-	Function
 511145	944886	GO:0016874	IEA	-	ligase activity	-	Function
 511145	944886	GO:0016878	IEA	-	acid-thiol ligase activity	-	Function
+511145	944886	GO:0051108	IBA	-	carnitine-CoA ligase activity	21873635	Function
 511145	944886	GO:0051108	IDA	-	carnitine-CoA ligase activity	18266698	Function
 511145	944886	GO:0051108	IEA	-	carnitine-CoA ligase activity	-	Function
+511145	944886	GO:0051109	IBA	-	crotonobetaine-CoA ligase activity	21873635	Function
 511145	944886	GO:0051109	IDA	-	crotonobetaine-CoA ligase activity	18266698	Function
 511145	944886	GO:0051109	IEA	-	crotonobetaine-CoA ligase activity	-	Function
 511145	944887	GO:0003824	IEA	-	catalytic activity	-	Function
@@ -2151,9 +2163,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	944926	GO:0055085	IEA	-	transmembrane transport	-	Process
 511145	944927	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	944927	GO:0000287	IEA	-	magnesium ion binding	-	Function
+511145	944927	GO:0004141	IBA	-	dethiobiotin synthase activity	21873635	Function
 511145	944927	GO:0004141	IEA	-	dethiobiotin synthase activity	-	Function
 511145	944927	GO:0005524	IEA	-	ATP binding	-	Function
 511145	944927	GO:0005737	IEA	-	cytoplasm	-	Component
+511145	944927	GO:0005829	IBA	-	cytosol	21873635	Component
+511145	944927	GO:0009102	IBA	-	biotin biosynthetic process	21873635	Process
 511145	944927	GO:0009102	IEA	-	biotin biosynthetic process	-	Process
 511145	944927	GO:0016874	IEA	-	ligase activity	-	Function
 511145	944927	GO:0046872	IEA	-	metal ion binding	-	Function
@@ -2291,6 +2306,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	944950	GO:0006313	IEA	-	transposition, DNA-mediated	-	Process
 511145	944950	GO:0032196	IEA	-	transposition	-	Process
 511145	944951	GO:0006310	IEA	-	DNA recombination	-	Process
+511145	944951	GO:0006313	IBA	-	transposition, DNA-mediated	21873635	Process
 511145	944951	GO:0006313	IEA	-	transposition, DNA-mediated	-	Process
 511145	944951	GO:0032196	IEA	-	transposition	-	Process
 511145	944952	GO:0003677	IEA	-	DNA binding	-	Function
@@ -2301,7 +2317,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	944952	GO:0032196	IEA	-	transposition	-	Process
 511145	944953	GO:0000303	IDA	-	response to superoxide	1447175	Process
 511145	944953	GO:0000303	IMP	-	response to superoxide	3022287	Process
-511145	944953	GO:0004784	IBA	contributes_to	superoxide dismutase activity	21873635	Function
 511145	944953	GO:0004784	IDA	-	superoxide dismutase activity	1447175|4352182|9125514	Function
 511145	944953	GO:0004784	IEA	-	superoxide dismutase activity	-	Function
 511145	944953	GO:0005506	IDA	-	iron ion binding	9125513	Function
@@ -2343,7 +2358,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	944955	GO:0050179	IDA	-	phenylserine aldolase activity	9692922	Function
 511145	944957	GO:0009279	IBA	-	cell outer membrane	21873635	Component
 511145	944957	GO:0009405	IBA	-	pathogenesis	21873635	Process
-511145	944957	GO:0044409	IBA	-	entry into host	21873635	Process
 511145	944958	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	944958	GO:0003824	IEA	-	catalytic activity	-	Function
 511145	944958	GO:0004592	IBA	-	pantoate-beta-alanine ligase activity	21873635	Function
@@ -2701,10 +2715,14 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945000	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	945000	GO:0019664	IEP	-	mixed acid fermentation	10368146	Process
 511145	945000	GO:0071422	IEA	-	succinate transmembrane transport	-	Process
+511145	945001	GO:0000986	IBA	-	bacterial-type proximal promoter sequence-specific DNA binding	21873635	Function
 511145	945001	GO:0003677	IEA	-	DNA binding	-	Function
+511145	945001	GO:0003700	IBA	-	DNA-binding transcription factor activity	21873635	Function
 511145	945001	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	945001	GO:0005737	IEA	-	cytoplasm	-	Component
+511145	945001	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	945001	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
+511145	945001	GO:0032993	IBA	-	protein-DNA complex	21873635	Component
 511145	945002	GO:0008758	IBA	-	UDP-2,3-diacylglucosamine hydrolase activity	21873635	Function
 511145	945002	GO:0009245	IBA	-	lipid A biosynthetic process	21873635	Process
 511145	945002	GO:0016787	IEA	-	hydrolase activity	-	Function
@@ -2992,10 +3010,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945031	GO:0019632	IBA	-	shikimate metabolic process	21873635	Process
 511145	945031	GO:0046872	IDA	-	metal ion binding	3001029	Function
 511145	945031	GO:0046872	IEA	-	metal ion binding	-	Function
+511145	945032	GO:0000015	IBA	-	phosphopyruvate hydratase complex	21873635	Component
 511145	945032	GO:0000015	IDA	-	phosphopyruvate hydratase complex	15236960	Component
 511145	945032	GO:0000015	IEA	-	phosphopyruvate hydratase complex	-	Component
 511145	945032	GO:0000287	IDA	-	magnesium ion binding	16516921	Function
 511145	945032	GO:0000287	IEA	-	magnesium ion binding	-	Function
+511145	945032	GO:0004634	IBA	-	phosphopyruvate hydratase activity	21873635	Function
 511145	945032	GO:0004634	IDA	-	phosphopyruvate hydratase activity	4942326|11676541|15236960	Function
 511145	945032	GO:0004634	IEA	-	phosphopyruvate hydratase activity	-	Function
 511145	945032	GO:0005515	IPI	-	protein binding	15236960|15690043|16139413|16516921|19402753|20729366	Function
@@ -3004,10 +3024,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945032	GO:0005829	IDA	-	cytosol	15911532|17309111|18304323	Component
 511145	945032	GO:0005856	IEA	-	cytoskeleton	-	Component
 511145	945032	GO:0005856	IPI	-	cytoskeleton	17242352	Component
+511145	945032	GO:0006096	IBA	-	glycolytic process	21873635	Process
 511145	945032	GO:0006096	IEA	-	glycolytic process	-	Process
 511145	945032	GO:0006096	IMP	-	glycolytic process	410789	Process
 511145	945032	GO:0009986	IEA	-	cell surface	-	Component
 511145	945032	GO:0016829	IEA	-	lyase activity	-	Function
+511145	945032	GO:0032889	IBA	-	regulation of vacuole fusion, non-autophagic	21873635	Process
 511145	945032	GO:0042802	IPI	-	identical protein binding	15236960|16858726	Function
 511145	945032	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	945033	GO:0005515	IPI	-	protein binding	24561554	Function
@@ -3165,15 +3187,19 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945048	GO:0016757	IEA	-	transferase activity, transferring glycosyl groups	-	Function
 511145	945048	GO:0047975	IEA	-	guanosine phosphorylase activity	-	Function
 511145	945049	GO:0000014	IDA	-	single-stranded DNA endodeoxyribonuclease activity	9133662	Function
+511145	945049	GO:0003677	IBA	-	DNA binding	21873635	Function
 511145	945049	GO:0004518	IEA	-	nuclease activity	-	Function
 511145	945049	GO:0004519	IEA	-	endonuclease activity	-	Function
 511145	945049	GO:0004527	IEA	-	exonuclease activity	-	Function
+511145	945049	GO:0004529	IBA	-	exodeoxyribonuclease activity	21873635	Function
 511145	945049	GO:0004529	IDA	-	exodeoxyribonuclease activity	9133662	Function
 511145	945049	GO:0005515	IPI	-	protein binding	9133662	Function
 511145	945049	GO:0006259	IEA	-	DNA metabolic process	-	Process
 511145	945049	GO:0006260	IDA	-	DNA replication	9402028	Process
 511145	945049	GO:0006260	IEA	-	DNA replication	-	Process
+511145	945049	GO:0006274	IBA	-	DNA replication termination	21873635	Process
 511145	945049	GO:0006274	IGI	-	DNA replication termination	29208713	Process
+511145	945049	GO:0006281	IBA	-	DNA repair	21873635	Process
 511145	945049	GO:0006281	IDA	-	DNA repair	18342610	Process
 511145	945049	GO:0006310	IEA	-	DNA recombination	-	Process
 511145	945049	GO:0008408	IEA	-	3'-5' exonuclease activity	-	Function
@@ -3428,7 +3454,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945079	GO:0006974	IEP	-	cellular response to DNA damage stimulus	11967071	Process
 511145	945079	GO:0015220	IBA	-	choline transmembrane transporter activity	21873635	Function
 511145	945079	GO:0015220	IGI	-	choline transmembrane transporter activity	1956285	Function
-511145	945079	GO:0015871	IEA	-	choline transport	-	Process
 511145	945079	GO:0015871	IGI	-	choline transport	1956285	Process
 511145	945079	GO:0016020	IEA	-	membrane	-	Component
 511145	945079	GO:0016021	IBA	-	integral component of membrane	21873635	Component
@@ -3514,7 +3539,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945082	GO:0051117	IPI	-	ATPase binding	14536075	Function
 511145	945083	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	945083	GO:0002020	IPI	-	protease binding	14536075	Function
-511145	945083	GO:0004176	IBA	-	ATP-dependent peptidase activity	21873635	Function
 511145	945083	GO:0004176	IDA	-	ATP-dependent peptidase activity	8226769|9573050	Function
 511145	945083	GO:0005515	IPI	-	protein binding	16606699|19183285|19368884|19541655|25866879	Function
 511145	945083	GO:0005524	IBA	-	ATP binding	21873635	Function
@@ -3528,6 +3552,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945083	GO:0008270	IEA	-	zinc ion binding	-	Function
 511145	945083	GO:0009376	IDA	-	HslUV protease complex	14536075	Component
 511145	945083	GO:0016032	IEA	-	viral process	-	Process
+511145	945083	GO:0016887	IBA	-	ATPase activity	21873635	Function
 511145	945083	GO:0016887	IDA	-	ATPase activity	11278349|14536075	Function
 511145	945083	GO:0030163	IBA	-	protein catabolic process	21873635	Process
 511145	945083	GO:0030164	IDA	-	protein denaturation	14536075	Process
@@ -3683,17 +3708,24 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945096	GO:0070207	IDA	-	protein homotrimerization	12731863	Process
 511145	945097	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	945097	GO:0000287	IDA	-	magnesium ion binding	19029291	Function
+511145	945097	GO:0004017	IBA	-	adenylate kinase activity	21873635	Function
 511145	945097	GO:0004017	IDA	-	adenylate kinase activity	6311616	Function
 511145	945097	GO:0004017	IEA	-	adenylate kinase activity	-	Function
 511145	945097	GO:0004017	IMP	-	adenylate kinase activity	166976	Function
+511145	945097	GO:0004550	IBA	-	nucleoside diphosphate kinase activity	21873635	Function
 511145	945097	GO:0004550	IDA	-	nucleoside diphosphate kinase activity	8650159	Function
 511145	945097	GO:0005515	IPI	-	protein binding	11106368|15690043|24561554	Function
 511145	945097	GO:0005524	IDA	-	ATP binding	10736163	Function
 511145	945097	GO:0005524	IEA	-	ATP binding	-	Function
+511145	945097	GO:0005737	IBA	-	cytoplasm	21873635	Component
 511145	945097	GO:0005737	IEA	-	cytoplasm	-	Component
+511145	945097	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	945097	GO:0005829	IDA	-	cytosol	15911532|17272300|17309111|18304323	Component
 511145	945097	GO:0006139	IEA	-	nucleobase-containing compound metabolic process	-	Process
+511145	945097	GO:0006163	IBA	-	purine nucleotide metabolic process	21873635	Process
 511145	945097	GO:0006172	IMP	-	ADP biosynthetic process	166976	Process
+511145	945097	GO:0009123	IBA	-	nucleoside monophosphate metabolic process	21873635	Process
+511145	945097	GO:0009132	IBA	-	nucleoside diphosphate metabolic process	21873635	Process
 511145	945097	GO:0009165	IEA	-	nucleotide biosynthetic process	-	Process
 511145	945097	GO:0015951	IMP	-	purine ribonucleotide interconversion	166976	Process
 511145	945097	GO:0016208	IDA	-	AMP binding	10736163	Function
@@ -3854,7 +3886,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945109	GO:0004048	IBA	-	anthranilate phosphoribosyltransferase activity	21873635	Function
 511145	945109	GO:0004048	IDA	-	anthranilate phosphoribosyltransferase activity	2428387|4886290	Function
 511145	945109	GO:0004048	IEA	-	anthranilate phosphoribosyltransferase activity	-	Function
-511145	945109	GO:0004049	IBA	contributes_to	anthranilate synthase activity	21873635	Function
 511145	945109	GO:0004049	IDA	-	anthranilate synthase activity	4886289	Function
 511145	945109	GO:0004049	IEA	-	anthranilate synthase activity	-	Function
 511145	945109	GO:0006541	IEA	-	glutamine metabolic process	-	Process
@@ -4263,13 +4294,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945162	GO:0000405	IDA	-	bubble DNA binding	18084297	Function
 511145	945162	GO:0003697	IDA	-	single-stranded DNA binding	25083707	Function
 511145	945162	GO:0005515	IPI	-	protein binding	25083707	Function
+511145	945163	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	945163	GO:0003677	IEA	-	DNA binding	-	Function
 511145	945163	GO:0003700	IBA	-	DNA-binding transcription factor activity	21873635	Function
 511145	945163	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	945163	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
 511145	945163	GO:0006974	IMP	-	cellular response to DNA damage stimulus	20128927	Process
 511145	945163	GO:0043565	IEA	-	sequence-specific DNA binding	-	Function
-511145	945163	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	945163	GO:0046677	IMP	-	response to antibiotic	20128927	Process
 511145	945164	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	945164	GO:0005515	IPI	-	protein binding	17214741|18955484|28504659	Function
@@ -4651,16 +4682,16 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945203	GO:0032196	IEA	-	transposition	-	Process
 511145	945204	GO:0016491	IEA	-	oxidoreductase activity	-	Function
 511145	945204	GO:0055114	IEA	-	oxidation-reduction process	-	Process
+511145	945205	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	945205	GO:0003824	IEA	-	catalytic activity	-	Function
-511145	945205	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
+511145	945206	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	945206	GO:0005515	IPI	-	protein binding	24561554	Function
-511145	945206	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	945207	GO:0005198	IEA	-	structural molecule activity	-	Function
+511145	945208	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	945208	GO:0003677	IEA	-	DNA binding	-	Function
 511145	945208	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	945208	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	945208	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
-511145	945208	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	945209	GO:0005215	IEA	-	transporter activity	-	Function
 511145	945209	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	945209	GO:0005886	IEA	-	plasma membrane	-	Component
@@ -5240,13 +5271,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945271	GO:0005737	IEA	-	cytoplasm	-	Component
 511145	945271	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	945271	GO:0005829	IDA	-	cytosol	15911532|18304323	Component
+511145	945271	GO:0005975	IBA	-	carbohydrate metabolic process	21873635	Process
 511145	945271	GO:0005975	IEA	-	carbohydrate metabolic process	-	Process
-511145	945271	GO:0005978	IBA	-	glycogen biosynthetic process	21873635	Process
-511145	945271	GO:0006006	IBA	-	glucose metabolic process	21873635	Process
 511145	945271	GO:0006006	IEA	-	glucose metabolic process	-	Process
 511145	945271	GO:0016853	IEA	-	isomerase activity	-	Function
 511145	945271	GO:0016868	IEA	-	intramolecular transferase activity, phosphotransferases	-	Function
-511145	945271	GO:0019388	IBA	-	galactose catabolic process	21873635	Process
 511145	945271	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	945271	GO:0071704	IEA	-	organic substance metabolic process	-	Process
 511145	945272	GO:0003677	IEA	-	DNA binding	-	Function
@@ -5301,6 +5330,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945275	GO:0099621	IDA	-	undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase activity	15695810	Function
 511145	945275	GO:0099621	IEA	-	undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase activity	-	Function
 511145	945276	GO:0005829	IDA	-	cytosol	15911532|18304323	Component
+511145	945276	GO:0008460	IBA	-	dTDP-glucose 4,6-dehydratase activity	21873635	Function
 511145	945276	GO:0008460	IDA	-	dTDP-glucose 4,6-dehydratase activity	4307450	Function
 511145	945276	GO:0008460	IEA	-	dTDP-glucose 4,6-dehydratase activity	-	Function
 511145	945276	GO:0008460	ISS	-	dTDP-glucose 4,6-dehydratase activity	-	Function
@@ -5315,13 +5345,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945276	GO:0042802	IDA	-	identical protein binding	4307450	Function
 511145	945276	GO:0045226	ISS	-	extracellular polysaccharide biosynthetic process	-	Process
 511145	945276	GO:0050662	IDA	-	coenzyme binding	4307450	Function
+511145	945278	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	945278	GO:0003677	IEA	-	DNA binding	-	Function
 511145	945278	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	945278	GO:0005515	IPI	-	protein binding	15690043|24561554	Function
 511145	945278	GO:0006351	ISS	-	transcription, DNA-templated	10734204|15556475	Process
 511145	945278	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	945278	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
-511145	945278	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	945279	GO:0003677	IEA	-	DNA binding	-	Function
 511145	945279	GO:0003690	IEA	-	double-stranded DNA binding	-	Function
 511145	945279	GO:0003700	IBA	-	DNA-binding transcription factor activity	21873635	Function
@@ -5364,13 +5394,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945281	GO:0042802	IPI	-	identical protein binding	22841565|24561554	Function
 511145	945281	GO:0070981	IEA	-	L-asparagine biosynthetic process	-	Process
 511145	945281	GO:0070981	IGI	-	L-asparagine biosynthetic process	6102982|6102983	Process
+511145	945282	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	945282	GO:0003677	IDA	-	DNA binding	10991887	Function
 511145	945282	GO:0003677	IEA	-	DNA binding	-	Function
 511145	945282	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	945282	GO:0005829	IDA	-	cytosol	18304323	Component
 511145	945282	GO:0006351	IDA	-	transcription, DNA-templated	10438794|10991887	Process
 511145	945282	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
-511145	945282	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	945282	GO:0045892	IBA	-	negative regulation of transcription, DNA-templated	21873635	Process
 511145	945282	GO:0045892	IMP	-	negative regulation of transcription, DNA-templated	8521301	Process
 511145	945282	GO:0046677	IMP	-	response to antibiotic	7730261	Process
@@ -5505,6 +5535,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945294	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	945294	GO:0051289	IPI	-	protein homotetramerization	9548961	Process
 511145	945295	GO:0000976	EXP	-	transcription regulatory region sequence-specific DNA binding	11466300	Function
+511145	945295	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	945295	GO:0000976	IDA	-	transcription regulatory region sequence-specific DNA binding	2644221|11466300|20015147	Function
 511145	945295	GO:0000976	IPI	-	transcription regulatory region sequence-specific DNA binding	2644221|11466300|20015147	Function
 511145	945295	GO:0001216	IDA	-	bacterial-type RNA polymerase transcriptional activator activity, sequence-specific DNA binding	20015147	Function
@@ -5528,7 +5559,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945295	GO:0043565	EXP	-	sequence-specific DNA binding	8107138	Function
 511145	945295	GO:0043565	IDA	-	sequence-specific DNA binding	8806672|17921503	Function
 511145	945295	GO:0043565	IPI	-	sequence-specific DNA binding	10833520	Function
-511145	945295	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	945295	GO:0045892	IBA	-	negative regulation of transcription, DNA-templated	21873635	Process
 511145	945295	GO:0045892	IEP	-	negative regulation of transcription, DNA-templated	11466300	Process
 511145	945295	GO:0045893	IDA	-	positive regulation of transcription, DNA-templated	20015147	Process
@@ -5730,18 +5760,14 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945313	GO:0071555	IEA	-	cell wall organization	-	Process
 511145	945314	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	945314	GO:0003824	IEA	-	catalytic activity	-	Function
-511145	945314	GO:0004550	IBA	-	nucleoside diphosphate kinase activity	21873635	Function
 511145	945314	GO:0004775	IBA	-	succinate-CoA ligase (ADP-forming) activity	21873635	Function
 511145	945314	GO:0004775	IEA	-	succinate-CoA ligase (ADP-forming) activity	-	Function
+511145	945314	GO:0004776	IBA	-	succinate-CoA ligase (GDP-forming) activity	21873635	Function
 511145	945314	GO:0005515	IPI	-	protein binding	16606699|16858726|19402753	Function
-511145	945314	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	945314	GO:0005829	IDA	-	cytosol	15911532|18304323	Component
 511145	945314	GO:0006099	IBA	-	tricarboxylic acid cycle	21873635	Process
 511145	945314	GO:0006099	IEA	-	tricarboxylic acid cycle	-	Process
-511145	945314	GO:0006104	IBA	-	succinyl-CoA metabolic process	21873635	Process
-511145	945314	GO:0006105	IBA	-	succinate metabolic process	21873635	Process
 511145	945314	GO:0006165	IEA	-	nucleoside diphosphate phosphorylation	-	Process
-511145	945314	GO:0009142	IBA	-	nucleoside triphosphate biosynthetic process	21873635	Process
 511145	945314	GO:0009361	IBA	-	succinate-CoA ligase complex (ADP-forming)	21873635	Component
 511145	945314	GO:0009361	IDA	-	succinate-CoA ligase complex (ADP-forming)	8144675	Component
 511145	945314	GO:0016874	IEA	-	ligase activity	-	Function
@@ -5775,6 +5801,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945318	GO:0003824	IEA	-	catalytic activity	-	Function
 511145	945318	GO:0005524	IEA	-	ATP binding	-	Function
 511145	945318	GO:0005975	IEA	-	carbohydrate metabolic process	-	Process
+511145	945318	GO:0006807	IBA	-	nitrogen compound metabolic process	21873635	Process
 511145	945318	GO:0016787	IEA	-	hydrolase activity	-	Function
 511145	945318	GO:0017168	IEA	-	5-oxoprolinase (ATP-hydrolyzing) activity	-	Function
 511145	945319	GO:0005515	IPI	-	protein binding	24561554	Function
@@ -6076,8 +6103,10 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945347	GO:0070069	IBA	-	cytochrome complex	21873635	Component
 511145	945347	GO:0070069	IDA	-	cytochrome complex	6307994|6321507	Component
 511145	945347	GO:0070069	IMP	-	cytochrome complex	6376497	Component
+511145	945348	GO:0005385	IBA	-	zinc ion transmembrane transporter activity	21873635	Function
 511145	945348	GO:0005385	IEA	-	zinc ion transmembrane transporter activity	-	Function
 511145	945348	GO:0005385	IMP	-	zinc ion transmembrane transporter activity	11443104	Function
+511145	945348	GO:0005886	IBA	-	plasma membrane	21873635	Component
 511145	945348	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	945348	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	945348	GO:0006811	IEA	-	ion transport	-	Process
@@ -6088,6 +6117,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945348	GO:0016020	IEA	-	membrane	-	Component
 511145	945348	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	945348	GO:0055085	IEA	-	transmembrane transport	-	Process
+511145	945348	GO:0071577	IBA	-	zinc ion transmembrane transport	21873635	Process
 511145	945348	GO:0071577	IEA	-	zinc ion transmembrane transport	-	Process
 511145	945348	GO:0098655	IEA	-	cation transmembrane transport	-	Process
 511145	945350	GO:0005886	IDA	-	plasma membrane	15919996|17309111	Component
@@ -6135,7 +6165,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945354	GO:0009242	IMP	-	colanic acid biosynthetic process	14060648	Process
 511145	945354	GO:0016853	IEA	-	isomerase activity	-	Function
 511145	945354	GO:0016857	IDA	-	racemase and epimerase activity, acting on carbohydrates and derivatives	1821806	Function
-511145	945354	GO:0019388	IBA	-	galactose catabolic process	21873635	Process
 511145	945354	GO:0033499	IBA	-	galactose catabolic process via UDP-galactose	21873635	Process
 511145	945354	GO:0033499	IMP	-	galactose catabolic process via UDP-galactose	13914787	Process
 511145	945354	GO:0042802	IPI	-	identical protein binding	16858726|24561554	Function
@@ -6194,19 +6223,17 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945358	GO:0004335	IMP	-	galactokinase activity	13390972	Function
 511145	945358	GO:0005524	IEA	-	ATP binding	-	Function
 511145	945358	GO:0005534	IEA	-	galactose binding	-	Function
-511145	945358	GO:0005737	IBA	-	cytoplasm	21873635	Component
 511145	945358	GO:0005737	IDA	-	cytoplasm	4889465	Component
 511145	945358	GO:0005737	IEA	-	cytoplasm	-	Component
 511145	945358	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	945358	GO:0005829	IDA	-	cytosol	18304323	Component
 511145	945358	GO:0005975	IEA	-	carbohydrate metabolic process	-	Process
+511145	945358	GO:0006012	IBA	-	galactose metabolic process	21873635	Process
 511145	945358	GO:0006012	IEA	-	galactose metabolic process	-	Process
 511145	945358	GO:0016301	IEA	-	kinase activity	-	Function
 511145	945358	GO:0016310	IEA	-	phosphorylation	-	Process
 511145	945358	GO:0016740	IEA	-	transferase activity	-	Function
 511145	945358	GO:0016773	IEA	-	phosphotransferase activity, alcohol group as acceptor	-	Function
-511145	945358	GO:0019200	IBA	-	carbohydrate kinase activity	21873635	Function
-511145	945358	GO:0033499	IBA	-	galactose catabolic process via UDP-galactose	21873635	Process
 511145	945358	GO:0033499	IMP	-	galactose catabolic process via UDP-galactose	13390972|16590575	Process
 511145	945358	GO:0046835	IEA	-	carbohydrate phosphorylation	-	Process
 511145	945358	GO:0046872	IEA	-	metal ion binding	-	Function
@@ -6466,9 +6493,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945382	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	945383	GO:0005737	IEA	-	cytoplasm	-	Component
 511145	945384	GO:0003824	IEA	-	catalytic activity	-	Function
+511145	945384	GO:0008710	IBA	-	8-amino-7-oxononanoate synthase activity	21873635	Function
 511145	945384	GO:0008710	IDA	-	8-amino-7-oxononanoate synthase activity	10642176	Function
 511145	945384	GO:0008710	IEA	-	8-amino-7-oxononanoate synthase activity	-	Function
 511145	945384	GO:0009058	IEA	-	biosynthetic process	-	Process
+511145	945384	GO:0009102	IBA	-	biotin biosynthetic process	21873635	Process
 511145	945384	GO:0009102	IEA	-	biotin biosynthetic process	-	Process
 511145	945384	GO:0009102	IMP	-	biotin biosynthetic process	4921685	Process
 511145	945384	GO:0016740	IEA	-	transferase activity	-	Function
@@ -6528,6 +6557,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945389	GO:0005737	IEA	-	cytoplasm	-	Component
 511145	945389	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	945389	GO:0005829	IDA	-	cytosol	15911532|17272300|17309111|18304323	Component
+511145	945389	GO:0006556	IBA	-	S-adenosylmethionine biosynthetic process	21873635	Process
 511145	945389	GO:0006556	IEA	-	S-adenosylmethionine biosynthetic process	-	Process
 511145	945389	GO:0006556	IMP	-	S-adenosylmethionine biosynthetic process	2115868|4577753	Process
 511145	945389	GO:0006730	IEA	-	one-carbon metabolic process	-	Process
@@ -6568,8 +6598,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945393	GO:0005887	RCA	-	integral component of plasma membrane	27510400	Component
 511145	945394	GO:0000287	IEA	-	magnesium ion binding	-	Function
 511145	945394	GO:0003824	IEA	-	catalytic activity	-	Function
+511145	945394	GO:0005948	IBA	-	acetolactate synthase complex	21873635	Component
+511145	945394	GO:0009028	IBA	-	tartronate-semialdehyde synthase activity	21873635	Function
 511145	945394	GO:0009028	IDA	-	tartronate-semialdehyde synthase activity	18176558	Function
 511145	945394	GO:0009028	IEA	-	tartronate-semialdehyde synthase activity	-	Function
+511145	945394	GO:0009097	IBA	-	isoleucine biosynthetic process	21873635	Process
+511145	945394	GO:0009099	IBA	-	valine biosynthetic process	21873635	Process
 511145	945394	GO:0009436	IEA	-	glyoxylate catabolic process	-	Process
 511145	945394	GO:0009436	IMP	-	glyoxylate catabolic process	4892366	Process
 511145	945394	GO:0016829	IEA	-	lyase activity	-	Function
@@ -6578,6 +6612,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945394	GO:0042802	IDA	-	identical protein binding	18176558	Function
 511145	945394	GO:0046296	IEA	-	glycolate catabolic process	-	Process
 511145	945394	GO:0046296	IMP	-	glycolate catabolic process	4892366	Process
+511145	945394	GO:0050660	IBA	-	flavin adenine dinucleotide binding	21873635	Function
 511145	945394	GO:0071949	IDA	-	FAD binding	18176558	Function
 511145	945396	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	945396	GO:0005525	IEA	-	GTP binding	-	Function
@@ -6643,14 +6678,19 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945402	GO:0050660	IEA	-	flavin adenine dinucleotide binding	-	Function
 511145	945402	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	945402	GO:0055114	IGI	-	oxidation-reduction process	15543598	Process
+511145	945403	GO:0005886	IBA	-	plasma membrane	21873635	Component
 511145	945403	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	945403	GO:0005887	ISM	-	integral component of plasma membrane	15919996	Component
 511145	945403	GO:0006974	IEP	-	cellular response to DNA damage stimulus	11967071	Process
+511145	945403	GO:0015562	IBA	-	efflux transmembrane transporter activity	21873635	Function
 511145	945403	GO:0015562	IGI	-	efflux transmembrane transporter activity	27112147	Function
 511145	945403	GO:0016020	IEA	-	membrane	-	Component
 511145	945403	GO:0016021	IEA	-	integral component of membrane	-	Component
+511145	945403	GO:0022857	IBA	-	transmembrane transporter activity	21873635	Function
 511145	945403	GO:0043190	IEA	-	ATP-binding cassette (ABC) transporter complex	-	Component
+511145	945403	GO:0055085	IBA	-	transmembrane transport	21873635	Process
 511145	945403	GO:0055085	IEA	-	transmembrane transport	-	Process
+511145	945403	GO:1990961	IBA	-	drug transmembrane export	21873635	Process
 511145	945403	GO:1990961	IGI	-	drug transmembrane export	27112147	Process
 511145	945404	GO:0045893	IGI	-	positive regulation of transcription, DNA-templated	1597424	Process
 511145	945405	GO:0005886	IDA	-	plasma membrane	15919996	Component
@@ -6697,13 +6737,18 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945410	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	945410	GO:0016020	IEA	-	membrane	-	Component
 511145	945410	GO:0016021	IEA	-	integral component of membrane	-	Component
+511145	945411	GO:0005886	IBA	-	plasma membrane	21873635	Component
 511145	945411	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	945411	GO:0005887	ISM	-	integral component of plasma membrane	15919996	Component
+511145	945411	GO:0015562	IBA	-	efflux transmembrane transporter activity	21873635	Function
 511145	945411	GO:0015562	IGI	-	efflux transmembrane transporter activity	27112147	Function
 511145	945411	GO:0016020	IEA	-	membrane	-	Component
 511145	945411	GO:0016021	IEA	-	integral component of membrane	-	Component
+511145	945411	GO:0022857	IBA	-	transmembrane transporter activity	21873635	Function
 511145	945411	GO:0043190	IEA	-	ATP-binding cassette (ABC) transporter complex	-	Component
+511145	945411	GO:0055085	IBA	-	transmembrane transport	21873635	Process
 511145	945411	GO:0055085	IEA	-	transmembrane transport	-	Process
+511145	945411	GO:1990961	IBA	-	drug transmembrane export	21873635	Process
 511145	945411	GO:1990961	IGI	-	drug transmembrane export	27112147	Process
 511145	945412	GO:0005829	IDA	-	cytosol	18304323	Component
 511145	945412	GO:0016491	IEA	-	oxidoreductase activity	-	Function
@@ -7038,15 +7083,21 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945449	GO:0016829	IEA	-	lyase activity	-	Function
 511145	945449	GO:0016832	IEA	-	aldehyde-lyase activity	-	Function
 511145	945449	GO:0097023	IDA	-	fructose 6-phosphate aldolase activity	11120740	Function
+511145	945450	GO:0005886	IBA	-	plasma membrane	21873635	Component
 511145	945450	GO:0005886	IDA	-	plasma membrane	15919996|17660416	Component
 511145	945450	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	945450	GO:0008360	IEA	-	regulation of cell shape	-	Process
 511145	945450	GO:0009252	IEA	-	peptidoglycan biosynthetic process	-	Process
+511145	945450	GO:0016020	IBA	-	membrane	21873635	Component
 511145	945450	GO:0016020	IEA	-	membrane	-	Component
 511145	945450	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	945450	GO:0016787	IEA	-	hydrolase activity	-	Function
+511145	945450	GO:0042577	IBA	-	lipid phosphatase activity	21873635	Function
+511145	945450	GO:0046677	IBA	-	response to antibiotic	21873635	Process
 511145	945450	GO:0046677	IEA	-	response to antibiotic	-	Process
 511145	945450	GO:0046677	IMP	-	response to antibiotic	10498733	Process
+511145	945450	GO:0046839	IBA	-	phospholipid dephosphorylation	21873635	Process
+511145	945450	GO:0050380	IBA	-	undecaprenyl-diphosphatase activity	21873635	Function
 511145	945450	GO:0050380	IDA	-	undecaprenyl-diphosphatase activity	15778224	Function
 511145	945450	GO:0050380	IEA	-	undecaprenyl-diphosphatase activity	-	Function
 511145	945450	GO:0071555	IEA	-	cell wall organization	-	Process
@@ -7782,6 +7833,8 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945517	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	945518	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	945518	GO:0005886	IEA	-	plasma membrane	-	Component
+511145	945518	GO:0006865	IBA	-	amino acid transport	21873635	Process
+511145	945518	GO:0015171	IBA	-	amino acid transmembrane transporter activity	21873635	Function
 511145	945518	GO:0016020	IEA	-	membrane	-	Component
 511145	945518	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	945518	GO:0022857	IEA	-	transmembrane transporter activity	-	Function
@@ -7860,6 +7913,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945527	GO:0008615	IEA	-	pyridoxine biosynthetic process	-	Process
 511145	945527	GO:0008652	IEA	-	cellular amino acid biosynthetic process	-	Process
 511145	945527	GO:0016740	IEA	-	transferase activity	-	Function
+511145	945527	GO:0030170	IBA	-	pyridoxal phosphate binding	21873635	Function
 511145	945527	GO:0030170	IDA	-	pyridoxal phosphate binding	8706854	Function
 511145	945527	GO:0030170	IEA	-	pyridoxal phosphate binding	-	Function
 511145	945527	GO:0033359	IGI	-	lysine biosynthetic process via diaminopimelate and N-succinyl-2-amino-6-ketopimelate	25243376	Process
@@ -8013,15 +8067,18 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945539	GO:0016779	IEA	-	nucleotidyltransferase activity	-	Function
 511145	945539	GO:0019294	IDA	-	keto-3-deoxy-D-manno-octulosonic acid biosynthetic process	2989246	Process
 511145	945539	GO:0033468	IEA	-	CMP-keto-3-deoxy-D-manno-octulosonic acid biosynthetic process	-	Process
+511145	945540	GO:0003954	IBA	-	NADH dehydrogenase activity	21873635	Function
 511145	945540	GO:0005886	IDA	-	plasma membrane	7607227|15919996|17309111	Component
 511145	945540	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	945540	GO:0005887	IDA	-	integral component of plasma membrane	15919996	Component
 511145	945540	GO:0008137	IEA	-	NADH dehydrogenase (ubiquinone) activity	-	Function
+511145	945540	GO:0015990	IBA	-	electron transport coupled proton transport	21873635	Process
 511145	945540	GO:0015990	IMP	-	electron transport coupled proton transport	21417432	Process
 511145	945540	GO:0016020	IEA	-	membrane	-	Component
 511145	945540	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	945540	GO:0030964	IDA	-	NADH dehydrogenase complex	7607227	Component
 511145	945540	GO:0042773	IEA	-	ATP synthesis coupled electron transport	-	Process
+511145	945540	GO:0045272	IBA	-	plasma membrane respiratory chain complex I	21873635	Component
 511145	945540	GO:0045272	IDA	-	plasma membrane respiratory chain complex I	17722886	Component
 511145	945540	GO:0045272	IMP	-	plasma membrane respiratory chain complex I	22063474	Component
 511145	945540	GO:0048038	IEA	-	quinone binding	-	Function
@@ -9605,18 +9662,23 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945687	GO:0034979	IMP	-	NAD-dependent protein deacetylase activity	20345663	Function
 511145	945687	GO:0034983	IDA	-	peptidyl-lysine deacetylation	15019790	Process
 511145	945687	GO:0034983	IMP	-	peptidyl-lysine deacetylation	20345663	Process
+511145	945687	GO:0036047	IBA	-	peptidyl-lysine demalonylation	21873635	Process
 511145	945687	GO:0036047	IEA	-	peptidyl-lysine demalonylation	-	Process
 511145	945687	GO:0036048	IEA	-	protein desuccinylation	-	Process
+511145	945687	GO:0036049	IBA	-	peptidyl-lysine desuccinylation	21873635	Process
 511145	945687	GO:0036049	IDA	-	peptidyl-lysine desuccinylation	24176774	Process
+511145	945687	GO:0036054	IBA	-	protein-malonyllysine demalonylase activity	21873635	Function
 511145	945687	GO:0036054	IEA	-	protein-malonyllysine demalonylase activity	-	Function
+511145	945687	GO:0036055	IBA	-	protein-succinyllysine desuccinylase activity	21873635	Function
 511145	945687	GO:0036055	IDA	-	protein-succinyllysine desuccinylase activity	24176774	Function
 511145	945687	GO:0036055	IEA	-	protein-succinyllysine desuccinylase activity	-	Function
 511145	945687	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	945687	GO:0051607	IMP	-	defense response to virus	25516616	Process
+511145	945687	GO:0061697	IBA	-	protein-glutaryllysine deglutarylase activity	21873635	Function
+511145	945687	GO:0061698	IBA	-	protein deglutarylation	21873635	Process
 511145	945687	GO:0070403	IEA	-	NAD+ binding	-	Function
 511145	945688	GO:0009055	IBA	-	electron transfer activity	21873635	Function
 511145	945688	GO:0009055	IEA	-	electron transfer activity	-	Function
-511145	945688	GO:0016491	IBA	-	oxidoreductase activity	21873635	Function
 511145	945688	GO:0022900	IEA	-	electron transport chain	-	Process
 511145	945688	GO:0033539	IBA	-	fatty acid beta-oxidation using acyl-CoA dehydrogenase	21873635	Process
 511145	945688	GO:0050660	IBA	-	flavin adenine dinucleotide binding	21873635	Function
@@ -10223,7 +10285,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945768	GO:0000162	IBA	-	tryptophan biosynthetic process	21873635	Process
 511145	945768	GO:0000162	IEA	-	tryptophan biosynthetic process	-	Process
 511145	945768	GO:0000162	IMP	-	tryptophan biosynthetic process	8325869	Process
-511145	945768	GO:0004834	IBA	contributes_to	tryptophan synthase activity	21873635	Function
 511145	945768	GO:0004834	IDA	-	tryptophan synthase activity	2021608	Function
 511145	945768	GO:0004834	IEA	-	tryptophan synthase activity	-	Function
 511145	945768	GO:0005737	IBA	-	cytoplasm	21873635	Component
@@ -10272,10 +10333,10 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945770	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	945770	GO:0055085	IEA	-	transmembrane transport	-	Process
 511145	945770	GO:0070778	IBA	-	L-aspartate transmembrane transport	21873635	Process
-511145	945770	GO:0070778	IEA	-	L-aspartate transmembrane transport	-	Process
 511145	945770	GO:0071422	IBA	-	succinate transmembrane transport	21873635	Process
 511145	945770	GO:0071422	IDA	-	succinate transmembrane transport	23278959	Process
 511145	945770	GO:1902358	IEA	-	sulfate transmembrane transport	-	Process
+511145	945771	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	945771	GO:0003677	IDA	-	DNA binding	14663078	Function
 511145	945771	GO:0003677	IEA	-	DNA binding	-	Function
 511145	945771	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
@@ -10289,7 +10350,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945771	GO:0019344	IBA	-	cysteine biosynthetic process	21873635	Process
 511145	945771	GO:0019344	IEA	-	cysteine biosynthetic process	-	Process
 511145	945771	GO:0042802	IMP	-	identical protein binding	11038360	Function
-511145	945771	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	945772	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	945772	GO:0000287	IDA	-	magnesium ion binding	9125530	Function
 511145	945772	GO:0000287	IEA	-	magnesium ion binding	-	Function
@@ -10667,12 +10727,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945799	GO:0042128	IEA	-	nitrate assimilation	-	Process
 511145	945799	GO:0055085	IEA	-	transmembrane transport	-	Process
 511145	945800	GO:0006310	IEA	-	DNA recombination	-	Process
+511145	945800	GO:0006313	IBA	-	transposition, DNA-mediated	21873635	Process
 511145	945800	GO:0006313	IEA	-	transposition, DNA-mediated	-	Process
 511145	945800	GO:0032196	IEA	-	transposition	-	Process
 511145	945801	GO:0009279	IBA	-	cell outer membrane	21873635	Component
 511145	945801	GO:0009405	IBA	-	pathogenesis	21873635	Process
 511145	945801	GO:0042597	IEA	-	periplasmic space	-	Component
-511145	945801	GO:0044409	IBA	-	entry into host	21873635	Process
 511145	945802	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	945802	GO:0005515	IPI	-	protein binding	15690043|24561554	Function
 511145	945802	GO:0005524	IEA	-	ATP binding	-	Function
@@ -10857,6 +10917,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945824	GO:0046872	IDA	-	metal ion binding	14519207	Function
 511145	945824	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	945824	GO:0060187	IDA	-	cell pole	29625546	Component
+511145	945825	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	945825	GO:0003677	IDA	-	DNA binding	7777530	Function
 511145	945825	GO:0003677	IEA	-	DNA binding	-	Function
 511145	945825	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
@@ -10864,7 +10925,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945825	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
 511145	945825	GO:0006950	IBA	-	response to stress	21873635	Process
 511145	945825	GO:0009408	IMP	-	response to heat	24580753	Process
-511145	945825	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	945825	GO:0045892	IMP	-	negative regulation of transcription, DNA-templated	8383113	Process
 511145	945825	GO:0046677	IEA	-	response to antibiotic	-	Process
 511145	945825	GO:0071236	IMP	-	cellular response to antibiotic	8383113	Process
@@ -10932,13 +10992,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945830	GO:0061077	IDA	-	chaperone-mediated protein folding	9188448|26003922	Process
 511145	945830	GO:1900750	IDA	-	oligopeptide binding	3536860|21983341	Function
 511145	945830	GO:1904680	IBA	-	peptide transmembrane transporter activity	21873635	Function
+511145	945831	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	945831	GO:0003677	IEA	-	DNA binding	-	Function
 511145	945831	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	945831	GO:0003700	RCA	-	DNA-binding transcription factor activity	9829935	Function
 511145	945831	GO:0006351	RCA	-	transcription, DNA-templated	9829935	Process
 511145	945831	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	945831	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
-511145	945831	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	945832	GO:0004177	IBA	-	aminopeptidase activity	21873635	Function
 511145	945832	GO:0005887	RCA	-	integral component of plasma membrane	27510400	Component
 511145	945832	GO:0006508	IBA	-	proteolysis	21873635	Process
@@ -11252,6 +11312,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945862	GO:0016853	IEA	-	isomerase activity	-	Function
 511145	945862	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	945863	GO:0000810	IEA	-	diacylglycerol diphosphate phosphatase activity	-	Function
+511145	945863	GO:0005886	IBA	-	plasma membrane	21873635	Component
 511145	945863	GO:0005886	IDA	-	plasma membrane	15919996|17309111	Component
 511145	945863	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	945863	GO:0005886	IMP	-	plasma membrane	2846511	Component
@@ -11265,12 +11326,15 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945863	GO:0009279	IEA	-	cell outer membrane	-	Component
 511145	945863	GO:0009279	IMP	-	cell outer membrane	2846511	Component
 511145	945863	GO:0009395	IEA	-	phospholipid catabolic process	-	Process
+511145	945863	GO:0016020	IBA	-	membrane	21873635	Component
 511145	945863	GO:0016020	IEA	-	membrane	-	Component
 511145	945863	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	945863	GO:0016042	IEA	-	lipid catabolic process	-	Process
 511145	945863	GO:0016311	IEA	-	dephosphorylation	-	Process
 511145	945863	GO:0016787	IEA	-	hydrolase activity	-	Function
+511145	945863	GO:0042577	IBA	-	lipid phosphatase activity	21873635	Function
 511145	945863	GO:0046474	IMP	-	glycerophospholipid biosynthetic process	6296050	Process
+511145	945863	GO:0046839	IBA	-	phospholipid dephosphorylation	21873635	Process
 511145	945863	GO:0050380	IDA	-	undecaprenyl-diphosphatase activity	18411271	Function
 511145	945863	GO:0050380	IEA	-	undecaprenyl-diphosphatase activity	-	Function
 511145	945863	GO:0050380	IMP	-	undecaprenyl-diphosphatase activity	15778224	Function
@@ -12060,9 +12124,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	945965	GO:0010124	IEA	-	phenylacetate catabolic process	-	Process
 511145	945965	GO:0016289	IDA	-	CoA hydrolase activity	22398448	Function
 511145	945965	GO:0016740	IEA	-	transferase activity	-	Function
+511145	945966	GO:0000984	IBA	-	bacterial-type RNA polymerase regulatory region sequence-specific DNA binding	21873635	Function
 511145	945966	GO:0000984	IDA	-	bacterial-type RNA polymerase regulatory region sequence-specific DNA binding	10766858	Function
 511145	945966	GO:0003677	IEA	-	DNA binding	-	Function
 511145	945966	GO:0005515	IPI	-	protein binding	24561554	Function
+511145	945966	GO:0006351	IBA	-	transcription, DNA-templated	21873635	Process
 511145	945966	GO:0006351	IDA	-	transcription, DNA-templated	10766858	Process
 511145	945966	GO:0006351	IEA	-	transcription, DNA-templated	-	Process
 511145	945966	GO:0006351	IGI	-	transcription, DNA-templated	10766858	Process
@@ -13041,12 +13107,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946077	GO:0042910	IEA	-	xenobiotic transmembrane transporter activity	-	Function
 511145	946077	GO:0055085	IEA	-	transmembrane transport	-	Process
 511145	946078	GO:0009409	IEP	-	response to cold	14527658	Process
+511145	946079	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	946079	GO:0003677	IEA	-	DNA binding	-	Function
 511145	946079	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	946079	GO:0006351	ISS	-	transcription, DNA-templated	10734204|15556475	Process
 511145	946079	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	946079	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
-511145	946079	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	946081	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	946081	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	946081	GO:0006865	IEA	-	amino acid transport	-	Process
@@ -13331,7 +13397,9 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946125	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	946126	GO:0009063	IEA	-	cellular amino acid catabolic process	-	Process
 511145	946127	GO:0008270	IEA	-	zinc ion binding	-	Function
+511145	946127	GO:0008868	IBA	-	galactitol-1-phosphate 5-dehydrogenase activity	21873635	Function
 511145	946127	GO:0016491	IEA	-	oxidoreductase activity	-	Function
+511145	946127	GO:0019404	IBA	-	galactitol catabolic process	21873635	Process
 511145	946127	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	946127	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	946128	GO:0000166	IEA	-	nucleotide binding	-	Function
@@ -13402,10 +13470,14 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946135	GO:0051536	IEA	-	iron-sulfur cluster binding	-	Function
 511145	946135	GO:0051539	IEA	-	4 iron, 4 sulfur cluster binding	-	Function
 511145	946135	GO:0055114	IEA	-	oxidation-reduction process	-	Process
+511145	946136	GO:0000986	IBA	-	bacterial-type proximal promoter sequence-specific DNA binding	21873635	Function
 511145	946136	GO:0003677	IEA	-	DNA binding	-	Function
+511145	946136	GO:0003700	IBA	-	DNA-binding transcription factor activity	21873635	Function
 511145	946136	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
+511145	946136	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	946136	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
 511145	946136	GO:0006355	ISS	-	regulation of transcription, DNA-templated	10734204|15556475	Process
+511145	946136	GO:0032993	IBA	-	protein-DNA complex	21873635	Component
 511145	946137	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	946137	GO:0009055	IEA	-	electron transfer activity	-	Function
 511145	946137	GO:0016020	IEA	-	membrane	-	Component
@@ -13519,6 +13591,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946147	GO:0008152	IEA	-	metabolic process	-	Process
 511145	946147	GO:0016829	IEA	-	lyase activity	-	Function
 511145	946147	GO:0045239	IEA	-	tricarboxylic acid cycle enzyme complex	-	Component
+511145	946148	GO:0005886	IBA	-	plasma membrane	21873635	Component
 511145	946148	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	946148	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	946148	GO:0016020	IEA	-	membrane	-	Component
@@ -13711,6 +13784,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946166	GO:0005515	IPI	-	protein binding	15690043|24561554	Function
 511145	946166	GO:0045892	IDA	-	negative regulation of transcription, DNA-templated	18567656	Process
 511145	946166	GO:0045892	ISS	-	negative regulation of transcription, DNA-templated	15556475	Process
+511145	946167	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	946167	GO:0003677	IEA	-	DNA binding	-	Function
 511145	946167	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	946167	GO:0003700	IMP	-	DNA-binding transcription factor activity	21768111	Function
@@ -13718,7 +13792,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946167	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
 511145	946167	GO:0006950	IBA	-	response to stress	21873635	Process
 511145	946167	GO:0009405	IEA	-	pathogenesis	-	Process
-511145	946167	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	946167	GO:2000143	IDA	-	negative regulation of DNA-templated transcription, initiation	28073397	Process
 511145	946167	GO:2000144	IDA	-	positive regulation of DNA-templated transcription, initiation	28073397	Process
 511145	946169	GO:0005515	IPI	-	protein binding	15690043|20734996|20936830|21899261|23543739	Function
@@ -14045,6 +14118,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946204	GO:0000162	IEA	-	tryptophan biosynthetic process	-	Process
 511145	946204	GO:0000162	IMP	-	tryptophan biosynthetic process	8463331	Process
 511145	946204	GO:0003824	IEA	-	catalytic activity	-	Function
+511145	946204	GO:0004834	IBA	-	tryptophan synthase activity	21873635	Function
 511145	946204	GO:0004834	IEA	-	tryptophan synthase activity	-	Function
 511145	946204	GO:0005737	IDA	-	cytoplasm	4887511	Component
 511145	946204	GO:0005829	IBA	-	cytosol	21873635	Component
@@ -14482,7 +14556,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946246	GO:0042884	IMP	-	microcin transport	15980406	Process
 511145	946246	GO:0044718	IEA	-	siderophore transmembrane transport	-	Process
 511145	946246	GO:0055072	IEA	-	iron ion homeostasis	-	Process
-511145	946247	GO:0001047	IDA	-	core promoter binding	15066032	Function
+511145	946247	GO:0001046	IDA	-	core promoter sequence-specific DNA binding	15066032	Function
 511145	946247	GO:0003677	IEA	-	DNA binding	-	Function
 511145	946247	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	946247	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
@@ -14738,8 +14812,10 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946268	GO:0042930	IMP	-	enterobactin transport	16166532	Process
 511145	946268	GO:0042931	IEA	-	enterobactin transmembrane transporter activity	-	Function
 511145	946268	GO:0046677	IMP	-	response to antibiotic	20128927	Process
+511145	946269	GO:0005886	IBA	-	plasma membrane	21873635	Component
 511145	946269	GO:0005886	IDA	-	plasma membrane	15919996|17309111	Component
 511145	946269	GO:0005886	IEA	-	plasma membrane	-	Component
+511145	946269	GO:0016020	IBA	-	membrane	21873635	Component
 511145	946269	GO:0016020	IEA	-	membrane	-	Component
 511145	946269	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	946270	GO:0051920	IEA	-	peroxiredoxin activity	-	Function
@@ -14942,15 +15018,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946297	GO:0006995	IEP	-	cellular response to nitrogen starvation	26621053	Process
 511145	946297	GO:0006995	IMP	-	cellular response to nitrogen starvation	26621053	Process
 511145	946298	GO:0003824	IEA	-	catalytic activity	-	Function
-511145	946298	GO:0004550	IBA	-	nucleoside diphosphate kinase activity	21873635	Function
 511145	946298	GO:0004775	IBA	-	succinate-CoA ligase (ADP-forming) activity	21873635	Function
+511145	946298	GO:0004776	IBA	-	succinate-CoA ligase (GDP-forming) activity	21873635	Function
 511145	946298	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	946298	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	946298	GO:0006099	IBA	-	tricarboxylic acid cycle	21873635	Process
-511145	946298	GO:0006104	IBA	-	succinyl-CoA metabolic process	21873635	Process
-511145	946298	GO:0006105	IBA	-	succinate metabolic process	21873635	Process
 511145	946298	GO:0006165	IEA	-	nucleoside diphosphate phosphorylation	-	Process
-511145	946298	GO:0009142	IBA	-	nucleoside triphosphate biosynthetic process	21873635	Process
+511145	946298	GO:0009361	IBA	-	succinate-CoA ligase complex (ADP-forming)	21873635	Component
 511145	946298	GO:0016020	IEA	-	membrane	-	Component
 511145	946298	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	946298	GO:0048037	IEA	-	cofactor binding	-	Function
@@ -15635,7 +15709,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946367	GO:0016829	IEA	-	lyase activity	-	Function
 511145	946367	GO:0016833	IDA	-	oxo-acid-lyase activity	1339418|4560498	Function
 511145	946367	GO:0042802	IPI	-	identical protein binding	7007372|16858726|24561554	Function
-511145	946367	GO:0043725	IEA	-	2-keto-3-deoxygluconate aldolase activity	-	Function
+511145	946367	GO:0061677	IEA	-	2-dehydro-3-deoxy-D-gluconate aldolase activity	-	Function
 511145	946367	GO:0106009	IDA	-	(4S)-4-hydroxy-2-oxoglutarate aldolase activity	4560498	Function
 511145	946368	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	946368	GO:0000287	IEA	-	magnesium ion binding	-	Function
@@ -16205,6 +16279,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946413	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	946415	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	946415	GO:0005829	IDA	-	cytosol	15911532	Component
+511145	946417	GO:0005886	IBA	-	plasma membrane	21873635	Component
 511145	946417	GO:0050660	IEA	-	flavin adenine dinucleotide binding	-	Function
 511145	946418	GO:0006457	ISS	-	protein folding	20345943	Process
 511145	946418	GO:0030288	IEA	-	outer membrane-bounded periplasmic space	-	Component
@@ -16307,6 +16382,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946429	GO:0044781	IEA	-	bacterial-type flagellum organization	-	Process
 511145	946429	GO:0071973	IBA	-	bacterial-type flagellum-dependent cell motility	21873635	Process
 511145	946429	GO:0071973	IMP	-	bacterial-type flagellum-dependent cell motility	25350000	Process
+511145	946430	GO:0000478	IBA	-	endonucleolytic cleavage involved in rRNA processing	21873635	Process
 511145	946430	GO:0000478	IMP	-	endonucleolytic cleavage involved in rRNA processing	20807199	Process
 511145	946430	GO:0004222	IEA	-	metalloendopeptidase activity	-	Function
 511145	946430	GO:0004518	IEA	-	nuclease activity	-	Function
@@ -16316,15 +16392,20 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946430	GO:0005737	IEA	-	cytoplasm	-	Component
 511145	946430	GO:0006364	IEA	-	rRNA processing	-	Process
 511145	946430	GO:0006364	IMP	-	rRNA processing	20807199	Process
+511145	946430	GO:0006412	IBA	-	translation	21873635	Process
 511145	946430	GO:0006412	IMP	-	translation	19181801	Process
 511145	946430	GO:0006508	IEA	-	proteolysis	-	Process
 511145	946430	GO:0008270	IEA	-	zinc ion binding	-	Function
+511145	946430	GO:0009408	IBA	-	response to heat	21873635	Process
 511145	946430	GO:0009408	IEP	-	response to heat	16818608	Process
 511145	946430	GO:0009408	IMP	-	response to heat	19181801	Process
 511145	946430	GO:0016151	IDA	-	nickel cation binding	16511207	Function
 511145	946430	GO:0016787	IEA	-	hydrolase activity	-	Function
+511145	946430	GO:0016892	IBA	-	endoribonuclease activity, producing 3'-phosphomonoesters	21873635	Function
 511145	946430	GO:0016892	IDA	-	endoribonuclease activity, producing 3'-phosphomonoesters	23273979	Function
+511145	946430	GO:0030490	IBA	-	maturation of SSU-rRNA	21873635	Process
 511145	946430	GO:0030490	IMP	-	maturation of SSU-rRNA	20807199|24901994	Process
+511145	946430	GO:0031564	IBA	-	transcription antitermination	21873635	Process
 511145	946430	GO:0031564	IMP	-	transcription antitermination	23638028	Process
 511145	946430	GO:0042254	IEA	-	ribosome biogenesis	-	Process
 511145	946430	GO:0042254	IMP	-	ribosome biogenesis	20807199	Process
@@ -16856,7 +16937,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946498	GO:0009279	IBA	-	cell outer membrane	21873635	Component
 511145	946498	GO:0009405	IBA	-	pathogenesis	21873635	Process
 511145	946498	GO:0043708	IMP	-	cell adhesion involved in biofilm formation	15659678	Process
-511145	946498	GO:0044409	IBA	-	entry into host	21873635	Process
 511145	946499	GO:0005215	IEA	-	transporter activity	-	Function
 511145	946499	GO:0005887	RCA	-	integral component of plasma membrane	27510400	Component
 511145	946499	GO:0016020	IEA	-	membrane	-	Component
@@ -16881,6 +16961,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946500	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	946500	GO:0098869	IEA	-	cellular oxidant detoxification	-	Process
 511145	946501	GO:0003677	IEA	-	DNA binding	-	Function
+511145	946501	GO:0003700	IBA	-	DNA-binding transcription factor activity	21873635	Function
 511145	946501	GO:0003700	IDA	-	DNA-binding transcription factor activity	9495755|11121068	Function
 511145	946501	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	946501	GO:0003700	IGI	-	DNA-binding transcription factor activity	9495755	Function
@@ -16893,12 +16974,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946501	GO:0045893	IDA	-	positive regulation of transcription, DNA-templated	9495755|11121068	Process
 511145	946501	GO:0045893	IGI	-	positive regulation of transcription, DNA-templated	9495755	Process
 511145	946501	GO:0045893	ISS	-	positive regulation of transcription, DNA-templated	9495755	Process
+511145	946501	GO:2000142	IBA	-	regulation of DNA-templated transcription, initiation	21873635	Process
+511145	946502	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	946502	GO:0003677	IEA	-	DNA binding	-	Function
 511145	946502	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	946502	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	946502	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
 511145	946502	GO:0019344	IBA	-	cysteine biosynthetic process	21873635	Process
-511145	946502	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	946502	GO:0045883	IDA	-	positive regulation of sulfur utilization	10506196	Process
 511145	946504	GO:0005515	IPI	-	protein binding	15690043|24561554	Function
 511145	946504	GO:0009290	IDA	-	DNA import into cell involved in transformation	22532864	Process
@@ -17144,12 +17226,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946531	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	946531	GO:0051287	IEA	-	NAD binding	-	Function
 511145	946531	GO:0055114	IEA	-	oxidation-reduction process	-	Process
+511145	946532	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	946532	GO:0003677	IEA	-	DNA binding	-	Function
 511145	946532	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	946532	GO:0006351	ISS	-	transcription, DNA-templated	10734204|15556475	Process
 511145	946532	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	946532	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
-511145	946532	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	946533	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	946533	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	946533	GO:0006865	IEA	-	amino acid transport	-	Process
@@ -17496,11 +17578,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946571	GO:0051287	IEA	-	NAD binding	-	Function
 511145	946571	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	946572	GO:0003824	IEA	-	catalytic activity	-	Function
+511145	946572	GO:0005737	IBA	-	cytoplasm	21873635	Component
 511145	946572	GO:0005829	IDA	-	cytosol	15911532|18304323	Component
 511145	946572	GO:0005975	IEA	-	carbohydrate metabolic process	-	Process
 511145	946572	GO:0006974	IEP	-	cellular response to DNA damage stimulus	11967071	Process
 511145	946572	GO:0016853	IEA	-	isomerase activity	-	Function
 511145	946572	GO:0030246	IEA	-	carbohydrate binding	-	Function
+511145	946572	GO:0047938	IBA	-	glucose-6-phosphate 1-epimerase activity	21873635	Function
 511145	946572	GO:0047938	IEA	-	glucose-6-phosphate 1-epimerase activity	-	Function
 511145	946573	GO:0005737	IEA	-	cytoplasm	-	Component
 511145	946573	GO:0005829	IBA	-	cytosol	21873635	Component
@@ -17633,6 +17717,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946586	GO:0006208	IMP	-	pyrimidine nucleobase catabolic process	16540542	Process
 511145	946586	GO:0006212	IEA	-	uracil catabolic process	-	Process
 511145	946586	GO:0006212	IMP	-	uracil catabolic process	20400551	Process
+511145	946586	GO:0016787	IBA	-	hydrolase activity	21873635	Function
 511145	946586	GO:0016787	IEA	-	hydrolase activity	-	Function
 511145	946586	GO:0016811	IEA	-	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides	-	Function
 511145	946586	GO:0019740	IEA	-	nitrogen utilization	-	Process
@@ -17789,10 +17874,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946598	GO:0005829	IDA	-	cytosol	18304323	Component
 511145	946598	GO:0008270	IDA	-	zinc ion binding	22979983	Function
 511145	946598	GO:0008270	IEA	-	zinc ion binding	-	Function
+511145	946598	GO:0008868	IBA	-	galactitol-1-phosphate 5-dehydrogenase activity	21873635	Function
 511145	946598	GO:0008868	IDA	-	galactitol-1-phosphate 5-dehydrogenase activity	26143925	Function
 511145	946598	GO:0008868	IEA	-	galactitol-1-phosphate 5-dehydrogenase activity	-	Function
 511145	946598	GO:0016491	IEA	-	oxidoreductase activity	-	Function
 511145	946598	GO:0019402	IEA	-	galactitol metabolic process	-	Process
+511145	946598	GO:0019404	IBA	-	galactitol catabolic process	21873635	Process
 511145	946598	GO:0019404	IMP	-	galactitol catabolic process	325390	Process
 511145	946598	GO:0042802	IPI	-	identical protein binding	22979983	Function
 511145	946598	GO:0046872	IEA	-	metal ion binding	-	Function
@@ -18077,6 +18164,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946625	GO:0097718	IPI	-	disordered domain specific binding	9680221|12679333|15004032	Function
 511145	946626	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	946626	GO:0000287	IEA	-	magnesium ion binding	-	Function
+511145	946626	GO:0001727	IBA	-	lipid kinase activity	21873635	Function
 511145	946626	GO:0001727	IDA	-	lipid kinase activity	17351295	Function
 511145	946626	GO:0001727	IEA	-	lipid kinase activity	-	Function
 511145	946626	GO:0003951	IEA	-	NAD+ kinase activity	-	Function
@@ -18084,8 +18172,10 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946626	GO:0005524	IEA	-	ATP binding	-	Function
 511145	946626	GO:0005737	IEA	-	cytoplasm	-	Component
 511145	946626	GO:0006629	IEA	-	lipid metabolic process	-	Process
+511145	946626	GO:0006665	IBA	-	sphingolipid metabolic process	21873635	Process
 511145	946626	GO:0008654	IEA	-	phospholipid biosynthetic process	-	Process
 511145	946626	GO:0016301	IEA	-	kinase activity	-	Function
+511145	946626	GO:0016310	IBA	-	phosphorylation	21873635	Process
 511145	946626	GO:0016310	IEA	-	phosphorylation	-	Process
 511145	946626	GO:0016740	IEA	-	transferase activity	-	Function
 511145	946626	GO:0046834	IEA	-	lipid phosphorylation	-	Process
@@ -18307,6 +18397,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946655	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	946655	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	946655	GO:0005887	IBA	-	integral component of plasma membrane	21873635	Component
+511145	946655	GO:0015293	IBA	-	symporter activity	21873635	Function
 511145	946655	GO:0016020	IEA	-	membrane	-	Component
 511145	946655	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	946655	GO:1901642	IBA	-	nucleoside transmembrane transport	21873635	Process
@@ -18314,13 +18405,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946656	GO:0005515	IPI	-	protein binding	15690043|19402753	Function
 511145	946656	GO:0005524	IEA	-	ATP binding	-	Function
 511145	946656	GO:0016887	IEA	-	ATPase activity	-	Function
+511145	946657	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	946657	GO:0003677	IEA	-	DNA binding	-	Function
 511145	946657	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	946657	GO:0006351	IMP	-	transcription, DNA-templated	12400704	Process
 511145	946657	GO:0006351	ISS	-	transcription, DNA-templated	10734204|15556475	Process
 511145	946657	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	946657	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
-511145	946657	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	946659	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	946659	GO:0005524	IEA	-	ATP binding	-	Function
 511145	946659	GO:0005524	RCA	-	ATP binding	14702297	Function
@@ -18462,6 +18553,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946671	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	946671	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	946671	GO:0005887	IBA	-	integral component of plasma membrane	21873635	Component
+511145	946671	GO:0015293	IBA	-	symporter activity	21873635	Function
 511145	946671	GO:0016020	IEA	-	membrane	-	Component
 511145	946671	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	946671	GO:1901642	IBA	-	nucleoside transmembrane transport	21873635	Process
@@ -19240,10 +19332,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946741	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	946741	GO:0003824	IEA	-	catalytic activity	-	Function
 511145	946741	GO:0005524	IEA	-	ATP binding	-	Function
+511145	946741	GO:0008756	IBA	-	o-succinylbenzoate-CoA ligase activity	21873635	Function
 511145	946741	GO:0008756	IDA	-	o-succinylbenzoate-CoA ligase activity	8626063|8955296|9324253	Function
 511145	946741	GO:0008756	IEA	-	o-succinylbenzoate-CoA ligase activity	-	Function
+511145	946741	GO:0009234	IBA	-	menaquinone biosynthetic process	21873635	Process
 511145	946741	GO:0009234	IEA	-	menaquinone biosynthetic process	-	Process
 511145	946741	GO:0009234	IMP	-	menaquinone biosynthetic process	6754698	Process
+511145	946741	GO:0016405	IBA	-	CoA-ligase activity	21873635	Function
 511145	946741	GO:0016874	IEA	-	ligase activity	-	Function
 511145	946741	GO:0042802	IDA	-	identical protein binding	8955296	Function
 511145	946741	GO:0051289	IDA	-	protein homotetramerization	8955296	Process
@@ -19283,7 +19378,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946744	GO:0031668	IDA	-	cellular response to extracellular stimulus	8276778	Process
 511145	946744	GO:0046777	IDA	-	protein autophosphorylation	8223625|8276778	Process
 511145	946744	GO:0071472	IDA	-	cellular response to salt stress	8276778	Process
-511145	946746	GO:0003954	IBA	contributes_to	NADH dehydrogenase activity	21873635	Function
 511145	946746	GO:0005515	IPI	-	protein binding	16606699|24561554	Function
 511145	946746	GO:0005886	IDA	-	plasma membrane	7607227	Component
 511145	946746	GO:0016491	IEA	-	oxidoreductase activity	-	Function
@@ -19333,7 +19427,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946751	GO:0016020	IEA	-	membrane	-	Component
 511145	946751	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	946751	GO:0043022	IEA	-	ribosome binding	-	Function
-511145	946753	GO:0003954	IBA	contributes_to	NADH dehydrogenase activity	21873635	Function
 511145	946753	GO:0005886	IDA	-	plasma membrane	7607227	Component
 511145	946753	GO:0008137	IEA	-	NADH dehydrogenase (ubiquinone) activity	-	Function
 511145	946753	GO:0009060	IMP	-	aerobic respiration	9495756	Process
@@ -19400,8 +19493,10 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946758	GO:0045893	IMP	-	positive regulation of transcription, DNA-templated	7511582	Process
 511145	946759	GO:0003824	IEA	-	catalytic activity	-	Function
 511145	946759	GO:0005515	IPI	-	protein binding	16079137|22210351|24561554	Function
+511145	946759	GO:0005886	IBA	-	plasma membrane	21873635	Component
 511145	946759	GO:0005886	IDA	-	plasma membrane	7607227	Component
 511145	946759	GO:0005886	IEA	-	plasma membrane	-	Component
+511145	946759	GO:0008137	IBA	-	NADH dehydrogenase (ubiquinone) activity	21873635	Function
 511145	946759	GO:0008137	IEA	-	NADH dehydrogenase (ubiquinone) activity	-	Function
 511145	946759	GO:0008137	IMP	-	NADH dehydrogenase (ubiquinone) activity	20979355	Function
 511145	946759	GO:0008152	IEA	-	metabolic process	-	Process
@@ -19438,7 +19533,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946760	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	946760	GO:0090502	IEA	-	RNA phosphodiester bond hydrolysis, endonucleolytic	-	Process
 511145	946760	GO:0090503	IEA	-	RNA phosphodiester bond hydrolysis, exonucleolytic	-	Process
-511145	946761	GO:0003954	IBA	contributes_to	NADH dehydrogenase activity	21873635	Function
 511145	946761	GO:0005886	IDA	-	plasma membrane	7607227|15919996|17309111	Component
 511145	946761	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	946761	GO:0005887	IBA	-	integral component of plasma membrane	21873635	Component
@@ -19454,7 +19548,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946761	GO:0045272	IMP	-	plasma membrane respiratory chain complex I	22063474	Component
 511145	946761	GO:0048038	IEA	-	quinone binding	-	Function
 511145	946761	GO:0055114	IEA	-	oxidation-reduction process	-	Process
-511145	946762	GO:0003954	IBA	contributes_to	NADH dehydrogenase activity	21873635	Function
 511145	946762	GO:0005515	IPI	-	protein binding	16079137|16606699|24561554	Function
 511145	946762	GO:0005886	IDA	-	plasma membrane	7607227	Component
 511145	946762	GO:0005886	IEA	-	plasma membrane	-	Component
@@ -20163,7 +20256,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946832	GO:0019867	IEA	-	outer membrane	-	Component
 511145	946832	GO:0031230	IBA	-	intrinsic component of cell outer membrane	21873635	Component
 511145	946832	GO:0042834	IBA	-	peptidoglycan binding	21873635	Function
-511145	946833	GO:0001047	IDA	-	core promoter binding	22323519	Function
+511145	946833	GO:0001046	IDA	-	core promoter sequence-specific DNA binding	22323519	Function
 511145	946833	GO:0003677	IEA	-	DNA binding	-	Function
 511145	946833	GO:0015074	IEA	-	DNA integration	-	Process
 511145	946833	GO:0016989	IMP	-	sigma factor antagonist activity	18765794	Function
@@ -20428,11 +20521,15 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946861	GO:0004333	IDA	-	fumarate hydratase activity	27941785	Function
 511145	946861	GO:0004333	IEA	-	fumarate hydratase activity	-	Function
 511145	946861	GO:0016829	IEA	-	lyase activity	-	Function
+511145	946862	GO:0000986	IBA	-	bacterial-type proximal promoter sequence-specific DNA binding	21873635	Function
 511145	946862	GO:0003677	IEA	-	DNA binding	-	Function
+511145	946862	GO:0003700	IBA	-	DNA-binding transcription factor activity	21873635	Function
 511145	946862	GO:0003700	IDA	-	DNA-binding transcription factor activity	7559336	Function
 511145	946862	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	946862	GO:0003700	ISS	-	DNA-binding transcription factor activity	2201776	Function
+511145	946862	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	946862	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
+511145	946862	GO:0032993	IBA	-	protein-DNA complex	21873635	Component
 511145	946862	GO:0045893	IDA	-	positive regulation of transcription, DNA-templated	7559336	Process
 511145	946862	GO:0045893	ISS	-	positive regulation of transcription, DNA-templated	2201776	Process
 511145	946864	GO:0005886	IDA	-	plasma membrane	15919996	Component
@@ -20688,12 +20785,14 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946884	GO:1904680	IDA	-	peptide transmembrane transporter activity	24078610	Function
 511145	946884	GO:1904680	IEA	-	peptide transmembrane transporter activity	-	Function
 511145	946884	GO:1904680	IMP	-	peptide transmembrane transporter activity	17725560	Function
+511145	946885	GO:0003677	IBA	-	DNA binding	21873635	Function
 511145	946885	GO:0003677	IDA	-	DNA binding	15848142	Function
 511145	946885	GO:0003677	IEA	-	DNA binding	-	Function
 511145	946885	GO:0003911	IBA	-	DNA ligase (NAD+) activity	21873635	Function
 511145	946885	GO:0003911	IDA	-	DNA ligase (NAD+) activity	4291949|4295585|15583169	Function
 511145	946885	GO:0003911	IEA	-	DNA ligase (NAD+) activity	-	Function
 511145	946885	GO:0005515	IPI	-	protein binding	15690043|24561554	Function
+511145	946885	GO:0005634	IBA	-	nucleus	21873635	Component
 511145	946885	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	946885	GO:0005829	IDA	-	cytosol	15911532|18304323|23630273	Component
 511145	946885	GO:0006259	IEA	-	DNA metabolic process	-	Process
@@ -20835,12 +20934,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946895	GO:0015212	IMP	-	cytidine transmembrane transporter activity	374403	Function
 511145	946895	GO:0015213	IBA	-	uridine transmembrane transporter activity	21873635	Function
 511145	946895	GO:0015213	IMP	-	uridine transmembrane transporter activity	374403	Function
+511145	946895	GO:0015293	IBA	-	symporter activity	21873635	Function
 511145	946895	GO:0015506	IBA	-	nucleoside:proton symporter activity	21873635	Function
 511145	946895	GO:0015506	IDA	-	nucleoside:proton symporter activity	14668133	Function
 511145	946895	GO:0015858	IMP	-	nucleoside transport	4354132|4591127	Process
-511145	946895	GO:0015861	IBA	-	cytidine transport	21873635	Process
 511145	946895	GO:0015861	IEA	-	cytidine transport	-	Process
-511145	946895	GO:0015862	IBA	-	uridine transport	21873635	Process
 511145	946895	GO:0015862	IEA	-	uridine transport	-	Process
 511145	946895	GO:0016020	IEA	-	membrane	-	Component
 511145	946895	GO:0016021	IEA	-	integral component of membrane	-	Component
@@ -21410,6 +21508,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946966	GO:0051539	IEA	-	4 iron, 4 sulfur cluster binding	-	Function
 511145	946966	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	946967	GO:0016787	IEA	-	hydrolase activity	-	Function
+511145	946967	GO:0016811	IBA	-	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides	21873635	Function
 511145	946968	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	946968	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	946968	GO:0005886	IEA	-	plasma membrane	-	Component
@@ -21645,13 +21744,16 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946987	GO:0001883	IEA	-	purine nucleoside binding	-	Function
 511145	946987	GO:0008428	IEA	-	ribonuclease inhibitor activity	-	Function
 511145	946987	GO:0016787	IEA	-	hydrolase activity	-	Function
+511145	946987	GO:0019213	IBA	-	deacetylase activity	21873635	Function
 511145	946987	GO:0019213	IEA	-	deacetylase activity	-	Function
 511145	946987	GO:0019899	IPI	-	enzyme binding	19141481	Function
 511145	946987	GO:0042278	IEA	-	purine nucleoside metabolic process	-	Process
 511145	946987	GO:0046677	IMP	-	response to antibiotic	28034758	Process
 511145	946987	GO:0060698	IDA	-	endoribonuclease inhibitor activity	19141481	Function
 511145	946987	GO:0060701	IEA	-	negative regulation of ribonuclease activity	-	Process
+511145	946987	GO:0060702	IBA	-	negative regulation of endoribonuclease activity	21873635	Process
 511145	946987	GO:0060702	IMP	-	negative regulation of endoribonuclease activity	19141481	Process
+511145	946987	GO:0061463	IBA	-	O-acetyl-ADP-ribose deacetylase activity	21873635	Function
 511145	946987	GO:0061463	IDA	-	O-acetyl-ADP-ribose deacetylase activity	21257746	Function
 511145	946987	GO:1900231	IMP	-	regulation of single-species biofilm formation on inanimate substrate	24267348	Process
 511145	946988	GO:0003676	IEA	-	nucleic acid binding	-	Function
@@ -21781,6 +21883,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946999	GO:0005198	IEA	-	structural molecule activity	-	Function
 511145	946999	GO:0005506	IEA	-	iron ion binding	-	Function
 511145	946999	GO:0005515	IPI	-	protein binding	11319236|11983079|24561554	Function
+511145	946999	GO:0005737	IBA	-	cytoplasm	21873635	Component
 511145	946999	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	946999	GO:0005829	IDA	-	cytosol	15911532|18304323	Component
 511145	946999	GO:0008198	IDA	-	ferrous iron binding	14720122	Function
@@ -21796,12 +21899,16 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	946999	GO:0051537	IDA	-	2 iron, 2 sulfur cluster binding	11319236	Function
 511145	946999	GO:0097428	IBA	-	protein maturation by iron-sulfur cluster transfer	21873635	Process
 511145	946999	GO:0097428	IEA	-	protein maturation by iron-sulfur cluster transfer	-	Process
+511145	947000	GO:0000986	IBA	-	bacterial-type proximal promoter sequence-specific DNA binding	21873635	Function
 511145	947000	GO:0003677	IDA	-	DNA binding	15808934	Function
 511145	947000	GO:0003677	IEA	-	DNA binding	-	Function
+511145	947000	GO:0003700	IBA	-	DNA-binding transcription factor activity	21873635	Function
 511145	947000	GO:0003700	IDA	-	DNA-binding transcription factor activity	11200225	Function
 511145	947000	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	947000	GO:0003700	ISS	-	DNA-binding transcription factor activity	9603882	Function
+511145	947000	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	947000	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
+511145	947000	GO:0032993	IBA	-	protein-DNA complex	21873635	Component
 511145	947000	GO:0045892	IDA	-	negative regulation of transcription, DNA-templated	11200225	Process
 511145	947000	GO:0045892	ISS	-	negative regulation of transcription, DNA-templated	9603882	Process
 511145	947000	GO:0045893	IDA	-	positive regulation of transcription, DNA-templated	11200225	Process
@@ -22560,12 +22667,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947063	GO:0043828	IEA	-	tRNA 2-selenouridine synthase activity	-	Function
 511145	947063	GO:0070329	IEA	-	tRNA seleno-modification	-	Process
 511145	947063	GO:0070329	IMP	-	tRNA seleno-modification	14594807	Process
+511145	947064	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	947064	GO:0003677	IEA	-	DNA binding	-	Function
 511145	947064	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	947064	GO:0006351	ISS	-	transcription, DNA-templated	10734204|15556475	Process
 511145	947064	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	947064	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
-511145	947064	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	947065	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	947065	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	947065	GO:0005887	IBA	-	integral component of plasma membrane	21873635	Component
@@ -23165,11 +23272,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947135	GO:0005887	ISM	-	integral component of plasma membrane	24958726	Component
 511145	947135	GO:0016020	IEA	-	membrane	-	Component
 511145	947135	GO:0016021	IEA	-	integral component of membrane	-	Component
+511145	947136	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	947136	GO:0003677	IEA	-	DNA binding	-	Function
 511145	947136	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	947136	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	947136	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
-511145	947136	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	947137	GO:0003824	IEA	-	catalytic activity	-	Function
 511145	947137	GO:0005515	IPI	-	protein binding	15690043	Function
 511145	947137	GO:0006281	IEA	-	DNA repair	-	Process
@@ -23392,6 +23499,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947154	GO:0090563	IBA	-	protein-phosphocysteine-sugar phosphotransferase activity	21873635	Function
 511145	947155	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	947155	GO:0003824	IEA	-	catalytic activity	-	Function
+511145	947155	GO:0004748	IBA	-	ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor	21873635	Function
 511145	947155	GO:0004748	IEA	-	ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor	-	Function
 511145	947155	GO:0005524	IEA	-	ATP binding	-	Function
 511145	947155	GO:0005737	ISA	-	cytoplasm	7809142	Component
@@ -23690,7 +23798,9 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947181	GO:2000144	IDA	-	positive regulation of DNA-templated transcription, initiation	8034728	Process
 511145	947182	GO:0005515	IPI	-	protein binding	15291820|16412426	Function
 511145	947182	GO:0016829	IEA	-	lyase activity	-	Function
+511145	947182	GO:0046892	IBA	-	peptidyl-S-carbamoyl-L-cysteine dehydration	21873635	Process
 511145	947182	GO:0046892	IDA	-	peptidyl-S-carbamoyl-L-cysteine dehydration	15291820	Process
+511145	947182	GO:0051604	IBA	-	protein maturation	21873635	Process
 511145	947182	GO:0051604	IMP	-	protein maturation	1482271	Process
 511145	947183	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	947183	GO:0016020	IEA	-	membrane	-	Component
@@ -23824,8 +23934,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947196	GO:0008138	IDA	-	protein tyrosine/serine/threonine phosphatase activity	9130712	Function
 511145	947196	GO:0016787	IEA	-	hydrolase activity	-	Function
 511145	947196	GO:0046872	IEA	-	metal ion binding	-	Function
+511145	947197	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	947197	GO:0005975	IEA	-	carbohydrate metabolic process	-	Process
 511145	947197	GO:0016829	IEA	-	lyase activity	-	Function
+511145	947197	GO:0016832	IBA	-	aldehyde-lyase activity	21873635	Function
+511145	947197	GO:0019323	IBA	-	pentose catabolic process	21873635	Process
 511145	947197	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	947199	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	947199	GO:0005524	IEA	-	ATP binding	-	Function
@@ -23895,7 +24008,9 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947206	GO:0042802	IPI	-	identical protein binding	11048711|11585365|21666597	Function
 511145	947206	GO:0043531	IDA	-	ADP binding	11048711	Function
 511145	947207	GO:0005975	IEA	-	carbohydrate metabolic process	-	Process
+511145	947207	GO:0008903	IBA	-	hydroxypyruvate isomerase activity	21873635	Function
 511145	947207	GO:0016853	IEA	-	isomerase activity	-	Function
+511145	947207	GO:0046487	IBA	-	glyoxylate metabolic process	21873635	Process
 511145	947207	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	947208	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	947208	GO:0005886	IEA	-	plasma membrane	-	Component
@@ -24158,9 +24273,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947230	GO:0019379	IEA	-	sulfate assimilation, phosphoadenylyl sulfate reduction by phosphoadenylyl-sulfate reductase (thioredoxin)	-	Process
 511145	947230	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	947230	GO:0070814	IEA	-	hydrogen sulfide biosynthetic process	-	Process
+511145	947231	GO:0000097	IBA	-	sulfur amino acid biosynthetic process	21873635	Process
 511145	947231	GO:0000103	IEA	-	sulfate assimilation	-	Process
 511145	947231	GO:0004783	IEA	-	sulfite reductase (NADPH) activity	-	Function
 511145	947231	GO:0008652	IEA	-	cellular amino acid biosynthetic process	-	Process
+511145	947231	GO:0009337	IBA	-	sulfite reductase complex (NADPH)	21873635	Component
 511145	947231	GO:0009337	IDA	-	sulfite reductase complex (NADPH)	8360156	Component
 511145	947231	GO:0009337	IEA	-	sulfite reductase complex (NADPH)	-	Component
 511145	947231	GO:0016002	IBA	-	sulfite reductase activity	21873635	Function
@@ -24794,7 +24911,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947287	GO:0006310	IEA	-	DNA recombination	-	Process
 511145	947287	GO:0006974	IDA	-	cellular response to DNA damage stimulus	1618858	Process
 511145	947287	GO:0006974	IEA	-	cellular response to DNA damage stimulus	-	Process
-511145	947287	GO:0008854	IBA	contributes_to	exodeoxyribonuclease V activity	21873635	Function
 511145	947287	GO:0008854	IDA	-	exodeoxyribonuclease V activity	1618858	Function
 511145	947287	GO:0008854	IEA	-	exodeoxyribonuclease V activity	-	Function
 511145	947287	GO:0009338	IBA	-	exodeoxyribonuclease V complex	21873635	Component
@@ -24815,9 +24931,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947289	GO:0016740	IEA	-	transferase activity	-	Function
 511145	947289	GO:0016746	IEA	-	transferase activity, transferring acyl groups	-	Function
 511145	947289	GO:0103045	IEA	-	methione N-acyltransferase activity	-	Function
+511145	947290	GO:0003954	IBA	-	NADH dehydrogenase activity	21873635	Function
 511145	947290	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	947290	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	947290	GO:0005887	ISS	-	integral component of plasma membrane	9387241	Component
+511145	947290	GO:0015990	IBA	-	electron transport coupled proton transport	21873635	Process
 511145	947290	GO:0016020	IEA	-	membrane	-	Component
 511145	947290	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	947290	GO:0016491	IEA	-	oxidoreductase activity	-	Function
@@ -24878,11 +24996,14 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947295	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	947295	GO:0016020	IEA	-	membrane	-	Component
 511145	947295	GO:0016021	IEA	-	integral component of membrane	-	Component
+511145	947296	GO:0003723	IBA	-	RNA binding	21873635	Function
 511145	947296	GO:0003723	IDA	-	RNA binding	10393194	Function
 511145	947296	GO:0003723	IEA	-	RNA binding	-	Function
 511145	947296	GO:0005737	IEA	-	cytoplasm	-	Component
+511145	947296	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	947296	GO:0005829	IDA	-	cytosol	18304323	Component
 511145	947296	GO:0070929	IEA	-	trans-translation	-	Process
+511145	947296	GO:0070930	IBA	-	trans-translation-dependent protein tagging	21873635	Process
 511145	947296	GO:0070930	IMP	-	trans-translation-dependent protein tagging	10393194	Process
 511145	947297	GO:0000030	IEA	-	mannosyltransferase activity	-	Function
 511145	947297	GO:0005886	IBA	-	plasma membrane	21873635	Component
@@ -24907,15 +25028,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947297	GO:0097502	IEA	-	mannosylation	-	Process
 511145	947297	GO:0103015	IEA	-	4-amino-4-deoxy-L-arabinose transferase activity	-	Function
 511145	947298	GO:0003824	IEA	-	catalytic activity	-	Function
-511145	947298	GO:0004550	IBA	-	nucleoside diphosphate kinase activity	21873635	Function
 511145	947298	GO:0004775	IBA	-	succinate-CoA ligase (ADP-forming) activity	21873635	Function
+511145	947298	GO:0004776	IBA	-	succinate-CoA ligase (GDP-forming) activity	21873635	Function
 511145	947298	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	947298	GO:0005829	IDA	-	cytosol	17309111	Component
 511145	947298	GO:0006099	IBA	-	tricarboxylic acid cycle	21873635	Process
-511145	947298	GO:0006104	IBA	-	succinyl-CoA metabolic process	21873635	Process
-511145	947298	GO:0006105	IBA	-	succinate metabolic process	21873635	Process
 511145	947298	GO:0006165	IEA	-	nucleoside diphosphate phosphorylation	-	Process
-511145	947298	GO:0009142	IBA	-	nucleoside triphosphate biosynthetic process	21873635	Process
+511145	947298	GO:0009361	IBA	-	succinate-CoA ligase complex (ADP-forming)	21873635	Component
 511145	947298	GO:0048037	IEA	-	cofactor binding	-	Function
 511145	947299	GO:0000018	IMP	-	regulation of DNA recombination	2555716	Process
 511145	947299	GO:0003677	IDA	-	DNA binding	12606120	Function
@@ -25049,6 +25168,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947314	GO:0042802	IPI	-	identical protein binding	19007420|24561554	Function
 511145	947315	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	947315	GO:0003824	IEA	-	catalytic activity	-	Function
+511145	947315	GO:0004467	IBA	-	long-chain fatty acid-CoA ligase activity	21873635	Function
 511145	947315	GO:0005524	IEA	-	ATP binding	-	Function
 511145	947315	GO:0005886	IDA	-	plasma membrane	17309111	Component
 511145	947315	GO:0005886	IEA	-	plasma membrane	-	Component
@@ -25061,6 +25181,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947315	GO:0008779	IEA	-	acyl-[acyl-carrier-protein]-phospholipid O-acyltransferase activity	-	Function
 511145	947315	GO:0008922	IDA	-	long-chain fatty acid [acyl-carrier-protein] ligase activity	378999	Function
 511145	947315	GO:0008922	IEA	-	long-chain fatty acid [acyl-carrier-protein] ligase activity	-	Function
+511145	947315	GO:0016020	IBA	-	membrane	21873635	Component
 511145	947315	GO:0016020	IEA	-	membrane	-	Component
 511145	947315	GO:0016021	IDA	-	integral component of membrane	378999	Component
 511145	947315	GO:0016021	IEA	-	integral component of membrane	-	Component
@@ -25449,10 +25570,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947363	GO:0046688	IMP	-	response to copper ion	16087673	Process
 511145	947363	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	947363	GO:0061077	IDA	-	chaperone-mediated protein folding	10391895	Process
+511145	947364	GO:0004659	IBA	-	prenyltransferase activity	21873635	Function
 511145	947364	GO:0004659	IDA	-	prenyltransferase activity	11825609	Function
 511145	947364	GO:0005515	IPI	-	protein binding	20051244	Function
 511145	947364	GO:0005829	IDA	-	cytosol	18304323	Component
 511145	947364	GO:0006744	IMP	-	ubiquinone biosynthetic process	11108713	Process
+511145	947364	GO:0008299	IBA	-	isoprenoid biosynthetic process	21873635	Process
 511145	947364	GO:0008299	IEA	-	isoprenoid biosynthetic process	-	Process
 511145	947364	GO:0016094	IMP	-	polyprenol biosynthetic process	11108713	Process
 511145	947364	GO:0016740	IEA	-	transferase activity	-	Function
@@ -25663,12 +25786,15 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947384	GO:0008033	IEA	-	tRNA processing	-	Process
 511145	947384	GO:0009451	IEA	-	RNA modification	-	Process
 511145	947384	GO:0016226	IBA	-	iron-sulfur cluster assembly	21873635	Process
+511145	947385	GO:0004177	IBA	-	aminopeptidase activity	21873635	Function
 511145	947385	GO:0004177	IDA	-	aminopeptidase activity	2851590	Function
 511145	947385	GO:0004177	IEA	-	aminopeptidase activity	-	Function
 511145	947385	GO:0005515	IPI	-	protein binding	15690043|19402753	Function
 511145	947385	GO:0005737	IEA	-	cytoplasm	-	Component
+511145	947385	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	947385	GO:0005829	IDA	-	cytosol	18304323	Component
 511145	947385	GO:0006508	IEA	-	proteolysis	-	Process
+511145	947385	GO:0008233	IBA	-	peptidase activity	21873635	Function
 511145	947385	GO:0008233	IEA	-	peptidase activity	-	Function
 511145	947385	GO:0008235	IDA	-	metalloexopeptidase activity	16411772	Function
 511145	947385	GO:0008237	IEA	-	metallopeptidase activity	-	Function
@@ -26006,7 +26132,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947420	GO:0004802	IBA	-	transketolase activity	21873635	Function
 511145	947420	GO:0004802	IDA	-	transketolase activity	7607225	Function
 511145	947420	GO:0004802	IEA	-	transketolase activity	-	Function
-511145	947420	GO:0005515	IPI	-	protein binding	17850260	Function
+511145	947420	GO:0005515	IPI	-	protein binding	-	Function
 511145	947420	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	947420	GO:0005829	IDA	-	cytosol	15911532|18304323	Component
 511145	947420	GO:0006098	IBA	-	pentose-phosphate shunt	21873635	Process
@@ -26014,14 +26140,14 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947420	GO:0016740	IEA	-	transferase activity	-	Function
 511145	947420	GO:0030145	IDA	-	manganese ion binding	7607225	Function
 511145	947420	GO:0030976	IDA	-	thiamine pyrophosphate binding	7607225	Function
-511145	947420	GO:0032991	IMP	-	protein-containing complex	17850260	Component
-511145	947420	GO:0036245	IMP	-	cellular response to menadione	17850260	Process
-511145	947420	GO:0045893	IMP	-	positive regulation of transcription, DNA-templated	17850260	Process
+511145	947420	GO:0032991	IMP	-	protein-containing complex	-	Component
+511145	947420	GO:0036245	IMP	-	cellular response to menadione	-	Process
+511145	947420	GO:0045893	IMP	-	positive regulation of transcription, DNA-templated	-	Process
 511145	947420	GO:0046872	IEA	-	metal ion binding	-	Function
-511145	947420	GO:0070301	IMP	-	cellular response to hydrogen peroxide	17850260	Process
-511145	947420	GO:0071236	IMP	-	cellular response to antibiotic	17850260	Process
-511145	947420	GO:0072747	IMP	-	cellular response to chloramphenicol	17850260	Process
-511145	947420	GO:0072756	IMP	-	cellular response to paraquat	17850260	Process
+511145	947420	GO:0070301	IMP	-	cellular response to hydrogen peroxide	-	Process
+511145	947420	GO:0071236	IMP	-	cellular response to antibiotic	-	Process
+511145	947420	GO:0072747	IMP	-	cellular response to chloramphenicol	-	Process
+511145	947420	GO:0072756	IMP	-	cellular response to paraquat	-	Process
 511145	947421	GO:0005886	IDA	-	plasma membrane	15919996|17309111	Component
 511145	947421	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	947421	GO:0016020	IEA	-	membrane	-	Component
@@ -26046,6 +26172,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947423	GO:0030170	IBA	-	pyridoxal phosphate binding	21873635	Function
 511145	947423	GO:0030170	IDA	-	pyridoxal phosphate binding	24097949|26872910	Function
 511145	947423	GO:0030170	IEA	-	pyridoxal phosphate binding	-	Function
+511145	947424	GO:0005737	IBA	-	cytoplasm	21873635	Component
 511145	947425	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	947425	GO:0003677	IDA	-	DNA binding	22089859	Function
 511145	947425	GO:0003677	IEA	-	DNA binding	-	Function
@@ -26242,6 +26369,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947441	GO:0045892	IMP	-	negative regulation of transcription, DNA-templated	12864862	Process
 511145	947441	GO:0045893	IMP	-	positive regulation of transcription, DNA-templated	3888955	Process
 511145	947441	GO:0046677	IMP	-	response to antibiotic	18192383	Process
+511145	947442	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	947442	GO:0005829	IDA	-	cytosol	15911532|18304323	Component
 511145	947443	GO:0005737	IEA	-	cytoplasm	-	Component
 511145	947443	GO:0008270	IEA	-	zinc ion binding	-	Function
@@ -26508,10 +26636,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947479	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	947479	GO:0016020	IEA	-	membrane	-	Component
 511145	947479	GO:0016021	IEA	-	integral component of membrane	-	Component
+511145	947480	GO:0004033	IBA	-	aldo-keto reductase (NADP) activity	21873635	Function
 511145	947480	GO:0006974	IEP	-	cellular response to DNA damage stimulus	11967071	Process
 511145	947480	GO:0016491	IEA	-	oxidoreductase activity	-	Function
 511145	947480	GO:0016616	IDA	-	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	18620424	Function
+511145	947480	GO:0051596	IBA	-	methylglyoxal catabolic process	21873635	Process
 511145	947480	GO:0051596	IMP	-	methylglyoxal catabolic process	12583903	Process
+511145	947480	GO:0055114	IBA	-	oxidation-reduction process	21873635	Process
 511145	947480	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	947481	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	947481	GO:0005524	IEA	-	ATP binding	-	Function
@@ -26780,13 +26911,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947506	GO:0016491	IDA	-	oxidoreductase activity	15613473	Function
 511145	947506	GO:0016491	IEA	-	oxidoreductase activity	-	Function
 511145	947506	GO:0055114	IEA	-	oxidation-reduction process	-	Process
+511145	947507	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	947507	GO:0003677	IEA	-	DNA binding	-	Function
 511145	947507	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	947507	GO:0006351	ISS	-	transcription, DNA-templated	10734204|15556475	Process
 511145	947507	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	947507	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
 511145	947507	GO:0010212	IMP	-	response to ionizing radiation	25049088	Process
-511145	947507	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	947508	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	947508	GO:0005515	IPI	-	protein binding	21711450|28636601	Function
 511145	947508	GO:0005524	IEA	-	ATP binding	-	Function
@@ -27262,6 +27393,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947560	GO:0016787	IEA	-	hydrolase activity	-	Function
 511145	947560	GO:0019104	IEA	-	DNA N-glycosylase activity	-	Function
 511145	947561	GO:0004366	IEA	-	glycerol-3-phosphate O-acyltransferase activity	-	Function
+511145	947561	GO:0005886	IBA	-	plasma membrane	21873635	Component
 511145	947561	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	947561	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	947561	GO:0006629	IEA	-	lipid metabolic process	-	Process
@@ -27445,6 +27577,8 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947578	GO:0140032	IDA	-	glycosylation-dependent protein binding	20824107	Function
 511145	947579	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	947579	GO:0005886	IEA	-	plasma membrane	-	Component
+511145	947579	GO:0006865	IBA	-	amino acid transport	21873635	Process
+511145	947579	GO:0015171	IBA	-	amino acid transmembrane transporter activity	21873635	Function
 511145	947579	GO:0016020	IEA	-	membrane	-	Component
 511145	947579	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	947579	GO:0022857	IEA	-	transmembrane transporter activity	-	Function
@@ -27699,21 +27833,21 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947612	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	947612	GO:0016020	IEA	-	membrane	-	Component
 511145	947612	GO:0016021	IEA	-	integral component of membrane	-	Component
-511145	947613	GO:0000985	IMP	-	bacterial-type RNA polymerase core promoter sequence-specific DNA binding	17850260	Function
-511145	947613	GO:0001217	IMP	-	bacterial-type RNA polymerase transcriptional repressor activity, sequence-specific DNA binding	17850260	Function
+511145	947613	GO:0000985	IMP	-	bacterial-type RNA polymerase core promoter sequence-specific DNA binding	-	Function
+511145	947613	GO:0001217	IMP	-	bacterial-type RNA polymerase transcriptional repressor activity, sequence-specific DNA binding	-	Function
 511145	947613	GO:0003677	IDA	-	DNA binding	12217688	Function
 511145	947613	GO:0003677	IEA	-	DNA binding	-	Function
 511145	947613	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
-511145	947613	GO:0005515	IPI	-	protein binding	17850260	Function
+511145	947613	GO:0005515	IPI	-	protein binding	-	Function
 511145	947613	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
-511145	947613	GO:0032991	IMP	-	protein-containing complex	17850260	Component
-511145	947613	GO:0032993	IMP	-	protein-DNA complex	17850260	Component
-511145	947613	GO:0036245	IDA	-	cellular response to menadione	17850260	Process
+511145	947613	GO:0032991	IMP	-	protein-containing complex	-	Component
+511145	947613	GO:0032993	IMP	-	protein-DNA complex	-	Component
+511145	947613	GO:0036245	IDA	-	cellular response to menadione	-	Process
 511145	947613	GO:0043565	IEA	-	sequence-specific DNA binding	-	Function
-511145	947613	GO:0045892	IMP	-	negative regulation of transcription, DNA-templated	8383113|17850260	Process
+511145	947613	GO:0045892	IMP	-	negative regulation of transcription, DNA-templated	8383113	Process
 511145	947613	GO:0045893	IDA	-	positive regulation of transcription, DNA-templated	8522515	Process
 511145	947613	GO:0046677	IEA	-	response to antibiotic	-	Process
-511145	947613	GO:0072756	IDA	-	cellular response to paraquat	17850260	Process
+511145	947613	GO:0072756	IDA	-	cellular response to paraquat	-	Process
 511145	947614	GO:0005515	IPI	-	protein binding	21697552	Function
 511145	947614	GO:0005886	IDA	-	plasma membrane	22661687	Component
 511145	947614	GO:0005886	IEA	-	plasma membrane	-	Component
@@ -27743,13 +27877,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947619	GO:0045859	IEA	-	regulation of protein kinase activity	-	Process
 511145	947619	GO:0045859	IEP	-	regulation of protein kinase activity	19432797	Process
 511145	947620	GO:0005737	IEA	-	cytoplasm	-	Component
+511145	947621	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	947621	GO:0001216	IDA	-	bacterial-type RNA polymerase transcriptional activator activity, sequence-specific DNA binding	27713734	Function
 511145	947621	GO:0003677	IEA	-	DNA binding	-	Function
 511145	947621	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	947621	GO:0006351	ISS	-	transcription, DNA-templated	10734204|15556475	Process
 511145	947621	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	947621	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
-511145	947621	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	947621	GO:2000144	IDA	-	positive regulation of DNA-templated transcription, initiation	27713734	Process
 511145	947623	GO:0003824	IEA	-	catalytic activity	-	Function
 511145	947623	GO:0005515	IPI	-	protein binding	28955877	Function
@@ -28235,16 +28369,19 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947675	GO:0022804	EXP	-	active transmembrane transporter activity	1917834	Function
 511145	947676	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	947676	GO:0005524	IEA	-	ATP binding	-	Function
+511145	947676	GO:0005886	IBA	-	plasma membrane	21873635	Component
 511145	947676	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	947676	GO:0006811	IEA	-	ion transport	-	Process
 511145	947676	GO:0006826	IEA	-	iron ion transport	-	Process
 511145	947676	GO:0015408	IEA	-	ferric-transporting ATPase activity	-	Function
 511145	947676	GO:0016020	IEA	-	membrane	-	Component
 511145	947676	GO:0016887	IEA	-	ATPase activity	-	Function
+511145	947676	GO:0022857	IBA	-	transmembrane transporter activity	21873635	Function
 511145	947676	GO:0022857	IEA	-	transmembrane transporter activity	-	Function
 511145	947676	GO:0033212	IEA	-	iron assimilation	-	Process
 511145	947676	GO:0043190	IEA	-	ATP-binding cassette (ABC) transporter complex	-	Component
 511145	947676	GO:0055072	IEA	-	iron ion homeostasis	-	Process
+511145	947676	GO:0055085	IBA	-	transmembrane transport	21873635	Process
 511145	947676	GO:0055085	IEA	-	transmembrane transport	-	Process
 511145	947676	GO:0098655	IEA	-	cation transmembrane transport	-	Process
 511145	947677	GO:0005829	IBA	-	cytosol	21873635	Component
@@ -28951,7 +29088,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947730	GO:0055085	IEA	-	transmembrane transport	-	Process
 511145	947730	GO:0055085	RCA	-	transmembrane transport	11259419	Process
 511145	947730	GO:0070588	IBA	-	calcium ion transmembrane transport	21873635	Process
-511145	947731	GO:0003954	IBA	contributes_to	NADH dehydrogenase activity	21873635	Function
 511145	947731	GO:0005886	IDA	-	plasma membrane	7607227|15919996	Component
 511145	947731	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	947731	GO:0005887	IDA	-	integral component of plasma membrane	15919996	Component
@@ -29259,6 +29395,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947759	GO:0018160	IEA	-	peptidyl-pyrromethane cofactor linkage	-	Process
 511145	947759	GO:0033014	IEA	-	tetrapyrrole biosynthetic process	-	Process
 511145	947759	GO:0033014	IMP	-	tetrapyrrole biosynthetic process	379277	Process
+511145	947760	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	947760	GO:0003677	IEA	-	DNA binding	-	Function
 511145	947760	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	947760	GO:0006351	EXP	-	transcription, DNA-templated	12011002	Process
@@ -29269,7 +29406,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947760	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	947760	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
 511145	947760	GO:0006355	IMP	-	regulation of transcription, DNA-templated	15489430	Process
-511145	947760	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	947760	GO:0045893	IMP	-	positive regulation of transcription, DNA-templated	15489430	Process
 511145	947760	GO:0045893	ISS	-	positive regulation of transcription, DNA-templated	12011002|15556475	Process
 511145	947761	GO:0000166	IEA	-	nucleotide binding	-	Function
@@ -29911,8 +30047,10 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947821	GO:0051301	IEA	-	cell division	-	Process
 511145	947821	GO:0051301	IMP	-	cell division	24595368	Process
 511145	947822	GO:0009279	IEA	-	cell outer membrane	-	Component
+511145	947822	GO:0009306	IBA	-	protein secretion	21873635	Process
 511145	947822	GO:0009306	IEA	-	protein secretion	-	Process
 511145	947822	GO:0015031	IEA	-	protein transport	-	Process
+511145	947822	GO:0015627	IBA	-	type II protein secretion system complex	21873635	Component
 511145	947822	GO:0015627	IEA	-	type II protein secretion system complex	-	Component
 511145	947822	GO:0015628	IEA	-	protein secretion by the type II secretion system	-	Process
 511145	947822	GO:0016020	IEA	-	membrane	-	Component
@@ -30042,17 +30180,22 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947838	GO:0006414	IEA	-	translational elongation	-	Process
 511145	947838	GO:0016020	IEA	-	membrane	-	Component
 511145	947838	GO:0046677	IEA	-	response to antibiotic	-	Process
+511145	947839	GO:0004322	IBA	-	ferroxidase activity	21873635	Function
 511145	947839	GO:0004322	IDA	-	ferroxidase activity	10769150	Function
 511145	947839	GO:0004322	IEA	-	ferroxidase activity	-	Function
+511145	947839	GO:0005506	IBA	-	iron ion binding	21873635	Function
 511145	947839	GO:0005506	IDA	-	iron ion binding	8477705	Function
 511145	947839	GO:0005515	IPI	-	protein binding	8639572	Function
+511145	947839	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	947839	GO:0005829	IDA	-	cytosol	18304323	Component
 511145	947839	GO:0006826	IEA	-	iron ion transport	-	Process
 511145	947839	GO:0006879	IEA	-	cellular iron ion homeostasis	-	Process
+511145	947839	GO:0006880	IBA	-	intracellular sequestering of iron ion	21873635	Process
 511145	947839	GO:0006880	IDA	-	intracellular sequestering of iron ion	8477705	Process
 511145	947839	GO:0008199	IEA	-	ferric iron binding	-	Function
 511145	947839	GO:0016491	IEA	-	oxidoreductase activity	-	Function
 511145	947839	GO:0016491	NAS	-	oxidoreductase activity	8477705	Function
+511145	947839	GO:0020037	IBA	-	heme binding	21873635	Function
 511145	947839	GO:0020037	IDA	-	heme binding	7032515	Function
 511145	947839	GO:0042802	IDA	-	identical protein binding	7032515	Function
 511145	947839	GO:0042802	IPI	-	identical protein binding	7664064|16858726	Function
@@ -30140,9 +30283,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947847	GO:0003924	IEA	-	GTPase activity	-	Function
 511145	947847	GO:0005525	IEA	-	GTP binding	-	Function
 511145	947847	GO:0005737	IEA	-	cytoplasm	-	Component
+511145	947847	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	947847	GO:0005829	IDA	-	cytosol	15911532|18304323	Component
 511145	947847	GO:0006412	IEA	-	translation	-	Process
 511145	947847	GO:0006414	IEA	-	translational elongation	-	Process
+511145	947847	GO:0032790	IBA	-	ribosome disassembly	21873635	Process
 511145	947848	GO:0005737	IEA	-	cytoplasm	-	Component
 511145	947848	GO:0016491	IEA	-	oxidoreductase activity	-	Function
 511145	947848	GO:0043957	IDA	-	acryloyl-CoA reductase (NADP+) activity	23955006	Function
@@ -30196,8 +30341,9 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947854	GO:0030060	IEA	-	L-malate dehydrogenase activity	-	Function
 511145	947854	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	947855	GO:0016787	IEA	-	hydrolase activity	-	Function
-511145	947855	GO:0016788	IBA	-	hydrolase activity, acting on ester bonds	21873635	Function
+511145	947855	GO:0034338	IBA	-	short-chain carboxylesterase activity	21873635	Function
 511145	947855	GO:0044255	IBA	-	cellular lipid metabolic process	21873635	Process
+511145	947855	GO:0047372	IBA	-	acylglycerol lipase activity	21873635	Function
 511145	947855	GO:0050526	ISM	-	poly(3-hydroxybutyrate) depolymerase activity	10091664	Function
 511145	947855	GO:0052689	IEA	-	carboxylic ester hydrolase activity	-	Function
 511145	947856	GO:0000166	IEA	-	nucleotide binding	-	Function
@@ -30399,7 +30545,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947872	GO:0051302	IBA	-	regulation of cell division	21873635	Process
 511145	947872	GO:0051302	IMP	-	regulation of cell division	2546924	Process
 511145	947873	GO:0000162	IBA	-	tryptophan biosynthetic process	21873635	Process
-511145	947873	GO:0004049	IBA	contributes_to	anthranilate synthase activity	21873635	Function
 511145	947873	GO:0006541	IEA	-	glutamine metabolic process	-	Process
 511145	947873	GO:0016740	IEA	-	transferase activity	-	Function
 511145	947873	GO:0046654	IBA	-	tetrahydrofolate biosynthetic process	21873635	Process
@@ -31188,6 +31333,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947949	GO:0006313	IEA	-	transposition, DNA-mediated	-	Process
 511145	947949	GO:0032196	IEA	-	transposition	-	Process
 511145	947950	GO:0006310	IEA	-	DNA recombination	-	Process
+511145	947950	GO:0006313	IBA	-	transposition, DNA-mediated	21873635	Process
 511145	947950	GO:0006313	IEA	-	transposition, DNA-mediated	-	Process
 511145	947950	GO:0032196	IEA	-	transposition	-	Process
 511145	947953	GO:0000166	IEA	-	nucleotide binding	-	Function
@@ -31679,11 +31825,14 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	947990	GO:0055052	ISS	-	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	7934931	Component
 511145	947990	GO:0055085	IEA	-	transmembrane transport	-	Process
 511145	947990	GO:0071916	IBA	-	dipeptide transmembrane transporter activity	21873635	Function
+511145	947991	GO:0005886	IBA	-	plasma membrane	21873635	Component
 511145	947991	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	947991	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	947991	GO:0016020	IEA	-	membrane	-	Component
 511145	947991	GO:0016021	IEA	-	integral component of membrane	-	Component
+511145	947991	GO:0022857	IBA	-	transmembrane transporter activity	21873635	Function
 511145	947991	GO:0043190	IEA	-	ATP-binding cassette (ABC) transporter complex	-	Component
+511145	947991	GO:0055085	IBA	-	transmembrane transport	21873635	Process
 511145	947991	GO:0055085	IEA	-	transmembrane transport	-	Process
 511145	947992	GO:0003677	IEA	-	DNA binding	-	Function
 511145	947992	GO:0004803	IEA	-	transposase activity	-	Function
@@ -31882,6 +32031,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948012	GO:0070475	IDA	-	rRNA base methylation	22847818	Process
 511145	948012	GO:0070475	IEA	-	rRNA base methylation	-	Process
 511145	948012	GO:0070475	IMP	-	rRNA base methylation	22847818	Process
+511145	948013	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	948013	GO:0003677	IDA	-	DNA binding	9188467	Function
 511145	948013	GO:0003677	IEA	-	DNA binding	-	Function
 511145	948013	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
@@ -31889,7 +32039,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948013	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	948013	GO:0006355	IDA	-	regulation of transcription, DNA-templated	8764681	Process
 511145	948013	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
-511145	948013	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	948013	GO:0046685	IDA	-	response to arsenic-containing substance	7721697	Process
 511145	948013	GO:0046685	IEA	-	response to arsenic-containing substance	-	Process
 511145	948014	GO:0004362	IBA	-	glutathione-disulfide reductase activity	21873635	Function
@@ -32003,6 +32152,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948027	GO:0019752	IEA	-	carboxylic acid metabolic process	-	Process
 511145	948027	GO:0030170	IEA	-	pyridoxal phosphate binding	-	Function
 511145	948027	GO:0051454	IMP	-	intracellular pH elevation	10348866	Process
+511145	948028	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	948028	GO:0000986	IDA	-	bacterial-type proximal promoter sequence-specific DNA binding	11976288	Function
 511145	948028	GO:0001216	IMP	-	bacterial-type RNA polymerase transcriptional activator activity, sequence-specific DNA binding	11976288	Function
 511145	948028	GO:0003677	IEA	-	DNA binding	-	Function
@@ -32013,7 +32163,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948028	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
 511145	948028	GO:0006974	IEP	-	cellular response to DNA damage stimulus	11967071	Process
 511145	948028	GO:0043565	IEA	-	sequence-specific DNA binding	-	Function
-511145	948028	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	948028	GO:0045893	IMP	-	positive regulation of transcription, DNA-templated	11976288	Process
 511145	948029	GO:0003677	IDA	-	DNA binding	12446650	Function
 511145	948029	GO:0003677	IEA	-	DNA binding	-	Function
@@ -32231,11 +32380,9 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948049	GO:0006974	IEP	-	cellular response to DNA damage stimulus	11967071	Process
 511145	948049	GO:0006995	IEP	-	cellular response to nitrogen starvation	2188954	Process
 511145	948049	GO:0009450	IEA	-	gamma-aminobutyric acid catabolic process	-	Process
-511145	948049	GO:0015185	IEA	-	gamma-aminobutyric acid transmembrane transporter activity	-	Function
 511145	948049	GO:0015185	IMP	-	gamma-aminobutyric acid transmembrane transporter activity	8297211	Function
 511145	948049	GO:0015291	IDA	-	secondary active transmembrane transporter activity	8297211	Function
 511145	948049	GO:0015291	ISS	-	secondary active transmembrane transporter activity	10931886	Function
-511145	948049	GO:0015812	IEA	-	gamma-aminobutyric acid transport	-	Process
 511145	948049	GO:0015812	IMP	-	gamma-aminobutyric acid transport	8297211	Process
 511145	948049	GO:0016020	IEA	-	membrane	-	Component
 511145	948049	GO:0016021	IDA	-	integral component of membrane	9806886	Component
@@ -32774,6 +32921,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948107	GO:0043565	IBA	-	sequence-specific DNA binding	21873635	Function
 511145	948108	GO:0006974	IMP	-	cellular response to DNA damage stimulus	20128927	Process
 511145	948108	GO:0009314	IMP	-	response to radiation	27718375	Process
+511145	948108	GO:0016491	IBA	-	oxidoreductase activity	21873635	Function
 511145	948108	GO:0046677	IMP	-	response to antibiotic	20128927	Process
 511145	948109	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	948110	GO:0005215	IEA	-	transporter activity	-	Function
@@ -33081,8 +33229,10 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948136	GO:0016757	IEA	-	transferase activity, transferring glycosyl groups	-	Function
 511145	948138	GO:0003824	IEA	-	catalytic activity	-	Function
 511145	948138	GO:0005737	IDA	-	cytoplasm	11318637	Component
+511145	948138	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	948138	GO:0005829	IDA	-	cytosol	15911532|18304323	Component
 511145	948138	GO:0006567	IEA	-	threonine catabolic process	-	Process
+511145	948138	GO:0008890	IBA	-	glycine C-acetyltransferase activity	21873635	Function
 511145	948138	GO:0008890	IDA	-	glycine C-acetyltransferase activity	3117785	Function
 511145	948138	GO:0008890	IEA	-	glycine C-acetyltransferase activity	-	Function
 511145	948138	GO:0009058	IEA	-	biosynthetic process	-	Process
@@ -33354,9 +33504,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948163	GO:0042802	IDA	-	identical protein binding	8390989|16140325	Function
 511145	948163	GO:0046037	IEA	-	GMP metabolic process	-	Process
 511145	948163	GO:0046710	IEA	-	GDP metabolic process	-	Process
+511145	948164	GO:0003677	IBA	-	DNA binding	21873635	Function
 511145	948164	GO:0003911	IBA	-	DNA ligase (NAD+) activity	21873635	Function
 511145	948164	GO:0003911	IDA	-	DNA ligase (NAD+) activity	11812821	Function
 511145	948164	GO:0003911	IEA	-	DNA ligase (NAD+) activity	-	Function
+511145	948164	GO:0005634	IBA	-	nucleus	21873635	Component
 511145	948164	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	948164	GO:0006259	IEA	-	DNA metabolic process	-	Process
 511145	948164	GO:0006260	IEA	-	DNA replication	-	Process
@@ -33380,7 +33532,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948166	GO:0015293	IEA	-	symporter activity	-	Function
 511145	948166	GO:0015501	IDA	-	glutamate:sodium symporter activity	336628	Function
 511145	948166	GO:0015501	IEA	-	glutamate:sodium symporter activity	-	Function
-511145	948166	GO:0015813	IEA	-	L-glutamate transmembrane transport	-	Process
 511145	948166	GO:0015813	IGI	-	L-glutamate transmembrane transport	2017136	Process
 511145	948166	GO:0016020	IEA	-	membrane	-	Component
 511145	948166	GO:0016021	IEA	-	integral component of membrane	-	Component
@@ -33484,19 +33635,24 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948181	GO:0009099	IMP	-	valine biosynthetic process	17463081	Process
 511145	948182	GO:0000287	IEA	-	magnesium ion binding	-	Function
 511145	948182	GO:0003824	IEA	-	catalytic activity	-	Function
+511145	948182	GO:0003984	IBA	-	acetolactate synthase activity	21873635	Function
 511145	948182	GO:0003984	IDA	-	acetolactate synthase activity	16326011	Function
 511145	948182	GO:0003984	IEA	-	acetolactate synthase activity	-	Function
 511145	948182	GO:0005515	IPI	-	protein binding	6360995|16606699|18193896|24561554	Function
+511145	948182	GO:0005948	IBA	-	acetolactate synthase complex	21873635	Component
 511145	948182	GO:0005948	IDA	-	acetolactate synthase complex	6360995	Component
 511145	948182	GO:0008652	IEA	-	cellular amino acid biosynthetic process	-	Process
 511145	948182	GO:0009082	IEA	-	branched-chain amino acid biosynthetic process	-	Process
+511145	948182	GO:0009097	IBA	-	isoleucine biosynthetic process	21873635	Process
 511145	948182	GO:0009097	IDA	-	isoleucine biosynthetic process	370104	Process
 511145	948182	GO:0009097	IEA	-	isoleucine biosynthetic process	-	Process
+511145	948182	GO:0009099	IBA	-	valine biosynthetic process	21873635	Process
 511145	948182	GO:0009099	IDA	-	valine biosynthetic process	16326011	Process
 511145	948182	GO:0009099	IEA	-	valine biosynthetic process	-	Process
 511145	948182	GO:0016740	IEA	-	transferase activity	-	Function
 511145	948182	GO:0030976	IEA	-	thiamine pyrophosphate binding	-	Function
 511145	948182	GO:0046872	IEA	-	metal ion binding	-	Function
+511145	948182	GO:0050660	IBA	-	flavin adenine dinucleotide binding	21873635	Function
 511145	948182	GO:0050660	IEA	-	flavin adenine dinucleotide binding	-	Function
 511145	948183	GO:0003984	IBA	-	acetolactate synthase activity	21873635	Function
 511145	948183	GO:0003984	IDA	-	acetolactate synthase activity	16326011	Function
@@ -34139,7 +34295,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948243	GO:0045261	IBA	-	proton-transporting ATP synthase complex, catalytic core F(1)	21873635	Component
 511145	948243	GO:0045261	IEA	-	proton-transporting ATP synthase complex, catalytic core F(1)	-	Component
 511145	948243	GO:0045261	IMP	-	proton-transporting ATP synthase complex, catalytic core F(1)	2863270	Component
-511145	948243	GO:0046933	IBA	contributes_to	proton-transporting ATP synthase activity, rotational mechanism	21873635	Function
 511145	948243	GO:0046933	IDA	-	proton-transporting ATP synthase activity, rotational mechanism	146491	Function
 511145	948243	GO:0046933	IEA	-	proton-transporting ATP synthase activity, rotational mechanism	-	Function
 511145	948243	GO:0046961	IDA	-	proton-transporting ATPase activity, rotational mechanism	146491	Function
@@ -34157,7 +34312,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948244	GO:0045261	IEA	-	proton-transporting ATP synthase complex, catalytic core F(1)	-	Component
 511145	948244	GO:0045261	IMP	-	proton-transporting ATP synthase complex, catalytic core F(1)	158358	Component
 511145	948244	GO:0046034	IEA	-	ATP metabolic process	-	Process
-511145	948244	GO:0046933	IBA	contributes_to	proton-transporting ATP synthase activity, rotational mechanism	21873635	Function
 511145	948244	GO:0046933	IEA	-	proton-transporting ATP synthase activity, rotational mechanism	-	Function
 511145	948244	GO:0046961	IMP	-	proton-transporting ATPase activity, rotational mechanism	158358	Function
 511145	948244	GO:0098655	IEA	-	cation transmembrane transport	-	Process
@@ -34173,7 +34327,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948245	GO:0045261	IBA	-	proton-transporting ATP synthase complex, catalytic core F(1)	21873635	Component
 511145	948245	GO:0045261	IDA	-	proton-transporting ATP synthase complex, catalytic core F(1)	6238948	Component
 511145	948245	GO:0045261	IEA	-	proton-transporting ATP synthase complex, catalytic core F(1)	-	Component
-511145	948245	GO:0046933	IBA	contributes_to	proton-transporting ATP synthase activity, rotational mechanism	21873635	Function
 511145	948245	GO:0046933	IDA	-	proton-transporting ATP synthase activity, rotational mechanism	6238948	Function
 511145	948245	GO:0046933	IEA	-	proton-transporting ATP synthase activity, rotational mechanism	-	Function
 511145	948245	GO:0098655	IEA	-	cation transmembrane transport	-	Process
@@ -34214,7 +34367,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948247	GO:0045263	IMP	-	proton-transporting ATP synthase complex, coupling factor F(o)	6460031	Component
 511145	948247	GO:0046933	IEA	-	proton-transporting ATP synthase activity, rotational mechanism	-	Function
 511145	948247	GO:0046933	IMP	-	proton-transporting ATP synthase activity, rotational mechanism	2863271	Function
-511145	948247	GO:0046961	IBA	contributes_to	proton-transporting ATPase activity, rotational mechanism	21873635	Function
 511145	948247	GO:0046961	IMP	-	proton-transporting ATPase activity, rotational mechanism	6460031	Function
 511145	948247	GO:0098655	IEA	-	cation transmembrane transport	-	Process
 511145	948248	GO:0002098	IBA	-	tRNA wobble uridine modification	21873635	Process
@@ -34539,6 +34691,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948283	GO:0009082	IEA	-	branched-chain amino acid biosynthetic process	-	Process
 511145	948283	GO:0009099	ISS	-	valine biosynthetic process	6154938	Process
 511145	948283	GO:0031555	IDA	-	transcriptional attenuation	6154938	Process
+511145	948284	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	948284	GO:0003677	IEA	-	DNA binding	-	Function
 511145	948284	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	948284	GO:0005737	IEA	-	cytoplasm	-	Component
@@ -34546,7 +34699,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948284	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
 511145	948284	GO:0008652	IEA	-	cellular amino acid biosynthetic process	-	Process
 511145	948284	GO:0009082	IEA	-	branched-chain amino acid biosynthetic process	-	Process
-511145	948284	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	948285	GO:0000413	IEA	-	protein peptidyl-prolyl isomerization	-	Process
 511145	948285	GO:0003755	IDA	-	peptidyl-prolyl cis-trans isomerase activity	8163020	Function
 511145	948285	GO:0003755	IEA	-	peptidyl-prolyl cis-trans isomerase activity	-	Function
@@ -34726,6 +34878,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948299	GO:0045226	IDA	-	extracellular polysaccharide biosynthetic process	7559340	Process
 511145	948299	GO:0045226	IEA	-	extracellular polysaccharide biosynthetic process	-	Process
 511145	948299	GO:0046872	IEA	-	metal ion binding	-	Function
+511145	948300	GO:0008460	IBA	-	dTDP-glucose 4,6-dehydratase activity	21873635	Function
 511145	948300	GO:0008460	IDA	-	dTDP-glucose 4,6-dehydratase activity	7559340|11076501	Function
 511145	948300	GO:0008460	IEA	-	dTDP-glucose 4,6-dehydratase activity	-	Function
 511145	948300	GO:0009103	IDA	-	lipopolysaccharide biosynthetic process	7559340	Process
@@ -34805,6 +34958,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948309	GO:0016020	IEA	-	membrane	-	Component
 511145	948309	GO:0016021	IBA	-	integral component of membrane	21873635	Component
 511145	948309	GO:0016021	IEA	-	integral component of membrane	-	Component
+511145	948310	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	948310	GO:0003677	IDA	-	DNA binding	2543976	Function
 511145	948310	GO:0003677	IEA	-	DNA binding	-	Function
 511145	948310	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
@@ -34815,7 +34969,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948310	GO:0008652	IEA	-	cellular amino acid biosynthetic process	-	Process
 511145	948310	GO:0009086	IEA	-	methionine biosynthetic process	-	Process
 511145	948310	GO:0016597	IDA	-	amino acid binding	2543976	Function
-511145	948310	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	948311	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	948311	GO:0005887	RCA	-	integral component of plasma membrane	27510400	Component
 511145	948311	GO:0006779	IEA	-	porphyrin-containing compound biosynthetic process	-	Process
@@ -34835,12 +34988,14 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948313	GO:0009014	IEA	-	succinyl-diaminopimelate desuccinylase activity	-	Function
 511145	948313	GO:0009014	IMP	-	succinyl-diaminopimelate desuccinylase activity	1644752	Function
 511145	948313	GO:0009085	IEA	-	lysine biosynthetic process	-	Process
+511145	948313	GO:0009089	IBA	-	lysine biosynthetic process via diaminopimelate	21873635	Process
 511145	948313	GO:0009089	IEA	-	lysine biosynthetic process via diaminopimelate	-	Process
 511145	948313	GO:0009089	IMP	-	lysine biosynthetic process via diaminopimelate	4926684	Process
 511145	948313	GO:0016787	IEA	-	hydrolase activity	-	Function
 511145	948313	GO:0019877	IEA	-	diaminopimelate biosynthetic process	-	Process
 511145	948313	GO:0032153	IDA	-	cell division site	28470834	Component
 511145	948313	GO:0042802	IDA	-	identical protein binding	3276674	Function
+511145	948313	GO:0043093	IBA	-	FtsZ-dependent cytokinesis	21873635	Process
 511145	948313	GO:0043093	IGI	-	FtsZ-dependent cytokinesis	28470834	Process
 511145	948313	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	948313	GO:0050897	IDA	-	cobalt ion binding	3276674	Function
@@ -35146,10 +35301,20 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948333	GO:0071805	IGI	-	potassium ion transmembrane transport	1987159	Process
 511145	948333	GO:0071805	IMP	-	potassium ion transmembrane transport	7896723	Process
 511145	948333	GO:0071805	ISS	-	potassium ion transmembrane transport	-	Process
+511145	948334	GO:0001933	IBA	-	negative regulation of protein phosphorylation	21873635	Process
+511145	948334	GO:0004860	IBA	-	protein kinase inhibitor activity	21873635	Function
 511145	948334	GO:0005515	IPI	-	protein binding	15690043|19402753	Function
+511145	948334	GO:0005844	IBA	-	polysome	21873635	Component
+511145	948334	GO:0043022	IBA	-	ribosome binding	21873635	Function
+511145	948334	GO:0060733	IBA	-	regulation of eIF2 alpha phosphorylation by amino acid starvation	21873635	Process
+511145	948334	GO:0071264	IBA	-	positive regulation of translational initiation in response to starvation	21873635	Process
+511145	948334	GO:1905538	IBA	-	polysome binding	21873635	Function
+511145	948335	GO:0004177	IBA	-	aminopeptidase activity	21873635	Function
 511145	948335	GO:0005515	IPI	-	protein binding	15690043	Function
+511145	948335	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	948335	GO:0005829	IDA	-	cytosol	15911532|18304323	Component
 511145	948335	GO:0006508	IEA	-	proteolysis	-	Process
+511145	948335	GO:0008233	IBA	-	peptidase activity	21873635	Function
 511145	948335	GO:0008233	IEA	-	peptidase activity	-	Function
 511145	948335	GO:0008235	IEA	-	metalloexopeptidase activity	-	Function
 511145	948335	GO:0008237	IEA	-	metallopeptidase activity	-	Function
@@ -35423,17 +35588,22 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948361	GO:0043565	IEA	-	sequence-specific DNA binding	-	Function
 511145	948362	GO:0003824	IEA	-	catalytic activity	-	Function
 511145	948362	GO:0004109	IEA	-	coproporphyrinogen oxidase activity	-	Function
+511145	948362	GO:0005737	IBA	-	cytoplasm	21873635	Component
 511145	948362	GO:0005737	IDA	-	cytoplasm	12114526	Component
 511145	948362	GO:0005737	IEA	-	cytoplasm	-	Component
+511145	948362	GO:0006779	IBA	-	porphyrin-containing compound biosynthetic process	21873635	Process
 511145	948362	GO:0006779	IEA	-	porphyrin-containing compound biosynthetic process	-	Process
+511145	948362	GO:0006782	IBA	-	protoporphyrinogen IX biosynthetic process	21873635	Process
 511145	948362	GO:0006782	IDA	-	protoporphyrinogen IX biosynthetic process	12114526	Process
 511145	948362	GO:0006782	IEA	-	protoporphyrinogen IX biosynthetic process	-	Process
 511145	948362	GO:0016491	IEA	-	oxidoreductase activity	-	Function
 511145	948362	GO:0019353	IGI	-	protoporphyrinogen IX biosynthetic process from glutamate	7768836	Process
 511145	948362	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	948362	GO:0051536	IEA	-	iron-sulfur cluster binding	-	Function
+511145	948362	GO:0051539	IBA	-	4 iron, 4 sulfur cluster binding	21873635	Function
 511145	948362	GO:0051539	IDA	-	4 iron, 4 sulfur cluster binding	12114526	Function
 511145	948362	GO:0051539	IEA	-	4 iron, 4 sulfur cluster binding	-	Function
+511145	948362	GO:0051989	IBA	-	coproporphyrinogen dehydrogenase activity	21873635	Function
 511145	948362	GO:0051989	IDA	-	coproporphyrinogen dehydrogenase activity	12114526	Function
 511145	948362	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	948363	GO:0005096	IDA	-	GTPase activator activity	20434458	Function
@@ -36655,7 +36825,9 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948460	GO:0045717	IEA	-	negative regulation of fatty acid biosynthetic process	-	Process
 511145	948460	GO:0045892	IDA	-	negative regulation of transcription, DNA-templated	11160901|11859088	Process
 511145	948461	GO:0003957	IEA	-	NAD(P)+ transhydrogenase (B-specific) activity	-	Function
+511145	948461	GO:0004148	IBA	-	dihydrolipoyl dehydrogenase activity	21873635	Function
 511145	948461	GO:0005737	IEA	-	cytoplasm	-	Component
+511145	948461	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	948461	GO:0005829	IDA	-	cytosol	18304323	Component
 511145	948461	GO:0006739	IEA	-	NADP metabolic process	-	Process
 511145	948461	GO:0008746	IDA	-	NAD(P)+ transhydrogenase activity	9922271|21545646	Function
@@ -36666,19 +36838,25 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948461	GO:0042802	IDA	-	identical protein binding	9922271	Function
 511145	948461	GO:0045454	IEA	-	cell redox homeostasis	-	Process
 511145	948461	GO:0045454	IMP	-	cell redox homeostasis	11731130	Process
+511145	948461	GO:0050660	IBA	-	flavin adenine dinucleotide binding	21873635	Function
 511145	948461	GO:0050660	IDA	-	flavin adenine dinucleotide binding	9922271	Function
 511145	948461	GO:0050660	IEA	-	flavin adenine dinucleotide binding	-	Function
+511145	948461	GO:0055114	IBA	-	oxidation-reduction process	21873635	Process
 511145	948461	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	948461	GO:1902600	IEA	-	proton transmembrane transport	-	Process
+511145	948462	GO:0000986	IBA	-	bacterial-type proximal promoter sequence-specific DNA binding	21873635	Function
 511145	948462	GO:0000986	IDA	-	bacterial-type proximal promoter sequence-specific DNA binding	2693740|8087856	Function
 511145	948462	GO:0003677	IEA	-	DNA binding	-	Function
+511145	948462	GO:0003700	IBA	-	DNA-binding transcription factor activity	21873635	Function
 511145	948462	GO:0003700	IDA	-	DNA-binding transcription factor activity	8483417	Function
 511145	948462	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	948462	GO:0005515	IPI	-	protein binding	29358078	Function
 511145	948462	GO:0005829	IDA	-	cytosol	17309111|18304323	Component
+511145	948462	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	948462	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
 511145	948462	GO:0006974	IEP	-	cellular response to DNA damage stimulus	11967071	Process
 511145	948462	GO:0006979	IDA	-	response to oxidative stress	11443091	Process
+511145	948462	GO:0032993	IBA	-	protein-DNA complex	21873635	Component
 511145	948462	GO:0051409	IDA	-	response to nitrosative stress	22539721	Process
 511145	948462	GO:2000142	IDA	-	regulation of DNA-templated transcription, initiation	8483417	Process
 511145	948463	GO:0003824	IEA	-	catalytic activity	-	Function
@@ -36746,15 +36924,18 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948469	GO:0000984	IMP	-	bacterial-type RNA polymerase regulatory region sequence-specific DNA binding	10497026|11124029	Function
 511145	948469	GO:0003677	IDA	-	DNA binding	6456358	Function
 511145	948469	GO:0003677	IEA	-	DNA binding	-	Function
+511145	948469	GO:0004077	IBA	-	biotin-[acetyl-CoA-carboxylase] ligase activity	21873635	Function
 511145	948469	GO:0004077	IDA	-	biotin-[acetyl-CoA-carboxylase] ligase activity	7024555	Function
 511145	948469	GO:0004077	IEA	-	biotin-[acetyl-CoA-carboxylase] ligase activity	-	Function
 511145	948469	GO:0005515	IPI	-	protein binding	15690043	Function
 511145	948469	GO:0005524	IEA	-	ATP binding	-	Function
 511145	948469	GO:0005524	IMP	-	ATP binding	10497026|11124029	Function
+511145	948469	GO:0005737	IBA	-	cytoplasm	21873635	Component
 511145	948469	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
 511145	948469	GO:0006464	IEA	-	cellular protein modification process	-	Process
 511145	948469	GO:0006768	IMP	-	biotin metabolic process	10497026|11124029	Process
 511145	948469	GO:0009102	IMP	-	biotin biosynthetic process	6456358	Process
+511145	948469	GO:0009305	IBA	-	protein biotinylation	21873635	Process
 511145	948469	GO:0009305	IDA	-	protein biotinylation	22412018	Process
 511145	948469	GO:0009305	IEA	-	protein biotinylation	-	Process
 511145	948469	GO:0009374	IDA	-	biotin binding	1409631	Function
@@ -37610,10 +37791,16 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948548	GO:0046930	IEA	-	pore complex	-	Component
 511145	948549	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	948549	GO:0003824	IEA	-	catalytic activity	-	Function
+511145	948549	GO:0005737	IBA	-	cytoplasm	21873635	Component
+511145	948549	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	948549	GO:0005829	IDA	-	cytosol	18304323	Component
+511145	948549	GO:0016787	IBA	-	hydrolase activity	21873635	Function
 511145	948549	GO:0016787	IEA	-	hydrolase activity	-	Function
+511145	948549	GO:0043530	IBA	-	adenosine 5'-monophosphoramidase activity	21873635	Function
 511145	948549	GO:0043530	IDA	-	adenosine 5'-monophosphoramidase activity	15703176	Function
+511145	948549	GO:0055130	IBA	-	D-alanine catabolic process	21873635	Process
 511145	948549	GO:0055130	IMP	-	D-alanine catabolic process	21754980	Process
+511145	948552	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	948552	GO:0000976	IPI	-	transcription regulatory region sequence-specific DNA binding	10816566	Function
 511145	948552	GO:0001217	IPI	-	bacterial-type RNA polymerase transcriptional repressor activity, sequence-specific DNA binding	10816566	Function
 511145	948552	GO:0003677	IBA	-	DNA binding	21873635	Function
@@ -37626,7 +37813,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948552	GO:0008270	IBA	-	zinc ion binding	21873635	Function
 511145	948552	GO:0032993	IPI	-	protein-DNA complex	10816566	Component
 511145	948552	GO:0042802	IPI	-	identical protein binding	25369000	Function
-511145	948552	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	948552	GO:0045892	IBA	-	negative regulation of transcription, DNA-templated	21873635	Process
 511145	948552	GO:1900376	IBA	-	regulation of secondary metabolite biosynthetic process	21873635	Process
 511145	948553	GO:0005829	IDA	-	cytosol	18304323	Component
@@ -37982,7 +38168,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948583	GO:1902599	IGI	-	sulfathiazole transmembrane transport	19429622	Process
 511145	948583	GO:1990961	IMP	-	drug transmembrane export	11257026	Process
 511145	948583	GO:1990961	ISA	-	drug transmembrane export	11257026	Process
-511145	948584	GO:0003954	IBA	contributes_to	NADH dehydrogenase activity	21873635	Function
 511145	948584	GO:0005515	IPI	-	protein binding	25157147	Function
 511145	948584	GO:0005829	IDA	-	cytosol	7009577	Component
 511145	948584	GO:0008863	IEA	-	formate dehydrogenase (NAD+) activity	-	Function
@@ -38057,7 +38242,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948591	GO:0006865	IEA	-	amino acid transport	-	Process
 511145	948591	GO:0015293	IEA	-	symporter activity	-	Function
 511145	948591	GO:0015810	IEA	-	aspartate transmembrane transport	-	Process
-511145	948591	GO:0015813	IEA	-	L-glutamate transmembrane transport	-	Process
 511145	948591	GO:0016020	IBA	-	membrane	21873635	Component
 511145	948591	GO:0016020	IEA	-	membrane	-	Component
 511145	948591	GO:0016021	IEA	-	integral component of membrane	-	Component
@@ -38162,6 +38346,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948600	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	948600	GO:0103043	IDA	-	5-phospho-alpha-D-ribosyl 1,2-cyclic phosphate phosphodiesterase activity	19366688	Function
 511145	948600	GO:0103043	IEA	-	5-phospho-alpha-D-ribosyl 1,2-cyclic phosphate phosphodiesterase activity	-	Function
+511145	948602	GO:0004751	IBA	-	ribose-5-phosphate isomerase activity	21873635	Function
 511145	948602	GO:0004751	IDA	-	ribose-5-phosphate isomerase activity	1104357|8576032|18640127	Function
 511145	948602	GO:0004751	IEA	-	ribose-5-phosphate isomerase activity	-	Function
 511145	948602	GO:0004751	IGI	-	ribose-5-phosphate isomerase activity	8576032	Function
@@ -38170,7 +38355,10 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948602	GO:0006098	IEA	-	pentose-phosphate shunt	-	Process
 511145	948602	GO:0008786	IDA	-	allose 6-phosphate isomerase activity	18640127	Function
 511145	948602	GO:0008786	IMP	-	allose 6-phosphate isomerase activity	10559180	Function
+511145	948602	GO:0009052	IBA	-	pentose-phosphate shunt, non-oxidative branch	21873635	Process
+511145	948602	GO:0016853	IBA	-	isomerase activity	21873635	Function
 511145	948602	GO:0016853	IEA	-	isomerase activity	-	Function
+511145	948602	GO:0019316	IBA	-	D-allose catabolic process	21873635	Process
 511145	948602	GO:0019316	IMP	-	D-allose catabolic process	10559180	Process
 511145	948603	GO:0003677	IEA	-	DNA binding	-	Function
 511145	948603	GO:0003700	IBA	-	DNA-binding transcription factor activity	21873635	Function
@@ -38853,17 +39041,20 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948665	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	948665	GO:0000287	IDA	-	magnesium ion binding	8564544	Function
 511145	948665	GO:0005515	IPI	-	protein binding	8618836|9285585|9878052|10077571|11779463|12071968|14517228|15313620|15690043|16239229|16429154|16606699|16977315|17032756|17098196|17968012|18394994|18418386|18568038|20308583|20959808|23746846|24561554|26545493	Function
+511145	948665	GO:0005524	IBA	-	ATP binding	21873635	Function
 511145	948665	GO:0005524	IDA	-	ATP binding	8564544|9285585	Function
 511145	948665	GO:0005524	IEA	-	ATP binding	-	Function
 511145	948665	GO:0005737	IEA	-	cytoplasm	-	Component
 511145	948665	GO:0005829	IDA	-	cytosol	18304323	Component
+511145	948665	GO:0006457	IBA	-	protein folding	21873635	Process
 511145	948665	GO:0006457	IEA	-	protein folding	-	Process
 511145	948665	GO:0006457	IMP	-	protein folding	2573517	Process
-511145	948665	GO:0006458	IBA	-	'de novo' protein folding	21873635	Process
 511145	948665	GO:0009314	IMP	-	response to radiation	27718375	Process
+511145	948665	GO:0009408	IBA	-	response to heat	21873635	Process
 511145	948665	GO:0009408	IEP	-	response to heat	8349564	Process
 511145	948665	GO:0016887	IDA	-	ATPase activity	379350	Function
 511145	948665	GO:0019068	IMP	-	virion assembly	7015340	Process
+511145	948665	GO:0042026	IBA	-	protein refolding	21873635	Process
 511145	948665	GO:0042026	IEA	-	protein refolding	-	Process
 511145	948665	GO:0042802	IDA	-	identical protein binding	7935790	Function
 511145	948665	GO:0042802	IPI	-	identical protein binding	7935790|8618836|9878052|16858726|17098196|18334219|18568038|22575645	Function
@@ -38871,6 +39062,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948665	GO:0051082	IDA	-	unfolded protein binding	8097882	Function
 511145	948665	GO:0051082	IEA	-	unfolded protein binding	-	Function
 511145	948665	GO:0051082	IMP	-	unfolded protein binding	7935796	Function
+511145	948665	GO:0051085	IBA	-	chaperone cofactor-dependent protein refolding	21873635	Process
 511145	948665	GO:0051085	IDA	-	chaperone cofactor-dependent protein refolding	10532860	Process
 511145	948665	GO:0051301	IEA	-	cell division	-	Process
 511145	948665	GO:1990220	IBA	-	GroEL-GroES complex	21873635	Component
@@ -39055,6 +39247,8 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948677	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	948679	GO:0005886	IDA	-	plasma membrane	15919996	Component
 511145	948679	GO:0005886	IEA	-	plasma membrane	-	Component
+511145	948679	GO:0006865	IBA	-	amino acid transport	21873635	Process
+511145	948679	GO:0015171	IBA	-	amino acid transmembrane transporter activity	21873635	Function
 511145	948679	GO:0016020	IEA	-	membrane	-	Component
 511145	948679	GO:0016021	IEA	-	integral component of membrane	-	Component
 511145	948679	GO:0022857	IEA	-	transmembrane transporter activity	-	Function
@@ -39326,6 +39520,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948706	GO:0045892	IEA	-	negative regulation of transcription, DNA-templated	-	Process
 511145	948707	GO:0006508	IEA	-	proteolysis	-	Process
 511145	948707	GO:0008236	IEA	-	serine-type peptidase activity	-	Function
+511145	948707	GO:0016787	IBA	-	hydrolase activity	21873635	Function
 511145	948707	GO:0016787	IDA	-	hydrolase activity	15808744	Function
 511145	948707	GO:0016787	IEA	-	hydrolase activity	-	Function
 511145	948707	GO:0034338	IDA	-	short-chain carboxylesterase activity	26820469	Function
@@ -39774,7 +39969,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948756	GO:0051539	IEA	-	4 iron, 4 sulfur cluster binding	-	Function
 511145	948756	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	948757	GO:0003824	IEA	-	catalytic activity	-	Function
-511145	948757	GO:0004748	IBA	contributes_to	ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor	21873635	Function
 511145	948757	GO:0005515	IPI	-	protein binding	19402753|24561554	Function
 511145	948757	GO:0005737	IEA	-	cytoplasm	-	Component
 511145	948757	GO:0015949	IMP	-	nucleobase-containing small molecule interconversion	8954104	Process
@@ -39849,6 +40043,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948765	GO:0044010	IMP	-	single-species biofilm formation	21059164	Process
 511145	948765	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 511145	948765	GO:0070402	IDA	-	NADPH binding	25244619	Function
+511145	948766	GO:0000976	IEA	-	transcription regulatory region sequence-specific DNA binding	-	Function
 511145	948766	GO:0004177	IDA	-	aminopeptidase activity	20350528	Function
 511145	948766	GO:0004177	IEA	-	aminopeptidase activity	-	Function
 511145	948766	GO:0005515	IPI	-	protein binding	15690043	Function
@@ -39863,7 +40058,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948766	GO:0030145	IEA	-	manganese ion binding	-	Function
 511145	948766	GO:0042802	IDA	-	identical protein binding	20350528	Function
 511145	948766	GO:0043171	IGI	-	peptide catabolic process	355237	Process
-511145	948766	GO:0044212	IEA	-	transcription regulatory region DNA binding	-	Function
 511145	948766	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	948767	GO:0004070	IBA	-	aspartate carbamoyltransferase activity	21873635	Function
 511145	948767	GO:0004070	IEA	-	aspartate carbamoyltransferase activity	-	Function
@@ -39906,6 +40100,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948771	GO:0042802	IDA	-	identical protein binding	10595546	Function
 511145	948771	GO:0051082	IDA	-	unfolded protein binding	25517874	Function
 511145	948771	GO:1901565	IBA	-	organonitrogen compound catabolic process	21873635	Process
+511145	948772	GO:0008080	IBA	-	N-acetyltransferase activity	21873635	Function
 511145	948772	GO:0016740	IEA	-	transferase activity	-	Function
 511145	948772	GO:0016746	IEA	-	transferase activity, transferring acyl groups	-	Function
 511145	948773	GO:0005515	IPI	-	protein binding	15690043|24561554	Function
@@ -40098,20 +40293,25 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948793	GO:0000287	IDA	-	magnesium ion binding	8756689	Function
 511145	948793	GO:0000287	IEA	-	magnesium ion binding	-	Function
 511145	948793	GO:0003824	IEA	-	catalytic activity	-	Function
+511145	948793	GO:0003984	IBA	-	acetolactate synthase activity	21873635	Function
 511145	948793	GO:0003984	IDA	-	acetolactate synthase activity	2675968	Function
 511145	948793	GO:0003984	IEA	-	acetolactate synthase activity	-	Function
 511145	948793	GO:0003984	IMP	-	acetolactate synthase activity	4612003	Function
 511145	948793	GO:0005829	IDA	-	cytosol	18304323	Component
+511145	948793	GO:0005948	IBA	-	acetolactate synthase complex	21873635	Component
 511145	948793	GO:0008652	IEA	-	cellular amino acid biosynthetic process	-	Process
 511145	948793	GO:0009082	IEA	-	branched-chain amino acid biosynthetic process	-	Process
+511145	948793	GO:0009097	IBA	-	isoleucine biosynthetic process	21873635	Process
 511145	948793	GO:0009097	IDA	-	isoleucine biosynthetic process	2675968	Process
 511145	948793	GO:0009097	IEA	-	isoleucine biosynthetic process	-	Process
+511145	948793	GO:0009099	IBA	-	valine biosynthetic process	21873635	Process
 511145	948793	GO:0009099	IDA	-	valine biosynthetic process	2675968	Process
 511145	948793	GO:0009099	IEA	-	valine biosynthetic process	-	Process
 511145	948793	GO:0016740	IEA	-	transferase activity	-	Function
 511145	948793	GO:0030976	IDA	-	thiamine pyrophosphate binding	8756689	Function
 511145	948793	GO:0030976	IEA	-	thiamine pyrophosphate binding	-	Function
 511145	948793	GO:0046872	IEA	-	metal ion binding	-	Function
+511145	948793	GO:0050660	IBA	-	flavin adenine dinucleotide binding	21873635	Function
 511145	948793	GO:0050660	IEA	-	flavin adenine dinucleotide binding	-	Function
 511145	948794	GO:0005886	IEA	-	plasma membrane	-	Component
 511145	948794	GO:0009055	IDA	-	electron transfer activity	11884747	Function
@@ -40233,10 +40433,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948813	GO:1990077	IEA	-	primosome complex	-	Component
 511145	948815	GO:0003676	IEA	-	nucleic acid binding	-	Function
 511145	948815	GO:0003677	IEA	-	DNA binding	-	Function
+511145	948815	GO:0004803	IBA	-	transposase activity	21873635	Function
 511145	948815	GO:0004803	IEA	-	transposase activity	-	Function
 511145	948815	GO:0006310	IEA	-	DNA recombination	-	Process
 511145	948815	GO:0006313	IEA	-	transposition, DNA-mediated	-	Process
 511145	948815	GO:0015074	IEA	-	DNA integration	-	Process
+511145	948815	GO:0032196	IBA	-	transposition	21873635	Process
 511145	948815	GO:0032196	IEA	-	transposition	-	Process
 511145	948817	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	948817	GO:0005829	IDA	-	cytosol	18304323	Component
@@ -40341,6 +40543,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948829	GO:0046872	IBA	-	metal ion binding	21873635	Function
 511145	948829	GO:0046872	IEA	-	metal ion binding	-	Function
 511145	948830	GO:0006310	IEA	-	DNA recombination	-	Process
+511145	948830	GO:0006313	IBA	-	transposition, DNA-mediated	21873635	Process
 511145	948830	GO:0006313	IEA	-	transposition, DNA-mediated	-	Process
 511145	948830	GO:0032196	IEA	-	transposition	-	Process
 511145	948831	GO:0005737	IEA	-	cytoplasm	-	Component
@@ -40489,8 +40692,9 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948851	GO:0043856	IDA	-	anti-sigma factor antagonist activity	18383615	Function
 511145	948851	GO:0043856	IEA	-	anti-sigma factor antagonist activity	-	Function
 511145	948851	GO:0045893	IEA	-	positive regulation of transcription, DNA-templated	-	Process
+511145	948852	GO:0000976	IBA	-	transcription regulatory region sequence-specific DNA binding	21873635	Function
 511145	948852	GO:0000976	IDA	-	transcription regulatory region sequence-specific DNA binding	22223481	Function
-511145	948852	GO:0001017	IDA	-	bacterial-type RNA polymerase regulatory region DNA binding	22223481	Function
+511145	948852	GO:0000984	IDA	-	bacterial-type RNA polymerase regulatory region sequence-specific DNA binding	22223481	Function
 511145	948852	GO:0003677	IEA	-	DNA binding	-	Function
 511145	948852	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 511145	948852	GO:0006351	ISS	-	transcription, DNA-templated	10734204|15556475	Process
@@ -40498,7 +40702,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948852	GO:0006355	IDA	-	regulation of transcription, DNA-templated	22223481	Process
 511145	948852	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
 511145	948852	GO:0042802	IDA	-	identical protein binding	22223481	Function
-511145	948852	GO:0044212	IBA	-	transcription regulatory region DNA binding	21873635	Function
 511145	948853	GO:0005737	IDA	-	cytoplasm	7876157	Component
 511145	948853	GO:0005737	IEA	-	cytoplasm	-	Component
 511145	948853	GO:0005829	IBA	-	cytosol	21873635	Component
@@ -40553,7 +40756,9 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948857	GO:0009436	IEP	-	glyoxylate catabolic process	4892366	Process
 511145	948857	GO:0016740	IEA	-	transferase activity	-	Function
 511145	948857	GO:0046872	IEA	-	metal ion binding	-	Function
+511145	948858	GO:0000215	IBA	-	tRNA 2'-phosphotransferase activity	21873635	Function
 511145	948858	GO:0006388	IEA	-	tRNA splicing, via endonucleolytic cleavage and ligation	-	Process
+511145	948858	GO:0008033	IBA	-	tRNA processing	21873635	Process
 511145	948858	GO:0016740	IEA	-	transferase activity	-	Function
 511145	948858	GO:0016772	IDA	-	transferase activity, transferring phosphorus-containing groups	9915792	Function
 511145	948858	GO:0016772	IEA	-	transferase activity, transferring phosphorus-containing groups	-	Function
@@ -41250,7 +41455,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	948939	GO:0009055	IEA	-	electron transfer activity	-	Function
 511145	948939	GO:0009437	IEA	-	carnitine metabolic process	-	Process
 511145	948939	GO:0009437	IMP	-	carnitine metabolic process	12081978	Process
-511145	948939	GO:0016491	IBA	-	oxidoreductase activity	21873635	Function
 511145	948939	GO:0022900	IEA	-	electron transport chain	-	Process
 511145	948939	GO:0033539	IBA	-	fatty acid beta-oxidation using acyl-CoA dehydrogenase	21873635	Process
 511145	948939	GO:0042413	IMP	-	carnitine catabolic process	12081978	Process
@@ -41696,6 +41900,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	949013	GO:0051604	ISS	-	protein maturation	16766528	Process
 511145	949014	GO:0005198	IEA	-	structural molecule activity	-	Function
 511145	949014	GO:0005515	IPI	-	protein binding	19810706	Function
+511145	949014	GO:0005737	IBA	-	cytoplasm	21873635	Component
 511145	949014	GO:0005829	IBA	-	cytosol	21873635	Component
 511145	949014	GO:0006979	IEP	-	response to oxidative stress	15009899	Process
 511145	949014	GO:0006979	IMP	-	response to oxidative stress	15009899	Process
@@ -41765,7 +41970,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	949024	GO:0006355	IBA	-	regulation of transcription, DNA-templated	21873635	Process
 511145	949024	GO:0006355	IDA	-	regulation of transcription, DNA-templated	22685278	Process
 511145	949025	GO:0000166	IEA	-	nucleotide binding	-	Function
-511145	949025	GO:0004088	IBA	contributes_to	carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity	21873635	Function
 511145	949025	GO:0004088	IEA	-	carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity	-	Function
 511145	949025	GO:0005515	IPI	-	protein binding	9636022|10029528|10428826|12130656|15690043|19402753|22841294|23582331|24561554	Function
 511145	949025	GO:0005524	IEA	-	ATP binding	-	Function
@@ -42483,6 +42687,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	949093	GO:0042886	IEA	-	amide transport	-	Process
 511145	949093	GO:1904680	IBA	-	peptide transmembrane transporter activity	21873635	Function
 511145	949094	GO:0010165	IMP	-	response to X-ray	27718375	Process
+511145	949095	GO:0003677	IBA	-	DNA binding	21873635	Function
 511145	949095	GO:0003677	IEA	-	DNA binding	-	Function
 511145	949095	GO:0005515	IPI	-	protein binding	12875839|15690043|17360520	Function
 511145	949095	GO:0005829	IBA	-	cytosol	21873635	Component
@@ -42857,6 +43062,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	1450249	GO:0005829	IDA	-	cytosol	18304323	Component
 511145	1450249	GO:0042802	IPI	-	identical protein binding	24561554	Function
 511145	1450250	GO:0006310	IEA	-	DNA recombination	-	Process
+511145	1450250	GO:0006313	IBA	-	transposition, DNA-mediated	21873635	Process
 511145	1450250	GO:0006313	IEA	-	transposition, DNA-mediated	-	Process
 511145	1450250	GO:0032196	IEA	-	transposition	-	Process
 511145	1450253	GO:0005515	IPI	-	protein binding	15774864|18978050	Function
@@ -43002,6 +43208,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 511145	2847698	GO:0006355	IEA	-	regulation of transcription, DNA-templated	-	Process
 511145	2847698	GO:0045892	IDA	-	negative regulation of transcription, DNA-templated	10913108	Process
 511145	2847698	GO:0045892	IEA	-	negative regulation of transcription, DNA-templated	-	Process
+511145	2847699	GO:0003984	IBA	-	acetolactate synthase activity	21873635	Function
+511145	2847699	GO:0005948	IBA	-	acetolactate synthase complex	21873635	Component
+511145	2847699	GO:0009097	IBA	-	isoleucine biosynthetic process	21873635	Process
+511145	2847699	GO:0009099	IBA	-	valine biosynthetic process	21873635	Process
+511145	2847699	GO:0050660	IBA	-	flavin adenine dinucleotide binding	21873635	Function
 511145	2847702	GO:0000166	IEA	-	nucleotide binding	-	Function
 511145	2847702	GO:0009228	IEA	-	thiamine biosynthetic process	-	Process
 511145	2847702	GO:0009229	IEA	-	thiamine diphosphate biosynthetic process	-	Process

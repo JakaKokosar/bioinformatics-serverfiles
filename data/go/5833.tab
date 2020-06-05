@@ -3895,7 +3895,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	813765	GO:0003735	ISS	-	structural constituent of ribosome	12368867	Function
 36329	813765	GO:0006412	ISS	-	translation	12368867	Process
 36329	813765	GO:0022625	ISS	-	cytosolic large ribosomal subunit	12368867	Component
-36329	813767	GO:0004584	IGI	-	dolichyl-phosphate-mannose-glycolipid alpha-mannosyltransferase activity	24489949	Function
 36329	813767	GO:0005783	IDA	-	endoplasmic reticulum	12117963	Component
 36329	813767	GO:0006506	IGI	-	GPI anchor biosynthetic process	24489949	Process
 36329	813769	GO:0020009	IDA	-	microneme	14737184	Component

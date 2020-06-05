@@ -867,7 +867,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	280829	GO:1903576	IDA	-	response to L-arginine	6394628	Process
 9913	280831	GO:0000976	ISS	-	transcription regulatory region sequence-specific DNA binding	22083952	Function
 9913	280831	GO:0007265	ISS	-	Ras protein signal transduction	-	Process
-9913	280831	GO:0044212	ISS	-	transcription regulatory region DNA binding	-	Function
 9913	280831	GO:0045893	ISS	-	positive regulation of transcription, DNA-templated	22083952	Process
 9913	280832	GO:0000187	ISS	-	activation of MAPK activity	-	Process
 9913	280832	GO:0001541	ISS	-	ovarian follicle development	-	Process
@@ -3207,6 +3206,19 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	281173	GO:0006955	ISS	-	immune response	-	Process
 9913	281173	GO:0008285	ISS	-	negative regulation of cell proliferation	-	Process
 9913	281173	GO:0055114	IEA	-	oxidation-reduction process	-	Process
+9913	281174	GO:0001954	ISS	-	positive regulation of cell-matrix adhesion	-	Process
+9913	281174	GO:0005975	IEA	-	carbohydrate metabolic process	-	Process
+9913	281174	GO:0006486	IEA	-	protein glycosylation	-	Process
+9913	281174	GO:0008107	IEA	-	galactoside 2-alpha-L-fucosyltransferase activity	-	Function
+9913	281174	GO:0010595	ISS	-	positive regulation of endothelial cell migration	-	Process
+9913	281174	GO:0016021	IEA	-	integral component of membrane	-	Component
+9913	281174	GO:0021772	ISS	-	olfactory bulb development	-	Process
+9913	281174	GO:0031127	IDA	-	alpha-(1,2)-fucosyltransferase activity	10814703	Function
+9913	281174	GO:0031127	ISS	-	alpha-(1,2)-fucosyltransferase activity	-	Function
+9913	281174	GO:0032580	IEA	-	Golgi cisterna membrane	-	Component
+9913	281174	GO:0036065	IDA	-	fucosylation	10814703	Process
+9913	281174	GO:1903672	ISS	-	positive regulation of sprouting angiogenesis	-	Process
+9913	281174	GO:1904906	ISS	-	positive regulation of endothelial cell-matrix adhesion via fibronectin	-	Process
 9913	281175	GO:0001936	IMP	-	regulation of endothelial cell proliferation	20506485	Process
 9913	281175	GO:0005975	IEA	-	carbohydrate metabolic process	-	Process
 9913	281175	GO:0006486	IEA	-	protein glycosylation	-	Process
@@ -4585,7 +4597,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	281439	GO:0005654	IEA	-	nucleoplasm	-	Component
 9913	281439	GO:0005737	IEA	-	cytoplasm	-	Component
 9913	281439	GO:0005856	IEA	-	cytoskeleton	-	Component
-9913	281439	GO:0007016	IEA	-	cytoskeletal anchoring at plasma membrane	-	Process
 9913	281439	GO:0016010	IEA	-	dystrophin-associated glycoprotein complex	-	Component
 9913	281439	GO:0016020	IDA	-	membrane	8798547	Component
 9913	281439	GO:0016021	IEA	-	integral component of membrane	-	Component
@@ -6002,6 +6013,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	281674	GO:0042802	IEA	-	identical protein binding	-	Function
 9913	281674	GO:0045121	ISS	-	membrane raft	-	Component
 9913	281674	GO:0050853	ISS	-	B cell receptor signaling pathway	-	Process
+9913	281677	GO:0000976	ISS	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	281677	GO:0001889	ISS	-	liver development	-	Process
 9913	281677	GO:0003677	ISS	-	DNA binding	-	Function
 9913	281677	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
@@ -6012,7 +6024,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	281677	GO:0030851	ISS	-	granulocyte differentiation	-	Process
 9913	281677	GO:0042593	ISS	-	glucose homeostasis	-	Process
 9913	281677	GO:0042803	ISS	-	protein homodimerization activity	-	Function
-9913	281677	GO:0044212	ISS	-	transcription regulatory region DNA binding	-	Function
 9913	281677	GO:0045444	ISS	-	fat cell differentiation	-	Process
 9913	281677	GO:0045892	ISS	-	negative regulation of transcription, DNA-templated	-	Process
 9913	281677	GO:0055088	ISS	-	lipid homeostasis	-	Process
@@ -7751,6 +7762,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	281991	GO:0006281	IEA	-	DNA repair	-	Process
 9913	281991	GO:0043625	IDA	-	delta DNA polymerase complex	10751307	Component
 9913	281991	GO:0071897	IDA	-	DNA biosynthetic process	10751307	Process
+9913	281993	GO:0000976	ISS	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	281993	GO:0003677	ISS	-	DNA binding	-	Function
 9913	281993	GO:0003682	ISS	-	chromatin binding	-	Function
 9913	281993	GO:0003700	ISS	-	DNA-binding transcription factor activity	-	Function
@@ -7788,7 +7800,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	281993	GO:0043401	IEA	-	steroid hormone mediated signaling pathway	-	Process
 9913	281993	GO:0043537	IEA	-	negative regulation of blood vessel endothelial cell migration	-	Process
 9913	281993	GO:0043621	IEA	-	protein self-association	-	Function
-9913	281993	GO:0044212	ISS	-	transcription regulatory region DNA binding	-	Function
 9913	281993	GO:0045165	ISS	-	cell fate commitment	-	Process
 9913	281993	GO:0045598	ISS	-	regulation of fat cell differentiation	-	Process
 9913	281993	GO:0045600	ISS	-	positive regulation of fat cell differentiation	-	Process
@@ -8338,7 +8349,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	282081	GO:0060670	IEA	-	branching involved in labyrinthine layer morphogenesis	-	Process
 9913	282081	GO:0060674	IEA	-	placenta blood vessel development	-	Process
 9913	282081	GO:0060707	IEA	-	trophoblast giant cell differentiation	-	Process
-9913	282081	GO:0060708	IEA	-	spongiotrophoblast differentiation	-	Process
 9913	282081	GO:1990830	IEA	-	cellular response to leukemia inhibitory factor	-	Process
 9913	282083	GO:0005737	IEA	-	cytoplasm	-	Component
 9913	282083	GO:0038170	IEA	-	somatostatin signaling pathway	-	Process
@@ -12030,6 +12040,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	286840	GO:0051538	ISS	-	3 iron, 4 sulfur cluster binding	-	Function
 9913	286840	GO:0051539	ISS	-	4 iron, 4 sulfur cluster binding	-	Function
 9913	286842	GO:0000785	IEA	-	chromatin	-	Component
+9913	286842	GO:0000976	ISS	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	286842	GO:0003714	ISS	-	transcription corepressor activity	-	Function
 9913	286842	GO:0005634	ISS	-	nucleus	-	Component
 9913	286842	GO:0005737	ISS	-	cytoplasm	-	Component
@@ -12041,7 +12052,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	286842	GO:0019904	IEA	-	protein domain specific binding	-	Function
 9913	286842	GO:0030054	IEA	-	cell junction	-	Component
 9913	286842	GO:0030426	IEA	-	growth cone	-	Component
-9913	286842	GO:0044212	ISS	-	transcription regulatory region DNA binding	-	Function
 9913	286842	GO:0045892	ISS	-	negative regulation of transcription, DNA-templated	-	Process
 9913	286842	GO:0072112	IEA	-	glomerular visceral epithelial cell differentiation	-	Process
 9913	286844	GO:0055114	IEA	-	oxidation-reduction process	-	Process
@@ -14954,6 +14964,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	407188	GO:0005882	IEA	-	intermediate filament	-	Component
 9913	407189	GO:0005882	IEA	-	intermediate filament	-	Component
 9913	407190	GO:0005524	IEA	-	ATP binding	-	Function
+9913	407194	GO:0000976	IEA	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	407194	GO:0003682	IEA	-	chromatin binding	-	Function
 9913	407194	GO:0006351	IEA	-	transcription, DNA-templated	-	Process
 9913	407194	GO:0006468	IEA	-	protein phosphorylation	-	Process
@@ -14963,7 +14974,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	407194	GO:0016032	IEA	-	viral process	-	Process
 9913	407194	GO:0019901	IEA	-	protein kinase binding	-	Function
 9913	407194	GO:0042025	IEA	-	host cell nucleus	-	Component
-9913	407194	GO:0044212	IEA	-	transcription regulatory region DNA binding	-	Function
 9913	407194	GO:0045737	IEA	-	positive regulation of cyclin-dependent protein serine/threonine kinase activity	-	Process
 9913	407194	GO:0045944	IEA	-	positive regulation of transcription by RNA polymerase II	-	Process
 9913	407194	GO:0051301	IEA	-	cell division	-	Process
@@ -16059,6 +16069,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	503577	GO:0001228	IEA	-	DNA-binding transcription activator activity, RNA polymerase II-specific	-	Function
 9913	503577	GO:0007623	IEA	-	circadian rhythm	-	Process
 9913	503577	GO:0045944	IEA	-	positive regulation of transcription by RNA polymerase II	-	Process
+9913	503622	GO:0000976	IEA	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	503622	GO:0001678	IEA	-	cellular glucose homeostasis	-	Process
 9913	503622	GO:0005623	IEA	-	cell	-	Component
 9913	503622	GO:0005654	IEA	-	nucleoplasm	-	Component
@@ -16068,7 +16079,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	503622	GO:0015629	IEA	-	actin cytoskeleton	-	Component
 9913	503622	GO:0019904	IEA	-	protein domain specific binding	-	Function
 9913	503622	GO:0043565	IEA	-	sequence-specific DNA binding	-	Function
-9913	503622	GO:0044212	IEA	-	transcription regulatory region DNA binding	-	Function
 9913	503622	GO:0045944	IEA	-	positive regulation of transcription by RNA polymerase II	-	Process
 9913	503684	GO:0004421	ISS	-	hydroxymethylglutaryl-CoA synthase activity	-	Function
 9913	503684	GO:0006695	IEA	-	cholesterol biosynthetic process	-	Process
@@ -16935,6 +16945,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	505167	GO:0070327	IEA	-	thyroid hormone transport	-	Process
 9913	505169	GO:0000122	IEA	-	negative regulation of transcription by RNA polymerase II	-	Process
 9913	505169	GO:0000790	ISS	-	nuclear chromatin	-	Component
+9913	505169	GO:0000976	ISS	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	505169	GO:0000987	ISS	-	proximal promoter sequence-specific DNA binding	-	Function
 9913	505169	GO:0001227	ISS	-	DNA-binding transcription repressor activity, RNA polymerase II-specific	-	Function
 9913	505169	GO:0001709	ISS	-	cell fate determination	-	Process
@@ -16958,7 +16969,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	505169	GO:0042035	ISS	-	regulation of cytokine biosynthetic process	-	Process
 9913	505169	GO:0042421	ISS	-	norepinephrine biosynthetic process	-	Process
 9913	505169	GO:0043583	ISS	-	ear development	-	Process
-9913	505169	GO:0044212	ISS	-	transcription regulatory region DNA binding	-	Function
 9913	505169	GO:0045087	IEA	-	innate immune response	-	Process
 9913	505169	GO:0045582	ISS	-	positive regulation of T cell differentiation	-	Process
 9913	505169	GO:0045599	ISS	-	negative regulation of fat cell differentiation	-	Process
@@ -17788,6 +17798,8 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	505917	GO:0006412	IEA	-	translation	-	Process
 9913	505937	GO:0003382	IEA	-	epithelial cell morphogenesis	-	Process
 9913	505937	GO:0016021	IEA	-	integral component of membrane	-	Component
+9913	505942	GO:0005576	IEA	-	extracellular region	-	Component
+9913	505942	GO:0005581	IEA	-	collagen trimer	-	Component
 9913	505949	GO:0001750	IDA	-	photoreceptor outer segment	12226107	Component
 9913	505949	GO:0005783	IEA	-	endoplasmic reticulum	-	Component
 9913	505949	GO:0042572	IEA	-	retinol metabolic process	-	Process
@@ -23639,6 +23651,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	512242	GO:0071222	ISS	-	cellular response to lipopolysaccharide	-	Process
 9913	512254	GO:0000122	ISS	-	negative regulation of transcription by RNA polymerase II	-	Process
 9913	512254	GO:0000165	ISS	-	MAPK cascade	-	Process
+9913	512254	GO:0000976	ISS	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	512254	GO:0000977	ISS	-	RNA polymerase II regulatory region sequence-specific DNA binding	-	Function
 9913	512254	GO:0000981	ISS	-	DNA-binding transcription factor activity, RNA polymerase II-specific	-	Function
 9913	512254	GO:0001228	ISS	-	DNA-binding transcription activator activity, RNA polymerase II-specific	-	Function
@@ -23684,7 +23697,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	512254	GO:0035984	ISS	-	cellular response to trichostatin A	-	Process
 9913	512254	GO:0042100	ISS	-	B cell proliferation	-	Process
 9913	512254	GO:0043524	ISS	-	negative regulation of neuron apoptotic process	-	Process
-9913	512254	GO:0044212	ISS	-	transcription regulatory region DNA binding	-	Function
 9913	512254	GO:0045652	ISS	-	regulation of megakaryocyte differentiation	-	Process
 9913	512254	GO:0045663	ISS	-	positive regulation of myoblast differentiation	-	Process
 9913	512254	GO:0045666	ISS	-	positive regulation of neuron differentiation	-	Process
@@ -24005,12 +24017,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	512626	GO:0103046	IEA	-	alanylglutamate dipeptidase activity	-	Function
 9913	512642	GO:0045824	ISS	-	negative regulation of innate immune response	-	Process
 9913	512642	GO:0046872	IEA	-	metal ion binding	-	Function
+9913	512648	GO:0000987	ISS	-	proximal promoter sequence-specific DNA binding	-	Function
 9913	512648	GO:0005634	ISS	-	nucleus	-	Component
 9913	512648	GO:0006366	ISS	-	transcription by RNA polymerase II	-	Process
 9913	512648	GO:0006368	IEA	-	transcription elongation from RNA polymerase II promoter	-	Process
 9913	512648	GO:0008023	ISS	-	transcription elongation factor complex	-	Component
 9913	512648	GO:0010717	ISS	-	regulation of epithelial to mesenchymal transition	-	Process
-9913	512648	GO:0035326	ISS	-	enhancer binding	-	Function
 9913	512648	GO:0042795	ISS	-	snRNA transcription by RNA polymerase II	-	Process
 9913	512648	GO:0045944	ISS	-	positive regulation of transcription by RNA polymerase II	-	Process
 9913	512648	GO:0048863	ISS	-	stem cell differentiation	-	Process
@@ -24135,7 +24147,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	512756	GO:0005737	IEA	-	cytoplasm	-	Component
 9913	512771	GO:0000050	IEA	-	urea cycle	-	Process
 9913	512789	GO:0000126	ISS	-	transcription factor TFIIIB complex	-	Component
-9913	512789	GO:0001032	ISS	-	RNA polymerase III type 3 promoter DNA binding	-	Function
+9913	512789	GO:0001006	ISS	-	RNA polymerase III type 3 promoter sequence-specific DNA binding	-	Function
 9913	512789	GO:0006359	ISS	-	regulation of transcription by RNA polymerase III	-	Process
 9913	512789	GO:0034599	ISS	-	cellular response to oxidative stress	-	Process
 9913	512789	GO:0046872	IEA	-	metal ion binding	-	Function
@@ -24533,7 +24545,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	513228	GO:0060271	ISS	-	cilium assembly	-	Process
 9913	513231	GO:0000979	ISS	-	RNA polymerase II core promoter sequence-specific DNA binding	-	Function
 9913	513231	GO:0000993	ISS	-	RNA polymerase II complex binding	-	Function
-9913	513231	GO:0001047	ISS	-	core promoter binding	-	Function
+9913	513231	GO:0001046	ISS	-	core promoter sequence-specific DNA binding	-	Function
 9913	513231	GO:0001174	ISS	-	transcriptional start site selection at RNA polymerase II promoter	-	Process
 9913	513231	GO:0004402	IEA	-	histone acetyltransferase activity	-	Function
 9913	513231	GO:0005634	ISS	-	nucleus	-	Component
@@ -28469,6 +28481,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	520757	GO:0046872	IEA	-	metal ion binding	-	Function
 9913	520757	GO:0051865	IEA	-	protein autoubiquitination	-	Process
 9913	520757	GO:0061630	IEA	-	ubiquitin protein ligase activity	-	Function
+9913	520800	GO:0000976	ISS	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	520800	GO:0000978	IEA	-	RNA polymerase II proximal promoter sequence-specific DNA binding	-	Function
 9913	520800	GO:0001228	IEA	-	DNA-binding transcription activator activity, RNA polymerase II-specific	-	Function
 9913	520800	GO:0002250	IEA	-	adaptive immune response	-	Process
@@ -28478,7 +28491,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	520800	GO:0005737	ISS	-	cytoplasm	-	Component
 9913	520800	GO:0005829	ISS	-	cytosol	-	Component
 9913	520800	GO:0006959	ISS	-	humoral immune response	-	Process
-9913	520800	GO:0044212	ISS	-	transcription regulatory region DNA binding	-	Function
 9913	520800	GO:0045670	IEA	-	regulation of osteoclast differentiation	-	Process
 9913	520800	GO:0045785	ISS	-	positive regulation of cell adhesion	-	Process
 9913	520800	GO:0045893	ISS	-	positive regulation of transcription, DNA-templated	-	Process
@@ -28847,9 +28859,9 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	521960	GO:1903364	ISS	-	positive regulation of cellular protein catabolic process	-	Process
 9913	521960	GO:2001014	ISS	-	regulation of skeletal muscle cell differentiation	-	Process
 9913	521998	GO:0000122	IEA	-	negative regulation of transcription by RNA polymerase II	-	Process
+9913	521998	GO:0000976	ISS	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	521998	GO:0005634	IEA	-	nucleus	-	Component
 9913	521998	GO:0005737	ISS	-	cytoplasm	-	Component
-9913	521998	GO:0044212	ISS	-	transcription regulatory region DNA binding	-	Function
 9913	521998	GO:0045892	ISS	-	negative regulation of transcription, DNA-templated	-	Process
 9913	521998	GO:0046872	IEA	-	metal ion binding	-	Function
 9913	521998	GO:1901216	ISS	-	positive regulation of neuron death	-	Process
@@ -29242,6 +29254,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	523515	GO:0060119	IEA	-	inner ear receptor cell development	-	Process
 9913	523515	GO:0060384	IEA	-	innervation	-	Process
 9913	523515	GO:0090102	IEA	-	cochlea development	-	Process
+9913	523536	GO:0000976	ISS	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	523536	GO:0000978	IEA	-	RNA polymerase II proximal promoter sequence-specific DNA binding	-	Function
 9913	523536	GO:0001228	IEA	-	DNA-binding transcription activator activity, RNA polymerase II-specific	-	Function
 9913	523536	GO:0003700	ISS	-	DNA-binding transcription factor activity	-	Function
@@ -29250,7 +29263,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	523536	GO:0043621	IEA	-	protein self-association	-	Function
 9913	523536	GO:0043922	ISS	-	negative regulation by host of viral transcription	-	Process
 9913	523536	GO:0043923	ISS	-	positive regulation by host of viral transcription	-	Process
-9913	523536	GO:0044212	ISS	-	transcription regulatory region DNA binding	-	Function
 9913	523536	GO:0045892	ISS	-	negative regulation of transcription, DNA-templated	-	Process
 9913	523536	GO:0046718	ISS	-	viral entry into host cell	-	Process
 9913	523536	GO:0046872	IEA	-	metal ion binding	-	Function
@@ -31045,6 +31057,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	530397	GO:0051289	ISS	-	protein homotetramerization	-	Process
 9913	530397	GO:0055114	IEA	-	oxidation-reduction process	-	Process
 9913	530409	GO:0000122	IEA	-	negative regulation of transcription by RNA polymerase II	-	Process
+9913	530409	GO:0000976	IEA	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	530409	GO:0000981	IEA	-	DNA-binding transcription factor activity, RNA polymerase II-specific	-	Function
 9913	530409	GO:0001850	IEA	-	complement component C3a binding	-	Function
 9913	530409	GO:0001851	IEA	-	complement component C3b binding	-	Function
@@ -31063,7 +31076,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	530409	GO:0031871	IEA	-	proteinase activated receptor binding	-	Function
 9913	530409	GO:0042177	IEA	-	negative regulation of protein catabolic process	-	Process
 9913	530409	GO:0042826	IEA	-	histone deacetylase binding	-	Function
-9913	530409	GO:0044212	IEA	-	transcription regulatory region DNA binding	-	Function
 9913	530409	GO:0045745	IEA	-	positive regulation of G protein-coupled receptor signaling pathway	-	Process
 9913	530409	GO:0045893	IEA	-	positive regulation of transcription, DNA-templated	-	Process
 9913	530409	GO:0045917	IEA	-	positive regulation of complement activation	-	Process
@@ -35213,6 +35225,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	538944	GO:0005743	IEA	-	mitochondrial inner membrane	-	Component
 9913	538944	GO:0016310	IEA	-	phosphorylation	-	Process
 9913	538951	GO:0000122	IEA	-	negative regulation of transcription by RNA polymerase II	-	Process
+9913	538951	GO:0000976	ISS	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	538951	GO:0001010	IEA	-	RNA polymerase II sequence-specific DNA-binding transcription factor recruiting activity	-	Function
 9913	538951	GO:0001228	IEA	-	DNA-binding transcription activator activity, RNA polymerase II-specific	-	Function
 9913	538951	GO:0001710	IEA	-	mesodermal cell fate commitment	-	Process
@@ -35229,7 +35242,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	538951	GO:0030514	IEA	-	negative regulation of BMP signaling pathway	-	Process
 9913	538951	GO:0032526	IEA	-	response to retinoic acid	-	Process
 9913	538951	GO:0043697	IEA	-	cell dedifferentiation	-	Process
-9913	538951	GO:0044212	ISS	-	transcription regulatory region DNA binding	-	Function
 9913	538951	GO:0045931	IEA	-	positive regulation of mitotic cell cycle	-	Process
 9913	538951	GO:0045944	IEA	-	positive regulation of transcription by RNA polymerase II	-	Process
 9913	538951	GO:0048863	IEA	-	stem cell differentiation	-	Process
@@ -36791,6 +36803,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	540228	GO:0090398	IEA	-	cellular senescence	-	Process
 9913	540228	GO:1901796	IEA	-	regulation of signal transduction by p53 class mediator	-	Process
 9913	540230	GO:0000122	ISS	-	negative regulation of transcription by RNA polymerase II	-	Process
+9913	540230	GO:0000976	ISS	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	540230	GO:0001227	IEA	-	DNA-binding transcription repressor activity, RNA polymerase II-specific	-	Function
 9913	540230	GO:0001649	ISS	-	osteoblast differentiation	-	Process
 9913	540230	GO:0002063	IEA	-	chondrocyte development	-	Process
@@ -36812,7 +36825,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	540230	GO:0035313	IEA	-	wound healing, spreading of epidermal cells	-	Process
 9913	540230	GO:0035880	IEA	-	embryonic nail plate morphogenesis	-	Process
 9913	540230	GO:0043066	IEA	-	negative regulation of apoptotic process	-	Process
-9913	540230	GO:0044212	ISS	-	transcription regulatory region DNA binding	-	Function
 9913	540230	GO:0045599	IEA	-	negative regulation of fat cell differentiation	-	Process
 9913	540230	GO:0045617	IEA	-	negative regulation of keratinocyte differentiation	-	Process
 9913	540230	GO:0045669	IEA	-	positive regulation of osteoblast differentiation	-	Process
@@ -38160,7 +38172,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	613343	GO:0045116	IEA	-	protein neddylation	-	Process
 9913	613343	GO:0045116	ISS	-	protein neddylation	-	Process
 9913	613356	GO:0002250	IEA	-	adaptive immune response	-	Process
-9913	613356	GO:0005070	IEA	-	SH3/SH2 adaptor activity	-	Function
 9913	613356	GO:0005737	IEA	-	cytoplasm	-	Component
 9913	613356	GO:0006959	IEA	-	humoral immune response	-	Process
 9913	613356	GO:0006968	IEA	-	cellular defense response	-	Process
@@ -38929,12 +38940,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	614243	GO:0014704	IEA	-	intercalated disc	-	Component
 9913	614243	GO:0016021	IEA	-	integral component of membrane	-	Component
 9913	614243	GO:1903779	IEA	-	regulation of cardiac conduction	-	Process
+9913	614253	GO:0000976	IEA	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	614253	GO:0003677	ISS	-	DNA binding	-	Function
 9913	614253	GO:0003700	ISS	-	DNA-binding transcription factor activity	-	Function
 9913	614253	GO:0005737	ISS	-	cytoplasm	-	Component
 9913	614253	GO:0006357	IEA	-	regulation of transcription by RNA polymerase II	-	Process
 9913	614253	GO:0008285	ISS	-	negative regulation of cell proliferation	-	Process
-9913	614253	GO:0044212	IEA	-	transcription regulatory region DNA binding	-	Function
 9913	614253	GO:0045893	ISS	-	positive regulation of transcription, DNA-templated	-	Process
 9913	614253	GO:0060644	ISS	-	mammary gland epithelial cell differentiation	-	Process
 9913	614254	GO:0009435	IEA	-	NAD biosynthetic process	-	Process
@@ -39499,6 +39510,8 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	615074	GO:0098978	IEA	-	glutamatergic synapse	-	Component
 9913	615074	GO:2000480	IEA	-	negative regulation of cAMP-dependent protein kinase activity	-	Process
 9913	615087	GO:0003924	IEA	-	GTPase activity	-	Function
+9913	615093	GO:0005576	IEA	-	extracellular region	-	Component
+9913	615093	GO:0016021	IEA	-	integral component of membrane	-	Component
 9913	615098	GO:0000172	IEA	-	ribonuclease MRP complex	-	Component
 9913	615098	GO:0001682	IEA	-	tRNA 5'-leader removal	-	Process
 9913	615098	GO:0006364	IEA	-	rRNA processing	-	Process
@@ -39762,10 +39775,10 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	615323	GO:0090277	ISS	-	positive regulation of peptide hormone secretion	-	Process
 9913	615323	GO:1900738	ISS	-	positive regulation of phospholipase C-activating G protein-coupled receptor signaling pathway	-	Process
 9913	615329	GO:0046872	IEA	-	metal ion binding	-	Function
+9913	615340	GO:0000976	IEA	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	615340	GO:0005737	IEA	-	cytoplasm	-	Component
 9913	615340	GO:0006357	IEA	-	regulation of transcription by RNA polymerase II	-	Process
 9913	615340	GO:0019221	IEA	-	cytokine-mediated signaling pathway	-	Process
-9913	615340	GO:0044212	IEA	-	transcription regulatory region DNA binding	-	Function
 9913	615340	GO:0045087	IEA	-	innate immune response	-	Process
 9913	615340	GO:0051607	IEA	-	defense response to virus	-	Process
 9913	615342	GO:0005739	ISS	-	mitochondrion	-	Component
@@ -41722,7 +41735,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	664650	GO:0006351	IEA	-	transcription, DNA-templated	-	Process
 9913	664650	GO:0035019	IEA	-	somatic stem cell population maintenance	-	Process
 9913	664650	GO:0046983	IEA	-	protein dimerization activity	-	Function
-9913	664650	GO:0060708	IEA	-	spongiotrophoblast differentiation	-	Process
 9913	664650	GO:0070888	IEA	-	E-box binding	-	Function
 9913	664655	GO:0001401	IEA	-	mitochondrial sorting and assembly machinery complex	-	Component
 9913	664655	GO:0015031	IEA	-	protein transport	-	Process
@@ -42941,8 +42953,8 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	783374	GO:0016279	ISS	-	protein-lysine N-methyltransferase activity	-	Function
 9913	783374	GO:0018022	ISS	-	peptidyl-lysine methylation	-	Process
 9913	783487	GO:0005576	IEA	-	extracellular region	-	Component
+9913	783538	GO:0000976	ISS	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	783538	GO:0003713	ISS	-	transcription coactivator activity	-	Function
-9913	783538	GO:0044212	ISS	-	transcription regulatory region DNA binding	-	Function
 9913	783538	GO:0051091	ISS	-	positive regulation of DNA-binding transcription factor activity	-	Process
 9913	783538	GO:0060612	ISS	-	adipose tissue development	-	Process
 9913	783538	GO:1903508	IEA	-	positive regulation of nucleic acid-templated transcription	-	Process
@@ -43309,6 +43321,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	789082	GO:0008270	IEA	-	zinc ion binding	-	Function
 9913	789082	GO:0071005	ISS	-	U2-type precatalytic spliceosome	-	Component
 9913	789082	GO:1903241	ISS	-	U2-type prespliceosome assembly	-	Process
+9913	789216	GO:0000976	IEA	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	789216	GO:0005634	ISS	-	nucleus	-	Component
 9913	789216	GO:0005737	ISS	-	cytoplasm	-	Component
 9913	789216	GO:0006357	IEA	-	regulation of transcription by RNA polymerase II	-	Process
@@ -43318,7 +43331,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	789216	GO:0032481	ISS	-	positive regulation of type I interferon production	-	Process
 9913	789216	GO:0032728	ISS	-	positive regulation of interferon-beta production	-	Process
 9913	789216	GO:0034124	ISS	-	regulation of MyD88-dependent toll-like receptor signaling pathway	-	Process
-9913	789216	GO:0044212	IEA	-	transcription regulatory region DNA binding	-	Function
 9913	789216	GO:0045590	ISS	-	negative regulation of regulatory T cell differentiation	-	Process
 9913	789216	GO:0045892	ISS	-	negative regulation of transcription, DNA-templated	-	Process
 9913	789216	GO:0045893	ISS	-	positive regulation of transcription, DNA-templated	-	Process
@@ -43443,6 +43455,27 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	100034674	GO:0008625	IEA	-	extrinsic apoptotic signaling pathway via death domain receptors	-	Process
 9913	100034674	GO:0042802	IEA	-	identical protein binding	-	Function
 9913	100034674	GO:0046872	IEA	-	metal ion binding	-	Function
+9913	100036592	GO:0001807	ISS	-	regulation of type IV hypersensitivity	-	Process
+9913	100036592	GO:0002361	IEA	-	CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation	-	Process
+9913	100036592	GO:0002522	IEA	-	leukocyte migration involved in immune response	-	Process
+9913	100036592	GO:0002523	ISS	-	leukocyte migration involved in inflammatory response	-	Process
+9913	100036592	GO:0005802	IEA	-	trans-Golgi network	-	Component
+9913	100036592	GO:0006486	IEA	-	protein glycosylation	-	Process
+9913	100036592	GO:0006672	IEA	-	ceramide metabolic process	-	Process
+9913	100036592	GO:0006954	ISS	-	inflammatory response	-	Process
+9913	100036592	GO:0007566	IEA	-	embryo implantation	-	Process
+9913	100036592	GO:0016021	IEA	-	integral component of membrane	-	Component
+9913	100036592	GO:0017083	ISS	-	4-galactosyl-N-acetylglucosaminide 3-alpha-L-fucosyltransferase activity	-	Function
+9913	100036592	GO:0022407	ISS	-	regulation of cell-cell adhesion	-	Process
+9913	100036592	GO:0022409	ISS	-	positive regulation of cell-cell adhesion	-	Process
+9913	100036592	GO:0045785	ISS	-	positive regulation of cell adhesion	-	Process
+9913	100036592	GO:0046626	ISS	-	regulation of insulin receptor signaling pathway	-	Process
+9913	100036592	GO:0046920	IDA	-	alpha-(1->3)-fucosyltransferase activity	22909383	Function
+9913	100036592	GO:0060353	IEA	-	regulation of cell adhesion molecule production	-	Process
+9913	100036592	GO:0097021	IEA	-	lymphocyte migration into lymphoid organs	-	Process
+9913	100036592	GO:1903238	ISS	-	positive regulation of leukocyte tethering or rolling	-	Process
+9913	100036592	GO:1904996	ISS	-	positive regulation of leukocyte adhesion to vascular endothelial cell	-	Process
+9913	100036592	GO:2000389	IEA	-	regulation of neutrophil extravasation	-	Process
 9913	100124502	GO:0005829	IEA	-	cytosol	-	Component
 9913	100124502	GO:0005886	IEA	-	plasma membrane	-	Component
 9913	100124502	GO:0051260	IEA	-	protein homooligomerization	-	Process
@@ -43567,13 +43600,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	100125836	GO:0048188	ISS	-	Set1C/COMPASS complex	-	Component
 9913	100125836	GO:0051568	ISS	-	histone H3-K4 methylation	-	Process
 9913	100125836	GO:0071339	ISS	-	MLL1 complex	-	Component
+9913	100125876	GO:0000976	IEA	-	transcription regulatory region sequence-specific DNA binding	-	Function
 9913	100125876	GO:0003700	IEA	-	DNA-binding transcription factor activity	-	Function
 9913	100125876	GO:0005634	IEA	-	nucleus	-	Component
 9913	100125876	GO:0005764	ISS	-	lysosome	-	Component
 9913	100125876	GO:0005765	IEA	-	lysosomal membrane	-	Component
 9913	100125876	GO:0005829	IEA	-	cytosol	-	Component
 9913	100125876	GO:0016021	ISS	-	integral component of membrane	-	Component
-9913	100125876	GO:0044212	IEA	-	transcription regulatory region DNA binding	-	Function
 9913	100125876	GO:0045944	IEA	-	positive regulation of transcription by RNA polymerase II	-	Process
 9913	100125877	GO:0003899	IEA	-	DNA-directed 5'-3' RNA polymerase activity	-	Function
 9913	100125877	GO:0005635	IEA	-	nuclear envelope	-	Component

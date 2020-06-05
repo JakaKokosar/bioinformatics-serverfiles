@@ -109,25 +109,6 @@
         }
     },
     {
-        "systematic_name": "DBS0235414",
-        "strain_descriptor": "2F5",
-        "associated_genes": [
-            "gp130"
-        ],
-        "phenotypes": [
-            "decreased cell-substrate adhesion",
-            "delayed development",
-            "increased growth rate"
-        ],
-        "mutant_types": {
-            "null": true,
-            "overexpression": false,
-            "multiple ": false,
-            "other": false,
-            "developmental": true
-        }
-    },
-    {
         "systematic_name": "DBS0238601",
         "strain_descriptor": "5NT-",
         "associated_genes": [
@@ -144,6 +125,24 @@
             "multiple ": false,
             "other": false,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351520",
+        "strain_descriptor": "AK1334",
+        "associated_genes": [
+            "DDB_G0271574",
+            "nip7"
+        ],
+        "phenotypes": [
+            "decreased response to Gram-negative bacterium"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -171,9 +170,12 @@
         "systematic_name": "DBS0235585",
         "strain_descriptor": "CF50-",
         "associated_genes": [
-            "cf50-1"
+            "cf50-1",
+            "cf50-2"
         ],
         "phenotypes": [
+            "decreased response to Gram-negative bacterium",
+            "decreased response to Gram-positive bacterium",
             "increased aggregate size",
             "increased gene expression",
             "increased cell-cell adhesion",
@@ -1064,7 +1066,7 @@
             "DDB_G0293074"
         ],
         "phenotypes": [
-            "decreased spore viability",
+            "decreased spore germination",
             "delayed aggregation"
         ],
         "mutant_types": {
@@ -1135,7 +1137,7 @@
             "DDB_G0293356"
         ],
         "phenotypes": [
-            "increased infection rate by a gram-negative pathogenic bacterium"
+            "decreased defense response to Gram-negative bacterium"
         ],
         "mutant_types": {
             "null": true,
@@ -1602,13 +1604,13 @@
             "increased protein localization",
             "increased protein phosphorylation",
             "increased contractile vacuole size",
+            "decreased defense response to Gram-negative bacterium",
             "aberrant contractile vacuole discharge",
             "decreased growth rate",
             "decreased phagocytosis",
             "decreased engulfment during phagocytosis",
             "aberrant endosome morphology",
             "aberrant vacuole organization and biogenesis",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "decreased protein localization",
             "increased cell motility",
             "multiple tips in mound",
@@ -1752,9 +1754,9 @@
             "DidioMp27"
         ],
         "phenotypes": [
+            "decreased defense response to Gram-negative bacterium",
             "decreased gene expression",
             "decreased growth rate",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "aberrant phototaxis"
         ],
         "mutant_types": {
@@ -1772,9 +1774,9 @@
             "DidioMp36"
         ],
         "phenotypes": [
+            "decreased defense response to Gram-negative bacterium",
             "decreased gene expression",
             "decreased growth rate",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "aberrant phototaxis"
         ],
         "mutant_types": {
@@ -2215,12 +2217,12 @@
         ],
         "phenotypes": [
             "aberrant spore morphology",
-            "decreased spore viability",
+            "precocious sporulation",
             "decreased phosphorylation of actin",
-            "increased sporulation",
             "precocious development",
             "decreased intracellular cAMP level",
-            "aberrant fruiting body morphology"
+            "aberrant fruiting body morphology",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -2325,24 +2327,6 @@
         ],
         "mutant_types": {
             "null": false,
-            "overexpression": false,
-            "multiple ": false,
-            "other": false,
-            "developmental": false
-        }
-    },
-    {
-        "systematic_name": "DBS0236716",
-        "strain_descriptor": "PAKc-",
-        "associated_genes": [
-            "pakC"
-        ],
-        "phenotypes": [
-            "decreased chemotaxis rate",
-            "decreased lateral pseudopod suppression"
-        ],
-        "mutant_types": {
-            "null": true,
             "overexpression": false,
             "multiple ": false,
             "other": false,
@@ -7010,7 +6994,10 @@
             "adprt1A"
         ],
         "phenotypes": [
-            "development arrests at loose mound stage"
+            "development arrests at loose mound stage",
+            "decreased gene expression",
+            "decreased intracellular ATP level",
+            "increased mitochondrial fission"
         ],
         "mutant_types": {
             "null": false,
@@ -7363,8 +7350,8 @@
             "hspA"
         ],
         "phenotypes": [
-            "increased infection rate by a pathogenic bacterium",
             "decreased growth rate",
+            "decreased defense response to bacterium",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -7576,8 +7563,8 @@
             "proB"
         ],
         "phenotypes": [
-            "wild type",
-            "decreased spore viability"
+            "abolished sporulation",
+            "wild type"
         ],
         "mutant_types": {
             "null": false,
@@ -7773,11 +7760,13 @@
             "rps4"
         ],
         "phenotypes": [
-            "aberrant aggregation",
-            "decreased spore viability",
+            "decreased spore germination",
             "aberrant actin cytoskeleton organization",
             "aberrant vegetative growth",
-            "aberrant fruiting body morphology"
+            "decreased spore size",
+            "decreased aggregate size",
+            "aberrant fruiting body morphology",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -8606,8 +8595,8 @@
         ],
         "phenotypes": [
             "multiple tips in culminant",
-            "decreased infection rate by a gram-negative pathogenic bacterium",
             "aberrant response to cation stress",
+            "increased defense response to Gram-negative bacterium",
             "decreased fruiting body size",
             "decreased stalk length"
         ],
@@ -8646,9 +8635,9 @@
         ],
         "phenotypes": [
             "multiple tips in culminant",
-            "decreased infection rate by a gram-negative pathogenic bacterium",
             "decreased gene expression",
             "aberrant response to cation stress",
+            "increased defense response to Gram-negative bacterium",
             "aberrant stalk cell differentiation",
             "decreased stalk length"
         ],
@@ -9269,7 +9258,7 @@
         ],
         "phenotypes": [
             "wild type",
-            "decreased infection rate by a gram-negative pathogenic bacterium"
+            "increased defense response to Gram-negative bacterium"
         ],
         "mutant_types": {
             "null": false,
@@ -9551,7 +9540,7 @@
             "hbx4"
         ],
         "phenotypes": [
-            "decreased spore viability",
+            "decreased spore germination",
             "aberrant gene expression",
             "increased prestalk cell differentiation"
         ],
@@ -10624,6 +10613,7 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
+            "wild type",
             "decreased phagocytosis",
             "decreased growth rate",
             "aberrant cytokinesis",
@@ -10853,7 +10843,7 @@
             "sey1"
         ],
         "phenotypes": [
-            "decreased infection rate by a gram-negative pathogenic bacterium",
+            "increased defense response to Gram-negative bacterium",
             "aberrant catalytic activity",
             "decreased protein localization",
             "aberrant endoplasmic reticulum organization"
@@ -11308,10 +11298,14 @@
         "phenotypes": [
             "decreased extracellular cAMP level",
             "increased gene expression",
+            "decreased gene expression",
+            "delayed aggregation",
             "aberrant cell cycle",
             "decreased growth rate",
+            "decreased intracellular ATP level",
             "aberrant response to oxidative stress",
-            "decreased intracellular cAMP level"
+            "decreased intracellular cAMP level",
+            "increased mitochondrial fission"
         ],
         "mutant_types": {
             "null": false,
@@ -12251,8 +12245,8 @@
         ],
         "phenotypes": [
             "aberrant spore morphology",
-            "decreased protein level",
-            "decreased spore viability"
+            "decreased spore germination",
+            "decreased protein level"
         ],
         "mutant_types": {
             "null": false,
@@ -13553,7 +13547,7 @@
             "nramp1"
         ],
         "phenotypes": [
-            "decreased infection rate by a gram-negative pathogenic bacterium",
+            "increased defense response to Gram-negative bacterium",
             "increased iron ion transport"
         ],
         "mutant_types": {
@@ -14284,11 +14278,13 @@
             "rps4"
         ],
         "phenotypes": [
-            "aberrant aggregation",
-            "decreased spore viability",
+            "decreased spore germination",
             "aberrant actin cytoskeleton organization",
             "aberrant vegetative growth",
-            "aberrant fruiting body morphology"
+            "decreased spore size",
+            "decreased aggregate size",
+            "aberrant fruiting body morphology",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -14380,9 +14376,9 @@
         "phenotypes": [
             "increased stalk width",
             "increased intracellular ATP level",
-            "increased infection rate by a pathogenic bacterium",
             "decreased growth rate",
             "increased number of mitochondria",
+            "decreased defense response to bacterium",
             "decreased phototaxis",
             "decreased stalk length",
             "aberrant mitochondrion organization"
@@ -15490,7 +15486,7 @@
         "systematic_name": "DBS0351106",
         "strain_descriptor": "[dscB]:HA:racC",
         "associated_genes": [
-            "rasC"
+            "racC"
         ],
         "phenotypes": [
             "decreased exocytosis",
@@ -15701,6 +15697,72 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351510",
+        "strain_descriptor": "[dscB]:rac1B(G12V):myc",
+        "associated_genes": [
+            "rac1B"
+        ],
+        "phenotypes": [
+            "decreased pinocytosis",
+            "aberrant F-actin organization",
+            "decreased growth rate",
+            "aberrant cytokinesis",
+            "delayed development",
+            "aberrant cell morphology"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": true,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351511",
+        "strain_descriptor": "[dscB]:rac1B(Q61L):myc",
+        "associated_genes": [
+            "rac1B"
+        ],
+        "phenotypes": [
+            "aberrant F-actin organization",
+            "decreased growth rate",
+            "aberrant cytokinesis",
+            "delayed development",
+            "aberrant cell morphology"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": true,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351512",
+        "strain_descriptor": "[dscB]:rac1B(T17N):myc",
+        "associated_genes": [
+            "rac1B"
+        ],
+        "phenotypes": [
+            "decreased pinocytosis",
+            "aberrant F-actin polymerization",
+            "decreased growth rate",
+            "aberrant cytokinesis",
+            "decreased chemotaxis to folate",
+            "delayed development",
+            "aberrant cell morphology"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": true,
             "developmental": true
         }
     },
@@ -16384,7 +16446,7 @@
         "phenotypes": [
             "abolished gene expression",
             "decreased gene expression",
-            "translucent sorus"
+            "aberrant sorus color"
         ],
         "mutant_types": {
             "null": false,
@@ -16824,6 +16886,23 @@
         }
     },
     {
+        "systematic_name": "DBS0351507",
+        "strain_descriptor": "[unk]:GFP:wasA(I173A/F179A)",
+        "associated_genes": [
+            "wasA"
+        ],
+        "phenotypes": [
+            "abolished protein binding"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350447",
         "strain_descriptor": "[unk]:PTEN(H385G/N389A/H390A)",
         "associated_genes": [
@@ -17260,8 +17339,8 @@
             "abcA10"
         ],
         "phenotypes": [
-            "decreased spore viability",
-            "aberrant development"
+            "aberrant development",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17278,9 +17357,9 @@
             "abcA3"
         ],
         "phenotypes": [
-            "decreased spore viability",
             "aberrant development",
-            "aberrant fruiting body morphology"
+            "aberrant fruiting body morphology",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17314,8 +17393,8 @@
             "abcA5"
         ],
         "phenotypes": [
-            "decreased spore viability",
-            "aberrant development"
+            "aberrant development",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17366,8 +17445,8 @@
             "abcA9"
         ],
         "phenotypes": [
-            "decreased spore viability",
-            "aberrant fruiting body morphology"
+            "aberrant fruiting body morphology",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17401,7 +17480,7 @@
             "abcB4"
         ],
         "phenotypes": [
-            "decreased spore viability"
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17436,9 +17515,9 @@
             "abcC13"
         ],
         "phenotypes": [
-            "decreased spore viability",
             "aberrant development",
-            "delayed culmination"
+            "delayed culmination",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17455,9 +17534,9 @@
             "abcC14"
         ],
         "phenotypes": [
-            "decreased spore viability",
             "decreased fruiting body size",
-            "aberrant development"
+            "aberrant development",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17528,8 +17607,8 @@
         ],
         "phenotypes": [
             "multiple tips in culminant",
-            "decreased spore viability",
-            "decreased growth rate"
+            "decreased growth rate",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17563,9 +17642,9 @@
             "abcF1"
         ],
         "phenotypes": [
-            "decreased spore viability",
             "aberrant development",
-            "delayed culmination"
+            "delayed culmination",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17582,8 +17661,8 @@
             "abcF2"
         ],
         "phenotypes": [
-            "decreased spore viability",
-            "delayed tip formation"
+            "delayed tip formation",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17618,9 +17697,9 @@
             "abcG10"
         ],
         "phenotypes": [
-            "decreased spore viability",
             "delayed tip formation",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17637,8 +17716,8 @@
             "abcG15"
         ],
         "phenotypes": [
-            "decreased spore viability",
-            "aberrant development"
+            "aberrant development",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17673,8 +17752,8 @@
             "abcG17-2"
         ],
         "phenotypes": [
-            "decreased spore viability",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17691,7 +17770,7 @@
             "abcG18"
         ],
         "phenotypes": [
-            "decreased spore viability"
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17802,7 +17881,7 @@
             "abcG24"
         ],
         "phenotypes": [
-            "decreased spore viability",
+            "decreased sporulation",
             "delayed culmination"
         ],
         "mutant_types": {
@@ -17837,7 +17916,7 @@
             "abcG6"
         ],
         "phenotypes": [
-            "decreased spore viability"
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17873,9 +17952,9 @@
             "abcG7"
         ],
         "phenotypes": [
-            "decreased spore viability",
             "delayed tip formation",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -17892,7 +17971,7 @@
             "abcH2"
         ],
         "phenotypes": [
-            "decreased spore viability"
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -18201,6 +18280,7 @@
         ],
         "phenotypes": [
             "aberrant cortical actin cytoskeleton stabilization",
+            "decreased response to Gram-negative bacterium",
             "aberrant thermotaxis",
             "decreased cell polarity",
             "decreased cell motility",
@@ -18377,7 +18457,7 @@
         ],
         "phenotypes": [
             "decreased cell-cell adhesion",
-            "decreased spore viability",
+            "decreased spore germination",
             "delayed development",
             "aberrant development"
         ],
@@ -18811,7 +18891,7 @@
             "aberrant exocytosis",
             "aberrant lysosome organization and biogenesis",
             "aberrant filopodium formation",
-            "decreased infection rate by a gram-negative pathogenic bacterium",
+            "increased defense response to Gram-negative bacterium",
             "aberrant endocytosis",
             "aberrant cytokinesis",
             "decreased cell motility",
@@ -18902,10 +18982,11 @@
             "acbA"
         ],
         "phenotypes": [
+            "decreased response to Gram-negative bacterium",
             "increased sensitivity to cisplatin",
             "abolished SDF production",
-            "decreased spore viability",
-            "abolished sorting to prestalk region"
+            "abolished sorting to prestalk region",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -18959,7 +19040,7 @@
         "phenotypes": [
             "abolished response to MPBD",
             "abolished response to SDF-1",
-            "decreased spore viability",
+            "decreased spore germination",
             "precocious spore germination",
             "abolished SDF-1 production"
         ],
@@ -19142,9 +19223,10 @@
             "pkaC"
         ],
         "phenotypes": [
-            "decreased spore viability",
+            "decreased spore germination",
             "decreased fruiting body size",
-            "precocious development"
+            "precocious development",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -19294,9 +19376,11 @@
             "decreased growth rate",
             "delayed aggregation",
             "decreased aggregate size",
+            "decreased intracellular ATP level",
             "aberrant response to oxidative stress",
             "decreased fruiting body size",
             "decreased intracellular cAMP level",
+            "increased mitochondrial fission",
             "abolished chemotaxis to cAMP"
         ],
         "mutant_types": {
@@ -19794,14 +19878,31 @@
         }
     },
     {
+        "systematic_name": "AK1350",
+        "strain_descriptor": "alyL-",
+        "associated_genes": [
+            "alyL"
+        ],
+        "phenotypes": [
+            "decreased response to Gram-negative bacterium"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DG1114",
         "strain_descriptor": "amdA-",
         "associated_genes": [
             "amdA"
         ],
         "phenotypes": [
-            "decreased spore viability",
-            "translucent sorus",
+            "decreased spore germination",
+            "aberrant sorus color",
             "increased prestalk A cell differentiation"
         ],
         "mutant_types": {
@@ -20055,12 +20156,12 @@
             "amtA"
         ],
         "phenotypes": [
-            "decreased spore viability",
             "decreased aggregate size",
             "increased number of aggregates",
             "decreased extracellular ammonia level",
             "increased intracellular glucose level",
             "decreased stalk length",
+            "aberrant sporulation",
             "increased intracellular ammonia level"
         ],
         "mutant_types": {
@@ -20421,8 +20522,8 @@
             "aplD"
         ],
         "phenotypes": [
-            "decreased growth rate",
-            "increased infection rate by a gram-negative pathogenic bacterium"
+            "decreased defense response to Gram-negative bacterium",
+            "decreased growth rate"
         ],
         "mutant_types": {
             "null": true,
@@ -20570,9 +20671,9 @@
         ],
         "phenotypes": [
             "aberrant cellular homeostasis",
+            "decreased spore germination",
             "increased cell death",
             "increased aggregate size",
-            "decreased spore viability",
             "aberrant cytokinesis",
             "aberrant vegetative growth",
             "increased growth rate",
@@ -20631,7 +20732,8 @@
             "aqpA"
         ],
         "phenotypes": [
-            "decreased spore viability"
+            "decreased spore germination",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -21010,9 +21112,9 @@
         ],
         "phenotypes": [
             "aberrant vacuolation",
+            "decreased defense response to Gram-negative bacterium",
             "aberrant defense response to bacterium",
-            "abolished autophagic cell death",
-            "increased infection rate by a gram-negative pathogenic bacterium"
+            "abolished autophagic cell death"
         ],
         "mutant_types": {
             "null": true,
@@ -21051,15 +21153,15 @@
             "abolished macroautophagy",
             "increased number of autophagosomes",
             "aberrant autophagy",
-            "increased infection rate by a gram-positive pathogenic bacterium",
+            "decreased defense response to Gram-negative bacterium",
             "aberrant cellular response to nitrogen starvation",
             "abolished SDF production",
             "decreased growth rate",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "aberrant vacuole organization and biogenesis",
             "abolished stalk cell differentiation",
             "abolished aggregation",
-            "aberrant defense response to yeast",
+            "increased defense response to fungus",
+            "decreased defense response to Gram-positive bacterium",
             "aberrant protein localization"
         ],
         "mutant_types": {
@@ -21240,9 +21342,9 @@
         "phenotypes": [
             "decreased pinocytosis",
             "increased cell death",
+            "decreased spore germination",
             "decreased catalytic activity",
             "increased gene expression",
-            "decreased spore viability",
             "increased protein modification",
             "decreased phagocytosis",
             "aberrant phagosome maturation",
@@ -21341,14 +21443,14 @@
         ],
         "phenotypes": [
             "aberrant macroautophagy",
+            "decreased defense response to Gram-negative bacterium",
             "aberrant cellular response to nitrogen starvation",
             "abolished SDF production",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "multiple tips",
+            "decreased defense response to fungus",
             "decreased fruiting body size",
             "decreased stalk length",
-            "decreased sporulation",
-            "aberrant defense response to yeast"
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -21367,9 +21469,9 @@
         "phenotypes": [
             "aberrant macroautophagy",
             "abolished sporulation",
+            "decreased defense response to Gram-negative bacterium",
             "aberrant cellular response to nitrogen starvation",
             "abolished SDF production",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "multiple tips",
             "aberrant protein localization"
         ],
@@ -21389,7 +21491,7 @@
         ],
         "phenotypes": [
             "aberrant sorus morphology",
-            "decreased spore viability",
+            "decreased spore germination",
             "decreased gene expression",
             "decreased prespore cell differentiation",
             "decreased prespore gene expression",
@@ -21411,7 +21513,7 @@
         ],
         "phenotypes": [
             "aberrant sorus morphology",
-            "decreased spore viability",
+            "decreased spore germination",
             "delayed development"
         ],
         "mutant_types": {
@@ -21431,7 +21533,7 @@
         ],
         "phenotypes": [
             "decreased prespore gene expression",
-            "spores inviable"
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -21450,12 +21552,12 @@
         "phenotypes": [
             "aberrant macroautophagy",
             "aberrant spore morphology",
-            "increased infection rate by a gram-positive pathogenic bacterium",
             "aberrant cellular response to nitrogen starvation",
             "abolished SDF production",
             "aberrant vacuole organization and biogenesis",
             "multiple tips",
             "decreased fruiting body size",
+            "decreased defense response to Gram-positive bacterium",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -21650,7 +21752,7 @@
             "pkaC"
         ],
         "phenotypes": [
-            "spores inviable"
+            "abolished sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -21687,9 +21789,9 @@
             "atp1"
         ],
         "phenotypes": [
+            "decreased defense response to Gram-negative bacterium",
             "decreased gene expression",
             "decreased growth rate",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "aberrant phototaxis"
         ],
         "mutant_types": {
@@ -21707,9 +21809,9 @@
             "atp6"
         ],
         "phenotypes": [
+            "decreased defense response to Gram-negative bacterium",
             "decreased gene expression",
             "decreased growth rate",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "aberrant phototaxis"
         ],
         "mutant_types": {
@@ -21768,7 +21870,7 @@
         "phenotypes": [
             "decreased spore germination",
             "decreased gene expression",
-            "decreased spore viability",
+            "aberrant sporulation",
             "decreased sporulation",
             "aberrant fruiting body morphology"
         ],
@@ -21825,7 +21927,7 @@
         "phenotypes": [
             "increased stalk width",
             "aberrant sorus morphology",
-            "decreased spore viability"
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -22427,8 +22529,8 @@
             "cdk8"
         ],
         "phenotypes": [
+            "decreased spore germination",
             "decreased gene expression",
-            "decreased spore viability",
             "aberrant gene expression",
             "abolished aggregation"
         ],
@@ -22464,7 +22566,7 @@
             "cdk8"
         ],
         "phenotypes": [
-            "decreased spore viability",
+            "decreased spore germination",
             "abolished aggregation"
         ],
         "mutant_types": {
@@ -22586,7 +22688,7 @@
         "phenotypes": [
             "aberrant cellular homeostasis",
             "increased cell death",
-            "decreased spore viability",
+            "decreased spore germination",
             "aberrant vegetative growth",
             "aberrant cytokinesis",
             "increased growth rate",
@@ -23095,6 +23197,23 @@
         }
     },
     {
+        "systematic_name": "AK1338",
+        "strain_descriptor": "clkB-",
+        "associated_genes": [
+            "clkB"
+        ],
+        "phenotypes": [
+            "decreased response to Gram-negative bacterium"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0235608",
         "strain_descriptor": "clmA-",
         "associated_genes": [
@@ -23320,7 +23439,7 @@
         "phenotypes": [
             "aberrant streaming",
             "increased cAMP-induced cAMP pulse",
-            "decreased spore viability",
+            "decreased spore germination",
             "increased F-actin polymerization",
             "aberrant cytokinesis",
             "increased number of aggregates",
@@ -23500,8 +23619,8 @@
             "comE"
         ],
         "phenotypes": [
-            "translucent sorus",
-            "aberrant fruiting body morphology"
+            "aberrant fruiting body morphology",
+            "aberrant sorus color"
         ],
         "mutant_types": {
             "null": true,
@@ -23631,15 +23750,15 @@
             "corA"
         ],
         "phenotypes": [
-            "increased infection rate by a gram-positive pathogenic bacterium",
+            "decreased defense response to Gram-negative bacterium",
             "increased myosin II assembly",
             "increased basal F-actin level",
             "aberrant cytokinesis",
             "decreased growth rate",
             "decreased phagocytosis",
             "decreased cell motility",
-            "increased infection rate by a gram-negative pathogenic bacterium",
-            "aberrant cell morphology"
+            "aberrant cell morphology",
+            "decreased defense response to Gram-positive bacterium"
         ],
         "mutant_types": {
             "null": true,
@@ -23658,16 +23777,34 @@
         "phenotypes": [
             "aberrant response to conditioned medium factor",
             "decreased cell polarity",
+            "decreased defense response to Gram-negative bacterium",
             "decreased gene expression",
             "aberrant chemotaxis to cAMP",
+            "decreased phagocytosis",
             "aberrant cAMP signaling during aggregation",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "abolished aggregation"
         ],
         "mutant_types": {
             "null": true,
             "overexpression": false,
             "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351521",
+        "strain_descriptor": "corA-/[act15]:FLAG:corA(1-432)",
+        "associated_genes": [
+            "corA"
+        ],
+        "phenotypes": [
+            "abolished aggregation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
             "other": false,
             "developmental": true
         }
@@ -23891,8 +24028,8 @@
             "cotA"
         ],
         "phenotypes": [
+            "decreased spore germination",
             "aberrant spore coat morphology",
-            "decreased spore viability",
             "abolished cellulose binding"
         ],
         "mutant_types": {
@@ -23930,8 +24067,8 @@
             "cotC"
         ],
         "phenotypes": [
+            "decreased spore germination",
             "aberrant spore coat morphology",
-            "decreased spore viability",
             "abolished cellulose binding"
         ],
         "mutant_types": {
@@ -23968,8 +24105,8 @@
             "cotB"
         ],
         "phenotypes": [
+            "decreased spore germination",
             "aberrant spore coat morphology",
-            "decreased spore viability",
             "abolished cellulose binding"
         ],
         "mutant_types": {
@@ -24039,9 +24176,9 @@
             "cox3"
         ],
         "phenotypes": [
+            "decreased defense response to Gram-negative bacterium",
             "decreased gene expression",
             "decreased growth rate",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "aberrant phototaxis",
             "aberrant fruiting body morphology"
         ],
@@ -24124,8 +24261,8 @@
         ],
         "phenotypes": [
             "abolished response to MPBD",
+            "decreased spore germination",
             "increased aggregate size",
-            "decreased spore viability",
             "delayed tip formation",
             "decreased sorting to prestalk region",
             "abolished SDF-1 production",
@@ -24944,10 +25081,10 @@
             "cytB"
         ],
         "phenotypes": [
+            "decreased defense response to Gram-negative bacterium",
             "decreased gene expression",
             "development arrests at mound stage",
             "decreased growth rate",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "aberrant phototaxis"
         ],
         "mutant_types": {
@@ -25580,7 +25717,7 @@
             "dgkA"
         ],
         "phenotypes": [
-            "decreased spore viability",
+            "decreased spore germination",
             "increased myosin II assembly",
             "decreased chemotaxis rate",
             "aberrant development"
@@ -25826,8 +25963,8 @@
         ],
         "phenotypes": [
             "precocious spore germination",
-            "translucent sorus",
-            "decreased intracellular cAMP level"
+            "decreased intracellular cAMP level",
+            "aberrant sorus color"
         ],
         "mutant_types": {
             "null": true,
@@ -26445,10 +26582,10 @@
         ],
         "phenotypes": [
             "aberrant streaming",
-            "translucent sorus",
             "delayed development",
             "decreased stalk cell differentiation",
             "decreased sporulation",
+            "aberrant sorus color",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -26658,8 +26795,8 @@
         ],
         "phenotypes": [
             "aberrant culminant morphology",
-            "translucent sorus",
             "decreased cytosine methylation in genomic DNA",
+            "aberrant sorus color",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -26767,7 +26904,7 @@
         ],
         "phenotypes": [
             "aberrant response to hyperosmotic stress",
-            "translucent sorus",
+            "aberrant sorus color",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -27754,7 +27891,7 @@
             "dupA"
         ],
         "phenotypes": [
-            "decreased infection rate by a gram-negative pathogenic bacterium",
+            "increased defense response to Gram-negative bacterium",
             "abolished aggregation"
         ],
         "mutant_types": {
@@ -27772,7 +27909,7 @@
             "dupA"
         ],
         "phenotypes": [
-            "decreased infection rate by a gram-negative pathogenic bacterium"
+            "increased defense response to Gram-negative bacterium"
         ],
         "mutant_types": {
             "null": true,
@@ -28200,15 +28337,16 @@
         ],
         "phenotypes": [
             "aberrant aggregation",
+            "decreased spore germination",
             "increased gene expression",
             "decreased gene expression",
-            "decreased spore viability",
             "decreased growth rate",
             "aberrant cell cycle",
             "delayed development",
             "decreased chemotaxis to cAMP",
             "decreased intracellular cAMP level",
-            "aberrant fruiting body morphology"
+            "decreased fruiting body size",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -28304,7 +28442,7 @@
         ],
         "phenotypes": [
             "aberrant spore morphology",
-            "decreased spore viability",
+            "decreased spore germination",
             "aberrant cytokinesis",
             "abolished protein localization to plasma membrane",
             "abolished protein phosphorylation",
@@ -29980,7 +30118,7 @@
             "gadA"
         ],
         "phenotypes": [
-            "decreased spore viability"
+            "decreased spore germination"
         ],
         "mutant_types": {
             "null": true,
@@ -30514,14 +30652,14 @@
         ],
         "phenotypes": [
             "abolished gene expression",
+            "abolished sporulation",
             "aberrant cellular metabolic process",
             "aberrant initiation of development",
             "abolished growth",
             "decreased gene expression",
             "increased gene expression",
             "development arrests at mound stage",
-            "cell cycle arrest",
-            "spores inviable"
+            "cell cycle arrest"
         ],
         "mutant_types": {
             "null": true,
@@ -30557,7 +30695,7 @@
             "gcsA"
         ],
         "phenotypes": [
-            "decreased spore viability",
+            "decreased spore germination",
             "development arrests at mound stage"
         ],
         "mutant_types": {
@@ -31311,7 +31449,7 @@
             "glk"
         ],
         "phenotypes": [
-            "increased infection rate by a gram-negative pathogenic bacterium"
+            "decreased defense response to Gram-negative bacterium"
         ],
         "mutant_types": {
             "null": true,
@@ -31559,6 +31697,26 @@
             "multiple ": false,
             "other": false,
             "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0235414",
+        "strain_descriptor": "gp130-",
+        "associated_genes": [
+            "gp130"
+        ],
+        "phenotypes": [
+            "decreased response to Gram-positive bacterium",
+            "decreased cell-substrate adhesion",
+            "delayed development",
+            "increased growth rate"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
         }
     },
     {
@@ -32506,10 +32664,11 @@
         "phenotypes": [
             "wild type",
             "increased cell death",
-            "decreased spore viability",
+            "decreased spore germination",
             "abolished negative chemotaxis",
             "increased growth rate",
-            "abolished positive regulation of chemorepellant activity"
+            "abolished positive regulation of chemorepellant activity",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -32968,6 +33127,23 @@
         }
     },
     {
+        "systematic_name": "AK1353",
+        "strain_descriptor": "gpi-",
+        "associated_genes": [
+            "gpi"
+        ],
+        "phenotypes": [
+            "decreased response to Gram-positive bacterium"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350477",
         "strain_descriptor": "gpr89-",
         "associated_genes": [
@@ -33155,7 +33331,7 @@
             "grlE"
         ],
         "phenotypes": [
-            "decreased spore viability",
+            "decreased spore germination",
             "delayed aggregation"
         ],
         "mutant_types": {
@@ -33213,7 +33389,7 @@
         ],
         "phenotypes": [
             "aberrant spore morphology",
-            "decreased spore viability",
+            "decreased spore germination",
             "increased slug size",
             "precocious development",
             "decreased fruiting body size",
@@ -34164,8 +34340,8 @@
             "hipA"
         ],
         "phenotypes": [
+            "decreased spore germination",
             "aberrant spore morphology",
-            "decreased spore viability",
             "aberrant spore coat morphology",
             "aberrant protein localization"
         ],
@@ -34185,8 +34361,8 @@
             "hipA"
         ],
         "phenotypes": [
-            "aberrant spore morphology",
-            "decreased spore viability"
+            "decreased spore germination",
+            "aberrant spore morphology"
         ],
         "mutant_types": {
             "null": false,
@@ -34304,7 +34480,7 @@
             "aberrant cellular response to starvation",
             "abolished  potassium-dependent chemotaxis to cAMP",
             "aberrant spore morphology",
-            "decreased spore viability",
+            "decreased spore germination",
             "aberrant response to hypo-osmotic stress",
             "aberrant F-actin organization",
             "abolished chemotaxis to calcium",
@@ -34698,7 +34874,8 @@
             "iptA"
         ],
         "phenotypes": [
-            "decreased spore viability"
+            "decreased spore germination",
+            "aberrant sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -35136,8 +35313,8 @@
             "kil1"
         ],
         "phenotypes": [
-            "abolished resistance to a pathogenic bacterium",
-            "aberrant defense response to yeast"
+            "abolished defense response to Gram-negative  bacterium",
+            "increased defense response to fungus"
         ],
         "mutant_types": {
             "null": true,
@@ -35172,11 +35349,11 @@
             "kil2"
         ],
         "phenotypes": [
-            "abolished resistance to a pathogenic bacterium",
             "aberrant response to cation stress",
             "aberrant defense response to bacterium",
+            "abolished defense response to Gram-negative  bacterium",
             "decreased phagosomal proteolysis",
-            "aberrant defense response to yeast"
+            "increased defense response to fungus"
         ],
         "mutant_types": {
             "null": true,
@@ -35212,7 +35389,7 @@
             "kil2"
         ],
         "phenotypes": [
-            "abolished resistance to a pathogenic bacterium"
+            "abolished defense response to bacterium"
         ],
         "mutant_types": {
             "null": true,
@@ -35902,13 +36079,13 @@
         "phenotypes": [
             "decreased pinocytosis",
             "decreased protein level",
-            "increased infection rate by a gram-positive pathogenic bacterium",
             "decreased phagocytosis",
             "decreased growth rate",
             "decreased cell motility",
             "aberrant phagosome maturation",
             "decreased phagosomal proteolysis",
             "decreased fruiting body size",
+            "decreased defense response to Gram-positive bacterium",
             "decreased sporulation",
             "decreased lysosomal enzyme activity"
         ],
@@ -35997,16 +36174,15 @@
             "lrrA"
         ],
         "phenotypes": [
-            "decreased cell polarity",
+            "decreased spore germination",
             "increased aggregate size",
             "decreased cell-substrate adhesion",
             "increased basal F-actin level",
-            "decreased spore viability",
             "decreased gene expression",
             "development arrests at mound stage",
             "abolished positive chemotaxis",
             "abolished aggregation",
-            "aberrant cell morphology",
+            "abolished cell polarity",
             "delayed gene expression"
         ],
         "mutant_types": {
@@ -37868,6 +38044,7 @@
             "modA"
         ],
         "phenotypes": [
+            "decreased response to Gram-negative bacterium",
             "abolished catalytic activity",
             "aberrant fruiting body morphology"
         ],
@@ -38394,11 +38571,11 @@
             "aberrant aggregation",
             "aberrant cortical actin cytoskeleton stabilization",
             "aberrant endosomal transport",
+            "decreased defense response to Gram-negative bacterium",
             "decreased growth rate",
             "aberrant F-actin organization",
             "delayed aggregation",
             "decreased cell motility",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "decreased fruiting body size",
             "decreased chemotaxis to cAMP",
             "decreased lateral pseudopod suppression"
@@ -39182,9 +39359,9 @@
             "nad2"
         ],
         "phenotypes": [
+            "decreased defense response to Gram-negative bacterium",
             "decreased gene expression",
             "decreased growth rate",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "aberrant phototaxis",
             "aberrant fruiting body morphology"
         ],
@@ -39203,10 +39380,27 @@
             "nad5"
         ],
         "phenotypes": [
+            "decreased defense response to Gram-negative bacterium",
             "decreased gene expression",
             "decreased growth rate",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "aberrant phototaxis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "AK1372",
+        "strain_descriptor": "nagB1-",
+        "associated_genes": [
+            "nagB1"
+        ],
+        "phenotypes": [
+            "decreased response to Gram-positive bacterium"
         ],
         "mutant_types": {
             "null": true,
@@ -40077,8 +40271,8 @@
             "nramp1"
         ],
         "phenotypes": [
-            "increased infection rate by a gram-positive pathogenic bacterium",
-            "increased infection rate by a gram-negative pathogenic bacterium",
+            "decreased defense response to Gram-negative bacterium",
+            "decreased defense response to Gram-positive bacterium",
             "abolished iron ion transport"
         ],
         "mutant_types": {
@@ -40096,7 +40290,7 @@
             "nramp1"
         ],
         "phenotypes": [
-            "decreased infection rate by a gram-negative pathogenic bacterium"
+            "increased defense response to Gram-negative bacterium"
         ],
         "mutant_types": {
             "null": true,
@@ -40113,7 +40307,7 @@
             "nramp1"
         ],
         "phenotypes": [
-            "decreased infection rate by a gram-negative pathogenic bacterium"
+            "increased defense response to Gram-negative bacterium"
         ],
         "mutant_types": {
             "null": true,
@@ -40130,8 +40324,8 @@
             "nrampB"
         ],
         "phenotypes": [
-            "delayed aggregation",
-            "increased infection rate by a gram-negative pathogenic bacterium"
+            "decreased defense response to Gram-negative bacterium",
+            "delayed aggregation"
         ],
         "mutant_types": {
             "null": true,
@@ -40149,8 +40343,8 @@
             "nrampB"
         ],
         "phenotypes": [
+            "decreased defense response to Gram-negative bacterium",
             "delayed aggregation",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "multiple tips"
         ],
         "mutant_types": {
@@ -40779,6 +40973,24 @@
         }
     },
     {
+        "systematic_name": "DBS0236708",
+        "strain_descriptor": "pakB-",
+        "associated_genes": [
+            "pakB"
+        ],
+        "phenotypes": [
+            "abolished cell polarity",
+            "decreased lateral pseudopod suppression"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0236712",
         "strain_descriptor": "pakB-/[act15]:GFP-pak(1-600)",
         "associated_genes": [
@@ -40874,6 +41086,23 @@
         }
     },
     {
+        "systematic_name": "DBS0236717",
+        "strain_descriptor": "pakC(K121H/E124L)",
+        "associated_genes": [
+            "pakC"
+        ],
+        "phenotypes": [
+            "abolished protein binding"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0236719",
         "strain_descriptor": "pakC(R34C)",
         "associated_genes": [
@@ -40903,6 +41132,24 @@
         ],
         "mutant_types": {
             "null": false,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0236716",
+        "strain_descriptor": "pakC-",
+        "associated_genes": [
+            "pakC"
+        ],
+        "phenotypes": [
+            "decreased chemotaxis rate",
+            "decreased lateral pseudopod suppression"
+        ],
+        "mutant_types": {
+            "null": true,
             "overexpression": false,
             "multiple ": false,
             "other": false,
@@ -41912,7 +42159,6 @@
             "phg1A"
         ],
         "phenotypes": [
-            "abolished resistance to a pathogenic bacterium",
             "increased secretion of lysosomal enzyme",
             "decreased protein level",
             "decreased cell-substrate adhesion",
@@ -41920,6 +42166,7 @@
             "aberrant defense response to bacterium",
             "aberrant cytokinesis",
             "decreased phagocytosis",
+            "abolished defense response to bacterium",
             "decreased growth rate",
             "development arrests at slug stage",
             "decreased protein localization to cell surface",
@@ -42599,6 +42846,8 @@
         ],
         "phenotypes": [
             "aberrant negative chemotaxis",
+            "decreased response to bacterium",
+            "decreased activation of GTPase activity",
             "abolished protein localization to plasma membrane",
             "aberrant chemotaxis to cAMP",
             "decreased cell motility",
@@ -42756,8 +43005,8 @@
             "pikH"
         ],
         "phenotypes": [
-            "decreased cell motility",
-            "increased infection rate by a gram-negative pathogenic bacterium"
+            "decreased defense response to Gram-negative bacterium",
+            "decreased cell motility"
         ],
         "mutant_types": {
             "null": false,
@@ -42780,9 +43029,9 @@
         ],
         "phenotypes": [
             "aberrant aggregation",
+            "decreased defense response to Gram-negative bacterium",
             "decreased growth rate",
             "decreased cell motility",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "increased resistance to N-Phenylthiourea"
         ],
         "mutant_types": {
@@ -42989,9 +43238,9 @@
             "pip5k3"
         ],
         "phenotypes": [
+            "decreased defense response to Gram-negative bacterium",
             "aberrant defense response to bacterium",
             "aberrant phagosome maturation",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "decreased phagosomal proteolysis",
             "decreased protein localization"
         ],
@@ -44864,6 +45113,7 @@
             "pten"
         ],
         "phenotypes": [
+            "decreased response to Gram-negative bacterium",
             "abolished CRAC localization to the plasma membrane",
             "decreased F-actin polymerization",
             "increased pseudopod formation",
@@ -45433,8 +45683,10 @@
             "qdpr"
         ],
         "phenotypes": [
-            "decreased spore viability",
-            "abolished catalytic activity"
+            "decreased spore germination",
+            "decreased growth rate",
+            "abolished catalytic activity",
+            "aberrant response to oxidative stress"
         ],
         "mutant_types": {
             "null": true,
@@ -45552,6 +45804,8 @@
         "phenotypes": [
             "decreased protein localization to plasma membrane",
             "aberrant streaming",
+            "decreased F-actin polymerization",
+            "aberrant cytokinesis",
             "decreased chemotaxis rate",
             "aberrant cell morphology",
             "aberrant protein localization"
@@ -45608,7 +45862,8 @@
         ],
         "phenotypes": [
             "abolished cytokinesis",
-            "aberrant cortical actin cytoskeleton organization"
+            "aberrant cortical actin cytoskeleton organization",
+            "abolished protein localization to cell cortex"
         ],
         "mutant_types": {
             "null": true,
@@ -45822,6 +46077,58 @@
         }
     },
     {
+        "systematic_name": "DBS0351505",
+        "strain_descriptor": "racF1-",
+        "associated_genes": [
+            "racF1"
+        ],
+        "phenotypes": [
+            "wild type"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0236844",
+        "strain_descriptor": "racF2(G12V)",
+        "associated_genes": [
+            "racF2"
+        ],
+        "phenotypes": [
+            "decreased cell-cell adhesion"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0236845",
+        "strain_descriptor": "racF2(N17T)",
+        "associated_genes": [
+            "racF2"
+        ],
+        "phenotypes": [
+            "increased cell-cell adhesion",
+            "decreased sexual fusion"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
         "systematic_name": "DBS0236843",
         "strain_descriptor": "racF2-",
         "associated_genes": [
@@ -45865,7 +46172,10 @@
         ],
         "phenotypes": [
             "decreased exocytosis",
-            "increased infection rate by a gram-negative pathogenic bacterium",
+            "decreased pinocytosis",
+            "decreased defense response to Gram-negative bacterium",
+            "aberrant defense response to bacterium",
+            "decreased defense response to bacterium",
             "aberrant protein localization"
         ],
         "mutant_types": {
@@ -46895,9 +47205,9 @@
             "rblA"
         ],
         "phenotypes": [
+            "decreased spore germination",
             "decreased gene expression",
             "increased gene expression",
-            "decreased spore viability",
             "abolished negative regulation of vegetative growth",
             "decreased growth rate",
             "aberrant vegetative growth",
@@ -47334,7 +47644,7 @@
             "redA"
         ],
         "phenotypes": [
-            "increased infection rate by a gram-negative pathogenic bacterium"
+            "decreased defense response to Gram-negative bacterium"
         ],
         "mutant_types": {
             "null": true,
@@ -48227,8 +48537,8 @@
         ],
         "phenotypes": [
             "decreased thermotaxis",
-            "increased infection rate by a pathogenic bacterium",
             "decreased growth rate",
+            "decreased defense response to bacterium",
             "decreased phototaxis"
         ],
         "mutant_types": {
@@ -48353,10 +48663,10 @@
             "development arrests at loose mound stage",
             "aberrant response to conditioned medium factor",
             "decreased cell polarity",
+            "decreased defense response to Gram-negative bacterium",
             "aberrant cellular response to nitrogen starvation",
             "decreased phagocytosis",
             "decreased cell motility",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "abolished aggregation"
         ],
         "mutant_types": {
@@ -48610,7 +48920,7 @@
         ],
         "phenotypes": [
             "decreased rate of endocytosis",
-            "decreased infection rate by a gram-negative pathogenic bacterium",
+            "increased defense response to Gram-negative bacterium",
             "increased prestalk cell differentiation",
             "delayed culmination"
         ],
@@ -49716,6 +50026,7 @@
             "decreased secretion of lysosomal enzyme",
             "decreased cell-cell adhesion",
             "aberrant cellular metabolic process",
+            "decreased response to Gram-negative bacterium",
             "decreased cAMP-induced cGMP pulse",
             "decreased GTP-gamma-S-stimulated guanylyl cyclase activity",
             "increased cAMP-induced cAMP pulse",
@@ -49801,7 +50112,6 @@
         "phenotypes": [
             "decreased pinocytosis",
             "increased cell death",
-            "decreased spore viability",
             "decreased phagocytosis",
             "decreased number of autophagosomes",
             "decreased prespore cell differentiation",
@@ -49810,7 +50120,8 @@
             "decreased autophagy",
             "aberrant development",
             "increased growth rate",
-            "aberrant prestalk cell differentiation"
+            "aberrant prestalk cell differentiation",
+            "aberrant sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -49935,6 +50246,23 @@
         }
     },
     {
+        "systematic_name": "AK1346",
+        "strain_descriptor": "spc3-",
+        "associated_genes": [
+            "spc3"
+        ],
+        "phenotypes": [
+            "decreased response to Gram-negative bacterium"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350891",
         "strain_descriptor": "spdA-",
         "associated_genes": [
@@ -49978,7 +50306,7 @@
             "spiA"
         ],
         "phenotypes": [
-            "decreased spore viability"
+            "decreased spore germination"
         ],
         "mutant_types": {
             "null": true,
@@ -50042,8 +50370,8 @@
         "phenotypes": [
             "aberrant spore morphology",
             "increased sorus size",
-            "translucent sorus",
             "spores inviable",
+            "aberrant sorus color",
             "decreased stalk length"
         ],
         "mutant_types": {
@@ -50137,13 +50465,16 @@
         }
     },
     {
-        "systematic_name": "DBS0350914",
-        "strain_descriptor": "spsA-",
+        "systematic_name": "DBS0236949",
+        "strain_descriptor": "spr-",
         "associated_genes": [
-            "spsA"
+            "spr"
         ],
         "phenotypes": [
-            "decreased stalk length"
+            "decreased intracellular pteridine level",
+            "decreased spore germination",
+            "decreased cytochrome C oxidase activity",
+            "decreased growth rate"
         ],
         "mutant_types": {
             "null": true,
@@ -50154,16 +50485,13 @@
         }
     },
     {
-        "systematic_name": "DBS0236949",
-        "strain_descriptor": "sr-",
+        "systematic_name": "DBS0350914",
+        "strain_descriptor": "spsA-",
         "associated_genes": [
-            "sr"
+            "spsA"
         ],
         "phenotypes": [
-            "decreased intracellular pteridine level",
-            "decreased spore viability",
-            "decreased cytochrome C oxidase activity",
-            "decreased growth rate"
+            "decreased stalk length"
         ],
         "mutant_types": {
             "null": true,
@@ -50217,8 +50545,8 @@
         ],
         "phenotypes": [
             "aberrant spore morphology",
+            "decreased spore germination",
             "aberrant spore coat morphology",
-            "decreased spore viability",
             "decreased gene expression"
         ],
         "mutant_types": {
@@ -50327,10 +50655,10 @@
             "increased gene expression",
             "decreased gene expression",
             "abolished MPBD production",
-            "translucent sorus",
             "abolished SDF-1 production",
             "decreased intracellular cAMP level",
             "decreased chemotaxis to cAMP",
+            "aberrant sorus color",
             "aberrant sporulation"
         ],
         "mutant_types": {
@@ -50516,6 +50844,23 @@
         }
     },
     {
+        "systematic_name": "AK1321",
+        "strain_descriptor": "swp1-",
+        "associated_genes": [
+            "swp1"
+        ],
+        "phenotypes": [
+            "decreased response to Gram-positive bacterium"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "AK1200",
         "strain_descriptor": "tagA-",
         "associated_genes": [
@@ -50540,10 +50885,12 @@
             "tagA"
         ],
         "phenotypes": [
-            "decreased spore viability",
+            "decreased spore germination",
             "abolished SDF production",
             "multiple tips in mound",
-            "increased prestalk A cell differentiation"
+            "increased prestalk A cell differentiation",
+            "delayed culmination",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -51631,9 +51978,9 @@
         "phenotypes": [
             "decreased pinocytosis",
             "increased cell death",
+            "decreased spore germination",
             "decreased catalytic activity",
             "increased gene expression",
-            "decreased spore viability",
             "increased protein modification",
             "aberrant phagosome maturation",
             "abolished protein localization",
@@ -51659,8 +52006,8 @@
         "phenotypes": [
             "decreased pinocytosis",
             "increased cell death",
+            "decreased spore germination",
             "increased gene expression",
-            "decreased spore viability",
             "increased protein modification",
             "decreased phagocytosis",
             "aberrant phagosome maturation",
@@ -51682,10 +52029,11 @@
             "tirA"
         ],
         "phenotypes": [
+            "decreased response to Gram-negative bacterium",
+            "decreased defense response to Gram-negative bacterium",
             "aberrant defense response to bacterium",
             "decreased growth rate",
-            "aberrant phagocytosis",
-            "increased infection rate by a gram-negative pathogenic bacterium"
+            "aberrant phagocytosis"
         ],
         "mutant_types": {
             "null": true,
@@ -51932,9 +52280,9 @@
             "decreased cell-cell adhesion",
             "aberrant streaming",
             "increased stalk width",
+            "decreased spore germination",
             "aberrant upper cup formation",
             "aberrant cell motility",
-            "decreased spore viability",
             "aberrant culminant morphology",
             "decreased spore size",
             "decreased cell fate determination",
@@ -52973,6 +53321,59 @@
         }
     },
     {
+        "systematic_name": "DBS0351506",
+        "strain_descriptor": "wasA-",
+        "associated_genes": [
+            "wasA"
+        ],
+        "phenotypes": [
+            "aberrant protein localization"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351509",
+        "strain_descriptor": "wasA-/[tet]:scrA/[unk]:GFP:wasA(I173A/F179A)",
+        "associated_genes": [
+            "scrA",
+            "wasA"
+        ],
+        "phenotypes": [
+            "aberrant pseudopod formation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": true,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351508",
+        "strain_descriptor": "wasA-/[unk]:GFP:wasA(I173A/F179A)",
+        "associated_genes": [
+            "wasA"
+        ],
+        "phenotypes": [
+            "decreased cell polarity",
+            "aberrant protein localization"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0237051",
         "strain_descriptor": "wasA1-",
         "associated_genes": [
@@ -53190,14 +53591,14 @@
             "aberrant lysosome organization and biogenesis",
             "increased protein localization",
             "abolished exocytosis",
+            "decreased defense response to Gram-negative bacterium",
             "decreased macroautophagy",
             "abolished endocytic recycling",
             "aberrant vegetative growth",
             "decreased phagocytosis",
             "aberrant phagosome maturation",
-            "decreased infection rate by a gram-positive pathogenic bacterium",
-            "increased infection rate by a gram-negative pathogenic bacterium",
             "decreased phagosomal proteolysis",
+            "increased defense response to Gram-positive bacterium",
             "decreased protein localization",
             "abolished phagosome re-neutralization",
             "aberrant protein localization"
@@ -53556,10 +53957,11 @@
             "yelA"
         ],
         "phenotypes": [
-            "decreased spore viability",
+            "aberrant spore morphology",
             "precocious sporulation",
             "development arrests at mound stage",
-            "aberrant mound color"
+            "aberrant mound color",
+            "aberrant sporulation"
         ],
         "mutant_types": {
             "null": true,
