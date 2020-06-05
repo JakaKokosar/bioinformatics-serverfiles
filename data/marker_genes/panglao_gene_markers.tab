@@ -489,7 +489,7 @@ Mouse	VPREB2	B cells	PanglaoDB	https://panglaodb.se/	22363	pre-B lymphocyte gene
 Mouse	LRMP	B cells	PanglaoDB	https://panglaodb.se/	16970	lymphoid-restricted membrane protein
 Mouse	KLHL6	B cells	PanglaoDB	https://panglaodb.se/	239743	kelch-like 6
 Mouse	SLAMF6	B cells	PanglaoDB	https://panglaodb.se/	30925	SLAM family member 6
-Mouse	FAM129C	B cells	PanglaoDB	https://panglaodb.se/	100037278	family with sequence similarity 129, member C
+Mouse	FAM129C	B cells	PanglaoDB	https://panglaodb.se/	100037278	niban apoptosis regulator 3
 Mouse	BST1	B cells	PanglaoDB	https://panglaodb.se/	12182	bone marrow stromal cell antigen 1
 Mouse	MSH5	B cells	PanglaoDB	https://panglaodb.se/	17687	mutS homolog 5
 Mouse	DOK3	B cells	PanglaoDB	https://panglaodb.se/	27261	docking protein 3
@@ -643,7 +643,7 @@ Mouse	CTNNB1	Basal cells	PanglaoDB	https://panglaodb.se/	12387	catenin (cadherin
 Mouse	ILK	Basal cells	PanglaoDB	https://panglaodb.se/	16202	integrin linked kinase
 Mouse	PKP3	Basal cells	PanglaoDB	https://panglaodb.se/	56460	plakophilin 3
 Mouse	ITGA3	Basal cells	PanglaoDB	https://panglaodb.se/	16400	integrin alpha 3
-Mouse	SRSF4	Basal cells	PanglaoDB	https://panglaodb.se/	57317	serine/arginine-rich splicing factor 4
+Mouse	SRSF4	Basal cells	PanglaoDB	https://panglaodb.se/	57317	serine and arginine-rich splicing factor 4
 Mouse	RAB38	Basal cells	PanglaoDB	https://panglaodb.se/	72433	RAB38, member RAS oncogene family
 Mouse	ALKBH7	Basal cells	PanglaoDB	https://panglaodb.se/	66400	alkB homolog 7
 Mouse	DNPH1	Basal cells	PanglaoDB	https://panglaodb.se/	381101	2'-deoxynucleoside 5'-phosphate N-hydrolase 1
@@ -790,7 +790,7 @@ Mouse	GRIN3A	Bergmann glia	PanglaoDB	https://panglaodb.se/	242443	glutamate rece
 Mouse	SEPT4	Bergmann glia	PanglaoDB	https://panglaodb.se/	18952	septin 4
 Mouse	DAO	Bergmann glia	PanglaoDB	https://panglaodb.se/	13142	D-amino acid oxidase
 Mouse	ITGB1	Bergmann glia	PanglaoDB	https://panglaodb.se/	16412	integrin beta 1 (fibronectin receptor beta)
-Mouse	KIF1BP	Bergmann glia	PanglaoDB	https://panglaodb.se/	72320	KIF1 binding protein
+Mouse	KIF1BP	Bergmann glia	PanglaoDB	https://panglaodb.se/	72320	kinesin family binding protein
 Mouse	GCGR	Beta cells	PanglaoDB	https://panglaodb.se/	14527	glucagon receptor
 Mouse	JPH3	Beta cells	PanglaoDB	https://panglaodb.se/	57340	junctophilin 3
 Mouse	CD40	Beta cells	PanglaoDB	https://panglaodb.se/	21939	CD40 antigen
@@ -815,7 +815,7 @@ Mouse	IAPP	Beta cells	PanglaoDB	https://panglaodb.se/	15874	islet amyloid polype
 Mouse	PCSK2	Beta cells	PanglaoDB	https://panglaodb.se/	18549	proprotein convertase subtilisin/kexin type 2
 Mouse	G6PC2	Beta cells	PanglaoDB	https://panglaodb.se/	14378	glucose-6-phosphatase, catalytic, 2
 Mouse	SLC30A8	Beta cells	PanglaoDB	https://panglaodb.se/	239436	solute carrier family 30 (zinc transporter), member 8
-Mouse	ERO1LB	Beta cells	PanglaoDB	https://panglaodb.se/	67475	ERO1-like beta (S. cerevisiae)
+Mouse	ERO1LB	Beta cells	PanglaoDB	https://panglaodb.se/	67475	endoplasmic reticulum oxidoreductase 1 beta
 Mouse	PCSK1	Beta cells	PanglaoDB	https://panglaodb.se/	18548	proprotein convertase subtilisin/kexin type 1
 Mouse	GJD2	Beta cells	PanglaoDB	https://panglaodb.se/	14617	gap junction protein, delta 2
 Mouse	SCGN	Beta cells	PanglaoDB	https://panglaodb.se/	214189	secretagogin, EF-hand calcium binding protein
@@ -908,7 +908,7 @@ Mouse	ZCCHC12	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	72693	zinc fin
 Mouse	RALGPS2	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	78255	Ral GEF with PH domain and SH3 binding motif 2
 Mouse	FAM196A	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	627214	inhibitory synaptic factor 2A
 Mouse	SMAD1	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	17125	SMAD family member 1
-Mouse	TBR1	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	21375	T-box brain gene 1
+Mouse	TBR1	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	21375	T-box brain transcription factor 1
 Mouse	KCNH7	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	170738	potassium voltage-gated channel, subfamily H (eag-related), member 7
 Mouse	LHX5	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	16873	LIM homeobox protein 5
 Mouse	CALB2	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	12308	calbindin 2
@@ -2506,7 +2506,7 @@ Mouse	CAR1	Erythroid-like and erythroid precursor cells	PanglaoDB	https://pangla
 Mouse	COX6B2	Erythroid-like and erythroid precursor cells	PanglaoDB	https://panglaodb.se/	333182	cytochrome c oxidase subunit 6B2
 Mouse	APOA1	Erythroid-like and erythroid precursor cells	PanglaoDB	https://panglaodb.se/	11806	apolipoprotein A-I
 Mouse	ASNS	Erythroid-like and erythroid precursor cells	PanglaoDB	https://panglaodb.se/	27053	asparagine synthetase
-Mouse	HIST1H2AO	Erythroid-like and erythroid precursor cells	PanglaoDB	https://panglaodb.se/	665433	histone cluster 1, H2ao
+Mouse	HIST1H2AO	Erythroid-like and erythroid precursor cells	PanglaoDB	https://panglaodb.se/	665433	H2A clustered histone 23
 Mouse	STFA1	Erythroid-like and erythroid precursor cells	PanglaoDB	https://panglaodb.se/	20861	stefin A1
 Mouse	ALAD	Erythroid-like and erythroid precursor cells	PanglaoDB	https://panglaodb.se/	17025	aminolevulinate, delta-, dehydratase
 Mouse	S100A9	Erythroid-like and erythroid precursor cells	PanglaoDB	https://panglaodb.se/	20202	S100 calcium binding protein A9 (calgranulin B)
@@ -2829,10 +2829,10 @@ Mouse	AURKB	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	20877	aurora kin
 Mouse	BIRC5	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	11799	baculoviral IAP repeat-containing 5
 Mouse	NUSAP1	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	108907	nucleolar and spindle associated protein 1
 Mouse	TROAP	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	78733	trophinin associated protein
-Mouse	H2AFX	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	15270	H2A histone family, member X
+Mouse	H2AFX	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	15270	H2A.X variant histone
 Mouse	CENPF	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	108000	centromere protein F
 Mouse	CCNB1	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	268697	cyclin B1
-Mouse	H2AFZ	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	51788	H2A histone family, member Z
+Mouse	H2AFZ	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	51788	H2A.Z variant histone 1
 Mouse	TRGV2	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	21636	T cell receptor gamma variable 2
 Mouse	TRGJ1	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	100126431	T cell receptor gamma joining 1
 Mouse	TRGJ2	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	100126433	T cell receptor gamma joining 2
@@ -2856,7 +2856,7 @@ Mouse	POU5F1	Germ cells	PanglaoDB	https://panglaodb.se/	18999	POU domain, class 
 Mouse	TFAP2C	Germ cells	PanglaoDB	https://panglaodb.se/	21420	transcription factor AP-2, gamma
 Mouse	DAZL	Germ cells	PanglaoDB	https://panglaodb.se/	13164	deleted in azoospermia-like
 Mouse	MAGEA4	Germ cells	PanglaoDB	https://panglaodb.se/	17140	melanoma antigen, family A, 4
-Mouse	DDX4	Germ cells	PanglaoDB	https://panglaodb.se/	13206	DEAD (Asp-Glu-Ala-Asp) box polypeptide 4
+Mouse	DDX4	Germ cells	PanglaoDB	https://panglaodb.se/	13206	DEAD box helicase 4
 Mouse	ZAR1	Germ cells	PanglaoDB	https://panglaodb.se/	317755	zygote arrest 1
 Mouse	TEX101	Germ cells	PanglaoDB	https://panglaodb.se/	56746	testis expressed gene 101
 Mouse	PRM1	Germ cells	PanglaoDB	https://panglaodb.se/	19118	protamine 1
@@ -2892,7 +2892,7 @@ Mouse	OTUB2	Germ cells	PanglaoDB	https://panglaodb.se/	68149	OTU domain, ubiquit
 Mouse	TSSK1	Germ cells	PanglaoDB	https://panglaodb.se/	22114	testis-specific serine kinase 1
 Mouse	TSKS	Germ cells	PanglaoDB	https://panglaodb.se/	22116	testis-specific serine kinase substrate
 Mouse	PRDX6B	Germ cells	PanglaoDB	https://panglaodb.se/	320769	peroxiredoxin 6B
-Mouse	H2AFB1	Germ cells	PanglaoDB	https://panglaodb.se/	100039319	H2A.B variant histone 1
+Mouse	H2AFB1	Germ cells	PanglaoDB	https://panglaodb.se/	?	
 Mouse	ATL3	Germ cells	PanglaoDB	https://panglaodb.se/	109168	atlastin GTPase 3
 Mouse	DMRTB1	Germ cells	PanglaoDB	https://panglaodb.se/	56296	DMRT-like family B with proline-rich C-terminal, 1
 Mouse	WBSCR25	Germ cells	PanglaoDB	https://panglaodb.se/	71304	Williams Beuren syndrome chromosome region 25 (human)
@@ -2904,7 +2904,7 @@ Mouse	CST8	Germ cells	PanglaoDB	https://panglaodb.se/	13012	cystatin 8 (cystatin
 Mouse	TMEM247	Germ cells	PanglaoDB	https://panglaodb.se/	78469	transmembrane protein 247
 Mouse	GALNTL5	Germ cells	PanglaoDB	https://panglaodb.se/	67909	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase-like 5
 Mouse	OSBP2	Germ cells	PanglaoDB	https://panglaodb.se/	74309	oxysterol binding protein 2
-Mouse	MARCH11	Germ cells	PanglaoDB	https://panglaodb.se/	211147	membrane-associated ring finger (C3HC4) 11
+Mouse	MARCH11	Germ cells	PanglaoDB	https://panglaodb.se/	211147	membrane associated ring-CH-type finger 11
 Mouse	TEX33	Germ cells	PanglaoDB	https://panglaodb.se/	73376	testis expressed 33
 Mouse	SPATA20	Germ cells	PanglaoDB	https://panglaodb.se/	217116	spermatogenesis associated 20
 Mouse	TUBA3B	Germ cells	PanglaoDB	https://panglaodb.se/	22147	tubulin, alpha 3B
@@ -2924,7 +2924,7 @@ Mouse	TPPP2	Germ cells	PanglaoDB	https://panglaodb.se/	219038	tubulin polymeriza
 Mouse	GSTT4	Germ cells	PanglaoDB	https://panglaodb.se/	75886	glutathione S-transferase, theta 4
 Mouse	LELP1	Germ cells	PanglaoDB	https://panglaodb.se/	69332	late cornified envelope-like proline-rich 1
 Mouse	NUPR1L	Germ cells	PanglaoDB	https://panglaodb.se/	69034	nuclear protein transcriptional regulator 1 like
-Mouse	SPERT	Germ cells	PanglaoDB	https://panglaodb.se/	67926	spermatid associated
+Mouse	SPERT	Germ cells	PanglaoDB	https://panglaodb.se/	67926	chibby family member 2
 Mouse	CMTM2B	Germ cells	PanglaoDB	https://panglaodb.se/	75502	CKLF-like MARVEL transmembrane domain containing 2B
 Mouse	CATSPERZ	Germ cells	PanglaoDB	https://panglaodb.se/	67077	cation channel sperm associated auxiliary subunit zeta
 Mouse	MAEL	Germ cells	PanglaoDB	https://panglaodb.se/	98558	maelstrom spermatogenic transposon silencer
@@ -3413,7 +3413,7 @@ Mouse	RAX	Immature neurons	PanglaoDB	https://panglaodb.se/	19434	retina and ante
 Mouse	CUL5	Immature neurons	PanglaoDB	https://panglaodb.se/	75717	cullin 5
 Mouse	HIVEP2	Immature neurons	PanglaoDB	https://panglaodb.se/	15273	human immunodeficiency virus type I enhancer binding protein 2
 Mouse	FUT9	Immature neurons	PanglaoDB	https://panglaodb.se/	14348	fucosyltransferase 9
-Mouse	TBR1	Immature neurons	PanglaoDB	https://panglaodb.se/	21375	T-box brain gene 1
+Mouse	TBR1	Immature neurons	PanglaoDB	https://panglaodb.se/	21375	T-box brain transcription factor 1
 Mouse	PROX1	Immature neurons	PanglaoDB	https://panglaodb.se/	19130	prospero homeobox 1
 Mouse	NTRK3	Immature neurons	PanglaoDB	https://panglaodb.se/	18213	neurotrophic tyrosine kinase, receptor, type 3
 Mouse	RND2	Immature neurons	PanglaoDB	https://panglaodb.se/	11858	Rho family GTPase 2
@@ -4039,7 +4039,7 @@ Mouse	RAB7B	Macrophages	PanglaoDB	https://panglaodb.se/	226421	RAB7B, member RAS
 Mouse	RBPJ	Macrophages	PanglaoDB	https://panglaodb.se/	19664	recombination signal binding protein for immunoglobulin kappa J region
 Mouse	SLCO2B1	Macrophages	PanglaoDB	https://panglaodb.se/	101488	solute carrier organic anion transporter family, member 2b1
 Mouse	NAAA	Macrophages	PanglaoDB	https://panglaodb.se/	67111	N-acylethanolamine acid amidase
-Mouse	MARCH1	Macrophages	PanglaoDB	https://panglaodb.se/	72925	membrane-associated ring finger (C3HC4) 1
+Mouse	MARCH1	Macrophages	PanglaoDB	https://panglaodb.se/	72925	membrane associated ring-CH-type finger 1
 Mouse	EGLN3	Macrophages	PanglaoDB	https://panglaodb.se/	112407	egl-9 family hypoxia-inducible factor 3
 Mouse	FGL2	Macrophages	PanglaoDB	https://panglaodb.se/	14190	fibrinogen-like protein 2
 Mouse	CCL6	Macrophages	PanglaoDB	https://panglaodb.se/	20305	chemokine (C-C motif) ligand 6
@@ -4340,8 +4340,8 @@ Mouse	GPM6A	Mast cells	PanglaoDB	https://panglaodb.se/	234267	glycoprotein m6a
 Mouse	GP1BA	Mast cells	PanglaoDB	https://panglaodb.se/	14723	glycoprotein 1b, alpha polypeptide
 Mouse	GNAZ	Mast cells	PanglaoDB	https://panglaodb.se/	14687	guanine nucleotide binding protein, alpha z subunit
 Mouse	FAM84A	Mast cells	PanglaoDB	https://panglaodb.se/	105005	LRAT domain containing 1
-Mouse	FAM129B	Mast cells	PanglaoDB	https://panglaodb.se/	227737	family with sequence similarity 129, member B
-Mouse	EXT1	Mast cells	PanglaoDB	https://panglaodb.se/	14042	exostoses (multiple) 1
+Mouse	FAM129B	Mast cells	PanglaoDB	https://panglaodb.se/	227737	niban apoptosis regulator 2
+Mouse	EXT1	Mast cells	PanglaoDB	https://panglaodb.se/	14042	exostosin glycosyltransferase 1
 Mouse	ESYT3	Mast cells	PanglaoDB	https://panglaodb.se/	272636	extended synaptotagmin-like protein 3
 Mouse	ENO2	Mast cells	PanglaoDB	https://panglaodb.se/	13807	enolase 2, gamma neuronal
 Mouse	ENAH	Mast cells	PanglaoDB	https://panglaodb.se/	13800	ENAH actin regulator
@@ -4645,7 +4645,7 @@ Mouse	LAG3	Microglia	PanglaoDB	https://panglaodb.se/	16768	lymphocyte-activation
 Mouse	IL6RA	Microglia	PanglaoDB	https://panglaodb.se/	16194	interleukin 6 receptor, alpha
 Mouse	ENTPD1	Microglia	PanglaoDB	https://panglaodb.se/	12495	ectonucleoside triphosphate diphosphohydrolase 1
 Mouse	ADRB2	Microglia	PanglaoDB	https://panglaodb.se/	11555	adrenergic receptor, beta 2
-Mouse	TMEM173	Microglia	PanglaoDB	https://panglaodb.se/	72512	transmembrane protein 173
+Mouse	TMEM173	Microglia	PanglaoDB	https://panglaodb.se/	72512	stimulator of interferon response cGAMP interactor 1
 Mouse	TBXAS1	Microglia	PanglaoDB	https://panglaodb.se/	21391	thromboxane A synthase 1, platelet
 Mouse	P2RY6	Microglia	PanglaoDB	https://panglaodb.se/	233571	pyrimidinergic receptor P2Y, G-protein coupled, 6
 Mouse	P2RY13	Microglia	PanglaoDB	https://panglaodb.se/	74191	purinergic receptor P2Y, G-protein coupled 13
@@ -5609,11 +5609,11 @@ Mouse	MAPK8IP2	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	60597	
 Mouse	EBF3	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	13593	early B cell factor 3
 Mouse	MAPK15	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	332110	mitogen-activated protein kinase 15
 Mouse	CNGA4	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	233649	cyclic nucleotide gated channel alpha 4
-Mouse	KIF1BP	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	72320	KIF1 binding protein
+Mouse	KIF1BP	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	72320	kinesin family binding protein
 Mouse	EML2	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	72205	echinoderm microtubule associated protein like 2
 Mouse	RIIAD1	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	66353	regulatory subunit of type II PKA R-subunit (RIIa) domain containing 1
 Mouse	CCDC184	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	239650	coiled-coil domain containing 184
-Mouse	MACROD1	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	107227	MACRO domain containing 1
+Mouse	MACROD1	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	107227	mono-ADP ribosylhydrolase 1
 Mouse	RNF220	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	66743	ring finger protein 220
 Mouse	CERS5	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	71949	ceramide synthase 5
 Mouse	RNF121	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	75212	ring finger protein 121
@@ -5647,7 +5647,7 @@ Mouse	FAM131C	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	277743	
 Mouse	FAM81A	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	76886	family with sequence similarity 81, member A
 Mouse	SH3GLB2	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	227700	SH3-domain GRB2-like endophilin B2
 Mouse	MLF1	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	17349	myeloid leukemia factor 1
-Mouse	FAM92B	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	436062	family with sequence similarity 92, member B
+Mouse	FAM92B	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	436062	CBY1 interacting BAR domain containing 2
 Mouse	PKIB	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	18768	protein kinase inhibitor beta, cAMP dependent, testis specific
 Mouse	PDE4A	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	18577	phosphodiesterase 4A, cAMP specific
 Mouse	FETUB	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	59083	fetuin beta
@@ -6327,7 +6327,7 @@ Mouse	PTCRA	Plasmacytoid dendritic cells	PanglaoDB	https://panglaodb.se/	19208	p
 Mouse	ERN1	Plasmacytoid dendritic cells	PanglaoDB	https://panglaodb.se/	78943	endoplasmic reticulum (ER) to nucleus signalling 1
 Mouse	ETV6	Plasmacytoid dendritic cells	PanglaoDB	https://panglaodb.se/	14011	ets variant 6
 Mouse	MAP3K8	Plasmacytoid dendritic cells	PanglaoDB	https://panglaodb.se/	26410	mitogen-activated protein kinase kinase kinase 8
-Mouse	FAM129C	Plasmacytoid dendritic cells	PanglaoDB	https://panglaodb.se/	100037278	family with sequence similarity 129, member C
+Mouse	FAM129C	Plasmacytoid dendritic cells	PanglaoDB	https://panglaodb.se/	100037278	niban apoptosis regulator 3
 Mouse	SPIB	Plasmacytoid dendritic cells	PanglaoDB	https://panglaodb.se/	272382	Spi-B transcription factor (Spi-1/PU.1 related)
 Mouse	GZMB	Plasmacytoid dendritic cells	PanglaoDB	https://panglaodb.se/	14939	granzyme B
 Mouse	CXCR4	Plasmacytoid dendritic cells	PanglaoDB	https://panglaodb.se/	12767	chemokine (C-X-C motif) receptor 4
@@ -6797,7 +6797,7 @@ Mouse	RUNX3	Pulmonary alveolar type II cells	PanglaoDB	https://panglaodb.se/	123
 Mouse	CTNND1	Pulmonary alveolar type II cells	PanglaoDB	https://panglaodb.se/	12388	catenin (cadherin associated protein), delta 1
 Mouse	CD59A	Pulmonary alveolar type II cells	PanglaoDB	https://panglaodb.se/	12509	CD59a antigen
 Mouse	PPP1R14C	Pulmonary alveolar type II cells	PanglaoDB	https://panglaodb.se/	76142	protein phosphatase 1, regulatory inhibitor subunit 14C
-Mouse	DDX3Y	Pulmonary alveolar type II cells	PanglaoDB	https://panglaodb.se/	26900	DEAD (Asp-Glu-Ala-Asp) box polypeptide 3, Y-linked
+Mouse	DDX3Y	Pulmonary alveolar type II cells	PanglaoDB	https://panglaodb.se/	26900	DEAD box helicase 3, Y-linked
 Mouse	PIGR	Pulmonary alveolar type II cells	PanglaoDB	https://panglaodb.se/	18703	polymeric immunoglobulin receptor
 Mouse	H2-Q6	Pulmonary alveolar type II cells	PanglaoDB	https://panglaodb.se/	110557	histocompatibility 2, Q region locus 6
 Mouse	LY6I	Pulmonary alveolar type II cells	PanglaoDB	https://panglaodb.se/	57248	lymphocyte antigen 6 complex, locus I
@@ -6880,7 +6880,7 @@ Mouse	DLG4	Pyramidal cells	PanglaoDB	https://panglaodb.se/	13385	discs large MAG
 Mouse	CAMK2A	Pyramidal cells	PanglaoDB	https://panglaodb.se/	12322	calcium/calmodulin-dependent protein kinase II alpha
 Mouse	GRM1	Pyramidal cells	PanglaoDB	https://panglaodb.se/	14816	glutamate receptor, metabotropic 1
 Mouse	GRM5	Pyramidal cells	PanglaoDB	https://panglaodb.se/	108071	glutamate receptor, metabotropic 5
-Mouse	TBR1	Pyramidal cells	PanglaoDB	https://panglaodb.se/	21375	T-box brain gene 1
+Mouse	TBR1	Pyramidal cells	PanglaoDB	https://panglaodb.se/	21375	T-box brain transcription factor 1
 Mouse	POU3F1	Pyramidal cells	PanglaoDB	https://panglaodb.se/	18991	POU domain, class 3, transcription factor 1
 Mouse	EMX1	Pyramidal cells	PanglaoDB	https://panglaodb.se/	13796	empty spiracles homeobox 1
 Mouse	FEZF2	Pyramidal cells	PanglaoDB	https://panglaodb.se/	54713	Fez family zinc finger 2
@@ -7916,7 +7916,7 @@ Human	RBPJL	Acinar cells	PanglaoDB	https://panglaodb.se/	11317	recombination sig
 Human	PTF1A	Acinar cells	PanglaoDB	https://panglaodb.se/	256297	pancreas associated transcription factor 1a
 Human	CELA3A	Acinar cells	PanglaoDB	https://panglaodb.se/	10136	chymotrypsin like elastase 3A
 Human	PRSS1	Acinar cells	PanglaoDB	https://panglaodb.se/	5644	serine protease 1
-Human	SPINK1	Acinar cells	PanglaoDB	https://panglaodb.se/	6690	serine peptidase inhibitor, Kazal type 1
+Human	SPINK1	Acinar cells	PanglaoDB	https://panglaodb.se/	6690	serine peptidase inhibitor Kazal type 1
 Human	ZG16	Acinar cells	PanglaoDB	https://panglaodb.se/	653808	zymogen granule protein 16
 Human	CEL	Acinar cells	PanglaoDB	https://panglaodb.se/	1056	carboxyl ester lipase
 Human	CELA2A	Acinar cells	PanglaoDB	https://panglaodb.se/	63036	chymotrypsin like elastase 2A
@@ -8124,7 +8124,7 @@ Human	TFF2	Airway goblet cells	PanglaoDB	https://panglaodb.se/	7032	trefoil fact
 Human	AQP5	Airway goblet cells	PanglaoDB	https://panglaodb.se/	362	aquaporin 5
 Human	QSOX1	Airway goblet cells	PanglaoDB	https://panglaodb.se/	5768	quiescin sulfhydryl oxidase 1
 Human	FXYD3	Airway goblet cells	PanglaoDB	https://panglaodb.se/	5349	FXYD domain containing ion transport regulator 3
-Human	SEC23B	Airway goblet cells	PanglaoDB	https://panglaodb.se/	10483	SEC23 homolog B, coat complex II component
+Human	SEC23B	Airway goblet cells	PanglaoDB	https://panglaodb.se/	10483	SEC23 homolog B, COPII coat complex component
 Human	CEACAM1	Airway goblet cells	PanglaoDB	https://panglaodb.se/	634	CEA cell adhesion molecule 1
 Human	GOLPH3	Airway goblet cells	PanglaoDB	https://panglaodb.se/	64083	golgi phosphoprotein 3
 Human	GGH	Airway goblet cells	PanglaoDB	https://panglaodb.se/	8836	gamma-glutamyl hydrolase
@@ -8203,7 +8203,7 @@ Human	TLR2	Alveolar macrophages	PanglaoDB	https://panglaodb.se/	7097	toll like r
 Human	GPNMB	Alveolar macrophages	PanglaoDB	https://panglaodb.se/	10457	glycoprotein nmb
 Human	MRC1	Alveolar macrophages	PanglaoDB	https://panglaodb.se/	4360	mannose receptor C-type 1
 Human	MARCO	Alveolar macrophages	PanglaoDB	https://panglaodb.se/	8685	macrophage receptor with collagenous structure
-Human	CSF2RB	Alveolar macrophages	PanglaoDB	https://panglaodb.se/	1439	colony stimulating factor 2 receptor beta common subunit
+Human	CSF2RB	Alveolar macrophages	PanglaoDB	https://panglaodb.se/	1439	colony stimulating factor 2 receptor subunit beta
 Human	MPP1	Alveolar macrophages	PanglaoDB	https://panglaodb.se/	4354	membrane palmitoylated protein 1
 Human	TRIM25	Alveolar macrophages	PanglaoDB	https://panglaodb.se/	7706	tripartite motif containing 25
 Human	OLR1	Alveolar macrophages	PanglaoDB	https://panglaodb.se/	4973	oxidized low density lipoprotein receptor 1
@@ -8368,7 +8368,7 @@ Human	TXNDC11	B cells	PanglaoDB	https://panglaodb.se/	51061	thioredoxin domain c
 Human	BTLA	B cells	PanglaoDB	https://panglaodb.se/	151888	B and T lymphocyte associated
 Human	SMAP2	B cells	PanglaoDB	https://panglaodb.se/	64744	small ArfGAP2
 Human	FKBP11	B cells	PanglaoDB	https://panglaodb.se/	51303	FKBP prolyl isomerase 11
-Human	SEC61A1	B cells	PanglaoDB	https://panglaodb.se/	29927	SEC61 translocon alpha 1 subunit
+Human	SEC61A1	B cells	PanglaoDB	https://panglaodb.se/	29927	SEC61 translocon subunit alpha 1
 Human	SPCS3	B cells	PanglaoDB	https://panglaodb.se/	60559	signal peptidase complex subunit 3
 Human	SPIB	B cells	PanglaoDB	https://panglaodb.se/	6689	Spi-B transcription factor
 Human	EAF2	B cells	PanglaoDB	https://panglaodb.se/	55840	ELL associated factor 2
@@ -8380,7 +8380,7 @@ Human	IGLC1	B cells	PanglaoDB	https://panglaodb.se/	3537	immunoglobulin lambda c
 Human	IL21R	B cells	PanglaoDB	https://panglaodb.se/	50615	interleukin 21 receptor
 Human	IGKC	B cells	PanglaoDB	https://panglaodb.se/	3514	immunoglobulin kappa constant
 Human	VPREB1	B cells	PanglaoDB	https://panglaodb.se/	7441	V-set pre-B cell surrogate light chain 1
-Human	LRMP	B cells	PanglaoDB	https://panglaodb.se/	4033	lymphoid restricted membrane protein
+Human	LRMP	B cells	PanglaoDB	https://panglaodb.se/	4033	inositol 1,4,5-triphosphate receptor associated 2
 Human	KLHL6	B cells	PanglaoDB	https://panglaodb.se/	89857	kelch like family member 6
 Human	SLAMF6	B cells	PanglaoDB	https://panglaodb.se/	114836	SLAM family member 6
 Human	FAM129C	B cells	PanglaoDB	https://panglaodb.se/	199786	niban apoptosis regulator 3
@@ -8640,7 +8640,7 @@ Human	HGF	Basophils	PanglaoDB	https://panglaodb.se/	3082	hepatocyte growth facto
 Human	HIST1H1D	Basophils	PanglaoDB	https://panglaodb.se/	3007	H1.3 linker histone, cluster member
 Human	HIST1H2AC	Basophils	PanglaoDB	https://panglaodb.se/	8334	H2A clustered histone 6
 Human	IFITM1	Basophils	PanglaoDB	https://panglaodb.se/	8519	interferon induced transmembrane protein 1
-Human	INF2	Basophils	PanglaoDB	https://panglaodb.se/	64423	inverted formin, FH2 and WH2 domain containing
+Human	INF2	Basophils	PanglaoDB	https://panglaodb.se/	64423	inverted formin 2
 Human	JAZF1	Basophils	PanglaoDB	https://panglaodb.se/	221895	JAZF zinc finger 1
 Human	L1CAM	Basophils	PanglaoDB	https://panglaodb.se/	3897	L1 cell adhesion molecule
 Human	LAMA5	Basophils	PanglaoDB	https://panglaodb.se/	3911	laminin subunit alpha 5
@@ -8809,7 +8809,7 @@ Human	CCM2	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	83605	CCM2 scaffo
 Human	WRAP73	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	49856	WD repeat containing, antisense to TP73
 Human	NRG1	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	3084	neuregulin 1
 Human	ATP13A2	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	23400	ATPase cation transporting 13A2
-Human	CNTNAP2	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	26047	contactin associated protein like 2
+Human	CNTNAP2	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	26047	contactin associated protein 2
 Human	PNOC	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	5368	prepronociceptin
 Human	LHX1	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	3975	LIM homeobox 1
 Human	LINGO2	Cajal-Retzius cells	PanglaoDB	https://panglaodb.se/	158038	leucine rich repeat and Ig domain containing 2
@@ -8898,7 +8898,7 @@ Human	CORO6	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	84940	coronin 6
 Human	PDE4D	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	5144	phosphodiesterase 4D
 Human	NEXN	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	91624	nexilin F-actin binding protein
 Human	FHL2	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	2274	four and a half LIM domains 2
-Human	MYBPC3	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	4607	myosin binding protein C, cardiac
+Human	MYBPC3	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	4607	myosin binding protein C3
 Human	MYH6	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	4624	myosin heavy chain 6
 Human	TTN	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	7273	titin
 Human	GPIHBP1	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	338328	glycosylphosphatidylinositol anchored high density lipoprotein binding protein 1
@@ -9189,14 +9189,14 @@ Human	BAIAP3	Delta cells	PanglaoDB	https://panglaodb.se/	8938	BAI1 associated pr
 Human	MS4A8	Delta cells	PanglaoDB	https://panglaodb.se/	83661	membrane spanning 4-domains A8
 Human	CASR	Delta cells	PanglaoDB	https://panglaodb.se/	846	calcium sensing receptor
 Human	BCHE	Delta cells	PanglaoDB	https://panglaodb.se/	590	butyrylcholinesterase
-Human	GABRB3	Delta cells	PanglaoDB	https://panglaodb.se/	2562	gamma-aminobutyric acid type A receptor beta3 subunit
+Human	GABRB3	Delta cells	PanglaoDB	https://panglaodb.se/	2562	gamma-aminobutyric acid type A receptor subunit beta3
 Human	UNC5B	Delta cells	PanglaoDB	https://panglaodb.se/	219699	unc-5 netrin receptor B
 Human	EDN3	Delta cells	PanglaoDB	https://panglaodb.se/	1908	endothelin 3
 Human	PRG4	Delta cells	PanglaoDB	https://panglaodb.se/	10216	proteoglycan 4
 Human	GHSR	Delta cells	PanglaoDB	https://panglaodb.se/	2693	growth hormone secretagogue receptor
 Human	FRZB	Delta cells	PanglaoDB	https://panglaodb.se/	2487	frizzled related protein
 Human	PCSK1	Delta cells	PanglaoDB	https://panglaodb.se/	5122	proprotein convertase subtilisin/kexin type 1
-Human	GABRG2	Delta cells	PanglaoDB	https://panglaodb.se/	2566	gamma-aminobutyric acid type A receptor gamma2 subunit
+Human	GABRG2	Delta cells	PanglaoDB	https://panglaodb.se/	2566	gamma-aminobutyric acid type A receptor subunit gamma2
 Human	POU3F1	Delta cells	PanglaoDB	https://panglaodb.se/	5453	POU class 3 homeobox 1
 Human	BHLHE41	Delta cells	PanglaoDB	https://panglaodb.se/	79365	basic helix-loop-helix family member e41
 Human	EHF	Delta cells	PanglaoDB	https://panglaodb.se/	26298	ETS homologous factor
@@ -9258,7 +9258,7 @@ Human	DPP4	Dendritic cells	PanglaoDB	https://panglaodb.se/	1803	dipeptidyl pepti
 Human	SLAMF8	Dendritic cells	PanglaoDB	https://panglaodb.se/	56833	SLAM family member 8
 Human	CXCR3	Dendritic cells	PanglaoDB	https://panglaodb.se/	2833	C-X-C motif chemokine receptor 3
 Human	BTLA	Dendritic cells	PanglaoDB	https://panglaodb.se/	151888	B and T lymphocyte associated
-Human	FLT3	Dendritic cells	PanglaoDB	https://panglaodb.se/	2322	fms related tyrosine kinase 3
+Human	FLT3	Dendritic cells	PanglaoDB	https://panglaodb.se/	2322	fms related receptor tyrosine kinase 3
 Human	TLR3	Dendritic cells	PanglaoDB	https://panglaodb.se/	7098	toll like receptor 3
 Human	ITGAX	Dendritic cells	PanglaoDB	https://panglaodb.se/	3687	integrin subunit alpha X
 Human	GPR132	Dendritic cells	PanglaoDB	https://panglaodb.se/	29933	G protein-coupled receptor 132
@@ -9359,7 +9359,7 @@ Human	TRHDE	Distal tubule cells	PanglaoDB	https://panglaodb.se/	29953	thyrotropi
 Human	KCNJ16	Distal tubule cells	PanglaoDB	https://panglaodb.se/	3773	potassium inwardly rectifying channel subfamily J member 16
 Human	RHCG	Distal tubule cells	PanglaoDB	https://panglaodb.se/	51458	Rh family C glycoprotein
 Human	SOSTDC1	Distal tubule cells	PanglaoDB	https://panglaodb.se/	25928	sclerostin domain containing 1
-Human	SCNN1A	Distal tubule cells	PanglaoDB	https://panglaodb.se/	6337	sodium channel epithelial 1 alpha subunit
+Human	SCNN1A	Distal tubule cells	PanglaoDB	https://panglaodb.se/	6337	sodium channel epithelial 1 subunit alpha
 Human	VDR	Distal tubule cells	PanglaoDB	https://panglaodb.se/	7421	vitamin D receptor
 Human	WNK1	Distal tubule cells	PanglaoDB	https://panglaodb.se/	65125	WNK lysine deficient protein kinase 1
 Human	SLC8A1	Distal tubule cells	PanglaoDB	https://panglaodb.se/	6546	solute carrier family 8 member A1
@@ -9520,7 +9520,7 @@ Human	VCAM1	Endothelial cells	PanglaoDB	https://panglaodb.se/	7412	vascular cell
 Human	MCAM	Endothelial cells	PanglaoDB	https://panglaodb.se/	4162	melanoma cell adhesion molecule
 Human	PROCR	Endothelial cells	PanglaoDB	https://panglaodb.se/	10544	protein C receptor
 Human	TEK	Endothelial cells	PanglaoDB	https://panglaodb.se/	7010	TEK receptor tyrosine kinase
-Human	FLT4	Endothelial cells	PanglaoDB	https://panglaodb.se/	2324	fms related tyrosine kinase 4
+Human	FLT4	Endothelial cells	PanglaoDB	https://panglaodb.se/	2324	fms related receptor tyrosine kinase 4
 Human	APLN	Endothelial cells	PanglaoDB	https://panglaodb.se/	8862	apelin
 Human	VWF	Endothelial cells	PanglaoDB	https://panglaodb.se/	7450	von Willebrand factor
 Human	NOS3	Endothelial cells	PanglaoDB	https://panglaodb.se/	4846	nitric oxide synthase 3
@@ -9633,7 +9633,7 @@ Human	ENG	Endothelial cells	PanglaoDB	https://panglaodb.se/	2022	endoglin
 Human	KDR	Endothelial cells	PanglaoDB	https://panglaodb.se/	3791	kinase insert domain receptor
 Human	SLC2A1	Endothelial cells	PanglaoDB	https://panglaodb.se/	6513	solute carrier family 2 member 1
 Human	EGFL7	Endothelial cells	PanglaoDB	https://panglaodb.se/	51162	EGF like domain multiple 7
-Human	FLT1	Endothelial cells	PanglaoDB	https://panglaodb.se/	2321	fms related tyrosine kinase 1
+Human	FLT1	Endothelial cells	PanglaoDB	https://panglaodb.se/	2321	fms related receptor tyrosine kinase 1
 Human	EPAS1	Endothelial cells	PanglaoDB	https://panglaodb.se/	2034	endothelial PAS domain protein 1
 Human	EDNRB	Endothelial cells	PanglaoDB	https://panglaodb.se/	1910	endothelin receptor type B
 Human	KCNJ8	Endothelial cells	PanglaoDB	https://panglaodb.se/	3764	potassium inwardly rectifying channel subfamily J member 8
@@ -9708,7 +9708,7 @@ Human	SULT1A1	Endothelial cells (aorta)	PanglaoDB	https://panglaodb.se/	6817	sul
 Human	TMTC1	Endothelial cells (aorta)	PanglaoDB	https://panglaodb.se/	83857	transmembrane O-mannosyltransferase targeting cadherins 1
 Human	SHE	Endothelial cells (aorta)	PanglaoDB	https://panglaodb.se/	126669	Src homology 2 domain containing E
 Human	ITGBL1	Endothelial cells (aorta)	PanglaoDB	https://panglaodb.se/	9358	integrin subunit beta like 1
-Human	GRASP	Endothelial cells (aorta)	PanglaoDB	https://panglaodb.se/	160622	general receptor for phosphoinositides 1 associated scaffold protein
+Human	GRASP	Endothelial cells (aorta)	PanglaoDB	https://panglaodb.se/	160622	trafficking regulator and scaffold protein tamalin
 Human	ENPP4	Endothelial cells (aorta)	PanglaoDB	https://panglaodb.se/	22875	ectonucleotide pyrophosphatase/phosphodiesterase 4
 Human	ARHGEF15	Endothelial cells (aorta)	PanglaoDB	https://panglaodb.se/	22899	Rho guanine nucleotide exchange factor 15
 Human	TMEM184B	Endothelial cells (aorta)	PanglaoDB	https://panglaodb.se/	25829	transmembrane protein 184B
@@ -9942,7 +9942,7 @@ Human	HNF4A	Enterocytes	PanglaoDB	https://panglaodb.se/	3172	hepatocyte nuclear 
 Human	AQP1	Enterocytes	PanglaoDB	https://panglaodb.se/	358	aquaporin 1 (Colton blood group)
 Human	TMEM45B	Enterocytes	PanglaoDB	https://panglaodb.se/	120224	transmembrane protein 45B
 Human	RGMB	Enterocytes	PanglaoDB	https://panglaodb.se/	285704	repulsive guidance molecule BMP co-receptor b
-Human	PDHA1	Enterocytes	PanglaoDB	https://panglaodb.se/	5160	pyruvate dehydrogenase E1 alpha 1 subunit
+Human	PDHA1	Enterocytes	PanglaoDB	https://panglaodb.se/	5160	pyruvate dehydrogenase E1 subunit alpha 1
 Human	CDO1	Enterocytes	PanglaoDB	https://panglaodb.se/	1036	cysteine dioxygenase type 1
 Human	ELF3	Enterocytes	PanglaoDB	https://panglaodb.se/	1999	E74 like ETS transcription factor 3
 Human	KRTCAP3	Enterocytes	PanglaoDB	https://panglaodb.se/	200634	keratinocyte associated protein 3
@@ -10012,7 +10012,7 @@ Human	BEST4	Enterocytes	PanglaoDB	https://panglaodb.se/	266675	bestrophin 4
 Human	SLC28A1	Enterocytes	PanglaoDB	https://panglaodb.se/	9154	solute carrier family 28 member 1
 Human	SLC28A2	Enterocytes	PanglaoDB	https://panglaodb.se/	9153	solute carrier family 28 member 2
 Human	SLC30A10	Enterocytes	PanglaoDB	https://panglaodb.se/	55532	solute carrier family 30 member 10
-Human	SLC51B	Enterocytes	PanglaoDB	https://panglaodb.se/	123264	solute carrier family 51 beta subunit
+Human	SLC51B	Enterocytes	PanglaoDB	https://panglaodb.se/	123264	solute carrier family 51 subunit beta
 Human	VNN1	Enterocytes	PanglaoDB	https://panglaodb.se/	8876	vanin 1
 Human	SLC23A1	Enterocytes	PanglaoDB	https://panglaodb.se/	9963	solute carrier family 23 member 1
 Human	TREH	Enterocytes	PanglaoDB	https://panglaodb.se/	11181	trehalase
@@ -10037,7 +10037,7 @@ Human	AQP7	Enterocytes	PanglaoDB	https://panglaodb.se/	364	aquaporin 7
 Human	AQP8	Enterocytes	PanglaoDB	https://panglaodb.se/	343	aquaporin 8
 Human	HMOX1	Enterocytes	PanglaoDB	https://panglaodb.se/	3162	heme oxygenase 1
 Human	SLC39A5	Enterocytes	PanglaoDB	https://panglaodb.se/	283375	solute carrier family 39 member 5
-Human	SLC51A	Enterocytes	PanglaoDB	https://panglaodb.se/	200931	solute carrier family 51 alpha subunit
+Human	SLC51A	Enterocytes	PanglaoDB	https://panglaodb.se/	200931	solute carrier family 51 subunit alpha
 Human	TRPM6	Enterocytes	PanglaoDB	https://panglaodb.se/	140803	transient receptor potential cation channel subfamily M member 6
 Human	MOGAT2	Enterocytes	PanglaoDB	https://panglaodb.se/	80168	monoacylglycerol O-acyltransferase 2
 Human	GLS	Enterocytes	PanglaoDB	https://panglaodb.se/	2744	glutaminase
@@ -10167,7 +10167,7 @@ Human	ANGPTL2	Ependymal cells	PanglaoDB	https://panglaodb.se/	23452	angiopoietin
 Human	CFAP54	Ependymal cells	PanglaoDB	https://panglaodb.se/	144535	cilia and flagella associated protein 54
 Human	STOML3	Ependymal cells	PanglaoDB	https://panglaodb.se/	161003	stomatin like 3
 Human	PLTP	Ependymal cells	PanglaoDB	https://panglaodb.se/	5360	phospholipid transfer protein
-Human	SSPO	Ependymal cells	PanglaoDB	https://panglaodb.se/	23145	SCO-spondin
+Human	SSPO	Ependymal cells	PanglaoDB	https://panglaodb.se/	23145	SCO-spondin, pseudogene
 Human	EFNB3	Ependymal cells	PanglaoDB	https://panglaodb.se/	1949	ephrin B3
 Human	MYB	Ependymal cells	PanglaoDB	https://panglaodb.se/	4602	MYB proto-oncogene, transcription factor
 Human	RFX2	Ependymal cells	PanglaoDB	https://panglaodb.se/	5990	regulatory factor X2
@@ -10213,13 +10213,13 @@ Human	ITGA4	Epithelial cells	PanglaoDB	https://panglaodb.se/	3676	integrin subun
 Human	ITGA2	Epithelial cells	PanglaoDB	https://panglaodb.se/	3673	integrin subunit alpha 2
 Human	KRT3	Epithelial cells	PanglaoDB	https://panglaodb.se/	3850	keratin 3
 Human	KRT16	Epithelial cells	PanglaoDB	https://panglaodb.se/	3868	keratin 16
-Human	SCNN1A	Epithelial cells	PanglaoDB	https://panglaodb.se/	6337	sodium channel epithelial 1 alpha subunit
+Human	SCNN1A	Epithelial cells	PanglaoDB	https://panglaodb.se/	6337	sodium channel epithelial 1 subunit alpha
 Human	KRT15	Epithelial cells	PanglaoDB	https://panglaodb.se/	3866	keratin 15
 Human	ITGA1	Epithelial cells	PanglaoDB	https://panglaodb.se/	3672	integrin subunit alpha 1
 Human	KRT2	Epithelial cells	PanglaoDB	https://panglaodb.se/	3849	keratin 2
-Human	SCNN1B	Epithelial cells	PanglaoDB	https://panglaodb.se/	6338	sodium channel epithelial 1 beta subunit
-Human	SCNN1D	Epithelial cells	PanglaoDB	https://panglaodb.se/	6339	sodium channel epithelial 1 delta subunit
-Human	SCNN1G	Epithelial cells	PanglaoDB	https://panglaodb.se/	6340	sodium channel epithelial 1 gamma subunit
+Human	SCNN1B	Epithelial cells	PanglaoDB	https://panglaodb.se/	6338	sodium channel epithelial 1 subunit beta
+Human	SCNN1D	Epithelial cells	PanglaoDB	https://panglaodb.se/	6339	sodium channel epithelial 1 subunit delta
+Human	SCNN1G	Epithelial cells	PanglaoDB	https://panglaodb.se/	6340	sodium channel epithelial 1 subunit gamma
 Human	IFI16	Epithelial cells	PanglaoDB	https://panglaodb.se/	3428	interferon gamma inducible protein 16
 Human	BOK	Epithelial cells	PanglaoDB	https://panglaodb.se/	666	BCL2 family apoptosis regulator BOK
 Human	NKD1	Epithelial cells	PanglaoDB	https://panglaodb.se/	85407	NKD inhibitor of WNT signaling pathway 1
@@ -10243,7 +10243,7 @@ Human	CTSE	Epithelial cells	PanglaoDB	https://panglaodb.se/	1510	cathepsin E
 Human	SCGB1A1	Epithelial cells	PanglaoDB	https://panglaodb.se/	7356	secretoglobin family 1A member 1
 Human	EXO1	Epithelial cells	PanglaoDB	https://panglaodb.se/	9156	exonuclease 1
 Human	FOXA1	Epithelial cells	PanglaoDB	https://panglaodb.se/	3169	forkhead box A1
-Human	GABRP	Epithelial cells	PanglaoDB	https://panglaodb.se/	2568	gamma-aminobutyric acid type A receptor pi subunit
+Human	GABRP	Epithelial cells	PanglaoDB	https://panglaodb.se/	2568	gamma-aminobutyric acid type A receptor subunit pi
 Human	GGT1	Epithelial cells	PanglaoDB	https://panglaodb.se/	2678	gamma-glutamyltransferase 1
 Human	SFN	Epithelial cells	PanglaoDB	https://panglaodb.se/	2810	stratifin
 Human	KRT13	Epithelial cells	PanglaoDB	https://panglaodb.se/	3860	keratin 13
@@ -10274,7 +10274,7 @@ Human	PHGR1	Epithelial cells	PanglaoDB	https://panglaodb.se/	644844	proline, his
 Human	LYPD8	Epithelial cells	PanglaoDB	https://panglaodb.se/	646627	LY6/PLAUR domain containing 8
 Human	LGALS4	Epithelial cells	PanglaoDB	https://panglaodb.se/	3960	galectin 4
 Human	GATA2	Epithelial cells	PanglaoDB	https://panglaodb.se/	2624	GATA binding protein 2
-Human	SEC23B	Epithelial cells	PanglaoDB	https://panglaodb.se/	10483	SEC23 homolog B, coat complex II component
+Human	SEC23B	Epithelial cells	PanglaoDB	https://panglaodb.se/	10483	SEC23 homolog B, COPII coat complex component
 Human	TSPAN8	Epithelial cells	PanglaoDB	https://panglaodb.se/	7103	tetraspanin 8
 Human	DLX5	Epithelial cells	PanglaoDB	https://panglaodb.se/	1749	distal-less homeobox 5
 Human	DGAT2	Epithelial cells	PanglaoDB	https://panglaodb.se/	84649	diacylglycerol O-acyltransferase 2
@@ -10359,7 +10359,7 @@ Human	ACSL1	Epsilon cells	PanglaoDB	https://panglaodb.se/	2180	acyl-CoA syntheta
 Human	FRZB	Epsilon cells	PanglaoDB	https://panglaodb.se/	2487	frizzled related protein
 Human	VTN	Epsilon cells	PanglaoDB	https://panglaodb.se/	7448	vitronectin
 Human	APOH	Epsilon cells	PanglaoDB	https://panglaodb.se/	350	apolipoprotein H
-Human	SPINK1	Epsilon cells	PanglaoDB	https://panglaodb.se/	6690	serine peptidase inhibitor, Kazal type 1
+Human	SPINK1	Epsilon cells	PanglaoDB	https://panglaodb.se/	6690	serine peptidase inhibitor Kazal type 1
 Human	VSTM2L	Epsilon cells	PanglaoDB	https://panglaodb.se/	128434	V-set and transmembrane domain containing 2 like
 Human	SPTSSB	Epsilon cells	PanglaoDB	https://panglaodb.se/	165679	serine palmitoyltransferase small subunit B
 Human	S100A6	Epsilon cells	PanglaoDB	https://panglaodb.se/	6277	S100 calcium binding protein A6
@@ -10501,7 +10501,7 @@ Human	ANGPTL2	Fibroblasts	PanglaoDB	https://panglaodb.se/	23452	angiopoietin lik
 Human	EFEMP1	Fibroblasts	PanglaoDB	https://panglaodb.se/	2202	EGF containing fibulin extracellular matrix protein 1
 Human	SCARA5	Fibroblasts	PanglaoDB	https://panglaodb.se/	286133	scavenger receptor class A member 5
 Human	IGFBP3	Fibroblasts	PanglaoDB	https://panglaodb.se/	3486	insulin like growth factor binding protein 3
-Human	COPZ2	Fibroblasts	PanglaoDB	https://panglaodb.se/	51226	coatomer protein complex subunit zeta 2
+Human	COPZ2	Fibroblasts	PanglaoDB	https://panglaodb.se/	51226	COPI coat complex subunit zeta 2
 Human	DPEP1	Fibroblasts	PanglaoDB	https://panglaodb.se/	1800	dipeptidase 1
 Human	ADAMTS5	Fibroblasts	PanglaoDB	https://panglaodb.se/	11096	ADAM metallopeptidase with thrombospondin type 1 motif 5
 Human	COL5A1	Fibroblasts	PanglaoDB	https://panglaodb.se/	1289	collagen type V alpha 1 chain
@@ -10678,7 +10678,7 @@ Human	SST	GABAergic neurons	PanglaoDB	https://panglaodb.se/	6750	somatostatin
 Human	PVALB	GABAergic neurons	PanglaoDB	https://panglaodb.se/	5816	parvalbumin
 Human	TNFAIP8L3	GABAergic neurons	PanglaoDB	https://panglaodb.se/	388121	TNF alpha induced protein 8 like 3
 Human	SEMA3C	GABAergic neurons	PanglaoDB	https://panglaodb.se/	10512	semaphorin 3C
-Human	MYBPC1	GABAergic neurons	PanglaoDB	https://panglaodb.se/	4604	myosin binding protein C, slow type
+Human	MYBPC1	GABAergic neurons	PanglaoDB	https://panglaodb.se/	4604	myosin binding protein C1
 Human	PARM1	GABAergic neurons	PanglaoDB	https://panglaodb.se/	25849	prostate androgen-regulated mucin-like protein 1
 Human	DLX1	GABAergic neurons	PanglaoDB	https://panglaodb.se/	1745	distal-less homeobox 1
 Human	PPY	Gamma (PP) cells	PanglaoDB	https://panglaodb.se/	5539	pancreatic polypeptide
@@ -10737,7 +10737,7 @@ Human	TYMS	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	7298	thymidylate 
 Human	MKI67	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	4288	marker of proliferation Ki-67
 Human	UBE2C	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	11065	ubiquitin conjugating enzyme E2 C
 Human	TUBA1B	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	10376	tubulin alpha 1b
-Human	ASPM	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	259266	abnormal spindle microtubule assembly
+Human	ASPM	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	259266	assembly factor for spindle microtubules
 Human	CENPA	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	1058	centromere protein A
 Human	TOP2A	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	7153	DNA topoisomerase II alpha
 Human	PCNA	Gamma delta T cells	PanglaoDB	https://panglaodb.se/	5111	proliferating cell nuclear antigen
@@ -10813,7 +10813,7 @@ Human	LRRC57	Germ cells	PanglaoDB	https://panglaodb.se/	255252	leucine rich repe
 Human	BCL2L14	Germ cells	PanglaoDB	https://panglaodb.se/	79370	BCL2 like 14
 Human	AQP11	Germ cells	PanglaoDB	https://panglaodb.se/	282679	aquaporin 11
 Human	TEX35	Germ cells	PanglaoDB	https://panglaodb.se/	84066	testis expressed 35
-Human	SPINK2	Germ cells	PanglaoDB	https://panglaodb.se/	6691	serine peptidase inhibitor, Kazal type 2
+Human	SPINK2	Germ cells	PanglaoDB	https://panglaodb.se/	6691	serine peptidase inhibitor Kazal type 2
 Human	TSSK3	Germ cells	PanglaoDB	https://panglaodb.se/	81629	testis specific serine kinase 3
 Human	CREB3L4	Germ cells	PanglaoDB	https://panglaodb.se/	148327	cAMP responsive element binding protein 3 like 4
 Human	TSACC	Germ cells	PanglaoDB	https://panglaodb.se/	128229	TSSK6 activating cochaperone
@@ -10873,7 +10873,7 @@ Human	SPATA24	Germ cells	PanglaoDB	https://panglaodb.se/	202051	spermatogenesis 
 Human	SPATA4	Germ cells	PanglaoDB	https://panglaodb.se/	132851	spermatogenesis associated 4
 Human	FAM71E1	Germ cells	PanglaoDB	https://panglaodb.se/	112703	family with sequence similarity 71 member E1
 Human	FAM229A	Germ cells	PanglaoDB	https://panglaodb.se/	100128071	family with sequence similarity 229 member A
-Human	HILS1	Germ cells	PanglaoDB	https://panglaodb.se/	373861	H1.9 linker histone (pseudogene)
+Human	HILS1	Germ cells	PanglaoDB	https://panglaodb.se/	373861	H1.9 linker histone, pseudogene
 Human	HRASLS5	Germ cells	PanglaoDB	https://panglaodb.se/	117245	phospholipase A and acyltransferase 5
 Human	GAPDHS	Germ cells	PanglaoDB	https://panglaodb.se/	26330	glyceraldehyde-3-phosphate dehydrogenase, spermatogenic
 Human	HSPB9	Germ cells	PanglaoDB	https://panglaodb.se/	94086	heat shock protein family B (small) member 9
@@ -11007,7 +11007,7 @@ Human	SPDEF	Goblet cells	PanglaoDB	https://panglaodb.se/	25803	SAM pointed domai
 Human	LRRC26	Goblet cells	PanglaoDB	https://panglaodb.se/	389816	leucine rich repeat containing 26
 Human	BACE2	Goblet cells	PanglaoDB	https://panglaodb.se/	25825	beta-secretase 2
 Human	MANF	Goblet cells	PanglaoDB	https://panglaodb.se/	7873	mesencephalic astrocyte derived neurotrophic factor
-Human	SPINK4	Goblet cells	PanglaoDB	https://panglaodb.se/	27290	serine peptidase inhibitor, Kazal type 4
+Human	SPINK4	Goblet cells	PanglaoDB	https://panglaodb.se/	27290	serine peptidase inhibitor Kazal type 4
 Human	AMH	Granulosa cells	PanglaoDB	https://panglaodb.se/	268	anti-Mullerian hormone
 Human	MCAM	Granulosa cells	PanglaoDB	https://panglaodb.se/	4162	melanoma cell adhesion molecule
 Human	BOK	Granulosa cells	PanglaoDB	https://panglaodb.se/	666	BCL2 family apoptosis regulator BOK
@@ -11031,7 +11031,7 @@ Human	THY1	Hematopoietic stem cells	PanglaoDB	https://panglaodb.se/	7070	Thy-1 c
 Human	MPL	Hematopoietic stem cells	PanglaoDB	https://panglaodb.se/	4352	MPL proto-oncogene, thrombopoietin receptor
 Human	KIT	Hematopoietic stem cells	PanglaoDB	https://panglaodb.se/	3815	KIT proto-oncogene, receptor tyrosine kinase
 Human	PROM1	Hematopoietic stem cells	PanglaoDB	https://panglaodb.se/	8842	prominin 1
-Human	FLT3	Hematopoietic stem cells	PanglaoDB	https://panglaodb.se/	2322	fms related tyrosine kinase 3
+Human	FLT3	Hematopoietic stem cells	PanglaoDB	https://panglaodb.se/	2322	fms related receptor tyrosine kinase 3
 Human	SLAMF1	Hematopoietic stem cells	PanglaoDB	https://panglaodb.se/	6504	signaling lymphocytic activation molecule family member 1
 Human	CXCR4	Hematopoietic stem cells	PanglaoDB	https://panglaodb.se/	7852	C-X-C motif chemokine receptor 4
 Human	TEK	Hematopoietic stem cells	PanglaoDB	https://panglaodb.se/	7010	TEK receptor tyrosine kinase
@@ -11525,11 +11525,11 @@ Human	SLC36A1	Interneurons	PanglaoDB	https://panglaodb.se/	206358	solute carrier
 Human	ATG12	Interneurons	PanglaoDB	https://panglaodb.se/	9140	autophagy related 12
 Human	SLC17A6	Interneurons	PanglaoDB	https://panglaodb.se/	57084	solute carrier family 17 member 6
 Human	AGAP1	Interneurons	PanglaoDB	https://panglaodb.se/	116987	ArfGAP with GTPase domain, ankyrin repeat and PH domain 1
-Human	ZDHHC22	Interneurons	PanglaoDB	https://panglaodb.se/	283576	zinc finger DHHC-type containing 22
+Human	ZDHHC22	Interneurons	PanglaoDB	https://panglaodb.se/	283576	zinc finger DHHC-type palmitoyltransferase 22
 Human	ACBD5	Interneurons	PanglaoDB	https://panglaodb.se/	91452	acyl-CoA binding domain containing 5
 Human	AQP4	Interneurons	PanglaoDB	https://panglaodb.se/	361	aquaporin 4
 Human	TMEM163	Interneurons	PanglaoDB	https://panglaodb.se/	81615	transmembrane protein 163
-Human	ZDHHC17	Interneurons	PanglaoDB	https://panglaodb.se/	23390	zinc finger DHHC-type containing 17
+Human	ZDHHC17	Interneurons	PanglaoDB	https://panglaodb.se/	23390	zinc finger DHHC-type palmitoyltransferase 17
 Human	ZIC4	Interneurons	PanglaoDB	https://panglaodb.se/	84107	Zic family member 4
 Human	NEFM	Interneurons	PanglaoDB	https://panglaodb.se/	4741	neurofilament medium
 Human	L1CAM	Interneurons	PanglaoDB	https://panglaodb.se/	3897	L1 cell adhesion molecule
@@ -11550,7 +11550,7 @@ Human	PCSK2	Interneurons	PanglaoDB	https://panglaodb.se/	5126	proprotein convert
 Human	SHOX2	Interneurons	PanglaoDB	https://panglaodb.se/	6474	short stature homeobox 2
 Human	SCN8A	Interneurons	PanglaoDB	https://panglaodb.se/	6334	sodium voltage-gated channel alpha subunit 8
 Human	AAK1	Interneurons	PanglaoDB	https://panglaodb.se/	22848	AP2 associated kinase 1
-Human	GABRA4	Interneurons	PanglaoDB	https://panglaodb.se/	2557	gamma-aminobutyric acid type A receptor alpha4 subunit
+Human	GABRA4	Interneurons	PanglaoDB	https://panglaodb.se/	2557	gamma-aminobutyric acid type A receptor subunit alpha4
 Human	NRIP3	Interneurons	PanglaoDB	https://panglaodb.se/	56675	nuclear receptor interacting protein 3
 Human	HLF	Interneurons	PanglaoDB	https://panglaodb.se/	3131	HLF transcription factor, PAR bZIP family member
 Human	PRKCD	Interneurons	PanglaoDB	https://panglaodb.se/	5580	protein kinase C delta
@@ -11589,7 +11589,7 @@ Human	RPRML	Interneurons	PanglaoDB	https://panglaodb.se/	388394	reprimo like
 Human	CACNB1	Interneurons	PanglaoDB	https://panglaodb.se/	782	calcium voltage-gated channel auxiliary subunit beta 1
 Human	KCNQ5	Interneurons	PanglaoDB	https://panglaodb.se/	56479	potassium voltage-gated channel subfamily Q member 5
 Human	PRKCG	Interneurons	PanglaoDB	https://panglaodb.se/	5582	protein kinase C gamma
-Human	GABRA5	Interneurons	PanglaoDB	https://panglaodb.se/	2558	gamma-aminobutyric acid type A receptor alpha5 subunit
+Human	GABRA5	Interneurons	PanglaoDB	https://panglaodb.se/	2558	gamma-aminobutyric acid type A receptor subunit alpha5
 Human	PAX6	Interneurons	PanglaoDB	https://panglaodb.se/	5080	paired box 6
 Human	PNOC	Interneurons	PanglaoDB	https://panglaodb.se/	5368	prepronociceptin
 Human	HTR3A	Interneurons	PanglaoDB	https://panglaodb.se/	3359	5-hydroxytryptamine receptor 3A
@@ -11923,7 +11923,7 @@ Human	PGAM1	Luteal cells	PanglaoDB	https://panglaodb.se/	5223	phosphoglycerate m
 Human	CHKA	Luteal cells	PanglaoDB	https://panglaodb.se/	1119	choline kinase alpha
 Human	ADAMTS1	Luteal cells	PanglaoDB	https://panglaodb.se/	9510	ADAM metallopeptidase with thrombospondin type 1 motif 1
 Human	SLC16A2	Luteal cells	PanglaoDB	https://panglaodb.se/	6567	solute carrier family 16 member 2
-Human	PMPCB	Luteal cells	PanglaoDB	https://panglaodb.se/	9512	peptidase, mitochondrial processing beta subunit
+Human	PMPCB	Luteal cells	PanglaoDB	https://panglaodb.se/	9512	peptidase, mitochondrial processing subunit beta
 Human	SDC1	Luteal cells	PanglaoDB	https://panglaodb.se/	6382	syndecan 1
 Human	BCAT1	Luteal cells	PanglaoDB	https://panglaodb.se/	586	branched chain amino acid transaminase 1
 Human	RORA	Luteal cells	PanglaoDB	https://panglaodb.se/	6095	RAR related orphan receptor A
@@ -12053,7 +12053,7 @@ Human	CD200R1	Macrophages	PanglaoDB	https://panglaodb.se/	131450	CD200 receptor 
 Human	GATA6	Macrophages	PanglaoDB	https://panglaodb.se/	2627	GATA binding protein 6
 Human	ITGAX	Macrophages	PanglaoDB	https://panglaodb.se/	3687	integrin subunit alpha X
 Human	PPARG	Macrophages	PanglaoDB	https://panglaodb.se/	5468	peroxisome proliferator activated receptor gamma
-Human	TYROBP	Macrophages	PanglaoDB	https://panglaodb.se/	7305	TYRO protein tyrosine kinase binding protein
+Human	TYROBP	Macrophages	PanglaoDB	https://panglaodb.se/	7305	transmembrane immune signaling adaptor TYROBP
 Human	RGS1	Macrophages	PanglaoDB	https://panglaodb.se/	5996	regulator of G protein signaling 1
 Human	DAB2	Macrophages	PanglaoDB	https://panglaodb.se/	1601	DAB adaptor protein 2
 Human	P2RY6	Macrophages	PanglaoDB	https://panglaodb.se/	5031	pyrimidinergic receptor P2Y6
@@ -12140,7 +12140,7 @@ Human	CFD	Mast cells	PanglaoDB	https://panglaodb.se/	1675	complement factor D
 Human	OSBPL8	Mast cells	PanglaoDB	https://panglaodb.se/	114882	oxysterol binding protein like 8
 Human	ADORA3	Mast cells	PanglaoDB	https://panglaodb.se/	140	adenosine A3 receptor
 Human	HS3ST1	Mast cells	PanglaoDB	https://panglaodb.se/	9957	heparan sulfate-glucosamine 3-sulfotransferase 1
-Human	CSF2RB	Mast cells	PanglaoDB	https://panglaodb.se/	1439	colony stimulating factor 2 receptor beta common subunit
+Human	CSF2RB	Mast cells	PanglaoDB	https://panglaodb.se/	1439	colony stimulating factor 2 receptor subunit beta
 Human	DAPP1	Mast cells	PanglaoDB	https://panglaodb.se/	27071	dual adaptor of phosphotyrosine and 3-phosphoinositides 1
 Human	SLC6A4	Mast cells	PanglaoDB	https://panglaodb.se/	6532	solute carrier family 6 member 4
 Human	MAOB	Mast cells	PanglaoDB	https://panglaodb.se/	4129	monoamine oxidase B
@@ -12197,12 +12197,12 @@ Human	CCDC141	Mast cells	PanglaoDB	https://panglaodb.se/	285025	coiled-coil doma
 Human	CCL7	Mast cells	PanglaoDB	https://panglaodb.se/	6354	C-C motif chemokine ligand 7
 Human	CDC42BPA	Mast cells	PanglaoDB	https://panglaodb.se/	8476	CDC42 binding protein kinase alpha
 Human	CDH9	Mast cells	PanglaoDB	https://panglaodb.se/	1007	cadherin 9
-Human	COPZ2	Mast cells	PanglaoDB	https://panglaodb.se/	51226	coatomer protein complex subunit zeta 2
-Human	ZDHHC13	Mast cells	PanglaoDB	https://panglaodb.se/	54503	zinc finger DHHC-type containing 13
+Human	COPZ2	Mast cells	PanglaoDB	https://panglaodb.se/	51226	COPI coat complex subunit zeta 2
+Human	ZDHHC13	Mast cells	PanglaoDB	https://panglaodb.se/	54503	zinc finger DHHC-type palmitoyltransferase 13
 Human	WDR60	Mast cells	PanglaoDB	https://panglaodb.se/	55112	WD repeat domain 60
 Human	UNC13B	Mast cells	PanglaoDB	https://panglaodb.se/	10497	unc-13 homolog B
 Human	TRANK1	Mast cells	PanglaoDB	https://panglaodb.se/	9881	tetratricopeptide repeat and ankyrin repeat containing 1
-Human	TIAM2	Mast cells	PanglaoDB	https://panglaodb.se/	26230	T cell lymphoma invasion and metastasis 2
+Human	TIAM2	Mast cells	PanglaoDB	https://panglaodb.se/	26230	TIAM Rac1 associated GEF 2
 Human	TCF7L1	Mast cells	PanglaoDB	https://panglaodb.se/	83439	transcription factor 7 like 1
 Human	STK32B	Mast cells	PanglaoDB	https://panglaodb.se/	55351	serine/threonine kinase 32B
 Human	ST6GALNAC3	Mast cells	PanglaoDB	https://panglaodb.se/	256435	ST6 N-acetylgalactosaminide alpha-2,6-sialyltransferase 3
@@ -12229,7 +12229,7 @@ Human	NCEH1	Mast cells	PanglaoDB	https://panglaodb.se/	57552	neutral cholesterol
 Human	MRGPRX1	Mast cells	PanglaoDB	https://panglaodb.se/	259249	MAS related GPR family member X1
 Human	MLPH	Mast cells	PanglaoDB	https://panglaodb.se/	79083	melanophilin
 Human	MITF	Mast cells	PanglaoDB	https://panglaodb.se/	4286	melanocyte inducing transcription factor
-Human	MFGE8	Mast cells	PanglaoDB	https://panglaodb.se/	4240	milk fat globule-EGF factor 8 protein
+Human	MFGE8	Mast cells	PanglaoDB	https://panglaodb.se/	4240	milk fat globule EGF and factor V/VIII domain containing
 Human	LSAMP	Mast cells	PanglaoDB	https://panglaodb.se/	4045	limbic system associated membrane protein
 Human	LRRC66	Mast cells	PanglaoDB	https://panglaodb.se/	339977	leucine rich repeat containing 66
 Human	LIMA1	Mast cells	PanglaoDB	https://panglaodb.se/	51474	LIM domain and actin binding 1
@@ -12395,7 +12395,7 @@ Human	PLA2R1	Mesangial cells	PanglaoDB	https://panglaodb.se/	22925	phospholipase
 Human	TRIP4	Mesangial cells	PanglaoDB	https://panglaodb.se/	9325	thyroid hormone receptor interactor 4
 Human	AMOTL2	Mesangial cells	PanglaoDB	https://panglaodb.se/	51421	angiomotin like 2
 Human	LATS2	Mesangial cells	PanglaoDB	https://panglaodb.se/	26524	large tumor suppressor kinase 2
-Human	YAP1	Mesangial cells	PanglaoDB	https://panglaodb.se/	10413	Yes associated protein 1
+Human	YAP1	Mesangial cells	PanglaoDB	https://panglaodb.se/	10413	Yes1 associated transcriptional regulator
 Human	LRP5	Mesangial cells	PanglaoDB	https://panglaodb.se/	4041	LDL receptor related protein 5
 Human	MIB1	Mesangial cells	PanglaoDB	https://panglaodb.se/	57534	mindbomb E3 ubiquitin protein ligase 1
 Human	NOSTRIN	Mesangial cells	PanglaoDB	https://panglaodb.se/	115677	nitric oxide synthase trafficking
@@ -12500,7 +12500,7 @@ Human	RAC2	Microfold cells	PanglaoDB	https://panglaodb.se/	5880	Rac family small
 Human	TNFAIP2	Microfold cells	PanglaoDB	https://panglaodb.se/	7127	TNF alpha induced protein 2
 Human	FABP5	Microfold cells	PanglaoDB	https://panglaodb.se/	2171	fatty acid binding protein 5
 Human	GJB2	Microfold cells	PanglaoDB	https://panglaodb.se/	2706	gap junction protein beta 2
-Human	MFGE8	Microfold cells	PanglaoDB	https://panglaodb.se/	4240	milk fat globule-EGF factor 8 protein
+Human	MFGE8	Microfold cells	PanglaoDB	https://panglaodb.se/	4240	milk fat globule EGF and factor V/VIII domain containing
 Human	CYBA	Microfold cells	PanglaoDB	https://panglaodb.se/	1535	cytochrome b-245 alpha chain
 Human	TMPRSS2	Microfold cells	PanglaoDB	https://panglaodb.se/	7113	transmembrane serine protease 2
 Human	AHR	Microfold cells	PanglaoDB	https://panglaodb.se/	196	aryl hydrocarbon receptor
@@ -12537,7 +12537,7 @@ Human	PTAFR	Microglia	PanglaoDB	https://panglaodb.se/	5724	platelet activating f
 Human	LAG3	Microglia	PanglaoDB	https://panglaodb.se/	3902	lymphocyte activating 3
 Human	ENTPD1	Microglia	PanglaoDB	https://panglaodb.se/	953	ectonucleoside triphosphate diphosphohydrolase 1
 Human	ADRB2	Microglia	PanglaoDB	https://panglaodb.se/	154	adrenoceptor beta 2
-Human	TMEM173	Microglia	PanglaoDB	https://panglaodb.se/	340061	transmembrane protein 173
+Human	TMEM173	Microglia	PanglaoDB	https://panglaodb.se/	340061	stimulator of interferon response cGAMP interactor 1
 Human	TBXAS1	Microglia	PanglaoDB	https://panglaodb.se/	6916	thromboxane A synthase 1
 Human	P2RY6	Microglia	PanglaoDB	https://panglaodb.se/	5031	pyrimidinergic receptor P2Y6
 Human	P2RY13	Microglia	PanglaoDB	https://panglaodb.se/	53829	purinergic receptor P2Y13
@@ -13066,7 +13066,7 @@ Human	CXCL14	Neuroendocrine cells	PanglaoDB	https://panglaodb.se/	9547	C-X-C mot
 Human	NPY	Neuroendocrine cells	PanglaoDB	https://panglaodb.se/	4852	neuropeptide Y
 Human	NRGN	Neuroendocrine cells	PanglaoDB	https://panglaodb.se/	4900	neurogranin
 Human	SCN2B	Neuroendocrine cells	PanglaoDB	https://panglaodb.se/	6327	sodium voltage-gated channel beta subunit 2
-Human	ABHD2	Neuroendocrine cells	PanglaoDB	https://panglaodb.se/	11057	abhydrolase domain containing 2
+Human	ABHD2	Neuroendocrine cells	PanglaoDB	https://panglaodb.se/	11057	abhydrolase domain containing 2, acylglycerol lipase
 Human	SPOCK1	Neuroendocrine cells	PanglaoDB	https://panglaodb.se/	6695	SPARC (osteonectin), cwcv and kazal like domains proteoglycan 1
 Human	NEGR1	Neuroendocrine cells	PanglaoDB	https://panglaodb.se/	257194	neuronal growth regulator 1
 Human	DUSP26	Neuroendocrine cells	PanglaoDB	https://panglaodb.se/	78986	dual specificity phosphatase 26
@@ -13088,7 +13088,7 @@ Human	NEFH	Neurons	PanglaoDB	https://panglaodb.se/	4744	neurofilament heavy
 Human	NEFM	Neurons	PanglaoDB	https://panglaodb.se/	4741	neurofilament medium
 Human	DLG4	Neurons	PanglaoDB	https://panglaodb.se/	1742	discs large MAGUK scaffold protein 4
 Human	SLC12A5	Neurons	PanglaoDB	https://panglaodb.se/	57468	solute carrier family 12 member 5
-Human	GABRA1	Neurons	PanglaoDB	https://panglaodb.se/	2554	gamma-aminobutyric acid type A receptor alpha1 subunit
+Human	GABRA1	Neurons	PanglaoDB	https://panglaodb.se/	2554	gamma-aminobutyric acid type A receptor subunit alpha1
 Human	AQP1	Neurons	PanglaoDB	https://panglaodb.se/	358	aquaporin 1 (Colton blood group)
 Human	IFIT3	Neurons	PanglaoDB	https://panglaodb.se/	3437	interferon induced protein with tetratricopeptide repeats 3
 Human	SLC11A1	Neurons	PanglaoDB	https://panglaodb.se/	6556	solute carrier family 11 member 1
@@ -13134,10 +13134,10 @@ Human	SLC30A9	Neurons	PanglaoDB	https://panglaodb.se/	10463	solute carrier famil
 Human	SCAMP1	Neurons	PanglaoDB	https://panglaodb.se/	9522	secretory carrier membrane protein 1
 Human	MAGEE1	Neurons	PanglaoDB	https://panglaodb.se/	57692	MAGE family member E1
 Human	NCALD	Neurons	PanglaoDB	https://panglaodb.se/	83988	neurocalcin delta
-Human	COPG1	Neurons	PanglaoDB	https://panglaodb.se/	22820	coatomer protein complex subunit gamma 1
+Human	COPG1	Neurons	PanglaoDB	https://panglaodb.se/	22820	COPI coat complex subunit gamma 1
 Human	KCNC1	Neurons	PanglaoDB	https://panglaodb.se/	3746	potassium voltage-gated channel subfamily C member 1
 Human	FBXW7	Neurons	PanglaoDB	https://panglaodb.se/	55294	F-box and WD repeat domain containing 7
-Human	GABRG2	Neurons	PanglaoDB	https://panglaodb.se/	2566	gamma-aminobutyric acid type A receptor gamma2 subunit
+Human	GABRG2	Neurons	PanglaoDB	https://panglaodb.se/	2566	gamma-aminobutyric acid type A receptor subunit gamma2
 Human	NMT1	Neurons	PanglaoDB	https://panglaodb.se/	4836	N-myristoyltransferase 1
 Human	ARID4A	Neurons	PanglaoDB	https://panglaodb.se/	5926	AT-rich interaction domain 4A
 Human	ZRSR1	Neurons	PanglaoDB	https://panglaodb.se/	7310	ZRSR2 pseudogene 1
@@ -13214,7 +13214,7 @@ Human	TMEM191C	Neurons	PanglaoDB	https://panglaodb.se/	645426	transmembrane prot
 Human	SLC6A17	Neurons	PanglaoDB	https://panglaodb.se/	388662	solute carrier family 6 member 17
 Human	DNER	Neurons	PanglaoDB	https://panglaodb.se/	92737	delta/notch like EGF repeat containing
 Human	GRM5	Neurons	PanglaoDB	https://panglaodb.se/	2915	glutamate metabotropic receptor 5
-Human	CNTNAP2	Neurons	PanglaoDB	https://panglaodb.se/	26047	contactin associated protein like 2
+Human	CNTNAP2	Neurons	PanglaoDB	https://panglaodb.se/	26047	contactin associated protein 2
 Human	CPLX1	Neurons	PanglaoDB	https://panglaodb.se/	10815	complexin 1
 Human	SLC32A1	Neurons	PanglaoDB	https://panglaodb.se/	140679	solute carrier family 32 member 1
 Human	DLGAP1	Neurons	PanglaoDB	https://panglaodb.se/	9229	DLG associated protein 1
@@ -13463,7 +13463,7 @@ Human	ACSM4	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	341392	ac
 Human	CLDN9	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	9080	claudin 9
 Human	DUSP8	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	1850	dual specificity phosphatase 8
 Human	TTLL3	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	26140	tubulin tyrosine ligase like 3
-Human	ABHD3	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	171586	abhydrolase domain containing 3
+Human	ABHD3	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	171586	abhydrolase domain containing 3, phospholipase
 Human	KIF9	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	64147	kinesin family member 9
 Human	CLSTN2	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	64084	calsyntenin 2
 Human	MEIG1	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	644890	meiosis/spermiogenesis associated 1
@@ -13527,7 +13527,7 @@ Human	FAM131C	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	348487	
 Human	FAM81A	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	145773	family with sequence similarity 81 member A
 Human	SH3GLB2	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	56904	SH3 domain containing GRB2 like, endophilin B2
 Human	MLF1	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	4291	myeloid leukemia factor 1
-Human	FAM92B	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	339145	family with sequence similarity 92 member B
+Human	FAM92B	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	339145	CBY1 interacting BAR domain containing 2
 Human	PKIB	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	5570	cAMP-dependent protein kinase inhibitor beta
 Human	PDE4A	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	5141	phosphodiesterase 4A
 Human	FETUB	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	26998	fetuin B
@@ -13551,7 +13551,7 @@ Human	MYCBP	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	26292	MYC
 Human	RD3	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	343035	retinal degeneration 3, GUCY2D regulator
 Human	HIST2H2BE	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	8349	H2B clustered histone 21
 Human	SCN9A	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	6335	sodium voltage-gated channel alpha subunit 9
-Human	ABHD16A	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	7920	abhydrolase domain containing 16A
+Human	ABHD16A	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	7920	abhydrolase domain containing 16A, phospholipase
 Human	IMPDH1	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	3614	inosine monophosphate dehydrogenase 1
 Human	CMIP	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	80790	c-Maf inducing protein
 Human	TESC	Olfactory epithelial cells	PanglaoDB	https://panglaodb.se/	54997	tescalcin
@@ -13615,7 +13615,7 @@ Human	OLIG3	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	167826	oligodendroc
 Human	SOX10	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	6663	SRY-box transcription factor 10
 Human	GJC2	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	57165	gap junction protein gamma 2
 Human	GAMT	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	2593	guanidinoacetate N-methyltransferase
-Human	BCAS1	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	8537	breast carcinoma amplified sequence 1
+Human	BCAS1	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	8537	brain enriched myelin associated protein 1
 Human	ENPP6	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	133121	ectonucleotide pyrophosphatase/phosphodiesterase 6
 Human	TMEM63A	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	9725	transmembrane protein 63A
 Human	GPR62	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	118442	G protein-coupled receptor 62
@@ -13632,7 +13632,7 @@ Human	HEPACAM	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	220296	hepatic an
 Human	SOX8	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	30812	SRY-box transcription factor 8
 Human	FASN	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	2194	fatty acid synthase
 Human	OMG	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	4974	oligodendrocyte myelin glycoprotein
-Human	ZDHHC9	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	51114	zinc finger DHHC-type containing 9
+Human	ZDHHC9	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	51114	zinc finger DHHC-type palmitoyltransferase 9
 Human	PTGDS	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	5730	prostaglandin D2 synthase
 Human	ADAMTS4	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	9507	ADAM metallopeptidase with thrombospondin type 1 motif 4
 Human	MYRF	Oligodendrocytes	PanglaoDB	https://panglaodb.se/	745	myelin regulatory factor
@@ -13833,7 +13833,7 @@ Human	NEUROG3	Pancreatic progenitor cells	PanglaoDB	https://panglaodb.se/	50674	
 Human	SOX9	Pancreatic progenitor cells	PanglaoDB	https://panglaodb.se/	6662	SRY-box transcription factor 9
 Human	RPL23A	Pancreatic progenitor cells	PanglaoDB	https://panglaodb.se/	6147	ribosomal protein L23a
 Human	CTNNB1	Pancreatic progenitor cells	PanglaoDB	https://panglaodb.se/	1499	catenin beta 1
-Human	YAP1	Pancreatic progenitor cells	PanglaoDB	https://panglaodb.se/	10413	Yes associated protein 1
+Human	YAP1	Pancreatic progenitor cells	PanglaoDB	https://panglaodb.se/	10413	Yes1 associated transcriptional regulator
 Human	RGS16	Pancreatic progenitor cells	PanglaoDB	https://panglaodb.se/	6004	regulator of G protein signaling 16
 Human	MFNG	Pancreatic progenitor cells	PanglaoDB	https://panglaodb.se/	4242	MFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase
 Human	TIMP1	Pancreatic stellate cells	PanglaoDB	https://panglaodb.se/	7076	TIMP metallopeptidase inhibitor 1
@@ -13883,7 +13883,7 @@ Human	ITLN1	Paneth cells	PanglaoDB	https://panglaodb.se/	55600	intelectin 1
 Human	RETNLB	Paneth cells	PanglaoDB	https://panglaodb.se/	84666	resistin like beta
 Human	GPX2	Paneth cells	PanglaoDB	https://panglaodb.se/	2877	glutathione peroxidase 2
 Human	LGALS2	Paneth cells	PanglaoDB	https://panglaodb.se/	3957	galectin 2
-Human	SPINK4	Paneth cells	PanglaoDB	https://panglaodb.se/	27290	serine peptidase inhibitor, Kazal type 4
+Human	SPINK4	Paneth cells	PanglaoDB	https://panglaodb.se/	27290	serine peptidase inhibitor Kazal type 4
 Human	FABP4	Paneth cells	PanglaoDB	https://panglaodb.se/	2167	fatty acid binding protein 4
 Human	CFD	Paneth cells	PanglaoDB	https://panglaodb.se/	1675	complement factor D
 Human	ADIPOQ	Paneth cells	PanglaoDB	https://panglaodb.se/	9370	adiponectin, C1Q and collagen domain containing
@@ -13997,7 +13997,7 @@ Human	PTH1R	Pericytes	PanglaoDB	https://panglaodb.se/	5745	parathyroid hormone 1
 Human	IFITM1	Pericytes	PanglaoDB	https://panglaodb.se/	8519	interferon induced transmembrane protein 1
 Human	TBX18	Pericytes	PanglaoDB	https://panglaodb.se/	9096	T-box transcription factor 18
 Human	NT5E	Pericytes	PanglaoDB	https://panglaodb.se/	4907	5'-nucleotidase ecto
-Human	MFGE8	Pericytes	PanglaoDB	https://panglaodb.se/	4240	milk fat globule-EGF factor 8 protein
+Human	MFGE8	Pericytes	PanglaoDB	https://panglaodb.se/	4240	milk fat globule EGF and factor V/VIII domain containing
 Human	ALPL	Pericytes	PanglaoDB	https://panglaodb.se/	249	alkaline phosphatase, biomineralization associated
 Human	COL1A1	Pericytes	PanglaoDB	https://panglaodb.se/	1277	collagen type I alpha 1 chain
 Human	MYO1B	Pericytes	PanglaoDB	https://panglaodb.se/	4430	myosin IB
@@ -14042,18 +14042,18 @@ Human	ROM1	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	6094	retinal oute
 Human	CRX	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	1406	cone-rod homeobox
 Human	PDE6G	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	5148	phosphodiesterase 6G
 Human	TPBG	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	7162	trophoblast glycoprotein
-Human	GABRA1	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	2554	gamma-aminobutyric acid type A receptor alpha1 subunit
+Human	GABRA1	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	2554	gamma-aminobutyric acid type A receptor subunit alpha1
 Human	PCBP3	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	54039	poly(rC) binding protein 3
 Human	FRMD3	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	257019	FERM domain containing 3
 Human	ADAMTS5	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	11096	ADAM metallopeptidase with thrombospondin type 1 motif 5
 Human	RD3L	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	647286	retinal degeneration 3 like
-Human	GABRG2	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	2566	gamma-aminobutyric acid type A receptor gamma2 subunit
+Human	GABRG2	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	2566	gamma-aminobutyric acid type A receptor subunit gamma2
 Human	CNTN4	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	152330	contactin 4
 Human	RNF152	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	220441	ring finger protein 152
 Human	SYNE1	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	23345	spectrin repeat containing nuclear envelope protein 1
 Human	SEBOX	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	645832	SEBOX homeobox
 Human	HSPA12A	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	259217	heat shock protein family A (Hsp70) member 12A
-Human	CNTNAP2	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	26047	contactin associated protein like 2
+Human	CNTNAP2	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	26047	contactin associated protein 2
 Human	NLK	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	51701	nemo like kinase
 Human	NTNG1	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	22854	netrin G1
 Human	GLS	Photoreceptor cells	PanglaoDB	https://panglaodb.se/	2744	glutaminase
@@ -14488,23 +14488,23 @@ Human	TOB1	Podocytes	PanglaoDB	https://panglaodb.se/	10140	transducer of ERBB2, 
 Human	WSB2	Podocytes	PanglaoDB	https://panglaodb.se/	55884	WD repeat and SOCS box containing 2
 Human	EMC2	Podocytes	PanglaoDB	https://panglaodb.se/	9694	ER membrane protein complex subunit 2
 Human	EHD4	Podocytes	PanglaoDB	https://panglaodb.se/	30844	EH domain containing 4
-Human	ZFP91	Podocytes	PanglaoDB	https://panglaodb.se/	80829	ZFP91 zinc finger protein
+Human	ZFP91	Podocytes	PanglaoDB	https://panglaodb.se/	80829	ZFP91 zinc finger protein, atypical E3 ubiquitin ligase
 Human	ETF1	Podocytes	PanglaoDB	https://panglaodb.se/	2107	eukaryotic translation termination factor 1
 Human	EMC7	Podocytes	PanglaoDB	https://panglaodb.se/	56851	ER membrane protein complex subunit 7
 Human	LUC7L2	Podocytes	PanglaoDB	https://panglaodb.se/	51631	LUC7 like 2, pre-mRNA splicing factor
 Human	MAPT	Podocytes	PanglaoDB	https://panglaodb.se/	4137	microtubule associated protein tau
 Human	CDKN1C	Podocytes	PanglaoDB	https://panglaodb.se/	1028	cyclin dependent kinase inhibitor 1C
 Human	AQP2	Principal cells	PanglaoDB	https://panglaodb.se/	359	aquaporin 2
-Human	SCNN1A	Principal cells	PanglaoDB	https://panglaodb.se/	6337	sodium channel epithelial 1 alpha subunit
+Human	SCNN1A	Principal cells	PanglaoDB	https://panglaodb.se/	6337	sodium channel epithelial 1 subunit alpha
 Human	AQP3	Principal cells	PanglaoDB	https://panglaodb.se/	360	aquaporin 3 (Gill blood group)
 Human	KCNJ1	Principal cells	PanglaoDB	https://panglaodb.se/	3758	potassium inwardly rectifying channel subfamily J member 1
 Human	AVPR2	Principal cells	PanglaoDB	https://panglaodb.se/	554	arginine vasopressin receptor 2
-Human	SCNN1G	Principal cells	PanglaoDB	https://panglaodb.se/	6340	sodium channel epithelial 1 gamma subunit
+Human	SCNN1G	Principal cells	PanglaoDB	https://panglaodb.se/	6340	sodium channel epithelial 1 subunit gamma
 Human	HSD11B2	Principal cells	PanglaoDB	https://panglaodb.se/	3291	hydroxysteroid 11-beta dehydrogenase 2
 Human	FXYD4	Principal cells	PanglaoDB	https://panglaodb.se/	53828	FXYD domain containing ion transport regulator 4
 Human	APELA	Principal cells	PanglaoDB	https://panglaodb.se/	100506013	apelin receptor early endogenous ligand
 Human	NPNT	Principal cells	PanglaoDB	https://panglaodb.se/	255743	nephronectin
-Human	SCNN1B	Principal cells	PanglaoDB	https://panglaodb.se/	6338	sodium channel epithelial 1 beta subunit
+Human	SCNN1B	Principal cells	PanglaoDB	https://panglaodb.se/	6338	sodium channel epithelial 1 subunit beta
 Human	KCNE1	Principal cells	PanglaoDB	https://panglaodb.se/	3753	potassium voltage-gated channel subfamily E regulatory subunit 1
 Human	CDH16	Principal cells	PanglaoDB	https://panglaodb.se/	1014	cadherin 16
 Human	ADGRG1	Principal cells	PanglaoDB	https://panglaodb.se/	9289	adhesion G protein-coupled receptor G1
@@ -14616,10 +14616,10 @@ Human	MMP11	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	4320
 Human	ICAM1	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	3383	intercellular adhesion molecule 1
 Human	CTGF	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	1490	cellular communication network factor 2
 Human	SEMA3B	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	7869	semaphorin 3B
-Human	SCNN1B	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	6338	sodium channel epithelial 1 beta subunit
+Human	SCNN1B	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	6338	sodium channel epithelial 1 subunit beta
 Human	SEMA3E	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	9723	semaphorin 3E
-Human	SCNN1G	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	6340	sodium channel epithelial 1 gamma subunit
-Human	SCNN1A	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	6337	sodium channel epithelial 1 alpha subunit
+Human	SCNN1G	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	6340	sodium channel epithelial 1 subunit gamma
+Human	SCNN1A	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	6337	sodium channel epithelial 1 subunit alpha
 Human	COL4A4	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	1286	collagen type IV alpha 4 chain
 Human	CYP4B1	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	1580	cytochrome P450 family 4 subfamily B member 1
 Human	RTKN2	Pulmonary alveolar type I cells	PanglaoDB	https://panglaodb.se/	219790	rhotekin 2
@@ -14711,7 +14711,7 @@ Human	PVALB	Purkinje neurons	PanglaoDB	https://panglaodb.se/	5816	parvalbumin
 Human	SHANK2	Purkinje neurons	PanglaoDB	https://panglaodb.se/	22941	SH3 and multiple ankyrin repeat domains 2
 Human	CACNA2D2	Purkinje neurons	PanglaoDB	https://panglaodb.se/	9254	calcium voltage-gated channel auxiliary subunit alpha2delta 2
 Human	NKAIN4	Purkinje neurons	PanglaoDB	https://panglaodb.se/	128414	sodium/potassium transporting ATPase interacting 4
-Human	CNTNAP2	Purkinje neurons	PanglaoDB	https://panglaodb.se/	26047	contactin associated protein like 2
+Human	CNTNAP2	Purkinje neurons	PanglaoDB	https://panglaodb.se/	26047	contactin associated protein 2
 Human	TH	Purkinje neurons	PanglaoDB	https://panglaodb.se/	7054	tyrosine hydroxylase
 Human	CERK	Purkinje neurons	PanglaoDB	https://panglaodb.se/	64781	ceramide kinase
 Human	CD3G	Purkinje neurons	PanglaoDB	https://panglaodb.se/	917	CD3g molecule
@@ -14725,7 +14725,7 @@ Human	KCNMA1	Purkinje neurons	PanglaoDB	https://panglaodb.se/	3778	potassium cal
 Human	ADGRB1	Purkinje neurons	PanglaoDB	https://panglaodb.se/	575	adhesion G protein-coupled receptor B1
 Human	HCN1	Purkinje neurons	PanglaoDB	https://panglaodb.se/	348980	hyperpolarization activated cyclic nucleotide gated potassium channel 1
 Human	SLC24A2	Purkinje neurons	PanglaoDB	https://panglaodb.se/	25769	solute carrier family 24 member 2
-Human	GABRA1	Purkinje neurons	PanglaoDB	https://panglaodb.se/	2554	gamma-aminobutyric acid type A receptor alpha1 subunit
+Human	GABRA1	Purkinje neurons	PanglaoDB	https://panglaodb.se/	2554	gamma-aminobutyric acid type A receptor subunit alpha1
 Human	CLSTN3	Purkinje neurons	PanglaoDB	https://panglaodb.se/	9746	calsyntenin 3
 Human	SLC24A3	Purkinje neurons	PanglaoDB	https://panglaodb.se/	57419	solute carrier family 24 member 3
 Human	DLG4	Purkinje neurons	PanglaoDB	https://panglaodb.se/	1742	discs large MAGUK scaffold protein 4
@@ -14762,7 +14762,7 @@ Human	EMX1	Pyramidal cells	PanglaoDB	https://panglaodb.se/	2016	empty spiracles 
 Human	FEZF2	Pyramidal cells	PanglaoDB	https://panglaodb.se/	55079	FEZ family zinc finger 2
 Human	NRGN	Pyramidal cells	PanglaoDB	https://panglaodb.se/	4900	neurogranin
 Human	GRIA3	Pyramidal cells	PanglaoDB	https://panglaodb.se/	2892	glutamate ionotropic receptor AMPA type subunit 3
-Human	SPINK8	Pyramidal cells	PanglaoDB	https://panglaodb.se/	646424	serine peptidase inhibitor, Kazal type 8 (putative)
+Human	SPINK8	Pyramidal cells	PanglaoDB	https://panglaodb.se/	646424	serine peptidase inhibitor Kazal type 8 (putative)
 Human	PCP4	Pyramidal cells	PanglaoDB	https://panglaodb.se/	5121	Purkinje cell protein 4
 Human	SYNPR	Pyramidal cells	PanglaoDB	https://panglaodb.se/	132204	synaptoporin
 Human	NR4A2	Pyramidal cells	PanglaoDB	https://panglaodb.se/	4929	nuclear receptor subfamily 4 group A member 2
@@ -14995,11 +14995,11 @@ Human	CLDN19	Schwann cells	PanglaoDB	https://panglaodb.se/	149461	claudin 19
 Human	PRX	Schwann cells	PanglaoDB	https://panglaodb.se/	57716	periaxin
 Human	NTRK1	Schwann cells	PanglaoDB	https://panglaodb.se/	4914	neurotrophic receptor tyrosine kinase 1
 Human	ART3	Schwann cells	PanglaoDB	https://panglaodb.se/	419	ADP-ribosyltransferase 3
-Human	BCAS1	Schwann cells	PanglaoDB	https://panglaodb.se/	8537	breast carcinoma amplified sequence 1
+Human	BCAS1	Schwann cells	PanglaoDB	https://panglaodb.se/	8537	brain enriched myelin associated protein 1
 Human	NPY	Schwann cells	PanglaoDB	https://panglaodb.se/	4852	neuropeptide Y
 Human	ASPA	Schwann cells	PanglaoDB	https://panglaodb.se/	443	aspartoacylase
 Human	LGI4	Schwann cells	PanglaoDB	https://panglaodb.se/	163175	leucine rich repeat LGI family member 4
-Human	BAG3	Schwann cells	PanglaoDB	https://panglaodb.se/	9531	BCL2 associated athanogene 3
+Human	BAG3	Schwann cells	PanglaoDB	https://panglaodb.se/	9531	BAG cochaperone 3
 Human	RXRG	Schwann cells	PanglaoDB	https://panglaodb.se/	6258	retinoid X receptor gamma
 Human	SOX10	Schwann cells	PanglaoDB	https://panglaodb.se/	6663	SRY-box transcription factor 10
 Human	CMTM5	Schwann cells	PanglaoDB	https://panglaodb.se/	116173	CKLF like MARVEL transmembrane domain containing 5
@@ -15175,7 +15175,7 @@ Human	SEC24D	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	9871	SEC24 homo
 Human	KCNAB1	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	7881	potassium voltage-gated channel subfamily A member regulatory beta subunit 1
 Human	MYLK4	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	340156	myosin light chain kinase family member 4
 Human	KIF1C	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	10749	kinesin family member 1C
-Human	MRVI1	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	10335	murine retrovirus integration site 1 homolog
+Human	MRVI1	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	10335	inositol 1,4,5-triphosphate receptor associated 1
 Human	JPH2	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	57158	junctophilin 2
 Human	ITGA9	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	3680	integrin subunit alpha 9
 Human	KCNMB1	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	3779	potassium calcium-activated channel subfamily M regulatory beta subunit 1
@@ -15223,7 +15223,7 @@ Human	PRM2	Spermatocytes	PanglaoDB	https://panglaodb.se/	5620	protamine 2
 Human	IGF2	Spermatocytes	PanglaoDB	https://panglaodb.se/	3481	insulin like growth factor 2
 Human	TNP1	Spermatocytes	PanglaoDB	https://panglaodb.se/	7141	transition protein 1
 Human	OSR2	Spermatocytes	PanglaoDB	https://panglaodb.se/	116039	odd-skipped related transciption factor 2
-Human	ABHD2	Spermatozoa	PanglaoDB	https://panglaodb.se/	11057	abhydrolase domain containing 2
+Human	ABHD2	Spermatozoa	PanglaoDB	https://panglaodb.se/	11057	abhydrolase domain containing 2, acylglycerol lipase
 Human	HVCN1	Spermatozoa	PanglaoDB	https://panglaodb.se/	84329	hydrogen voltage gated channel 1
 Human	GPR55	Spermatozoa	PanglaoDB	https://panglaodb.se/	9290	G protein-coupled receptor 55
 Human	ABCA1	Spermatozoa	PanglaoDB	https://panglaodb.se/	19	ATP binding cassette subfamily A member 1
@@ -15609,7 +15609,7 @@ Human	CTNNB1	Transient cells	PanglaoDB	https://panglaodb.se/	1499	catenin beta 1
 Human	ACO2	Transient cells	PanglaoDB	https://panglaodb.se/	50	aconitase 2
 Human	SMPD1	Transient cells	PanglaoDB	https://panglaodb.se/	6609	sphingomyelin phosphodiesterase 1
 Human	OGDH	Transient cells	PanglaoDB	https://panglaodb.se/	4967	oxoglutarate dehydrogenase
-Human	SEC23B	Transient cells	PanglaoDB	https://panglaodb.se/	10483	SEC23 homolog B, coat complex II component
+Human	SEC23B	Transient cells	PanglaoDB	https://panglaodb.se/	10483	SEC23 homolog B, COPII coat complex component
 Human	CDC42BPB	Transient cells	PanglaoDB	https://panglaodb.se/	9578	CDC42 binding protein kinase beta
 Human	PIP4K2C	Transient cells	PanglaoDB	https://panglaodb.se/	79837	phosphatidylinositol-5-phosphate 4-kinase type 2 gamma
 Human	KRT86	Trichocytes	PanglaoDB	https://panglaodb.se/	3892	keratin 86
@@ -15704,7 +15704,7 @@ Human	POU2F3	Tuft cells	PanglaoDB	https://panglaodb.se/	25833	POU class 2 homeob
 Human	CDHR2	Tuft cells	PanglaoDB	https://panglaodb.se/	54825	cadherin related family member 2
 Human	AVIL	Tuft cells	PanglaoDB	https://panglaodb.se/	10677	advillin
 Human	ESPN	Tuft cells	PanglaoDB	https://panglaodb.se/	83715	espin
-Human	LRMP	Tuft cells	PanglaoDB	https://panglaodb.se/	4033	lymphoid restricted membrane protein
+Human	LRMP	Tuft cells	PanglaoDB	https://panglaodb.se/	4033	inositol 1,4,5-triphosphate receptor associated 2
 Human	TRPM5	Tuft cells	PanglaoDB	https://panglaodb.se/	29850	transient receptor potential cation channel subfamily M member 5
 Human	DCLK1	Tuft cells	PanglaoDB	https://panglaodb.se/	9201	doublecortin like kinase 1
 Human	TAS1R3	Tuft cells	PanglaoDB	https://panglaodb.se/	83756	taste 1 receptor member 3
