@@ -1600,8 +1600,6 @@ GO:0015215	GO:0015215,GO-molecular_function,7227,nucleotide transmembrane transp
 GO:0005338	GO:0005338,GO-molecular_function,7227,nucleotide-sugar transmembrane transporter activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0005338	31255	31553	33734	39943	40981
 GO:0016779	GO:0016779,GO-molecular_function,7227,nucleotidyltransferase activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0016779	31081	31156	31795	32100	32152	32379	33285	33897	33903	33935	33963	34187	34716	34792	34796	34876	35043	35196	36160	36722	36730	38079	38180	38228	38647	38661	38942	38955	39065	39310	39746	39941	40002	40167	40325	40415	40438	40599	40707	40847	40965	41542	41571	41721	41741	42201	42553	42602	42758	42942	42983	42987	43278	43950	44915	47186	48312	49636	117353	246653	261631	317923	2768668	5740790	14462484
 GO:0045735	GO:0045735,GO-molecular_function,7227,nutrient reservoir activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0045735	34259
-GO:0050662	GO:0050662,GO-molecular_function,7227,obsolete coenzyme binding,_,_,http://amigo.geneontology.org/amigo/term/GO:0050662	36400	37638	40268	40272	42831
-GO:0048037	GO:0048037,GO-molecular_function,7227,obsolete cofactor binding,_,_,http://amigo.geneontology.org/amigo/term/GO:0048037	36760	38447	42092	42326
 GO:0004552	GO:0004552,GO-molecular_function,7227,octanol dehydrogenase activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0004552	41311
 GO:0016415	GO:0016415,GO-molecular_function,7227,octanoyltransferase activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0016415	43332
 GO:0004989	GO:0004989,GO-molecular_function,7227,octopamine receptor activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0004989	41549	42258	42452	42652	43982	3885573

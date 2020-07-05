@@ -190,8 +190,8 @@ GO:0042853	GO:0042853,GO-biological_process,562,L-alanine catabolic process,_,_,
 GO:0042851	GO:0042851,GO-biological_process,562,L-alanine metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0042851	945752	945754	946772	946850	948087
 GO:0019480	GO:0019480,GO-biological_process,562,L-alanine oxidation to pyruvate via D-alanine,_,_,http://amigo.geneontology.org/amigo/term/GO:0019480	945752	945754
 GO:0015808	GO:0015808,GO-biological_process,562,L-alanine transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0015808	947147	948725
-GO:1902475	GO:1902475,GO-biological_process,562,L-alpha-amino acid transmembrane transport,_,_,http://amigo.geneontology.org/amigo/term/GO:1902475	944894	944896	945042	945093	945111	945422	945489	946157	946789	946938	947142	947147	947235	947878	947961	947965	947966	947967	948039	948166	948654	948656	948659	948981	949046	949066
-GO:0015807	GO:0015807,GO-biological_process,562,L-amino acid transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0015807	944894	944896	945042	945093	945111	945422	945489	946157	946238	946422	946667	946789	946938	947045	947142	947147	947235	947418	947629	947878	947961	947965	947966	947967	948039	948166	948316	948654	948656	948659	948725	948833	948981	949030	949046	949066	949105
+GO:1902475	GO:1902475,GO-biological_process,562,L-alpha-amino acid transmembrane transport,_,_,http://amigo.geneontology.org/amigo/term/GO:1902475	944894	944896	945042	945093	945111	945422	945489	945770	946157	946789	946938	947142	947147	947235	947878	947961	947965	947966	947967	948039	948166	948591	948654	948656	948659	948981	949046	949066
+GO:0015807	GO:0015807,GO-biological_process,562,L-amino acid transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0015807	944894	944896	945042	945093	945111	945422	945489	945770	946157	946238	946422	946667	946789	946938	947045	947142	947147	947235	947418	947629	947878	947961	947965	947966	947967	948039	948166	948316	948591	948654	948656	948659	948725	948833	948981	949030	949046	949066	949105
 GO:0019569	GO:0019569,GO-biological_process,562,L-arabinose catabolic process to xylulose 5-phosphate,_,_,http://amigo.geneontology.org/amigo/term/GO:0019569	945294	946017	947511
 GO:0019572	GO:0019572,GO-biological_process,562,L-arabinose catabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0019572	945294	946017	947511	948099
 GO:0046373	GO:0046373,GO-biological_process,562,L-arabinose metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0046373	945294	946017	947511	948099
@@ -206,7 +206,7 @@ GO:0015882	GO:0015882,GO-biological_process,562,L-ascorbic acid transmembrane tr
 GO:0070981	GO:0070981,GO-biological_process,562,L-asparagine biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0070981	945281	948258
 GO:0070982	GO:0070982,GO-biological_process,562,L-asparagine metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0070982	945281	948258
 GO:0140009	GO:0140009,GO-biological_process,562,L-aspartate import across plasma membrane,_,_,http://amigo.geneontology.org/amigo/term/GO:0140009	948659
-GO:0070778	GO:0070778,GO-biological_process,562,L-aspartate transmembrane transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0070778	946938	948039	948659
+GO:0070778	GO:0070778,GO-biological_process,562,L-aspartate transmembrane transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0070778	945770	946938	948039	948659
 GO:0019450	GO:0019450,GO-biological_process,562,L-cysteine catabolic process to pyruvate,_,_,http://amigo.geneontology.org/amigo/term/GO:0019450	946240	2847723
 GO:0019448	GO:0019448,GO-biological_process,562,L-cysteine catabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0019448	946240	2847723
 GO:0046439	GO:0046439,GO-biological_process,562,L-cysteine metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0046439	946240	2847723
@@ -216,7 +216,7 @@ GO:0042354	GO:0042354,GO-biological_process,562,L-fucose metabolic process,_,_,h
 GO:0034195	GO:0034195,GO-biological_process,562,L-galactonate catabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0034195	948883
 GO:0034193	GO:0034193,GO-biological_process,562,L-galactonate metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0034193	948883
 GO:0097054	GO:0097054,GO-biological_process,562,L-glutamate biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0097054	947723	947724
-GO:0015813	GO:0015813,GO-biological_process,562,L-glutamate transmembrane transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0015813	946938	948166
+GO:0015813	GO:0015813,GO-biological_process,562,L-glutamate transmembrane transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0015813	946938	948166	948591
 GO:1903810	GO:1903810,GO-biological_process,562,L-histidine import across plasma membrane,_,_,http://amigo.geneontology.org/amigo/term/GO:1903810	946789	947235
 GO:0089709	GO:0089709,GO-biological_process,562,L-histidine transmembrane transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0089709	946789	947235
 GO:0046183	GO:0046183,GO-biological_process,562,L-idonate catabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0046183	944769	946066	947109	948798
@@ -1713,9 +1713,6 @@ GO:0033683	GO:0033683,GO-biological_process,562,nucleotide-excision repair, DNA 
 GO:0006289	GO:0006289,GO-biological_process,562,nucleotide-excision repair,_,_,http://amigo.geneontology.org/amigo/term/GO:0006289	945320	945385	945681	946765	947203	948347	948559	948996
 GO:0009226	GO:0009226,GO-biological_process,562,nucleotide-sugar biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0009226	944840	944879	945154	945276	945290	945539	946562	946563	946571	946574	946580	947117	947482	947683	947692	947703	948134	948241	948246
 GO:0009225	GO:0009225,GO-biological_process,562,nucleotide-sugar metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0009225	944840	944879	945154	945276	945290	945539	945730	946560	946562	946563	946571	946574	946580	947117	947482	947683	947692	947703	948045	948053	948134	948241	948246	948300
-GO:0009108	GO:0009108,GO-biological_process,562,obsolete coenzyme biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0009108	949033
-GO:0051182	GO:0051182,GO-biological_process,562,obsolete coenzyme transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0051182	946506
-GO:0051188	GO:0051188,GO-biological_process,562,obsolete cofactor biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0051188	946519	947194	949033
 GO:0035672	GO:0035672,GO-biological_process,562,oligopeptide transmembrane transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0035672	944808	945457	945460	945461	945504	945883	945912	946028	946044	946083	946191	946506	946679	946683	946689	947368	947436	947986	947990	948006	948056	948062	948063	948064	948065	948644	949052
 GO:0006857	GO:0006857,GO-biological_process,562,oligopeptide transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0006857	944808	945457	945459	945460	945461	945504	945830	945883	945912	945951	946028	946044	946083	946191	946506	946675	946679	946683	946689	947368	947436	947986	947990	948006	948056	948062	948063	948064	948065	948644	949052
 GO:0009312	GO:0009312,GO-biological_process,562,oligosaccharide biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0009312	944805	944816	944838	944849	944879	944882	944888	945143	945275	945334	945344	945526	945674	945730	946216	946360	946405	946406	946693	946847	947297	947375	947683	948068	948134	948135	948136	948142	948143	948144	948145	948146	948147	948148	948149	948150	948151	948155	948246	948458	948629	949048	949053	1450282

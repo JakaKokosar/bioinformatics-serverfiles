@@ -1402,7 +1402,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811362	GO:0005759	IDA	-	mitochondrial matrix	15612914	Component
 36329	811362	GO:0017086	IDA	-	3-methyl-2-oxobutanoate dehydrogenase (lipoamide) complex	15612914	Component
 36329	811362	GO:0042803	IDA	-	protein homodimerization activity	15612914	Function
-36329	811362	GO:0048037	IDA	-	cofactor binding	15612914	Function
 36329	811362	GO:0055114	ISS	-	oxidation-reduction process	12368867	Process
 36329	811363	GO:0009055	ISS	-	electron transfer activity	12368867	Function
 36329	811363	GO:0016020	IDA	-	membrane	20493843	Component
@@ -5201,7 +5200,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	2655265	GO:0020011	IDA	-	apicoplast	15612914	Component
 36329	2655265	GO:0042803	IDA	-	protein homodimerization activity	15612914	Function
 36329	2655265	GO:0045254	ISS	-	pyruvate dehydrogenase complex	15612915	Component
-36329	2655265	GO:0048037	IDA	-	cofactor binding	15612914	Function
 36329	2655266	GO:0010564	IDA	-	regulation of cell cycle process	19502583	Process
 36329	2655266	GO:0016887	IDA	-	ATPase activity	19502583	Function
 36329	2655266	GO:0020011	IDA	-	apicoplast	19502583	Component

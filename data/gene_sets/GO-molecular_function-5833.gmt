@@ -557,7 +557,6 @@ GO:0004551	GO:0004551,GO-molecular_function,5833,nucleotide diphosphatase activi
 GO:0015215	GO:0015215,GO-molecular_function,5833,nucleotide transmembrane transporter activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0015215	810209	810523
 GO:0005338	GO:0005338,GO-molecular_function,5833,nucleotide-sugar transmembrane transporter activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0005338	810688
 GO:0016779	GO:0016779,GO-molecular_function,5833,nucleotidyltransferase activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0016779	810305	810323	810426	810519	810811	810905	811119	811186	811678	811693	811725	811731	811789	811948	812184	812277	812588	812647	812744	812845	813238	813512	813775	814002	814019	814061	814120	814129	814218	814300	814350	814397	814496	2655063	2655378	3885687	3885690	3885768
-GO:0048037	GO:0048037,GO-molecular_function,5833,obsolete cofactor binding,_,_,http://amigo.geneontology.org/amigo/term/GO:0048037	811362	2655265
 GO:1900750	GO:1900750,GO-molecular_function,5833,oligopeptide binding,_,_,http://amigo.geneontology.org/amigo/term/GO:1900750	813255
 GO:0004576	GO:0004576,GO-molecular_function,5833,oligosaccharyl transferase activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0004576	810720
 GO:0008242	GO:0008242,GO-molecular_function,5833,omega peptidase activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0008242	812982	813087
