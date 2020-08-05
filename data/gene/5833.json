@@ -15,7 +15,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20200509",
+    "modification_date": "20200725",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -4201,7 +4201,7 @@
     "other_designations": [
       "autophagy-related protein 8"
     ],
-    "modification_date": "20200511",
+    "modification_date": "20200607",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -25263,7 +25263,7 @@
     "other_designations": [
       "dihydrolipoyl dehydrogenase, mitochondrial"
     ],
-    "modification_date": "20200511",
+    "modification_date": "20200604",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -36923,7 +36923,7 @@
     "other_designations": [
       "Hsp70/Hsp90 organizing protein"
     ],
-    "modification_date": "20200511",
+    "modification_date": "20200718",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -48168,7 +48168,7 @@
     "other_designations": [
       "glideosome associated protein with multiple membrane spans 2"
     ],
-    "modification_date": "20200511",
+    "modification_date": "20200721",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -49788,7 +49788,7 @@
     "other_designations": [
       "small GTP-binding protein sar1"
     ],
-    "modification_date": "20200511",
+    "modification_date": "20200607",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -53285,7 +53285,7 @@
     "other_designations": [
       "conserved protein, unknown function"
     ],
-    "modification_date": "20200511",
+    "modification_date": "20200801",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -57411,7 +57411,7 @@
     "other_designations": [
       "mature parasite-infected erythrocyte surface antigen"
     ],
-    "modification_date": "20200511",
+    "modification_date": "20200613",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -66198,7 +66198,7 @@
     "other_designations": [
       "autophagy-related protein 3, putative"
     ],
-    "modification_date": "20200511",
+    "modification_date": "20200607",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -73643,7 +73643,7 @@
       "glideosome associated protein with multiple membrane spans 1",
       "secreted ookinete protein, putative"
     ],
-    "modification_date": "20200511",
+    "modification_date": "20200721",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -82535,7 +82535,7 @@
     "other_designations": [
       "plasmepsin V"
     ],
-    "modification_date": "20200511",
+    "modification_date": "20200613",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -99064,7 +99064,7 @@
     "other_designations": [
       "dihydrolipoyl dehydrogenase, apicoplast"
     ],
-    "modification_date": "20200511",
+    "modification_date": "20200604",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -102144,7 +102144,7 @@
     "other_designations": [
       "Dpy-19-like C-mannosyltransferase, putative"
     ],
-    "modification_date": "20200511",
+    "modification_date": "20200711",
     "homology_group_id": null,
     "homologs": {}
   },
