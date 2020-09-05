@@ -251,6 +251,7 @@ GO:0046483	GO:0046483,GO-biological_process,4530,heterocycle metabolic process,_
 GO:0019319	GO:0019319,GO-biological_process,4530,hexose biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0019319	4334290	4340677
 GO:0019318	GO:0019318,GO-biological_process,4530,hexose metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0019318	4325200	4334290	4340677
 GO:0042592	GO:0042592,GO-biological_process,4530,homeostatic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0042592	4342826
+GO:0007129	GO:0007129,GO-biological_process,4530,homologous chromosome pairing at meiosis,_,_,http://amigo.geneontology.org/amigo/term/GO:0007129	4347514
 GO:0045143	GO:0045143,GO-biological_process,4530,homologous chromosome segregation,_,_,http://amigo.geneontology.org/amigo/term/GO:0045143	4347514
 GO:0035825	GO:0035825,GO-biological_process,4530,homologous recombination,_,_,http://amigo.geneontology.org/amigo/term/GO:0035825	4351482
 GO:0042445	GO:0042445,GO-biological_process,4530,hormone metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0042445	4330018
@@ -590,7 +591,6 @@ GO:0019827	GO:0019827,GO-biological_process,4530,stem cell population maintenanc
 GO:0005986	GO:0005986,GO-biological_process,4530,sucrose biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0005986	4335790
 GO:0005985	GO:0005985,GO-biological_process,4530,sucrose metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0005985	4335790
 GO:0006801	GO:0006801,GO-biological_process,4530,superoxide metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0006801	4340091
-GO:0007129	GO:0007129,GO-biological_process,4530,synapsis,_,_,http://amigo.geneontology.org/amigo/term/GO:0007129	4347514
 GO:0048731	GO:0048731,GO-biological_process,4530,system development,_,_,http://amigo.geneontology.org/amigo/term/GO:0048731	4325772	4327304	4330018	4336591	4340185	4340310	4341462	4342080	4342787	9266285
 GO:0006418	GO:0006418,GO-biological_process,4530,tRNA aminoacylation for protein translation,_,_,http://amigo.geneontology.org/amigo/term/GO:0006418	4341140	4346642	4349339
 GO:0043039	GO:0043039,GO-biological_process,4530,tRNA aminoacylation,_,_,http://amigo.geneontology.org/amigo/term/GO:0043039	4341140	4346642	4349339

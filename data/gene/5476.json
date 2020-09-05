@@ -15,7 +15,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20200530",
+    "modification_date": "20200704",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -6150,7 +6150,7 @@
     "other_designations": [
       "Kre9p"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200801",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -34876,7 +34876,7 @@
     "other_designations": [
       "metalloendopeptidase"
     ],
-    "modification_date": "20180406",
+    "modification_date": "20200607",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -72580,7 +72580,7 @@
     "other_designations": [
       "glutamate dehydrogenase (NAD(+))"
     ],
-    "modification_date": "20180405",
+    "modification_date": "20200627",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -125986,7 +125986,7 @@
     "other_designations": [
       "glutamate dehydrogenase (NADP(+))"
     ],
-    "modification_date": "20190505",
+    "modification_date": "20200627",
     "homology_group_id": null,
     "homologs": {}
   },
