@@ -251,10 +251,14 @@ GO:0046483	GO:0046483,GO-biological_process,4530,heterocycle metabolic process,_
 GO:0019319	GO:0019319,GO-biological_process,4530,hexose biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0019319	4334290	4340677
 GO:0019318	GO:0019318,GO-biological_process,4530,hexose metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0019318	4325200	4334290	4340677
 GO:0042592	GO:0042592,GO-biological_process,4530,homeostatic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0042592	4342826
+GO:0007129	GO:0007129,GO-biological_process,4530,homologous chromosome pairing at meiosis,_,_,http://amigo.geneontology.org/amigo/term/GO:0007129	4347514
 GO:0045143	GO:0045143,GO-biological_process,4530,homologous chromosome segregation,_,_,http://amigo.geneontology.org/amigo/term/GO:0045143	4347514
 GO:0035825	GO:0035825,GO-biological_process,4530,homologous recombination,_,_,http://amigo.geneontology.org/amigo/term/GO:0035825	4351482
 GO:0042445	GO:0042445,GO-biological_process,4530,hormone metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0042445	4330018
 GO:0009755	GO:0009755,GO-biological_process,4530,hormone-mediated signaling pathway,_,_,http://amigo.geneontology.org/amigo/term/GO:0009755	4327304	4337295	9266483	9272536	107277215	107278571	107278576	107278599
+GO:0120251	GO:0120251,GO-biological_process,4530,hydrocarbon biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0120251	4335090
+GO:0120253	GO:0120253,GO-biological_process,4530,hydrocarbon catabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0120253	4336591
+GO:0120252	GO:0120252,GO-biological_process,4530,hydrocarbon metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0120252	4335090	4336591
 GO:0010229	GO:0010229,GO-biological_process,4530,inflorescence development,_,_,http://amigo.geneontology.org/amigo/term/GO:0010229	4340185	4341462	9266285
 GO:0015698	GO:0015698,GO-biological_process,4530,inorganic anion transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0015698	4337963	4352546
 GO:0098662	GO:0098662,GO-biological_process,4530,inorganic cation transmembrane transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0098662	4324550	4331015	4341645	4343288	6450195
@@ -364,6 +368,8 @@ GO:0034728	GO:0034728,GO-biological_process,4530,nucleosome organization,_,_,htt
 GO:0009165	GO:0009165,GO-biological_process,4530,nucleotide biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0009165	3131462	4327833	4341660	4343288	6450195
 GO:0009117	GO:0009117,GO-biological_process,4530,nucleotide metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0009117	3131462	4325027	4326074	4327833	4331495	4334290	4336044	4339856	4340677	4341660	4343288	4349897	6450195	107276834
 GO:0046939	GO:0046939,GO-biological_process,4530,nucleotide phosphorylation,_,_,http://amigo.geneontology.org/amigo/term/GO:0046939	4325027	4326074	4331495	4334290	4336044	4339856	4340677	4349897	107276834
+GO:0120255	GO:0120255,GO-biological_process,4530,olefinic compound biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0120255	4335984
+GO:0120254	GO:0120254,GO-biological_process,4530,olefinic compound metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0120254	4335984
 GO:0006857	GO:0006857,GO-biological_process,4530,oligopeptide transport,_,_,http://amigo.geneontology.org/amigo/term/GO:0006857	4326444	4327022	4332183	4347971	4348111	4349339	4349517	9272029	107277983
 GO:0009312	GO:0009312,GO-biological_process,4530,oligosaccharide biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0009312	4335790
 GO:0009311	GO:0009311,GO-biological_process,4530,oligosaccharide metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0009311	4335790
@@ -590,7 +596,6 @@ GO:0019827	GO:0019827,GO-biological_process,4530,stem cell population maintenanc
 GO:0005986	GO:0005986,GO-biological_process,4530,sucrose biosynthetic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0005986	4335790
 GO:0005985	GO:0005985,GO-biological_process,4530,sucrose metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0005985	4335790
 GO:0006801	GO:0006801,GO-biological_process,4530,superoxide metabolic process,_,_,http://amigo.geneontology.org/amigo/term/GO:0006801	4340091
-GO:0007129	GO:0007129,GO-biological_process,4530,synapsis,_,_,http://amigo.geneontology.org/amigo/term/GO:0007129	4347514
 GO:0048731	GO:0048731,GO-biological_process,4530,system development,_,_,http://amigo.geneontology.org/amigo/term/GO:0048731	4325772	4327304	4330018	4336591	4340185	4340310	4341462	4342080	4342787	9266285
 GO:0006418	GO:0006418,GO-biological_process,4530,tRNA aminoacylation for protein translation,_,_,http://amigo.geneontology.org/amigo/term/GO:0006418	4341140	4346642	4349339
 GO:0043039	GO:0043039,GO-biological_process,4530,tRNA aminoacylation,_,_,http://amigo.geneontology.org/amigo/term/GO:0043039	4341140	4346642	4349339
