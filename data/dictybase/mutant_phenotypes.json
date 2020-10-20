@@ -42,7 +42,7 @@
         ],
         "phenotypes": [
             "aberrant cellular response to fluid shear stress",
-            "aberrant post-lysosome organization and biogenesis",
+            "aberrant post-lysosomal vacuole organization and biogenesis",
             "increased growth rate"
         ],
         "mutant_types": {
@@ -115,9 +115,9 @@
             "5NT"
         ],
         "phenotypes": [
-            "multiple tips in culminant",
-            "delayed tip formation",
-            "multiple tips in mound"
+            "increased number of tips in mound",
+            "increased number of tips in culminant",
+            "delayed tip development"
         ],
         "mutant_types": {
             "null": true,
@@ -1603,6 +1603,7 @@
         "phenotypes": [
             "increased protein localization",
             "increased protein phosphorylation",
+            "increased number of tips in mound",
             "increased contractile vacuole size",
             "decreased defense response to Gram-negative bacterium",
             "aberrant contractile vacuole discharge",
@@ -1613,7 +1614,6 @@
             "aberrant vacuole organization and biogenesis",
             "decreased protein localization",
             "increased cell motility",
-            "multiple tips in mound",
             "increased activation of GTPase activity"
         ],
         "mutant_types": {
@@ -1665,8 +1665,8 @@
             "Dd5P4"
         ],
         "phenotypes": [
-            "decreased growth rate",
-            "multiple tips in mound"
+            "increased number of tips in mound",
+            "decreased growth rate"
         ],
         "mutant_types": {
             "null": true,
@@ -1685,7 +1685,7 @@
         "phenotypes": [
             "increased contractile vacuole size",
             "aberrant contractile vacuole discharge",
-            "aberrant protein localization"
+            "aberrant localization to contractile vacuole membrane"
         ],
         "mutant_types": {
             "null": true,
@@ -1736,8 +1736,8 @@
             "Dd5P4"
         ],
         "phenotypes": [
-            "decreased growth rate",
-            "multiple tips in mound"
+            "increased number of tips in mound",
+            "decreased growth rate"
         ],
         "mutant_types": {
             "null": true,
@@ -1788,25 +1788,6 @@
         }
     },
     {
-        "systematic_name": "DBS0235940",
-        "strain_descriptor": "EB1-",
-        "associated_genes": [
-            "eb1"
-        ],
-        "phenotypes": [
-            "aberrant mitosis",
-            "aberrant cytokinesis",
-            "aberrant protein localization"
-        ],
-        "mutant_types": {
-            "null": true,
-            "overexpression": false,
-            "multiple ": false,
-            "other": false,
-            "developmental": false
-        }
-    },
-    {
         "systematic_name": "CW0391",
         "strain_descriptor": "FLAG-VwkA",
         "associated_genes": [
@@ -1814,10 +1795,10 @@
         ],
         "phenotypes": [
             "increased myosin II assembly",
-            "aberrant response to hypo-osmotic stress",
             "decreased growth rate",
             "aberrant cytokinesis",
             "development arrests at mound stage",
+            "aberrant hypotonic response",
             "increased protein level"
         ],
         "mutant_types": {
@@ -1835,9 +1816,8 @@
             "tmcB"
         ],
         "phenotypes": [
-            "small macrocysts",
-            "increased number of peripheral cells during sexual reproduction",
-            "aberrant aggregation during macrocyst formation"
+            "decreased macrocyst size",
+            "aberrant macrocyst formation"
         ],
         "mutant_types": {
             "null": true,
@@ -1854,9 +1834,8 @@
             "tmcB"
         ],
         "phenotypes": [
-            "small macrocysts",
-            "increased number of peripheral cells during sexual reproduction",
-            "aberrant aggregation during macrocyst formation"
+            "decreased macrocyst size",
+            "aberrant macrocyst formation"
         ],
         "mutant_types": {
             "null": true,
@@ -1873,8 +1852,7 @@
             "tmcC"
         ],
         "phenotypes": [
-            "increased number of peripheral cells during sexual reproduction",
-            "aberrant aggregation during macrocyst formation"
+            "aberrant macrocyst formation"
         ],
         "mutant_types": {
             "null": true,
@@ -1891,8 +1869,7 @@
             "tmcC"
         ],
         "phenotypes": [
-            "increased number of peripheral cells during sexual reproduction",
-            "aberrant aggregation during macrocyst formation"
+            "aberrant macrocyst formation"
         ],
         "mutant_types": {
             "null": true,
@@ -1944,8 +1921,8 @@
             "pcp"
         ],
         "phenotypes": [
-            "aberrant response to hypo-osmotic stress",
-            "aberrant contractile vacuole morphology"
+            "aberrant contractile vacuole morphology",
+            "aberrant hypotonic response"
         ],
         "mutant_types": {
             "null": false,
@@ -1962,7 +1939,7 @@
             "phgA"
         ],
         "phenotypes": [
-            "aberrant response to hypo-osmotic stress"
+            "aberrant hypotonic response"
         ],
         "mutant_types": {
             "null": true,
@@ -7137,7 +7114,7 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "delayed response to hypo-osmotic stress",
+            "delayed hypotonic response",
             "decreased number of vacuoles",
             "aberrant vacuole organization and biogenesis",
             "abolished aggregation",
@@ -7720,11 +7697,11 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "aberrant response to hyperosmotic stress",
             "abolished growth",
             "aberrant osmosensory signaling pathway",
             "decreased phagocytosis",
-            "increased basal phosphorylated actin level"
+            "increased basal phosphorylated actin level",
+            "aberrant hypertonic response"
         ],
         "mutant_types": {
             "null": false,
@@ -7877,8 +7854,8 @@
         "phenotypes": [
             "aberrant cellular process",
             "decreased growth rate",
+            "aberrant sorocarp development",
             "increased macropinocytosis",
-            "aberrant development",
             "increased phagocytosis"
         ],
         "mutant_types": {
@@ -7914,8 +7891,8 @@
         ],
         "phenotypes": [
             "delayed aggregation",
-            "aberrant response to chemical stimulus",
-            "aberrant slug migration"
+            "aberrant slug migration",
+            "aberrant response to chemical"
         ],
         "mutant_types": {
             "null": false,
@@ -8020,8 +7997,8 @@
             "rab21"
         ],
         "phenotypes": [
-            "aberrant cytoskeleton organisation",
-            "decreased phagocytosis"
+            "decreased phagocytosis",
+            "aberrant cytoskeleton organization"
         ],
         "mutant_types": {
             "null": false,
@@ -8110,7 +8087,7 @@
             "gpaE"
         ],
         "phenotypes": [
-            "precocious tip formation",
+            "precocious tip development",
             "precocious gene expression"
         ],
         "mutant_types": {
@@ -8218,9 +8195,9 @@
             "pdiA"
         ],
         "phenotypes": [
-            "aberrant tip formation",
-            "abolished slug formation",
-            "abolished culmination"
+            "aberrant tip development",
+            "abolished culmination",
+            "abolished slug development"
         ],
         "mutant_types": {
             "null": false,
@@ -8594,7 +8571,7 @@
             "canA"
         ],
         "phenotypes": [
-            "multiple tips in culminant",
+            "increased number of tips in culminant",
             "aberrant response to cation stress",
             "increased defense response to Gram-negative bacterium",
             "decreased fruiting body size",
@@ -8634,7 +8611,7 @@
             "cnbA"
         ],
         "phenotypes": [
-            "multiple tips in culminant",
+            "increased number of tips in culminant",
             "decreased gene expression",
             "aberrant response to cation stress",
             "increased defense response to Gram-negative bacterium",
@@ -8656,11 +8633,11 @@
             "ctnnA"
         ],
         "phenotypes": [
+            "abolished stalk development",
             "aberrant protein secretion",
-            "aberrant tip formation",
             "aberrant Golgi localization",
-            "abolished stalk formation",
             "aberrant centrosome localization",
+            "aberrant tip development",
             "abolished culmination",
             "abolished cell polarity",
             "aberrant protein localization"
@@ -8734,9 +8711,9 @@
             "fttB"
         ],
         "phenotypes": [
-            "aberrant cytoskeleton organisation",
             "aberrant cytokinesis",
-            "decreased growth rate"
+            "decreased growth rate",
+            "aberrant cytoskeleton organization"
         ],
         "mutant_types": {
             "null": false,
@@ -8859,13 +8836,13 @@
         "phenotypes": [
             "abolished prespore cell differentiation",
             "delayed aggregation",
+            "aberrant slug development",
+            "aberrant sorocarp development",
             "aberrant response to osmotic stress",
             "aberrant response to oxidative stress",
             "aberrant regulation of protein kinase activity",
-            "aberrant development",
             "increased prestalk cell differentiation",
-            "decreased sporulation",
-            "aberrant slug formation"
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": false,
@@ -8883,8 +8860,8 @@
         ],
         "phenotypes": [
             "aberrant streaming",
-            "increased sensitivity to UV light",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "decreased resistance to UV light"
         ],
         "mutant_types": {
             "null": false,
@@ -8903,8 +8880,8 @@
         "phenotypes": [
             "aberrant streaming",
             "decreased gene expression",
-            "increased sensitivity to UV light",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "decreased resistance to UV light"
         ],
         "mutant_types": {
             "null": false,
@@ -9082,7 +9059,7 @@
         "phenotypes": [
             "aberrant response to abiotic stimulus",
             "decreased protein level",
-            "decreased length of astral microtubules"
+            "decreased size of astral microtubules"
         ],
         "mutant_types": {
             "null": false,
@@ -9150,7 +9127,7 @@
             "tmcB"
         ],
         "phenotypes": [
-            "aberrant macrocyst differentiation"
+            "aberrant macrocyst formation"
         ],
         "mutant_types": {
             "null": false,
@@ -9167,7 +9144,7 @@
             "tmcC"
         ],
         "phenotypes": [
-            "aberrant macrocyst differentiation"
+            "aberrant macrocyst formation"
         ],
         "mutant_types": {
             "null": false,
@@ -9318,7 +9295,7 @@
             "erkA"
         ],
         "phenotypes": [
-            "aberrant slug formation"
+            "aberrant slug development"
         ],
         "mutant_types": {
             "null": false,
@@ -9467,7 +9444,9 @@
         ],
         "phenotypes": [
             "increased lysosome size",
-            "aberrant post-lysosome organization and biogenesis"
+            "aberrant phagosome maturation",
+            "aberrant post-lysosomal vacuole organization and biogenesis",
+            "increased endosomal vesicle fusion"
         ],
         "mutant_types": {
             "null": false,
@@ -9484,7 +9463,7 @@
             "cycC"
         ],
         "phenotypes": [
-            "precocious tip formation"
+            "precocious tip development"
         ],
         "mutant_types": {
             "null": false,
@@ -9792,7 +9771,7 @@
             "aqpB"
         ],
         "phenotypes": [
-            "decreased response to hypo-osmotic stress"
+            "decreased hypotonic response"
         ],
         "mutant_types": {
             "null": false,
@@ -9979,8 +9958,8 @@
             "frmB"
         ],
         "phenotypes": [
-            "aberrant stalk formation",
-            "decreased spore size"
+            "decreased spore size",
+            "aberrant stalk development"
         ],
         "mutant_types": {
             "null": false,
@@ -10258,6 +10237,24 @@
         ],
         "phenotypes": [
             "aberrant cytokinesis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351530",
+        "strain_descriptor": "[act15]:GFP:lis1",
+        "associated_genes": [
+            "lis1"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis",
+            "decreased chemotaxis to folate"
         ],
         "mutant_types": {
             "null": false,
@@ -10922,7 +10919,7 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "decreased response to hypo-osmotic stress",
+            "decreased hypotonic response",
             "aberrant contractile vacuole morphology"
         ],
         "mutant_types": {
@@ -10941,7 +10938,8 @@
         ],
         "phenotypes": [
             "aberrant contractile vacuole organization and biogenesis",
-            "aberrant contractile vacuole morphology"
+            "aberrant contractile vacuole morphology",
+            "increased phagocytosis"
         ],
         "mutant_types": {
             "null": false,
@@ -12401,7 +12399,7 @@
             "fttB"
         ],
         "phenotypes": [
-            "aberrant cytoskeleton organisation"
+            "aberrant cytoskeleton organization"
         ],
         "mutant_types": {
             "null": false,
@@ -12561,9 +12559,9 @@
             "aberrant cytokinesis",
             "decreased growth rate",
             "aberrant spore germination",
+            "aberrant sorocarp development",
             "increased cell-substrate adhesion",
-            "increased cell-cell adhesion",
-            "aberrant development"
+            "increased cell-cell adhesion"
         ],
         "mutant_types": {
             "null": false,
@@ -12601,6 +12599,7 @@
         ],
         "phenotypes": [
             "increased period of cAMP wave formation",
+            "decreased protein localization to plasma membrane",
             "aberrant adaptation of adenylate cyclase",
             "decreased cell polarity",
             "increased aggregate size",
@@ -12608,7 +12607,6 @@
             "delayed aggregation",
             "increased F-actin polymerization",
             "aberrant adaptation of signaling pathway",
-            "aberrant CRAC localization to the plasma membrane",
             "increased lateral pseudopod formation",
             "decreased accumulation of cGMP",
             "decreased number of aggregates",
@@ -13043,9 +13041,9 @@
             "mkpB-2"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin",
             "decreased slug size",
-            "aberrant development",
+            "aberrant sorocarp development",
+            "decreased resistance to cisplatin",
             "delayed gene expression"
         ],
         "mutant_types": {
@@ -13098,8 +13096,8 @@
             "cdk8"
         ],
         "phenotypes": [
-            "multiple tips",
-            "precocious tip formation"
+            "increased number of tips",
+            "precocious tip development"
         ],
         "mutant_types": {
             "null": false,
@@ -13117,7 +13115,7 @@
             "cycC"
         ],
         "phenotypes": [
-            "precocious tip formation"
+            "precocious tip development"
         ],
         "mutant_types": {
             "null": false,
@@ -13135,8 +13133,8 @@
         ],
         "phenotypes": [
             "aberrant signal transduction during aggregation",
-            "aberrant response to hyperosmotic stress",
-            "aberrant protein localization"
+            "abolished protein localization to nucleus",
+            "aberrant hypertonic response"
         ],
         "mutant_types": {
             "null": false,
@@ -13280,7 +13278,7 @@
             "rckA"
         ],
         "phenotypes": [
-            "delayed slug formation",
+            "delayed slug development",
             "decreased chemotaxis rate"
         ],
         "mutant_types": {
@@ -13298,7 +13296,7 @@
             "rckA"
         ],
         "phenotypes": [
-            "delayed slug formation",
+            "delayed slug development",
             "decreased chemotaxis rate"
         ],
         "mutant_types": {
@@ -13316,7 +13314,7 @@
             "rckA"
         ],
         "phenotypes": [
-            "delayed slug formation",
+            "delayed slug development",
             "decreased chemotaxis rate"
         ],
         "mutant_types": {
@@ -13334,8 +13332,8 @@
             "rckA"
         ],
         "phenotypes": [
-            "delayed slug formation",
             "precocious aggregation",
+            "delayed slug development",
             "decreased chemotaxis rate"
         ],
         "mutant_types": {
@@ -13486,10 +13484,10 @@
         ],
         "phenotypes": [
             "aberrant streaming",
-            "aberrant response to hyperosmotic stress",
-            "aberrant response to hypo-osmotic stress",
             "decreased growth rate",
+            "aberrant hypotonic response",
             "delayed development",
+            "aberrant hypertonic response",
             "increased pseudopod size"
         ],
         "mutant_types": {
@@ -13724,8 +13722,8 @@
         ],
         "phenotypes": [
             "decreased slug migration",
-            "aberrant tip formation",
             "delayed aggregation",
+            "aberrant tip development",
             "decreased fruiting body size"
         ],
         "mutant_types": {
@@ -14003,8 +14001,8 @@
         ],
         "phenotypes": [
             "aberrant contractile vacuole organization and biogenesis",
-            "abolished response to hypo-osmotic stress",
-            "decreased contractile vacuole size"
+            "decreased contractile vacuole size",
+            "abolished hypotonic response"
         ],
         "mutant_types": {
             "null": false,
@@ -14079,12 +14077,13 @@
             "rapA"
         ],
         "phenotypes": [
+            "abolished protein localization to nucleus",
+            "increased protein localization to cell cortex",
             "increased number of microtubule-organizing centers",
             "aberrant nucleus morphology",
             "decreased growth rate",
             "aberrant cytokinesis",
-            "increased cell-substrate adhesion",
-            "aberrant protein localization"
+            "increased cell-substrate adhesion"
         ],
         "mutant_types": {
             "null": false,
@@ -14209,6 +14208,42 @@
             "aberrant cytokinesis",
             "decreased cell motility",
             "decreased basal F-actin level"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351529",
+        "strain_descriptor": "[act15]:rgbA(751-1072,1080-1284,1517-1846)",
+        "associated_genes": [
+            "rgbA"
+        ],
+        "phenotypes": [
+            "aberrant macropinocytosis",
+            "abolished protein localization"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351528",
+        "strain_descriptor": "[act15]:rgbA(751-1072,1121-1317,1505-1834)",
+        "associated_genes": [
+            "rgbA"
+        ],
+        "phenotypes": [
+            "aberrant macropinocytosis",
+            "abolished protein localization"
         ],
         "mutant_types": {
             "null": false,
@@ -14513,7 +14548,7 @@
             "tagA"
         ],
         "phenotypes": [
-            "multiple tips in mound"
+            "increased number of tips in mound"
         ],
         "mutant_types": {
             "null": false,
@@ -14531,7 +14566,7 @@
         ],
         "phenotypes": [
             "decreased growth rate",
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": false,
@@ -14565,14 +14600,18 @@
             "tpt1"
         ],
         "phenotypes": [
-            "decreased growth rate"
+            "decreased gene expression",
+            "decreased growth rate",
+            "delayed development",
+            "decreased number of aggregates",
+            "aberrant fruiting body morphology"
         ],
         "mutant_types": {
             "null": false,
             "overexpression": true,
             "multiple ": false,
             "other": false,
-            "developmental": false
+            "developmental": true
         }
     },
     {
@@ -14671,10 +14710,10 @@
             "cepJ"
         ],
         "phenotypes": [
-            "increased sensitivity to nocodazole",
+            "decreased resistance to nocodazole",
             "aberrant cytokinesis",
             "increased number of microtubule-organizing centers",
-            "decreased length of astral microtubules",
+            "decreased size of astral microtubules",
             "decreased number of astral microtubules"
         ],
         "mutant_types": {
@@ -14710,12 +14749,30 @@
         ],
         "phenotypes": [
             "abolished growth",
-            "increased sensitivity to fluid shear stress"
+            "aberrant intermediate filament organization",
+            "decreased resistance to fluid shear stress"
         ],
         "mutant_types": {
             "null": false,
             "overexpression": true,
             "multiple ": false,
+            "other": true,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351551",
+        "strain_descriptor": "[act6]:GFP:lmnB(1-712)/S122A",
+        "associated_genes": [
+            "lmnB"
+        ],
+        "phenotypes": [
+            "aberrant intermediate filament bundle assembly"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
             "other": true,
             "developmental": false
         }
@@ -14727,8 +14784,9 @@
             "rab2A"
         ],
         "phenotypes": [
-            "aberrant response to hypo-osmotic stress",
+            "decreased pinocytosis",
             "decreased phagocytosis",
+            "aberrant hypotonic response",
             "increased growth rate"
         ],
         "mutant_types": {
@@ -14746,8 +14804,8 @@
             "rab2A"
         ],
         "phenotypes": [
-            "aberrant response to hypo-osmotic stress",
             "aberrant cell-cell adhesion",
+            "aberrant hypotonic response",
             "increased growth rate",
             "precocious development"
         ],
@@ -14767,8 +14825,9 @@
         ],
         "phenotypes": [
             "decreased autophagic cell death",
-            "aberrant response to hypo-osmotic stress",
             "aberrant cell-cell adhesion",
+            "aberrant sorocarp development",
+            "aberrant hypotonic response",
             "increased growth rate",
             "increased phagocytosis"
         ],
@@ -14990,8 +15049,8 @@
         "phenotypes": [
             "aberrant contractile vacuole organization and biogenesis",
             "increased secretion of lysosomal enzyme",
-            "aberrant response to hyperosmotic stress",
-            "increased endocytic recycling"
+            "increased endocytic recycling",
+            "aberrant hypertonic response"
         ],
         "mutant_types": {
             "null": false,
@@ -15010,11 +15069,11 @@
         "phenotypes": [
             "decreased cell-cell adhesion",
             "increased secretion of lysosomal enzyme",
-            "aberrant response to hyperosmotic stress",
             "increased cell death",
             "increased pinocytosis",
+            "aberrant sorocarp development",
+            "aberrant hypertonic response",
             "decreased chemotaxis to cAMP",
-            "aberrant development",
             "increased growth rate",
             "increased phagocytosis"
         ],
@@ -15258,8 +15317,8 @@
             "pkaC"
         ],
         "phenotypes": [
+            "aberrant sorocarp development",
             "precocious development",
-            "aberrant development",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -15420,8 +15479,8 @@
             "rab8A"
         ],
         "phenotypes": [
-            "aberrant cytoskeleton organisation",
-            "abolished aggregation"
+            "abolished aggregation",
+            "aberrant cytoskeleton organization"
         ],
         "mutant_types": {
             "null": false,
@@ -15979,8 +16038,8 @@
             "pkaC"
         ],
         "phenotypes": [
-            "abolished tip formation",
-            "development arrests at mound stage"
+            "development arrests at mound stage",
+            "abolished tip development"
         ],
         "mutant_types": {
             "null": false,
@@ -16017,10 +16076,10 @@
             "decreased slug size",
             "decreased gene expression",
             "aberrant culminant morphology",
-            "delayed tip formation",
             "aberrant slug migration",
             "increased slug migration",
-            "aberrant prestalk cell differentiation"
+            "aberrant prestalk cell differentiation",
+            "delayed tip development"
         ],
         "mutant_types": {
             "null": false,
@@ -16054,8 +16113,8 @@
             "pkaC"
         ],
         "phenotypes": [
-            "abolished tip formation",
-            "development arrests at mound stage"
+            "development arrests at mound stage",
+            "abolished tip development"
         ],
         "mutant_types": {
             "null": false,
@@ -16073,7 +16132,7 @@
         ],
         "phenotypes": [
             "aberrant stalk morphogenesis",
-            "delayed slug formation"
+            "delayed slug development"
         ],
         "mutant_types": {
             "null": false,
@@ -16141,7 +16200,7 @@
             "gpaB"
         ],
         "phenotypes": [
-            "aberrant protein localization",
+            "aberrant protein localization to plasma membrane",
             "aberrant localization to plasma membrane"
         ],
         "mutant_types": {
@@ -16391,7 +16450,7 @@
         ],
         "phenotypes": [
             "aberrant cytokinesis",
-            "delayed tip formation",
+            "delayed tip development",
             "delayed gene expression"
         ],
         "mutant_types": {
@@ -16463,11 +16522,11 @@
             "rasG"
         ],
         "phenotypes": [
+            "increased number of tips in mound",
             "increased prestalk gene expression",
             "decreased prespore gene expression",
             "abolished phototaxis",
-            "increased prestalk cell differentiation",
-            "multiple tips in mound"
+            "increased prestalk cell differentiation"
         ],
         "mutant_types": {
             "null": false,
@@ -16523,7 +16582,7 @@
         ],
         "phenotypes": [
             "development arrests at loose mound stage",
-            "multiple tips in mound"
+            "increased number of tips in mound"
         ],
         "mutant_types": {
             "null": false,
@@ -16782,6 +16841,42 @@
         }
     },
     {
+        "systematic_name": "DBS0351555",
+        "strain_descriptor": "[unk]:FLAG:rab1A(Q67L)",
+        "associated_genes": [
+            "rab1A"
+        ],
+        "phenotypes": [
+            "aberrant F-actin polymerization",
+            "aberrant pseudopod formation"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": true,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351556",
+        "strain_descriptor": "[unk]:FLAG:rab1A(S22N)",
+        "associated_genes": [
+            "rab1A"
+        ],
+        "phenotypes": [
+            "decreased chemoattractant-mediated F-actin polymerization",
+            "decreased chemotaxis to cAMP"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": true,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0351442",
         "strain_descriptor": "[unk]:GFP:RasG",
         "associated_genes": [
@@ -16982,7 +17077,7 @@
             "pdsA"
         ],
         "phenotypes": [
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": false,
@@ -16999,7 +17094,7 @@
             "pikA"
         ],
         "phenotypes": [
-            "aberrant localization to plasma membrane"
+            "increased localization to plasma membrane"
         ],
         "mutant_types": {
             "null": false,
@@ -17073,11 +17168,11 @@
             "rasD"
         ],
         "phenotypes": [
+            "increased number of tips in mound",
             "aberrant culmination",
             "decreased prespore cell differentiation",
             "aberrant gene expression",
-            "decreased stalk cell differentiation",
-            "multiple tips in mound"
+            "decreased stalk cell differentiation"
         ],
         "mutant_types": {
             "null": false,
@@ -17129,10 +17224,10 @@
             "scrA"
         ],
         "phenotypes": [
-            "aberrant cytoskeleton organisation",
             "increased cell size",
             "aberrant cytokinesis",
-            "decreased chemotaxis to cAMP"
+            "decreased chemotaxis to cAMP",
+            "aberrant cytoskeleton organization"
         ],
         "mutant_types": {
             "null": false,
@@ -17298,12 +17393,12 @@
         ],
         "phenotypes": [
             "aberrant stalk morphogenesis",
-            "aberrant tip formation",
             "decreased gene expression",
             "aberrant establishment and/or maintenance of cell polarity",
-            "aberrant stalk formation",
             "aberrant Golgi localization",
             "aberrant centrosome localization",
+            "aberrant stalk development",
+            "aberrant tip development",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -17339,7 +17434,7 @@
             "abcA10"
         ],
         "phenotypes": [
-            "aberrant development",
+            "aberrant sorocarp development",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -17357,7 +17452,7 @@
             "abcA3"
         ],
         "phenotypes": [
-            "aberrant development",
+            "aberrant sorocarp development",
             "aberrant fruiting body morphology",
             "decreased sporulation"
         ],
@@ -17393,7 +17488,7 @@
             "abcA5"
         ],
         "phenotypes": [
-            "aberrant development",
+            "aberrant sorocarp development",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -17428,7 +17523,7 @@
             "abcA7"
         ],
         "phenotypes": [
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": false,
@@ -17515,7 +17610,7 @@
             "abcC13"
         ],
         "phenotypes": [
-            "aberrant development",
+            "aberrant sorocarp development",
             "delayed culmination",
             "decreased sporulation"
         ],
@@ -17534,8 +17629,8 @@
             "abcC14"
         ],
         "phenotypes": [
+            "aberrant sorocarp development",
             "decreased fruiting body size",
-            "aberrant development",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -17553,7 +17648,7 @@
             "abcC2"
         ],
         "phenotypes": [
-            "aberrant development",
+            "aberrant sorocarp development",
             "delayed culmination"
         ],
         "mutant_types": {
@@ -17588,7 +17683,7 @@
             "abcC6"
         ],
         "phenotypes": [
-            "aberrant development",
+            "aberrant sorocarp development",
             "delayed culmination"
         ],
         "mutant_types": {
@@ -17606,7 +17701,7 @@
             "abcC8"
         ],
         "phenotypes": [
-            "multiple tips in culminant",
+            "increased number of tips in culminant",
             "decreased growth rate",
             "decreased sporulation"
         ],
@@ -17642,7 +17737,7 @@
             "abcF1"
         ],
         "phenotypes": [
-            "aberrant development",
+            "aberrant sorocarp development",
             "delayed culmination",
             "decreased sporulation"
         ],
@@ -17661,8 +17756,8 @@
             "abcF2"
         ],
         "phenotypes": [
-            "delayed tip formation",
-            "decreased sporulation"
+            "decreased sporulation",
+            "delayed tip development"
         ],
         "mutant_types": {
             "null": false,
@@ -17679,7 +17774,7 @@
             "abcF4"
         ],
         "phenotypes": [
-            "aberrant development",
+            "aberrant sorocarp development",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -17697,8 +17792,8 @@
             "abcG10"
         ],
         "phenotypes": [
-            "delayed tip formation",
             "decreased fruiting body size",
+            "delayed tip development",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -17716,7 +17811,7 @@
             "abcG15"
         ],
         "phenotypes": [
-            "aberrant development",
+            "aberrant sorocarp development",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -17805,8 +17900,8 @@
             "abcG2"
         ],
         "phenotypes": [
-            "delayed tip formation",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "delayed tip development"
         ],
         "mutant_types": {
             "null": false,
@@ -17863,8 +17958,8 @@
             "abcG22"
         ],
         "phenotypes": [
-            "delayed tip formation",
-            "aberrant development"
+            "aberrant sorocarp development",
+            "delayed tip development"
         ],
         "mutant_types": {
             "null": false,
@@ -17952,8 +18047,8 @@
             "abcG7"
         ],
         "phenotypes": [
-            "delayed tip formation",
             "decreased fruiting body size",
+            "delayed tip development",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -17988,11 +18083,11 @@
             "abiA"
         ],
         "phenotypes": [
+            "abolished protein localization to pseudopodium",
             "decreased protein level",
             "aberrant cytokinesis",
             "decreased growth rate",
-            "decreased chemotaxis to folate",
-            "aberrant protein localization"
+            "decreased chemotaxis to folate"
         ],
         "mutant_types": {
             "null": true,
@@ -18017,6 +18112,29 @@
             "multiple ": false,
             "other": false,
             "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351531",
+        "strain_descriptor": "abiA-/AX2",
+        "associated_genes": [
+            "abiA"
+        ],
+        "phenotypes": [
+            "aberrant filopodium formation",
+            "decreased slug size",
+            "aberrant macropinocytosis",
+            "decreased cell motility",
+            "abolished localization to pseudopodium",
+            "aberrant pseudopod formation",
+            "decreased fruiting body size"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
         }
     },
     {
@@ -18050,6 +18168,26 @@
             "null": true,
             "overexpression": false,
             "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351535",
+        "strain_descriptor": "abiA-/pirA-/AX2",
+        "associated_genes": [
+            "abiA",
+            "pirA"
+        ],
+        "phenotypes": [
+            "aberrant macropinocytosis",
+            "decreased cell motility",
+            "aberrant cell morphology"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
             "other": false,
             "developmental": false
         }
@@ -18116,7 +18254,7 @@
             "abpA"
         ],
         "phenotypes": [
-            "aberrant response to hyperosmotic stress"
+            "aberrant hypertonic response"
         ],
         "mutant_types": {
             "null": true,
@@ -18135,12 +18273,12 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "aberrant response to hyperosmotic stress",
             "decreased phagocytosis",
             "decreased growth rate",
             "decreased cell motility",
+            "aberrant sorocarp development",
             "aberrant cell-cell adhesion",
-            "aberrant development"
+            "aberrant hypertonic response"
         ],
         "mutant_types": {
             "null": false,
@@ -18176,11 +18314,11 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "aberrant response to hyperosmotic stress",
             "decreased growth rate",
             "increased cell-cell adhesion",
             "precocious gene expression",
             "decreased chemotaxis to cAMP",
+            "aberrant hypertonic response",
             "aberrant fruiting body morphology",
             "decreased cell size"
         ],
@@ -18200,9 +18338,9 @@
             "abpC"
         ],
         "phenotypes": [
-            "aberrant response to hyperosmotic stress",
             "decreased gene expression",
             "decreased chemotaxis to cAMP",
+            "aberrant hypertonic response",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -18283,6 +18421,7 @@
             "decreased response to Gram-negative bacterium",
             "aberrant thermotaxis",
             "decreased cell polarity",
+            "aberrant F-actin polymerization",
             "decreased cell motility",
             "aberrant phototaxis"
         ],
@@ -18416,6 +18555,25 @@
         }
     },
     {
+        "systematic_name": "DBS0351553",
+        "strain_descriptor": "abpC-/[act15]:qkgA(425-1553)",
+        "associated_genes": [
+            "abpC",
+            "qkgA-1",
+            "qkgA-2"
+        ],
+        "phenotypes": [
+            "aberrant F-actin polymerization"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0237949",
         "strain_descriptor": "abpC-/[cotB]:abpC:GFP",
         "associated_genes": [
@@ -18458,8 +18616,8 @@
         "phenotypes": [
             "decreased cell-cell adhesion",
             "decreased spore germination",
-            "delayed development",
-            "aberrant development"
+            "aberrant sorocarp development",
+            "delayed development"
         ],
         "mutant_types": {
             "null": true,
@@ -18710,7 +18868,7 @@
             "acaA"
         ],
         "phenotypes": [
-            "aberrant slug formation"
+            "aberrant slug development"
         ],
         "mutant_types": {
             "null": true,
@@ -18853,7 +19011,7 @@
             "acgA"
         ],
         "phenotypes": [
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -18913,7 +19071,7 @@
         ],
         "phenotypes": [
             "aberrant filopodium formation",
-            "aberrant post-lysosome organization and biogenesis"
+            "aberrant post-lysosomal vacuole organization and biogenesis"
         ],
         "mutant_types": {
             "null": true,
@@ -18983,10 +19141,10 @@
         ],
         "phenotypes": [
             "decreased response to Gram-negative bacterium",
-            "increased sensitivity to cisplatin",
             "abolished SDF production",
             "abolished sorting to prestalk region",
-            "decreased sporulation"
+            "decreased sporulation",
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": true,
@@ -19097,7 +19255,7 @@
         "phenotypes": [
             "decreased gene expression",
             "increased stalk length",
-            "spores inviable",
+            "obsolete spores inviable",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -19400,8 +19558,8 @@
         ],
         "phenotypes": [
             "decreased resistance to DNA-damaging agents",
-            "increased sensitivity to cisplatin",
-            "decreased double-strand break repair via nonhomologous end joining"
+            "decreased double-strand break repair via nonhomologous end joining",
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": false,
@@ -19439,9 +19597,9 @@
         ],
         "phenotypes": [
             "decreased resistance to DNA-damaging agents",
-            "increased sensitivity to cisplatin",
             "decreased single-strand break repair",
-            "decreased double-strand break repair"
+            "decreased double-strand break repair",
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": true,
@@ -19979,12 +20137,12 @@
             "ampA"
         ],
         "phenotypes": [
-            "delayed tip formation",
             "increased cell-cell adhesion",
             "increased cell-substrate adhesion",
             "mislocalized gene expression",
             "delayed development",
             "precocious gene expression",
+            "delayed tip development",
             "decreased prestalk cell differentiation",
             "delayed gene expression"
         ],
@@ -20366,9 +20524,9 @@
             "aoxA"
         ],
         "phenotypes": [
-            "increased sensitivity to hydrogen peroxide",
+            "decreased resistance to hydrogen peroxide",
             "aberrant cellular process",
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -20388,8 +20546,8 @@
             "aberrant aggregation",
             "aberrant contractile vacuole organization and biogenesis",
             "aberrant cell separation during cytokinesis",
-            "aberrant response to hypo-osmotic stress",
             "decreased growth rate",
+            "aberrant hypotonic response",
             "decreased protein stabilization"
         ],
         "mutant_types": {
@@ -20447,8 +20605,8 @@
             "increased protein modification",
             "decreased phagocytosis",
             "decreased macropinocytosis",
+            "aberrant sorocarp development",
             "decreased phagosomal proteolysis",
-            "aberrant development",
             "delayed phagosome acidification"
         ],
         "mutant_types": {
@@ -20559,9 +20717,9 @@
         "phenotypes": [
             "aberrant contractile vacuole organization and biogenesis",
             "decreased spore germination",
-            "aberrant response to hypo-osmotic stress",
             "decreased growth rate",
             "aberrant endosome morphology",
+            "aberrant hypotonic response",
             "delayed development",
             "decreased stalk width"
         ],
@@ -20616,9 +20774,12 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
+            "aberrant lysosome organization and biogenesis",
             "increased exocytosis",
-            "aberrant post-lysosome organization and biogenesis",
-            "aberrant endosome morphology"
+            "aberrant endosome morphology",
+            "aberrant post-lysosomal vacuole organization and biogenesis",
+            "decreased cellular localization",
+            "aberrant secretion"
         ],
         "mutant_types": {
             "null": true,
@@ -21094,6 +21255,7 @@
         ],
         "phenotypes": [
             "aberrant macroautophagy",
+            "aberrant mitochondrion morphology",
             "abolished autophagic vacuole formation"
         ],
         "mutant_types": {
@@ -21111,10 +21273,10 @@
             "atg1"
         ],
         "phenotypes": [
-            "aberrant vacuolation",
             "decreased defense response to Gram-negative bacterium",
             "aberrant defense response to bacterium",
-            "abolished autophagic cell death"
+            "abolished autophagic cell death",
+            "aberrant vacuole organization and biogenesis"
         ],
         "mutant_types": {
             "null": true,
@@ -21322,8 +21484,8 @@
             "atg101"
         ],
         "phenotypes": [
-            "decreased autophagy",
-            "multiple tips"
+            "increased number of tips",
+            "decreased autophagy"
         ],
         "mutant_types": {
             "null": true,
@@ -21343,13 +21505,13 @@
             "decreased pinocytosis",
             "increased cell death",
             "decreased spore germination",
+            "increased number of tips in mound",
             "decreased catalytic activity",
             "increased gene expression",
             "increased protein modification",
             "decreased phagocytosis",
             "aberrant phagosome maturation",
-            "aberrant fruiting body morphology",
-            "multiple tips in mound"
+            "aberrant fruiting body morphology"
         ],
         "mutant_types": {
             "null": true,
@@ -21404,7 +21566,7 @@
             "aberrant macroautophagy",
             "abolished sporulation",
             "aberrant cellular response to nitrogen starvation",
-            "multiple tips",
+            "increased number of tips",
             "abolished aggregation",
             "aberrant protein localization"
         ],
@@ -21444,9 +21606,9 @@
         "phenotypes": [
             "aberrant macroautophagy",
             "decreased defense response to Gram-negative bacterium",
+            "increased number of tips",
             "aberrant cellular response to nitrogen starvation",
             "abolished SDF production",
-            "multiple tips",
             "decreased defense response to fungus",
             "decreased fruiting body size",
             "decreased stalk length",
@@ -21470,9 +21632,9 @@
             "aberrant macroautophagy",
             "abolished sporulation",
             "decreased defense response to Gram-negative bacterium",
+            "increased number of tips",
             "aberrant cellular response to nitrogen starvation",
             "abolished SDF production",
-            "multiple tips",
             "aberrant protein localization"
         ],
         "mutant_types": {
@@ -21552,10 +21714,10 @@
         "phenotypes": [
             "aberrant macroautophagy",
             "aberrant spore morphology",
+            "increased number of tips",
             "aberrant cellular response to nitrogen starvation",
             "abolished SDF production",
             "aberrant vacuole organization and biogenesis",
-            "multiple tips",
             "decreased fruiting body size",
             "decreased defense response to Gram-positive bacterium",
             "decreased sporulation"
@@ -21576,14 +21738,14 @@
         ],
         "phenotypes": [
             "aberrant lysosome organization and biogenesis",
+            "increased number of tips in mound",
             "increased cell death",
             "decreased catalytic activity",
             "decreased growth rate",
             "decreased phagocytosis",
             "increased protein modification",
             "delayed development",
-            "decreased fruiting body size",
-            "multiple tips in mound"
+            "decreased fruiting body size"
         ],
         "mutant_types": {
             "null": true,
@@ -21607,7 +21769,7 @@
             "decreased growth rate",
             "decreased phagocytosis",
             "increased protein modification",
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": false,
@@ -21646,10 +21808,12 @@
             "decreased pinocytosis",
             "abolished sporulation",
             "aberrant sorus morphology",
+            "increased number of tips in mound",
             "aberrant autophagy",
             "decreased phagocytosis",
             "decreased growth rate",
             "abolished catalytic activity",
+            "aberrant slug development",
             "aberrant slug migration",
             "aberrant protein modification",
             "aberrant phagosome maturation",
@@ -21658,8 +21822,6 @@
             "decreased protein localization",
             "delayed development",
             "aberrant fruiting body morphology",
-            "aberrant slug formation",
-            "multiple tips in mound",
             "abolished phototaxis"
         ],
         "mutant_types": {
@@ -21964,10 +22126,10 @@
         "phenotypes": [
             "decreased calcium-dependent cell-cell adhesion",
             "decreased protein level",
+            "increased number of tips",
             "increased gene expression",
             "increased chemotaxis to cAMP",
             "aberrant cytokinesis",
-            "multiple tips",
             "abolished sorting to prestalk region",
             "decreased sporulation",
             "delayed culmination",
@@ -22214,11 +22376,11 @@
             "carB"
         ],
         "phenotypes": [
-            "abolished tip formation",
             "increased gene expression",
             "decreased gene expression",
             "development arrests at tight mound stage",
-            "abolished culmination"
+            "abolished culmination",
+            "abolished tip development"
         ],
         "mutant_types": {
             "null": true,
@@ -22313,7 +22475,7 @@
             "catA"
         ],
         "phenotypes": [
-            "increased sensitivity to hydrogen peroxide",
+            "decreased resistance to hydrogen peroxide",
             "abolished catalase activity"
         ],
         "mutant_types": {
@@ -22365,7 +22527,7 @@
             "catA"
         ],
         "phenotypes": [
-            "increased sensitivity to hydrogen peroxide"
+            "decreased resistance to hydrogen peroxide"
         ],
         "mutant_types": {
             "null": true,
@@ -22382,9 +22544,9 @@
             "catB"
         ],
         "phenotypes": [
+            "decreased spore resistance to hydrogen peroxide",
             "aberrant gene expression",
-            "delayed development",
-            "increased spore sensitivity to hydrogen peroxide"
+            "delayed development"
         ],
         "mutant_types": {
             "null": true,
@@ -22436,8 +22598,8 @@
             "cblA-2"
         ],
         "phenotypes": [
+            "aberrant slug development",
             "abolished basal disc formation",
-            "aberrant slug formation",
             "aberrant signal transduction"
         ],
         "mutant_types": {
@@ -22746,6 +22908,7 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
+            "delayed cell separation during cytokinesis",
             "aberrant cytokinesis",
             "decreased growth rate"
         ],
@@ -22967,6 +23130,7 @@
             "decreased growth rate",
             "development arrests at mound stage",
             "aberrant gene expression",
+            "aberrant chromatin assembly",
             "decreased chemotaxis to cAMP"
         ],
         "mutant_types": {
@@ -23019,7 +23183,7 @@
         ],
         "phenotypes": [
             "abolished DIF production",
-            "aberrant slug formation",
+            "aberrant slug development",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -23110,8 +23274,8 @@
         "phenotypes": [
             "abolished cytokinesis",
             "decreased protein localization to plasma membrane",
-            "aberrant response to hypo-osmotic stress",
             "abolished growth",
+            "aberrant hypotonic response",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -23220,8 +23384,8 @@
             "clmA"
         ],
         "phenotypes": [
-            "aberrant response to hypo-osmotic stress",
-            "aberrant contractile vacuole morphology"
+            "aberrant contractile vacuole morphology",
+            "aberrant hypotonic response"
         ],
         "mutant_types": {
             "null": true,
@@ -23241,8 +23405,7 @@
             "aberrant aggregation",
             "increased protein secretion",
             "aberrant cell separation during cytokinesis",
-            "aberrant response to hyperosmotic stress",
-            "decreased response to hypo-osmotic stress",
+            "decreased hypotonic response",
             "aberrant cellular process",
             "increased pinocytosis",
             "delayed aggregation",
@@ -23251,6 +23414,7 @@
             "precocious development",
             "increased growth rate",
             "decreased chemotaxis to cAMP",
+            "aberrant hypertonic response",
             "decreased protein secretion"
         ],
         "mutant_types": {
@@ -23361,7 +23525,7 @@
         ],
         "phenotypes": [
             "aberrant contractile vacuole organization and biogenesis",
-            "abolished response to hypo-osmotic stress",
+            "abolished hypotonic response",
             "decreased contractile vacuole size",
             "aberrant regulation of GTPase activity"
         ],
@@ -23398,7 +23562,7 @@
         ],
         "phenotypes": [
             "aberrant contractile vacuole organization and biogenesis",
-            "abolished response to hypo-osmotic stress",
+            "abolished hypotonic response",
             "decreased contractile vacuole size",
             "aberrant regulation of GTPase activity"
         ],
@@ -23418,7 +23582,7 @@
         ],
         "phenotypes": [
             "aberrant contractile vacuole organization and biogenesis",
-            "abolished response to hypo-osmotic stress",
+            "abolished hypotonic response",
             "decreased contractile vacuole size",
             "aberrant regulation of GTPase activity"
         ],
@@ -23531,9 +23695,9 @@
             "comA"
         ],
         "phenotypes": [
-            "aberrant response to hyperosmotic stress",
             "aberrant phagocytosis",
-            "aberrant defense response to a microorganism"
+            "aberrant defense response to a microorganism",
+            "aberrant hypertonic response"
         ],
         "mutant_types": {
             "null": true,
@@ -23655,8 +23819,8 @@
             "comG"
         ],
         "phenotypes": [
-            "development arrests at mound stage",
-            "multiple tips"
+            "increased number of tips",
+            "development arrests at mound stage"
         ],
         "mutant_types": {
             "null": true,
@@ -24191,20 +24355,41 @@
         }
     },
     {
-        "systematic_name": "DBS0238297",
-        "strain_descriptor": "cpnA-",
+        "systematic_name": "DBS0351538",
+        "strain_descriptor": "cpnA-/AX4",
         "associated_genes": [
             "cpnA"
         ],
         "phenotypes": [
-            "delayed response to hypo-osmotic stress",
+            "increased contractile vacuole size"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0238297",
+        "strain_descriptor": "cpnA-/NC4A2",
+        "associated_genes": [
+            "cpnA"
+        ],
+        "phenotypes": [
+            "delayed hypotonic response",
+            "decreased post-lysosomal vacuole size",
             "aberrant thermotaxis",
+            "increased contractile vacuole size",
             "increased aggregate size",
+            "increased exocytosis",
             "decreased growth rate",
             "aberrant cytokinesis",
             "aberrant stalk cell differentiation",
             "development arrests at slug stage",
             "increased slug size",
+            "decreased number of post-lysosomal vacuoles",
             "delayed development",
             "aberrant fruiting body morphology",
             "abolished phototaxis"
@@ -24224,7 +24409,7 @@
             "cpnA"
         ],
         "phenotypes": [
-            "delayed response to hypo-osmotic stress",
+            "delayed hypotonic response",
             "decreased culmination",
             "delayed development"
         ],
@@ -24263,10 +24448,10 @@
             "abolished response to MPBD",
             "decreased spore germination",
             "increased aggregate size",
-            "delayed tip formation",
             "decreased sorting to prestalk region",
             "abolished SDF-1 production",
-            "increased growth rate"
+            "increased growth rate",
+            "delayed tip development"
         ],
         "mutant_types": {
             "null": true,
@@ -24377,6 +24562,27 @@
             "abolished sporulation",
             "decreased gene expression",
             "abolished aggregation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351557",
+        "strain_descriptor": "cryS-",
+        "associated_genes": [
+            "cryS"
+        ],
+        "phenotypes": [
+            "decreased pinocytosis",
+            "decreased culmination",
+            "decreased phagocytosis",
+            "aberrant cytokinesis",
+            "decreased growth rate"
         ],
         "mutant_types": {
             "null": true,
@@ -24703,7 +24909,7 @@
         ],
         "phenotypes": [
             "aberrant stalk morphogenesis",
-            "aberrant tip formation",
+            "aberrant tip development",
             "aberrant protein localization"
         ],
         "mutant_types": {
@@ -24747,6 +24953,7 @@
             "increased lateral pseudopod formation",
             "decreased cell motility",
             "aberrant regulation of GTPase activity",
+            "increased bleb formation",
             "aberrant cell morphology",
             "abolished culmination",
             "abolished streaming",
@@ -24906,7 +25113,7 @@
             "culA"
         ],
         "phenotypes": [
-            "multiple tips",
+            "increased number of tips",
             "development arrests at tipped mound stage"
         ],
         "mutant_types": {
@@ -24979,11 +25186,11 @@
             "culB"
         ],
         "phenotypes": [
+            "increased number of tips in mound",
+            "aberrant slug development",
             "decreased fruiting body size",
             "precocious gene expression",
-            "aberrant slug formation",
-            "decreased sporulation",
-            "multiple tips in mound"
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -25043,7 +25250,7 @@
         ],
         "phenotypes": [
             "abolished sporulation",
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -25231,10 +25438,10 @@
             "dcsA"
         ],
         "phenotypes": [
+            "abolished stalk development",
             "abolished sporulation",
             "aberrant spore coat morphology",
             "abolished cellulose biosynthesis",
-            "abolished stalk formation",
             "abolished stalk cell differentiation"
         ],
         "mutant_types": {
@@ -25252,10 +25459,10 @@
             "dcsA"
         ],
         "phenotypes": [
+            "abolished stalk development",
             "abolished sporulation",
             "aberrant spore coat morphology",
-            "abolished cellulose biosynthesis",
-            "abolished stalk formation"
+            "abolished cellulose biosynthesis"
         ],
         "mutant_types": {
             "null": true,
@@ -25272,12 +25479,12 @@
             "dcsA"
         ],
         "phenotypes": [
+            "abolished stalk development",
             "abolished sporulation",
             "aberrant spore coat morphology",
             "abolished cellulose biosynthesis",
-            "aberrant stalk formation",
-            "abolished stalk formation",
-            "abolished stalk cell differentiation"
+            "abolished stalk cell differentiation",
+            "aberrant stalk development"
         ],
         "mutant_types": {
             "null": true,
@@ -25719,8 +25926,8 @@
         "phenotypes": [
             "decreased spore germination",
             "increased myosin II assembly",
-            "decreased chemotaxis rate",
-            "aberrant development"
+            "aberrant sorocarp development",
+            "decreased chemotaxis rate"
         ],
         "mutant_types": {
             "null": true,
@@ -26020,10 +26227,10 @@
         ],
         "phenotypes": [
             "aberrant culminant morphology",
+            "aberrant slug development",
+            "aberrant sorocarp development",
             "precocious gene expression",
-            "abolished streaming",
-            "aberrant development",
-            "aberrant slug formation"
+            "abolished streaming"
         ],
         "mutant_types": {
             "null": true,
@@ -26257,9 +26464,9 @@
         ],
         "phenotypes": [
             "increased standing slug length",
-            "thin standing slug",
             "abolished prestalk cell differentiation",
             "increased slug size",
+            "decreased slug width",
             "decreased prestalk 0 cell differentiation",
             "increased prespore cell differentiation",
             "aberrant fruiting body morphology"
@@ -26281,9 +26488,9 @@
         ],
         "phenotypes": [
             "increased standing slug length",
-            "thin standing slug",
             "increased slug size",
-            "aberrant chemotaxis to cAMP"
+            "aberrant chemotaxis to cAMP",
+            "decreased slug width"
         ],
         "mutant_types": {
             "null": false,
@@ -26604,18 +26811,18 @@
         ],
         "phenotypes": [
             "abolished vacuolation",
-            "thin standing slug",
             "decreased outer basal disc size",
             "wild type",
             "abolished DIF production",
             "abolished prestalk 0 cell differentiation",
-            "delayed tip formation",
+            "decreased slug width",
             "decreased prestalk 0 cell differentiation",
             "decreased lower cup size",
             "aberrant gene expression",
             "delayed development",
             "aberrant fruiting body morphology",
-            "decreased prestalk cell differentiation"
+            "decreased prestalk cell differentiation",
+            "delayed tip development"
         ],
         "mutant_types": {
             "null": true,
@@ -26724,7 +26931,7 @@
         ],
         "phenotypes": [
             "decreased resistance to DNA-damaging agents",
-            "increased sensitivity to cisplatin"
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": false,
@@ -26903,7 +27110,7 @@
             "dokA"
         ],
         "phenotypes": [
-            "aberrant response to hyperosmotic stress",
+            "aberrant hypertonic response",
             "aberrant sorus color",
             "decreased sporulation"
         ],
@@ -26923,10 +27130,10 @@
         ],
         "phenotypes": [
             "decreased growth rate",
-            "increased sensitivity to UV light",
             "decreased spore size",
             "delayed development",
-            "abolished histone H3-K79 methylation"
+            "abolished histone H3-K79 methylation",
+            "decreased resistance to UV light"
         ],
         "mutant_types": {
             "null": true,
@@ -26943,7 +27150,8 @@
             "dpoA"
         ],
         "phenotypes": [
-            "aberrant development"
+            "increased gene expression",
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -26960,7 +27168,7 @@
             "dpoA"
         ],
         "phenotypes": [
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -26977,7 +27185,7 @@
             "dpoA"
         ],
         "phenotypes": [
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -26994,7 +27202,7 @@
             "dpoA"
         ],
         "phenotypes": [
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -27011,7 +27219,7 @@
             "dpoA"
         ],
         "phenotypes": [
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -27029,7 +27237,7 @@
             "gskA"
         ],
         "phenotypes": [
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": false,
@@ -27255,7 +27463,7 @@
         ],
         "phenotypes": [
             "aberrant contractile vacuole organization and biogenesis",
-            "aberrant response to hypo-osmotic stress"
+            "aberrant hypotonic response"
         ],
         "mutant_types": {
             "null": true,
@@ -27872,8 +28080,8 @@
         "phenotypes": [
             "decreased cell-cell adhesion",
             "aberrant sorting to prestalk region",
-            "delayed tip formation",
             "aberrant cytokinesis",
+            "delayed tip development",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -27964,7 +28172,7 @@
         "phenotypes": [
             "increased myosin II assembly",
             "increased chemoattractant-mediated F-actin polymerization",
-            "increased CRAC localization to the plasma membrane",
+            "increased protein localization to plasma membrane",
             "decreased chemotaxis to cAMP"
         ],
         "mutant_types": {
@@ -28049,11 +28257,11 @@
             "increased cell size",
             "increased basal disc size",
             "decreased growth rate",
-            "aberrant stalk formation",
             "aberrant nucleus morphology",
             "aberrant endosome morphology",
             "aberrant phagosome maturation",
             "delayed development",
+            "aberrant stalk development",
             "aberrant pseudopod formation",
             "abolished phagosome acidification",
             "increased phagocytosis",
@@ -28111,15 +28319,34 @@
             "dymB"
         ],
         "phenotypes": [
-            "aberrant response to hypo-osmotic stress",
             "aberrant F-actin organization",
             "decreased growth rate",
+            "aberrant hypotonic response",
             "increased cell-cell adhesion",
             "increased cell-substrate adhesion",
             "decreased catalase activity",
             "increased growth rate",
             "increased phagocytosis",
             "decreased cell size"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0235940",
+        "strain_descriptor": "eb1-",
+        "associated_genes": [
+            "eb1"
+        ],
+        "phenotypes": [
+            "aberrant mitosis",
+            "aberrant cytokinesis",
+            "aberrant protein localization"
         ],
         "mutant_types": {
             "null": true,
@@ -28137,8 +28364,8 @@
         ],
         "phenotypes": [
             "increased standing slug length",
-            "weak slime trail",
-            "thin standing slug"
+            "decreased slug width",
+            "decreased slime trail"
         ],
         "mutant_types": {
             "null": true,
@@ -28613,8 +28840,8 @@
         ],
         "phenotypes": [
             "aberrant streaming",
-            "aberrant tip formation",
             "abolished protein kinase activation",
+            "aberrant tip development",
             "aberrant cellular response to extracellular stimulus",
             "abolished positive regulation of chemorepellant activity"
         ],
@@ -28730,11 +28957,11 @@
             "decreased gene expression",
             "aberrant phagocytosis",
             "decreased cell motility",
+            "aberrant sorocarp development",
             "decreased chemotaxis to folate",
             "abolished aggregation",
             "decreased chemotaxis to cAMP",
             "aberrant cell morphology",
-            "aberrant development",
             "decreased cAMP-induced cAMP pulse",
             "decreased sporulation"
         ],
@@ -28912,10 +29139,10 @@
         ],
         "phenotypes": [
             "abolished exocytosis",
-            "aberrant post-lysosome organization and biogenesis",
             "aberrant vegetative growth",
             "aberrant autophagic cell death",
             "aberrant phagosome maturation",
+            "aberrant post-lysosomal vacuole organization and biogenesis",
             "decreased phagosomal proteolysis",
             "decreased protein localization"
         ],
@@ -28997,6 +29224,24 @@
         ],
         "phenotypes": [
             "abolished chemotaxis to folate"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351545",
+        "strain_descriptor": "fatA-",
+        "associated_genes": [
+            "fatA"
+        ],
+        "phenotypes": [
+            "aberrant lipid storage",
+            "decreased phagocytosis"
         ],
         "mutant_types": {
             "null": true,
@@ -29324,7 +29569,7 @@
             "fncD2"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin"
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": true,
@@ -29342,7 +29587,7 @@
             "rev3"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin"
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": false,
@@ -29360,7 +29605,7 @@
             "xpf"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin"
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": false,
@@ -29377,7 +29622,7 @@
             "fncE"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin"
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": true,
@@ -29394,7 +29639,7 @@
             "fncI"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin"
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": true,
@@ -29411,7 +29656,7 @@
             "fncL"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin"
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": true,
@@ -29428,7 +29673,7 @@
             "fncM"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin"
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": true,
@@ -29553,11 +29798,11 @@
             "forC"
         ],
         "phenotypes": [
-            "abolished slug formation",
             "delayed aggregation",
-            "aberrant development",
+            "aberrant sorocarp development",
             "decreased chemotaxis to cAMP",
             "decreased sporulation",
+            "abolished slug development",
             "delayed gene expression"
         ],
         "mutant_types": {
@@ -29596,8 +29841,8 @@
         "phenotypes": [
             "aberrant cortical actin cytoskeleton organization",
             "aberrant cytokinesis",
+            "aberrant sorocarp development",
             "decreased cell motility",
-            "aberrant development",
             "aberrant cell morphology"
         ],
         "mutant_types": {
@@ -29755,9 +30000,9 @@
         ],
         "phenotypes": [
             "decreased gene expression",
+            "aberrant sorocarp development",
             "increased cell-cell adhesion",
             "delayed development",
-            "aberrant development",
             "abolished phototaxis"
         ],
         "mutant_types": {
@@ -30516,7 +30761,8 @@
         "phenotypes": [
             "decreased cell polarity",
             "delayed aggregation",
-            "decreased chemotaxis rate"
+            "decreased chemotaxis rate",
+            "increased bleb formation"
         ],
         "mutant_types": {
             "null": false,
@@ -30925,7 +31171,6 @@
             "gefB"
         ],
         "phenotypes": [
-            "aberrant cytoskeleton organisation",
             "abolished pinocytosis",
             "increased basal F-actin level",
             "abolished growth",
@@ -30934,7 +31179,9 @@
             "decreased phagocytosis",
             "decreased growth rate",
             "decreased aggregate size",
+            "increased bleb formation",
             "aberrant cell morphology",
+            "aberrant cytoskeleton organization",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -31200,14 +31447,14 @@
         ],
         "phenotypes": [
             "abolished Ras guanyl-nucleotide exchange factor activity",
+            "increased number of tips in mound",
             "decreased positive regulation of GTPase activity",
             "increased myosin II assembly",
             "decreased growth rate",
             "increased lateral pseudopod formation",
             "abolished sorting to prestalk region",
             "decreased fruiting body size",
-            "abolished phototaxis",
-            "multiple tips in mound"
+            "abolished phototaxis"
         ],
         "mutant_types": {
             "null": true,
@@ -31306,7 +31553,7 @@
         }
     },
     {
-        "systematic_name": "DBS0237700",
+        "systematic_name": "DBS0350811",
         "strain_descriptor": "gflB-",
         "associated_genes": [
             "gflB"
@@ -31317,9 +31564,9 @@
             "decreased protein localization to cell cortex",
             "increased F-actin polymerization at the leading edge",
             "delayed aggregation",
-            "aberrant CRAC localization to the plasma membrane",
             "decreased aggregate size",
             "decreased chemotaxis to cAMP",
+            "aberrant protein localization to plasma membrane",
             "decreased myosin II assembly"
         ],
         "mutant_types": {
@@ -32248,7 +32495,7 @@
             "gpaB"
         ],
         "phenotypes": [
-            "aberrant protein localization"
+            "aberrant protein localization to plasma membrane"
         ],
         "mutant_types": {
             "null": true,
@@ -32550,9 +32797,9 @@
         ],
         "phenotypes": [
             "increased chemotaxis to folate",
-            "delayed tip formation",
             "increased cell size",
             "decreased sorting to prestalk region",
+            "delayed tip development",
             "delayed gene expression"
         ],
         "mutant_types": {
@@ -32570,7 +32817,7 @@
             "gpaE"
         ],
         "phenotypes": [
-            "precocious tip formation"
+            "precocious tip development"
         ],
         "mutant_types": {
             "null": true,
@@ -32588,7 +32835,7 @@
             "gpaE"
         ],
         "phenotypes": [
-            "precocious tip formation"
+            "precocious tip development"
         ],
         "mutant_types": {
             "null": true,
@@ -32605,8 +32852,8 @@
             "gpaE"
         ],
         "phenotypes": [
-            "delayed tip formation",
-            "delayed gene expression"
+            "delayed gene expression",
+            "delayed tip development"
         ],
         "mutant_types": {
             "null": true,
@@ -32744,14 +32991,34 @@
             "precocious aggregation",
             "increased F-actin polymerization",
             "aberrant adaptation of signaling pathway",
-            "aberrant CRAC localization to the plasma membrane",
             "decreased period cAMP wave formation",
             "decreased aggregate size",
             "increased number of aggregates",
             "decreased fruiting body size",
             "increased growth rate",
             "increased cell polarity",
+            "aberrant protein localization to plasma membrane",
             "increased accumulation of cGMP"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351544",
+        "strain_descriptor": "gpat-",
+        "associated_genes": [
+            "gpat"
+        ],
+        "phenotypes": [
+            "aberrant lipid storage",
+            "decreased lipid droplet formation",
+            "increased sporulation",
+            "increased phagocytosis"
         ],
         "mutant_types": {
             "null": true,
@@ -32787,7 +33054,7 @@
             "gpbA"
         ],
         "phenotypes": [
-            "decreased CRAC localization to the plasma membrane",
+            "decreased protein localization to plasma membrane",
             "aberrant cellular homeostasis",
             "decreased cAMP-induced cGMP pulse",
             "decreased positive regulation of GTPase activity",
@@ -32797,12 +33064,12 @@
             "aberrant chemotaxis",
             "decreased engulfment during phagocytosis",
             "abolished F-actin polymerization",
+            "aberrant sorocarp development",
             "decreased chemotaxis to folate",
             "decreased protein kinase activation",
             "abolished activation of adenylate cyclase",
             "decreased chemotaxis to cAMP",
             "increased growth rate",
-            "aberrant development",
             "decreased cAMP-induced cAMP pulse",
             "aberrant protein localization",
             "aberrant signal transduction"
@@ -32935,8 +33202,8 @@
         "phenotypes": [
             "wild type",
             "decreased gene expression",
-            "decreased activation of adenylate cyclase",
-            "aberrant slug formation"
+            "aberrant slug development",
+            "decreased activation of adenylate cyclase"
         ],
         "mutant_types": {
             "null": true,
@@ -33154,11 +33421,11 @@
             "aberrant mitochondrion morphology",
             "abolished growth",
             "decreased gene expression",
+            "aberrant slug development",
             "decreased cell motility",
             "abolished sorting to prestalk region",
             "decreased fruiting body size",
             "precocious gene expression",
-            "aberrant slug formation",
             "decreased phototaxis",
             "delayed gene expression"
         ],
@@ -33215,7 +33482,7 @@
             "grlA"
         ],
         "phenotypes": [
-            "aberrant tip formation"
+            "aberrant tip development"
         ],
         "mutant_types": {
             "null": true,
@@ -33499,10 +33766,9 @@
         "phenotypes": [
             "increased gene expression",
             "decreased gene expression",
-            "aberrant CRAC localization to the plasma membrane",
+            "increased protein localization to plasma membrane",
             "decreased chemotaxis to cAMP",
             "abolished streaming",
-            "aberrant protein localization to plasma membrane",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -33524,8 +33790,8 @@
             "decreased protein localization to cell cortex",
             "decreased slug migration",
             "aberrant sorus morphology",
-            "abolished CRAC localization to the plasma membrane",
             "decreased gene expression",
+            "abolished protein localization to plasma membrane",
             "aberrant cAMP signaling during aggregation",
             "abolished protein phosphorylation",
             "decreased chemotaxis to folate",
@@ -33657,8 +33923,8 @@
             "gskA"
         ],
         "phenotypes": [
+            "aberrant sorocarp development",
             "decreased chemotaxis to cAMP",
-            "aberrant development",
             "increased protein kinase activation"
         ],
         "mutant_types": {
@@ -33840,8 +34106,8 @@
         "phenotypes": [
             "decreased gene expression",
             "development arrests at slug stage",
+            "aberrant slug development",
             "decreased prestalk A cell differentiation",
-            "aberrant slug formation",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -33879,8 +34145,8 @@
         ],
         "phenotypes": [
             "decreased exocytosis",
-            "aberrant cytoskeleton organisation",
-            "delayed development"
+            "delayed development",
+            "aberrant cytoskeleton organization"
         ],
         "mutant_types": {
             "null": true,
@@ -33969,12 +34235,12 @@
             "decreased cell polarity",
             "aberrant cytokinesis",
             "decreased growth rate",
-            "aberrant CRAC localization to the plasma membrane",
             "delayed aggregation",
             "increased lateral pseudopod formation",
             "aberrant regulation of GTPase activity",
             "decreased chemotaxis to cAMP",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "aberrant protein localization to plasma membrane"
         ],
         "mutant_types": {
             "null": true,
@@ -34265,7 +34531,7 @@
         "phenotypes": [
             "increased response to cAMP",
             "delayed aggregation",
-            "aberrant development",
+            "aberrant sorocarp development",
             "decreased intracellular cAMP level"
         ],
         "mutant_types": {
@@ -34303,7 +34569,7 @@
         ],
         "phenotypes": [
             "aberrant prestalk 0 cell differentiation",
-            "aberrant slug formation"
+            "aberrant slug development"
         ],
         "mutant_types": {
             "null": true,
@@ -34393,6 +34659,27 @@
         }
     },
     {
+        "systematic_name": "DBS0351532",
+        "strain_descriptor": "hspc300-/AX2",
+        "associated_genes": [
+            "hspc300"
+        ],
+        "phenotypes": [
+            "aberrant macropinocytosis",
+            "aberrant cytokinesis",
+            "decreased cell motility",
+            "decreased filopodium formation",
+            "abolished protein level"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350289",
         "strain_descriptor": "hspc300-/[act15]:myc:hspc300",
         "associated_genes": [
@@ -34434,9 +34721,9 @@
         ],
         "phenotypes": [
             "decreased gene expression",
+            "aberrant sorocarp development",
             "increased cell-substrate adhesion",
-            "decreased cell motility",
-            "aberrant development"
+            "decreased cell motility"
         ],
         "mutant_types": {
             "null": true,
@@ -34479,15 +34766,15 @@
             "development arrests at loose mound stage",
             "aberrant cellular response to starvation",
             "abolished  potassium-dependent chemotaxis to cAMP",
+            "increased number of tips in mound",
             "aberrant spore morphology",
             "decreased spore germination",
-            "aberrant response to hypo-osmotic stress",
             "aberrant F-actin organization",
+            "aberrant sorocarp development",
+            "aberrant hypotonic response",
             "abolished chemotaxis to calcium",
             "abolished streaming",
-            "aberrant development",
             "abolished culmination",
-            "multiple tips in mound",
             "decreased sporulation",
             "aberrant prespore cell differentiation",
             "abolished calcium-independent cell-cell adhesion",
@@ -34512,10 +34799,10 @@
             "aberrant sorus morphology",
             "decreased gene expression",
             "decreased growth rate",
+            "aberrant slug development",
+            "aberrant sorocarp development",
             "delayed development",
-            "aberrant development",
             "decreased intracellular cAMP level",
-            "aberrant slug formation",
             "aberrant prestalk cell differentiation"
         ],
         "mutant_types": {
@@ -34553,10 +34840,10 @@
         "phenotypes": [
             "aberrant contractile vacuole organization and biogenesis",
             "aberrant substrate adhesion-dependent cell spreading",
-            "aberrant response to hypo-osmotic stress",
             "decreased phagocytosis",
             "decreased growth rate",
             "aberrant cytokinesis",
+            "aberrant hypotonic response",
             "decreased contractile vacuole discharge"
         ],
         "mutant_types": {
@@ -34574,7 +34861,7 @@
             "ibrA"
         ],
         "phenotypes": [
-            "aberrant stalk formation"
+            "aberrant stalk development"
         ],
         "mutant_types": {
             "null": true,
@@ -34731,11 +35018,11 @@
             "ifkB"
         ],
         "phenotypes": [
+            "increased number of tips in mound",
             "increased aggregate size",
             "increased cell-cell adhesion",
             "increased cell-substrate adhesion",
-            "aberrant fruiting body morphology",
-            "multiple tips in mound"
+            "aberrant fruiting body morphology"
         ],
         "mutant_types": {
             "null": false,
@@ -34770,10 +35057,10 @@
         ],
         "phenotypes": [
             "decreased intracellular myo-inositol level",
+            "increased number of tips in mound",
             "abolished growth",
             "decreased phagocytosis",
-            "increased intracellular 2,3-bisphosphoglycerate level",
-            "multiple tips in mound"
+            "increased intracellular 2,3-bisphosphoglycerate level"
         ],
         "mutant_types": {
             "null": true,
@@ -34839,8 +35126,28 @@
             "precocious aggregation",
             "delayed aggregation",
             "aberrant chemotaxis",
+            "increased bleb formation",
             "increased chemotaxis to arachidonic acid",
             "abolished positive regulation of chemorepellant activity"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351539",
+        "strain_descriptor": "iplA-/AX2",
+        "associated_genes": [
+            "iplA"
+        ],
+        "phenotypes": [
+            "aberrant gamma-aminobutyric acid signaling pathway",
+            "abolished response to cAMP",
+            "abolished response to DIF"
         ],
         "mutant_types": {
             "null": true,
@@ -35082,6 +35389,7 @@
             "aberrant myosin II organization",
             "aberrant cytokinesis",
             "cell cycle arrest",
+            "increased bleb formation",
             "aberrant protein localization"
         ],
         "mutant_types": {
@@ -35483,12 +35791,12 @@
             "krsA"
         ],
         "phenotypes": [
-            "aberrant response to hyperosmotic stress",
             "precocious culmination",
             "abolished activation of adenylate cyclase",
             "decreased aggregate size",
             "decreased intracellular cAMP level",
             "precocious gene expression",
+            "aberrant hypertonic response",
             "abolished streaming",
             "decreased cell size"
         ],
@@ -36201,12 +36509,12 @@
         ],
         "phenotypes": [
             "aberrant thermotaxis",
-            "delayed slug formation",
             "decreased gene expression",
+            "delayed slug development",
             "aberrant culminant morphology",
             "aberrant gene expression",
-            "aberrant phototaxis",
-            "aberrant development"
+            "aberrant sorocarp development",
+            "aberrant phototaxis"
         ],
         "mutant_types": {
             "null": true,
@@ -36327,6 +36635,23 @@
         }
     },
     {
+        "systematic_name": "DBS0309063",
+        "strain_descriptor": "lvsA-",
+        "associated_genes": [
+            "lvsA"
+        ],
+        "phenotypes": [
+            "increased bleb formation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "AD60",
         "strain_descriptor": "lvsA-",
         "associated_genes": [
@@ -36336,8 +36661,8 @@
             "aberrant contractile vacuole organization and biogenesis",
             "abolished cytokinesis",
             "decreased pinocytosis",
-            "aberrant response to hypo-osmotic stress",
             "decreased phagocytosis",
+            "aberrant hypotonic response",
             "increased cell-substrate adhesion"
         ],
         "mutant_types": {
@@ -36392,10 +36717,14 @@
         ],
         "phenotypes": [
             "increased secretion of lysosomal enzyme",
+            "aberrant lysosome organization and biogenesis",
             "increased lysosome size",
             "increased exocytosis",
-            "aberrant post-lysosome organization and biogenesis",
             "increased pinocytosis",
+            "aberrant phagosome maturation",
+            "aberrant post-lysosomal vacuole organization and biogenesis",
+            "increased endosome size",
+            "increased endosomal vesicle fusion",
             "aberrant protein localization"
         ],
         "mutant_types": {
@@ -36533,7 +36862,7 @@
             "macA"
         ],
         "phenotypes": [
-            "aberrant macrocyst differentiation",
+            "aberrant macrocyst formation",
             "decreased sexual fusion"
         ],
         "mutant_types": {
@@ -36604,7 +36933,7 @@
         "phenotypes": [
             "aberrant streaming",
             "decreased growth rate",
-            "aberrant development",
+            "aberrant sorocarp development",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -36624,8 +36953,8 @@
         "phenotypes": [
             "aberrant streaming",
             "decreased growth rate",
+            "aberrant sorocarp development",
             "aberrant gene expression",
-            "aberrant development",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -36867,6 +37196,23 @@
         }
     },
     {
+        "systematic_name": "DBS0351543",
+        "strain_descriptor": "mfsd8-",
+        "associated_genes": [
+            "mfsd8"
+        ],
+        "phenotypes": [
+            "increased protein secretion"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0266843",
         "strain_descriptor": "mgp1-",
         "associated_genes": [
@@ -36938,11 +37284,12 @@
             "mhcA"
         ],
         "phenotypes": [
-            "aberrant response to hypo-osmotic stress",
             "development arrests at mound stage",
             "aberrant cytokinesis",
             "decreased growth rate",
             "increased F-actin polymerization",
+            "abolished bleb formation",
+            "aberrant hypotonic response",
             "aberrant regulation of GTPase activity",
             "aberrant regulation of protein kinase activity",
             "aberrant cellular response to stress"
@@ -37955,9 +38302,9 @@
             "decreased growth rate",
             "delayed aggregation",
             "aberrant taxis",
+            "aberrant sorocarp development",
             "decreased cell motility",
-            "mislocalized gene expression",
-            "aberrant development"
+            "mislocalized gene expression"
         ],
         "mutant_types": {
             "null": true,
@@ -37999,6 +38346,23 @@
             "null": true,
             "overexpression": false,
             "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351550",
+        "strain_descriptor": "mlcR-/[ecmAO]:GFP",
+        "associated_genes": [
+            "mlcR"
+        ],
+        "phenotypes": [
+            "aberrant tip development"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": true,
             "other": false,
             "developmental": true
         }
@@ -38206,7 +38570,7 @@
         ],
         "phenotypes": [
             "aberrant exocytosis",
-            "aberrant post-lysosome organization and biogenesis"
+            "aberrant post-lysosomal vacuole organization and biogenesis"
         ],
         "mutant_types": {
             "null": true,
@@ -38249,6 +38613,25 @@
             "multiple ": true,
             "other": true,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351541",
+        "strain_descriptor": "mscS-/mclN-/pkd2-",
+        "associated_genes": [
+            "mcln",
+            "mscS",
+            "pkd2"
+        ],
+        "phenotypes": [
+            "aberrant Ca2+ signaling"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -38565,7 +38948,6 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "aberrant cytoskeleton organisation",
             "increased secretion of lysosomal enzyme",
             "increased filopodium formation",
             "aberrant aggregation",
@@ -38578,6 +38960,7 @@
             "decreased cell motility",
             "decreased fruiting body size",
             "decreased chemotaxis to cAMP",
+            "aberrant cytoskeleton organization",
             "decreased lateral pseudopod suppression"
         ],
         "mutant_types": {
@@ -38760,9 +39143,9 @@
             "myoD"
         ],
         "phenotypes": [
-            "small pinosomes",
             "decreased pinocytosis",
             "aberrant aggregation",
+            "decreased pinosome size",
             "decreased growth rate",
             "decreased phagocytosis",
             "decreased cell motility",
@@ -38855,13 +39238,13 @@
         ],
         "phenotypes": [
             "increased secretion of lysosomal enzyme",
-            "aberrant cytoskeleton organisation",
             "decreased pinocytosis",
             "increased filopodium formation",
             "decreased growth rate",
             "aberrant F-actin organization",
             "decreased cell motility",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "aberrant cytoskeleton organization"
         ],
         "mutant_types": {
             "null": false,
@@ -39247,7 +39630,7 @@
             "myoJ"
         ],
         "phenotypes": [
-            "decreased response to hypo-osmotic stress",
+            "decreased hypotonic response",
             "aberrant contractile vacuole discharge",
             "aberrant establishment of contractile vacuole localization"
         ],
@@ -39451,6 +39834,27 @@
         }
     },
     {
+        "systematic_name": "DBS0351534",
+        "strain_descriptor": "napA-/AX2",
+        "associated_genes": [
+            "napA"
+        ],
+        "phenotypes": [
+            "decreased protein level",
+            "increased cell size",
+            "increased membrane ruffling",
+            "aberrant cytokinesis",
+            "decreased cell motility"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "SB14",
         "strain_descriptor": "napA-/pirA-",
         "associated_genes": [
@@ -39533,8 +39937,8 @@
         ],
         "phenotypes": [
             "wild type",
-            "decreased macropinocytosis",
-            "aberrant development"
+            "aberrant sorocarp development",
+            "decreased macropinocytosis"
         ],
         "mutant_types": {
             "null": true,
@@ -39647,8 +40051,8 @@
             "decreased growth rate",
             "delayed development",
             "aberrant phototaxis",
-            "spores inviable",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -40144,7 +40548,7 @@
         ],
         "phenotypes": [
             "abolished sporulation",
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -40181,7 +40585,7 @@
         "phenotypes": [
             "abolished sporulation",
             "decreased superoxide production",
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": false,
@@ -40219,7 +40623,7 @@
         "phenotypes": [
             "abolished sporulation",
             "decreased superoxide production",
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -40237,7 +40641,7 @@
         ],
         "phenotypes": [
             "abolished sporulation",
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -40344,8 +40748,8 @@
         ],
         "phenotypes": [
             "decreased defense response to Gram-negative bacterium",
-            "delayed aggregation",
-            "multiple tips"
+            "increased number of tips",
+            "delayed aggregation"
         ],
         "mutant_types": {
             "null": false,
@@ -40386,6 +40790,7 @@
             "abolished cell motility",
             "decreased F-actin polymerization at the leading edge",
             "decreased cell motility",
+            "aberrant hypotonic response",
             "increased phagocytosis"
         ],
         "mutant_types": {
@@ -40514,7 +40919,7 @@
             "p2xA"
         ],
         "phenotypes": [
-            "aberrant response to hypo-osmotic stress"
+            "aberrant hypotonic response"
         ],
         "mutant_types": {
             "null": true,
@@ -40549,7 +40954,7 @@
         ],
         "phenotypes": [
             "aberrant contractile vacuole organization and biogenesis",
-            "abolished response to hypo-osmotic stress",
+            "abolished hypotonic response",
             "decreased contractile vacuole size",
             "aberrant regulation of GTPase activity"
         ],
@@ -40587,7 +40992,7 @@
         ],
         "phenotypes": [
             "aberrant contractile vacuole discharge",
-            "aberrant response to hypo-osmotic stress"
+            "aberrant hypotonic response"
         ],
         "mutant_types": {
             "null": true,
@@ -40621,7 +41026,7 @@
             "p2xA"
         ],
         "phenotypes": [
-            "abolished response to hypo-osmotic stress"
+            "abolished hypotonic response"
         ],
         "mutant_types": {
             "null": true,
@@ -40638,7 +41043,7 @@
             "p2xA"
         ],
         "phenotypes": [
-            "decreased response to hypo-osmotic stress"
+            "decreased hypotonic response"
         ],
         "mutant_types": {
             "null": true,
@@ -40655,7 +41060,7 @@
             "p2xA"
         ],
         "phenotypes": [
-            "precocious response to hypo-osmotic stress"
+            "precocious hypotonic response"
         ],
         "mutant_types": {
             "null": true,
@@ -40676,7 +41081,7 @@
             "p2xE"
         ],
         "phenotypes": [
-            "delayed response to hypo-osmotic stress",
+            "delayed hypotonic response",
             "decreased growth rate"
         ],
         "mutant_types": {
@@ -40894,6 +41299,7 @@
         ],
         "phenotypes": [
             "delayed development",
+            "increased bleb formation",
             "decreased chemotaxis to cAMP"
         ],
         "mutant_types": {
@@ -40962,7 +41368,8 @@
             "pakB"
         ],
         "phenotypes": [
-            "decreased growth rate"
+            "decreased growth rate",
+            "decreased bleb formation"
         ],
         "mutant_types": {
             "null": true,
@@ -41145,6 +41552,7 @@
             "pakC"
         ],
         "phenotypes": [
+            "decreased bleb formation",
             "decreased chemotaxis rate",
             "decreased lateral pseudopod suppression"
         ],
@@ -41461,7 +41869,7 @@
         ],
         "phenotypes": [
             "wild type",
-            "aberrant response to hypo-osmotic stress"
+            "aberrant hypotonic response"
         ],
         "mutant_types": {
             "null": true,
@@ -41479,8 +41887,8 @@
         ],
         "phenotypes": [
             "decreased culmination",
-            "multiple tips in culminant",
-            "delayed slug formation",
+            "increased number of tips in culminant",
+            "delayed slug development",
             "increased protein level",
             "abolished streaming",
             "delayed culmination"
@@ -41764,7 +42172,7 @@
             "pdkB"
         ],
         "phenotypes": [
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": false,
@@ -41835,8 +42243,8 @@
         "phenotypes": [
             "decreased 3',5'-cyclic-AMP phosphodiesterase activity",
             "decreased gene expression",
-            "abolished aggregation",
-            "aberrant development"
+            "aberrant sorocarp development",
+            "abolished aggregation"
         ],
         "mutant_types": {
             "null": true,
@@ -41960,7 +42368,7 @@
             "pefB"
         ],
         "phenotypes": [
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": false,
@@ -41997,7 +42405,7 @@
         ],
         "phenotypes": [
             "abolished sporulation",
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": false,
@@ -42032,8 +42440,8 @@
         ],
         "phenotypes": [
             "aberrant cellular metabolic process",
-            "aberrant response to hyperosmotic stress",
-            "aberrant spore coat morphology"
+            "aberrant spore coat morphology",
+            "aberrant hypertonic response"
         ],
         "mutant_types": {
             "null": true,
@@ -42052,8 +42460,8 @@
         ],
         "phenotypes": [
             "aberrant cellular metabolic process",
-            "aberrant response to hyperosmotic stress",
-            "aberrant spore coat morphology"
+            "aberrant spore coat morphology",
+            "aberrant hypertonic response"
         ],
         "mutant_types": {
             "null": false,
@@ -42071,7 +42479,7 @@
         ],
         "phenotypes": [
             "aberrant cellular metabolic process",
-            "aberrant response to hyperosmotic stress"
+            "aberrant hypertonic response"
         ],
         "mutant_types": {
             "null": true,
@@ -42181,6 +42589,24 @@
             "multiple ": false,
             "other": false,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351549",
+        "strain_descriptor": "phg1A-",
+        "associated_genes": [
+            "phg1A"
+        ],
+        "phenotypes": [
+            "decreased cell-substrate adhesion",
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -42437,7 +42863,7 @@
         "phenotypes": [
             "aberrant contractile vacuole organization and biogenesis",
             "increased contractile vacuole size",
-            "aberrant response to hypo-osmotic stress",
+            "aberrant hypotonic response",
             "aberrant pore formation during contractile vacuole discharge"
         ],
         "mutant_types": {
@@ -42567,8 +42993,8 @@
         ],
         "phenotypes": [
             "abolished sporulation",
+            "abolished stalk development",
             "decreased resistance to reduced oxygen levels",
-            "abolished stalk formation",
             "abolished peptidyl-proline hydroxylation",
             "abolished culmination"
         ],
@@ -42852,7 +43278,6 @@
             "aberrant chemotaxis to cAMP",
             "decreased cell motility",
             "abolished protein kinase activation",
-            "abolished protein localization",
             "decreased basal F-actin level",
             "decreased chemotaxis to folate",
             "decreased chemotaxis to cAMP",
@@ -42879,19 +43304,19 @@
             "decreased pinocytosis",
             "aberrant aggregation",
             "decreased exocytosis",
-            "abolished CRAC localization to the plasma membrane",
             "increased intracellular cAMP level",
             "aberrant adaptation of adenylate cyclase",
             "abolished SDF production",
             "abolished growth",
             "aberrant macropinocytosis",
+            "abolished protein localization to plasma membrane",
             "delayed aggregation",
             "aberrant F-actin organization",
+            "aberrant sorocarp development",
             "aberrant phagolysosome formation",
             "aberrant phagosome maturation",
             "decreased phosphatidylinositol biosynthesis",
             "abolished streaming",
-            "aberrant development",
             "aberrant cell morphology",
             "decreased cAMP-induced cAMP pulse",
             "aberrant fruiting body morphology"
@@ -42983,6 +43408,7 @@
             "decreased growth rate",
             "decreased phagocytosis",
             "decreased cell motility",
+            "increased bleb formation",
             "aberrant signal transduction"
         ],
         "mutant_types": {
@@ -43329,6 +43755,30 @@
         }
     },
     {
+        "systematic_name": "DBS0351533",
+        "strain_descriptor": "pirA-/AX2",
+        "associated_genes": [
+            "pirA"
+        ],
+        "phenotypes": [
+            "decreased protein level",
+            "aberrant macropinocytosis",
+            "increased cell size",
+            "aberrant cytokinesis",
+            "decreased pseudopod formation",
+            "decreased cell motility",
+            "increased bleb formation",
+            "decreased filopodium formation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0351206",
         "strain_descriptor": "pirA-/pirA(K193D/R194D):EGFP",
         "associated_genes": [
@@ -43382,10 +43832,10 @@
             "decreased activation of GTPase activity",
             "abolished catalytic activity",
             "aberrant F-actin organization",
-            "aberrant CRAC localization to the plasma membrane",
             "aberrant response to cAMP",
             "decreased protein kinase activation",
             "abolished aggregation",
+            "aberrant protein localization to plasma membrane",
             "aberrant protein localization to cell cortex",
             "abolished chemotaxis to cAMP",
             "increased protein kinase activation",
@@ -43564,6 +44014,7 @@
             "abolished protein kinase activation",
             "abolished protein localization",
             "aberrant phagosome maturation",
+            "decreased bleb formation",
             "aberrant protein localization to cell cortex",
             "increased phagocytosis",
             "decreased myosin II assembly"
@@ -43684,13 +44135,13 @@
         ],
         "phenotypes": [
             "decreased cell-cell adhesion",
+            "increased number of tips in mound",
             "decreased protein level",
             "increased chemotaxis to cAMP",
             "decreased gene expression",
             "increased F-actin polymerization",
             "decreased fruiting body size",
             "aberrant cAMP wave formation",
-            "multiple tips in mound",
             "abolished positive regulation of chemorepellant activity"
         ],
         "mutant_types": {
@@ -43711,7 +44162,7 @@
             "aberrant aggregation",
             "decreased catalytic activity",
             "aberrant cytokinesis",
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -43794,6 +44245,41 @@
         }
     },
     {
+        "systematic_name": "DBS0351540",
+        "strain_descriptor": "pkd2-/AX2",
+        "associated_genes": [
+            "pkd2"
+        ],
+        "phenotypes": [
+            "aberrant Ca2+ signaling"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351542",
+        "strain_descriptor": "pkd2-/iplA-",
+        "associated_genes": [
+            "iplA",
+            "pkd2"
+        ],
+        "phenotypes": [
+            "aberrant Ca2+ signaling"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0236786",
         "strain_descriptor": "pkgB-",
         "associated_genes": [
@@ -43819,7 +44305,7 @@
             "pkgB"
         ],
         "phenotypes": [
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -43857,6 +44343,7 @@
             "development arrests at mound stage",
             "decreased chemotaxis rate",
             "decreased taxis",
+            "increased bleb formation",
             "increased cell motility"
         ],
         "mutant_types": {
@@ -44052,6 +44539,7 @@
         ],
         "phenotypes": [
             "aberrant chemotaxis to cAMP",
+            "decreased bleb formation",
             "decreased necrotic cell death"
         ],
         "mutant_types": {
@@ -44144,7 +44632,7 @@
             "plc"
         ],
         "phenotypes": [
-            "decreased CRAC localization to the plasma membrane",
+            "decreased protein localization to plasma membrane",
             "aberrant chemotaxis to cAMP",
             "decreased protein localization to cytoplasm",
             "decreased protein kinase activation",
@@ -44202,9 +44690,8 @@
             "plc"
         ],
         "phenotypes": [
-            "increased CRAC localization to the plasma membrane",
-            "decreased chemotaxis to cAMP",
-            "aberrant protein localization"
+            "increased protein localization to plasma membrane",
+            "decreased chemotaxis to cAMP"
         ],
         "mutant_types": {
             "null": true,
@@ -44414,9 +44901,9 @@
         ],
         "phenotypes": [
             "precocious aggregation",
+            "aberrant sorocarp development",
             "decreased lateral pseudopod traction",
-            "decreased actin nucleation on plasma membranes",
-            "aberrant development"
+            "decreased actin nucleation on plasma membranes"
         ],
         "mutant_types": {
             "null": true,
@@ -44434,9 +44921,9 @@
         ],
         "phenotypes": [
             "precocious aggregation",
+            "aberrant sorocarp development",
             "decreased lateral pseudopod traction",
-            "decreased actin nucleation on plasma membranes",
-            "aberrant development"
+            "decreased actin nucleation on plasma membranes"
         ],
         "mutant_types": {
             "null": true,
@@ -44700,11 +45187,11 @@
             "decreased phagocytosis",
             "aberrant gene expression",
             "increased cytosolic Ca2+ response",
+            "aberrant sorocarp development",
             "decreased macropinocytosis",
             "aberrant phagosome maturation",
             "decreased phagosomal proteolysis",
-            "decreased stalk cell differentiation",
-            "aberrant development"
+            "decreased stalk cell differentiation"
         ],
         "mutant_types": {
             "null": false,
@@ -44793,7 +45280,7 @@
             "psenB"
         ],
         "phenotypes": [
-            "aberrant response to chemical stimulus"
+            "aberrant response to chemical"
         ],
         "mutant_types": {
             "null": true,
@@ -44905,8 +45392,8 @@
             "psmC1"
         ],
         "phenotypes": [
-            "curly fingers",
             "increased resistance to spectinomycin",
+            "aberrant standing slug morphology",
             "abolished slug migration",
             "increased cell size"
         ],
@@ -44966,7 +45453,7 @@
             "psrA"
         ],
         "phenotypes": [
-            "aberrant response to chemical stimulus"
+            "aberrant response to chemical"
         ],
         "mutant_types": {
             "null": true,
@@ -45114,17 +45601,17 @@
         ],
         "phenotypes": [
             "decreased response to Gram-negative bacterium",
-            "abolished CRAC localization to the plasma membrane",
             "decreased F-actin polymerization",
             "increased pseudopod formation",
             "decreased positive regulation of GTPase activity",
+            "abolished protein localization to plasma membrane",
             "decreased growth rate",
             "increased F-actin polymerization",
-            "abolished protein localization to plasma membrane",
             "decreased phagocytosis",
             "increased lateral pseudopod formation",
             "decreased cell motility",
-            "increased CRAC localization to the plasma membrane",
+            "increased protein localization to plasma membrane",
+            "decreased bleb formation",
             "decreased chemotaxis to cAMP",
             "abolished aggregation",
             "aberrant pseudopod formation",
@@ -45223,8 +45710,8 @@
             "pten"
         ],
         "phenotypes": [
-            "decreased chemotaxis to cAMP",
-            "aberrant development"
+            "aberrant sorocarp development",
+            "decreased chemotaxis to cAMP"
         ],
         "mutant_types": {
             "null": true,
@@ -45241,8 +45728,8 @@
             "pten"
         ],
         "phenotypes": [
-            "decreased chemotaxis to cAMP",
-            "aberrant development"
+            "aberrant sorocarp development",
+            "decreased chemotaxis to cAMP"
         ],
         "mutant_types": {
             "null": true,
@@ -45738,6 +46225,28 @@
         }
     },
     {
+        "systematic_name": "DBS0351552",
+        "strain_descriptor": "qkgA-",
+        "associated_genes": [
+            "qkgA-1",
+            "qkgA-2"
+        ],
+        "phenotypes": [
+            "aberrant aggregation",
+            "decreased chemoattractant-mediated F-actin polymerization",
+            "aberrant cytokinesis",
+            "decreased cell motility",
+            "decreased chemotaxis to cAMP"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
         "systematic_name": "DBS0350011",
         "strain_descriptor": "qkgA-/[act15]:bzpN:GFP",
         "associated_genes": [
@@ -45882,12 +46391,12 @@
         "phenotypes": [
             "decreased cell polarity",
             "decreased protein phosphorylation",
-            "aberrant CRAC localization to the plasma membrane",
             "aberrant cytokinesis",
             "delayed aggregation",
             "decreased growth rate",
             "increased lateral pseudopod formation",
             "aberrant regulation of GTPase activity",
+            "aberrant protein localization to plasma membrane",
             "decreased chemotaxis to cAMP"
         ],
         "mutant_types": {
@@ -46154,7 +46663,8 @@
             "racG"
         ],
         "phenotypes": [
-            "decreased cell motility"
+            "decreased cell motility",
+            "decreased protein localization"
         ],
         "mutant_types": {
             "null": true,
@@ -46193,11 +46703,11 @@
             "rapC"
         ],
         "phenotypes": [
+            "increased number of tips in mound",
             "aberrant cytokinesis",
             "increased cell-substrate adhesion",
             "decreased cell motility",
-            "aberrant cell morphology",
-            "multiple tips in mound"
+            "aberrant cell morphology"
         ],
         "mutant_types": {
             "null": true,
@@ -46297,9 +46807,9 @@
         "phenotypes": [
             "aberrant sorting to prestalk region",
             "increased calcium-dependent cell-cell adhesion",
-            "delayed tip formation",
             "decreased cell motility",
-            "aberrant regulation of GTPase activity"
+            "aberrant regulation of GTPase activity",
+            "delayed tip development"
         ],
         "mutant_types": {
             "null": true,
@@ -47130,12 +47640,12 @@
             "rasS"
         ],
         "phenotypes": [
-            "aberrant cytoskeleton organisation",
             "decreased rate of endocytosis",
             "increased basal F-actin level",
             "abolished growth",
             "decreased growth rate",
-            "increased cell motility"
+            "increased cell motility",
+            "aberrant cytoskeleton organization"
         ],
         "mutant_types": {
             "null": true,
@@ -47324,7 +47834,7 @@
             "rccA"
         ],
         "phenotypes": [
-            "decreased sensitivity to cheating"
+            "increased resistance to cheating"
         ],
         "mutant_types": {
             "null": true,
@@ -47341,9 +47851,9 @@
             "rckA"
         ],
         "phenotypes": [
-            "delayed slug formation",
             "increased aggregate size",
             "precocious aggregation",
+            "delayed slug development",
             "delayed gene expression",
             "increased chemotaxis rate"
         ],
@@ -47380,7 +47890,7 @@
             "rckA"
         ],
         "phenotypes": [
-            "delayed slug formation",
+            "delayed slug development",
             "decreased chemotaxis rate"
         ],
         "mutant_types": {
@@ -47416,7 +47926,7 @@
             "rckA"
         ],
         "phenotypes": [
-            "delayed slug formation",
+            "delayed slug development",
             "decreased chemotaxis rate"
         ],
         "mutant_types": {
@@ -47607,9 +48117,9 @@
             "recA"
         ],
         "phenotypes": [
-            "increased sensitivity to hydrogen peroxide",
-            "increased sensitivity to mitomycin C (MMC)",
-            "increased sensitivity to UV light"
+            "decreased resistance to mitomycin C (MMC)",
+            "decreased resistance to hydrogen peroxide",
+            "decreased resistance to UV light"
         ],
         "mutant_types": {
             "null": true,
@@ -47830,7 +48340,7 @@
             "regA"
         ],
         "phenotypes": [
-            "delayed slug formation"
+            "delayed slug development"
         ],
         "mutant_types": {
             "null": true,
@@ -48095,8 +48605,8 @@
             "rev3"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin",
-            "aberrant vegetative growth"
+            "aberrant vegetative growth",
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": true,
@@ -48114,7 +48624,7 @@
             "xpf"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin"
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": true,
@@ -48155,9 +48665,9 @@
         "phenotypes": [
             "aberrant stalk morphogenesis",
             "aberrant cellular response to fluid shear stress",
+            "increased number of tips",
             "increased basal F-actin level",
             "aberrant F-actin organization",
-            "multiple tips",
             "increased growth rate",
             "increased cell motility"
         ],
@@ -48196,7 +48706,7 @@
         ],
         "phenotypes": [
             "aberrant stalk morphogenesis",
-            "aberrant tip formation",
+            "aberrant tip development",
             "aberrant protein localization"
         ],
         "mutant_types": {
@@ -48303,6 +48813,45 @@
             "null": false,
             "overexpression": false,
             "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351526",
+        "strain_descriptor": "rgbA-/AX2",
+        "associated_genes": [
+            "rgbA"
+        ],
+        "phenotypes": [
+            "aberrant macropinocytosis",
+            "aberrant activation of GTPase activity",
+            "decreased macropinocytosis",
+            "aberrant engulfment during phagocytosis",
+            "decreased chemotaxis to folate"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351527",
+        "strain_descriptor": "rgbA-/DdB",
+        "associated_genes": [
+            "rgbA"
+        ],
+        "phenotypes": [
+            "aberrant macropinocytosis",
+            "increased activation of GTPase activity"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
             "other": false,
             "developmental": false
         }
@@ -48482,8 +49031,8 @@
             "ripA"
         ],
         "phenotypes": [
-            "decreased chemotaxis rate",
-            "aberrant development"
+            "aberrant sorocarp development",
+            "decreased chemotaxis rate"
         ],
         "mutant_types": {
             "null": true,
@@ -48590,8 +49139,8 @@
             "roco4"
         ],
         "phenotypes": [
-            "delayed slug formation",
-            "aberrant stalk formation",
+            "delayed slug development",
+            "aberrant stalk development",
             "delayed culmination"
         ],
         "mutant_types": {
@@ -48972,7 +49521,7 @@
         }
     },
     {
-        "systematic_name": "sadA",
+        "systematic_name": "DBS0309040",
         "strain_descriptor": "sadA-",
         "associated_genes": [
             "sadA"
@@ -49145,11 +49694,11 @@
         "phenotypes": [
             "decreased exocytosis",
             "decreased pinocytosis",
+            "increased number of tips",
             "decreased phagocytosis",
             "decreased basal F-actin level",
             "increased lateral pseudopod formation",
             "abolished protein localization",
-            "multiple tips",
             "decreased fruiting body size",
             "precocious development",
             "decreased cell size"
@@ -49173,7 +49722,9 @@
             "abolished activation of GTPase activity",
             "decreased cell motility",
             "aberrant spindle stabilization",
+            "increased bleb formation",
             "aberrant cellular response to stress",
+            "aberrant pseudopod formation",
             "decreased cell size",
             "abolished positive regulation of chemorepellant activity"
         ],
@@ -49194,6 +49745,7 @@
         "phenotypes": [
             "decreased growth rate",
             "aberrant cytokinesis",
+            "decreased bleb formation",
             "decreased phototaxis"
         ],
         "mutant_types": {
@@ -49212,13 +49764,73 @@
         ],
         "phenotypes": [
             "increased filopodium formation",
+            "decreased protein level",
+            "aberrant macropinocytosis",
             "aberrant F-actin organization",
-            "decreased macropinocytosis"
+            "aberrant cytokinesis",
+            "decreased macropinocytosis",
+            "decreased cell motility",
+            "aberrant pseudopod formation"
         ],
         "mutant_types": {
             "null": true,
             "overexpression": false,
             "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351524",
+        "strain_descriptor": "scrA-/[act15]:scrA(R177A,R179A,K180A,R183A,R184A,R187A,K190A,K191A,K194A)",
+        "associated_genes": [
+            "scrA"
+        ],
+        "phenotypes": [
+            "increased cellular localization",
+            "decreased bleb formation",
+            "aberrant pseudopod formation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351522",
+        "strain_descriptor": "scrA-/[act15]:scrA(S430A,S432A,S433A,S437A,S440A)",
+        "associated_genes": [
+            "scrA"
+        ],
+        "phenotypes": [
+            "increased cellular localization",
+            "decreased bleb formation",
+            "aberrant pseudopod formation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351523",
+        "strain_descriptor": "scrA-/[act15]:scrA(S430D,S432D,S433D,S437D,S440D)",
+        "associated_genes": [
+            "scrA"
+        ],
+        "phenotypes": [
+            "decreased pseudopod size"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": true,
+            "multiple ": true,
             "other": false,
             "developmental": false
         }
@@ -49266,10 +49878,10 @@
             "scrA"
         ],
         "phenotypes": [
-            "aberrant cytoskeleton organisation",
             "increased cell size",
             "aberrant cytokinesis",
-            "decreased chemotaxis to cAMP"
+            "decreased chemotaxis to cAMP",
+            "aberrant cytoskeleton organization"
         ],
         "mutant_types": {
             "null": true,
@@ -49357,8 +49969,9 @@
             "sec1"
         ],
         "phenotypes": [
-            "aberrant response to hypo-osmotic stress",
+            "abolished cytokinesis",
             "aberrant plasma membrane organization and biogenesis",
+            "aberrant hypotonic response",
             "abolished cell motility",
             "aberrant cell morphology"
         ],
@@ -49602,9 +50215,9 @@
             "sgkA"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin",
-            "increased sensitivity to carboplatin",
-            "decreased growth rate"
+            "decreased resistance to carboplatin",
+            "decreased growth rate",
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": true,
@@ -49622,9 +50235,9 @@
             "sgkB"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin",
-            "increased sensitivity to carboplatin",
-            "decreased growth rate"
+            "decreased resistance to carboplatin",
+            "decreased growth rate",
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": false,
@@ -49641,9 +50254,9 @@
             "sgkB"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin",
-            "increased sensitivity to carboplatin",
-            "decreased growth rate"
+            "decreased resistance to carboplatin",
+            "decreased growth rate",
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": true,
@@ -49660,7 +50273,6 @@
             "sglA"
         ],
         "phenotypes": [
-            "aberrant cytoskeleton organisation",
             "increased stalk width",
             "increased resistance to cisplatin",
             "increased aggregate size",
@@ -49670,6 +50282,7 @@
             "decreased chemotaxis rate",
             "decreased fruiting body size",
             "decreased lateral pseudopod suppression",
+            "aberrant cytoskeleton organization",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -49845,17 +50458,17 @@
             "sir2A"
         ],
         "phenotypes": [
+            "increased number of tips in mound",
             "aberrant autophagy",
             "abolished slug migration",
             "increased gene expression",
             "decreased gene expression",
             "decreased growth rate",
+            "aberrant sorocarp development",
             "decreased prespore gene expression",
             "decreased prestalk gene expression",
-            "aberrant development",
             "decreased chemotaxis to cAMP",
-            "decreased intracellular cAMP level",
-            "multiple tips in mound"
+            "decreased intracellular cAMP level"
         ],
         "mutant_types": {
             "null": true,
@@ -49872,14 +50485,14 @@
             "sir2D"
         ],
         "phenotypes": [
+            "increased number of tips in mound",
             "decreased gene expression",
             "increased gene expression",
             "delayed aggregation",
             "decreased growth rate",
             "decreased autophagy",
             "decreased aggregate size",
-            "decreased stalk length",
-            "multiple tips in mound"
+            "decreased stalk length"
         ],
         "mutant_types": {
             "null": true,
@@ -50114,11 +50727,11 @@
             "increased cell death",
             "decreased phagocytosis",
             "decreased number of autophagosomes",
+            "aberrant sorocarp development",
             "decreased prespore cell differentiation",
             "aberrant gene expression",
             "aberrant protein modification",
             "decreased autophagy",
-            "aberrant development",
             "increased growth rate",
             "aberrant prestalk cell differentiation",
             "aberrant sporulation"
@@ -50200,7 +50813,7 @@
             "sodD"
         ],
         "phenotypes": [
-            "increased sensitivity to UV light"
+            "decreased resistance to UV light"
         ],
         "mutant_types": {
             "null": true,
@@ -50368,9 +50981,9 @@
             "splA"
         ],
         "phenotypes": [
+            "abolished sporulation",
             "aberrant spore morphology",
             "increased sorus size",
-            "spores inviable",
             "aberrant sorus color",
             "decreased stalk length"
         ],
@@ -50412,8 +51025,8 @@
         "phenotypes": [
             "abolished gene expression",
             "abolished protein localization to nucleus",
-            "abolished protein phosphorylation",
-            "aberrant development"
+            "aberrant sorocarp development",
+            "abolished protein phosphorylation"
         ],
         "mutant_types": {
             "null": false,
@@ -50433,7 +51046,7 @@
             "abolished prespore cell differentiation",
             "development arrests at mound stage",
             "abolished prestalk cell differentiation",
-            "aberrant development"
+            "aberrant sorocarp development"
         ],
         "mutant_types": {
             "null": true,
@@ -50792,8 +51405,8 @@
             "sunB"
         ],
         "phenotypes": [
-            "aberrant cytokinesis",
-            "multiple tips"
+            "increased number of tips",
+            "aberrant cytokinesis"
         ],
         "mutant_types": {
             "null": false,
@@ -50885,9 +51498,9 @@
             "tagA"
         ],
         "phenotypes": [
+            "increased number of tips in mound",
             "decreased spore germination",
             "abolished SDF production",
-            "multiple tips in mound",
             "increased prestalk A cell differentiation",
             "delayed culmination",
             "decreased sporulation"
@@ -50999,8 +51612,8 @@
             "tagC"
         ],
         "phenotypes": [
-            "development arrests at mound stage",
-            "spores inviable"
+            "abolished sporulation",
+            "development arrests at mound stage"
         ],
         "mutant_types": {
             "null": true,
@@ -51365,8 +51978,8 @@
             "decreased gene expression",
             "aberrant cell adhesion",
             "aberrant chemotaxis to cAMP",
+            "aberrant sorocarp development",
             "delayed development",
-            "aberrant development",
             "decreased intracellular cAMP level",
             "aberrant cAMP wave formation"
         ],
@@ -51376,6 +51989,24 @@
             "multiple ": false,
             "other": false,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351559",
+        "strain_descriptor": "tert-",
+        "associated_genes": [
+            "tert"
+        ],
+        "phenotypes": [
+            "decreased catalytic activity",
+            "increased gene expression"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -51570,9 +52201,9 @@
             "tgrC1"
         ],
         "phenotypes": [
-            "curly fingers",
-            "decreased fruiting body size",
-            "multiple tips in mound"
+            "aberrant standing slug morphology",
+            "increased number of tips in mound",
+            "decreased fruiting body size"
         ],
         "mutant_types": {
             "null": false,
@@ -51748,10 +52379,10 @@
             "tipA"
         ],
         "phenotypes": [
+            "increased number of tips",
             "increased aggregate size",
             "decreased gene expression",
-            "development arrests at mound stage",
-            "multiple tips"
+            "development arrests at mound stage"
         ],
         "mutant_types": {
             "null": true,
@@ -51769,9 +52400,9 @@
             "tipB"
         ],
         "phenotypes": [
+            "increased number of tips in mound",
             "increased aggregate size",
-            "development arrests at mound stage",
-            "multiple tips in mound"
+            "development arrests at mound stage"
         ],
         "mutant_types": {
             "null": false,
@@ -51824,7 +52455,7 @@
             "tipB"
         ],
         "phenotypes": [
-            "multiple tips in mound"
+            "increased number of tips in mound"
         ],
         "mutant_types": {
             "null": true,
@@ -51841,10 +52472,10 @@
             "tipB"
         ],
         "phenotypes": [
+            "increased number of tips in mound",
+            "increased number of tips",
             "increased aggregate size",
-            "development arrests at mound stage",
-            "multiple tips",
-            "multiple tips in mound"
+            "development arrests at mound stage"
         ],
         "mutant_types": {
             "null": true,
@@ -51862,8 +52493,8 @@
             "tipC"
         ],
         "phenotypes": [
-            "development arrests at tipped mound stage",
-            "multiple tips in mound"
+            "increased number of tips in mound",
+            "development arrests at tipped mound stage"
         ],
         "mutant_types": {
             "null": false,
@@ -51881,8 +52512,8 @@
             "tipD"
         ],
         "phenotypes": [
-            "development arrests at tipped mound stage",
-            "multiple tips in mound"
+            "increased number of tips in mound",
+            "development arrests at tipped mound stage"
         ],
         "mutant_types": {
             "null": false,
@@ -51899,11 +52530,11 @@
             "tipC"
         ],
         "phenotypes": [
+            "increased number of tips",
             "increased aggregate size",
             "development arrests at mound stage",
             "decreased number of autophagosomes",
-            "decreased autophagy",
-            "multiple tips"
+            "decreased autophagy"
         ],
         "mutant_types": {
             "null": true,
@@ -51956,10 +52587,10 @@
         ],
         "phenotypes": [
             "increased aggregate size",
+            "increased number of tips",
             "development arrests at mound stage",
             "aberrant vacuole organization and biogenesis",
-            "decreased autophagy",
-            "multiple tips"
+            "decreased autophagy"
         ],
         "mutant_types": {
             "null": true,
@@ -51977,16 +52608,16 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
+            "increased number of tips in mound",
             "increased cell death",
             "decreased spore germination",
             "decreased catalytic activity",
             "increased gene expression",
             "increased protein modification",
             "aberrant phagosome maturation",
+            "aberrant slug development",
             "abolished protein localization",
-            "aberrant fruiting body morphology",
-            "aberrant slug formation",
-            "multiple tips in mound"
+            "aberrant fruiting body morphology"
         ],
         "mutant_types": {
             "null": true,
@@ -52007,12 +52638,12 @@
             "decreased pinocytosis",
             "increased cell death",
             "decreased spore germination",
+            "increased number of tips in mound",
             "increased gene expression",
             "increased protein modification",
             "decreased phagocytosis",
             "aberrant phagosome maturation",
-            "aberrant fruiting body morphology",
-            "multiple tips in mound"
+            "aberrant fruiting body morphology"
         ],
         "mutant_types": {
             "null": true,
@@ -52167,7 +52798,7 @@
             "tpp1"
         ],
         "phenotypes": [
-            "aberrant response to chemical stimulus"
+            "aberrant response to chemical"
         ],
         "mutant_types": {
             "null": true,
@@ -52185,8 +52816,8 @@
         ],
         "phenotypes": [
             "decreased catalytic activity",
-            "aberrant response to chemical stimulus",
             "aberrant autophagic cell death",
+            "aberrant response to chemical",
             "aberrant cell morphology",
             "precocious development",
             "decreased sporulation"
@@ -52249,6 +52880,31 @@
             "multiple ": false,
             "other": false,
             "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351558",
+        "strain_descriptor": "tpt1-",
+        "associated_genes": [
+            "tpt1"
+        ],
+        "phenotypes": [
+            "decreased spore germination",
+            "decreased gene expression",
+            "decreased growth rate",
+            "aberrant cytokinesis",
+            "decreased macropinocytosis",
+            "delayed development",
+            "decreased number of aggregates",
+            "aberrant fruiting body morphology",
+            "increased prestalk cell differentiation"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
         }
     },
     {
@@ -52578,8 +53234,8 @@
             "ubcB"
         ],
         "phenotypes": [
-            "development arrests at mound stage",
-            "multiple tips"
+            "increased number of tips",
+            "development arrests at mound stage"
         ],
         "mutant_types": {
             "null": true,
@@ -52596,7 +53252,7 @@
             "ube2t"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin"
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": true,
@@ -52687,9 +53343,9 @@
             "ugpB"
         ],
         "phenotypes": [
+            "abolished sporulation",
             "aberrant cell differentiation",
             "decreased intracellular glycogen level",
-            "spores inviable",
             "decreased fruiting body size",
             "delayed culmination"
         ],
@@ -52812,11 +53468,11 @@
             "vasP"
         ],
         "phenotypes": [
-            "aberrant response to hyperosmotic stress",
             "decreased cell-substrate adhesion",
             "aberrant F-actin organization",
             "decreased cell motility",
             "decreased chemotaxis rate",
+            "aberrant hypertonic response",
             "decreased chemotaxis to cAMP",
             "decreased lateral pseudopod suppression",
             "decreased cell size",
@@ -52930,7 +53586,7 @@
             "vasP"
         ],
         "phenotypes": [
-            "aberrant response to hyperosmotic stress",
+            "aberrant hypertonic response",
             "decreased filopodium formation"
         ],
         "mutant_types": {
@@ -53085,6 +53741,43 @@
         }
     },
     {
+        "systematic_name": "DBS0351536",
+        "strain_descriptor": "vasP-/hspc300-",
+        "associated_genes": [
+            "hspc300",
+            "vasP"
+        ],
+        "phenotypes": [
+            "development arrests at slug stage",
+            "aberrant sorocarp development"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351537",
+        "strain_descriptor": "vasP-/pirA-",
+        "associated_genes": [
+            "pirA",
+            "vasP"
+        ],
+        "phenotypes": [
+            "increased number of tips in mound"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
         "systematic_name": "DBS0350602",
         "strain_descriptor": "vilA-",
         "associated_genes": [
@@ -53112,9 +53805,9 @@
             "aberrant aggregation",
             "decreased exocytosis",
             "increased cell death",
-            "aberrant response to hypo-osmotic stress",
             "decreased gene expression",
             "decreased growth rate",
+            "aberrant hypotonic response",
             "decreased macropinocytosis",
             "aberrant vacuole organization and biogenesis",
             "aberrant autophagic cell death",
@@ -53190,10 +53883,10 @@
         ],
         "phenotypes": [
             "increased myosin II assembly",
-            "aberrant response to hypo-osmotic stress",
             "decreased growth rate",
             "aberrant cytokinesis",
             "aberrant contractile vacuole morphology",
+            "aberrant hypotonic response",
             "delayed development",
             "increased protein level",
             "decreased contractile vacuole discharge",
@@ -53504,6 +54197,26 @@
         }
     },
     {
+        "systematic_name": "DBS0351525",
+        "strain_descriptor": "wasC-",
+        "associated_genes": [
+            "wasC"
+        ],
+        "phenotypes": [
+            "increased F-actin polymerization",
+            "decreased phagocytosis",
+            "increased cell-substrate adhesion",
+            "decreased chemotaxis rate"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350239",
         "strain_descriptor": "washc5-",
         "associated_genes": [
@@ -53673,7 +54386,7 @@
             "wshA"
         ],
         "phenotypes": [
-            "aberrant post-lysosome organization and biogenesis"
+            "aberrant post-lysosomal vacuole organization and biogenesis"
         ],
         "mutant_types": {
             "null": false,
@@ -53690,7 +54403,7 @@
             "xacA"
         ],
         "phenotypes": [
-            "decreased response to hypo-osmotic stress",
+            "decreased hypotonic response",
             "aberrant F-actin organization",
             "aberrant contractile vacuole morphology"
         ],
@@ -53746,7 +54459,7 @@
             "xacA"
         ],
         "phenotypes": [
-            "decreased response to hypo-osmotic stress",
+            "decreased hypotonic response",
             "aberrant contractile vacuole morphology"
         ],
         "mutant_types": {
@@ -53782,8 +54495,8 @@
             "xpf"
         ],
         "phenotypes": [
-            "increased sensitivity to cisplatin",
-            "aberrant vegetative growth"
+            "aberrant vegetative growth",
+            "decreased resistance to cisplatin"
         ],
         "mutant_types": {
             "null": true,
