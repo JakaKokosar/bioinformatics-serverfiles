@@ -39267,6 +39267,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 9913	614630	GO:0060633	IEA	-	negative regulation of transcription initiation from RNA polymerase II promoter	-	Process
 9913	614630	GO:0070016	IEA	-	armadillo repeat domain binding	-	Function
 9913	614630	GO:0072201	IEA	-	negative regulation of mesenchymal cell proliferation	-	Process
+9913	614631	GO:0001669	IDA	-	acrosomal vesicle	28859280	Component
+9913	614631	GO:0002080	IDA	-	acrosomal membrane	24391514	Component
+9913	614631	GO:0007338	IMP	-	single fertilization	24391514|28859280	Process
+9913	614631	GO:0007342	ISS	-	fusion of sperm to egg plasma membrane involved in single fertilization	-	Process
+9913	614631	GO:0016021	IEA	-	integral component of membrane	-	Component
 9913	614633	GO:0005744	ISS	-	TIM23 mitochondrial import inner membrane translocase complex	-	Component
 9913	614633	GO:0016021	IEA	-	integral component of membrane	-	Component
 9913	614633	GO:0030150	ISS	-	protein import into mitochondrial matrix	-	Process

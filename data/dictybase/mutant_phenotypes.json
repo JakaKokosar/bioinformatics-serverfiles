@@ -7997,8 +7997,26 @@
             "rab21"
         ],
         "phenotypes": [
-            "decreased phagocytosis",
+            "increased phagocytosis",
             "aberrant cytoskeleton organization"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0237280",
+        "strain_descriptor": "[OE]:HA:rab21(T21N)",
+        "associated_genes": [
+            "rab21"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis",
+            "aberrant F-actin organization"
         ],
         "mutant_types": {
             "null": false,
@@ -10213,6 +10231,23 @@
         }
     },
     {
+        "systematic_name": "DBS0351562",
+        "strain_descriptor": "[act15]:GFP:impA1",
+        "associated_genes": [
+            "impa1"
+        ],
+        "phenotypes": [
+            "decreased response to lithium"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0237117",
         "strain_descriptor": "[act15]:GFP:krsA",
         "associated_genes": [
@@ -12233,6 +12268,23 @@
             "multiple ": false,
             "other": false,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351565",
+        "strain_descriptor": "[act15]:eIF6",
+        "associated_genes": [
+            "eIF6"
+        ],
+        "phenotypes": [
+            "aberrant cellular process"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -14632,6 +14684,57 @@
             "multiple ": false,
             "other": false,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351572",
+        "strain_descriptor": "[act15]:vacA:GFP",
+        "associated_genes": [
+            "vacA"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351573",
+        "strain_descriptor": "[act15]:vacB:GFP",
+        "associated_genes": [
+            "vacB"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351574",
+        "strain_descriptor": "[act15]:vacC:GFP",
+        "associated_genes": [
+            "vacC"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -17316,6 +17419,28 @@
         }
     },
     {
+        "systematic_name": "DBS0351561",
+        "strain_descriptor": "[unk]:vacA:myc:vasP",
+        "associated_genes": [
+            "vacA",
+            "vasP"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis",
+            "decreased growth rate",
+            "aberrant cytokinesis",
+            "increased protein level",
+            "aberrant cell morphology"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350464",
         "strain_descriptor": "[unk]:vasP(1-197:221-261:285-380)",
         "associated_genes": [
@@ -18104,7 +18229,7 @@
             "abiA"
         ],
         "phenotypes": [
-            "aberrant protein localization"
+            "abolished protein localization to pseudopodium"
         ],
         "mutant_types": {
             "null": true,
@@ -20411,12 +20536,12 @@
             "amtC"
         ],
         "phenotypes": [
+            "abolished protein localization to nucleus",
             "decreased gene expression",
             "development arrests at slug stage",
             "mislocalized gene expression",
             "decreased extracellular ammonia level",
             "delayed culmination",
-            "aberrant protein localization",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -22951,7 +23076,7 @@
             "chcA"
         ],
         "phenotypes": [
-            "aberrant protein localization"
+            "increased protein localization"
         ],
         "mutant_types": {
             "null": true,
@@ -26714,8 +26839,8 @@
             "increased cell size",
             "decreased growth rate",
             "abolished protein localization",
-            "increased F-actin depolymerization",
-            "aberrant protein localization"
+            "decreased protein localization",
+            "increased F-actin depolymerization"
         ],
         "mutant_types": {
             "null": true,
@@ -28232,7 +28357,7 @@
             "aberrant F-actin organization",
             "increased cell size",
             "decreased growth rate",
-            "aberrant protein localization"
+            "decreased protein localization"
         ],
         "mutant_types": {
             "null": true,
@@ -28670,10 +28795,11 @@
         "phenotypes": [
             "aberrant spore morphology",
             "decreased spore germination",
+            "abolished protein localization to cell cortex",
             "aberrant cytokinesis",
             "abolished protein localization to plasma membrane",
-            "abolished protein phosphorylation",
-            "aberrant protein localization"
+            "aberrant actin cytoskeleton organization",
+            "abolished protein phosphorylation"
         ],
         "mutant_types": {
             "null": true,
@@ -43409,6 +43535,7 @@
             "decreased phagocytosis",
             "decreased cell motility",
             "increased bleb formation",
+            "decreased chemotaxis to cAMP",
             "aberrant signal transduction"
         ],
         "mutant_types": {
@@ -46260,6 +46387,23 @@
         "mutant_types": {
             "null": true,
             "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351560",
+        "strain_descriptor": "qtrt1-",
+        "associated_genes": [
+            "qtrt1"
+        ],
+        "phenotypes": [
+            "aberrant response to stimulus"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
             "multiple ": false,
             "other": false,
             "developmental": false
@@ -49643,6 +49787,43 @@
             "null": true,
             "overexpression": false,
             "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351564",
+        "strain_descriptor": "sbdS(1-30,TS18,31-274)",
+        "associated_genes": [
+            "sbds"
+        ],
+        "phenotypes": [
+            "development arrests at loose mound stage",
+            "aberrant cellular process",
+            "abolished growth"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": false,
+            "other": true,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351566",
+        "strain_descriptor": "sbdS(1-30,TS18,31-274)/[act15]:eIF(T56K)",
+        "associated_genes": [
+            "eIF6",
+            "sbds"
+        ],
+        "phenotypes": [
+            "wild type"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": true,
             "other": false,
             "developmental": false
         }
@@ -53428,6 +53609,47 @@
         }
     },
     {
+        "systematic_name": "DBS0351567",
+        "strain_descriptor": "vacA-",
+        "associated_genes": [
+            "vacA"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351571",
+        "strain_descriptor": "vacA-/vacB-/vacC-",
+        "associated_genes": [
+            "vacA",
+            "vacB",
+            "vacC"
+        ],
+        "phenotypes": [
+            "decreased cell-substrate adhesion",
+            "decreased gene expression",
+            "decreased phagocytosis",
+            "aberrant phagosome maturation",
+            "decreased protein localization",
+            "aberrant protein localization"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0237032",
         "strain_descriptor": "vacB-",
         "associated_genes": [
@@ -53435,6 +53657,58 @@
         ],
         "phenotypes": [
             "decreased exocytosis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351568",
+        "strain_descriptor": "vacB-",
+        "associated_genes": [
+            "vacB"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351570",
+        "strain_descriptor": "vacB-/vacC-",
+        "associated_genes": [
+            "vacB",
+            "vacC"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351569",
+        "strain_descriptor": "vacC-",
+        "associated_genes": [
+            "vacC"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
         ],
         "mutant_types": {
             "null": true,

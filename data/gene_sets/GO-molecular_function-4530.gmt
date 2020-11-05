@@ -23,6 +23,7 @@ GO:0004069	GO:0004069,GO-molecular_function,4530,L-aspartate:2-oxoglutarate amin
 GO:0004459	GO:0004459,GO-molecular_function,4530,L-lactate dehydrogenase activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0004459	4339856
 GO:0008080	GO:0008080,GO-molecular_function,4530,N-acetyltransferase activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0008080	4334099
 GO:0016410	GO:0016410,GO-molecular_function,4530,N-acyltransferase activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0016410	4334099
+GO:0003955	GO:0003955,GO-molecular_function,4530,NAD(P)H dehydrogenase (quinone) activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0003955	3131395	6450121	6450162	6450198
 GO:0050136	GO:0050136,GO-molecular_function,4530,NADH dehydrogenase (quinone) activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0050136	3131395	6450121	6450162	6450198
 GO:0008137	GO:0008137,GO-molecular_function,4530,NADH dehydrogenase (ubiquinone) activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0008137	3131395	6450121	6450162	6450198
 GO:0003954	GO:0003954,GO-molecular_function,4530,NADH dehydrogenase activity,_,_,http://amigo.geneontology.org/amigo/term/GO:0003954	3131395	6450121	6450162	6450198
