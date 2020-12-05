@@ -370,7 +370,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	3131435	GO:0006412	RCA	-	translation	-	Process
 39947	3131435	GO:0009536	IC	-	plastid	12520024	Component
 39947	3131436	GO:0003735	RCA	-	structural constituent of ribosome	-	Function
-39947	3131436	GO:0005622	RCA	-	intracellular	-	Component
+39947	3131436	GO:0005622	RCA	-	intracellular anatomical structure	-	Component
 39947	3131436	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	3131436	GO:0005840	RCA	-	ribosome	-	Component
 39947	3131436	GO:0006099	RCA	-	tricarboxylic acid cycle	-	Process
@@ -386,7 +386,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	3131439	GO:0009536	ISS	-	plastid	2770692	Component
 39947	3131440	GO:0009536	IC	-	plastid	12520024	Component
 39947	3131441	GO:0003735	RCA	-	structural constituent of ribosome	-	Function
-39947	3131441	GO:0005622	RCA	-	intracellular	-	Component
+39947	3131441	GO:0005622	RCA	-	intracellular anatomical structure	-	Component
 39947	3131441	GO:0005739	IC	-	mitochondrion	12520024	Component
 39947	3131441	GO:0005739	ISS	-	mitochondrion	8806415	Component
 39947	3131441	GO:0005763	IC	-	mitochondrial small ribosomal subunit	-	Component
@@ -691,7 +691,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4324860	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4324866	GO:0009536	RCA	-	plastid	-	Component
 39947	4324871	GO:0005739	RCA	-	mitochondrion	-	Component
-39947	4324880	GO:0005746	RCA	-	mitochondrial respiratory chain	-	Component
+39947	4324880	GO:0005746	RCA	-	mitochondrial respirasome	-	Component
 39947	4324880	GO:0009055	RCA	-	electron transfer activity	-	Function
 39947	4324880	GO:0022900	RCA	-	electron transport chain	-	Process
 39947	4324885	GO:0016020	RCA	-	membrane	-	Component
@@ -964,7 +964,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4325762	GO:0005509	RCA	-	calcium ion binding	-	Function
 39947	4325762	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4325772	GO:0001700	ISS	-	embryonic development via the syncytial blastoderm	16033802	Process
-39947	4325772	GO:0005623	ISS	-	cell	16033802	Component
 39947	4325772	GO:0009909	IDA	-	regulation of flower development	16820865	Process
 39947	4325772	GO:0009909	ISS	-	regulation of flower development	16033802	Process
 39947	4325772	GO:0031124	ISS	-	mRNA 3'-end processing	16033802	Process
@@ -1033,7 +1032,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4326045	GO:0005524	RCA	-	ATP binding	-	Function
 39947	4326045	GO:0006810	RCA	-	transport	-	Process
 39947	4326045	GO:0016020	RCA	-	membrane	-	Component
-39947	4326045	GO:0042626	RCA	-	ATPase activity, coupled to transmembrane movement of substances	-	Function
+39947	4326045	GO:0042626	RCA	-	ATPase-coupled transmembrane transporter activity	-	Function
 39947	4326045	GO:0043190	RCA	-	ATP-binding cassette (ABC) transporter complex	-	Component
 39947	4326047	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4326050	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -1176,7 +1175,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4326501	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4326507	GO:0005524	RCA	-	ATP binding	-	Function
 39947	4326507	GO:0006812	RCA	-	cation transport	-	Process
-39947	4326507	GO:0015662	RCA	-	ATPase activity, coupled to transmembrane movement of ions, phosphorylative mechanism	-	Function
+39947	4326507	GO:0015662	RCA	-	ion transmembrane transporter activity, phosphorylative mechanism	-	Function
 39947	4326507	GO:0016020	RCA	-	membrane	-	Component
 39947	4326508	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4326513	GO:0009536	RCA	-	plastid	-	Component
@@ -1226,7 +1225,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4326649	GO:0006810	RCA	-	transport	-	Process
 39947	4326649	GO:0009536	RCA	-	plastid	-	Component
 39947	4326649	GO:0016020	RCA	-	membrane	-	Component
-39947	4326649	GO:0042626	RCA	-	ATPase activity, coupled to transmembrane movement of substances	-	Function
+39947	4326649	GO:0042626	RCA	-	ATPase-coupled transmembrane transporter activity	-	Function
 39947	4326649	GO:0043190	RCA	-	ATP-binding cassette (ABC) transporter complex	-	Component
 39947	4326650	GO:0009536	RCA	-	plastid	-	Component
 39947	4326653	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -1453,7 +1452,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4327460	GO:0005524	RCA	-	ATP binding	-	Function
 39947	4327460	GO:0006810	RCA	-	transport	-	Process
 39947	4327460	GO:0016020	RCA	-	membrane	-	Component
-39947	4327460	GO:0042626	RCA	-	ATPase activity, coupled to transmembrane movement of substances	-	Function
+39947	4327460	GO:0042626	RCA	-	ATPase-coupled transmembrane transporter activity	-	Function
 39947	4327460	GO:0043190	RCA	-	ATP-binding cassette (ABC) transporter complex	-	Component
 39947	4327468	GO:0003674	RCA	-	molecular_function	-	Function
 39947	4327470	GO:0009536	RCA	-	plastid	-	Component
@@ -1895,7 +1894,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4329902	GO:0009536	RCA	-	plastid	-	Component
 39947	4329905	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4329923	GO:0003677	RCA	-	DNA binding	-	Function
-39947	4329923	GO:0005622	RCA	-	intracellular	-	Component
+39947	4329923	GO:0005622	RCA	-	intracellular anatomical structure	-	Component
 39947	4329923	GO:0008270	RCA	-	zinc ion binding	-	Function
 39947	4329923	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4329941	GO:0009536	RCA	-	plastid	-	Component
@@ -2033,7 +2032,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4330569	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4330571	GO:0009536	RCA	-	plastid	-	Component
 39947	4330574	GO:0003677	RCA	-	DNA binding	-	Function
-39947	4330574	GO:0005622	RCA	-	intracellular	-	Component
+39947	4330574	GO:0005622	RCA	-	intracellular anatomical structure	-	Component
 39947	4330574	GO:0008270	RCA	-	zinc ion binding	-	Function
 39947	4330578	GO:0016020	RCA	-	membrane	-	Component
 39947	4330579	GO:0009536	RCA	-	plastid	-	Component
@@ -2133,7 +2132,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4331015	GO:0005524	RCA	-	ATP binding	-	Function
 39947	4331015	GO:0006812	RCA	-	cation transport	-	Process
 39947	4331015	GO:0008152	RCA	-	metabolic process	-	Process
-39947	4331015	GO:0015662	RCA	-	ATPase activity, coupled to transmembrane movement of ions, phosphorylative mechanism	-	Function
+39947	4331015	GO:0015662	RCA	-	ion transmembrane transporter activity, phosphorylative mechanism	-	Function
 39947	4331015	GO:0016020	RCA	-	membrane	-	Component
 39947	4331015	GO:0016787	RCA	-	hydrolase activity	-	Function
 39947	4331015	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -2673,7 +2672,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4332825	GO:0016020	RCA	-	membrane	-	Component
 39947	4332828	GO:0009536	RCA	-	plastid	-	Component
 39947	4332836	GO:0005739	RCA	-	mitochondrion	-	Component
-39947	4332842	GO:0005622	RCA	-	intracellular	-	Component
+39947	4332842	GO:0005622	RCA	-	intracellular anatomical structure	-	Component
 39947	4332842	GO:0008270	RCA	-	zinc ion binding	-	Function
 39947	4332843	GO:0009536	RCA	-	plastid	-	Component
 39947	4332844	GO:0009536	RCA	-	plastid	-	Component
@@ -2738,7 +2737,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4333014	GO:0009423	IC	-	chorismate biosynthetic process	-	Process
 39947	4333014	GO:0009536	IC	-	plastid	-	Component
 39947	4333014	GO:0009536	RCA	-	plastid	-	Component
-39947	4333014	GO:0033587	IC	-	shikimate biosynthetic process	-	Process
 39947	4333018	GO:0005739	IC	-	mitochondrion	-	Component
 39947	4333018	GO:0005751	IC	-	mitochondrial respiratory chain complex IV	-	Component
 39947	4333018	GO:0006123	IC	-	mitochondrial electron transport, cytochrome c to oxygen	-	Process
@@ -2792,7 +2790,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4333215	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4333216	GO:0000166	RCA	-	nucleotide binding	-	Function
 39947	4333216	GO:0003677	RCA	-	DNA binding	-	Function
-39947	4333216	GO:0003918	RCA	-	DNA topoisomerase type II (ATP-hydrolyzing) activity	-	Function
+39947	4333216	GO:0003918	RCA	-	DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity	-	Function
 39947	4333216	GO:0005524	RCA	-	ATP binding	-	Function
 39947	4333216	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4333216	GO:0006259	RCA	-	DNA metabolic process	-	Process
@@ -2800,7 +2798,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4333216	GO:0006810	RCA	-	transport	-	Process
 39947	4333216	GO:0009536	RCA	-	plastid	-	Component
 39947	4333216	GO:0016020	RCA	-	membrane	-	Component
-39947	4333216	GO:0042626	RCA	-	ATPase activity, coupled to transmembrane movement of substances	-	Function
+39947	4333216	GO:0042626	RCA	-	ATPase-coupled transmembrane transporter activity	-	Function
 39947	4333216	GO:0043190	RCA	-	ATP-binding cassette (ABC) transporter complex	-	Component
 39947	4333235	GO:0009536	RCA	-	plastid	-	Component
 39947	4333235	GO:0016020	RCA	-	membrane	-	Component
@@ -3052,7 +3050,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4334178	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4334178	GO:0009536	RCA	-	plastid	-	Component
 39947	4334186	GO:0022900	RCA	-	electron transport chain	-	Process
-39947	4334189	GO:0008283	IC	-	cell proliferation	-	Process
+39947	4334189	GO:0008283	IC	-	cell population proliferation	-	Process
 39947	4334189	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4334191	GO:0003824	RCA	-	catalytic activity	-	Function
 39947	4334191	GO:0004722	RCA	-	protein serine/threonine phosphatase activity	-	Function
@@ -3501,7 +3499,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4336258	GO:0009536	RCA	-	plastid	-	Component
 39947	4336259	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4336260	GO:0003677	RCA	-	DNA binding	-	Function
-39947	4336260	GO:0005622	RCA	-	intracellular	-	Component
+39947	4336260	GO:0005622	RCA	-	intracellular anatomical structure	-	Component
 39947	4336260	GO:0008270	RCA	-	zinc ion binding	-	Function
 39947	4336262	GO:0009536	RCA	-	plastid	-	Component
 39947	4336263	GO:0004568	RCA	-	chitinase activity	-	Function
@@ -3746,7 +3744,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4337295	GO:0009734	IC	-	auxin-activated signaling pathway	-	Process
 39947	4337295	GO:0050896	IC	-	response to stimulus	-	Process
 39947	4337297	GO:0005739	RCA	-	mitochondrion	-	Component
-39947	4337309	GO:0005622	RCA	-	intracellular	-	Component
+39947	4337309	GO:0005622	RCA	-	intracellular anatomical structure	-	Component
 39947	4337309	GO:0006417	RCA	-	regulation of translation	-	Process
 39947	4337312	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4337320	GO:0009536	RCA	-	plastid	-	Component
@@ -3848,7 +3846,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4337645	GO:0005524	RCA	-	ATP binding	-	Function
 39947	4337645	GO:0006810	RCA	-	transport	-	Process
 39947	4337645	GO:0016020	RCA	-	membrane	-	Component
-39947	4337645	GO:0042626	RCA	-	ATPase activity, coupled to transmembrane movement of substances	-	Function
+39947	4337645	GO:0042626	RCA	-	ATPase-coupled transmembrane transporter activity	-	Function
 39947	4337645	GO:0043190	RCA	-	ATP-binding cassette (ABC) transporter complex	-	Component
 39947	4337647	GO:0016020	RCA	-	membrane	-	Component
 39947	4337647	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -4320,7 +4318,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4340026	GO:0009423	IC	-	chorismate biosynthetic process	-	Process
 39947	4340026	GO:0009536	IC	-	plastid	-	Component
 39947	4340026	GO:0009536	RCA	-	plastid	-	Component
-39947	4340026	GO:0033587	IC	-	shikimate biosynthetic process	-	Process
 39947	4340041	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4340044	GO:0009536	RCA	-	plastid	-	Component
 39947	4340057	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -4341,7 +4338,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4340135	GO:0009536	RCA	-	plastid	-	Component
 39947	4340153	GO:0009536	RCA	-	plastid	-	Component
 39947	4340156	GO:0003677	RCA	-	DNA binding	-	Function
-39947	4340156	GO:0005622	RCA	-	intracellular	-	Component
+39947	4340156	GO:0005622	RCA	-	intracellular anatomical structure	-	Component
 39947	4340156	GO:0008270	RCA	-	zinc ion binding	-	Function
 39947	4340156	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4340157	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -4652,7 +4649,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4341631	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4341635	GO:0009536	RCA	-	plastid	-	Component
 39947	4341639	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-39947	4341645	GO:0009678	RCA	-	hydrogen-translocating pyrophosphatase activity	-	Function
+39947	4341645	GO:0009678	RCA	-	pyrophosphate hydrolysis-driven proton transmembrane transporter activity	-	Function
 39947	4341645	GO:0016020	RCA	-	membrane	-	Component
 39947	4341645	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4341645	GO:1902600	RCA	-	proton transmembrane transport	-	Process
@@ -4744,7 +4741,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4342041	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4342049	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4342050	GO:0003677	RCA	-	DNA binding	-	Function
-39947	4342050	GO:0005622	RCA	-	intracellular	-	Component
+39947	4342050	GO:0005622	RCA	-	intracellular anatomical structure	-	Component
 39947	4342050	GO:0008270	RCA	-	zinc ion binding	-	Function
 39947	4342051	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4342055	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -5550,7 +5547,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4346455	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4346460	GO:0009536	RCA	-	plastid	-	Component
 39947	4346474	GO:0003677	RCA	-	DNA binding	-	Function
-39947	4346474	GO:0005622	RCA	-	intracellular	-	Component
+39947	4346474	GO:0005622	RCA	-	intracellular anatomical structure	-	Component
 39947	4346474	GO:0008270	RCA	-	zinc ion binding	-	Function
 39947	4346475	GO:0009536	RCA	-	plastid	-	Component
 39947	4346475	GO:0016020	RCA	-	membrane	-	Component
@@ -5754,7 +5751,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4347514	GO:0000237	IDA	-	leptotene	14758540|16410547	Process
 39947	4347514	GO:0000238	IDA	-	zygotene	14758540|16410547	Process
 39947	4347514	GO:0005634	IDA	-	nucleus	14758540	Component
-39947	4347514	GO:0007129	IDA	-	synapsis	14758540|16410547	Process
+39947	4347514	GO:0007129	IDA	-	homologous chromosome pairing at meiosis	14758540|16410547	Process
 39947	4347514	GO:0009554	IDA	-	megasporogenesis	14758540|16410547	Process
 39947	4347514	GO:0009556	IDA	-	microsporogenesis	14758540|16410547	Process
 39947	4347521	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -7220,7 +7217,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	6450133	GO:0005739	IC	-	mitochondrion	12520024	Component
 39947	6450134	GO:0005739	IC	-	mitochondrion	12520024	Component
 39947	6450135	GO:0003735	RCA	-	structural constituent of ribosome	-	Function
-39947	6450135	GO:0005622	RCA	-	intracellular	-	Component
+39947	6450135	GO:0005622	RCA	-	intracellular anatomical structure	-	Component
 39947	6450135	GO:0005739	IC	-	mitochondrion	12520024	Component
 39947	6450135	GO:0005739	ISS	-	mitochondrion	8806415	Component
 39947	6450135	GO:0005763	IC	-	mitochondrial small ribosomal subunit	-	Component
@@ -7247,7 +7244,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	6450143	GO:0005747	IC	-	mitochondrial respiratory chain complex I	-	Component
 39947	6450143	GO:0016020	RCA	-	membrane	-	Component
 39947	6450144	GO:0003735	RCA	-	structural constituent of ribosome	-	Function
-39947	6450144	GO:0005622	RCA	-	intracellular	-	Component
+39947	6450144	GO:0005622	RCA	-	intracellular anatomical structure	-	Component
 39947	6450144	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	6450144	GO:0005840	RCA	-	ribosome	-	Component
 39947	6450144	GO:0006099	RCA	-	tricarboxylic acid cycle	-	Process
@@ -7912,7 +7909,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	107275724	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	107275725	GO:0003677	RCA	-	DNA binding	-	Function
 39947	107275725	GO:0003916	RCA	-	DNA topoisomerase activity	-	Function
-39947	107275725	GO:0003918	RCA	-	DNA topoisomerase type II (ATP-hydrolyzing) activity	-	Function
+39947	107275725	GO:0003918	RCA	-	DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity	-	Function
 39947	107275725	GO:0005524	RCA	-	ATP binding	-	Function
 39947	107275725	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	107275725	GO:0006259	RCA	-	DNA metabolic process	-	Process

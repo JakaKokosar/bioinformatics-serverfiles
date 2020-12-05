@@ -35,7 +35,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20200408",
+    "modification_date": "20201121",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -12033,7 +12033,7 @@
     "other_designations": [
       "diacylglycerol beta-glycosyltransferase"
     ],
-    "modification_date": "20200619",
+    "modification_date": "20201010",
     "homology_group_id": null,
     "homologs": {}
   },

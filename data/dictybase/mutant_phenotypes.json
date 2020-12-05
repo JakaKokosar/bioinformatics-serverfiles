@@ -60,7 +60,7 @@
             "myoB"
         ],
         "phenotypes": [
-            "abolished protein localization"
+            "abolished protein localization to actin wave"
         ],
         "mutant_types": {
             "null": true,
@@ -179,8 +179,8 @@
             "increased aggregate size",
             "increased gene expression",
             "increased cell-cell adhesion",
-            "decreased extracellular counting factor component(s) level",
-            "increased protein level"
+            "increased protein level",
+            "decreased protein secretion"
         ],
         "mutant_types": {
             "null": true,
@@ -1549,7 +1549,7 @@
         ],
         "phenotypes": [
             "wild type",
-            "increased basal F-actin level"
+            "increased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -1611,7 +1611,7 @@
             "decreased phagocytosis",
             "decreased engulfment during phagocytosis",
             "aberrant endosome morphology",
-            "aberrant vacuole organization and biogenesis",
+            "aberrant vacuole organization",
             "decreased protein localization",
             "increased cell motility",
             "increased activation of GTPase activity"
@@ -1685,7 +1685,7 @@
         "phenotypes": [
             "increased contractile vacuole size",
             "aberrant contractile vacuole discharge",
-            "aberrant localization to contractile vacuole membrane"
+            "aberrant protein localization to contractile vacuole membrane"
         ],
         "mutant_types": {
             "null": true,
@@ -2154,9 +2154,9 @@
             "hspc300"
         ],
         "phenotypes": [
-            "decreased basal F-actin level",
             "decreased cell motility",
             "decreased phototaxis",
+            "decreased actin filament bundle assembly",
             "decreased pseudopod size",
             "decreased cell size"
         ],
@@ -2195,7 +2195,7 @@
         "phenotypes": [
             "aberrant spore morphology",
             "precocious sporulation",
-            "decreased phosphorylation of actin",
+            "decreased actin phosphorylation",
             "precocious development",
             "decreased intracellular cAMP level",
             "aberrant fruiting body morphology",
@@ -2299,8 +2299,8 @@
             "modA"
         ],
         "phenotypes": [
-            "decreased secretion of lysosomal enzyme",
-            "decreased catalytic activity"
+            "decreased catalytic activity",
+            "decreased secretion of lysosomal enzymes"
         ],
         "mutant_types": {
             "null": false,
@@ -7116,7 +7116,7 @@
             "decreased pinocytosis",
             "delayed hypotonic response",
             "decreased number of vacuoles",
-            "aberrant vacuole organization and biogenesis",
+            "aberrant vacuole organization",
             "abolished aggregation",
             "decreased cell size"
         ],
@@ -7577,15 +7577,15 @@
             "proB"
         ],
         "phenotypes": [
-            "decreased secretion of lysosomal enzyme",
             "decreased exocytosis",
             "decreased pinocytosis",
             "aberrant exocytosis",
-            "increased basal F-actin level",
             "abolished growth",
             "development arrests at slug stage",
             "aberrant cytokinesis",
             "decreased cell motility",
+            "decreased secretion of lysosomal enzymes",
+            "increased actin filament bundle assembly",
             "increased phagocytosis"
         ],
         "mutant_types": {
@@ -7660,9 +7660,9 @@
             "scrA"
         ],
         "phenotypes": [
-            "decreased secretion of lysosomal enzyme",
             "decreased exocytosis",
-            "decreased pinocytosis"
+            "decreased pinocytosis",
+            "decreased secretion of lysosomal enzymes"
         ],
         "mutant_types": {
             "null": false,
@@ -7700,7 +7700,7 @@
             "abolished growth",
             "aberrant osmosensory signaling pathway",
             "decreased phagocytosis",
-            "increased basal phosphorylated actin level",
+            "increased actin phosphorylation",
             "aberrant hypertonic response"
         ],
         "mutant_types": {
@@ -7997,8 +7997,26 @@
             "rab21"
         ],
         "phenotypes": [
-            "decreased phagocytosis",
+            "increased phagocytosis",
             "aberrant cytoskeleton organization"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0237280",
+        "strain_descriptor": "[OE]:HA:rab21(T21N)",
+        "associated_genes": [
+            "rab21"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": false,
@@ -8015,9 +8033,9 @@
             "ChLim"
         ],
         "phenotypes": [
-            "increased basal F-actin level",
             "decreased phagocytosis",
-            "decreased growth rate"
+            "decreased growth rate",
+            "increased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": false,
@@ -8143,7 +8161,7 @@
             "limF"
         ],
         "phenotypes": [
-            "increased basal F-actin level",
+            "increased actin filament bundle assembly",
             "increased phagocytosis"
         ],
         "mutant_types": {
@@ -9352,7 +9370,7 @@
             "racC"
         ],
         "phenotypes": [
-            "increased basal F-actin level"
+            "increased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": false,
@@ -9370,8 +9388,8 @@
         ],
         "phenotypes": [
             "aberrant cytokinesis",
-            "decreased basal F-actin level",
-            "abolished positive chemotaxis"
+            "abolished positive chemotaxis",
+            "decreased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": false,
@@ -9388,9 +9406,9 @@
             "rab8A"
         ],
         "phenotypes": [
-            "abolished localization to contractile vacuole membrane",
             "increased contractile vacuole size",
-            "increased number of contractile vacuoles"
+            "increased number of contractile vacuoles",
+            "abolished protein localization to contractile vacuole membrane"
         ],
         "mutant_types": {
             "null": false,
@@ -9592,7 +9610,7 @@
         ],
         "phenotypes": [
             "abolished protein localization to plasma membrane",
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "decreased chemotaxis to cAMP"
         ],
         "mutant_types": {
@@ -9682,7 +9700,7 @@
             "abpD"
         ],
         "phenotypes": [
-            "abolished localization to nuclear envelope"
+            "abolished protein localization to nuclear envelope"
         ],
         "mutant_types": {
             "null": false,
@@ -9699,8 +9717,7 @@
             "abpD"
         ],
         "phenotypes": [
-            "abolished protein localization to nuclear envelope",
-            "abolished localization to nuclear envelope"
+            "abolished protein localization to nuclear envelope"
         ],
         "mutant_types": {
             "null": false,
@@ -9717,7 +9734,7 @@
             "abpD"
         ],
         "phenotypes": [
-            "abolished localization to nuclear envelope"
+            "abolished protein localization to nuclear envelope"
         ],
         "mutant_types": {
             "null": false,
@@ -9904,7 +9921,7 @@
         ],
         "phenotypes": [
             "increased pseudopod formation",
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "increased cell motility"
         ],
         "mutant_types": {
@@ -9941,7 +9958,7 @@
             "forH"
         ],
         "phenotypes": [
-            "abolished localization to pseudopodium"
+            "abolished protein localization to pseudopodium"
         ],
         "mutant_types": {
             "null": false,
@@ -10029,7 +10046,7 @@
         ],
         "phenotypes": [
             "decreased substrate adhesion-dependent cell spreading",
-            "decreased F-actin polymerization",
+            "decreased actin filament polymerization",
             "increased cell motility"
         ],
         "mutant_types": {
@@ -10065,7 +10082,7 @@
             "gtaC"
         ],
         "phenotypes": [
-            "abolished localization to nucleus"
+            "abolished protein localization to nucleus"
         ],
         "mutant_types": {
             "null": false,
@@ -10082,7 +10099,7 @@
             "gtaC"
         ],
         "phenotypes": [
-            "abolished localization to cytoplasm"
+            "abolished protein localization to cytoplasm"
         ],
         "mutant_types": {
             "null": false,
@@ -10099,7 +10116,7 @@
             "gtaC"
         ],
         "phenotypes": [
-            "aberrant localization to cytoplasm"
+            "aberrant protein localization to cytoplasm"
         ],
         "mutant_types": {
             "null": false,
@@ -10116,7 +10133,7 @@
             "gtaC"
         ],
         "phenotypes": [
-            "abolished localization to cytoplasm"
+            "abolished protein localization to cytoplasm"
         ],
         "mutant_types": {
             "null": false,
@@ -10133,7 +10150,8 @@
             "gtaC"
         ],
         "phenotypes": [
-            "aberrant cellular localization"
+            "aberrant protein localization to cytoplasm",
+            "aberrant protein localization to nucleus"
         ],
         "mutant_types": {
             "null": false,
@@ -10150,7 +10168,7 @@
             "gtaC"
         ],
         "phenotypes": [
-            "abolished localization to cytoplasm"
+            "abolished protein localization to cytoplasm"
         ],
         "mutant_types": {
             "null": false,
@@ -10167,7 +10185,7 @@
             "gtaC"
         ],
         "phenotypes": [
-            "abolished localization to nucleus"
+            "abolished protein localization to nucleus"
         ],
         "mutant_types": {
             "null": false,
@@ -10207,6 +10225,23 @@
         "mutant_types": {
             "null": false,
             "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351562",
+        "strain_descriptor": "[act15]:GFP:impA1",
+        "associated_genes": [
+            "impa1"
+        ],
+        "phenotypes": [
+            "decreased response to lithium"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
             "multiple ": false,
             "other": false,
             "developmental": false
@@ -10470,12 +10505,12 @@
         ],
         "phenotypes": [
             "decreased growth rate",
-            "aberrant F-actin organization",
             "decreased phagocytosis",
             "aberrant cytokinesis",
             "decreased macropinocytosis",
             "decreased cell motility",
             "delayed development",
+            "aberrant actin filament organization",
             "abolished filopodium formation"
         ],
         "mutant_types": {
@@ -10549,12 +10584,12 @@
         ],
         "phenotypes": [
             "decreased growth rate",
-            "aberrant F-actin organization",
             "decreased phagocytosis",
             "aberrant cytokinesis",
             "decreased macropinocytosis",
             "decreased cell motility",
             "delayed development",
+            "aberrant actin filament organization",
             "abolished filopodium formation"
         ],
         "mutant_types": {
@@ -10649,7 +10684,7 @@
             "racH"
         ],
         "phenotypes": [
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "aberrant cytokinesis",
             "aberrant cell morphology"
         ],
@@ -10823,7 +10858,7 @@
             "sey1"
         ],
         "phenotypes": [
-            "aberrant vacuole organization and biogenesis"
+            "aberrant vacuole organization"
         ],
         "mutant_types": {
             "null": false,
@@ -10937,7 +10972,7 @@
             "rab11A"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
+            "aberrant contractile vacuole organization",
             "aberrant contractile vacuole morphology",
             "increased phagocytosis"
         ],
@@ -10974,12 +11009,12 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "increased secretion of lysosomal enzyme",
+            "increased secretion of lysosomal enzymes",
             "decreased exocytosis",
             "decreased phagocytosis",
             "aberrant phagosome maturation",
-            "abolished protein localization",
-            "abolished macropinocytosis"
+            "abolished macropinocytosis",
+            "abolished protein localization to phagocytic vesicle"
         ],
         "mutant_types": {
             "null": false,
@@ -11036,7 +11071,7 @@
         "phenotypes": [
             "increased filopodium formation",
             "decreased protein localization to cell cortex",
-            "aberrant F-actin organization",
+            "aberrant actin filament organization",
             "decreased pseudopod size"
         ],
         "mutant_types": {
@@ -11875,13 +11910,12 @@
         "phenotypes": [
             "decreased pinocytosis",
             "increased aggregate size",
+            "aberrant protein level",
             "delayed aggregation",
             "decreased phagocytosis",
             "decreased growth rate",
-            "decreased extracellular counting factor component(s) level",
-            "increased extracellular counting factor component(s) level",
             "decreased sporulation",
-            "increased intracellular counting factor component(s) level"
+            "decreased protein secretion"
         ],
         "mutant_types": {
             "null": false,
@@ -12236,6 +12270,23 @@
         }
     },
     {
+        "systematic_name": "DBS0351565",
+        "strain_descriptor": "[act15]:eIF6",
+        "associated_genes": [
+            "eIF6"
+        ],
+        "phenotypes": [
+            "aberrant cellular process"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350396",
         "strain_descriptor": "[act15]:eif2s1(S53A)",
         "associated_genes": [
@@ -12482,10 +12533,10 @@
         "phenotypes": [
             "aberrant aggregation",
             "abolished sporulation",
-            "aberrant F-actin polymerization",
             "decreased cell polarity",
             "increased intracellular cAMP level",
             "development arrests at mound stage",
+            "aberrant actin filament polymerization",
             "aberrant protein localization to plasma membrane",
             "increased prestalk cell differentiation"
         ],
@@ -12605,7 +12656,7 @@
             "increased aggregate size",
             "increased chemotaxis to cAMP",
             "delayed aggregation",
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "aberrant adaptation of signaling pathway",
             "increased lateral pseudopod formation",
             "decreased accumulation of cGMP",
@@ -12698,11 +12749,11 @@
         "phenotypes": [
             "aberrant aggregation",
             "abolished sporulation",
-            "aberrant F-actin polymerization",
             "decreased cell polarity",
             "increased intracellular cAMP level",
             "increased gene expression",
             "development arrests at mound stage",
+            "aberrant actin filament polymerization",
             "increased prestalk cell differentiation"
         ],
         "mutant_types": {
@@ -13371,7 +13422,7 @@
         ],
         "phenotypes": [
             "aberrant chemotaxis to cAMP",
-            "aberrant protein localization"
+            "abolished protein localization to leading edge"
         ],
         "mutant_types": {
             "null": false,
@@ -13389,13 +13440,13 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "increased localization to cell cortex",
+            "increased protein localization to cell cortex",
             "delayed aggregation",
             "decreased growth rate",
-            "aberrant F-actin organization",
             "decreased cell motility",
             "delayed development",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": false,
@@ -13430,7 +13481,7 @@
         ],
         "phenotypes": [
             "abolished phosphoinositide binding",
-            "abolished localization to plasma membrane"
+            "abolished protein localization to plasma membrane"
         ],
         "mutant_types": {
             "null": false,
@@ -13893,9 +13944,9 @@
             "pldB"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
             "increased catalytic activity",
             "increased exocytosis",
+            "decreased actin filament polymerization",
             "aberrant chemotaxis to cAMP",
             "abolished aggregation",
             "decreased sporulation"
@@ -13923,6 +13974,58 @@
             "multiple ": false,
             "other": false,
             "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351577",
+        "strain_descriptor": "[act15]:psiA",
+        "associated_genes": [
+            "psiA"
+        ],
+        "phenotypes": [
+            "decreased gene expression",
+            "decreased stalk cell differentiation"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351579",
+        "strain_descriptor": "[act15]:psiA/[cudA]:lacZ",
+        "associated_genes": [
+            "psiA"
+        ],
+        "phenotypes": [
+            "aberrant gene expression"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351580",
+        "strain_descriptor": "[act15]:psiA/[ecmB]:lacZ",
+        "associated_genes": [
+            "psiA"
+        ],
+        "phenotypes": [
+            "delayed gene expression"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
         }
     },
     {
@@ -14000,7 +14103,7 @@
             "rab11A"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
+            "aberrant contractile vacuole organization",
             "decreased contractile vacuole size",
             "abolished hypotonic response"
         ],
@@ -14019,9 +14122,9 @@
             "rac1B"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
             "increased lateral pseudopod formation",
-            "decreased chemotaxis to cAMP"
+            "decreased chemotaxis to cAMP",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": false,
@@ -14038,9 +14141,9 @@
             "rac1B"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
             "delayed aggregation",
             "abolished cell polarity",
+            "aberrant actin filament organization",
             "abolished chemotaxis to cAMP"
         ],
         "mutant_types": {
@@ -14058,7 +14161,7 @@
             "racE"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
+            "decreased actin filament polymerization",
             "aberrant cytokinesis",
             "decreased growth rate"
         ],
@@ -14083,7 +14186,8 @@
             "aberrant nucleus morphology",
             "decreased growth rate",
             "aberrant cytokinesis",
-            "increased cell-substrate adhesion"
+            "increased cell-substrate adhesion",
+            "abolished protein localization to centrosome"
         ],
         "mutant_types": {
             "null": false,
@@ -14207,7 +14311,7 @@
         "phenotypes": [
             "aberrant cytokinesis",
             "decreased cell motility",
-            "decreased basal F-actin level"
+            "decreased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": false,
@@ -14225,7 +14329,7 @@
         ],
         "phenotypes": [
             "aberrant macropinocytosis",
-            "abolished protein localization"
+            "abolished protein localization to macropinosome"
         ],
         "mutant_types": {
             "null": false,
@@ -14243,7 +14347,7 @@
         ],
         "phenotypes": [
             "aberrant macropinocytosis",
-            "abolished protein localization"
+            "abolished protein localization to macropinosome"
         ],
         "mutant_types": {
             "null": false,
@@ -14530,8 +14634,8 @@
         "phenotypes": [
             "aberrant aggregation",
             "decreased cell polarity",
-            "aberrant F-actin organization",
-            "decreased chemotaxis rate"
+            "decreased chemotaxis rate",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": false,
@@ -14635,6 +14739,57 @@
         }
     },
     {
+        "systematic_name": "DBS0351572",
+        "strain_descriptor": "[act15]:vacA:GFP",
+        "associated_genes": [
+            "vacA"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351573",
+        "strain_descriptor": "[act15]:vacB:GFP",
+        "associated_genes": [
+            "vacB"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351574",
+        "strain_descriptor": "[act15]:vacC:GFP",
+        "associated_genes": [
+            "vacC"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0237200",
         "strain_descriptor": "[act15]:vasP",
         "associated_genes": [
@@ -14642,7 +14797,7 @@
         ],
         "phenotypes": [
             "increased filopodium formation",
-            "increased basal F-actin level"
+            "increased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": false,
@@ -15047,8 +15202,8 @@
             "rabS"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
-            "increased secretion of lysosomal enzyme",
+            "increased secretion of lysosomal enzymes",
+            "aberrant contractile vacuole organization",
             "increased endocytic recycling",
             "aberrant hypertonic response"
         ],
@@ -15068,7 +15223,7 @@
         ],
         "phenotypes": [
             "decreased cell-cell adhesion",
-            "increased secretion of lysosomal enzyme",
+            "increased secretion of lysosomal enzymes",
             "increased cell death",
             "increased pinocytosis",
             "aberrant sorocarp development",
@@ -15242,12 +15397,12 @@
             "arpB"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
+            "decreased actin filament polymerization",
             "decreased cell-substrate adhesion",
             "decreased growth rate",
             "decreased cell motility",
-            "increased bleb formation",
-            "decreased chemotaxis rate"
+            "decreased chemotaxis rate",
+            "increased bleb assembly"
         ],
         "mutant_types": {
             "null": false,
@@ -15531,7 +15686,7 @@
             "vamp7A"
         ],
         "phenotypes": [
-            "increased localization to plasma membrane"
+            "increased protein localization to plasma membrane"
         ],
         "mutant_types": {
             "null": false,
@@ -15550,8 +15705,8 @@
         "phenotypes": [
             "decreased exocytosis",
             "decreased pinocytosis",
-            "aberrant F-actin organization",
             "decreased macropinocytosis",
+            "aberrant actin filament organization",
             "increased phagocytosis"
         ],
         "mutant_types": {
@@ -15571,10 +15726,10 @@
         "phenotypes": [
             "decreased exocytosis",
             "decreased phagocytosis",
-            "aberrant F-actin organization",
             "aberrant cytokinesis",
             "decreased growth rate",
             "decreased macropinocytosis",
+            "aberrant actin filament organization",
             "aberrant cell morphology"
         ],
         "mutant_types": {
@@ -15592,7 +15747,7 @@
             "abpB"
         ],
         "phenotypes": [
-            "abolished F-actin polymerization"
+            "abolished actin filament polymerization"
         ],
         "mutant_types": {
             "null": false,
@@ -15767,10 +15922,10 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "aberrant F-actin organization",
             "decreased growth rate",
             "aberrant cytokinesis",
             "delayed development",
+            "aberrant actin filament organization",
             "aberrant cell morphology"
         ],
         "mutant_types": {
@@ -15788,10 +15943,10 @@
             "rac1B"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
             "decreased growth rate",
             "aberrant cytokinesis",
             "delayed development",
+            "aberrant actin filament organization",
             "aberrant cell morphology"
         ],
         "mutant_types": {
@@ -15810,11 +15965,11 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "aberrant F-actin polymerization",
             "decreased growth rate",
             "aberrant cytokinesis",
             "decreased chemotaxis to folate",
             "delayed development",
+            "aberrant actin filament polymerization",
             "aberrant cell morphology"
         ],
         "mutant_types": {
@@ -15833,7 +15988,7 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "aberrant F-actin organization",
+            "aberrant actin filament organization",
             "aberrant cell morphology",
             "increased phagocytosis"
         ],
@@ -15852,7 +16007,7 @@
             "rapA"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
+            "aberrant actin filament organization",
             "aberrant cell morphology"
         ],
         "mutant_types": {
@@ -15870,7 +16025,7 @@
             "rapA"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
+            "aberrant actin filament organization",
             "aberrant cell morphology"
         ],
         "mutant_types": {
@@ -15907,7 +16062,7 @@
         ],
         "phenotypes": [
             "aberrant osmosensory signaling pathway",
-            "aberrant F-actin organization",
+            "aberrant actin filament organization",
             "aberrant cell morphology"
         ],
         "mutant_types": {
@@ -16200,8 +16355,7 @@
             "gpaB"
         ],
         "phenotypes": [
-            "aberrant protein localization to plasma membrane",
-            "aberrant localization to plasma membrane"
+            "aberrant protein localization to plasma membrane"
         ],
         "mutant_types": {
             "null": false,
@@ -16825,9 +16979,9 @@
         ],
         "phenotypes": [
             "increased filopodium formation",
-            "aberrant F-actin polymerization",
             "development arrests at mound stage",
             "aberrant actin cytoskeleton organization",
+            "aberrant actin filament polymerization",
             "abolished cell polarity",
             "abolished chemotaxis to cAMP",
             "delayed gene expression"
@@ -16847,7 +17001,7 @@
             "rab1A"
         ],
         "phenotypes": [
-            "aberrant F-actin polymerization",
+            "aberrant actin filament polymerization",
             "aberrant pseudopod formation"
         ],
         "mutant_types": {
@@ -17004,7 +17158,7 @@
             "pten"
         ],
         "phenotypes": [
-            "decreased localization to plasma membrane",
+            "decreased protein localization to plasma membrane",
             "decreased fruiting body size"
         ],
         "mutant_types": {
@@ -17022,9 +17176,9 @@
             "gpgA"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
+            "decreased protein localization to plasma membrane",
             "abolished aggregation",
-            "aberrant localization to plasma membrane",
+            "aberrant actin filament organization",
             "abolished chemotaxis to cAMP"
         ],
         "mutant_types": {
@@ -17094,7 +17248,7 @@
             "pikA"
         ],
         "phenotypes": [
-            "increased localization to plasma membrane"
+            "increased protein localization to plasma membrane"
         ],
         "mutant_types": {
             "null": false,
@@ -17316,13 +17470,35 @@
         }
     },
     {
+        "systematic_name": "DBS0351561",
+        "strain_descriptor": "[unk]:vacA:myc:vasP",
+        "associated_genes": [
+            "vacA",
+            "vasP"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis",
+            "decreased growth rate",
+            "aberrant cytokinesis",
+            "increased protein level",
+            "aberrant cell morphology"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350464",
         "strain_descriptor": "[unk]:vasP(1-197:221-261:285-380)",
         "associated_genes": [
             "vasP"
         ],
         "phenotypes": [
-            "abolished F-actin polymerization"
+            "abolished actin filament polymerization"
         ],
         "mutant_types": {
             "null": false,
@@ -17339,7 +17515,7 @@
             "vasP"
         ],
         "phenotypes": [
-            "aberrant F-actin organization"
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": false,
@@ -17356,8 +17532,8 @@
             "vasP"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
-            "aberrant F-actin organization"
+            "decreased actin filament polymerization",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": false,
@@ -18104,7 +18280,7 @@
             "abiA"
         ],
         "phenotypes": [
-            "aberrant protein localization"
+            "abolished protein localization to pseudopodium"
         ],
         "mutant_types": {
             "null": true,
@@ -18121,11 +18297,11 @@
             "abiA"
         ],
         "phenotypes": [
+            "abolished protein localization to pseudopodium",
             "aberrant filopodium formation",
             "decreased slug size",
             "aberrant macropinocytosis",
             "decreased cell motility",
-            "abolished localization to pseudopodium",
             "aberrant pseudopod formation",
             "decreased fruiting body size"
         ],
@@ -18421,9 +18597,9 @@
             "decreased response to Gram-negative bacterium",
             "aberrant thermotaxis",
             "decreased cell polarity",
-            "aberrant F-actin polymerization",
             "decreased cell motility",
-            "aberrant phototaxis"
+            "aberrant phototaxis",
+            "aberrant actin filament polymerization"
         ],
         "mutant_types": {
             "null": true,
@@ -18508,8 +18684,8 @@
             "abpC"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
-            "aberrant phototaxis"
+            "aberrant phototaxis",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -18526,8 +18702,8 @@
             "abpC"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
-            "aberrant phototaxis"
+            "aberrant phototaxis",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -18563,7 +18739,7 @@
             "qkgA-2"
         ],
         "phenotypes": [
-            "aberrant F-actin polymerization"
+            "aberrant actin filament polymerization"
         ],
         "mutant_types": {
             "null": true,
@@ -18690,7 +18866,7 @@
             "abpG"
         ],
         "phenotypes": [
-            "increased basal F-actin level",
+            "increased actin filament bundle assembly",
             "decreased chemotaxis to cAMP",
             "decreased fruiting body size"
         ],
@@ -18733,9 +18909,9 @@
             "acaA"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
             "increased lateral pseudopod formation",
             "decreased chemotaxis rate",
+            "aberrant actin filament organization",
             "aberrant cell morphology",
             "increased protein kinase activation"
         ],
@@ -19047,13 +19223,13 @@
         "phenotypes": [
             "aberrant streaming",
             "aberrant exocytosis",
-            "aberrant lysosome organization and biogenesis",
             "aberrant filopodium formation",
             "increased defense response to Gram-negative bacterium",
             "aberrant endocytosis",
             "aberrant cytokinesis",
             "decreased cell motility",
-            "delayed development"
+            "delayed development",
+            "aberrant lysosome organization"
         ],
         "mutant_types": {
             "null": true,
@@ -19454,7 +19630,7 @@
             "adcC"
         ],
         "phenotypes": [
-            "decreased localization to plasma membrane"
+            "decreased protein localization to plasma membrane"
         ],
         "mutant_types": {
             "null": true,
@@ -19471,7 +19647,7 @@
             "adcC"
         ],
         "phenotypes": [
-            "abolished localization to plasma membrane"
+            "abolished protein localization to plasma membrane"
         ],
         "mutant_types": {
             "null": true,
@@ -19690,11 +19866,11 @@
         "phenotypes": [
             "decreased pinocytosis",
             "delayed cytokinesis",
-            "increased basal F-actin level",
             "decreased growth rate",
             "decreased phagocytosis",
             "aberrant nucleus morphology",
-            "decreased cell motility"
+            "decreased cell motility",
+            "increased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -19731,7 +19907,7 @@
             "increased aggregate size",
             "decreased intracellular glucose level",
             "decreased cell motility",
-            "decreased extracellular counting factor component(s) level"
+            "decreased protein secretion"
         ],
         "mutant_types": {
             "null": true,
@@ -20080,7 +20256,7 @@
         "phenotypes": [
             "decreased fruiting body size",
             "decreased sporulation",
-            "increased aspidocyte differentiation"
+            "increased cell differentiation"
         ],
         "mutant_types": {
             "null": true,
@@ -20116,7 +20292,7 @@
         "phenotypes": [
             "decreased cAMP-induced cGMP pulse",
             "aberrant cell motility",
-            "abolished down-regulation of growth phase genes",
+            "increased gene expression",
             "decreased gene expression",
             "abolished aggregation",
             "decreased chemotaxis to cAMP",
@@ -20161,8 +20337,8 @@
             "ampA"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
             "wild type",
+            "decreased actin filament polymerization",
             "aberrant chemotaxis to folate",
             "increased cell-substrate adhesion",
             "decreased pseudopod formation"
@@ -20257,7 +20433,7 @@
             "increased pseudopod formation",
             "decreased cell-substrate adhesion",
             "increased pinocytosis",
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "aberrant chemotaxis to folate"
         ],
         "mutant_types": {
@@ -20411,12 +20587,12 @@
             "amtC"
         ],
         "phenotypes": [
+            "abolished protein localization to nucleus",
             "decreased gene expression",
             "development arrests at slug stage",
             "mislocalized gene expression",
             "decreased extracellular ammonia level",
             "delayed culmination",
-            "aberrant protein localization",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -20544,8 +20720,8 @@
         ],
         "phenotypes": [
             "aberrant aggregation",
-            "aberrant contractile vacuole organization and biogenesis",
             "aberrant cell separation during cytokinesis",
+            "aberrant contractile vacuole organization",
             "decreased growth rate",
             "aberrant hypotonic response",
             "decreased protein stabilization"
@@ -20715,8 +20891,8 @@
             "apm1"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
             "decreased spore germination",
+            "aberrant contractile vacuole organization",
             "decreased growth rate",
             "aberrant endosome morphology",
             "aberrant hypotonic response",
@@ -20774,12 +20950,12 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "aberrant lysosome organization and biogenesis",
             "increased exocytosis",
             "aberrant endosome morphology",
             "aberrant post-lysosomal vacuole organization and biogenesis",
             "decreased cellular localization",
-            "aberrant secretion"
+            "aberrant secretion",
+            "aberrant lysosome organization"
         ],
         "mutant_types": {
             "null": true,
@@ -20948,7 +21124,7 @@
             "arcB"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
+            "decreased actin filament polymerization",
             "decreased growth rate",
             "decreased cell motility",
             "decreased pseudopod formation",
@@ -21218,7 +21394,7 @@
         "phenotypes": [
             "aberrant cell motility",
             "decreased cell-substrate adhesion",
-            "aberrant F-actin organization",
+            "aberrant actin filament organization",
             "decreased cell size"
         ],
         "mutant_types": {
@@ -21237,7 +21413,7 @@
         ],
         "phenotypes": [
             "aberrant macroautophagy",
-            "abolished autophagic vacuole formation"
+            "abolished autophagosome organization"
         ],
         "mutant_types": {
             "null": true,
@@ -21256,7 +21432,7 @@
         "phenotypes": [
             "aberrant macroautophagy",
             "aberrant mitochondrion morphology",
-            "abolished autophagic vacuole formation"
+            "abolished autophagosome organization"
         ],
         "mutant_types": {
             "null": true,
@@ -21276,7 +21452,7 @@
             "decreased defense response to Gram-negative bacterium",
             "aberrant defense response to bacterium",
             "abolished autophagic cell death",
-            "aberrant vacuole organization and biogenesis"
+            "aberrant vacuole organization"
         ],
         "mutant_types": {
             "null": true,
@@ -21294,7 +21470,7 @@
         ],
         "phenotypes": [
             "decreased catalytic activity",
-            "abolished protein localization"
+            "abolished protein localization to autophagosome"
         ],
         "mutant_types": {
             "null": true,
@@ -21319,7 +21495,7 @@
             "aberrant cellular response to nitrogen starvation",
             "abolished SDF production",
             "decreased growth rate",
-            "aberrant vacuole organization and biogenesis",
+            "aberrant vacuole organization",
             "abolished stalk cell differentiation",
             "abolished aggregation",
             "increased defense response to fungus",
@@ -21448,7 +21624,7 @@
             "pcp"
         ],
         "phenotypes": [
-            "abolished autophagic vacuole formation"
+            "abolished autophagosome organization"
         ],
         "mutant_types": {
             "null": false,
@@ -21467,7 +21643,7 @@
         ],
         "phenotypes": [
             "wild type",
-            "abolished protein localization"
+            "abolished protein localization to autophagosome"
         ],
         "mutant_types": {
             "null": false,
@@ -21598,6 +21774,25 @@
         }
     },
     {
+        "systematic_name": "DBS0351576",
+        "strain_descriptor": "atg5-/abpB-/[dscB]:abpB(D93A/D95A/D97A):GFP",
+        "associated_genes": [
+            "abpB",
+            "atg5"
+        ],
+        "phenotypes": [
+            "abolished growth",
+            "aberrant cellular component organization"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": true,
+            "other": true,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "HR174",
         "strain_descriptor": "atg6-",
         "associated_genes": [
@@ -21717,7 +21912,7 @@
             "increased number of tips",
             "aberrant cellular response to nitrogen starvation",
             "abolished SDF production",
-            "aberrant vacuole organization and biogenesis",
+            "aberrant vacuole organization",
             "decreased fruiting body size",
             "decreased defense response to Gram-positive bacterium",
             "decreased sporulation"
@@ -21737,7 +21932,6 @@
             "atg8a"
         ],
         "phenotypes": [
-            "aberrant lysosome organization and biogenesis",
             "increased number of tips in mound",
             "increased cell death",
             "decreased catalytic activity",
@@ -21745,7 +21939,8 @@
             "decreased phagocytosis",
             "increased protein modification",
             "delayed development",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "aberrant lysosome organization"
         ],
         "mutant_types": {
             "null": true,
@@ -21763,13 +21958,13 @@
             "atg8b"
         ],
         "phenotypes": [
-            "aberrant lysosome organization and biogenesis",
             "increased cell death",
             "decreased catalytic activity",
             "decreased growth rate",
             "decreased phagocytosis",
             "increased protein modification",
-            "aberrant sorocarp development"
+            "aberrant sorocarp development",
+            "aberrant lysosome organization"
         ],
         "mutant_types": {
             "null": false,
@@ -21786,8 +21981,8 @@
             "atg8b"
         ],
         "phenotypes": [
-            "aberrant lysosome organization and biogenesis",
-            "precocious development"
+            "precocious development",
+            "aberrant lysosome organization"
         ],
         "mutant_types": {
             "null": true,
@@ -21810,6 +22005,7 @@
             "aberrant sorus morphology",
             "increased number of tips in mound",
             "aberrant autophagy",
+            "decreased protein localization to autophagosome",
             "decreased phagocytosis",
             "decreased growth rate",
             "abolished catalytic activity",
@@ -21819,7 +22015,6 @@
             "aberrant phagosome maturation",
             "decreased prespore gene expression",
             "decreased prespore cell differentiation",
-            "decreased protein localization",
             "delayed development",
             "aberrant fruiting body morphology",
             "abolished phototaxis"
@@ -22169,9 +22364,9 @@
             "cap"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
             "decreased protein level",
             "aberrant pinocytosis",
+            "aberrant contractile vacuole organization",
             "aberrant cytokinesis",
             "decreased cell motility",
             "delayed development",
@@ -22276,7 +22471,7 @@
         ],
         "phenotypes": [
             "aberrant adaptation of signaling pathway",
-            "aberrant localization to plasma membrane"
+            "aberrant protein localization to plasma membrane"
         ],
         "mutant_types": {
             "null": true,
@@ -22338,9 +22533,9 @@
             "carC"
         ],
         "phenotypes": [
-            "aberrant F-actin polymerization",
             "aberrant adaptation of adenylate cyclase",
             "aberrant chemotaxis to cAMP",
+            "aberrant actin filament polymerization",
             "abolished streaming",
             "aberrant cAMP wave formation"
         ],
@@ -22440,8 +22635,8 @@
         "phenotypes": [
             "decreased pinocytosis",
             "decreased growth rate",
-            "decreased basal F-actin level",
-            "decreased aggregate size"
+            "decreased aggregate size",
+            "decreased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -22654,7 +22849,7 @@
         "phenotypes": [
             "abolished exocytosis",
             "decreased growth rate",
-            "abolished F-actin polymerization",
+            "abolished actin filament polymerization",
             "abolished phagosome re-neutralization"
         ],
         "mutant_types": {
@@ -22951,7 +23146,7 @@
             "chcA"
         ],
         "phenotypes": [
-            "aberrant protein localization"
+            "increased protein localization"
         ],
         "mutant_types": {
             "null": true,
@@ -23524,7 +23719,7 @@
             "cnrF"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
+            "aberrant contractile vacuole organization",
             "abolished hypotonic response",
             "decreased contractile vacuole size",
             "aberrant regulation of GTPase activity"
@@ -23561,7 +23756,7 @@
             "cnrF"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
+            "aberrant contractile vacuole organization",
             "abolished hypotonic response",
             "decreased contractile vacuole size",
             "aberrant regulation of GTPase activity"
@@ -23581,7 +23776,7 @@
             "cnrF"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
+            "aberrant contractile vacuole organization",
             "abolished hypotonic response",
             "decreased contractile vacuole size",
             "aberrant regulation of GTPase activity"
@@ -23604,7 +23799,7 @@
             "aberrant streaming",
             "increased cAMP-induced cAMP pulse",
             "decreased spore germination",
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "aberrant cytokinesis",
             "increased number of aggregates",
             "increased growth rate",
@@ -23916,13 +24111,13 @@
         "phenotypes": [
             "decreased defense response to Gram-negative bacterium",
             "increased myosin II assembly",
-            "increased basal F-actin level",
             "aberrant cytokinesis",
             "decreased growth rate",
             "decreased phagocytosis",
             "decreased cell motility",
             "aberrant cell morphology",
-            "decreased defense response to Gram-positive bacterium"
+            "decreased defense response to Gram-positive bacterium",
+            "increased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -24091,14 +24286,14 @@
         ],
         "phenotypes": [
             "aberrant endocytosis",
-            "increased basal F-actin level",
             "aberrant cytokinesis",
             "increased cell size",
             "development arrests at mound stage",
             "decreased growth rate",
             "aberrant nucleus morphology",
             "increased protein level",
-            "decreased chemotaxis to cAMP"
+            "decreased chemotaxis to cAMP",
+            "increased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": false,
@@ -24172,10 +24367,10 @@
         ],
         "phenotypes": [
             "increased pseudopod formation",
-            "aberrant F-actin organization",
             "decreased cell motility",
             "decreased fruiting body size",
-            "decreased chemotaxis to cAMP"
+            "decreased chemotaxis to cAMP",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -24601,10 +24796,10 @@
         "phenotypes": [
             "decreased cell-cell adhesion",
             "decreased culmination",
+            "abolished protein localization to cell-cell contact zone",
             "delayed aggregation",
             "increased cell-substrate adhesion",
-            "decreased sporulation",
-            "aberrant protein localization"
+            "decreased sporulation"
         ],
         "mutant_types": {
             "null": true,
@@ -24722,13 +24917,13 @@
             "decreased catalytic activity",
             "increased cAMP-induced cGMP pulse",
             "increased aggregate size",
-            "decreased basal F-actin level",
             "increased cell-cell adhesion",
             "increased GTP-gamma-S-stimulated guanylyl cyclase activity",
             "increased protein level",
             "increased cell motility",
             "increased intracellular glucose level",
             "decreased cAMP-induced cAMP pulse",
+            "decreased actin filament bundle assembly",
             "decreased myosin II assembly"
         ],
         "mutant_types": {
@@ -24908,9 +25103,9 @@
             "ctxA"
         ],
         "phenotypes": [
+            "aberrant protein localization to basolateral plasma membrane",
             "aberrant stalk morphogenesis",
-            "aberrant tip development",
-            "aberrant protein localization"
+            "aberrant tip development"
         ],
         "mutant_types": {
             "null": true,
@@ -24953,12 +25148,12 @@
             "increased lateral pseudopod formation",
             "decreased cell motility",
             "aberrant regulation of GTPase activity",
-            "increased bleb formation",
             "aberrant cell morphology",
             "abolished culmination",
             "abolished streaming",
             "abolished aggregation",
-            "aberrant regulation of protein kinase activity"
+            "aberrant regulation of protein kinase activity",
+            "increased bleb assembly"
         ],
         "mutant_types": {
             "null": false,
@@ -25267,8 +25462,8 @@
             "cynA"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
             "aberrant cell motility",
+            "decreased actin filament polymerization",
             "aberrant chemotaxis to cAMP",
             "delayed aggregation",
             "aberrant cell morphology"
@@ -26388,7 +26583,7 @@
             "dhkM"
         ],
         "phenotypes": [
-            "abolished autophagic vacuole formation",
+            "abolished autophagosome organization",
             "aberrant autophagic cell death"
         ],
         "mutant_types": {
@@ -26406,10 +26601,10 @@
             "dhkM"
         ],
         "phenotypes": [
+            "abolished autophagosome organization",
+            "abolished actin filament depolymerization",
             "abolished cellulose biosynthesis",
-            "abolished autophagic vacuole formation",
-            "abolished autophagic cell death",
-            "abolished F-actin depolymerization"
+            "abolished autophagic cell death"
         ],
         "mutant_types": {
             "null": true,
@@ -26426,7 +26621,7 @@
             "dhkM"
         ],
         "phenotypes": [
-            "decreased autophagic vacuole formation",
+            "decreased autophagic vacuole organization",
             "delayed development"
         ],
         "mutant_types": {
@@ -26710,12 +26905,12 @@
         "phenotypes": [
             "aberrant cell separation during cytokinesis",
             "aberrant cytokinesis",
-            "aberrant F-actin organization",
             "increased cell size",
             "decreased growth rate",
-            "abolished protein localization",
-            "increased F-actin depolymerization",
-            "aberrant protein localization"
+            "increased actin filament depolymerization",
+            "decreased protein localization",
+            "abolished protein localization to cleavage furrow",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -26754,7 +26949,7 @@
             "aberrant cytokinesis",
             "increased cell size",
             "decreased growth rate",
-            "abolished protein localization"
+            "abolished protein localization to cleavage furrow"
         ],
         "mutant_types": {
             "null": true,
@@ -26810,7 +27005,6 @@
             "dmtA"
         ],
         "phenotypes": [
-            "abolished vacuolation",
             "decreased outer basal disc size",
             "wild type",
             "abolished DIF production",
@@ -26819,6 +27013,7 @@
             "decreased prestalk 0 cell differentiation",
             "decreased lower cup size",
             "aberrant gene expression",
+            "aberrant vacuole organization",
             "delayed development",
             "aberrant fruiting body morphology",
             "decreased prestalk cell differentiation",
@@ -27427,7 +27622,7 @@
             "dsgg"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis"
+            "aberrant contractile vacuole organization"
         ],
         "mutant_types": {
             "null": false,
@@ -27444,7 +27639,7 @@
             "dsgg"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
+            "aberrant contractile vacuole organization",
             "aberrant cellular localization"
         ],
         "mutant_types": {
@@ -27462,7 +27657,7 @@
             "dsgg"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
+            "aberrant contractile vacuole organization",
             "aberrant hypotonic response"
         ],
         "mutant_types": {
@@ -27549,7 +27744,7 @@
             "dsgg"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis"
+            "aberrant contractile vacuole organization"
         ],
         "mutant_types": {
             "null": true,
@@ -27566,7 +27761,7 @@
             "dsgg"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis"
+            "aberrant contractile vacuole organization"
         ],
         "mutant_types": {
             "null": true,
@@ -27584,7 +27779,7 @@
             "lvsA"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis"
+            "aberrant contractile vacuole organization"
         ],
         "mutant_types": {
             "null": true,
@@ -27602,7 +27797,7 @@
             "phgA"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis"
+            "aberrant contractile vacuole organization"
         ],
         "mutant_types": {
             "null": true,
@@ -27620,7 +27815,7 @@
             "rab8A"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis"
+            "aberrant contractile vacuole organization"
         ],
         "mutant_types": {
             "null": true,
@@ -27656,7 +27851,7 @@
             "lvsD"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis"
+            "aberrant contractile vacuole organization"
         ],
         "mutant_types": {
             "null": true,
@@ -28152,7 +28347,7 @@
         ],
         "phenotypes": [
             "aberrant cytokinesis",
-            "aberrant F-actin organization",
+            "aberrant actin filament organization",
             "aberrant cell morphology"
         ],
         "mutant_types": {
@@ -28190,10 +28385,10 @@
             "dydA"
         ],
         "phenotypes": [
+            "decreased protein localization to cell cortex",
             "increased myosin II assembly",
             "increased chemoattractant-mediated F-actin polymerization",
-            "aberrant chemotaxis to cAMP",
-            "decreased localization to cell cortex"
+            "aberrant chemotaxis to cAMP"
         ],
         "mutant_types": {
             "null": true,
@@ -28210,8 +28405,8 @@
             "dydA"
         ],
         "phenotypes": [
-            "decreased chemotaxis to cAMP",
-            "decreased localization to cell cortex"
+            "decreased protein localization to cell cortex",
+            "decreased chemotaxis to cAMP"
         ],
         "mutant_types": {
             "null": true,
@@ -28228,11 +28423,11 @@
             "dymA"
         ],
         "phenotypes": [
+            "decreased protein localization to cleavage furrow",
             "aberrant cell separation during cytokinesis",
-            "aberrant F-actin organization",
             "increased cell size",
             "decreased growth rate",
-            "aberrant protein localization"
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -28319,12 +28514,12 @@
             "dymB"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
             "decreased growth rate",
             "aberrant hypotonic response",
             "increased cell-cell adhesion",
             "increased cell-substrate adhesion",
             "decreased catalase activity",
+            "aberrant actin filament organization",
             "increased growth rate",
             "increased phagocytosis",
             "decreased cell size"
@@ -28593,7 +28788,7 @@
             "increased protein localization to pseudopodium",
             "decreased culmination",
             "increased pseudopod formation",
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "decreased cell motility",
             "delayed development",
             "abolished cell polarity",
@@ -28670,10 +28865,11 @@
         "phenotypes": [
             "aberrant spore morphology",
             "decreased spore germination",
+            "abolished protein localization to cell cortex",
             "aberrant cytokinesis",
             "abolished protein localization to plasma membrane",
-            "abolished protein phosphorylation",
-            "aberrant protein localization"
+            "aberrant actin cytoskeleton organization",
+            "abolished protein phosphorylation"
         ],
         "mutant_types": {
             "null": true,
@@ -28691,8 +28887,8 @@
         ],
         "phenotypes": [
             "aberrant spore morphology",
-            "abolished localization to coated pits",
-            "abolished localization to plasma membrane"
+            "abolished protein localization to plasma membrane",
+            "abolished protein localization to coated pits"
         ],
         "mutant_types": {
             "null": true,
@@ -28727,10 +28923,9 @@
         ],
         "phenotypes": [
             "aberrant spore morphology",
-            "abolished localization to coated pits",
-            "abolished localization to plasma membrane",
-            "abolished phosphatidylinositol-4,5-bisphosphate binding",
             "abolished protein localization to plasma membrane",
+            "abolished phosphatidylinositol-4,5-bisphosphate binding",
+            "abolished protein localization to coated pits",
             "abolished protein phosphorylation"
         ],
         "mutant_types": {
@@ -28934,7 +29129,7 @@
         ],
         "phenotypes": [
             "abolished chemotaxis to folate",
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "abolished protein phosphorylation"
         ],
         "mutant_types": {
@@ -29138,13 +29333,13 @@
             "fam21"
         ],
         "phenotypes": [
+            "decreased protein localization to secondary lysosome",
             "abolished exocytosis",
             "aberrant vegetative growth",
             "aberrant autophagic cell death",
             "aberrant phagosome maturation",
             "aberrant post-lysosomal vacuole organization and biogenesis",
-            "decreased phagosomal proteolysis",
-            "decreased protein localization"
+            "decreased phagosomal proteolysis"
         ],
         "mutant_types": {
             "null": true,
@@ -29195,8 +29390,8 @@
             "far1"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
             "aberrant binding",
+            "decreased actin filament polymerization",
             "aberrant defense response to bacterium",
             "aberrant macropinocytosis",
             "decreased growth rate",
@@ -29727,7 +29922,7 @@
             "mhcA"
         ],
         "phenotypes": [
-            "aberrant bleb formation"
+            "aberrant bleb assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -29881,9 +30076,9 @@
         "phenotypes": [
             "decreased growth rate",
             "decreased phagocytosis",
-            "aberrant F-actin organization",
             "aberrant actin cytoskeleton organization",
-            "decreased macropinocytosis"
+            "decreased macropinocytosis",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -30449,10 +30644,10 @@
             "gapA"
         ],
         "phenotypes": [
+            "decreased protein localization to cleavage furrow",
             "increased myosin II assembly",
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "increased lateral pseudopod formation",
-            "decreased protein localization",
             "decreased chemotaxis to cAMP",
             "aberrant cellular response to stress",
             "aberrant spindle organization"
@@ -30526,8 +30721,8 @@
             "gbfA"
         ],
         "phenotypes": [
-            "abolished autophagic cell death",
-            "abolished autophagic vacuole formation"
+            "abolished autophagosome organization",
+            "abolished autophagic cell death"
         ],
         "mutant_types": {
             "null": true,
@@ -30762,7 +30957,7 @@
             "decreased cell polarity",
             "delayed aggregation",
             "decreased chemotaxis rate",
-            "increased bleb formation"
+            "increased bleb assembly"
         ],
         "mutant_types": {
             "null": false,
@@ -30799,10 +30994,10 @@
             "gbpD"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
             "increased cell-substrate adhesion",
             "increased lateral pseudopod formation",
             "decreased chemotaxis rate",
+            "aberrant actin filament organization",
             "abolished aggregation"
         ],
         "mutant_types": {
@@ -30900,12 +31095,12 @@
             "abolished gene expression",
             "abolished sporulation",
             "aberrant cellular metabolic process",
-            "aberrant initiation of development",
             "abolished growth",
             "decreased gene expression",
             "increased gene expression",
             "development arrests at mound stage",
-            "cell cycle arrest"
+            "cell cycle arrest",
+            "abolished aggregation"
         ],
         "mutant_types": {
             "null": true,
@@ -30924,7 +31119,7 @@
             "gcsA"
         ],
         "phenotypes": [
-            "aberrant initiation of development"
+            "abolished aggregation"
         ],
         "mutant_types": {
             "null": true,
@@ -31112,7 +31307,7 @@
             "gefA"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
+            "decreased actin filament polymerization",
             "decreased activation of GTPase activity",
             "aberrant chemotaxis to cAMP",
             "decreased protein kinase activation",
@@ -31172,15 +31367,15 @@
         ],
         "phenotypes": [
             "abolished pinocytosis",
-            "increased basal F-actin level",
             "abolished growth",
             "aberrant activation of GTPase activity",
             "delayed aggregation",
             "decreased phagocytosis",
             "decreased growth rate",
             "decreased aggregate size",
-            "increased bleb formation",
+            "increased actin filament bundle assembly",
             "aberrant cell morphology",
+            "increased bleb assembly",
             "aberrant cytoskeleton organization",
             "aberrant fruiting body morphology"
         ],
@@ -31345,7 +31540,7 @@
             "gefH"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
+            "decreased actin filament polymerization",
             "decreased activation of GTPase activity",
             "aberrant chemotaxis to cAMP",
             "delayed development",
@@ -31367,7 +31562,7 @@
             "gefH"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
+            "decreased actin filament polymerization",
             "aberrant chemotaxis to cAMP",
             "abolished activation of GTPase activity",
             "decreased protein kinase activation",
@@ -31586,7 +31781,7 @@
         "phenotypes": [
             "decreased phagocytosis",
             "aberrant cytokinesis, contractile ring contraction",
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "decreased macropinocytosis",
             "increased substrate adhesion-dependent cell spreading"
         ],
@@ -31678,7 +31873,7 @@
         ],
         "phenotypes": [
             "abolished cellulose biosynthesis",
-            "decreased autophagic vacuole formation",
+            "decreased autophagic vacuole organization",
             "aberrant cell morphology"
         ],
         "mutant_types": {
@@ -32198,7 +32393,7 @@
         ],
         "phenotypes": [
             "decreased cAMP-induced cGMP pulse",
-            "abolished localization to plasma membrane",
+            "abolished protein localization to plasma membrane",
             "abolished aggregation"
         ],
         "mutant_types": {
@@ -32257,7 +32452,7 @@
             "gpaB"
         ],
         "phenotypes": [
-            "abolished localization to plasma membrane"
+            "abolished protein localization to plasma membrane"
         ],
         "mutant_types": {
             "null": true,
@@ -32274,7 +32469,7 @@
             "gpaB"
         ],
         "phenotypes": [
-            "abolished localization to plasma membrane"
+            "abolished protein localization to plasma membrane"
         ],
         "mutant_types": {
             "null": true,
@@ -32989,7 +33184,7 @@
             "decreased lateral pseudopod formation",
             "increased chemotaxis to cAMP",
             "precocious aggregation",
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "aberrant adaptation of signaling pathway",
             "decreased period cAMP wave formation",
             "decreased aggregate size",
@@ -33063,12 +33258,12 @@
             "aberrant phagocytosis",
             "aberrant chemotaxis",
             "decreased engulfment during phagocytosis",
-            "abolished F-actin polymerization",
             "aberrant sorocarp development",
             "decreased chemotaxis to folate",
             "decreased protein kinase activation",
             "abolished activation of adenylate cyclase",
             "decreased chemotaxis to cAMP",
+            "abolished actin filament polymerization",
             "increased growth rate",
             "decreased cAMP-induced cAMP pulse",
             "aberrant protein localization",
@@ -34068,7 +34263,7 @@
             "gtaC"
         ],
         "phenotypes": [
-            "aberrant localization to nucleus"
+            "aberrant protein localization to nucleus"
         ],
         "mutant_types": {
             "null": true,
@@ -34608,8 +34803,9 @@
         "phenotypes": [
             "decreased spore germination",
             "aberrant spore morphology",
+            "aberrant cortical actin cytoskeleton organization",
             "aberrant spore coat morphology",
-            "aberrant protein localization"
+            "increased protein localization to plasma membrane"
         ],
         "mutant_types": {
             "null": true,
@@ -34648,7 +34844,7 @@
         "phenotypes": [
             "decreased exocytosis",
             "decreased protein level",
-            "aberrant protein localization"
+            "aberrant protein localization to lysosomal membrane"
         ],
         "mutant_types": {
             "null": true,
@@ -34769,11 +34965,11 @@
             "increased number of tips in mound",
             "aberrant spore morphology",
             "decreased spore germination",
-            "aberrant F-actin organization",
             "aberrant sorocarp development",
             "aberrant hypotonic response",
             "abolished chemotaxis to calcium",
             "abolished streaming",
+            "aberrant actin filament organization",
             "abolished culmination",
             "decreased sporulation",
             "aberrant prespore cell differentiation",
@@ -34838,8 +35034,8 @@
             "ibrA"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
             "aberrant substrate adhesion-dependent cell spreading",
+            "aberrant contractile vacuole organization",
             "decreased phagocytosis",
             "decreased growth rate",
             "aberrant cytokinesis",
@@ -34961,8 +35157,11 @@
             "icpA"
         ],
         "phenotypes": [
+            "abolished protein localization to mitotic spindle",
             "aberrant mitosis",
             "aberrant cytokinesis",
+            "abolished protein localization to cleavage furrow",
+            "abolished protein localization to mitotic spindle midzone",
             "aberrant protein localization"
         ],
         "mutant_types": {
@@ -34980,7 +35179,7 @@
             "icpA"
         ],
         "phenotypes": [
-            "aberrant protein localization"
+            "aberrant protein localization to mitotic spindle"
         ],
         "mutant_types": {
             "null": true,
@@ -34999,8 +35198,8 @@
         "phenotypes": [
             "increased aggregate size",
             "precocious aggregation",
-            "decreased extracellular counting factor component(s) level",
-            "precocious gene expression"
+            "precocious gene expression",
+            "decreased protein secretion"
         ],
         "mutant_types": {
             "null": true,
@@ -35102,7 +35301,7 @@
         ],
         "phenotypes": [
             "abolished cellulose biosynthesis",
-            "abolished autophagic vacuole formation",
+            "abolished autophagosome organization",
             "abolished autophagic cell death",
             "aberrant autophagic cell death"
         ],
@@ -35126,7 +35325,7 @@
             "precocious aggregation",
             "delayed aggregation",
             "aberrant chemotaxis",
-            "increased bleb formation",
+            "increased bleb assembly",
             "increased chemotaxis to arachidonic acid",
             "abolished positive regulation of chemorepellant activity"
         ],
@@ -35237,7 +35436,7 @@
         "phenotypes": [
             "increased number of autophagosomes",
             "decreased protein level",
-            "aberrant vacuole organization and biogenesis",
+            "aberrant vacuole organization",
             "aberrant gene expression",
             "aberrant cellular response to stress",
             "aberrant endoplasmic reticulum organization",
@@ -35386,11 +35585,11 @@
             "kif12"
         ],
         "phenotypes": [
+            "aberrant protein localization to mitotic spindle",
             "aberrant myosin II organization",
             "aberrant cytokinesis",
             "cell cycle arrest",
-            "increased bleb formation",
-            "aberrant protein localization"
+            "increased bleb assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -35600,9 +35799,9 @@
         "phenotypes": [
             "aberrant mitosis",
             "decreased growth rate",
+            "aberrant protein localization to nuclear envelope",
             "aberrant centrosome localization",
             "aberrant centromere complex assembly",
-            "aberrant protein localization",
             "aberrant centrosome organization",
             "aberrant spindle organization"
         ],
@@ -36067,10 +36266,10 @@
             "decreased cell-substrate adhesion",
             "decreased gene expression",
             "development arrests at mound stage",
-            "aberrant F-actin organization",
             "aberrant cell-cell adhesion",
             "decreased chemotaxis rate",
             "abolished sorting to prestalk region",
+            "aberrant actin filament organization",
             "delayed gene expression"
         ],
         "mutant_types": {
@@ -36181,11 +36380,11 @@
             "decreased cell polarity",
             "delayed aggregation",
             "decreased growth rate",
-            "aberrant F-actin organization",
             "aberrant cytokinesis",
             "increased lateral pseudopod formation",
             "aberrant response to osmotic stress",
-            "decreased chemotaxis to cAMP"
+            "decreased chemotaxis to cAMP",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -36206,10 +36405,10 @@
             "decreased cell polarity",
             "abolished growth",
             "delayed aggregation",
-            "aberrant F-actin organization",
             "aberrant cytokinesis",
             "aberrant response to osmotic stress",
-            "decreased chemotaxis to cAMP"
+            "decreased chemotaxis to cAMP",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": false,
@@ -36329,7 +36528,7 @@
         ],
         "phenotypes": [
             "aberrant microtubule cytoskeleton organization",
-            "increased basal phosphorylated actin level",
+            "increased actin phosphorylation",
             "aberrant Golgi localization"
         ],
         "mutant_types": {
@@ -36485,11 +36684,11 @@
             "decreased spore germination",
             "increased aggregate size",
             "decreased cell-substrate adhesion",
-            "increased basal F-actin level",
             "decreased gene expression",
             "development arrests at mound stage",
             "abolished positive chemotaxis",
             "abolished aggregation",
+            "increased actin filament bundle assembly",
             "abolished cell polarity",
             "delayed gene expression"
         ],
@@ -36584,8 +36783,8 @@
             "lst8"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
             "aberrant activation of adenylate cyclase activity",
+            "decreased actin filament polymerization",
             "decreased chemotaxis rate",
             "abolished aggregation",
             "decreased myosin II assembly",
@@ -36641,7 +36840,7 @@
             "lvsA"
         ],
         "phenotypes": [
-            "increased bleb formation"
+            "increased bleb assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -36658,9 +36857,9 @@
             "lvsA"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
             "abolished cytokinesis",
             "decreased pinocytosis",
+            "aberrant contractile vacuole organization",
             "decreased phagocytosis",
             "aberrant hypotonic response",
             "increased cell-substrate adhesion"
@@ -36716,16 +36915,16 @@
             "lvsB"
         ],
         "phenotypes": [
-            "increased secretion of lysosomal enzyme",
-            "aberrant lysosome organization and biogenesis",
+            "increased secretion of lysosomal enzymes",
             "increased lysosome size",
             "increased exocytosis",
             "increased pinocytosis",
+            "aberrant protein localization to secondary lysosome",
             "aberrant phagosome maturation",
             "aberrant post-lysosomal vacuole organization and biogenesis",
             "increased endosome size",
             "increased endosomal vesicle fusion",
-            "aberrant protein localization"
+            "aberrant lysosome organization"
         ],
         "mutant_types": {
             "null": true,
@@ -37219,9 +37418,9 @@
             "mgp1"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
             "increased phototaxis",
             "increased filopodium formation",
+            "aberrant contractile vacuole organization",
             "decreased cell motility",
             "decreased fruiting body size",
             "abolished streaming",
@@ -37244,8 +37443,8 @@
             "mgp2"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
             "increased filopodium formation",
+            "aberrant contractile vacuole organization",
             "aberrant culmination",
             "decreased cell motility",
             "decreased phototaxis",
@@ -37287,10 +37486,10 @@
             "development arrests at mound stage",
             "aberrant cytokinesis",
             "decreased growth rate",
-            "increased F-actin polymerization",
-            "abolished bleb formation",
+            "increased actin filament polymerization",
             "aberrant hypotonic response",
             "aberrant regulation of GTPase activity",
+            "abolished bleb assembly",
             "aberrant regulation of protein kinase activity",
             "aberrant cellular response to stress"
         ],
@@ -37364,7 +37563,7 @@
         ],
         "phenotypes": [
             "aberrant cellular response to fluid shear stress",
-            "abolished bleb formation"
+            "abolished bleb assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -37474,7 +37673,7 @@
             "rmd1"
         ],
         "phenotypes": [
-            "aberrant protein localization"
+            "abolished protein localization to cleavage furrow"
         ],
         "mutant_types": {
             "null": true,
@@ -37529,7 +37728,7 @@
             "mhcA"
         ],
         "phenotypes": [
-            "increased F-actin polymerization"
+            "increased actin filament polymerization"
         ],
         "mutant_types": {
             "null": true,
@@ -37637,8 +37836,8 @@
             "rapA"
         ],
         "phenotypes": [
-            "increased basal F-actin level",
             "aberrant myosin II organization",
+            "increased actin filament bundle assembly",
             "increased cell polarity"
         ],
         "mutant_types": {
@@ -37726,7 +37925,7 @@
             "mhcA"
         ],
         "phenotypes": [
-            "aberrant protein localization"
+            "decreased protein localization to cleavage furrow"
         ],
         "mutant_types": {
             "null": true,
@@ -38705,7 +38904,7 @@
             "decreased growth rate",
             "decreased cell motility",
             "decreased macropinocytosis",
-            "decreased basal F-actin level"
+            "decreased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -38758,7 +38957,7 @@
         ],
         "phenotypes": [
             "decreased growth rate",
-            "aberrant cellular component organization or biogenesis"
+            "aberrant cellular component organization"
         ],
         "mutant_types": {
             "null": false,
@@ -38928,7 +39127,7 @@
             "myoA"
         ],
         "phenotypes": [
-            "increased secretion of lysosomal enzyme",
+            "increased secretion of lysosomal enzymes",
             "delayed aggregation"
         ],
         "mutant_types": {
@@ -38948,17 +39147,17 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "increased secretion of lysosomal enzyme",
+            "increased secretion of lysosomal enzymes",
             "increased filopodium formation",
             "aberrant aggregation",
             "aberrant cortical actin cytoskeleton stabilization",
             "aberrant endosomal transport",
             "decreased defense response to Gram-negative bacterium",
             "decreased growth rate",
-            "aberrant F-actin organization",
             "delayed aggregation",
             "decreased cell motility",
             "decreased fruiting body size",
+            "aberrant actin filament organization",
             "decreased chemotaxis to cAMP",
             "aberrant cytoskeleton organization",
             "decreased lateral pseudopod suppression"
@@ -38998,8 +39197,8 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "aberrant F-actin organization",
-            "decreased growth rate"
+            "decreased growth rate",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": false,
@@ -39018,8 +39217,8 @@
         ],
         "phenotypes": [
             "decreased pinocytosis",
-            "aberrant F-actin organization",
-            "decreased growth rate"
+            "decreased growth rate",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": false,
@@ -39058,7 +39257,7 @@
             "myoB"
         ],
         "phenotypes": [
-            "increased secretion of lysosomal enzyme",
+            "increased secretion of lysosomal enzymes",
             "aberrant aggregation",
             "decreased cell motility",
             "decreased chemotaxis to cAMP",
@@ -39184,8 +39383,8 @@
             "myoB"
         ],
         "phenotypes": [
-            "abolished protein localization to plasma membrane",
-            "abolished protein localization"
+            "abolished protein localization to actin wave",
+            "abolished protein localization to plasma membrane"
         ],
         "mutant_types": {
             "null": true,
@@ -39202,7 +39401,7 @@
             "myoB"
         ],
         "phenotypes": [
-            "abolished protein localization"
+            "abolished protein localization to leading edge"
         ],
         "mutant_types": {
             "null": true,
@@ -39237,13 +39436,13 @@
             "myoC"
         ],
         "phenotypes": [
-            "increased secretion of lysosomal enzyme",
+            "increased secretion of lysosomal enzymes",
             "decreased pinocytosis",
             "increased filopodium formation",
             "decreased growth rate",
-            "aberrant F-actin organization",
             "decreased cell motility",
             "decreased fruiting body size",
+            "aberrant actin filament organization",
             "aberrant cytoskeleton organization"
         ],
         "mutant_types": {
@@ -39333,7 +39532,7 @@
             "myoF"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
+            "decreased actin filament polymerization",
             "aberrant engulfment during phagocytosis",
             "decreased chemotaxis to cAMP",
             "decreased fruiting body size"
@@ -39412,7 +39611,7 @@
         ],
         "phenotypes": [
             "decreased protein localization to plasma membrane",
-            "decreased F-actin polymerization",
+            "decreased actin filament polymerization",
             "aberrant chemotaxis to cAMP",
             "abolished cell polarity",
             "abolished aggregation"
@@ -39524,7 +39723,7 @@
             "myoI"
         ],
         "phenotypes": [
-            "abolished localization to pseudopodium",
+            "abolished protein localization to pseudopodium",
             "decreased filopodium formation"
         ],
         "mutant_types": {
@@ -39821,8 +40020,8 @@
             "decreased cell polarity",
             "decreased cell-substrate adhesion",
             "decreased cell motility",
-            "decreased basal F-actin level",
             "decreased cell size",
+            "decreased actin filament bundle assembly",
             "decreased phototaxis"
         ],
         "mutant_types": {
@@ -39862,7 +40061,7 @@
             "pirA"
         ],
         "phenotypes": [
-            "decreased basal F-actin level"
+            "decreased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": false,
@@ -40194,12 +40393,12 @@
         "phenotypes": [
             "increased pseudopod formation",
             "increased chemoattractant-mediated F-actin polymerization",
-            "increased basal F-actin level",
             "aberrant activation of GTPase activity",
             "delayed aggregation",
             "decreased cell motility",
             "aberrant cAMP signaling during aggregation",
             "aberrant regulation of GTPase activity",
+            "increased actin filament bundle assembly",
             "aberrant regulation of protein kinase activity",
             "aberrant protein localization to plasma membrane",
             "decreased chemotaxis to cAMP"
@@ -40264,11 +40463,11 @@
             "abolished  potassium-dependent chemotaxis to cAMP",
             "decreased intracellular pH level",
             "decreased cell polarity",
-            "decreased F-actin polymerization",
-            "aberrant F-actin organization",
+            "decreased actin filament polymerization",
             "abolished chemotaxis to calcium",
             "decreased chemotaxis rate",
             "delayed development",
+            "aberrant actin filament organization",
             "abolished cell polarity",
             "abolished chemotaxis to cAMP"
         ],
@@ -40344,7 +40543,7 @@
             "nhe1"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
+            "decreased actin filament polymerization",
             "abolished cell polarity",
             "abolished chemotaxis to cAMP"
         ],
@@ -40364,7 +40563,7 @@
             "nhe1"
         ],
         "phenotypes": [
-            "aberrant protein localization"
+            "abolished protein localization to trailing edge"
         ],
         "mutant_types": {
             "null": true,
@@ -40416,9 +40615,9 @@
             "slp"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
-            "aberrant organelle organization and biogenesis",
-            "abolished protein localization",
+            "decreased actin filament polymerization",
+            "aberrant organelle organization",
+            "abolished protein localization to cytoplasmic vesicle",
             "decreased chemotaxis to cAMP"
         ],
         "mutant_types": {
@@ -40953,7 +41152,7 @@
             "p2xA"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
+            "aberrant contractile vacuole organization",
             "abolished hypotonic response",
             "decreased contractile vacuole size",
             "aberrant regulation of GTPase activity"
@@ -41299,8 +41498,8 @@
         ],
         "phenotypes": [
             "delayed development",
-            "increased bleb formation",
-            "decreased chemotaxis to cAMP"
+            "decreased chemotaxis to cAMP",
+            "increased bleb assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -41369,7 +41568,7 @@
         ],
         "phenotypes": [
             "decreased growth rate",
-            "decreased bleb formation"
+            "decreased bleb assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -41445,7 +41644,7 @@
             "aberrant establishment and/or maintenance of cell polarity",
             "decreased chemotaxis to cAMP",
             "abolished aggregation",
-            "aberrant protein localization"
+            "abolished protein localization to leading edge"
         ],
         "mutant_types": {
             "null": true,
@@ -41552,7 +41751,7 @@
             "pakC"
         ],
         "phenotypes": [
-            "decreased bleb formation",
+            "decreased bleb assembly",
             "decreased chemotaxis rate",
             "decreased lateral pseudopod suppression"
         ],
@@ -41572,12 +41771,12 @@
         ],
         "phenotypes": [
             "aberrant cellular homeostasis",
-            "aberrant F-actin polymerization",
             "aberrant filopodium formation",
             "aberrant actin cytoskeleton organization",
             "aberrant establishment and/or maintenance of cell polarity",
             "abolished negative regulation of vegetative growth",
             "abolished aggregation",
+            "aberrant actin filament polymerization",
             "decreased chemotaxis to cAMP",
             "increased growth rate",
             "aberrant cellular response to extracellular stimulus",
@@ -41981,9 +42180,9 @@
         ],
         "phenotypes": [
             "decreased protein localization to cell cortex",
-            "aberrant F-actin polymerization",
             "abolished protein localization to cell cortex",
             "aberrant chemotaxis to cAMP",
+            "aberrant actin filament polymerization",
             "decreased myosin II assembly",
             "increased activation of GTPase activity"
         ],
@@ -42496,10 +42695,10 @@
             "phdA"
         ],
         "phenotypes": [
-            "decreased basal F-actin level",
             "decreased aggregate size",
             "decreased chemotaxis rate",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "decreased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -42567,7 +42766,7 @@
             "phg1A"
         ],
         "phenotypes": [
-            "increased secretion of lysosomal enzyme",
+            "increased secretion of lysosomal enzymes",
             "decreased protein level",
             "decreased cell-substrate adhesion",
             "decreased gene expression",
@@ -42617,7 +42816,7 @@
             "phg1A"
         ],
         "phenotypes": [
-            "increased secretion of lysosomal enzyme",
+            "increased secretion of lysosomal enzymes",
             "wild type",
             "increased lysosomal pH",
             "decreased protein stabilization",
@@ -42657,7 +42856,7 @@
             "phg1B"
         ],
         "phenotypes": [
-            "increased secretion of lysosomal enzyme",
+            "increased secretion of lysosomal enzymes",
             "wild type",
             "decreased cell-substrate adhesion",
             "aberrant protein level",
@@ -42697,7 +42896,7 @@
             "phg1B"
         ],
         "phenotypes": [
-            "increased secretion of lysosomal enzyme",
+            "increased secretion of lysosomal enzymes",
             "decreased cell-substrate adhesion",
             "decreased phagocytosis",
             "decreased growth rate",
@@ -42719,7 +42918,7 @@
             "phg1B"
         ],
         "phenotypes": [
-            "increased secretion of lysosomal enzyme",
+            "increased secretion of lysosomal enzymes",
             "decreased protein level",
             "decreased phagocytosis",
             "decreased growth rate",
@@ -42743,10 +42942,10 @@
             "decreased cell-substrate adhesion",
             "decreased phagocytosis",
             "aberrant cytokinesis",
-            "aberrant F-actin organization",
             "decreased cell motility",
             "aberrant response to nutrients",
             "aberrant cell morphology",
+            "aberrant actin filament organization",
             "precocious development",
             "precocious gene expression"
         ],
@@ -42766,8 +42965,8 @@
         ],
         "phenotypes": [
             "increased filopodium formation",
-            "increased basal F-actin level",
             "increased cell-substrate adhesion",
+            "increased actin filament bundle assembly",
             "decreased chemotaxis to cAMP",
             "aberrant cell morphology",
             "increased phagocytosis"
@@ -42861,8 +43060,8 @@
             "phgA"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis",
             "increased contractile vacuole size",
+            "aberrant contractile vacuole organization",
             "aberrant hypotonic response",
             "aberrant pore formation during contractile vacuole discharge"
         ],
@@ -42882,7 +43081,7 @@
             "phgA"
         ],
         "phenotypes": [
-            "aberrant contractile vacuole organization and biogenesis"
+            "aberrant contractile vacuole organization"
         ],
         "mutant_types": {
             "null": true,
@@ -42900,7 +43099,7 @@
             "phgA"
         ],
         "phenotypes": [
-            "aberrant protein localization"
+            "aberrant protein localization to contractile vacuole"
         ],
         "mutant_types": {
             "null": true,
@@ -42920,10 +43119,10 @@
             "decreased cAMP-induced cGMP pulse",
             "aberrant regulation of protein modification",
             "decreased growth rate",
+            "abolished protein localization to plasma membrane",
             "abolished positive chemotaxis",
             "abolished aggregation",
-            "decreased cAMP-induced cAMP pulse",
-            "aberrant protein localization"
+            "decreased cAMP-induced cAMP pulse"
         ],
         "mutant_types": {
             "null": true,
@@ -43278,12 +43477,12 @@
             "aberrant chemotaxis to cAMP",
             "decreased cell motility",
             "abolished protein kinase activation",
-            "decreased basal F-actin level",
+            "abolished protein localization to trailing edge",
             "decreased chemotaxis to folate",
             "decreased chemotaxis to cAMP",
-            "aberrant protein localization to cell cortex",
             "decreased cAMP-induced cAMP pulse",
-            "decreased myosin II assembly"
+            "decreased myosin II assembly",
+            "decreased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": false,
@@ -43311,12 +43510,12 @@
             "aberrant macropinocytosis",
             "abolished protein localization to plasma membrane",
             "delayed aggregation",
-            "aberrant F-actin organization",
             "aberrant sorocarp development",
             "aberrant phagolysosome formation",
             "aberrant phagosome maturation",
             "decreased phosphatidylinositol biosynthesis",
             "abolished streaming",
+            "aberrant actin filament organization",
             "aberrant cell morphology",
             "decreased cAMP-induced cAMP pulse",
             "aberrant fruiting body morphology"
@@ -43378,7 +43577,7 @@
             "pikC"
         ],
         "phenotypes": [
-            "decreased protein localization",
+            "decreased protein localization to leading edge",
             "increased cell motility"
         ],
         "mutant_types": {
@@ -43408,7 +43607,8 @@
             "decreased growth rate",
             "decreased phagocytosis",
             "decreased cell motility",
-            "increased bleb formation",
+            "increased bleb assembly",
+            "decreased chemotaxis to cAMP",
             "aberrant signal transduction"
         ],
         "mutant_types": {
@@ -43612,7 +43812,7 @@
             "decreased growth rate",
             "aberrant chemotaxis to cAMP",
             "decreased protein kinase activation",
-            "increased bleb formation",
+            "increased bleb assembly",
             "decreased cAMP-induced cAMP pulse"
         ],
         "mutant_types": {
@@ -43667,8 +43867,8 @@
             "decreased defense response to Gram-negative bacterium",
             "aberrant defense response to bacterium",
             "aberrant phagosome maturation",
-            "decreased phagosomal proteolysis",
-            "decreased protein localization"
+            "decreased protein localization to phagocytic vesicle",
+            "decreased phagosomal proteolysis"
         ],
         "mutant_types": {
             "null": true,
@@ -43722,9 +43922,9 @@
         ],
         "phenotypes": [
             "increased pseudopod formation",
-            "increased basal F-actin level",
             "increased cell size",
             "decreased cell motility",
+            "increased actin filament bundle assembly",
             "aberrant cellular response to stress"
         ],
         "mutant_types": {
@@ -43767,7 +43967,7 @@
             "aberrant cytokinesis",
             "decreased pseudopod formation",
             "decreased cell motility",
-            "increased bleb formation",
+            "increased bleb assembly",
             "decreased filopodium formation"
         ],
         "mutant_types": {
@@ -43785,7 +43985,7 @@
             "pirA"
         ],
         "phenotypes": [
-            "abolished protein localization"
+            "abolished protein localization to cell periphery"
         ],
         "mutant_types": {
             "null": true,
@@ -43831,10 +44031,10 @@
             "aberrant myosin II organization",
             "decreased activation of GTPase activity",
             "abolished catalytic activity",
-            "aberrant F-actin organization",
             "aberrant response to cAMP",
             "decreased protein kinase activation",
             "abolished aggregation",
+            "aberrant actin filament organization",
             "aberrant protein localization to plasma membrane",
             "aberrant protein localization to cell cortex",
             "abolished chemotaxis to cAMP",
@@ -44011,11 +44211,11 @@
             "decreased pinocytosis",
             "decreased protein phosphorylation",
             "aberrant macropinocytosis",
+            "decreased bleb assembly",
             "abolished protein kinase activation",
             "abolished protein localization",
+            "abolished protein localization to trailing edge",
             "aberrant phagosome maturation",
-            "decreased bleb formation",
-            "aberrant protein localization to cell cortex",
             "increased phagocytosis",
             "decreased myosin II assembly"
         ],
@@ -44139,7 +44339,7 @@
             "decreased protein level",
             "increased chemotaxis to cAMP",
             "decreased gene expression",
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "decreased fruiting body size",
             "aberrant cAMP wave formation",
             "abolished positive regulation of chemorepellant activity"
@@ -44343,8 +44543,8 @@
             "development arrests at mound stage",
             "decreased chemotaxis rate",
             "decreased taxis",
-            "increased bleb formation",
-            "increased cell motility"
+            "increased cell motility",
+            "increased bleb assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -44539,7 +44739,7 @@
         ],
         "phenotypes": [
             "aberrant chemotaxis to cAMP",
-            "decreased bleb formation",
+            "decreased bleb assembly",
             "decreased necrotic cell death"
         ],
         "mutant_types": {
@@ -44558,9 +44758,9 @@
             "plaA"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
             "decreased taxis",
-            "decreased chemotaxis to cAMP"
+            "decreased chemotaxis to cAMP",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": false,
@@ -45329,6 +45529,40 @@
         }
     },
     {
+        "systematic_name": "DBS0351581",
+        "strain_descriptor": "psiA-/[ecmB]:lacZ",
+        "associated_genes": [
+            "psiA"
+        ],
+        "phenotypes": [
+            "precocious gene expression"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351578",
+        "strain_descriptor": "psiA-/[rnrB]:lacZ",
+        "associated_genes": [
+            "psiA"
+        ],
+        "phenotypes": [
+            "mislocalized gene expression"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0236021",
         "strain_descriptor": "psiM-",
         "associated_genes": [
@@ -45601,17 +45835,17 @@
         ],
         "phenotypes": [
             "decreased response to Gram-negative bacterium",
-            "decreased F-actin polymerization",
             "increased pseudopod formation",
             "decreased positive regulation of GTPase activity",
+            "decreased actin filament polymerization",
             "abolished protein localization to plasma membrane",
             "decreased growth rate",
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "decreased phagocytosis",
+            "decreased bleb assembly",
             "increased lateral pseudopod formation",
             "decreased cell motility",
             "increased protein localization to plasma membrane",
-            "decreased bleb formation",
             "decreased chemotaxis to cAMP",
             "abolished aggregation",
             "aberrant pseudopod formation",
@@ -45655,9 +45889,10 @@
         ],
         "phenotypes": [
             "decreased uropod retraction",
+            "decreased protein localization to cleavage furrow",
             "decreased growth rate",
             "aberrant cytokinesis",
-            "decreased protein localization"
+            "decreased protein localization to pseudopodium"
         ],
         "mutant_types": {
             "null": true,
@@ -46266,6 +46501,23 @@
         }
     },
     {
+        "systematic_name": "DBS0351560",
+        "strain_descriptor": "qtrt1-",
+        "associated_genes": [
+            "qtrt1"
+        ],
+        "phenotypes": [
+            "aberrant response to stimulus"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0350263",
         "strain_descriptor": "rab7A-",
         "associated_genes": [
@@ -46291,9 +46543,9 @@
         "phenotypes": [
             "decreased chemoattractant-mediated F-actin polymerization",
             "delayed aggregation",
-            "decreased basal F-actin level",
             "decreased chemotaxis rate",
             "aberrant fruiting body morphology",
+            "decreased actin filament bundle assembly",
             "decreased myosin II assembly"
         ],
         "mutant_types": {
@@ -46313,7 +46565,7 @@
         "phenotypes": [
             "decreased protein localization to plasma membrane",
             "aberrant streaming",
-            "decreased F-actin polymerization",
+            "decreased actin filament polymerization",
             "aberrant cytokinesis",
             "decreased chemotaxis rate",
             "aberrant cell morphology",
@@ -46664,7 +46916,7 @@
         ],
         "phenotypes": [
             "decreased cell motility",
-            "decreased protein localization"
+            "decreased protein localization to phagocytic vesicle"
         ],
         "mutant_types": {
             "null": true,
@@ -46682,11 +46934,11 @@
         ],
         "phenotypes": [
             "decreased exocytosis",
+            "aberrant protein localization to cytoplasmic vesicle",
             "decreased pinocytosis",
             "decreased defense response to Gram-negative bacterium",
             "aberrant defense response to bacterium",
-            "decreased defense response to bacterium",
-            "aberrant protein localization"
+            "decreased defense response to bacterium"
         ],
         "mutant_types": {
             "null": true,
@@ -46725,9 +46977,9 @@
         ],
         "phenotypes": [
             "decreased positive regulation of GTPase activity",
-            "increased basal F-actin level",
             "increased cell-substrate adhesion",
             "decreased cell motility",
+            "increased actin filament bundle assembly",
             "decreased myosin II assembly",
             "increased protein kinase activation"
         ],
@@ -46749,9 +47001,9 @@
             "increased positive regulation of GTPase activity",
             "decreased cell-substrate adhesion",
             "increased myosin II assembly",
-            "increased basal F-actin level",
             "increased lateral pseudopod formation",
-            "increased cell motility"
+            "increased cell motility",
+            "increased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -46827,11 +47079,11 @@
         ],
         "phenotypes": [
             "increased filopodium formation",
-            "increased basal F-actin level",
             "aberrant cytokinesis",
             "decreased spore size",
             "increased cell-substrate adhesion",
-            "decreased chemotaxis to cAMP"
+            "decreased chemotaxis to cAMP",
+            "increased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -46866,9 +47118,9 @@
         ],
         "phenotypes": [
             "aberrant aggregation",
-            "aberrant F-actin organization",
             "increased cell-substrate adhesion",
-            "aberrant regulation of GTPase activity"
+            "aberrant regulation of GTPase activity",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -46973,8 +47225,8 @@
         ],
         "phenotypes": [
             "decreased phagocytosis",
-            "aberrant F-actin organization",
-            "decreased macropinocytosis"
+            "decreased macropinocytosis",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -46992,7 +47244,6 @@
         ],
         "phenotypes": [
             "increased rate of endocytosis",
-            "aberrant F-actin organization",
             "increased cell size",
             "aberrant response to cAMP",
             "decreased cell motility",
@@ -47001,6 +47252,7 @@
             "decreased taxis",
             "abolished aggregation",
             "aberrant pseudopod formation",
+            "aberrant actin filament organization",
             "aberrant protein localization to cell cortex",
             "aberrant cellular response to extracellular stimulus"
         ],
@@ -47431,10 +47683,10 @@
             "aberrant filopodium formation",
             "increased cell size",
             "decreased growth rate",
-            "aberrant F-actin organization",
             "decreased macropinocytosis",
             "decreased cell motility",
-            "decreased protein kinase activation"
+            "decreased protein kinase activation",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -47641,9 +47893,9 @@
         ],
         "phenotypes": [
             "decreased rate of endocytosis",
-            "increased basal F-actin level",
             "abolished growth",
             "decreased growth rate",
+            "increased actin filament bundle assembly",
             "increased cell motility",
             "aberrant cytoskeleton organization"
         ],
@@ -48079,8 +48331,8 @@
         "phenotypes": [
             "decreased pinocytosis",
             "decreased protein localization to cell cortex",
-            "decreased F-actin polymerization",
             "decreased protein level",
+            "decreased actin filament polymerization",
             "aberrant contractile vacuole morphology",
             "decreased growth rate",
             "aberrant cytokinesis"
@@ -48666,10 +48918,10 @@
             "aberrant stalk morphogenesis",
             "aberrant cellular response to fluid shear stress",
             "increased number of tips",
-            "increased basal F-actin level",
-            "aberrant F-actin organization",
             "increased growth rate",
-            "increased cell motility"
+            "increased cell motility",
+            "increased actin filament bundle assembly",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -48707,7 +48959,7 @@
         "phenotypes": [
             "aberrant stalk morphogenesis",
             "aberrant tip development",
-            "aberrant protein localization"
+            "abolished protein localization to apical plasma membrane"
         ],
         "mutant_types": {
             "null": true,
@@ -48726,7 +48978,7 @@
         ],
         "phenotypes": [
             "aberrant cytokinesis",
-            "abolished protein localization"
+            "abolished protein localization to cleavage furrow"
         ],
         "mutant_types": {
             "null": false,
@@ -48746,7 +48998,7 @@
         "phenotypes": [
             "aberrant cellular response to fluid shear stress",
             "aberrant cytokinesis",
-            "abolished protein localization",
+            "abolished protein localization to cleavage furrow",
             "increased cell motility"
         ],
         "mutant_types": {
@@ -48765,9 +49017,9 @@
             "rgaA"
         ],
         "phenotypes": [
+            "decreased protein localization to cleavage furrow",
             "increased myosin II assembly",
-            "increased F-actin polymerization",
-            "decreased protein localization",
+            "increased actin filament polymerization",
             "decreased chemotaxis to cAMP",
             "increased protein kinase activation",
             "aberrant spindle organization"
@@ -49549,8 +49801,8 @@
             "abolished cell-substrate adhesion",
             "decreased phagocytosis",
             "aberrant cytokinesis",
-            "aberrant F-actin organization",
             "increased growth rate",
+            "aberrant actin filament organization",
             "aberrant cell morphology"
         ],
         "mutant_types": {
@@ -49648,6 +49900,43 @@
         }
     },
     {
+        "systematic_name": "DBS0351564",
+        "strain_descriptor": "sbdS(1-30,TS18,31-274)",
+        "associated_genes": [
+            "sbds"
+        ],
+        "phenotypes": [
+            "development arrests at loose mound stage",
+            "aberrant cellular process",
+            "abolished growth"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": false,
+            "other": true,
+            "developmental": true
+        }
+    },
+    {
+        "systematic_name": "DBS0351566",
+        "strain_descriptor": "sbdS(1-30,TS18,31-274)/[act15]:eIF(T56K)",
+        "associated_genes": [
+            "eIF6",
+            "sbds"
+        ],
+        "phenotypes": [
+            "wild type"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DG1105",
         "strain_descriptor": "scaA-",
         "associated_genes": [
@@ -49671,7 +49960,7 @@
             "scaA"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
+            "decreased actin filament polymerization",
             "aberrant chemotaxis to cAMP",
             "abolished activation of GTPase activity",
             "decreased protein kinase activation",
@@ -49692,15 +49981,15 @@
             "scrA"
         ],
         "phenotypes": [
+            "abolished protein localization to endolysosome",
             "decreased exocytosis",
             "decreased pinocytosis",
             "increased number of tips",
             "decreased phagocytosis",
-            "decreased basal F-actin level",
             "increased lateral pseudopod formation",
-            "abolished protein localization",
             "decreased fruiting body size",
             "precocious development",
+            "decreased actin filament bundle assembly",
             "decreased cell size"
         ],
         "mutant_types": {
@@ -49722,9 +50011,9 @@
             "abolished activation of GTPase activity",
             "decreased cell motility",
             "aberrant spindle stabilization",
-            "increased bleb formation",
             "aberrant cellular response to stress",
             "aberrant pseudopod formation",
+            "increased bleb assembly",
             "decreased cell size",
             "abolished positive regulation of chemorepellant activity"
         ],
@@ -49745,7 +50034,7 @@
         "phenotypes": [
             "decreased growth rate",
             "aberrant cytokinesis",
-            "decreased bleb formation",
+            "decreased bleb assembly",
             "decreased phototaxis"
         ],
         "mutant_types": {
@@ -49766,10 +50055,10 @@
             "increased filopodium formation",
             "decreased protein level",
             "aberrant macropinocytosis",
-            "aberrant F-actin organization",
             "aberrant cytokinesis",
             "decreased macropinocytosis",
             "decreased cell motility",
+            "aberrant actin filament organization",
             "aberrant pseudopod formation"
         ],
         "mutant_types": {
@@ -49787,8 +50076,8 @@
             "scrA"
         ],
         "phenotypes": [
+            "decreased bleb assembly",
             "increased cellular localization",
-            "decreased bleb formation",
             "aberrant pseudopod formation"
         ],
         "mutant_types": {
@@ -49806,8 +50095,8 @@
             "scrA"
         ],
         "phenotypes": [
+            "decreased bleb assembly",
             "increased cellular localization",
-            "decreased bleb formation",
             "aberrant pseudopod formation"
         ],
         "mutant_types": {
@@ -49917,7 +50206,7 @@
         ],
         "phenotypes": [
             "decreased cell motility",
-            "decreased basal F-actin level"
+            "decreased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": false,
@@ -50320,11 +50609,11 @@
         "phenotypes": [
             "aberrant aggregation",
             "decreased cell polarity",
-            "aberrant F-actin organization",
             "decreased phagocytosis",
             "aberrant cytokinesis",
             "decreased chemotaxis rate",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -50636,7 +50925,6 @@
             "smlA"
         ],
         "phenotypes": [
-            "decreased secretion of lysosomal enzyme",
             "decreased cell-cell adhesion",
             "aberrant cellular metabolic process",
             "decreased response to Gram-negative bacterium",
@@ -50645,14 +50933,13 @@
             "increased cAMP-induced cAMP pulse",
             "increased resistance to cisplatin",
             "decreased protein level",
-            "increased basal F-actin level",
             "increased myosin II assembly",
             "increased protein level",
-            "increased extracellular counting factor component(s) level",
+            "decreased secretion of lysosomal enzymes",
             "decreased aggregate size",
+            "increased actin filament bundle assembly",
             "increased cell motility",
-            "decreased fruiting body size",
-            "increased intracellular counting factor component(s) level"
+            "decreased fruiting body size"
         ],
         "mutant_types": {
             "null": true,
@@ -50771,12 +51058,12 @@
             "decreased chemoattractant-mediated F-actin polymerization",
             "aberrant aggregation",
             "decreased positive regulation of GTPase activity",
-            "increased basal F-actin level",
             "aberrant chemotaxis to cAMP",
             "increased protein localization to plasma membrane",
             "decreased chemotaxis rate",
             "aberrant regulation of GTPase activity",
             "aberrant protein localization to plasma membrane",
+            "increased actin filament bundle assembly",
             "aberrant cell morphology",
             "increased protein kinase activation"
         ],
@@ -50963,8 +51250,8 @@
         "phenotypes": [
             "aberrant aggregation",
             "decreased cell polarity",
-            "aberrant F-actin organization",
-            "decreased chemotaxis rate"
+            "decreased chemotaxis rate",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": false,
@@ -51370,7 +51657,7 @@
             "stlB"
         ],
         "phenotypes": [
-            "abolished autophagic vacuole formation",
+            "abolished autophagosome organization",
             "abolished autophagic cell death"
         ],
         "mutant_types": {
@@ -51444,7 +51731,7 @@
         "phenotypes": [
             "aberrant protein localization to cytoplasm",
             "abolished exocytosis",
-            "abolished F-actin polymerization",
+            "abolished actin filament polymerization",
             "abolished phagosome re-neutralization",
             "aberrant protein localization"
         ],
@@ -51826,7 +52113,7 @@
             "abolished cell-substrate adhesion",
             "aberrant cytokinesis",
             "abolished cell motility",
-            "increased bleb formation"
+            "increased bleb assembly"
         ],
         "mutant_types": {
             "null": false,
@@ -51902,7 +52189,7 @@
             "talB"
         ],
         "phenotypes": [
-            "abolished autophagic vacuole formation",
+            "abolished autophagosome organization",
             "abolished autophagic cell death",
             "aberrant autophagic cell death"
         ],
@@ -52589,7 +52876,7 @@
             "increased aggregate size",
             "increased number of tips",
             "development arrests at mound stage",
-            "aberrant vacuole organization and biogenesis",
+            "aberrant vacuole organization",
             "decreased autophagy"
         ],
         "mutant_types": {
@@ -52616,7 +52903,7 @@
             "increased protein modification",
             "aberrant phagosome maturation",
             "aberrant slug development",
-            "abolished protein localization",
+            "abolished protein localization to autophagosome",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -53139,9 +53426,9 @@
             "tsuA"
         ],
         "phenotypes": [
-            "abolished localization to microtubules",
+            "abolished protein localization to microtubules",
+            "abolished protein localization to microtubule organizing center",
             "decreased aggregate size",
-            "abolished localization to microtubule organizing center",
             "decreased fruiting body size"
         ],
         "mutant_types": {
@@ -53159,8 +53446,8 @@
             "tsuA"
         ],
         "phenotypes": [
-            "abolished localization to microtubules",
-            "abolished localization to microtubule organizing center",
+            "abolished protein localization to microtubules",
+            "abolished protein localization to microtubule organizing center",
             "decreased aggregate size",
             "decreased fruiting body size"
         ],
@@ -53179,8 +53466,8 @@
             "tsuA"
         ],
         "phenotypes": [
-            "abolished localization to microtubules",
-            "abolished localization to microtubule organizing center",
+            "abolished protein localization to microtubules",
+            "abolished protein localization to microtubule organizing center",
             "decreased aggregate size",
             "decreased fruiting body size"
         ],
@@ -53382,7 +53669,7 @@
         ],
         "phenotypes": [
             "abolished cellulose biosynthesis",
-            "decreased autophagic vacuole formation",
+            "decreased autophagic vacuole organization",
             "aberrant cell morphology"
         ],
         "mutant_types": {
@@ -53428,13 +53715,107 @@
         }
     },
     {
+        "systematic_name": "DBS0351567",
+        "strain_descriptor": "vacA-",
+        "associated_genes": [
+            "vacA"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351571",
+        "strain_descriptor": "vacA-/vacB-/vacC-",
+        "associated_genes": [
+            "vacA",
+            "vacB",
+            "vacC"
+        ],
+        "phenotypes": [
+            "decreased cell-substrate adhesion",
+            "decreased gene expression",
+            "decreased phagocytosis",
+            "aberrant phagosome maturation",
+            "decreased protein localization",
+            "aberrant protein localization"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": true,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0237032",
         "strain_descriptor": "vacB-",
         "associated_genes": [
             "vacB"
         ],
         "phenotypes": [
-            "decreased exocytosis"
+            "decreased exocytosis",
+            "increased defense response to bacterium"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351568",
+        "strain_descriptor": "vacB-",
+        "associated_genes": [
+            "vacB"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351570",
+        "strain_descriptor": "vacB-/vacC-",
+        "associated_genes": [
+            "vacB",
+            "vacC"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351569",
+        "strain_descriptor": "vacC-",
+        "associated_genes": [
+            "vacC"
+        ],
+        "phenotypes": [
+            "decreased phagocytosis"
         ],
         "mutant_types": {
             "null": true,
@@ -53469,9 +53850,9 @@
         ],
         "phenotypes": [
             "decreased cell-substrate adhesion",
-            "aberrant F-actin organization",
             "decreased cell motility",
             "decreased chemotaxis rate",
+            "aberrant actin filament organization",
             "aberrant hypertonic response",
             "decreased chemotaxis to cAMP",
             "decreased lateral pseudopod suppression",
@@ -53565,10 +53946,10 @@
             "vasP"
         ],
         "phenotypes": [
+            "decreased protein localization to cell cortex",
             "wild type",
             "decreased cell polarity",
-            "aberrant F-actin organization",
-            "decreased localization to cell cortex",
+            "aberrant actin filament organization",
             "decreased lateral pseudopod suppression"
         ],
         "mutant_types": {
@@ -53605,8 +53986,8 @@
         ],
         "phenotypes": [
             "increased filopodium formation",
-            "increased basal F-actin level",
-            "aberrant cytokinesis"
+            "aberrant cytokinesis",
+            "increased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -53641,7 +54022,7 @@
         ],
         "phenotypes": [
             "increased filopodium formation",
-            "increased basal F-actin level"
+            "increased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -53658,8 +54039,8 @@
             "vasP"
         ],
         "phenotypes": [
-            "increased basal F-actin level",
             "aberrant cytokinesis",
+            "increased actin filament bundle assembly",
             "decreased filopodium formation"
         ],
         "mutant_types": {
@@ -53695,7 +54076,7 @@
         ],
         "phenotypes": [
             "increased filopodium formation",
-            "increased basal F-actin level"
+            "increased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -53809,8 +54190,9 @@
             "decreased growth rate",
             "aberrant hypotonic response",
             "decreased macropinocytosis",
-            "aberrant vacuole organization and biogenesis",
+            "aberrant vacuole organization",
             "aberrant autophagic cell death",
+            "aberrant protein localization to autophagosome",
             "aberrant protein localization",
             "aberrant signal transduction"
         ],
@@ -53830,7 +54212,7 @@
         ],
         "phenotypes": [
             "aberrant aggregation",
-            "aberrant protein localization"
+            "aberrant protein localization to autophagosome"
         ],
         "mutant_types": {
             "null": true,
@@ -54020,7 +54402,7 @@
             "wasA"
         ],
         "phenotypes": [
-            "aberrant protein localization"
+            "aberrant protein localization to trailing edge"
         ],
         "mutant_types": {
             "null": true,
@@ -54055,8 +54437,8 @@
             "wasA"
         ],
         "phenotypes": [
-            "decreased cell polarity",
-            "aberrant protein localization"
+            "aberrant protein localization to trailing edge",
+            "decreased cell polarity"
         ],
         "mutant_types": {
             "null": true,
@@ -54073,9 +54455,9 @@
             "wasA"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
             "decreased cell motility",
-            "delayed development"
+            "delayed development",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": false,
@@ -54092,10 +54474,10 @@
             "wasA"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
-            "aberrant F-actin organization",
+            "decreased actin filament polymerization",
             "abolished positive chemotaxis",
-            "abolished aggregation"
+            "abolished aggregation",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": false,
@@ -54129,7 +54511,7 @@
             "wasA"
         ],
         "phenotypes": [
-            "decreased F-actin polymerization",
+            "decreased actin filament polymerization",
             "decreased F-actin polymerization at the leading edge"
         ],
         "mutant_types": {
@@ -54165,11 +54547,11 @@
             "wasB"
         ],
         "phenotypes": [
+            "abolished protein localization to cytoplasmic vesicle",
             "aberrant chemotaxis to cAMP",
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "increased protein level",
-            "aberrant pseudopod formation",
-            "aberrant protein localization"
+            "aberrant pseudopod formation"
         ],
         "mutant_types": {
             "null": true,
@@ -54203,7 +54585,7 @@
             "wasC"
         ],
         "phenotypes": [
-            "increased F-actin polymerization",
+            "increased actin filament polymerization",
             "decreased phagocytosis",
             "increased cell-substrate adhesion",
             "decreased chemotaxis rate"
@@ -54223,15 +54605,15 @@
             "washc5"
         ],
         "phenotypes": [
-            "decreased secretion of lysosomal enzyme",
-            "aberrant lysosome organization and biogenesis",
             "abolished exocytosis",
             "decreased protein level",
             "decreased growth rate",
             "decreased phagocytosis",
-            "abolished F-actin polymerization",
             "aberrant endosome morphology",
+            "decreased secretion of lysosomal enzymes",
+            "abolished actin filament polymerization",
             "abolished phagosome re-neutralization",
+            "aberrant lysosome organization",
             "decreased cell size"
         ],
         "mutant_types": {
@@ -54300,8 +54682,6 @@
             "wshA"
         ],
         "phenotypes": [
-            "decreased secretion of lysosomal enzyme",
-            "aberrant lysosome organization and biogenesis",
             "increased protein localization",
             "abolished exocytosis",
             "decreased defense response to Gram-negative bacterium",
@@ -54311,9 +54691,11 @@
             "decreased phagocytosis",
             "aberrant phagosome maturation",
             "decreased phagosomal proteolysis",
+            "decreased secretion of lysosomal enzymes",
             "increased defense response to Gram-positive bacterium",
             "decreased protein localization",
             "abolished phagosome re-neutralization",
+            "aberrant lysosome organization",
             "aberrant protein localization"
         ],
         "mutant_types": {
@@ -54368,7 +54750,7 @@
             "wshA"
         ],
         "phenotypes": [
-            "abolished F-actin polymerization"
+            "abolished actin filament polymerization"
         ],
         "mutant_types": {
             "null": false,
@@ -54404,8 +54786,8 @@
         ],
         "phenotypes": [
             "decreased hypotonic response",
-            "aberrant F-actin organization",
-            "aberrant contractile vacuole morphology"
+            "aberrant contractile vacuole morphology",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -54422,9 +54804,9 @@
             "xacA"
         ],
         "phenotypes": [
-            "aberrant F-actin organization",
             "increased lateral pseudopod formation",
-            "decreased chemotaxis to cAMP"
+            "decreased chemotaxis to cAMP",
+            "aberrant actin filament organization"
         ],
         "mutant_types": {
             "null": true,
@@ -54557,9 +54939,9 @@
         ],
         "phenotypes": [
             "decreased growth rate",
-            "abolished F-actin polymerization",
             "decreased accumulation of cGMP",
-            "abolished aggregation"
+            "abolished aggregation",
+            "abolished actin filament polymerization"
         ],
         "mutant_types": {
             "null": true,
