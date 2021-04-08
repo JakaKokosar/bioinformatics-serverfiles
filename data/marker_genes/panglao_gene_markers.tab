@@ -1388,7 +1388,7 @@ Mouse	RNASE6	Dendritic cells	PanglaoDB	https://panglaodb.se/	78416	ribonuclease,
 Mouse	PLAC8	Dendritic cells	PanglaoDB	https://panglaodb.se/	231507	placenta-specific 8
 Mouse	IFITM6	Dendritic cells	PanglaoDB	https://panglaodb.se/	213002	interferon induced transmembrane protein 6
 Mouse	EAR2	Dendritic cells	PanglaoDB	https://panglaodb.se/	13587	eosinophil-associated, ribonuclease A family, member 2
-Mouse	H2AFY	Dendritic cells	PanglaoDB	https://panglaodb.se/	26914	macroH2A.1 histone
+Mouse	H2AFY	Dendritic cells	PanglaoDB	https://panglaodb.se/	?	
 Mouse	SLC11A1	Dendritic cells	PanglaoDB	https://panglaodb.se/	18173	solute carrier family 11 (proton-coupled divalent metal ion transporters), member 1
 Mouse	PDPN	Dendritic cells	PanglaoDB	https://panglaodb.se/	14726	podoplanin
 Mouse	S100B	Dendritic cells	PanglaoDB	https://panglaodb.se/	20203	S100 protein, beta polypeptide, neural
@@ -2855,7 +2855,7 @@ Mouse	EGFR	Germ cells	PanglaoDB	https://panglaodb.se/	13649	epidermal growth fac
 Mouse	POU5F1	Germ cells	PanglaoDB	https://panglaodb.se/	18999	POU domain, class 5, transcription factor 1
 Mouse	TFAP2C	Germ cells	PanglaoDB	https://panglaodb.se/	21420	transcription factor AP-2, gamma
 Mouse	DAZL	Germ cells	PanglaoDB	https://panglaodb.se/	13164	deleted in azoospermia-like
-Mouse	MAGEA4	Germ cells	PanglaoDB	https://panglaodb.se/	17140	melanoma antigen, family A, 4
+Mouse	MAGEA4	Germ cells	PanglaoDB	https://panglaodb.se/	17140	MAGE family member A4
 Mouse	DDX4	Germ cells	PanglaoDB	https://panglaodb.se/	13206	DEAD box helicase 4
 Mouse	ZAR1	Germ cells	PanglaoDB	https://panglaodb.se/	317755	zygote arrest 1
 Mouse	TEX101	Germ cells	PanglaoDB	https://panglaodb.se/	56746	testis expressed gene 101
@@ -2952,7 +2952,7 @@ Mouse	SPATA4	Germ cells	PanglaoDB	https://panglaodb.se/	69281	spermatogenesis as
 Mouse	FAM71E1	Germ cells	PanglaoDB	https://panglaodb.se/	75538	family with sequence similarity 71, member E1
 Mouse	FAM229A	Germ cells	PanglaoDB	https://panglaodb.se/	68233	family with sequence similarity 229, member A
 Mouse	CYPT12	Germ cells	PanglaoDB	https://panglaodb.se/	75439	cysteine-rich perinuclear theca 12
-Mouse	HILS1	Germ cells	PanglaoDB	https://panglaodb.se/	54388	histone H1-like protein in spermatids 1
+Mouse	HILS1	Germ cells	PanglaoDB	https://panglaodb.se/	54388	H1.9 linker histone
 Mouse	HRASLS5	Germ cells	PanglaoDB	https://panglaodb.se/	66727	phospholipase A and acyltransferase 5
 Mouse	GAPDHS	Germ cells	PanglaoDB	https://panglaodb.se/	14447	glyceraldehyde-3-phosphate dehydrogenase, spermatogenic
 Mouse	FHL4	Germ cells	PanglaoDB	https://panglaodb.se/	14202	four and a half LIM domains 4
@@ -3113,7 +3113,7 @@ Mouse	FSHR	Granulosa cells	PanglaoDB	https://panglaodb.se/	14309	follicle stimul
 Mouse	FOXL2	Granulosa cells	PanglaoDB	https://panglaodb.se/	26927	forkhead box L2
 Mouse	CYP19A1	Granulosa cells	PanglaoDB	https://panglaodb.se/	13075	cytochrome P450, family 19, subfamily a, polypeptide 1
 Mouse	ETV2	Hemangioblasts	PanglaoDB	https://panglaodb.se/	14008	ets variant 2
-Mouse	T	Hemangioblasts	PanglaoDB	https://panglaodb.se/	21675	lighthead
+Mouse	T	Hemangioblasts	PanglaoDB	https://panglaodb.se/	?	
 Mouse	TAL1	Hemangioblasts	PanglaoDB	https://panglaodb.se/	21349	T cell acute lymphocytic leukemia 1
 Mouse	THY1	Hematopoietic stem cells	PanglaoDB	https://panglaodb.se/	21838	thymus cell antigen 1, theta
 Mouse	MPL	Hematopoietic stem cells	PanglaoDB	https://panglaodb.se/	17480	myeloproliferative leukemia virus oncogene
@@ -3581,7 +3581,7 @@ Mouse	FBXO11	Interneurons	PanglaoDB	https://panglaodb.se/	225055	F-box protein 1
 Mouse	IGSF21	Interneurons	PanglaoDB	https://panglaodb.se/	230868	immunoglobulin superfamily, member 21
 Mouse	SRGAP3	Interneurons	PanglaoDB	https://panglaodb.se/	259302	SLIT-ROBO Rho GTPase activating protein 3
 Mouse	NTNG1	Interneurons	PanglaoDB	https://panglaodb.se/	80883	netrin G1
-Mouse	MAGEE1	Interneurons	PanglaoDB	https://panglaodb.se/	107528	melanoma antigen, family E, 1
+Mouse	MAGEE1	Interneurons	PanglaoDB	https://panglaodb.se/	107528	MAGE family member E1
 Mouse	SCAMP1	Interneurons	PanglaoDB	https://panglaodb.se/	107767	secretory carrier membrane protein 1
 Mouse	PSD3	Interneurons	PanglaoDB	https://panglaodb.se/	234353	pleckstrin and Sec7 domain containing 3
 Mouse	RORA	Interneurons	PanglaoDB	https://panglaodb.se/	19883	RAR-related orphan receptor alpha
@@ -5236,7 +5236,7 @@ Mouse	ABAT	Neurons	PanglaoDB	https://panglaodb.se/	268860	4-aminobutyrate aminot
 Mouse	HDAC11	Neurons	PanglaoDB	https://panglaodb.se/	232232	histone deacetylase 11
 Mouse	SLC30A9	Neurons	PanglaoDB	https://panglaodb.se/	109108	solute carrier family 30 (zinc transporter), member 9
 Mouse	SCAMP1	Neurons	PanglaoDB	https://panglaodb.se/	107767	secretory carrier membrane protein 1
-Mouse	MAGEE1	Neurons	PanglaoDB	https://panglaodb.se/	107528	melanoma antigen, family E, 1
+Mouse	MAGEE1	Neurons	PanglaoDB	https://panglaodb.se/	107528	MAGE family member E1
 Mouse	NCALD	Neurons	PanglaoDB	https://panglaodb.se/	52589	neurocalcin delta
 Mouse	COPG1	Neurons	PanglaoDB	https://panglaodb.se/	54161	coatomer protein complex, subunit gamma 1
 Mouse	KCNC1	Neurons	PanglaoDB	https://panglaodb.se/	16502	potassium voltage gated channel, Shaw-related subfamily, member 1
@@ -5367,7 +5367,7 @@ Mouse	PCP4	Neurons	PanglaoDB	https://panglaodb.se/	18546	Purkinje cell protein 4
 Mouse	MEG3	Neurons	PanglaoDB	https://panglaodb.se/	17263	maternally expressed 3
 Mouse	BEX2	Neurons	PanglaoDB	https://panglaodb.se/	12069	brain expressed X-linked 2
 Mouse	BEX1	Neurons	PanglaoDB	https://panglaodb.se/	19716	brain expressed X-linked 1
-Mouse	NDN	Neurons	PanglaoDB	https://panglaodb.se/	17984	necdin
+Mouse	NDN	Neurons	PanglaoDB	https://panglaodb.se/	17984	necdin, MAGE family member
 Mouse	CAMK2N1	Neurons	PanglaoDB	https://panglaodb.se/	66259	calcium/calmodulin-dependent protein kinase II inhibitor 1
 Mouse	PNISR	Neurons	PanglaoDB	https://panglaodb.se/	66625	PNN interacting serine/arginine-rich
 Mouse	SNHG11	Neurons	PanglaoDB	https://panglaodb.se/	319317	small nucleolar RNA host gene 11
@@ -5835,7 +5835,7 @@ Mouse	PLCD4	Osteoblasts	PanglaoDB	https://panglaodb.se/	18802	phospholipase C, d
 Mouse	FOXO1	Osteoblasts	PanglaoDB	https://panglaodb.se/	56458	forkhead box O1
 Mouse	SOCS3	Osteoblasts	PanglaoDB	https://panglaodb.se/	12702	suppressor of cytokine signaling 3
 Mouse	IL33	Osteoblasts	PanglaoDB	https://panglaodb.se/	77125	interleukin 33
-Mouse	MAGED1	Osteoblasts	PanglaoDB	https://panglaodb.se/	94275	melanoma antigen, family D, 1
+Mouse	MAGED1	Osteoblasts	PanglaoDB	https://panglaodb.se/	94275	MAGE family member D1
 Mouse	PARD6G	Osteoblasts	PanglaoDB	https://panglaodb.se/	93737	par-6 family cell polarity regulator gamma
 Mouse	CD44	Osteoblasts	PanglaoDB	https://panglaodb.se/	12505	CD44 antigen
 Mouse	NLRP3	Osteoblasts	PanglaoDB	https://panglaodb.se/	216799	NLR family, pyrin domain containing 3
@@ -7312,7 +7312,7 @@ Mouse	SEC24D	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	69608	Sec24 rel
 Mouse	KCNAB1	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	16497	potassium voltage-gated channel, shaker-related subfamily, beta member 1
 Mouse	MYLK4	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	238564	myosin light chain kinase family, member 4
 Mouse	KIF1C	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	16562	kinesin family member 1C
-Mouse	MRVI1	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	17540	MRV integration site 1
+Mouse	MRVI1	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	17540	inositol 1,4,5-triphosphate receptor associated 1
 Mouse	JPH2	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	59091	junctophilin 2
 Mouse	ITGA9	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	104099	integrin alpha 9
 Mouse	KCNMB1	Smooth muscle cells	PanglaoDB	https://panglaodb.se/	16533	potassium large conductance calcium-activated channel, subfamily M, beta member 1
@@ -7470,7 +7470,7 @@ Mouse	RHOH	T cells	PanglaoDB	https://panglaodb.se/	74734	ras homolog family memb
 Mouse	KLRB1	T cells	PanglaoDB	https://panglaodb.se/	100043861	killer cell lectin-like receptor subfamily B member 1
 Mouse	CCR2	T cells	PanglaoDB	https://panglaodb.se/	12772	chemokine (C-C motif) receptor 2
 Mouse	IL2RB	T cells	PanglaoDB	https://panglaodb.se/	16185	interleukin 2 receptor, beta chain
-Mouse	CD163L1	T cells	PanglaoDB	https://panglaodb.se/	244233	CD163 molecule-like 1
+Mouse	CD163L1	T cells	PanglaoDB	https://panglaodb.se/	244233	scavenger receptor family member expressed on T cells 1
 Mouse	TRDV4	T cells	PanglaoDB	https://panglaodb.se/	100114901	T cell receptor delta variable 4
 Mouse	MBD2	T cells	PanglaoDB	https://panglaodb.se/	17191	methyl-CpG binding domain protein 2
 Mouse	ICOS	T cells	PanglaoDB	https://panglaodb.se/	54167	inducible T cell co-stimulator
@@ -8906,7 +8906,7 @@ Human	AQP1	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	358	aquaporin 1 (Colto
 Human	DMD	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	1756	dystrophin
 Human	MFN2	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	9927	mitofusin 2
 Human	ASB2	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	51676	ankyrin repeat and SOCS box containing 2
-Human	ART3	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	419	ADP-ribosyltransferase 3
+Human	ART3	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	419	ADP-ribosyltransferase 3 (inactive)
 Human	RRAD	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	6236	RRAD, Ras related glycolysis inhibitor and calcium channel regulator
 Human	ADPRHL1	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	113622	ADP-ribosylhydrolase like 1
 Human	JPH2	Cardiomyocytes	PanglaoDB	https://panglaodb.se/	57158	junctophilin 2
@@ -9982,7 +9982,7 @@ Human	SOX10	Enterocytes	PanglaoDB	https://panglaodb.se/	6663	SRY-box transcripti
 Human	COL20A1	Enterocytes	PanglaoDB	https://panglaodb.se/	57642	collagen type XX alpha 1 chain
 Human	PMEPA1	Enterocytes	PanglaoDB	https://panglaodb.se/	56937	prostate transmembrane protein, androgen induced 1
 Human	GFRA2	Enterocytes	PanglaoDB	https://panglaodb.se/	2675	GDNF family receptor alpha 2
-Human	ART3	Enterocytes	PanglaoDB	https://panglaodb.se/	419	ADP-ribosyltransferase 3
+Human	ART3	Enterocytes	PanglaoDB	https://panglaodb.se/	419	ADP-ribosyltransferase 3 (inactive)
 Human	SLC26A2	Enterocytes	PanglaoDB	https://panglaodb.se/	1836	solute carrier family 26 member 2
 Human	PRSS2	Enterocytes	PanglaoDB	https://panglaodb.se/	5645	serine protease 2
 Human	L1CAM	Enterocytes	PanglaoDB	https://panglaodb.se/	3897	L1 cell adhesion molecule
@@ -10899,7 +10899,7 @@ Human	MLF1	Germ cells	PanglaoDB	https://panglaodb.se/	4291	myeloid leukemia fact
 Human	SMIM24	Germ cells	PanglaoDB	https://panglaodb.se/	284422	small integral membrane protein 24
 Human	SPA17	Germ cells	PanglaoDB	https://panglaodb.se/	53340	sperm autoantigenic protein 17
 Human	MEIG1	Germ cells	PanglaoDB	https://panglaodb.se/	644890	meiosis/spermiogenesis associated 1
-Human	FKBP6	Germ cells	PanglaoDB	https://panglaodb.se/	8468	FKBP prolyl isomerase 6
+Human	FKBP6	Germ cells	PanglaoDB	https://panglaodb.se/	8468	FKBP prolyl isomerase family member 6 (inactive)
 Human	TAF7L	Germ cells	PanglaoDB	https://panglaodb.se/	54457	TATA-box binding protein associated factor 7 like
 Human	SYCP1	Germ cells	PanglaoDB	https://panglaodb.se/	6847	synaptonemal complex protein 1
 Human	SOHLH1	Germ cells	PanglaoDB	https://panglaodb.se/	402381	spermatogenesis and oogenesis specific basic helix-loop-helix 1
@@ -14994,7 +14994,7 @@ Human	NGFR	Schwann cells	PanglaoDB	https://panglaodb.se/	4804	nerve growth facto
 Human	CLDN19	Schwann cells	PanglaoDB	https://panglaodb.se/	149461	claudin 19
 Human	PRX	Schwann cells	PanglaoDB	https://panglaodb.se/	57716	periaxin
 Human	NTRK1	Schwann cells	PanglaoDB	https://panglaodb.se/	4914	neurotrophic receptor tyrosine kinase 1
-Human	ART3	Schwann cells	PanglaoDB	https://panglaodb.se/	419	ADP-ribosyltransferase 3
+Human	ART3	Schwann cells	PanglaoDB	https://panglaodb.se/	419	ADP-ribosyltransferase 3 (inactive)
 Human	BCAS1	Schwann cells	PanglaoDB	https://panglaodb.se/	8537	brain enriched myelin associated protein 1
 Human	NPY	Schwann cells	PanglaoDB	https://panglaodb.se/	4852	neuropeptide Y
 Human	ASPA	Schwann cells	PanglaoDB	https://panglaodb.se/	443	aspartoacylase
