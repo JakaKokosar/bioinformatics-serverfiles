@@ -15,7 +15,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20210327",
+    "modification_date": "20210417",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -37409,7 +37409,7 @@
     "other_designations": [
       "cGMP-dependent protein kinase"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210417",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -40073,7 +40073,7 @@
     "other_designations": [
       "exosome complex exonuclease RRP6"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210417",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -53019,7 +53019,7 @@
     "other_designations": [
       "patatin-like phospholipase, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210413",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -104144,7 +104144,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20210213",
+    "modification_date": "20210417",
     "homology_group_id": null,
     "homologs": {}
   },

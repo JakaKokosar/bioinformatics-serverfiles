@@ -852,6 +852,25 @@
         }
     },
     {
+        "systematic_name": "DBS0351620",
+        "strain_descriptor": "DDB_G0281735-/DDB_G0281737-",
+        "associated_genes": [
+            "DDB_G0281735",
+            "DDB_G0281737"
+        ],
+        "phenotypes": [
+            "decreased response to Gram-negative bacterium",
+            "aberrant vegetative growth"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "LAS92",
         "strain_descriptor": "DDB_G0283373-",
         "associated_genes": [
@@ -13167,16 +13186,16 @@
             "ptpC"
         ],
         "phenotypes": [
-            "aberrant signal transduction during aggregation",
             "abolished protein localization to nucleus",
-            "aberrant hypertonic response"
+            "aberrant hypertonic response",
+            "aberrant signal transduction"
         ],
         "mutant_types": {
             "null": false,
             "overexpression": true,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -22525,6 +22544,23 @@
         }
     },
     {
+        "systematic_name": "DBS0351619",
+        "strain_descriptor": "cadA-",
+        "associated_genes": [
+            "cadA"
+        ],
+        "phenotypes": [
+            "aberrant vegetative growth"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "TL97",
         "strain_descriptor": "cadA-",
         "associated_genes": [
@@ -24333,8 +24369,8 @@
             "decreased defense response to Gram-negative bacterium",
             "decreased gene expression",
             "aberrant chemotaxis to cAMP",
+            "aberrant response to cAMP",
             "decreased phagocytosis",
-            "aberrant cAMP signaling during aggregation",
             "abolished aggregation"
         ],
         "mutant_types": {
@@ -31513,7 +31549,6 @@
             "decreased actin filament polymerization",
             "decreased gene expression",
             "decreased activation of GTPase activity",
-            "aberrant activation of GTPase activity",
             "decreased chemotaxis rate",
             "abolished activation of adenylate cyclase",
             "abolished aggregation",
@@ -31614,7 +31649,6 @@
         "phenotypes": [
             "abolished pinocytosis",
             "abolished growth",
-            "aberrant activation of GTPase activity",
             "delayed aggregation",
             "increased actin filament polymerization",
             "decreased phagocytosis",
@@ -31659,8 +31693,7 @@
             "gefC"
         ],
         "phenotypes": [
-            "wild type",
-            "aberrant activation of GTPase activity"
+            "wild type"
         ],
         "mutant_types": {
             "null": true,
@@ -31763,23 +31796,6 @@
         }
     },
     {
-        "systematic_name": "DBS0236011",
-        "strain_descriptor": "gefG-",
-        "associated_genes": [
-            "gefG"
-        ],
-        "phenotypes": [
-            "aberrant activation of GTPase activity"
-        ],
-        "mutant_types": {
-            "null": true,
-            "overexpression": false,
-            "multiple ": false,
-            "other": false,
-            "developmental": false
-        }
-    },
-    {
         "systematic_name": "DBS0350822",
         "strain_descriptor": "gefH-",
         "associated_genes": [
@@ -31840,6 +31856,25 @@
         }
     },
     {
+        "systematic_name": "DBS0351618",
+        "strain_descriptor": "gefK-/gacL-",
+        "associated_genes": [
+            "gacL",
+            "gefK"
+        ],
+        "phenotypes": [
+            "decreased response to Gram-negative bacterium",
+            "aberrant vegetative growth"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0236871",
         "strain_descriptor": "gefL-",
         "associated_genes": [
@@ -31865,7 +31900,6 @@
         ],
         "phenotypes": [
             "aberrant activation of adenylate cyclase activity",
-            "aberrant activation of GTPase activity",
             "increased response to cGMP",
             "development arrests at mound stage",
             "decreased chemotaxis rate",
@@ -31947,8 +31981,7 @@
             "gefR"
         ],
         "phenotypes": [
-            "wild type",
-            "aberrant activation of GTPase activity"
+            "wild type"
         ],
         "mutant_types": {
             "null": true,
@@ -32001,14 +32034,14 @@
         ],
         "phenotypes": [
             "decreased culmination",
-            "aberrant signal transduction during aggregation",
             "decreased protein localization to cell cortex",
             "increased F-actin polymerization at the leading edge",
             "delayed aggregation",
             "decreased aggregate size",
             "decreased chemotaxis to cAMP",
             "aberrant protein localization to plasma membrane",
-            "decreased myosin II assembly"
+            "decreased myosin II assembly",
+            "aberrant signal transduction"
         ],
         "mutant_types": {
             "null": true,
@@ -32416,7 +32449,7 @@
         "phenotypes": [
             "aberrant aggregation",
             "increased stalk length",
-            "aberrant cAMP signaling during aggregation",
+            "aberrant response to cAMP",
             "decreased stalk width"
         ],
         "mutant_types": {
@@ -35427,9 +35460,9 @@
         ],
         "phenotypes": [
             "abolished sporulation",
-            "aberrant signal transduction during aggregation",
             "abolished growth",
             "development arrests at mound stage",
+            "aberrant cAMP signaling during aggregation",
             "abolished cell polarity",
             "abolished streaming",
             "aberrant protein localization to nucleus",
@@ -48378,8 +48411,8 @@
             "aberrant vegetative growth",
             "increased sorting to prestalk region",
             "precocious development",
-            "increased prestalk cell differentiation in response to DIF-1",
-            "decreased cell size"
+            "decreased cell size",
+            "increased prestalk cell differentiation"
         ],
         "mutant_types": {
             "null": true,
@@ -53385,7 +53418,8 @@
             "decreased defense response to Gram-negative bacterium",
             "aberrant defense response to bacterium",
             "decreased growth rate",
-            "aberrant phagocytosis"
+            "aberrant phagocytosis",
+            "aberrant vegetative growth"
         ],
         "mutant_types": {
             "null": true,

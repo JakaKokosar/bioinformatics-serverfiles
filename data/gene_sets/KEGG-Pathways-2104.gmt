@@ -17,8 +17,8 @@ path:mpn00051	path:mpn00051,KEGG-Pathways,2104,Fructose and mannose metabolism,_
 path:mpn00052	path:mpn00052,KEGG-Pathways,2104,Galactose metabolism,_,_,http://www.kegg.jp/kegg-bin/show_pathway?mpn00052	876834	876844	877017	877241
 path:mpn00480	path:mpn00480,KEGG-Pathways,2104,Glutathione metabolism,_,_,http://www.kegg.jp/kegg-bin/show_pathway?mpn00480	876829
 path:mpn00561	path:mpn00561,KEGG-Pathways,2104,Glycerolipid metabolism,_,_,http://www.kegg.jp/kegg-bin/show_pathway?mpn00561	876741	876759	876931	877232	877252
-path:mpn00564	path:mpn00564,KEGG-Pathways,2104,Glycerophospholipid metabolism,_,_,http://www.kegg.jp/kegg-bin/show_pathway?mpn00564	876733	876914	876931	876996	877174	877232	877296
-path:mpn00260	path:mpn00260,KEGG-Pathways,2104,Glycine, serine and threonine metabolism,_,_,http://www.kegg.jp/kegg-bin/show_pathway?mpn00260	876801	877059	877355
+path:mpn00564	path:mpn00564,KEGG-Pathways,2104,Glycerophospholipid metabolism,_,_,https://www.kegg.jp/kegg-bin/show_pathway?mpn00564	876733	876914	876931	876996	877174	877232	877296
+path:mpn00260	path:mpn00260,KEGG-Pathways,2104,Glycine, serine and threonine metabolism,_,_,https://www.kegg.jp/kegg-bin/show_pathway?mpn00260	876801	877059	877355
 path:mpn00010	path:mpn00010,KEGG-Pathways,2104,Glycolysis / Gluconeogenesis,_,_,https://www.kegg.jp/kegg-bin/show_pathway?mpn00010	876849	876854	876888	876909	876972	876984	877032	877059	877083	877106	877125	877217	877241	877328	877355
 path:mpn00630	path:mpn00630,KEGG-Pathways,2104,Glyoxylate and dicarboxylate metabolism,_,_,https://www.kegg.jp/kegg-bin/show_pathway?mpn00630	876801	877059
 path:mpn03440	path:mpn03440,KEGG-Pathways,2104,Homologous recombination,_,_,http://www.kegg.jp/kegg-bin/show_pathway?mpn03440	876812	877048	877060	877158	877175	877213	877275	877276	877315	877371	877399
