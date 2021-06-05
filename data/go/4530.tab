@@ -531,11 +531,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4324158	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
 39947	4324163	GO:0016020	RCA	-	membrane	-	Component
 39947	4324165	GO:0008152	RCA	-	metabolic process	-	Process
-39947	4324165	GO:0016758	RCA	-	transferase activity, transferring hexosyl groups	-	Function
+39947	4324165	GO:0016758	RCA	-	hexosyltransferase activity	-	Function
 39947	4324166	GO:0008152	RCA	-	metabolic process	-	Process
-39947	4324166	GO:0016758	RCA	-	transferase activity, transferring hexosyl groups	-	Function
+39947	4324166	GO:0016758	RCA	-	hexosyltransferase activity	-	Function
 39947	4324167	GO:0008152	RCA	-	metabolic process	-	Process
-39947	4324167	GO:0016758	RCA	-	transferase activity, transferring hexosyl groups	-	Function
+39947	4324167	GO:0016758	RCA	-	hexosyltransferase activity	-	Function
 39947	4324173	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4324175	GO:0009536	RCA	-	plastid	-	Component
 39947	4324180	GO:0009536	RCA	-	plastid	-	Component
@@ -1092,7 +1092,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4326209	GO:0006810	RCA	-	transport	-	Process
 39947	4326209	GO:0016020	RCA	-	membrane	-	Component
 39947	4326218	GO:0008152	RCA	-	metabolic process	-	Process
-39947	4326218	GO:0016758	RCA	-	transferase activity, transferring hexosyl groups	-	Function
+39947	4326218	GO:0016758	RCA	-	hexosyltransferase activity	-	Function
 39947	4326245	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4326245	GO:0016020	RCA	-	membrane	-	Component
 39947	4326247	GO:0009536	RCA	-	plastid	-	Component
@@ -1175,7 +1175,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4326501	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4326507	GO:0005524	RCA	-	ATP binding	-	Function
 39947	4326507	GO:0006812	RCA	-	cation transport	-	Process
-39947	4326507	GO:0015662	RCA	-	ion transmembrane transporter activity, phosphorylative mechanism	-	Function
+39947	4326507	GO:0015662	RCA	-	P-type ion transporter activity	-	Function
 39947	4326507	GO:0016020	RCA	-	membrane	-	Component
 39947	4326508	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4326513	GO:0009536	RCA	-	plastid	-	Component
@@ -1204,9 +1204,9 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4326570	GO:0009536	RCA	-	plastid	-	Component
 39947	4326576	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4326578	GO:0008152	RCA	-	metabolic process	-	Process
-39947	4326578	GO:0016758	RCA	-	transferase activity, transferring hexosyl groups	-	Function
+39947	4326578	GO:0016758	RCA	-	hexosyltransferase activity	-	Function
 39947	4326579	GO:0008152	RCA	-	metabolic process	-	Process
-39947	4326579	GO:0016758	RCA	-	transferase activity, transferring hexosyl groups	-	Function
+39947	4326579	GO:0016758	RCA	-	hexosyltransferase activity	-	Function
 39947	4326583	GO:0009536	RCA	-	plastid	-	Component
 39947	4326586	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4326588	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -1214,7 +1214,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4326607	GO:0016020	RCA	-	membrane	-	Component
 39947	4326607	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4326625	GO:0008152	RCA	-	metabolic process	-	Process
-39947	4326625	GO:0016758	RCA	-	transferase activity, transferring hexosyl groups	-	Function
+39947	4326625	GO:0016758	RCA	-	hexosyltransferase activity	-	Function
 39947	4326630	GO:0004674	RCA	-	protein serine/threonine kinase activity	-	Function
 39947	4326630	GO:0004713	RCA	-	protein tyrosine kinase activity	-	Function
 39947	4326630	GO:0005524	RCA	-	ATP binding	-	Function
@@ -1555,7 +1555,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4327860	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4327861	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4327868	GO:0008152	RCA	-	metabolic process	-	Process
-39947	4327868	GO:0016758	RCA	-	transferase activity, transferring hexosyl groups	-	Function
+39947	4327868	GO:0016758	RCA	-	hexosyltransferase activity	-	Function
 39947	4327874	GO:0016020	RCA	-	membrane	-	Component
 39947	4327876	GO:0009536	RCA	-	plastid	-	Component
 39947	4327877	GO:0016020	RCA	-	membrane	-	Component
@@ -2131,7 +2131,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4331015	GO:0005524	RCA	-	ATP binding	-	Function
 39947	4331015	GO:0006812	RCA	-	cation transport	-	Process
 39947	4331015	GO:0008152	RCA	-	metabolic process	-	Process
-39947	4331015	GO:0015662	RCA	-	ion transmembrane transporter activity, phosphorylative mechanism	-	Function
+39947	4331015	GO:0015662	RCA	-	P-type ion transporter activity	-	Function
 39947	4331015	GO:0016020	RCA	-	membrane	-	Component
 39947	4331015	GO:0016787	RCA	-	hydrolase activity	-	Function
 39947	4331015	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -6684,7 +6684,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4350923	GO:0005524	RCA	-	ATP binding	-	Function
 39947	4350923	GO:0006281	RCA	-	DNA repair	-	Process
 39947	4350923	GO:0006310	RCA	-	DNA recombination	-	Process
-39947	4350923	GO:0008094	RCA	-	DNA-dependent ATPase activity	-	Function
+39947	4350923	GO:0008094	RCA	-	ATPase, acting on DNA	-	Function
 39947	4350940	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4350941	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4350943	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -6820,7 +6820,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4351474	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4351482	GO:0000707	IC	-	meiotic DNA recombinase assembly	-	Process
 39947	4351482	GO:0000724	IC	-	double-strand break repair via homologous recombination	-	Process
-39947	4351482	GO:0000733	IC	-	DNA strand renaturation	-	Process
 39947	4351482	GO:0003677	IC	-	DNA binding	-	Function
 39947	4351482	GO:0003684	IC	-	damaged DNA binding	-	Function
 39947	4351482	GO:0005524	IC	-	ATP binding	-	Function
@@ -6828,7 +6827,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4351482	GO:0006281	IC	-	DNA repair	-	Process
 39947	4351482	GO:0006310	IC	-	DNA recombination	-	Process
 39947	4351482	GO:0007131	IC	-	reciprocal meiotic recombination	-	Process
-39947	4351482	GO:0008094	IC	-	DNA-dependent ATPase activity	-	Function
+39947	4351482	GO:0008094	IC	-	ATPase, acting on DNA	-	Function
 39947	4351482	GO:0051321	IC	-	meiotic cell cycle	-	Process
 39947	4351490	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4351496	GO:0005739	RCA	-	mitochondrion	-	Component

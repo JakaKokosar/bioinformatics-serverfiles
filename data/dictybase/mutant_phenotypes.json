@@ -152,11 +152,11 @@
             "cf45-1"
         ],
         "phenotypes": [
+            "increased  glucose level",
             "increased aggregate size",
             "decreased cell motility",
             "increased cell-cell adhesion",
-            "decreased aggregate size",
-            "increased intracellular glucose level"
+            "decreased aggregate size"
         ],
         "mutant_types": {
             "null": true,
@@ -845,6 +845,25 @@
         ],
         "mutant_types": {
             "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0351620",
+        "strain_descriptor": "DDB_G0281735-/DDB_G0281737-",
+        "associated_genes": [
+            "DDB_G0281735",
+            "DDB_G0281737"
+        ],
+        "phenotypes": [
+            "decreased response to Gram-negative bacterium",
+            "aberrant vegetative growth"
+        ],
+        "mutant_types": {
+            "null": false,
             "overexpression": false,
             "multiple ": false,
             "other": false,
@@ -2144,8 +2163,8 @@
             "precocious sporulation",
             "decreased actin phosphorylation",
             "precocious development",
-            "decreased intracellular cAMP level",
             "aberrant fruiting body morphology",
+            "decreased cAMP level",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -2163,8 +2182,8 @@
             "rdeA"
         ],
         "phenotypes": [
-            "increased intracellular cAMP level",
             "precocious aggregation",
+            "increased cAMP level",
             "decreased aggregate size",
             "aberrant fruiting body morphology"
         ],
@@ -2810,7 +2829,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -3360,7 +3379,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -4040,7 +4059,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -4237,7 +4256,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -5017,7 +5036,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -5185,7 +5204,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -5414,7 +5433,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -5559,7 +5578,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -5577,7 +5596,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -5981,7 +6000,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -6054,7 +6073,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -6188,7 +6207,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -6575,7 +6594,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -6822,7 +6841,7 @@
             "increased protein localization to cytoplasm",
             "decreased phagocytosis",
             "decreased growth rate",
-            "aberrant intracellular pH level"
+            "aberrant regulation of intracellular pH"
         ],
         "mutant_types": {
             "null": false,
@@ -6920,7 +6939,7 @@
         "phenotypes": [
             "development arrests at loose mound stage",
             "decreased gene expression",
-            "decreased intracellular ATP level",
+            "decreased ATP level",
             "increased mitochondrial fission"
         ],
         "mutant_types": {
@@ -6941,13 +6960,13 @@
             "aberrant cellular homeostasis",
             "aberrant regulation of mitochondrial membrane potential",
             "aberrant mitochondrion morphology",
+            "decreased ATP level",
             "increased gene expression",
             "decreased gene expression",
             "decreased growth rate",
             "aberrant cell cycle",
             "increased necrotic cell death",
             "delayed development",
-            "decreased intracellular ATP level",
             "aberrant response to oxidative stress",
             "aberrant cell morphology",
             "increased mitochondrial fission",
@@ -7743,7 +7762,7 @@
         ],
         "phenotypes": [
             "decreased number of mitochondria",
-            "decreased intracellular ATP level",
+            "decreased ATP level",
             "increased growth rate",
             "decreased fruiting body size",
             "aberrant mitochondrion organization"
@@ -7856,8 +7875,8 @@
             "vatP"
         ],
         "phenotypes": [
-            "decreased growth rate",
-            "decreased extracellular Ca2+ uptake"
+            "decreased calcium ion import",
+            "decreased growth rate"
         ],
         "mutant_types": {
             "null": false,
@@ -7874,7 +7893,7 @@
             "vatP"
         ],
         "phenotypes": [
-            "decreased extracellular Ca2+ uptake",
+            "decreased calcium ion import",
             "decreased growth rate",
             "delayed development"
         ],
@@ -8502,7 +8521,7 @@
             "canA"
         ],
         "phenotypes": [
-            "increased number of tips in culminant",
+            "aberrant sorus morphology",
             "aberrant response to cation stress",
             "increased defense response to Gram-negative bacterium",
             "decreased fruiting body size",
@@ -8542,7 +8561,7 @@
             "cnbA"
         ],
         "phenotypes": [
-            "increased number of tips in culminant",
+            "aberrant sorus morphology",
             "decreased gene expression",
             "aberrant response to cation stress",
             "increased defense response to Gram-negative bacterium",
@@ -9226,9 +9245,9 @@
         ],
         "phenotypes": [
             "aberrant aggregation",
-            "increased intracellular cAMP level",
             "increased chemotaxis to cAMP",
             "aberrant cell cycle",
+            "increased cAMP level",
             "increased sporulation"
         ],
         "mutant_types": {
@@ -11152,9 +11171,9 @@
             "dia2"
         ],
         "phenotypes": [
-            "decreased extracellular cAMP level",
-            "aberrant cAMP signaling during aggregation",
-            "abolished aggregation"
+            "aberrant extracellular cAMP signaling",
+            "abolished aggregation",
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": false,
@@ -11262,16 +11281,15 @@
             "adprt1A"
         ],
         "phenotypes": [
-            "decreased extracellular cAMP level",
             "increased gene expression",
             "decreased gene expression",
+            "decreased ATP level",
             "delayed aggregation",
             "aberrant cell cycle",
             "decreased growth rate",
-            "decreased intracellular ATP level",
             "aberrant response to oxidative stress",
-            "decreased intracellular cAMP level",
-            "increased mitochondrial fission"
+            "increased mitochondrial fission",
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": false,
@@ -11697,7 +11715,7 @@
             "overexpression": true,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -11716,7 +11734,7 @@
             "overexpression": true,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -11784,8 +11802,8 @@
         ],
         "phenotypes": [
             "decreased slug migration",
-            "decreased superoxide production",
             "decreased fruiting body size",
+            "decreased superoxide generation",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -12153,7 +12171,7 @@
             "dhkK"
         ],
         "phenotypes": [
-            "aberrant cAMP signaling during aggregation",
+            "aberrant extracellular cAMP signaling",
             "delayed development"
         ],
         "mutant_types": {
@@ -12209,7 +12227,7 @@
         "phenotypes": [
             "decreased growth rate",
             "precocious aggregation",
-            "aberrant cAMP signaling during aggregation"
+            "aberrant extracellular cAMP signaling"
         ],
         "mutant_types": {
             "null": false,
@@ -12442,9 +12460,9 @@
         "phenotypes": [
             "increased catalytic activity",
             "decreased slug migration",
-            "decreased superoxide production",
             "aberrant gene expression",
             "decreased fruiting body size",
+            "decreased superoxide generation",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -12484,8 +12502,8 @@
             "aberrant aggregation",
             "abolished sporulation",
             "decreased cell polarity",
-            "increased intracellular cAMP level",
             "development arrests at mound stage",
+            "increased cAMP level",
             "aberrant actin filament polymerization",
             "aberrant protein localization to plasma membrane",
             "increased prestalk cell differentiation"
@@ -12599,7 +12617,6 @@
             "gpaI"
         ],
         "phenotypes": [
-            "increased period of cAMP wave formation",
             "decreased protein localization to plasma membrane",
             "aberrant adaptation of adenylate cyclase",
             "decreased cell polarity",
@@ -12608,9 +12625,10 @@
             "delayed aggregation",
             "increased actin filament polymerization",
             "aberrant adaptation of signaling pathway",
+            "increased cAMP wave formation",
             "increased lateral pseudopod formation",
-            "decreased accumulation of cGMP",
             "decreased number of aggregates",
+            "decreased cGMP biosynthesis",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -12700,9 +12718,9 @@
             "aberrant aggregation",
             "abolished sporulation",
             "decreased cell polarity",
-            "increased intracellular cAMP level",
             "increased gene expression",
             "development arrests at mound stage",
+            "increased cAMP level",
             "aberrant actin filament polymerization",
             "increased prestalk cell differentiation"
         ],
@@ -13167,16 +13185,16 @@
             "ptpC"
         ],
         "phenotypes": [
-            "aberrant signal transduction during aggregation",
             "abolished protein localization to nucleus",
-            "aberrant hypertonic response"
+            "aberrant hypertonic response",
+            "aberrant signal transduction"
         ],
         "mutant_types": {
             "null": false,
             "overexpression": true,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -13816,8 +13834,8 @@
         ],
         "phenotypes": [
             "precocious development",
-            "decreased intracellular cAMP level",
-            "decreased fruiting body size"
+            "decreased fruiting body size",
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": false,
@@ -13880,7 +13898,7 @@
             "overexpression": true,
             "multiple ": false,
             "other": true,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -14498,7 +14516,7 @@
         ],
         "phenotypes": [
             "increased stalk width",
-            "increased intracellular ATP level",
+            "increased ATP level",
             "decreased growth rate",
             "increased number of mitochondria",
             "decreased defense response to bacterium",
@@ -14559,8 +14577,8 @@
         ],
         "phenotypes": [
             "decreased slug migration",
-            "decreased superoxide production",
             "decreased fruiting body size",
+            "decreased superoxide generation",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -15116,7 +15134,7 @@
         "phenotypes": [
             "decreased growth rate",
             "delayed development",
-            "decreased intracellular cAMP level"
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": false,
@@ -16176,7 +16194,7 @@
             "rasG"
         ],
         "phenotypes": [
-            "mislocalized prestalk gene expression",
+            "aberrant prestalk gene expression",
             "aberrant culmination"
         ],
         "mutant_types": {
@@ -16545,11 +16563,11 @@
         ],
         "phenotypes": [
             "increased gene expression",
-            "abolished SDF-2 production",
-            "decreased intracellular cAMP level",
+            "decreased spore cell differentiation",
             "precocious development",
             "precocious gene expression",
-            "aberrant fruiting body morphology"
+            "aberrant fruiting body morphology",
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": false,
@@ -16576,6 +16594,24 @@
             "multiple ": false,
             "other": false,
             "developmental": false
+        }
+    },
+    {
+        "systematic_name": "DBS0350196",
+        "strain_descriptor": "[pkaC]:pkaC/nsfA(A1854T,T1984A,C2131A,A2398T,T2574A)",
+        "associated_genes": [
+            "nsfA",
+            "pkaC"
+        ],
+        "phenotypes": [
+            "decreased spore cell differentiation"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": true,
+            "multiple ": true,
+            "other": false,
+            "developmental": true
         }
     },
     {
@@ -16940,8 +16976,8 @@
             "abcB3"
         ],
         "phenotypes": [
-            "decreased extracellular cAMP level",
-            "delayed development"
+            "delayed development",
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": false,
@@ -17320,7 +17356,7 @@
             "rasD"
         ],
         "phenotypes": [
-            "increased intracellular myo-inositol level",
+            "increased myo-inositol level",
             "decreased gene expression",
             "increased prestalk gene expression",
             "decreased prespore gene expression",
@@ -17365,14 +17401,14 @@
         ],
         "phenotypes": [
             "increased protein modification",
-            "aberrant cAMP signaling during aggregation"
+            "aberrant extracellular cAMP signaling"
         ],
         "mutant_types": {
             "null": false,
             "overexpression": false,
             "multiple ": false,
             "other": true,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -18913,7 +18949,7 @@
             "decreased adenylate cyclase activity",
             "abolished cell polarity",
             "abolished streaming",
-            "decreased intracellular cAMP level"
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": true,
@@ -18959,7 +18995,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -19027,7 +19063,7 @@
         "phenotypes": [
             "wild type",
             "delayed development",
-            "decreased intracellular cAMP level"
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": true,
@@ -19137,14 +19173,14 @@
             "pkaR"
         ],
         "phenotypes": [
-            "increased intracellular cAMP level"
+            "increased cAMP level"
         ],
         "mutant_types": {
             "null": true,
             "overexpression": true,
             "multiple ": true,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -19155,15 +19191,15 @@
         ],
         "phenotypes": [
             "decreased gene expression",
-            "decreased intracellular cAMP level",
-            "abolished cAMP wave formation"
+            "abolished cAMP wave formation",
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": true,
             "overexpression": true,
             "multiple ": true,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -19197,7 +19233,7 @@
             "overexpression": true,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -19338,7 +19374,7 @@
         ],
         "phenotypes": [
             "decreased response to Gram-negative bacterium",
-            "abolished SDF production",
+            "abolished spore cell differentiation",
             "abolished sorting to prestalk region",
             "decreased sporulation",
             "decreased resistance to cisplatin"
@@ -19358,14 +19394,14 @@
             "acbA"
         ],
         "phenotypes": [
-            "abolished SDF production"
+            "abolished spore cell differentiation"
         ],
         "mutant_types": {
             "null": true,
             "overexpression": false,
             "multiple ": true,
             "other": false,
-            "developmental": false
+            "developmental": true
         }
     },
     {
@@ -19394,10 +19430,10 @@
         ],
         "phenotypes": [
             "abolished response to MPBD",
-            "abolished response to SDF-1",
             "decreased spore germination",
+            "decreased spore cell differentiation",
             "precocious spore germination",
-            "abolished SDF-1 production"
+            "abolished response to biotic stimulus"
         ],
         "mutant_types": {
             "null": true,
@@ -19688,7 +19724,7 @@
         "phenotypes": [
             "aberrant endocytosis",
             "delayed aggregation",
-            "decreased period cAMP wave formation",
+            "decreased cAMP wave formation",
             "aberrant regulation of protein kinase activity"
         ],
         "mutant_types": {
@@ -19724,18 +19760,17 @@
             "adprt1A"
         ],
         "phenotypes": [
-            "decreased extracellular cAMP level",
             "decreased gene expression",
             "increased cell cycle length",
             "increased gene expression",
+            "decreased ATP level",
             "decreased growth rate",
             "delayed aggregation",
             "decreased aggregate size",
-            "decreased intracellular ATP level",
             "aberrant response to oxidative stress",
             "decreased fruiting body size",
-            "decreased intracellular cAMP level",
             "increased mitochondrial fission",
+            "decreased cAMP level",
             "abolished chemotaxis to cAMP"
         ],
         "mutant_types": {
@@ -19783,7 +19818,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -19982,8 +20017,8 @@
         ],
         "phenotypes": [
             "increased aggregate size",
-            "decreased intracellular glucose level",
             "decreased cell motility",
+            "decreased glucose level",
             "decreased protein secretion"
         ],
         "mutant_types": {
@@ -20371,8 +20406,8 @@
             "aberrant cell motility",
             "increased gene expression",
             "decreased gene expression",
+            "decreased cGMP-mediated signaling",
             "abolished aggregation",
-            "decreased response to cGMP",
             "decreased chemotaxis to cAMP",
             "decreased cAMP-induced cAMP pulse"
         ],
@@ -20551,7 +20586,7 @@
             "decreased aggregate size",
             "decreased fruiting body size",
             "increased growth rate",
-            "decreased extracellular ammonia level"
+            "decreased ammonia level"
         ],
         "mutant_types": {
             "null": true,
@@ -20568,10 +20603,10 @@
             "amtA"
         ],
         "phenotypes": [
+            "increased  glucose level",
             "decreased aggregate size",
             "increased number of aggregates",
-            "decreased extracellular ammonia level",
-            "increased intracellular glucose level",
+            "decreased ammonia level",
             "decreased stalk length",
             "aberrant sporulation",
             "increased intracellular ammonia level"
@@ -20611,7 +20646,7 @@
         "phenotypes": [
             "decreased protein localization to nucleus",
             "aberrant slug migration",
-            "decreased extracellular ammonia level",
+            "decreased ammonia level",
             "delayed gene expression"
         ],
         "mutant_types": {
@@ -20630,7 +20665,7 @@
             "amtB"
         ],
         "phenotypes": [
-            "decreased extracellular ammonia level"
+            "decreased ammonia level"
         ],
         "mutant_types": {
             "null": false,
@@ -20648,7 +20683,7 @@
             "amtC"
         ],
         "phenotypes": [
-            "decreased extracellular ammonia level"
+            "decreased ammonia level"
         ],
         "mutant_types": {
             "null": false,
@@ -20669,7 +20704,7 @@
             "decreased gene expression",
             "development arrests at slug stage",
             "mislocalized gene expression",
-            "decreased extracellular ammonia level",
+            "decreased ammonia level",
             "delayed culmination",
             "aberrant fruiting body morphology"
         ],
@@ -21570,8 +21605,8 @@
             "aberrant autophagy",
             "decreased defense response to Gram-negative bacterium",
             "aberrant cellular response to nitrogen starvation",
-            "abolished SDF production",
             "decreased growth rate",
+            "abolished spore cell differentiation",
             "aberrant vacuole organization",
             "abolished stalk cell differentiation",
             "abolished aggregation",
@@ -21998,7 +22033,7 @@
             "decreased defense response to Gram-negative bacterium",
             "increased number of tips",
             "aberrant cellular response to nitrogen starvation",
-            "abolished SDF production",
+            "decreased spore cell differentiation",
             "decreased defense response to fungus",
             "decreased fruiting body size",
             "decreased stalk length",
@@ -22024,7 +22059,7 @@
             "decreased defense response to Gram-negative bacterium",
             "increased number of tips",
             "aberrant cellular response to nitrogen starvation",
-            "abolished SDF production",
+            "abolished spore cell differentiation",
             "aberrant protein localization"
         ],
         "mutant_types": {
@@ -22106,7 +22141,7 @@
             "aberrant spore morphology",
             "increased number of tips",
             "aberrant cellular response to nitrogen starvation",
-            "abolished SDF production",
+            "decreased spore cell differentiation",
             "aberrant vacuole organization",
             "decreased fruiting body size",
             "decreased defense response to Gram-positive bacterium",
@@ -22525,6 +22560,23 @@
         }
     },
     {
+        "systematic_name": "DBS0351619",
+        "strain_descriptor": "cadA-",
+        "associated_genes": [
+            "cadA"
+        ],
+        "phenotypes": [
+            "aberrant vegetative growth"
+        ],
+        "mutant_types": {
+            "null": true,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "TL97",
         "strain_descriptor": "cadA-",
         "associated_genes": [
@@ -22640,9 +22692,9 @@
             "abolished protein localization to nucleus",
             "aberrant phagocytosis",
             "increased cell-substrate adhesion",
+            "decreased cGMP-mediated signaling",
             "aberrant regulation of GTPase activity",
             "abolished aggregation",
-            "decreased response to cGMP",
             "aberrant regulation of protein kinase activity",
             "decreased cAMP-induced cAMP pulse",
             "abolished chemotaxis to cAMP"
@@ -22723,9 +22775,9 @@
         ],
         "phenotypes": [
             "decreased actin filament polymerization",
-            "abolished response to cGMP",
             "abolished activation of GTPase activity",
             "abolished aggregation",
+            "abolished cGMP-mediated signaling",
             "abolished cAMP-induced cAMP pulse"
         ],
         "mutant_types": {
@@ -23588,7 +23640,7 @@
             "chlA"
         ],
         "phenotypes": [
-            "abolished DIF production",
+            "abolished DIF-1 biosynthesis",
             "aberrant slug development",
             "aberrant fruiting body morphology"
         ],
@@ -24049,8 +24101,8 @@
             "cnxA"
         ],
         "phenotypes": [
-            "obsolete increased cytosolic Ca2+ response",
-            "decreased extracellular Ca2+ uptake"
+            "decreased calcium ion import",
+            "obsolete increased cytosolic Ca2+ response"
         ],
         "mutant_types": {
             "null": true,
@@ -24333,8 +24385,8 @@
             "decreased defense response to Gram-negative bacterium",
             "decreased gene expression",
             "aberrant chemotaxis to cAMP",
+            "aberrant response to cAMP",
             "decreased phagocytosis",
-            "aberrant cAMP signaling during aggregation",
             "abolished aggregation"
         ],
         "mutant_types": {
@@ -24838,7 +24890,7 @@
             "decreased spore germination",
             "increased aggregate size",
             "decreased sorting to prestalk region",
-            "abolished SDF-1 production",
+            "decreased spore cell differentiation",
             "increased growth rate",
             "delayed tip development"
         ],
@@ -24908,8 +24960,8 @@
             "crtA"
         ],
         "phenotypes": [
-            "obsolete increased cytosolic Ca2+ response",
-            "decreased extracellular Ca2+ uptake"
+            "decreased calcium ion import",
+            "obsolete increased cytosolic Ca2+ response"
         ],
         "mutant_types": {
             "null": true,
@@ -24927,9 +24979,9 @@
             "crtA"
         ],
         "phenotypes": [
+            "decreased calcium ion import",
             "decreased growth rate",
             "delayed response to cAMP",
-            "decreased extracellular Ca2+ uptake",
             "obsolete increased cytosolic Ca2+ response",
             "decreased phagocytosis"
         ],
@@ -24938,7 +24990,7 @@
             "overexpression": false,
             "multiple ": true,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -25106,17 +25158,17 @@
             "ctnA"
         ],
         "phenotypes": [
+            "increased cGMP-mediated signaling",
             "aberrant cellular metabolic process",
+            "increased  glucose level",
             "decreased protein level",
             "decreased catalytic activity",
+            "increased guanylyl cyclase activity",
             "decreased actin filament polymerization",
             "increased aggregate size",
-            "increased response to cGMP",
             "increased cell-cell adhesion",
-            "increased GTP-gamma-S-stimulated guanylyl cyclase activity",
             "increased protein level",
             "increased cell motility",
-            "increased intracellular glucose level",
             "decreased cAMP-induced cAMP pulse",
             "decreased myosin II assembly"
         ],
@@ -25445,8 +25497,8 @@
         "phenotypes": [
             "aberrant streaming",
             "increased pinocytosis",
-            "decreased period cAMP wave formation",
             "decreased chemotaxis to cAMP",
+            "decreased cAMP wave formation",
             "increased growth rate",
             "increased phagocytosis"
         ],
@@ -26355,8 +26407,8 @@
             "aberrant stalk morphogenesis",
             "increased gene expression",
             "mislocalized gene expression",
-            "abolished response to SDF-2",
             "increased sporulation",
+            "abolished response to biotic stimulus",
             "decreased sporulation",
             "aberrant fruiting body morphology"
         ],
@@ -26465,9 +26517,9 @@
             "fbxA"
         ],
         "phenotypes": [
-            "decreased intracellular cAMP level",
             "aberrant fruiting body morphology",
-            "decreased sporulation"
+            "decreased sporulation",
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": false,
@@ -26559,7 +26611,7 @@
         ],
         "phenotypes": [
             "precocious spore germination",
-            "decreased intracellular cAMP level",
+            "decreased cAMP level",
             "aberrant sorus color"
         ],
         "mutant_types": {
@@ -26598,7 +26650,7 @@
             "dhkC"
         ],
         "phenotypes": [
-            "aberrant chemotaxis to cAMP in response to DIF-2"
+            "aberrant chemotaxis to cAMP"
         ],
         "mutant_types": {
             "null": true,
@@ -26897,10 +26949,10 @@
         ],
         "phenotypes": [
             "decreased prestalk B cell differentiation",
+            "abolished response to DIF-1",
             "increased gene expression",
             "aberrant chemotaxis to cAMP",
-            "aberrant gene expression",
-            "abolished response to DIF"
+            "aberrant gene expression"
         ],
         "mutant_types": {
             "null": true,
@@ -27061,8 +27113,8 @@
             "decreased growth rate",
             "decreased prespore cell differentiation",
             "decreased chemotaxis to folate",
-            "decreased intracellular cAMP level",
             "increased prestalk cell differentiation",
+            "decreased cAMP level",
             "decreased phototaxis"
         ],
         "mutant_types": {
@@ -27199,9 +27251,9 @@
             "dmtA"
         ],
         "phenotypes": [
+            "abolished DIF-1 biosynthesis",
             "decreased outer basal disc size",
             "wild type",
-            "abolished DIF production",
             "abolished prestalk 0 cell differentiation",
             "decreased slug width",
             "decreased prestalk 0 cell differentiation",
@@ -28977,8 +29029,8 @@
             "aberrant cell cycle",
             "delayed development",
             "decreased chemotaxis to cAMP",
-            "decreased intracellular cAMP level",
             "decreased fruiting body size",
+            "decreased cAMP level",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -29210,7 +29262,7 @@
             "delayed development",
             "decreased chemotaxis to folate",
             "decreased chemotaxis to cAMP",
-            "decreased intracellular cAMP level"
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": true,
@@ -30786,7 +30838,7 @@
             "gadA"
         ],
         "phenotypes": [
-            "abolished SDF production",
+            "decreased spore cell differentiation",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -30957,7 +31009,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -31513,11 +31565,10 @@
             "decreased actin filament polymerization",
             "decreased gene expression",
             "decreased activation of GTPase activity",
-            "aberrant activation of GTPase activity",
+            "decreased cGMP-mediated signaling",
             "decreased chemotaxis rate",
             "abolished activation of adenylate cyclase",
             "abolished aggregation",
-            "decreased response to cGMP",
             "decreased cAMP-induced cAMP pulse",
             "increased protein kinase activation"
         ],
@@ -31614,7 +31665,6 @@
         "phenotypes": [
             "abolished pinocytosis",
             "abolished growth",
-            "aberrant activation of GTPase activity",
             "delayed aggregation",
             "increased actin filament polymerization",
             "decreased phagocytosis",
@@ -31659,8 +31709,7 @@
             "gefC"
         ],
         "phenotypes": [
-            "wild type",
-            "aberrant activation of GTPase activity"
+            "wild type"
         ],
         "mutant_types": {
             "null": true,
@@ -31716,7 +31765,7 @@
         "phenotypes": [
             "decreased activation of GTPase activity",
             "increased gene expression",
-            "decreased response to DIF",
+            "decreased response to DIF-1",
             "increased prespore cell differentiation"
         ],
         "mutant_types": {
@@ -31756,23 +31805,6 @@
         ],
         "mutant_types": {
             "null": false,
-            "overexpression": false,
-            "multiple ": false,
-            "other": false,
-            "developmental": false
-        }
-    },
-    {
-        "systematic_name": "DBS0236011",
-        "strain_descriptor": "gefG-",
-        "associated_genes": [
-            "gefG"
-        ],
-        "phenotypes": [
-            "aberrant activation of GTPase activity"
-        ],
-        "mutant_types": {
-            "null": true,
             "overexpression": false,
             "multiple ": false,
             "other": false,
@@ -31840,6 +31872,25 @@
         }
     },
     {
+        "systematic_name": "DBS0351618",
+        "strain_descriptor": "gefK-/gacL-",
+        "associated_genes": [
+            "gacL",
+            "gefK"
+        ],
+        "phenotypes": [
+            "decreased response to Gram-negative bacterium",
+            "aberrant vegetative growth"
+        ],
+        "mutant_types": {
+            "null": false,
+            "overexpression": false,
+            "multiple ": false,
+            "other": false,
+            "developmental": false
+        }
+    },
+    {
         "systematic_name": "DBS0236871",
         "strain_descriptor": "gefL-",
         "associated_genes": [
@@ -31864,9 +31915,8 @@
             "gefM"
         ],
         "phenotypes": [
+            "increased cGMP-mediated signaling",
             "aberrant activation of adenylate cyclase activity",
-            "aberrant activation of GTPase activity",
-            "increased response to cGMP",
             "development arrests at mound stage",
             "decreased chemotaxis rate",
             "decreased lateral pseudopod suppression",
@@ -31948,7 +31998,7 @@
         ],
         "phenotypes": [
             "wild type",
-            "aberrant activation of GTPase activity"
+            "decreased Ras guanyl-nucleotide exchange factor activity"
         ],
         "mutant_types": {
             "null": true,
@@ -31982,8 +32032,8 @@
             "gemA"
         ],
         "phenotypes": [
-            "decreased growth rate",
-            "decreased intracellular ATP level"
+            "decreased ATP level",
+            "decreased growth rate"
         ],
         "mutant_types": {
             "null": true,
@@ -32001,9 +32051,9 @@
         ],
         "phenotypes": [
             "decreased culmination",
-            "aberrant signal transduction during aggregation",
             "decreased protein localization to cell cortex",
             "increased F-actin polymerization at the leading edge",
+            "aberrant G protein-coupled receptor signaling",
             "delayed aggregation",
             "decreased aggregate size",
             "decreased chemotaxis to cAMP",
@@ -32099,8 +32149,8 @@
         ],
         "phenotypes": [
             "aberrant stalk morphogenesis",
+            "decreased glycogen level",
             "decreased spore size",
-            "decreased intracellular glycogen level",
             "decreased fruiting body size"
         ],
         "mutant_types": {
@@ -32416,7 +32466,7 @@
         "phenotypes": [
             "aberrant aggregation",
             "increased stalk length",
-            "aberrant cAMP signaling during aggregation",
+            "aberrant response to cAMP",
             "decreased stalk width"
         ],
         "mutant_types": {
@@ -32525,8 +32575,8 @@
         "phenotypes": [
             "abolished activation of GTPase activity",
             "aberrant phagocytosis",
+            "decreased cGMP-mediated signaling",
             "decreased protein kinase activation",
-            "decreased response to cGMP",
             "abolished aggregation",
             "decreased cAMP-induced cAMP pulse",
             "abolished chemotaxis to cAMP"
@@ -32639,7 +32689,7 @@
         ],
         "phenotypes": [
             "abolished protein localization to plasma membrane",
-            "decreased response to cGMP",
+            "decreased cGMP-mediated signaling",
             "abolished aggregation"
         ],
         "mutant_types": {
@@ -32658,9 +32708,9 @@
         ],
         "phenotypes": [
             "aberrant aggregation",
+            "decreased cGMP-mediated signaling",
             "decreased activation of adenylate cyclase",
             "decreased chemotaxis rate",
-            "decreased response to cGMP",
             "decreased cAMP-induced cAMP pulse"
         ],
         "mutant_types": {
@@ -32679,8 +32729,8 @@
         ],
         "phenotypes": [
             "aberrant aggregation",
+            "decreased cGMP-mediated signaling",
             "decreased activation of adenylate cyclase",
-            "decreased response to cGMP",
             "decreased cAMP-induced cAMP pulse"
         ],
         "mutant_types": {
@@ -32733,9 +32783,9 @@
         ],
         "phenotypes": [
             "aberrant aggregation",
+            "decreased cGMP-mediated signaling",
             "decreased activation of adenylate cyclase",
             "decreased chemotaxis rate",
-            "decreased response to cGMP",
             "decreased cAMP-induced cAMP pulse"
         ],
         "mutant_types": {
@@ -32754,9 +32804,9 @@
         ],
         "phenotypes": [
             "aberrant aggregation",
+            "decreased cGMP-mediated signaling",
             "decreased activation of adenylate cyclase",
             "decreased chemotaxis rate",
-            "decreased response to cGMP",
             "decreased cAMP-induced cAMP pulse"
         ],
         "mutant_types": {
@@ -32791,9 +32841,9 @@
             "gpaB"
         ],
         "phenotypes": [
+            "decreased cGMP-mediated signaling",
             "decreased activation of adenylate cyclase",
             "decreased chemotaxis rate",
-            "decreased response to cGMP",
             "abolished aggregation",
             "decreased cAMP-induced cAMP pulse"
         ],
@@ -32992,12 +33042,12 @@
         ],
         "phenotypes": [
             "decreased gene expression",
-            "abolished SDF production",
             "aberrant macropinocytosis",
-            "decreased accumulation of cGMP",
+            "decreased spore cell differentiation",
             "decreased chemotaxis to folate",
             "decreased protein kinase activation",
             "abolished protein phosphorylation",
+            "decreased cGMP biosynthesis",
             "aberrant fruiting body morphology",
             "decreased sporulation"
         ],
@@ -33017,8 +33067,8 @@
             "gpaD"
         ],
         "phenotypes": [
-            "decreased accumulation of cGMP",
             "decreased chemotaxis to folate",
+            "decreased cGMP biosynthesis",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -33037,7 +33087,7 @@
             "gpaD"
         ],
         "phenotypes": [
-            "decreased accumulation of cGMP",
+            "decreased cGMP biosynthesis",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -33110,8 +33160,8 @@
             "gpaE"
         ],
         "phenotypes": [
-            "decreased accumulation of cGMP",
             "decreased chemotaxis to folate",
+            "decreased cGMP biosynthesis",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -33130,8 +33180,8 @@
             "gpaE"
         ],
         "phenotypes": [
-            "decreased accumulation of cGMP",
             "decreased chemotaxis to folate",
+            "decreased cGMP biosynthesis",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -33333,15 +33383,15 @@
         ],
         "phenotypes": [
             "wild type",
-            "aberrant gamma-aminobutyric acid signaling pathway",
-            "abolished SDF production"
+            "decreased spore cell differentiation",
+            "aberrant GABA signaling pathway"
         ],
         "mutant_types": {
             "null": true,
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": false
+            "developmental": true
         }
     },
     {
@@ -33433,14 +33483,14 @@
             "precocious aggregation",
             "increased actin filament polymerization",
             "aberrant adaptation of signaling pathway",
-            "decreased period cAMP wave formation",
             "decreased aggregate size",
             "increased number of aggregates",
             "decreased fruiting body size",
             "increased growth rate",
+            "decreased cAMP wave formation",
             "increased cell polarity",
             "aberrant protein localization to plasma membrane",
-            "increased accumulation of cGMP"
+            "increased cGMP biosynthesis"
         ],
         "mutant_types": {
             "null": true,
@@ -33503,12 +33553,12 @@
             "abolished chemotaxis to folate",
             "aberrant phagocytosis",
             "aberrant chemotaxis",
+            "decreased cGMP-mediated signaling",
             "decreased engulfment during phagocytosis",
             "aberrant sorocarp development",
             "decreased chemotaxis to folate",
             "decreased protein kinase activation",
             "abolished activation of adenylate cyclase",
-            "decreased response to cGMP",
             "decreased chemotaxis to cAMP",
             "abolished actin filament polymerization",
             "increased growth rate",
@@ -33904,7 +33954,7 @@
         ],
         "phenotypes": [
             "decreased gene expression",
-            "abolished SDF production",
+            "decreased spore cell differentiation",
             "delayed gene expression",
             "decreased sporulation",
             "delayed culmination"
@@ -34002,8 +34052,8 @@
             "grlE"
         ],
         "phenotypes": [
-            "abolished SDF production",
-            "aberrant gamma-aminobutyric acid signaling pathway",
+            "decreased spore cell differentiation",
+            "aberrant GABA signaling pathway",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -34234,7 +34284,7 @@
             "aberrant sorus morphology",
             "decreased gene expression",
             "abolished protein localization to plasma membrane",
-            "aberrant cAMP signaling during aggregation",
+            "aberrant extracellular cAMP signaling",
             "abolished protein phosphorylation",
             "decreased chemotaxis to folate",
             "decreased stalk length",
@@ -35008,7 +35058,7 @@
             "increased response to cAMP",
             "delayed aggregation",
             "aberrant sorocarp development",
-            "decreased intracellular cAMP level"
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": true,
@@ -35349,7 +35399,7 @@
             "aberrant slug development",
             "aberrant sorocarp development",
             "delayed development",
-            "decreased intracellular cAMP level",
+            "decreased cAMP level",
             "aberrant prestalk cell differentiation"
         ],
         "mutant_types": {
@@ -35427,9 +35477,9 @@
         ],
         "phenotypes": [
             "abolished sporulation",
-            "aberrant signal transduction during aggregation",
             "abolished growth",
             "development arrests at mound stage",
+            "aberrant extracellular cAMP signaling",
             "abolished cell polarity",
             "abolished streaming",
             "aberrant protein localization to nucleus",
@@ -35606,11 +35656,11 @@
             "ino1"
         ],
         "phenotypes": [
-            "decreased intracellular myo-inositol level",
             "increased number of tips in mound",
             "abolished growth",
             "decreased phagocytosis",
-            "increased intracellular 2,3-bisphosphoglycerate level"
+            "increased 2,3-bisphosphoglycerate level",
+            "decreased myo-inositol level"
         ],
         "mutant_types": {
             "null": true,
@@ -35629,11 +35679,11 @@
         "phenotypes": [
             "aberrant cellular metabolic process",
             "increased number of autophagosomes",
-            "decreased intracellular myo-inositol level",
             "decreased cell-substrate adhesion",
             "abolished growth",
             "aberrant phosphatidylinositol metabolism",
             "aberrant cytokinesis",
+            "decreased myo-inositol level",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -35695,16 +35745,16 @@
             "iplA"
         ],
         "phenotypes": [
-            "aberrant gamma-aminobutyric acid signaling pathway",
+            "abolished response to DIF-1",
             "abolished response to cAMP",
-            "abolished response to DIF"
+            "aberrant GABA signaling pathway"
         ],
         "mutant_types": {
             "null": true,
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -35866,8 +35916,8 @@
             "decreased gene expression",
             "delayed aggregation",
             "decreased growth rate",
-            "aberrant cAMP signaling during aggregation",
-            "decreased intracellular cAMP level"
+            "aberrant extracellular cAMP signaling",
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": false,
@@ -36344,10 +36394,10 @@
             "precocious culmination",
             "abolished activation of adenylate cyclase",
             "decreased aggregate size",
-            "decreased intracellular cAMP level",
             "precocious gene expression",
             "aberrant hypertonic response",
             "abolished streaming",
+            "decreased cAMP level",
             "decreased cell size"
         ],
         "mutant_types": {
@@ -36595,7 +36645,7 @@
         ],
         "phenotypes": [
             "aberrant aggregation",
-            "aberrant cAMP signaling during aggregation",
+            "aberrant extracellular cAMP signaling",
             "abolished streaming"
         ],
         "mutant_types": {
@@ -37735,7 +37785,7 @@
             "aberrant cellular metabolic process",
             "decreased protein level",
             "development arrests at mound stage",
-            "aberrant cAMP signaling during aggregation"
+            "aberrant extracellular cAMP signaling"
         ],
         "mutant_types": {
             "null": true,
@@ -38508,16 +38558,16 @@
             "decreased pinocytosis",
             "aberrant cellular homeostasis",
             "aberrant spore morphology",
+            "decreased glycogen level",
+            "increased ammonia level",
             "decreased thermotaxis",
             "increased autophagy",
             "decreased mitochondrial fission",
             "decreased growth rate",
             "decreased phagocytosis",
-            "increased intracellular glutamate level",
-            "decreased intracellular glycogen level",
-            "increased extracellular ammonia level",
             "increased slug migration",
             "decreased cell size",
+            "increased glutamate level",
             "decreased phototaxis"
         ],
         "mutant_types": {
@@ -39326,8 +39376,8 @@
         ],
         "phenotypes": [
             "decreased gene expression",
+            "decreased cGMP-mediated signaling",
             "decreased activation of adenylate cyclase",
-            "decreased response to cGMP",
             "abolished aggregation",
             "decreased cAMP-induced cAMP pulse"
         ],
@@ -39363,8 +39413,8 @@
             "mybC"
         ],
         "phenotypes": [
-            "decreased SDF production",
             "decreased gene expression",
+            "development arrests at slug stage",
             "abolished culmination"
         ],
         "mutant_types": {
@@ -40429,7 +40479,7 @@
             "ncsA"
         ],
         "phenotypes": [
-            "increased intracellular cAMP level",
+            "increased cAMP level",
             "precocious gene expression",
             "precocious development"
         ],
@@ -40448,7 +40498,7 @@
             "ncsA"
         ],
         "phenotypes": [
-            "increased intracellular cAMP level",
+            "increased cAMP level",
             "precocious gene expression",
             "precocious development"
         ],
@@ -40747,7 +40797,7 @@
             "increased actin filament polymerization",
             "delayed aggregation",
             "decreased cell motility",
-            "aberrant cAMP signaling during aggregation",
+            "aberrant extracellular cAMP signaling",
             "aberrant regulation of GTPase activity",
             "aberrant regulation of protein kinase activity",
             "aberrant protein localization to plasma membrane",
@@ -40791,7 +40841,7 @@
             "aberrant adaptation of signaling pathway",
             "increased actin filament polymerization",
             "aberrant chemotaxis to cAMP",
-            "aberrant cAMP signaling during aggregation",
+            "aberrant extracellular cAMP signaling",
             "aberrant regulation of GTPase activity",
             "aberrant regulation of protein kinase activity"
         ],
@@ -40810,9 +40860,9 @@
             "nhe1"
         ],
         "phenotypes": [
-            "decreased intracellular pH level",
             "decreased cell polarity",
             "abolished cell motility in response to calcium ion",
+            "decreased intracellular pH",
             "decreased actin filament polymerization",
             "decreased chemotaxis rate",
             "delayed development",
@@ -41132,8 +41182,8 @@
         ],
         "phenotypes": [
             "abolished sporulation",
-            "decreased superoxide production",
-            "aberrant sorocarp development"
+            "aberrant sorocarp development",
+            "decreased superoxide generation"
         ],
         "mutant_types": {
             "null": false,
@@ -41170,8 +41220,8 @@
         ],
         "phenotypes": [
             "abolished sporulation",
-            "decreased superoxide production",
-            "aberrant sorocarp development"
+            "aberrant sorocarp development",
+            "decreased superoxide generation"
         ],
         "mutant_types": {
             "null": true,
@@ -41345,24 +41395,6 @@
             "null": false,
             "overexpression": false,
             "multiple ": false,
-            "other": false,
-            "developmental": false
-        }
-    },
-    {
-        "systematic_name": "DBS0350196",
-        "strain_descriptor": "nsfA(A1854T, T1984A, C2131A, A2398T, T2574A)",
-        "associated_genes": [
-            "nsfA",
-            "pkaC"
-        ],
-        "phenotypes": [
-            "abolished SDF production"
-        ],
-        "mutant_types": {
-            "null": false,
-            "overexpression": true,
-            "multiple ": true,
             "other": false,
             "developmental": false
         }
@@ -42615,7 +42647,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -43468,9 +43500,9 @@
             "aberrant regulation of protein modification",
             "decreased growth rate",
             "abolished protein localization to plasma membrane",
+            "decreased cGMP-mediated signaling",
             "abolished positive chemotaxis",
             "abolished aggregation",
-            "decreased response to cGMP",
             "decreased cAMP-induced cAMP pulse"
         ],
         "mutant_types": {
@@ -43654,14 +43686,14 @@
             "increased response to cAMP",
             "wild type",
             "abolished activation of adenylate cyclase",
-            "decreased intracellular cAMP level"
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": false,
             "overexpression": false,
             "multiple ": true,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -43678,7 +43710,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -43838,7 +43870,7 @@
             "overexpression": false,
             "multiple ": true,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -43852,13 +43884,13 @@
             "decreased pinocytosis",
             "aberrant aggregation",
             "decreased exocytosis",
-            "increased intracellular cAMP level",
             "aberrant adaptation of adenylate cyclase",
-            "abolished SDF production",
             "abolished growth",
             "aberrant macropinocytosis",
             "abolished protein localization to plasma membrane",
             "delayed aggregation",
+            "decreased spore cell differentiation",
+            "increased cAMP level",
             "aberrant sorocarp development",
             "aberrant phagolysosome formation",
             "aberrant phagosome maturation",
@@ -44160,9 +44192,9 @@
             "decreased actin filament polymerization",
             "decreased growth rate",
             "aberrant chemotaxis to cAMP",
+            "decreased cGMP-mediated signaling",
             "decreased protein kinase activation",
             "increased bleb assembly",
-            "decreased response to cGMP",
             "decreased cAMP-induced cAMP pulse"
         ],
         "mutant_types": {
@@ -44170,7 +44202,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -44522,7 +44554,7 @@
             "aberrant response to valproic acid",
             "decreased cell motility",
             "increased lateral pseudopod formation",
-            "aberrant cAMP signaling during aggregation",
+            "aberrant extracellular cAMP signaling",
             "decreased fruiting body size",
             "aberrant cell morphology",
             "abolished streaming"
@@ -44838,8 +44870,8 @@
         ],
         "phenotypes": [
             "decreased protein phosphorylation",
-            "abolished SDF production",
-            "development arrests at mound stage"
+            "development arrests at mound stage",
+            "abolished spore cell differentiation"
         ],
         "mutant_types": {
             "null": true,
@@ -45547,9 +45579,9 @@
         ],
         "phenotypes": [
             "aberrant cellular homeostasis",
+            "decreased ATP level",
             "decreased growth rate",
             "aberrant spore germination",
-            "decreased intracellular ATP level",
             "aberrant macromolecule biosynthesis",
             "decreased fruiting body size",
             "increased growth rate"
@@ -45731,13 +45763,13 @@
             "psenB"
         ],
         "phenotypes": [
-            "increased intracellular cAMP level",
             "abolished prespore cell differentiation",
             "development arrests at mound stage",
             "obsolete increased cytosolic Ca2+ response",
             "increased protein modification",
             "decreased phagocytosis",
             "aberrant gene expression",
+            "increased cAMP level",
             "aberrant sorocarp development",
             "decreased macropinocytosis",
             "aberrant phagosome maturation",
@@ -47850,11 +47882,11 @@
         ],
         "phenotypes": [
             "abolished growth",
-            "abolished response to cGMP",
             "abolished activation of GTPase activity",
             "decreased growth rate",
             "decreased activation of adenylate cyclase",
             "abolished protein kinase activation",
+            "abolished cGMP-mediated signaling",
             "abolished chemotaxis to cAMP"
         ],
         "mutant_types": {
@@ -47862,7 +47894,7 @@
             "overexpression": true,
             "multiple ": true,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -48044,8 +48076,8 @@
             "decreased gene expression",
             "delayed aggregation",
             "aberrant taxis",
+            "decreased cGMP-mediated signaling",
             "decreased protein kinase activation",
-            "decreased response to cGMP",
             "delayed gene expression"
         ],
         "mutant_types": {
@@ -48132,8 +48164,8 @@
             "abolished activation of GTPase activity",
             "aberrant chemotaxis to folate",
             "decreased growth rate",
+            "decreased cGMP-mediated signaling",
             "decreased protein kinase activation",
-            "decreased response to cGMP",
             "delayed gene expression"
         ],
         "mutant_types": {
@@ -48378,8 +48410,8 @@
             "aberrant vegetative growth",
             "increased sorting to prestalk region",
             "precocious development",
-            "increased prestalk cell differentiation in response to DIF-1",
-            "decreased cell size"
+            "decreased cell size",
+            "increased prestalk cell differentiation"
         ],
         "mutant_types": {
             "null": true,
@@ -48638,15 +48670,15 @@
             "rdeA"
         ],
         "phenotypes": [
-            "increased intracellular cAMP level",
-            "aberrant chemotaxis to cAMP in response to DIF-2"
+            "aberrant chemotaxis to cAMP",
+            "increased cAMP level"
         ],
         "mutant_types": {
             "null": false,
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -48656,8 +48688,8 @@
             "rdeA"
         ],
         "phenotypes": [
-            "increased intracellular cAMP level",
-            "aberrant chemotaxis to cAMP in response to DIF-2",
+            "aberrant chemotaxis to cAMP",
+            "increased cAMP level",
             "decreased macropinocytosis"
         ],
         "mutant_types": {
@@ -48665,7 +48697,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -48714,7 +48746,7 @@
             "rdeA"
         ],
         "phenotypes": [
-            "increased intracellular cAMP level",
+            "increased cAMP level",
             "decreased sporulation"
         ],
         "mutant_types": {
@@ -48845,8 +48877,8 @@
         ],
         "phenotypes": [
             "increased resistance to cisplatin",
-            "increased intracellular cAMP level",
             "aberrant chemotaxis to cAMP",
+            "increased cAMP level",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -48919,7 +48951,7 @@
             "regA"
         ],
         "phenotypes": [
-            "increased intracellular cAMP level",
+            "increased cAMP level",
             "decreased macropinocytosis",
             "aberrant cAMP wave formation"
         ],
@@ -48928,7 +48960,7 @@
             "overexpression": false,
             "multiple ": false,
             "other": false,
-            "developmental": true
+            "developmental": false
         }
     },
     {
@@ -51217,7 +51249,7 @@
             "decreased prespore gene expression",
             "decreased prestalk gene expression",
             "decreased chemotaxis to cAMP",
-            "decreased intracellular cAMP level"
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": true,
@@ -51388,16 +51420,16 @@
             "decreased cell-cell adhesion",
             "aberrant cellular metabolic process",
             "decreased response to Gram-negative bacterium",
-            "decreased GTP-gamma-S-stimulated guanylyl cyclase activity",
             "increased cAMP-induced cAMP pulse",
             "increased resistance to cisplatin",
             "decreased protein level",
+            "decreased guanylyl cyclase activity",
             "increased myosin II assembly",
             "increased actin filament polymerization",
+            "decreased cGMP-mediated signaling",
             "increased protein level",
             "decreased secretion of lysosomal enzymes",
             "decreased aggregate size",
-            "decreased response to cGMP",
             "increased cell motility",
             "decreased fruiting body size"
         ],
@@ -51751,8 +51783,8 @@
         "phenotypes": [
             "abolished protein tyrosine phosphorylation",
             "abolished protein localization to nucleus",
-            "decreased gene expression",
-            "abolished response to DIF"
+            "abolished response to DIF-1",
+            "decreased gene expression"
         ],
         "mutant_types": {
             "null": true,
@@ -51831,8 +51863,8 @@
             "spr"
         ],
         "phenotypes": [
-            "decreased intracellular pteridine level",
             "decreased spore germination",
+            "decreased pteridine level",
             "decreased cytochrome C oxidase activity",
             "decreased growth rate"
         ],
@@ -51929,7 +51961,7 @@
             "increased pinocytosis",
             "aberrant cytokinesis",
             "increased lateral pseudopod formation",
-            "aberrant cAMP signaling during aggregation",
+            "aberrant extracellular cAMP signaling",
             "abolished streaming",
             "precocious gene expression"
         ],
@@ -51969,7 +52001,7 @@
         ],
         "phenotypes": [
             "increased fruiting body size",
-            "decreased response to cGMP",
+            "decreased cGMP-mediated signaling",
             "decreased cAMP-induced cAMP pulse"
         ],
         "mutant_types": {
@@ -52014,11 +52046,11 @@
             "wild type",
             "increased gene expression",
             "decreased gene expression",
-            "abolished MPBD production",
-            "abolished SDF-1 production",
-            "decreased intracellular cAMP level",
+            "decreased spore cell differentiation",
             "decreased chemotaxis to cAMP",
             "aberrant sorus color",
+            "abolished MPBD level",
+            "decreased cAMP level",
             "aberrant sporulation"
         ],
         "mutant_types": {
@@ -52093,7 +52125,7 @@
             "stlB"
         ],
         "phenotypes": [
-            "abolished DIF production",
+            "abolished DIF-1 biosynthesis",
             "abolished prestalk B cell differentiation",
             "decreased prestalk 0 cell differentiation",
             "aberrant gene expression",
@@ -52227,7 +52259,7 @@
             "tagA"
         ],
         "phenotypes": [
-            "abolished SDF production",
+            "decreased spore cell differentiation",
             "aberrant fruiting body morphology"
         ],
         "mutant_types": {
@@ -52247,7 +52279,7 @@
         "phenotypes": [
             "increased number of tips in mound",
             "decreased spore germination",
-            "abolished SDF production",
+            "decreased spore cell differentiation",
             "increased prestalk A cell differentiation",
             "delayed culmination",
             "decreased sporulation"
@@ -52285,8 +52317,8 @@
         ],
         "phenotypes": [
             "abolished sporulation",
+            "abolished DIF-1 biosynthesis",
             "development arrests at mound stage",
-            "abolished DIF production",
             "aberrant prestalk A cell differentiation"
         ],
         "mutant_types": {
@@ -52305,15 +52337,15 @@
             "tagB"
         ],
         "phenotypes": [
-            "abolished SDF-1 production",
-            "aberrant response to SDF-1"
+            "aberrant response to biotic stimulus",
+            "abolished spore cell differentiation"
         ],
         "mutant_types": {
             "null": true,
             "overexpression": true,
             "multiple ": true,
             "other": false,
-            "developmental": false
+            "developmental": true
         }
     },
     {
@@ -52379,7 +52411,7 @@
         ],
         "phenotypes": [
             "development arrests at mound stage",
-            "abolished SDF-2 production"
+            "abolished spore cell differentiation"
         ],
         "mutant_types": {
             "null": true,
@@ -52629,7 +52661,7 @@
             "decreased slug migration",
             "aberrant cellular process",
             "decreased cell motility",
-            "aberrant cAMP signaling during aggregation",
+            "aberrant extracellular cAMP signaling",
             "development arrests at tipped mound stage",
             "increased protein level",
             "aberrant signal transduction"
@@ -52727,8 +52759,8 @@
             "aberrant chemotaxis to cAMP",
             "aberrant sorocarp development",
             "delayed development",
-            "decreased intracellular cAMP level",
-            "aberrant cAMP wave formation"
+            "aberrant cAMP wave formation",
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": true,
@@ -53385,7 +53417,8 @@
             "decreased defense response to Gram-negative bacterium",
             "aberrant defense response to bacterium",
             "decreased growth rate",
-            "aberrant phagocytosis"
+            "aberrant phagocytosis",
+            "aberrant vegetative growth"
         ],
         "mutant_types": {
             "null": true,
@@ -53907,10 +53940,10 @@
             "tsuA"
         ],
         "phenotypes": [
-            "increased period of cAMP wave formation",
             "aberrant chemotaxis to folate",
             "aberrant chemotaxis to cAMP",
             "delayed aggregation",
+            "increased cAMP wave formation",
             "decreased aggregate size",
             "abolished cell polarity",
             "decreased fruiting body size",
@@ -54136,8 +54169,8 @@
         ],
         "phenotypes": [
             "abolished sporulation",
+            "decreased glycogen level",
             "aberrant cell differentiation",
-            "decreased intracellular glycogen level",
             "decreased fruiting body size",
             "delayed culmination"
         ],
@@ -55424,9 +55457,9 @@
             "aberrant gene expression",
             "decreased protein kinase activation",
             "abolished aggregation",
-            "decreased intracellular cAMP level",
             "aberrant response to oxidative stress",
-            "aberrant cellular response to stress"
+            "aberrant cellular response to stress",
+            "decreased cAMP level"
         ],
         "mutant_types": {
             "null": true,
@@ -55444,9 +55477,9 @@
         ],
         "phenotypes": [
             "decreased growth rate",
-            "decreased accumulation of cGMP",
             "abolished aggregation",
-            "abolished actin filament polymerization"
+            "abolished actin filament polymerization",
+            "decreased cGMP biosynthesis"
         ],
         "mutant_types": {
             "null": true,
