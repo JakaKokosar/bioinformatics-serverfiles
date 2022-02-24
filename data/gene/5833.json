@@ -15,7 +15,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20210327",
+    "modification_date": "20220129",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -103,7 +103,7 @@
     "other_designations": [
       "erythrocyte membrane protein 1, PfEMP1"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211211",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -1487,7 +1487,7 @@
     "other_designations": [
       "single-strand telomeric DNA-binding protein GBP2, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211211",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -1839,7 +1839,7 @@
     "other_designations": [
       "tubulin beta chain"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -2763,7 +2763,7 @@
     "other_designations": [
       "autophagy-related protein 18"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211127",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -3027,7 +3027,7 @@
     "other_designations": [
       "merozoite surface protein MSA180"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20220101",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -3360,7 +3360,7 @@
     "other_designations": [
       "heat shock protein 60"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -4201,7 +4201,7 @@
     "other_designations": [
       "autophagy-related protein 8"
     ],
-    "modification_date": "20210129",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -4773,7 +4773,7 @@
     "other_designations": [
       "phospholipid scramblase, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210904",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -4861,7 +4861,7 @@
     "other_designations": [
       "dynein heavy chain, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210708",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -6141,7 +6141,7 @@
     "other_designations": [
       "adenosine deaminase"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -6737,7 +6737,7 @@
     "other_designations": [
       "DER1-like protein, putative"
     ],
-    "modification_date": "20210129",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -7485,7 +7485,7 @@
     "other_designations": [
       "duffy binding-like merozoite surface protein 2"
     ],
-    "modification_date": "20201003",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -9273,7 +9273,7 @@
     "other_designations": [
       "chromatin remodeling protein"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -9671,7 +9671,7 @@
     "other_designations": [
       "RuvB-like helicase 2"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -9979,7 +9979,7 @@
     "other_designations": [
       "DNA repair protein RAD51"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -11521,7 +11521,7 @@
     "other_designations": [
       "cysteine proteinase falcipain 2a"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20220212",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -11943,7 +11943,7 @@
     "other_designations": [
       "DNA mismatch repair protein MLH"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -12031,7 +12031,7 @@
     "other_designations": [
       "heat shock protein 90, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -12779,7 +12779,7 @@
     "other_designations": [
       "exported protein 1"
     ],
-    "modification_date": "20210129",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -13065,7 +13065,7 @@
     "other_designations": [
       "dynein heavy chain, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210708",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -13615,7 +13615,7 @@
     "other_designations": [
       "mitochondrial import inner membrane translocase subunit TIM44, putative"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -13725,7 +13725,7 @@
     "other_designations": [
       "threonine--tRNA ligase"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -14497,7 +14497,7 @@
     "other_designations": [
       "phosphatidylinositol-4-phosphate 5-kinase, putative"
     ],
-    "modification_date": "20201010",
+    "modification_date": "20210504",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -14651,7 +14651,7 @@
     "other_designations": [
       "26S protease regulatory subunit 6A, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -14717,7 +14717,7 @@
     "other_designations": [
       "structural maintenance of chromosomes protein 1, putative"
     ],
-    "modification_date": "20201117",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -15289,7 +15289,7 @@
     "other_designations": [
       "apical membrane antigen 1"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210807",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -15929,7 +15929,7 @@
     "other_designations": [
       "casein kinase 1"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20211113",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -16438,7 +16438,7 @@
     "other_designations": [
       "AP2 domain transcription factor, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211204",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -16680,7 +16680,7 @@
     "other_designations": [
       "myosin K, putative"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20210708",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -19388,7 +19388,7 @@
     "other_designations": [
       "ubiquitin-conjugating enzyme E2"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -20400,7 +20400,7 @@
     "other_designations": [
       "mitochondrial import inner membrane translocase subunit TIM10, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -20908,7 +20908,7 @@
     "other_designations": [
       "kinesin-7, putative"
     ],
-    "modification_date": "20210129",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -20974,7 +20974,7 @@
     "other_designations": [
       "DNA helicase MCM8, putative"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -21062,7 +21062,7 @@
     "other_designations": [
       "DNA replication licensing factor MCM5, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -21084,7 +21084,7 @@
     "other_designations": [
       "polyubiquitin"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -21106,7 +21106,7 @@
     "other_designations": [
       "non-SERCA-type Ca2+ -transporting P-ATPase"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -21414,7 +21414,7 @@
     "other_designations": [
       "dynein light chain 1, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211030",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -21458,7 +21458,7 @@
     "other_designations": [
       "proline--tRNA ligase"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -22688,7 +22688,7 @@
     "other_designations": [
       "ribulose-phosphate 3-epimerase, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20211219",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -22864,7 +22864,7 @@
     "other_designations": [
       "heterochromatin protein 1"
     ],
-    "modification_date": "20210129",
+    "modification_date": "20210905",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -23634,7 +23634,7 @@
     "other_designations": [
       "histone chaperone ASF1, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211028",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -24647,7 +24647,7 @@
     "other_designations": [
       "multidrug resistance-associated protein 2"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -26232,7 +26232,7 @@
     "other_designations": [
       "protein-S-isoprenylcysteine O-methyltransferase, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20211028",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -26276,7 +26276,7 @@
     "other_designations": [
       "SUMO-activating enzyme subunit 2"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -26826,7 +26826,7 @@
     "other_designations": [
       "DNA gyrase subunit B"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -27484,7 +27484,7 @@
     "other_designations": [
       "mitochondrial import inner membrane translocase subunit TIM13, putative"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -27924,7 +27924,7 @@
     "other_designations": [
       "kinesin-13, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210708",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -28718,7 +28718,7 @@
     "other_designations": [
       "26S protease regulatory subunit 8, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -29246,7 +29246,7 @@
     "other_designations": [
       "thymidylate kinase"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210807",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -32607,7 +32607,7 @@
     "other_designations": [
       "mini-chromosome maintenance complex-binding protein, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211016",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -32895,7 +32895,7 @@
     "other_designations": [
       "FeS assembly ATPase SufC"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -33839,7 +33839,7 @@
     "other_designations": [
       "ubiquitin fusion degradation protein 1, putative"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -34323,7 +34323,7 @@
     "other_designations": [
       "surface protein P113"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210710",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -34653,7 +34653,7 @@
     "other_designations": [
       "ERAD-associated E3 ubiquitin-protein ligase HRD1"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -35623,7 +35623,7 @@
     "other_designations": [
       "proliferation-associated protein 2g4, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210504",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -37409,7 +37409,7 @@
     "other_designations": [
       "cGMP-dependent protein kinase"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210703",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -37695,7 +37695,7 @@
     "other_designations": [
       "HSP40, subfamily A"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20211113",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -38577,7 +38577,7 @@
     "other_designations": [
       "tRNA import protein tRIP"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211218",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -38885,7 +38885,7 @@
     "other_designations": [
       "dephospho-CoA kinase, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20211122",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -38929,7 +38929,7 @@
     "other_designations": [
       "heat shock protein 90, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -39721,7 +39721,7 @@
     "other_designations": [
       "multidrug resistance protein 2"
     ],
-    "modification_date": "20201117",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -39831,7 +39831,7 @@
     "other_designations": [
       "ubiquitin-protein ligase, putative"
     ],
-    "modification_date": "20210130",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -40073,7 +40073,7 @@
     "other_designations": [
       "exosome complex exonuclease RRP6"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210417",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -40425,7 +40425,7 @@
     "other_designations": [
       "transcriptional regulatory protein sir2b"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20211204",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -40623,7 +40623,7 @@
     "other_designations": [
       "DER1-like protein"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -41261,7 +41261,7 @@
     "other_designations": [
       "hemolysin III"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20211219",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -41701,7 +41701,7 @@
     "other_designations": [
       "vacuolar protein sorting-associated protein 4"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -44014,7 +44014,7 @@
     "other_designations": [
       "eukaryotic initiation factor 4A"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -44388,7 +44388,7 @@
     "other_designations": [
       "cGMP-specific 3',5'-cyclic phosphodiesterase delta"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20210904",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -45902,7 +45902,7 @@
     "other_designations": [
       "surface-associated interspersed protein 14.1 (SURFIN 14.1)"
     ],
-    "modification_date": "20210327",
+    "modification_date": "20210925",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -46634,7 +46634,7 @@
     "other_designations": [
       "AAA family ATPase, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -49962,7 +49962,7 @@
     "other_designations": [
       "rifin"
     ],
-    "modification_date": "20210327",
+    "modification_date": "20210911",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -50026,7 +50026,7 @@
     "other_designations": [
       "DNA helicase MCM9, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -50689,7 +50689,7 @@
     "other_designations": [
       "26S protease regulatory subunit 6B, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -52511,7 +52511,7 @@
     "other_designations": [
       "merozoite surface protein 2"
     ],
-    "modification_date": "20201031",
+    "modification_date": "20220115",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -52887,7 +52887,7 @@
     "other_designations": [
       "acyl carrier protein"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211127",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -52997,7 +52997,7 @@
     "other_designations": [
       "6-cysteine protein P230"
     ],
-    "modification_date": "20201010",
+    "modification_date": "20210619",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -53019,7 +53019,7 @@
     "other_designations": [
       "patatin-like phospholipase, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210413",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -54385,7 +54385,7 @@
     "other_designations": [
       "origin recognition complex subunit 5"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -54739,7 +54739,7 @@
     "other_designations": [
       "calcium-dependent protein kinase 1"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -56155,7 +56155,7 @@
     "other_designations": [
       "topoisomerase I"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -56265,7 +56265,7 @@
     "other_designations": [
       "phosphatidylinositol 4-kinase"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -57013,7 +57013,7 @@
     "other_designations": [
       "nuclear protein localization protein 4, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -58041,7 +58041,7 @@
     "other_designations": [
       "cation transporting P-ATPase"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210504",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -59207,7 +59207,7 @@
     "other_designations": [
       "cation-transporting ATPase 1"
     ],
-    "modification_date": "20201117",
+    "modification_date": "20210504",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -59339,7 +59339,7 @@
     "other_designations": [
       "ubiquitin carboxyl-terminal hydrolase 2, putative"
     ],
-    "modification_date": "20201003",
+    "modification_date": "20210504",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -59581,7 +59581,7 @@
     "other_designations": [
       "apicortin, putative"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20210828",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -60703,7 +60703,7 @@
     "other_designations": [
       "multidrug resistance protein 1"
     ],
-    "modification_date": "20201121",
+    "modification_date": "20211225",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -61629,7 +61629,7 @@
     "other_designations": [
       "ubiquitin carboxyl-terminal hydrolase 14"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210504",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -63161,7 +63161,7 @@
     "other_designations": [
       "zinc-carboxypeptidase, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20211225",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -63669,7 +63669,7 @@
     "other_designations": [
       "calcium-transporting ATPase"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -63801,7 +63801,7 @@
     "other_designations": [
       "2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -64263,7 +64263,7 @@
     "other_designations": [
       "cold-shock protein, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210612",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -64439,7 +64439,7 @@
     "other_designations": [
       "phosphatidylinositol-4-phosphate 5-kinase"
     ],
-    "modification_date": "20201122",
+    "modification_date": "20210504",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -64725,7 +64725,7 @@
     "other_designations": [
       "multidrug resistance-associated protein 1"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -68512,7 +68512,7 @@
     "other_designations": [
       "ubiquitin fusion degradation protein 1"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -70474,7 +70474,7 @@
     "other_designations": [
       "histone deacetylase 1"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -71400,7 +71400,7 @@
     "other_designations": [
       "merozoite surface protein 1"
     ],
-    "modification_date": "20210130",
+    "modification_date": "20220115",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -72678,7 +72678,7 @@
     "other_designations": [
       "virulence-associated protein 1"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210504",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -73466,7 +73466,7 @@
     "other_designations": [
       "histone-lysine N-methyltransferase SET2"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211002",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -74039,7 +74039,7 @@
     "other_designations": [
       "myosin F, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210708",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -74703,7 +74703,7 @@
     "other_designations": [
       "reticulocyte binding protein 2 homologue b"
     ],
-    "modification_date": "20201121",
+    "modification_date": "20211216",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -75869,7 +75869,7 @@
     "other_designations": [
       "ubiquitin-conjugating enzyme E2"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -80270,7 +80270,7 @@
     "other_designations": [
       "sodium/hydrogen exchanger"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -80446,7 +80446,7 @@
     "other_designations": [
       "mitogen-activated protein kinase phosphatase 1, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -81348,7 +81348,7 @@
     "other_designations": [
       "2-oxoisovalerate dehydrogenase subunit alpha, mitochondrial, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210504",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -82931,7 +82931,7 @@
     "other_designations": [
       "transcriptional regulatory protein sir2a"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20211204",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -83591,7 +83591,7 @@
     "other_designations": [
       "ubiquitin-activating enzyme"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -83987,7 +83987,7 @@
     "other_designations": [
       "thrombospondin-related anonymous protein"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20211122",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -84163,7 +84163,7 @@
     "other_designations": [
       "calcium-dependent protein kinase 5"
     ],
-    "modification_date": "20201024",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -84647,7 +84647,7 @@
     "other_designations": [
       "myosin A"
     ],
-    "modification_date": "20210220",
+    "modification_date": "20210708",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -84691,7 +84691,7 @@
     "other_designations": [
       "AP2 domain transcription factor, putative"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20210918",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -84757,7 +84757,7 @@
     "other_designations": [
       "kelch protein K13"
     ],
-    "modification_date": "20210320",
+    "modification_date": "20211030",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -85551,7 +85551,7 @@
     "other_designations": [
       "membrane-associated histidine rich protein 2, (MARHP2)"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210731",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -85859,7 +85859,7 @@
     "other_designations": [
       "DNA replication licensing factor MCM6"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -86607,7 +86607,7 @@
     "other_designations": [
       "RuvB-like helicase 3"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -86893,7 +86893,7 @@
     "other_designations": [
       "ubiquitin-activating enzyme"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -87201,7 +87201,7 @@
     "other_designations": [
       "mitochondrial import inner membrane translocase subunit TIM9, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -87683,7 +87683,7 @@
     "other_designations": [
       "ABC transporter B family member 4, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -87771,7 +87771,7 @@
     "other_designations": [
       "N-ethylmaleimide-sensitive fusion protein"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -88123,7 +88123,7 @@
     "other_designations": [
       "circumsporozoite (CS) protein"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20220219",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -88475,7 +88475,7 @@
     "other_designations": [
       "activator of Hsp90 ATPase"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211204",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -89862,7 +89862,7 @@
     "other_designations": [
       "ubiquitin-protein ligase, putative"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -90016,7 +90016,7 @@
     "other_designations": [
       "HSP20-like chaperone, putative"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20211125",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -90062,7 +90062,7 @@
     "other_designations": [
       "DER1-like protein"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -90678,7 +90678,7 @@
     "other_designations": [
       "kinesin-5"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211218",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -90986,7 +90986,7 @@
     "other_designations": [
       "P-type ATPase, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210504",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -91074,7 +91074,7 @@
     "other_designations": [
       "kinesin-8, putative"
     ],
-    "modification_date": "20210327",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -92522,7 +92522,7 @@
     "other_designations": [
       "E3 ubiquitin-protein ligase"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -92940,7 +92940,7 @@
     "other_designations": [
       "lysophospholipase, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211127",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -93488,7 +93488,7 @@
     "other_designations": [
       "erythrocyte binding antigen-175"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20210814",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -94688,7 +94688,7 @@
     "other_designations": [
       "DNA replication licensing factor MCM7"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -94820,7 +94820,7 @@
     "other_designations": [
       "heat shock protein 90"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -95436,7 +95436,7 @@
     "other_designations": [
       "AAA family ATPase, CDC48 subfamily"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -96206,7 +96206,7 @@
     "other_designations": [
       "conserved Plasmodium membrane protein, unknown function"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20211225",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -97680,7 +97680,7 @@
     "other_designations": [
       "chloroquine resistance transporter"
     ],
-    "modification_date": "20210327",
+    "modification_date": "20220219",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -98998,7 +98998,7 @@
     "other_designations": [
       "chaperone protein ClpB1"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -99086,7 +99086,7 @@
     "other_designations": [
       "ubiquitin"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -99812,7 +99812,7 @@
     "other_designations": [
       "RuvB-like helicase 1"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -101660,7 +101660,7 @@
     "other_designations": [
       "dynein light chain 1"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210708",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -102826,7 +102826,7 @@
     "other_designations": [
       "AAA family ATPase, putative"
     ],
-    "modification_date": "20200926",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -104144,7 +104144,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20210213",
+    "modification_date": "20211030",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -104624,7 +104624,7 @@
     "other_designations": [
       "acetyl-CoA synthetase, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20211218",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -105328,7 +105328,7 @@
     "other_designations": [
       "glucosamine 6-phosphate N-acetyltransferase"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210724",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -106314,7 +106314,7 @@
     "other_designations": [
       "6-cysteine protein P12"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210619",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -108229,7 +108229,7 @@
     "other_designations": [
       "ferredoxin--NADP reductase"
     ],
-    "modification_date": "20210213",
+    "modification_date": "20211127",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -109987,7 +109987,7 @@
     "other_designations": [
       "cell division cycle protein 48 homologue, putative"
     ],
-    "modification_date": "20200926",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -110471,7 +110471,7 @@
     "other_designations": [
       "mitochondrial chaperone BCS1, putative"
     ],
-    "modification_date": "20210212",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -110493,7 +110493,7 @@
     "other_designations": [
       "dihydroorotate dehydrogenase"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -115393,7 +115393,7 @@
     "other_designations": [
       "bifunctional dihydrofolate reductase-thymidylate synthase"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210822",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -117175,7 +117175,7 @@
     "other_designations": [
       "histidine-rich protein II"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20220205",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -119171,7 +119171,7 @@
     "other_designations": [
       "histidine-rich protein III"
     ],
-    "modification_date": "20210123",
+    "modification_date": "20220205",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -120259,7 +120259,7 @@
     "other_designations": [
       "conserved Plasmodium protein, unknown function"
     ],
-    "modification_date": "20200911",
+    "modification_date": "20210622",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -121783,7 +121783,7 @@
     "other_designations": [
       "VAR2CSA uORF"
     ],
-    "modification_date": "20210109",
+    "modification_date": "20220129",
     "homology_group_id": null,
     "homologs": {}
   },

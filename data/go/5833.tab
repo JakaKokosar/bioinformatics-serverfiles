@@ -71,7 +71,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810242	GO:0000226	ISS	-	microtubule cytoskeleton organization	12368867	Process
 36329	810242	GO:0005200	ISS	-	structural constituent of cytoskeleton	12368867	Function
 36329	810242	GO:0005874	ISS	-	microtubule	12368867	Component
-36329	810242	GO:0042493	IDA	-	response to drug	16406111	Process
 36329	810243	GO:0003723	ISS	-	RNA binding	12368867	Function
 36329	810243	GO:0005730	IDA	-	nucleolus	20696894	Component
 36329	810243	GO:0006364	ISS	-	rRNA processing	12368867	Process
@@ -141,7 +140,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810311	GO:0006457	ISS	-	protein folding	12368867	Process
 36329	810311	GO:0006626	ISS	-	protein targeting to mitochondrion	12368867	Process
 36329	810311	GO:0006986	ISS	-	response to unfolded protein	12368867	Process
-36329	810311	GO:0016887	ISS	-	ATPase activity	12368867	Function
+36329	810311	GO:0016887	ISS	-	ATP hydrolysis activity	12368867	Function
 36329	810312	GO:0004748	ISS	-	ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor	12368867	Function
 36329	810312	GO:0006260	ISS	-	DNA replication	12368867	Process
 36329	810312	GO:0009186	ISS	-	deoxyribonucleoside diphosphate metabolic process	12368867	Process
@@ -184,7 +183,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810351	GO:0016020	IDA	-	membrane	25426852	Component
 36329	810351	GO:0020011	IDA	-	apicoplast	22900071	Component
 36329	810351	GO:0031410	IDA	-	cytoplasmic vesicle	25426852	Component
-36329	810351	GO:0042493	IDA	-	response to drug	24786226	Process
 36329	810354	GO:0003777	ISS	-	microtubule motor activity	12368867	Function
 36329	810354	GO:0005868	ISS	-	cytoplasmic dynein complex	12368867	Component
 36329	810354	GO:0007018	ISS	-	microtubule-based movement	12368867	Process
@@ -225,7 +223,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810378	GO:0005515	IPI	-	protein binding	25204654	Function
 36329	810378	GO:0019288	NAS	-	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	-	Process
 36329	810378	GO:0020011	IDA	-	apicoplast	25204654	Component
-36329	810381	GO:0003774	ISS	-	motor activity	12368867	Function
+36329	810381	GO:0003774	ISS	-	cytoskeletal motor activity	12368867	Function
 36329	810381	GO:0003777	ISS	-	microtubule motor activity	12368867	Function
 36329	810381	GO:0007017	ISS	-	microtubule-based process	12368867	Process
 36329	810382	GO:0004590	IDA	-	orotidine-5'-phosphate decarboxylase activity	15683248	Function
@@ -265,7 +263,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810438	GO:0046789	IPI	-	host cell surface receptor binding	23166499	Function
 36329	810440	GO:0070258	ISS	-	inner membrane pellicle complex	-	Component
 36329	810446	GO:0004000	IDA	-	adenosine deaminase activity	15576366	Function
-36329	810446	GO:0042493	IDA	-	response to drug	22446744	Process
 36329	810447	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	810450	GO:0003682	ISS	-	chromatin binding	12368867	Function
 36329	810450	GO:0003700	ISS	-	DNA-binding transcription factor activity	12368867	Function
@@ -293,7 +290,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810474	GO:0005783	ISS	-	endoplasmic reticulum	19502583	Component
 36329	810474	GO:0010564	ISS	-	regulation of cell cycle process	19502583	Process
 36329	810474	GO:0016021	ISS	-	integral component of membrane	19502583	Component
-36329	810474	GO:0016887	ISS	-	ATPase activity	19502583	Function
+36329	810474	GO:0016887	ISS	-	ATP hydrolysis activity	19502583	Function
 36329	810474	GO:0030433	ISS	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	810478	GO:0005739	IDA	-	mitochondrion	16507167	Component
 36329	810479	GO:0004014	IDA	-	adenosylmethionine decarboxylase activity	10713131	Function
@@ -346,7 +343,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810509	GO:0019898	IDA	-	extrinsic component of membrane	15664649	Component
 36329	810512	GO:0005515	IPI	-	protein binding	25074930	Function
 36329	810512	GO:0009986	IDA	-	cell surface	22843685	Component
-36329	810512	GO:0042493	IMP	-	response to drug	23587962	Process
 36329	810512	GO:0046812	IDA	-	host cell surface binding	22843685	Function
 36329	810516	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	810519	GO:0003887	ISS	-	DNA-directed DNA polymerase activity	12368867	Function
@@ -480,7 +476,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810605	GO:0005524	ISS	-	ATP binding	12368867	Function
 36329	810605	GO:0006338	ISS	-	chromatin remodeling	12368867	Process
 36329	810605	GO:0006355	ISS	-	regulation of transcription, DNA-templated	12368867	Process
-36329	810605	GO:0008094	ISS	-	DNA-dependent ATPase activity	12368867	Function
+36329	810605	GO:0008094	ISS	-	ATP-dependent activity, acting on DNA	12368867	Function
 36329	810607	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	810611	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	810613	GO:0000786	ISS	-	nucleosome	12368867	Component
@@ -503,7 +499,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810623	GO:0005737	IDA	-	cytoplasm	24161468	Component
 36329	810623	GO:0006281	ISS	-	DNA repair	12368867	Process
 36329	810623	GO:0006310	ISS	-	DNA recombination	12368867	Process
-36329	810623	GO:0016887	IDA	-	ATPase activity	24161468	Function
+36329	810623	GO:0016887	IDA	-	ATP hydrolysis activity	24161468	Function
 36329	810623	GO:0043139	IDA	-	5'-3' DNA helicase activity	24161468	Function
 36329	810624	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	810625	GO:0020011	RCA	-	apicoplast	11738814	Component
@@ -513,14 +509,14 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810631	GO:0007169	ISS	-	transmembrane receptor protein tyrosine kinase signaling pathway	18655063	Process
 36329	810634	GO:0003676	ISS	-	nucleic acid binding	12368867	Function
 36329	810634	GO:0006139	ISS	-	nucleobase-containing compound metabolic process	12368867	Process
-36329	810638	GO:0000150	IDA	-	recombinase activity	15610817	Function
+36329	810638	GO:0000150	IDA	-	DNA strand exchange activity	15610817	Function
 36329	810638	GO:0003677	IDA	-	DNA binding	15610817	Function
 36329	810638	GO:0003684	ISS	-	damaged DNA binding	12368867	Function
 36329	810638	GO:0005524	ISS	-	ATP binding	12368867	Function
 36329	810638	GO:0005634	ISS	-	nucleus	12368867	Component
 36329	810638	GO:0006281	ISS	-	DNA repair	12368867	Process
 36329	810638	GO:0006310	IDA	-	DNA recombination	15610817	Process
-36329	810638	GO:0008094	IDA	-	DNA-dependent ATPase activity	15610817	Function
+36329	810638	GO:0008094	IDA	-	ATP-dependent activity, acting on DNA	15610817	Function
 36329	810641	GO:0005515	IPI	-	protein binding	14698441	Function
 36329	810641	GO:0005654	IDA	-	nucleoplasm	14698441	Component
 36329	810641	GO:0042254	ISS	-	ribosome biogenesis	14698441	Process
@@ -650,14 +646,14 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810731	GO:0005515	IPI	-	protein binding	23185322	Function
 36329	810731	GO:0005524	ISS	-	ATP binding	12368867	Function
 36329	810731	GO:0006298	ISS	-	mismatch repair	12368867	Process
-36329	810731	GO:0016887	IDA	-	ATPase activity	22079692	Function
+36329	810731	GO:0016887	IDA	-	ATP hydrolysis activity	22079692	Function
 36329	810734	GO:0016192	ISS	-	vesicle-mediated transport	12368867	Process
 36329	810734	GO:0030131	ISS	-	clathrin adaptor complex	12368867	Component
 36329	810735	GO:0005524	ISS	-	ATP binding	12368867	Function
 36329	810735	GO:0005739	ISS	-	mitochondrion	12368867	Component
 36329	810735	GO:0006986	ISS	-	response to unfolded protein	12368867	Process
 36329	810735	GO:0009408	ISS	-	response to heat	12368867	Process
-36329	810735	GO:0016887	ISS	-	ATPase activity	12368867	Function
+36329	810735	GO:0016887	ISS	-	ATP hydrolysis activity	12368867	Function
 36329	810739	GO:0004402	IDA	-	histone acetyltransferase activity	20807207	Function
 36329	810739	GO:0005634	IDA	-	nucleus	20807207	Component
 36329	810739	GO:0005737	IDA	-	cytoplasm	20807207	Component
@@ -685,7 +681,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810771	GO:0004364	IDA	-	glutathione transferase activity	25126794	Function
 36329	810771	GO:0006749	IDA	-	glutathione metabolic process	25126794	Process
 36329	810771	GO:0020005	IDA	-	symbiont-containing vacuole membrane	12456681	Component
-36329	810771	GO:0042493	IDA	-	response to drug	25126794	Process
 36329	810772	GO:0005524	ISS	-	ATP binding	12368867	Function
 36329	810772	GO:0006417	ISS	-	regulation of translation	12368867	Process
 36329	810772	GO:0006810	ISS	-	transport	12368867	Process
@@ -695,7 +690,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810778	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	810785	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	810786	GO:0009931	ISS	-	calcium-dependent protein serine/threonine kinase activity	-	Function
-36329	810787	GO:0003774	ISS	-	motor activity	12368867	Function
+36329	810787	GO:0003774	ISS	-	cytoskeletal motor activity	12368867	Function
 36329	810787	GO:0007018	ISS	-	microtubule-based movement	12368867	Process
 36329	810787	GO:0030286	ISS	-	dynein complex	12368867	Component
 36329	810789	GO:0004672	ISS	-	protein kinase activity	12368867	Function
@@ -740,7 +735,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810812	GO:0005739	ISS	-	mitochondrion	12368867	Component
 36329	810812	GO:0005743	ISS	-	mitochondrial inner membrane	12368867	Component
 36329	810812	GO:0006626	ISS	-	protein targeting to mitochondrion	12368867	Process
-36329	810812	GO:0015450	ISS	-	P-P-bond-hydrolysis-driven protein transmembrane transporter activity	12368867	Function
+36329	810812	GO:0015450	ISS	-	protein-transporting ATPase activity	12368867	Function
 36329	810813	GO:0000375	ISS	-	RNA splicing, via transesterification reactions	12368867	Process
 36329	810813	GO:0005515	IPI	-	protein binding	20713134|24047207	Function
 36329	810813	GO:0008380	ISS	-	RNA splicing	12368867	Process
@@ -750,7 +745,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810817	GO:0005829	IDA	-	cytosol	22222968	Component
 36329	810817	GO:0006435	ISS	-	threonyl-tRNA aminoacylation	12368867	Process
 36329	810817	GO:0020011	IDA	-	apicoplast	22222968	Component
-36329	810817	GO:0042493	IDA	-	response to drug	25489076	Process
 36329	810819	GO:0003735	ISS	-	structural constituent of ribosome	12368867	Function
 36329	810819	GO:0006412	ISS	-	translation	12368867	Process
 36329	810819	GO:0015935	ISS	-	small ribosomal subunit	12368867	Component
@@ -787,7 +781,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810854	GO:0016773	ISM	-	phosphotransferase activity, alcohol group as acceptor	-	Function
 36329	810854	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	810854	GO:0046488	ISM	-	phosphatidylinositol metabolic process	-	Process
-36329	810854	GO:0046854	ISM	-	phosphatidylinositol phosphorylation	-	Process
+36329	810854	GO:0046854	ISM	-	phosphatidylinositol phosphate biosynthetic process	-	Process
 36329	810854	GO:0048015	ISM	-	phosphatidylinositol-mediated signaling	-	Process
 36329	810858	GO:0004610	ISS	-	phosphoacetylglucosamine mutase activity	12368867	Function
 36329	810858	GO:0006041	ISS	-	glucosamine metabolic process	12368867	Process
@@ -800,12 +794,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810861	GO:0000502	ISS	-	proteasome complex	12368867	Component
 36329	810861	GO:0004175	ISS	-	endopeptidase activity	12368867	Function
 36329	810861	GO:0006508	ISS	-	proteolysis	12368867	Process
-36329	810861	GO:0016887	ISS	-	ATPase activity	12368867	Function
+36329	810861	GO:0016887	ISS	-	ATP hydrolysis activity	12368867	Function
 36329	810864	GO:0000070	ISS	-	mitotic sister chromatid segregation	12368867	Process
 36329	810864	GO:0003680	ISS	-	minor groove of adenine-thymine-rich DNA binding	12368867	Function
 36329	810864	GO:0003690	ISS	-	double-stranded DNA binding	12368867	Function
 36329	810864	GO:0008278	ISS	-	cohesin complex	12368867	Component
-36329	810864	GO:0016887	ISS	-	ATPase activity	12368867	Function
+36329	810864	GO:0016887	ISS	-	ATP hydrolysis activity	12368867	Function
 36329	810870	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	810871	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	810875	GO:0020011	RCA	-	apicoplast	11738814	Component
@@ -885,7 +879,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	810958	GO:0015986	ISS	-	ATP synthesis coupled proton transport	12368867	Process
 36329	810958	GO:0046961	ISS	-	proton-transporting ATPase activity, rotational mechanism	12368867	Function
 36329	810962	GO:0000146	ISS	-	microfilament motor activity	12368867	Function
-36329	810962	GO:0003774	ISS	-	motor activity	12368867	Function
+36329	810962	GO:0003774	ISS	-	cytoskeletal motor activity	12368867	Function
 36329	810962	GO:0003779	ISS	-	actin binding	12368867	Function
 36329	810962	GO:0007010	ISS	-	cytoskeleton organization	12368867	Process
 36329	810962	GO:0016459	ISS	-	myosin complex	12368867	Component
@@ -1053,7 +1047,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811091	GO:0005783	ISS	-	endoplasmic reticulum	19502583	Component
 36329	811091	GO:0006464	ISS	-	cellular protein modification process	12368867	Process
 36329	811091	GO:0010564	ISS	-	regulation of cell cycle process	19502583	Process
-36329	811091	GO:0016887	ISS	-	ATPase activity	19502583	Function
+36329	811091	GO:0016887	ISS	-	ATP hydrolysis activity	19502583	Function
 36329	811091	GO:0030433	ISS	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	811095	GO:0003743	ISS	-	translation initiation factor activity	12368867	Function
 36329	811095	GO:0006413	ISS	-	translational initiation	12368867	Process
@@ -1093,7 +1087,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811139	GO:0005744	ISS	-	TIM23 mitochondrial import inner membrane translocase complex	12368867	Component
 36329	811139	GO:0006626	ISS	-	protein targeting to mitochondrion	12368867	Process
 36329	811139	GO:0015031	ISS	-	protein transport	12368867	Process
-36329	811139	GO:0015450	ISS	-	P-P-bond-hydrolysis-driven protein transmembrane transporter activity	12368867	Function
+36329	811139	GO:0015450	ISS	-	protein-transporting ATPase activity	12368867	Function
 36329	811143	GO:0005737	IDA	-	cytoplasm	23181666	Component
 36329	811143	GO:0034399	IDA	-	nuclear periphery	23181666	Component
 36329	811145	GO:0000375	ISS	-	RNA splicing, via transesterification reactions	12368867	Process
@@ -1130,13 +1124,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811162	GO:0005524	ISS	-	ATP binding	24737313	Function
 36329	811162	GO:0005871	ISS	-	kinesin complex	24737313	Component
 36329	811162	GO:0007018	ISS	-	microtubule-based movement	24737313	Process
-36329	811162	GO:0016887	ISS	-	ATPase activity	24737313	Function
+36329	811162	GO:0016887	ISS	-	ATP hydrolysis activity	24737313	Function
 36329	811165	GO:0003678	ISS	-	DNA helicase activity	12368867	Function
 36329	811165	GO:0005524	ISS	-	ATP binding	12368867	Function
 36329	811165	GO:0005656	ISS	-	nuclear pre-replicative complex	12368867	Component
 36329	811165	GO:0006270	ISS	-	DNA replication initiation	12368867	Process
 36329	811165	GO:0006271	TAS	-	DNA strand elongation involved in DNA replication	10872463	Process
-36329	811165	GO:0008094	ISS	-	DNA-dependent ATPase activity	12368867	Function
+36329	811165	GO:0008094	ISS	-	ATP-dependent activity, acting on DNA	12368867	Function
 36329	811166	GO:0005634	IDA	-	nucleus	18674634	Component
 36329	811166	GO:0005737	IDA	-	cytoplasm	18674634	Component
 36329	811166	GO:0006986	ISS	-	response to unfolded protein	12368867	Process
@@ -1150,16 +1144,15 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811169	GO:0005656	ISS	-	nuclear pre-replicative complex	12368867	Component
 36329	811169	GO:0006270	ISS	-	DNA replication initiation	12368867	Process
 36329	811169	GO:0006271	TAS	-	DNA strand elongation involved in DNA replication	10872463	Process
-36329	811169	GO:0008094	ISS	-	DNA-dependent ATPase activity	12368867	Function
+36329	811169	GO:0008094	ISS	-	ATP-dependent activity, acting on DNA	12368867	Function
 36329	811170	GO:0000151	ISS	-	ubiquitin ligase complex	12368867	Component
 36329	811170	GO:0005783	ISS	-	endoplasmic reticulum	19502583	Component
 36329	811170	GO:0006511	ISS	-	ubiquitin-dependent protein catabolic process	12368867	Process
 36329	811170	GO:0010564	ISS	-	regulation of cell cycle process	19502583	Process
-36329	811170	GO:0016887	ISS	-	ATPase activity	19502583	Function
+36329	811170	GO:0016887	ISS	-	ATP hydrolysis activity	19502583	Function
 36329	811170	GO:0030433	ISS	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	811171	GO:0002028	IDA	-	regulation of sodium ion transport	23414762	Process
-36329	811171	GO:0016887	IDA	-	ATPase activity	23414762	Function
-36329	811171	GO:0042493	IMP	-	response to drug	25322084	Process
+36329	811171	GO:0016887	IDA	-	ATP hydrolysis activity	23414762	Function
 36329	811172	GO:0005739	IDA	-	mitochondrion	22889167	Component
 36329	811172	GO:0005829	IDA	-	cytosol	21203490	Component
 36329	811172	GO:0008379	IDA	-	thioredoxin peroxidase activity	11087748	Function
@@ -1178,7 +1171,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811179	GO:0009055	ISS	-	electron transfer activity	12368867	Function
 36329	811180	GO:0005634	IDA	-	nucleus	23181666	Component
 36329	811184	GO:0020011	RCA	-	apicoplast	11738814	Component
-36329	811185	GO:0003774	ISS	-	motor activity	12368867	Function
+36329	811185	GO:0003774	ISS	-	cytoskeletal motor activity	12368867	Function
 36329	811185	GO:0003777	ISS	-	microtubule motor activity	12368867	Function
 36329	811185	GO:0005868	ISS	-	cytoplasmic dynein complex	12368867	Component
 36329	811185	GO:0005875	ISS	-	microtubule associated complex	12368867	Component
@@ -1188,7 +1181,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811187	GO:0004827	ISS	-	proline-tRNA ligase activity	12368867	Function
 36329	811187	GO:0005737	IDA	-	cytoplasm	25047712	Component
 36329	811187	GO:0006418	ISS	-	tRNA aminoacylation for protein translation	12368867	Process
-36329	811187	GO:0042493	IDA	-	response to drug	25395010	Process
 36329	811190	GO:0005783	IDA	-	endoplasmic reticulum	12117963	Component
 36329	811191	GO:0005739	IDA	-	mitochondrion	19765590	Component
 36329	811193	GO:0020011	RCA	-	apicoplast	11738814	Component
@@ -1238,7 +1230,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811226	GO:0009986	IDA	-	cell surface	12228305	Component
 36329	811226	GO:0020008	IDA	-	rhoptry	23387921	Component
 36329	811227	GO:0020011	RCA	-	apicoplast	11738814	Component
-36329	811229	GO:0035690	IMP	-	cellular response to drug	25691625	Process
 36329	811230	GO:0009670	ISS	-	triose-phosphate:phosphate antiporter activity	-	Function
 36329	811230	GO:0015717	ISS	-	triose phosphate transport	-	Process
 36329	811232	GO:0004814	ISS	-	arginine-tRNA ligase activity	12368867	Function
@@ -1260,7 +1251,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811242	GO:0140326	ISS	-	ATPase-coupled intramembrane lipid transporter activity	12368867	Function
 36329	811243	GO:0008429	IDA	-	phosphatidylethanolamine binding	17123645	Function
 36329	811243	GO:0019887	IDA	-	protein kinase regulator activity	17123645	Function
-36329	811244	GO:0004750	ISS	-	ribulose-phosphate 3-epimerase activity	12368867	Function
+36329	811244	GO:0004750	ISS	-	D-ribulose-phosphate 3-epimerase activity	12368867	Function
 36329	811244	GO:0009052	ISS	-	pentose-phosphate shunt, non-oxidative branch	12368867	Process
 36329	811246	GO:0000375	ISS	-	RNA splicing, via transesterification reactions	12368867	Process
 36329	811246	GO:0005681	ISS	-	spliceosomal complex	12368867	Component
@@ -1269,7 +1260,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811253	GO:0003682	ISS	-	chromatin binding	12368867	Function
 36329	811253	GO:0006333	ISS	-	chromatin assembly or disassembly	12368867	Process
 36329	811253	GO:0008283	IDA	-	cell population proliferation	25121746	Process
-36329	811253	GO:0031935	IDA	-	regulation of chromatin silencing	25121746	Process
 36329	811253	GO:0034399	IDA	-	nuclear periphery	19270070	Component
 36329	811254	GO:0005634	IDA	-	nucleus	19765590	Component
 36329	811254	GO:0020033	IDA	-	antigenic variation	22264509	Process
@@ -1306,7 +1296,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811286	GO:0006396	ISS	-	RNA processing	12368867	Process
 36329	811286	GO:0008143	ISS	-	poly(A) binding	12368867	Function
 36329	811288	GO:0003682	ISS	-	chromatin binding	12368867	Function
-36329	811288	GO:0016458	ISS	-	gene silencing	12368867	Process
 36329	811288	GO:0031497	ISS	-	chromatin assembly	12368867	Process
 36329	811288	GO:0051082	ISS	-	unfolded protein binding	12368867	Function
 36329	811289	GO:0004408	ISS	-	holocytochrome-c synthase activity	12368867	Function
@@ -1344,7 +1333,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811334	GO:0005524	ISS	-	ATP binding	19715599	Function
 36329	811334	GO:0005887	IDA	-	integral component of plasma membrane	19715599	Component
 36329	811334	GO:0006810	ISS	-	transport	19715599	Process
-36329	811334	GO:0042493	IDA	-	response to drug	24372851	Process
 36329	811334	GO:0043190	ISS	-	ATP-binding cassette (ABC) transporter complex	19715599	Component
 36329	811336	GO:0005125	IDA	-	cytokine activity	17299722	Function
 36329	811336	GO:0005737	IDA	-	cytoplasm	17299722	Component
@@ -1428,12 +1416,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811401	GO:0003723	ISS	-	RNA binding	12368867	Function
 36329	811407	GO:0020011	ISS	-	apicoplast	11738814	Component
 36329	811408	GO:0008171	ISS	-	O-methyltransferase activity	12368868	Function
-36329	811408	GO:0016458	ISS	-	gene silencing	12368868	Process
 36329	811408	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	811410	GO:0004839	IDA	-	ubiquitin activating enzyme activity	23943616	Function
 36329	811410	GO:0005783	ISS	-	endoplasmic reticulum	19502583	Component
 36329	811410	GO:0010564	ISS	-	regulation of cell cycle process	19502583	Process
-36329	811410	GO:0016887	ISS	-	ATPase activity	19502583	Function
+36329	811410	GO:0016887	ISS	-	ATP hydrolysis activity	19502583	Function
 36329	811410	GO:0030433	ISS	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	811415	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	811418	GO:0006511	ISS	-	ubiquitin-dependent protein catabolic process	12368867	Process
@@ -1456,7 +1443,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811432	GO:0006355	IDA	-	regulation of transcription, DNA-templated	18541913	Process
 36329	811435	GO:0003918	IDA	-	DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity	17220464	Function
 36329	811435	GO:0006265	ISS	-	DNA topological change	12368867	Process
-36329	811435	GO:0016887	IDA	-	ATPase activity	17220464	Function
+36329	811435	GO:0016887	IDA	-	ATP hydrolysis activity	17220464	Function
 36329	811435	GO:0020011	IDA	-	apicoplast	17220464	Component
 36329	811435	GO:0046983	IDA	-	protein dimerization activity	17220464	Function
 36329	811436	GO:0004417	ISS	-	hydroxyethylthiazole kinase activity	12368867	Function
@@ -1514,7 +1501,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811464	GO:0016192	ISS	-	vesicle-mediated transport	12368867	Process
 36329	811465	GO:0005743	ISS	-	mitochondrial inner membrane	12368867	Component
 36329	811465	GO:0006626	ISS	-	protein targeting to mitochondrion	12368867	Process
-36329	811465	GO:0015450	ISS	-	P-P-bond-hydrolysis-driven protein transmembrane transporter activity	12368867	Function
+36329	811465	GO:0015450	ISS	-	protein-transporting ATPase activity	12368867	Function
 36329	811466	GO:0005484	RCA	-	SNAP receptor activity	19103232	Function
 36329	811466	GO:0005515	RCA	-	protein binding	19103232	Function
 36329	811466	GO:0005802	RCA	-	trans-Golgi network	19103232	Component
@@ -1531,7 +1518,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811478	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	811480	GO:0003677	ISS	-	DNA binding	12368867	Function
 36329	811480	GO:0005096	ISS	-	GTPase activator activity	12368867	Function
-36329	811485	GO:0003774	ISS	-	motor activity	12368867	Function
+36329	811485	GO:0003774	ISS	-	cytoskeletal motor activity	12368867	Function
 36329	811485	GO:0005871	ISS	-	kinesin complex	12368867	Component
 36329	811485	GO:0007018	ISS	-	microtubule-based movement	12368867	Process
 36329	811487	GO:0004842	ISS	-	ubiquitin-protein transferase activity	12368867	Function
@@ -1578,7 +1565,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811521	GO:0000502	ISS	-	proteasome complex	12368867	Component
 36329	811521	GO:0003712	ISS	-	transcription coregulator activity	12368867	Function
 36329	811521	GO:0006511	ISS	-	ubiquitin-dependent protein catabolic process	12368867	Process
-36329	811521	GO:0016887	ISS	-	ATPase activity	12368867	Function
+36329	811521	GO:0016887	ISS	-	ATP hydrolysis activity	12368867	Function
 36329	811525	GO:0005634	ISO	-	nucleus	25011111	Component
 36329	811531	GO:0000154	ISS	-	rRNA modification	12368867	Process
 36329	811531	GO:0000179	ISS	-	rRNA (adenine-N6,N6-)-dimethyltransferase activity	12368867	Function
@@ -1775,13 +1762,12 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811705	GO:0007010	TAS	-	cytoskeleton organization	2459617	Process
 36329	811706	GO:0006412	NAS	-	translation	-	Process
 36329	811706	GO:0008612	NAS	-	peptidyl-lysine modification to peptidyl-hypusine	-	Process
-36329	811708	GO:0042493	IDA	-	response to drug	23170970	Process
 36329	811713	GO:0000312	ISS	-	plastid small ribosomal subunit	12368867	Component
 36329	811713	GO:0003735	ISS	-	structural constituent of ribosome	12368867	Function
 36329	811713	GO:0006412	ISS	-	translation	12368867	Process
 36329	811713	GO:0020011	IDA	-	apicoplast	11738814	Component
 36329	811714	GO:0006810	ISS	-	transport	12368867	Process
-36329	811714	GO:0016887	IDA	-	ATPase activity	21722645	Function
+36329	811714	GO:0016887	IDA	-	ATP hydrolysis activity	21722645	Function
 36329	811714	GO:0020011	IDA	-	apicoplast	21722645	Component
 36329	811722	GO:0003735	ISS	-	structural constituent of ribosome	12368867	Function
 36329	811722	GO:0006412	ISS	-	translation	12368867	Process
@@ -1825,7 +1811,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811758	GO:0051726	ISS	-	regulation of cell cycle	12368867	Process
 36329	811759	GO:0005783	ISS	-	endoplasmic reticulum	19502583	Component
 36329	811759	GO:0010564	ISS	-	regulation of cell cycle process	19502583	Process
-36329	811759	GO:0016887	ISS	-	ATPase activity	19502583	Function
+36329	811759	GO:0016887	ISS	-	ATP hydrolysis activity	19502583	Function
 36329	811759	GO:0030433	ISS	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	811760	GO:0020005	ISO	-	symbiont-containing vacuole membrane	19435743	Component
 36329	811762	GO:0005509	ISS	-	calcium ion binding	12368867	Function
@@ -1849,7 +1835,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811797	GO:0005783	IDA	-	endoplasmic reticulum	22912882	Component
 36329	811797	GO:0005789	IDA	-	endoplasmic reticulum membrane	22912882	Component
 36329	811797	GO:0010564	ISS	-	regulation of cell cycle process	19502583	Process
-36329	811797	GO:0016887	ISS	-	ATPase activity	19502583	Function
+36329	811797	GO:0016887	ISS	-	ATP hydrolysis activity	19502583	Function
 36329	811797	GO:0030433	ISS	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	811800	GO:0005200	ISS	-	structural constituent of cytoskeleton	12368867	Function
 36329	811800	GO:0005884	ISS	-	actin filament	12368867	Component
@@ -1905,7 +1891,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811838	GO:0006364	ISS	-	rRNA processing	12368867	Process
 36329	811842	GO:0005215	ISS	-	transporter activity	-	Function
 36329	811842	GO:0006810	ISS	-	transport	-	Process
-36329	811843	GO:0007050	ISS	-	cell cycle arrest	12368867	Process
 36329	811843	GO:0008235	ISS	-	metalloexopeptidase activity	12368867	Function
 36329	811843	GO:0008283	ISS	-	cell population proliferation	12368867	Process
 36329	811847	GO:0003747	ISS	-	translation release factor activity	12368867	Function
@@ -2077,7 +2062,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	811997	GO:0015937	ISS	-	coenzyme A biosynthetic process	12368867	Process
 36329	811997	GO:0020011	ISS	-	apicoplast	11738814	Component
 36329	811999	GO:0009408	ISS	-	response to heat	12368867	Process
-36329	811999	GO:0016887	ISS	-	ATPase activity	12368867	Function
+36329	811999	GO:0016887	ISS	-	ATP hydrolysis activity	12368867	Function
 36329	811999	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	812003	GO:0005783	ISO	-	endoplasmic reticulum	24330260	Component
 36329	812004	GO:0020011	RCA	-	apicoplast	11738814	Component
@@ -2132,13 +2117,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812033	GO:0005763	ISS	-	mitochondrial small ribosomal subunit	12368867	Component
 36329	812033	GO:0006412	ISS	-	translation	12368867	Process
 36329	812037	GO:0005773	IDA	-	vacuole	8114829	Component
-36329	812037	GO:0006855	TAS	-	drug transmembrane transport	7914495	Process
+36329	812037	GO:0006855	TAS	-	xenobiotic transmembrane transport	7914495	Process
 36329	812037	GO:0042626	TAS	-	ATPase-coupled transmembrane transporter activity	7914495	Function
 36329	812037	GO:0046872	TAS	-	metal ion binding	16849328	Function
 36329	812037	GO:0046873	TAS	-	metal ion transmembrane transporter activity	16849328	Function
 36329	812044	GO:0005783	ISS	-	endoplasmic reticulum	19502583	Component
 36329	812044	GO:0010564	ISS	-	regulation of cell cycle process	19502583	Process
-36329	812044	GO:0016887	ISS	-	ATPase activity	19502583	Function
+36329	812044	GO:0016887	ISS	-	ATP hydrolysis activity	19502583	Function
 36329	812044	GO:0030433	ISS	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	812045	GO:0005634	NAS	-	nucleus	-	Component
 36329	812046	GO:0005484	ISS	-	SNAP receptor activity	17240462	Function
@@ -2182,7 +2167,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812077	GO:1990225	IDA	-	rhoptry neck	18952195	Component
 36329	812080	GO:0010564	IDA	-	regulation of cell cycle process	19502583	Process
 36329	812080	GO:0016021	IDA	-	integral component of membrane	19502580	Component
-36329	812080	GO:0016887	IDA	-	ATPase activity	19502583	Function
+36329	812080	GO:0016887	IDA	-	ATP hydrolysis activity	19502583	Function
 36329	812080	GO:0020011	IDA	-	apicoplast	19502580	Component
 36329	812080	GO:0030433	EXP	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	812082	GO:0005484	ISS	-	SNAP receptor activity	17240462	Function
@@ -2230,7 +2215,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812106	GO:0045177	ISO	-	apical part of cell	25011111	Component
 36329	812110	GO:0016020	IDA	-	membrane	25148832	Component
 36329	812110	GO:0020020	IDA	-	food vacuole	25148832	Component
-36329	812110	GO:0044179	IDA	-	hemolysis in other organism	25148832	Process
+36329	812110	GO:0044179	IDA	-	hemolysis in another organism	25148832	Process
 36329	812111	GO:0005802	ISS	-	trans-Golgi network	12368867	Component
 36329	812111	GO:0006886	ISS	-	intracellular protein transport	12368867	Process
 36329	812111	GO:0030131	ISS	-	clathrin adaptor complex	12368867	Component
@@ -2250,7 +2235,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812127	GO:0005829	IDA	-	cytosol	21203490	Component
 36329	812130	GO:0005737	IDA	-	cytoplasm	15252121	Component
 36329	812130	GO:0006886	ISS	-	intracellular protein transport	12368867	Process
-36329	812130	GO:0016887	ISS	-	ATPase activity	12368867	Function
+36329	812130	GO:0016887	ISS	-	ATP hydrolysis activity	12368867	Function
 36329	812135	GO:0006508	TAS	-	proteolysis	1565129	Process
 36329	812135	GO:0008234	TAS	-	cysteine-type peptidase activity	1565129	Function
 36329	812135	GO:0042540	TAS	-	hemoglobin catabolic process	1565129	Process
@@ -2337,7 +2322,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812237	GO:0005737	IDA	-	cytoplasm	19751846	Component
 36329	812237	GO:0006446	ISS	-	regulation of translational initiation	12368867	Process
 36329	812237	GO:0016281	ISS	-	eukaryotic translation initiation factor 4F complex	12368867	Component
-36329	812237	GO:0016887	IDA	-	ATPase activity	22750398	Function
+36329	812237	GO:0016887	IDA	-	ATP hydrolysis activity	22750398	Function
 36329	812237	GO:0033679	IDA	-	3'-5' DNA/RNA helicase activity	22750398	Function
 36329	812238	GO:0000398	ISS	-	mRNA splicing, via spliceosome	12368867	Process
 36329	812238	GO:0003723	ISS	-	RNA binding	12368867	Function
@@ -2456,7 +2441,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812358	GO:0008270	ISS	-	zinc ion binding	-	Function
 36329	812359	GO:0003724	ISS	-	RNA helicase activity	12368867	Function
 36329	812359	GO:0016070	ISS	-	RNA metabolic process	12368867	Process
-36329	812364	GO:0016887	ISS	-	ATPase activity	12368867	Function
+36329	812364	GO:0016887	ISS	-	ATP hydrolysis activity	12368867	Function
 36329	812367	GO:0003677	ISS	-	DNA binding	-	Function
 36329	812367	GO:0006354	ISS	-	DNA-templated transcription, elongation	-	Process
 36329	812367	GO:0006355	ISS	-	regulation of transcription, DNA-templated	-	Process
@@ -2641,7 +2626,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812536	GO:0020002	IDA	-	host cell plasma membrane	10430943	Component
 36329	812536	GO:0020033	TAS	-	antigenic variation	10430943	Process
 36329	812537	GO:0006270	ISS	-	DNA replication initiation	12368867	Process
-36329	812537	GO:0008094	ISS	-	DNA-dependent ATPase activity	12368867	Function
+36329	812537	GO:0008094	ISS	-	ATP-dependent activity, acting on DNA	12368867	Function
 36329	812539	GO:0020013	IDA	-	modulation by symbiont of host erythrocyte aggregation	25011110	Process
 36329	812539	GO:0020036	TAS	-	Maurer's cleft	12477793	Component
 36329	812540	GO:0020011	ISS	-	apicoplast	11738814	Component
@@ -2693,7 +2678,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812569	GO:0051276	ISS	-	chromosome organization	12368867	Process
 36329	812570	GO:0005838	ISS	-	proteasome regulatory particle	12368867	Component
 36329	812570	GO:0006511	ISS	-	ubiquitin-dependent protein catabolic process	12368867	Process
-36329	812570	GO:0016887	ISS	-	ATPase activity	12368867	Function
+36329	812570	GO:0016887	ISS	-	ATP hydrolysis activity	12368867	Function
 36329	812574	GO:0003735	ISS	-	structural constituent of ribosome	12368867	Function
 36329	812574	GO:0005840	ISS	-	ribosome	12368867	Component
 36329	812574	GO:0020011	ISS	-	apicoplast	11738814	Component
@@ -2879,7 +2864,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812680	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	812681	GO:0009986	IDA	-	cell surface	12106866	Component
 36329	812682	GO:0005886	ISS	-	plasma membrane	7935600	Component
-36329	812682	GO:0009405	TAS	-	pathogenesis	10972844	Process
 36329	812683	GO:0004620	ISS	-	phospholipase activity	12368867	Function
 36329	812685	GO:0020011	IDA	-	apicoplast	11738814	Component
 36329	812689	GO:0003723	IDA	-	RNA binding	18722339	Function
@@ -2969,7 +2953,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812745	GO:0005524	IDA	-	ATP binding	18554328	Function
 36329	812745	GO:0005656	IDA	-	nuclear pre-replicative complex	18554328	Component
 36329	812745	GO:0006267	ISS	-	pre-replicative complex assembly involved in nuclear cell cycle DNA replication	18554328	Process
-36329	812745	GO:0016887	IDA	-	ATPase activity	18554328	Function
+36329	812745	GO:0016887	IDA	-	ATP hydrolysis activity	18554328	Function
 36329	812746	GO:0008270	ISS	-	zinc ion binding	12368867	Function
 36329	812746	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	812747	GO:0003678	ISS	-	DNA helicase activity	12368867	Function
@@ -2984,7 +2968,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812762	GO:0005886	IDA	-	plasma membrane	23548171	Component
 36329	812762	GO:0006468	IDA	-	protein phosphorylation	22479457	Process
 36329	812762	GO:0009931	IDA	-	calcium-dependent protein serine/threonine kinase activity	8142371	Function
-36329	812762	GO:0042493	IDA	-	response to drug	25070106	Process
 36329	812765	GO:0003735	IDA	-	structural constituent of ribosome	24913268	Function
 36329	812765	GO:0006412	ISS	-	translation	12368867	Process
 36329	812765	GO:0022627	IDA	-	cytosolic small ribosomal subunit	24913268	Component
@@ -3064,7 +3047,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812833	GO:0003917	ISS	-	DNA topoisomerase type I (single strand cut, ATP-independent) activity	12368867	Function
 36329	812833	GO:0005634	RCA	-	nucleus	23181666	Component
 36329	812833	GO:0006265	ISS	-	DNA topological change	12368867	Process
-36329	812833	GO:0042493	IDA	-	response to drug	22446744	Process
 36329	812834	GO:0070258	ISS	-	inner membrane pellicle complex	25088010	Component
 36329	812834	GO:0071944	ISS	-	cell periphery	24887026	Component
 36329	812836	GO:0003755	ISS	-	peptidyl-prolyl cis-trans isomerase activity	12368867	Function
@@ -3072,7 +3054,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812836	GO:0016018	ISS	-	cyclosporin A binding	12368867	Function
 36329	812837	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	812838	GO:0004430	IGI	-	1-phosphatidylinositol 4-kinase activity	20381540	Function
-36329	812838	GO:0042493	IDA	-	response to drug	24284631	Process
 36329	812838	GO:0046488	ISM	-	phosphatidylinositol metabolic process	-	Process
 36329	812839	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	812841	GO:0004816	IDA	-	asparagine-tRNA ligase activity	24196969	Function
@@ -3118,7 +3099,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812871	GO:0020008	IDA	-	rhoptry	19266084	Component
 36329	812872	GO:0005783	ISS	-	endoplasmic reticulum	19502583	Component
 36329	812872	GO:0010564	ISS	-	regulation of cell cycle process	19502583	Process
-36329	812872	GO:0016887	ISS	-	ATPase activity	19502583	Function
+36329	812872	GO:0016887	ISS	-	ATP hydrolysis activity	19502583	Function
 36329	812872	GO:0030433	ISS	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	812874	GO:0005515	IPI	-	protein binding	11087921|25615740	Function
 36329	812874	GO:0015031	IDA	-	protein transport	17023587	Process
@@ -3182,7 +3163,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812919	GO:0008270	ISS	-	zinc ion binding	-	Function
 36329	812921	GO:0006812	TAS	-	cation transport	11522345	Process
 36329	812921	GO:0008324	ISS	-	cation transmembrane transporter activity	12368867	Function
-36329	812921	GO:0015662	IDA	-	ion transmembrane transporter activity, phosphorylative mechanism	11522345	Function
+36329	812921	GO:0015662	IDA	-	P-type ion transporter activity	11522345	Function
 36329	812921	GO:0043231	TAS	-	intracellular membrane-bounded organelle	11522345	Component
 36329	812922	GO:0003735	IDA	-	structural constituent of ribosome	24913268	Function
 36329	812922	GO:0006412	ISS	-	translation	12368867	Process
@@ -3256,7 +3237,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812973	GO:0005737	ISO	-	cytoplasm	25011111	Component
 36329	812976	GO:0006812	TAS	-	cation transport	-	Process
 36329	812976	GO:0008324	TAS	-	cation transmembrane transporter activity	-	Function
-36329	812976	GO:0015662	TAS	-	ion transmembrane transporter activity, phosphorylative mechanism	-	Function
+36329	812976	GO:0015662	TAS	-	P-type ion transporter activity	-	Function
 36329	812976	GO:0016021	TAS	-	integral component of membrane	-	Component
 36329	812976	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	812977	GO:0003723	ISS	-	RNA binding	12368867	Function
@@ -3273,7 +3254,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	812981	GO:0005886	IDA	-	plasma membrane	11371568	Component
 36329	812981	GO:0006412	ISS	-	translation	12368867	Process
 36329	812981	GO:0008135	ISS	-	translation factor activity, RNA binding	15222903	Function
-36329	812982	GO:0004843	ISS	-	thiol-dependent ubiquitin-specific protease activity	12368867	Function
+36329	812982	GO:0004843	ISS	-	thiol-dependent deubiquitinase	12368867	Function
 36329	812982	GO:0016579	ISS	-	protein deubiquitination	12368867	Process
 36329	812984	GO:0003735	IDA	-	structural constituent of ribosome	24913268	Function
 36329	812984	GO:0006412	ISS	-	translation	12368867	Process
@@ -3324,7 +3305,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	813042	GO:0020011	ISO	-	apicoplast	24586983	Component
 36329	813045	GO:0016021	ISS	-	integral component of membrane	-	Component
 36329	813045	GO:0020020	IDA	-	food vacuole	1674943	Component
-36329	813045	GO:0042493	IDA	-	response to drug	10706290	Process
 36329	813045	GO:0042626	ISS	-	ATPase-coupled transmembrane transporter activity	-	Function
 36329	813045	GO:0042910	ISS	-	xenobiotic transmembrane transporter activity	-	Function
 36329	813046	GO:0004222	ISS	-	metalloendopeptidase activity	12368867	Function
@@ -3363,7 +3343,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	813082	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	813084	GO:0016020	ISS	-	membrane	12368867	Component
 36329	813086	GO:0004842	ISS	-	ubiquitin-protein transferase activity	12368867	Function
-36329	813087	GO:0004843	ISS	-	thiol-dependent ubiquitin-specific protease activity	12368867	Function
+36329	813087	GO:0004843	ISS	-	thiol-dependent deubiquitinase	12368867	Function
 36329	813087	GO:0016579	ISS	-	protein deubiquitination	12368867	Process
 36329	813088	GO:0006508	ISS	-	proteolysis	12368867	Process
 36329	813088	GO:0008235	ISS	-	metalloexopeptidase activity	12368867	Function
@@ -3476,16 +3456,14 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	813197	GO:0005753	ISS	-	mitochondrial proton-transporting ATP synthase complex	12368867	Component
 36329	813197	GO:0015986	ISS	-	ATP synthesis coupled proton transport	12368867	Process
 36329	813197	GO:0046961	ISS	-	proton-transporting ATPase activity, rotational mechanism	12368867	Function
-36329	813199	GO:0005388	TAS	-	calcium transmembrane transporter activity, phosphorylative mechanism	8314897	Function
+36329	813199	GO:0005388	TAS	-	P-type calcium transporter activity	8314897	Function
 36329	813199	GO:0006816	TAS	-	calcium ion transport	8314897	Process
-36329	813199	GO:0042493	IDA	-	response to drug	15937493	Process
 36329	813203	GO:0005886	TAS	-	plasma membrane	9247928	Component
 36329	813204	GO:0003924	ISS	-	GTPase activity	12657463	Function
 36329	813204	GO:0007264	ISS	-	small GTPase mediated signal transduction	12368867	Process
 36329	813204	GO:0016020	ISS	-	membrane	12657463	Component
 36329	813204	GO:0060627	ISS	-	regulation of vesicle-mediated transport	12657463	Process
 36329	813205	GO:0020011	RCA	-	apicoplast	11738814	Component
-36329	813205	GO:0035690	IDA	-	cellular response to drug	25367906	Process
 36329	813213	GO:0004672	ISS	-	protein kinase activity	12368867	Function
 36329	813213	GO:0005524	ISS	-	ATP binding	12368867	Function
 36329	813213	GO:0006468	ISS	-	protein phosphorylation	12368867	Process
@@ -3514,7 +3492,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	813238	GO:0006366	ISS	-	transcription by RNA polymerase II	12368867	Process
 36329	813240	GO:0016308	IDA	-	1-phosphatidylinositol-4-phosphate 5-kinase activity	19017115	Function
 36329	813240	GO:0016773	ISM	-	phosphotransferase activity, alcohol group as acceptor	-	Function
-36329	813240	GO:0046854	ISM	-	phosphatidylinositol phosphorylation	-	Process
+36329	813240	GO:0046854	ISM	-	phosphatidylinositol phosphate biosynthetic process	-	Process
 36329	813241	GO:0006334	ISS	-	nucleosome assembly	12368867	Process
 36329	813241	GO:0031497	ISS	-	chromatin assembly	12368867	Process
 36329	813241	GO:0042393	ISS	-	histone binding	12368867	Function
@@ -3536,7 +3514,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	813255	GO:0005524	ISS	-	ATP binding	19715599	Function
 36329	813255	GO:0005887	IDA	-	integral component of plasma membrane	15358235	Component
 36329	813255	GO:0006810	ISS	-	transport	12368867	Process
-36329	813255	GO:0042493	IMP	-	response to drug	19117944	Process
 36329	813255	GO:0042626	ISS	-	ATPase-coupled transmembrane transporter activity	12368867	Function
 36329	813255	GO:0043190	ISS	-	ATP-binding cassette (ABC) transporter complex	19715599	Component
 36329	813255	GO:0043295	TAS	-	glutathione binding	15358235	Function
@@ -3652,7 +3629,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	813431	GO:0005737	IDA	-	cytoplasm	19505469	Component
 36329	813438	GO:0005783	IDA	-	endoplasmic reticulum	21203490	Component
 36329	813442	GO:0010564	IDA	-	regulation of cell cycle process	19502583	Process
-36329	813442	GO:0016887	IDA	-	ATPase activity	19502583	Function
+36329	813442	GO:0016887	IDA	-	ATP hydrolysis activity	19502583	Function
 36329	813442	GO:0020011	IDA	-	apicoplast	19502583	Component
 36329	813442	GO:0030433	EXP	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	813455	GO:0005783	IDA	-	endoplasmic reticulum	1779989	Component
@@ -3693,7 +3670,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	813532	GO:0004407	IDA	-	histone deacetylase activity	19317450	Function
 36329	813532	GO:0005634	IDA	-	nucleus	10215020	Component
 36329	813532	GO:0016575	IDA	-	histone deacetylation	19317450	Process
-36329	813532	GO:0035690	IDA	-	cellular response to drug	19317450	Process
 36329	813537	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	813539	GO:0008028	ISS	-	monocarboxylic acid transmembrane transporter activity	-	Function
 36329	813539	GO:0015718	ISS	-	monocarboxylic acid transport	-	Process
@@ -3744,7 +3720,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	813629	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	813631	GO:0030430	IDA	-	host cell cytoplasm	16760427	Component
 36329	813632	GO:0030430	IDA	-	host cell cytoplasm	16760427	Component
-36329	813633	GO:0009405	IMP	-	pathogenesis	25703704	Process
 36329	813633	GO:0020003	IDA	-	symbiont-containing vacuole	25703704	Component
 36329	813633	GO:0020036	IDA	-	Maurer's cleft	25703704	Component
 36329	813633	GO:0033644	IDA	-	host cell membrane	25703704	Component
@@ -3820,7 +3795,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	813697	GO:0003876	ISS	-	AMP deaminase activity	12368867	Function
 36329	813697	GO:0006196	ISS	-	AMP catabolic process	12368867	Process
 36329	813699	GO:0000146	ISS	-	microfilament motor activity	12368867	Function
-36329	813699	GO:0003774	ISS	-	motor activity	12368867	Function
+36329	813699	GO:0003774	ISS	-	cytoskeletal motor activity	12368867	Function
 36329	813699	GO:0007010	ISS	-	cytoskeleton organization	12368867	Process
 36329	813699	GO:0016459	ISS	-	myosin complex	12368867	Component
 36329	813699	GO:0030048	ISS	-	actin filament-based movement	12368867	Process
@@ -3910,7 +3885,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	813785	GO:0004842	IDA	-	ubiquitin-protein transferase activity	23785288	Function
 36329	813785	GO:0010564	IDA	-	regulation of cell cycle process	19502583	Process
 36329	813785	GO:0016567	IDA	-	protein ubiquitination	23785288	Process
-36329	813785	GO:0016887	IDA	-	ATPase activity	19502583	Function
+36329	813785	GO:0016887	IDA	-	ATP hydrolysis activity	19502583	Function
 36329	813785	GO:0020011	IDA	-	apicoplast	19502583	Component
 36329	813785	GO:0030433	EXP	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	813786	GO:0070258	IDA	-	inner membrane pellicle complex	22389454	Component
@@ -4087,7 +4062,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	813998	GO:0006814	ISS	-	sodium ion transport	12368867	Process
 36329	813998	GO:0015299	ISS	-	solute:proton antiporter activity	12368867	Function
 36329	813998	GO:0016021	ISS	-	integral component of membrane	12368867	Component
-36329	813998	GO:0042493	TAS	-	response to drug	19428659	Process
 36329	814000	GO:0006986	ISS	-	response to unfolded protein	12368867	Process
 36329	814000	GO:0009408	ISS	-	response to heat	12368867	Process
 36329	814001	GO:0000079	IDA	-	regulation of cyclin-dependent protein serine/threonine kinase activity	12869562	Process
@@ -4097,7 +4071,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814002	GO:0016591	ISS	-	RNA polymerase II, holoenzyme	12368867	Component
 36329	814004	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	814006	GO:0007049	IDA	-	cell cycle	23813392	Process
-36329	814006	GO:0042493	IDA	-	response to drug	24605883	Process
 36329	814011	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	814012	GO:0004175	ISS	-	endopeptidase activity	12368867	Function
 36329	814012	GO:0005838	ISS	-	proteasome regulatory particle	12368867	Component
@@ -4156,7 +4129,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814047	GO:0005525	ISS	-	GTP binding	-	Function
 36329	814047	GO:0005739	IDA	-	mitochondrion	25689481	Component
 36329	814047	GO:0006413	ISS	-	translational initiation	-	Process
-36329	814048	GO:0003826	ISS	-	alpha-ketoacid dehydrogenase activity	12368867	Function
 36329	814048	GO:0005947	ISS	-	mitochondrial alpha-ketoglutarate dehydrogenase complex	12368867	Component
 36329	814055	GO:0004386	ISS	-	helicase activity	12368867	Function
 36329	814055	GO:0020011	RCA	-	apicoplast	11738814	Component
@@ -4264,7 +4236,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814122	GO:0005677	ISS	-	chromatin silencing complex	12368867	Component
 36329	814122	GO:0005730	IDA	-	nucleolus	23443558	Component
 36329	814122	GO:0005737	IDA	-	cytoplasm	18547337	Component
-36329	814122	GO:0006342	IDA	-	chromatin silencing	19402747	Process
 36329	814122	GO:0006355	IDA	-	regulation of transcription, DNA-templated	19402747	Process
 36329	814122	GO:0016233	IDA	-	telomere capping	19402747	Process
 36329	814123	GO:0005737	ISS	-	cytoplasm	18655063	Component
@@ -4289,7 +4260,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814152	GO:0004842	IDA	-	ubiquitin-protein transferase activity	23785288	Function
 36329	814152	GO:0010564	IDA	-	regulation of cell cycle process	19502583	Process
 36329	814152	GO:0016567	IDA	-	protein ubiquitination	23785288	Process
-36329	814152	GO:0016887	IDA	-	ATPase activity	19502583	Function
+36329	814152	GO:0016887	IDA	-	ATP hydrolysis activity	19502583	Function
 36329	814152	GO:0020011	IDA	-	apicoplast	19502583	Component
 36329	814152	GO:0030433	EXP	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	814154	GO:0016020	ISS	-	membrane	12368867	Component
@@ -4320,7 +4291,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814178	GO:0004683	IMP	-	calmodulin-dependent protein kinase activity	20466936	Function
 36329	814178	GO:0006468	IMP	-	protein phosphorylation	20466936	Process
 36329	814178	GO:0035891	IMP	-	exit from host cell	20466936	Process
-36329	814178	GO:0042493	IDA	-	response to drug	25422853	Process
 36329	814180	GO:0003735	ISS	-	structural constituent of ribosome	12368867	Function
 36329	814180	GO:0006412	ISS	-	translation	12368867	Process
 36329	814180	GO:0022625	ISS	-	cytosolic large ribosomal subunit	12368867	Component
@@ -4355,7 +4325,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814199	GO:0005634	IDA	-	nucleus	22293287	Component
 36329	814199	GO:0005737	IDA	-	cytoplasm	22293287	Component
 36329	814199	GO:0005956	ISS	-	protein kinase CK2 complex	19114502	Component
-36329	814200	GO:0003774	ISS	-	motor activity	12368867	Function
+36329	814200	GO:0003774	ISS	-	cytoskeletal motor activity	12368867	Function
 36329	814200	GO:0003779	IDA	-	actin binding	10749937	Function
 36329	814200	GO:0005515	IPI	-	protein binding	16337961	Function
 36329	814200	GO:0005524	IDA	-	ATP binding	10749937	Function
@@ -4366,7 +4336,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814201	GO:0004612	ISS	-	phosphoenolpyruvate carboxykinase (ATP) activity	12368867	Function
 36329	814201	GO:0006094	ISS	-	gluconeogenesis	12368867	Process
 36329	814203	GO:0009020	ISS	-	tRNA (guanosine-2'-O-)-methyltransferase activity	-	Function
-36329	814205	GO:0042493	IDA	-	response to drug	24352242	Process
 36329	814208	GO:0004450	ISS	-	isocitrate dehydrogenase (NADP+) activity	12368867	Function
 36329	814208	GO:0005739	IDA	-	mitochondrion	-	Component
 36329	814208	GO:0006102	ISS	-	isocitrate metabolic process	12368867	Process
@@ -4426,7 +4395,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814253	GO:0006915	IDA	-	apoptotic process	21858231	Process
 36329	814255	GO:0003677	ISS	-	DNA binding	12368867	Function
 36329	814255	GO:0006270	ISS	-	DNA replication initiation	12368867	Process
-36329	814255	GO:0008094	ISS	-	DNA-dependent ATPase activity	12368867	Function
+36329	814255	GO:0008094	ISS	-	ATP-dependent activity, acting on DNA	12368867	Function
 36329	814257	GO:0034399	IDA	-	nuclear periphery	19765590	Component
 36329	814263	GO:0005744	ISS	-	TIM23 mitochondrial import inner membrane translocase complex	12368867	Component
 36329	814263	GO:0006626	ISS	-	protein targeting to mitochondrion	12368867	Process
@@ -4470,7 +4439,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814290	GO:0003678	IDA	-	DNA helicase activity	22705314	Function
 36329	814290	GO:0005515	IPI	-	protein binding	24161468	Function
 36329	814290	GO:0005634	IDA	-	nucleus	22705314	Component
-36329	814290	GO:0016887	IDA	-	ATPase activity	22705314	Function
+36329	814290	GO:0016887	IDA	-	ATP hydrolysis activity	22705314	Function
 36329	814293	GO:0003684	ISS	-	damaged DNA binding	12368867	Function
 36329	814293	GO:0006974	ISS	-	cellular response to DNA damage stimulus	12368867	Process
 36329	814293	GO:0046403	IDA	-	polynucleotide 3'-phosphatase activity	21821066	Function
@@ -4486,7 +4455,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814303	GO:0003824	ISS	-	catalytic activity	12368867	Function
 36329	814303	GO:0010564	IDA	-	regulation of cell cycle process	19502583	Process
 36329	814303	GO:0016020	ISS	-	membrane	12368867	Component
-36329	814303	GO:0016887	IDA	-	ATPase activity	19502583	Function
+36329	814303	GO:0016887	IDA	-	ATP hydrolysis activity	19502583	Function
 36329	814303	GO:0020011	IDA	-	apicoplast	19502583	Component
 36329	814303	GO:0030433	EXP	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	814304	GO:0004047	ISS	-	aminomethyltransferase activity	12368867	Function
@@ -4517,7 +4486,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814314	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	814317	GO:0005758	ISS	-	mitochondrial intermembrane space	12368867	Component
 36329	814317	GO:0006626	ISS	-	protein targeting to mitochondrion	12368867	Process
-36329	814317	GO:0015450	ISS	-	P-P-bond-hydrolysis-driven protein transmembrane transporter activity	12368867	Function
+36329	814317	GO:0015450	ISS	-	protein-transporting ATPase activity	12368867	Function
 36329	814318	GO:0005488	ISS	-	binding	12368867	Function
 36329	814318	GO:0005743	ISS	-	mitochondrial inner membrane	12368867	Component
 36329	814318	GO:0006810	ISS	-	transport	12368867	Process
@@ -4547,7 +4516,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814342	GO:0020008	IDA	-	rhoptry	15953647	Component
 36329	814342	GO:0020035	TAS	-	cytoadherence to microvasculature, mediated by symbiont protein	10737759	Process
 36329	814342	GO:0050839	TAS	-	cell adhesion molecule binding	10737759	Function
-36329	814343	GO:0006855	ISS	-	drug transmembrane transport	12368867	Process
+36329	814343	GO:0006855	ISS	-	xenobiotic transmembrane transport	12368867	Process
 36329	814343	GO:0016021	ISS	-	integral component of membrane	12368867	Component
 36329	814343	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	814343	GO:0042626	ISS	-	ATPase-coupled transmembrane transporter activity	12368867	Function
@@ -4555,7 +4524,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814344	GO:0005739	IDA	-	mitochondrion	23181666	Component
 36329	814345	GO:0005634	IDA	-	nucleus	23181666	Component
 36329	814347	GO:0006888	ISS	-	endoplasmic reticulum to Golgi vesicle-mediated transport	12368867	Process
-36329	814347	GO:0016887	ISS	-	ATPase activity	12368867	Function
+36329	814347	GO:0016887	ISS	-	ATP hydrolysis activity	12368867	Function
 36329	814347	GO:0020020	IDA	-	food vacuole	11278971	Component
 36329	814347	GO:0030430	IDA	-	host cell cytoplasm	11278971	Component
 36329	814350	GO:0003899	ISS	-	DNA-directed 5'-3' RNA polymerase activity	12368867	Function
@@ -4671,17 +4640,17 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814443	GO:0022625	ISS	-	cytosolic large ribosomal subunit	12368867	Component
 36329	814446	GO:0005783	ISS	-	endoplasmic reticulum	19502583	Component
 36329	814446	GO:0010564	ISS	-	regulation of cell cycle process	19502583	Process
-36329	814446	GO:0016887	ISS	-	ATPase activity	19502583	Function
+36329	814446	GO:0016887	ISS	-	ATP hydrolysis activity	19502583	Function
 36329	814446	GO:0030433	ISS	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	814447	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	814453	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	814454	GO:0005737	ISS	-	cytoplasm	20140477	Component
-36329	814454	GO:0032780	IDA	-	negative regulation of ATPase activity	20140477	Process
+36329	814454	GO:0032780	IDA	-	negative regulation of ATP-dependent activity	20140477	Process
 36329	814454	GO:0051131	IDA	-	chaperone-mediated protein complex assembly	20140477	Process
 36329	814454	GO:0051879	IPI	-	Hsp90 protein binding	22100910	Function
 36329	814456	GO:0010564	IDA	-	regulation of cell cycle process	19502583	Process
 36329	814456	GO:0016021	IDA	-	integral component of membrane	19502583	Component
-36329	814456	GO:0016887	IDA	-	ATPase activity	19502583	Function
+36329	814456	GO:0016887	IDA	-	ATP hydrolysis activity	19502583	Function
 36329	814456	GO:0020011	IDA	-	apicoplast	19502583	Component
 36329	814456	GO:0030433	IDA	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	814457	GO:0004722	ISS	-	protein serine/threonine phosphatase activity	12368867	Function
@@ -4747,7 +4716,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814504	GO:0005215	ISS	-	transporter activity	12368867	Function
 36329	814504	GO:0005887	ISS	-	integral component of plasma membrane	12368867	Component
 36329	814504	GO:0006812	ISS	-	cation transport	12368867	Process
-36329	814504	GO:0015662	ISS	-	ion transmembrane transporter activity, phosphorylative mechanism	12368867	Function
+36329	814504	GO:0015662	ISS	-	P-type ion transporter activity	12368867	Function
 36329	814505	GO:0000151	ISS	-	ubiquitin ligase complex	12368867	Component
 36329	814505	GO:0004842	ISS	-	ubiquitin-protein transferase activity	12368867	Function
 36329	814505	GO:0006511	ISS	-	ubiquitin-dependent protein catabolic process	12368867	Process
@@ -4757,7 +4726,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	814508	GO:0003777	ISS	-	microtubule motor activity	12368867	Function
 36329	814508	GO:0005871	ISS	-	kinesin complex	12368867	Component
 36329	814508	GO:0007018	ISS	-	microtubule-based movement	12368867	Process
-36329	814508	GO:0016887	ISS	-	ATPase activity	12368867	Function
+36329	814508	GO:0016887	ISS	-	ATP hydrolysis activity	12368867	Function
 36329	814509	GO:0003723	ISS	-	RNA binding	12368867	Function
 36329	814510	GO:0003746	ISS	-	translation elongation factor activity	12368867	Function
 36329	814510	GO:0005853	ISS	-	eukaryotic translation elongation factor 1 complex	12368867	Component
@@ -4844,7 +4813,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	2654946	GO:0004842	IDA	-	ubiquitin-protein transferase activity	24830312	Function
 36329	2654946	GO:0005783	IDA	-	endoplasmic reticulum	24830312	Component
 36329	2654946	GO:0005794	IDA	-	Golgi apparatus	24830312	Component
-36329	2654946	GO:0042493	IDA	-	response to drug	24830312	Process
 36329	2654948	GO:0020002	TAS	-	host cell plasma membrane	11420100	Component
 36329	2654948	GO:0020013	TAS	-	modulation by symbiont of host erythrocyte aggregation	9230440	Process
 36329	2654948	GO:0020030	TAS	-	infected host cell surface knob	9291676	Component
@@ -4967,14 +4935,14 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	2655054	GO:0031362	IDA	-	anchored component of external side of plasma membrane	17253978	Component
 36329	2655054	GO:0046907	IDA	-	intracellular transport	17253978	Process
 36329	2655059	GO:0006270	ISS	-	DNA replication initiation	12368867	Process
-36329	2655059	GO:0008094	ISS	-	DNA-dependent ATPase activity	12368867	Function
+36329	2655059	GO:0008094	ISS	-	ATP-dependent activity, acting on DNA	12368867	Function
 36329	2655063	GO:0003899	ISS	-	DNA-directed 5'-3' RNA polymerase activity	12368867	Function
 36329	2655063	GO:0005665	ISS	-	RNA polymerase II, core complex	12368867	Component
 36329	2655063	GO:0006366	ISS	-	transcription by RNA polymerase II	12368867	Process
 36329	2655065	GO:0005515	IPI	-	protein binding	22100910	Function
 36329	2655065	GO:0006986	TAS	-	response to unfolded protein	-	Process
 36329	2655065	GO:0009408	TAS	-	response to heat	-	Process
-36329	2655065	GO:0016887	IDA	-	ATPase activity	22100910	Function
+36329	2655065	GO:0016887	IDA	-	ATP hydrolysis activity	22100910	Function
 36329	2655066	GO:0006986	TAS	-	response to unfolded protein	-	Process
 36329	2655066	GO:0009408	TAS	-	response to heat	-	Process
 36329	2655067	GO:0070258	ISO	-	inner membrane pellicle complex	25475193	Component
@@ -4999,7 +4967,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	2655094	GO:0005840	ISS	-	ribosome	12368867	Component
 36329	2655094	GO:0006412	ISS	-	translation	12368867	Process
 36329	2655095	GO:0010564	IDA	-	regulation of cell cycle process	19502583	Process
-36329	2655095	GO:0016887	IDA	-	ATPase activity	19502583	Function
+36329	2655095	GO:0016887	IDA	-	ATP hydrolysis activity	19502583	Function
 36329	2655095	GO:0020011	IDA	-	apicoplast	19502583	Component
 36329	2655095	GO:0030433	EXP	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	2655095	GO:0043130	TAS	-	ubiquitin binding	19502583	Function
@@ -5112,7 +5080,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	2655199	GO:0016020	TAS	-	membrane	15240840	Component
 36329	2655199	GO:0020020	IDA	-	food vacuole	11090624	Component
 36329	2655199	GO:0034635	IDA	-	glutathione transport	23256874	Process
-36329	2655199	GO:0042493	IDA	-	response to drug	15240840	Process
 36329	2655199	GO:0042910	IMP	-	xenobiotic transmembrane transporter activity	25378409	Function
 36329	2655200	GO:0000172	ISM	-	ribonuclease MRP complex	-	Component
 36329	2655200	GO:0004526	ISM	-	ribonuclease P activity	-	Function
@@ -5176,7 +5143,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	2655256	GO:0008270	ISS	-	zinc ion binding	12368867	Function
 36329	2655259	GO:0008426	ISS	-	protein kinase C inhibitor activity	12368867	Function
 36329	2655261	GO:0020005	IDA	-	symbiont-containing vacuole membrane	22819813	Component
-36329	2655262	GO:0016887	IDA	-	ATPase activity	23910910	Function
+36329	2655262	GO:0016887	IDA	-	ATP hydrolysis activity	23910910	Function
 36329	2655262	GO:0020011	IDA	-	apicoplast	20887733	Component
 36329	2655265	GO:0004148	IDA	-	dihydrolipoyl dehydrogenase activity	25387830	Function
 36329	2655265	GO:0006086	IMP	-	acetyl-CoA biosynthetic process from pyruvate	25387830	Process
@@ -5184,7 +5151,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	2655265	GO:0042803	IDA	-	protein homodimerization activity	15612914	Function
 36329	2655265	GO:0045254	ISS	-	pyruvate dehydrogenase complex	15612915	Component
 36329	2655266	GO:0010564	IDA	-	regulation of cell cycle process	19502583	Process
-36329	2655266	GO:0016887	IDA	-	ATPase activity	19502583	Function
+36329	2655266	GO:0016887	IDA	-	ATP hydrolysis activity	19502583	Function
 36329	2655266	GO:0020011	IDA	-	apicoplast	19502583	Component
 36329	2655266	GO:0030433	IDA	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	2655268	GO:0005643	ISS	-	nuclear pore	12368867	Component
@@ -5224,7 +5191,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	2655294	GO:0006761	ISS	-	dihydrofolate biosynthetic process	12368867	Process
 36329	2655295	GO:0003724	ISS	-	RNA helicase activity	12368867	Function
 36329	2655299	GO:0003678	IDA	-	DNA helicase activity	23219504	Function
-36329	2655299	GO:0016887	IDA	-	ATPase activity	23219504	Function
+36329	2655299	GO:0016887	IDA	-	ATP hydrolysis activity	23219504	Function
 36329	2655299	GO:0043139	IDA	-	5'-3' DNA helicase activity	23219504	Function
 36329	2655300	GO:0020011	RCA	-	apicoplast	11738814	Component
 36329	2655302	GO:0005515	IPI	-	protein binding	24983468	Function
@@ -5331,7 +5298,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	2655381	GO:0006417	ISS	-	regulation of translation	12368867	Process
 36329	2655384	GO:0000375	ISS	-	RNA splicing, via transesterification reactions	12368867	Process
 36329	2655384	GO:0005732	ISS	-	sno(s)RNA-containing ribonucleoprotein complex	12368867	Component
-36329	2655387	GO:0003774	IDA	-	motor activity	20421304	Function
+36329	2655387	GO:0003774	IDA	-	cytoskeletal motor activity	20421304	Function
 36329	2655387	GO:0005515	IPI	-	protein binding	20421304	Function
 36329	2655387	GO:0005737	IDA	-	cytoplasm	20421304	Component
 36329	2655394	GO:0004722	ISS	-	protein serine/threonine phosphatase activity	12368867	Function
@@ -5385,7 +5352,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	2655440	GO:0017070	ISS	-	U6 snRNA binding	12368867	Function
 36329	2655443	GO:0005783	ISS	-	endoplasmic reticulum	19502583	Component
 36329	2655443	GO:0010564	ISS	-	regulation of cell cycle process	19502583	Process
-36329	2655443	GO:0016887	ISS	-	ATPase activity	19502583	Function
+36329	2655443	GO:0016887	ISS	-	ATP hydrolysis activity	19502583	Function
 36329	2655443	GO:0030433	ISS	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	2655446	GO:0020020	RCA	-	food vacuole	21136929	Component
 36329	2655452	GO:0005783	IDA	-	endoplasmic reticulum	23950716	Component
@@ -5762,19 +5729,18 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	3885934	GO:0016021	ISS	-	integral component of membrane	12368867	Component
 36329	3885942	GO:0005783	ISS	-	endoplasmic reticulum	19502583	Component
 36329	3885942	GO:0010564	ISS	-	regulation of cell cycle process	19502583	Process
-36329	3885942	GO:0016887	ISS	-	ATPase activity	19502583	Function
+36329	3885942	GO:0016887	ISS	-	ATP hydrolysis activity	19502583	Function
 36329	3885942	GO:0030433	ISS	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	3885943	GO:0005324	ISS	-	long-chain fatty acid transporter activity	16860410	Function
 36329	3885943	GO:0006097	ISS	-	glyoxylate cycle	16860410	Process
 36329	3885948	GO:0005681	ISS	-	spliceosomal complex	12368867	Component
 36329	3885948	GO:0008380	ISS	-	RNA splicing	12368867	Process
 36329	3885965	GO:0005743	ISS	-	mitochondrial inner membrane	12368867	Component
-36329	3885965	GO:0016887	ISS	-	ATPase activity	12368867	Function
+36329	3885965	GO:0016887	ISS	-	ATP hydrolysis activity	12368867	Function
 36329	3885965	GO:0065003	ISS	-	protein-containing complex assembly	12368867	Process
 36329	3885966	GO:0004152	IDA	-	dihydroorotate dehydrogenase activity	8232427	Function
 36329	3885966	GO:0005743	IDA	-	mitochondrial inner membrane	7727509	Component
 36329	3885966	GO:0006207	IDA	-	'de novo' pyrimidine nucleobase biosynthetic process	8232427	Process
-36329	3885966	GO:0042493	IDA	-	response to drug	24782313	Process
 36329	3885968	GO:0046658	IDA	-	anchored component of plasma membrane	16603573	Component
 36329	3885969	GO:0003723	ISS	-	RNA binding	12368867	Function
 36329	3885969	GO:0005848	ISS	-	mRNA cleavage stimulating factor complex	12368867	Component
@@ -5945,7 +5911,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	9221780	GO:0005886	IDA	-	plasma membrane	24509910	Component
 36329	9221782	GO:0004672	ISS	-	protein kinase activity	12368867	Function
 36329	9221782	GO:0006468	ISS	-	protein phosphorylation	12368867	Process
-36329	9221783	GO:0042493	IDA	-	response to drug	22096101	Process
 36329	9221793	GO:0005488	ISS	-	binding	-	Function
 36329	9221793	GO:0006810	ISS	-	transport	-	Process
 36329	9221793	GO:0016020	ISS	-	membrane	-	Component
@@ -5959,7 +5924,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	9221804	GO:0006231	TAS	-	dTMP biosynthetic process	-	Process
 36329	9221804	GO:0006545	TAS	-	glycine biosynthetic process	-	Process
 36329	9221804	GO:0009165	TAS	-	nucleotide biosynthetic process	-	Process
-36329	9221804	GO:0042493	IDA	-	response to drug	12704428	Process
 36329	9221806	GO:0046488	ISM	-	phosphatidylinositol metabolic process	-	Process
 36329	9221806	GO:0052742	ISM	-	phosphatidylinositol kinase activity	-	Function
 36329	9221810	GO:0008201	IDA	-	heparin binding	24212193	Function
@@ -6041,7 +6005,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 36329	9222028	GO:0020036	IDA	-	Maurer's cleft	12477793	Component
 36329	36312467	GO:0010564	IDA	-	regulation of cell cycle process	19502583	Process
 36329	36312467	GO:0016021	IDA	-	integral component of membrane	19502583	Component
-36329	36312467	GO:0016887	IDA	-	ATPase activity	19502583	Function
+36329	36312467	GO:0016887	IDA	-	ATP hydrolysis activity	19502583	Function
 36329	36312467	GO:0020011	IDA	-	apicoplast	19502583	Component
 36329	36312467	GO:0030433	EXP	-	ubiquitin-dependent ERAD pathway	19502583	Process
 36329	36312480	GO:0006506	ISM	-	GPI anchor biosynthetic process	-	Process

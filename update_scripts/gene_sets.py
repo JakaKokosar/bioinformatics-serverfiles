@@ -1,6 +1,7 @@
 """ Gene sets update script """
 import os
 import io
+import slumber
 
 from zipfile import ZipFile
 from typing import Optional
@@ -232,7 +233,7 @@ if __name__ == "__main__":
 
         try:
             kegg_gene_sets(common_tax_id)
-        except taxonomy.utils.UnknownSpeciesIdentifier as e:
+        except (taxonomy.utils.UnknownSpeciesIdentifier, slumber.exceptions.HttpClientError):
             # KEGG organism code not found
             pass
         try:
