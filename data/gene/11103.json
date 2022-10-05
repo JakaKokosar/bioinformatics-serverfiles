@@ -15,7 +15,7 @@
     "full_name_from_nomenclature_authority": null,
     "nomenclature_status": null,
     "other_designations": [],
-    "modification_date": "20220101",
+    "modification_date": "20220507",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -163,7 +163,7 @@
     "other_designations": [
       "polyprotein;protein F"
     ],
-    "modification_date": "20211218",
+    "modification_date": "20220701",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -247,7 +247,7 @@
     "other_designations": [
       "polyprotein;protein F"
     ],
-    "modification_date": "20210422",
+    "modification_date": "20220802",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -289,7 +289,7 @@
     "other_designations": [
       "polyprotein;protein F"
     ],
-    "modification_date": "20210515",
+    "modification_date": "20220521",
     "homology_group_id": null,
     "homologs": {}
   },
@@ -331,7 +331,7 @@
     "other_designations": [
       "polyprotein;protein F"
     ],
-    "modification_date": "20190528",
+    "modification_date": "20220801",
     "homology_group_id": null,
     "homologs": {}
   },

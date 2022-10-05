@@ -1495,7 +1495,7 @@
             "Dd5P1"
         ],
         "phenotypes": [
-            "wild type",
+            "increased chemotaxis to cAMP",
             "decreased phagocytosis"
         ],
         "mutant_types": {
@@ -1514,7 +1514,7 @@
             "Dd5P2"
         ],
         "phenotypes": [
-            "wild type"
+            "increased chemotaxis to cAMP"
         ],
         "mutant_types": {
             "null": false,
@@ -1532,7 +1532,7 @@
             "Dd5P3"
         ],
         "phenotypes": [
-            "wild type"
+            "increased chemotaxis to cAMP"
         ],
         "mutant_types": {
             "null": false,
@@ -1549,7 +1549,7 @@
             "Dd5P2"
         ],
         "phenotypes": [
-            "wild type",
+            "increased chemotaxis to cAMP",
             "increased actin filament polymerization"
         ],
         "mutant_types": {
@@ -13838,8 +13838,8 @@
         ],
         "phenotypes": [
             "decreased protein tyrosine phosphorylation",
-            "decreased cAMP binding",
             "decreased protein kinase activity",
+            "abolished cAMP binding",
             "abolished oscillatory cAMP signaling",
             "abolished aggregation"
         ],
@@ -30914,7 +30914,7 @@
             "gapA"
         ],
         "phenotypes": [
-            "aberrant cellular response to fluid shear stress"
+            "decreased actin filament bundle assembly"
         ],
         "mutant_types": {
             "null": true,
@@ -31608,7 +31608,7 @@
     },
     {
         "systematic_name": "DBS0350449",
-        "strain_descriptor": "gefA-/dscB]:rasG(S17N)",
+        "strain_descriptor": "gefA-/[dscB]:rasG(S17N)",
         "associated_genes": [
             "gefA",
             "rasG"

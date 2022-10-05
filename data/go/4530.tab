@@ -1,104 +1,4 @@
 tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
-4536	2885880	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885881	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885881	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885882	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885883	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885884	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885885	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885886	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885886	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885887	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885887	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885888	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885888	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885889	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885891	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885892	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885892	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885893	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885893	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885895	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885896	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885896	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885897	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885898	GO:0005739	RCA	-	mitochondrion	-	Component
-4536	2885898	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885899	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885900	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885901	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885901	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885902	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885902	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885903	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885904	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885905	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885906	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885906	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885907	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885908	GO:0005739	RCA	-	mitochondrion	-	Component
-4536	2885908	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885909	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885910	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885910	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885911	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885911	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885912	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885912	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885913	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885913	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885914	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885915	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885916	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885917	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885918	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885919	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885919	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885920	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885921	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885921	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885922	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885923	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885924	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885925	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885925	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885926	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885927	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885927	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885928	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885930	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885931	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885932	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885937	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885938	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885938	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885939	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885941	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885942	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885943	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885944	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885945	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885947	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885949	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885950	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885951	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885952	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885952	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885953	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885954	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885955	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885956	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885956	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	2885957	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885958	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885960	GO:0005739	RCA	-	mitochondrion	-	Component
-4536	2885960	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885961	GO:0005739	RCA	-	mitochondrion	-	Component
-4536	2885961	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885962	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885963	GO:0009536	IC	-	plastid	12520024	Component
-4536	2885963	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-4536	3276630	GO:0009536	IC	-	plastid	12520024	Component
 39946	3950675	GO:0005739	IC	-	mitochondrion	12520024	Component
 39946	3950679	GO:0005739	IC	-	mitochondrion	12520024	Component
 39946	3950679	GO:0016020	RCA	-	membrane	-	Component
@@ -360,7 +260,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	3131432	GO:0003899	RCA	-	DNA-directed 5'-3' RNA polymerase activity	-	Function
 39947	3131432	GO:0005739	IC	-	mitochondrion	12520024	Component
 39947	3131432	GO:0005739	ISS	-	mitochondrion	8437578|8790296	Component
-39947	3131432	GO:0006351	RCA	-	transcription, DNA-templated	-	Process
+39947	3131432	GO:0006351	RCA	-	DNA-templated transcription	-	Process
 39947	3131432	GO:0009536	IC	-	plastid	12520024	Component
 39947	3131433	GO:0009536	IC	-	plastid	12520024	Component
 39947	3131434	GO:0009536	IC	-	plastid	12520024	Component
@@ -451,7 +351,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	3131470	GO:0009536	IC	-	plastid	12520024	Component
 39947	3131470	GO:0009536	ISS	-	plastid	2770692	Component
 39947	3131470	GO:0016020	RCA	-	membrane	-	Component
-39947	3131470	GO:0016021	RCA	-	integral component of membrane	-	Component
 39947	3131470	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	3131471	GO:0009536	IC	-	plastid	12520024	Component
 39947	3131471	GO:0009536	ISS	-	plastid	2770692	Component
@@ -509,7 +408,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4324059	GO:0009536	RCA	-	plastid	-	Component
 39947	4324060	GO:0009536	RCA	-	plastid	-	Component
 39947	4324065	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4324065	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4324065	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4324065	GO:0009536	IC	-	plastid	-	Component
 39947	4324065	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4324085	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -528,7 +427,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4324158	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4324158	GO:0003700	RCA	-	DNA-binding transcription factor activity	-	Function
 39947	4324158	GO:0005634	RCA	-	nucleus	-	Component
-39947	4324158	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4324158	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4324163	GO:0016020	RCA	-	membrane	-	Component
 39947	4324165	GO:0008152	RCA	-	metabolic process	-	Process
 39947	4324165	GO:0016758	RCA	-	hexosyltransferase activity	-	Function
@@ -569,7 +468,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4324321	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4324323	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4324327	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4324327	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4324327	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4324327	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4324330	GO:0009536	RCA	-	plastid	-	Component
 39947	4324344	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -684,7 +583,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4324856	GO:0000160	RCA	-	phosphorelay signal transduction system	-	Process
 39947	4324856	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4324856	GO:0005525	RCA	-	GTP binding	-	Function
-39947	4324856	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4324856	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4324856	GO:0007264	RCA	-	small GTPase mediated signal transduction	-	Process
 39947	4324857	GO:0009536	RCA	-	plastid	-	Component
 39947	4324858	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -762,8 +661,8 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4325061	GO:0003700	IDA	-	DNA-binding transcription factor activity	18236009	Function
 39947	4325061	GO:0005634	IMP	-	nucleus	18236009	Component
 39947	4325061	GO:0005634	RCA	-	nucleus	-	Component
-39947	4325061	GO:0006355	IDA	-	regulation of transcription, DNA-templated	18236009	Process
-39947	4325061	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4325061	GO:0006355	IDA	-	regulation of DNA-templated transcription	18236009	Process
+39947	4325061	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4325061	GO:0009409	IC	-	response to cold	-	Process
 39947	4325061	GO:0009409	IMP	-	response to cold	18236009	Process
 39947	4325061	GO:0009414	IC	-	response to water deprivation	-	Process
@@ -801,7 +700,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4325154	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4325168	GO:0009536	RCA	-	plastid	-	Component
 39947	4325174	GO:0004842	RCA	-	ubiquitin-protein transferase activity	-	Function
-39947	4325174	GO:0006464	RCA	-	cellular protein modification process	-	Process
 39947	4325174	GO:0016579	RCA	-	protein deubiquitination	-	Process
 39947	4325180	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4325181	GO:0009536	RCA	-	plastid	-	Component
@@ -916,7 +814,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4325596	GO:0008233	RCA	-	peptidase activity	-	Function
 39947	4325596	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4325601	GO:0009536	RCA	-	plastid	-	Component
-39947	4325604	GO:0006520	RCA	-	cellular amino acid metabolic process	-	Process
+39947	4325604	GO:0006520	RCA	-	amino acid metabolic process	-	Process
 39947	4325604	GO:0016831	RCA	-	carboxy-lyase activity	-	Function
 39947	4325609	GO:0009536	RCA	-	plastid	-	Component
 39947	4325616	GO:0016020	RCA	-	membrane	-	Component
@@ -925,7 +823,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4325621	GO:0004069	RCA	-	L-aspartate:2-oxoglutarate aminotransferase activity	-	Function
 39947	4325621	GO:0005737	ISS	-	cytoplasm	9039500	Component
 39947	4325621	GO:0006099	ISS	-	tricarboxylic acid cycle	9039500	Process
-39947	4325621	GO:0006520	RCA	-	cellular amino acid metabolic process	-	Process
+39947	4325621	GO:0006520	RCA	-	amino acid metabolic process	-	Process
 39947	4325621	GO:0006522	ISS	-	alanine metabolic process	9039500	Process
 39947	4325621	GO:0006531	ISS	-	aspartate metabolic process	9039500	Process
 39947	4325621	GO:0006807	ISS	-	nitrogen compound metabolic process	9039500	Process
@@ -954,7 +852,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4325741	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4325743	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4325747	GO:0003677	RCA	-	DNA binding	-	Function
-39947	4325747	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4325747	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4325749	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4325753	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4325753	GO:0016020	RCA	-	membrane	-	Component
@@ -995,7 +893,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4325880	GO:0009536	RCA	-	plastid	-	Component
 39947	4325900	GO:0016020	RCA	-	membrane	-	Component
 39947	4325905	GO:0004842	RCA	-	ubiquitin-protein transferase activity	-	Function
-39947	4325905	GO:0006464	RCA	-	cellular protein modification process	-	Process
 39947	4325905	GO:0016579	RCA	-	protein deubiquitination	-	Process
 39947	4325914	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4325920	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -1014,7 +911,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4325976	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4325981	GO:0003700	RCA	-	DNA-binding transcription factor activity	-	Function
 39947	4325981	GO:0005634	RCA	-	nucleus	-	Component
-39947	4325981	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4325981	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4325983	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4325984	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4325986	GO:0009536	RCA	-	plastid	-	Component
@@ -1108,7 +1005,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4326310	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4326311	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4326315	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4326315	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4326315	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4326315	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4326321	GO:0000160	RCA	-	phosphorelay signal transduction system	-	Process
 39947	4326326	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -1127,7 +1024,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4326365	GO:0005215	RCA	-	transporter activity	-	Function
 39947	4326365	GO:0006810	RCA	-	transport	-	Process
 39947	4326365	GO:0016020	RCA	-	membrane	-	Component
-39947	4326365	GO:0016021	RCA	-	integral component of membrane	-	Component
 39947	4326374	GO:0009536	RCA	-	plastid	-	Component
 39947	4326375	GO:0008152	RCA	-	metabolic process	-	Process
 39947	4326375	GO:0016491	RCA	-	oxidoreductase activity	-	Function
@@ -1285,7 +1181,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4326868	GO:0016020	RCA	-	membrane	-	Component
 39947	4326871	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4326871	GO:0005634	RCA	-	nucleus	-	Component
-39947	4326871	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4326871	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4326871	GO:0009536	RCA	-	plastid	-	Component
 39947	4326874	GO:0004601	RCA	-	peroxidase activity	-	Function
 39947	4326874	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -1312,7 +1208,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4326956	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4326958	GO:0004072	RCA	-	aspartate kinase activity	-	Function
 39947	4326958	GO:0005739	RCA	-	mitochondrion	-	Component
-39947	4326958	GO:0008652	RCA	-	cellular amino acid biosynthetic process	-	Process
+39947	4326958	GO:0008652	RCA	-	amino acid biosynthetic process	-	Process
 39947	4326980	GO:0005737	RCA	-	cytoplasm	-	Component
 39947	4326980	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4326980	GO:0015036	RCA	-	disulfide oxidoreductase activity	-	Function
@@ -1377,11 +1273,10 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4327145	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4327149	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4327162	GO:0004842	RCA	-	ubiquitin-protein transferase activity	-	Function
-39947	4327162	GO:0006464	RCA	-	cellular protein modification process	-	Process
 39947	4327162	GO:0016579	RCA	-	protein deubiquitination	-	Process
 39947	4327165	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4327165	GO:0005634	RCA	-	nucleus	-	Component
-39947	4327165	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4327165	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4327172	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4327177	GO:0009536	RCA	-	plastid	-	Component
 39947	4327179	GO:0009536	RCA	-	plastid	-	Component
@@ -1399,7 +1294,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4327232	GO:0008152	RCA	-	metabolic process	-	Process
 39947	4327235	GO:0009536	RCA	-	plastid	-	Component
 39947	4327237	GO:0004842	RCA	-	ubiquitin-protein transferase activity	-	Function
-39947	4327237	GO:0006464	RCA	-	cellular protein modification process	-	Process
 39947	4327237	GO:0016579	RCA	-	protein deubiquitination	-	Process
 39947	4327239	GO:0009536	RCA	-	plastid	-	Component
 39947	4327240	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -1495,7 +1389,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4327619	GO:0009536	RCA	-	plastid	-	Component
 39947	4327621	GO:0003700	RCA	-	DNA-binding transcription factor activity	-	Function
 39947	4327621	GO:0005634	RCA	-	nucleus	-	Component
-39947	4327621	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4327621	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4327627	GO:0009536	RCA	-	plastid	-	Component
 39947	4327637	GO:0009536	RCA	-	plastid	-	Component
 39947	4327638	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -1514,7 +1408,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4327673	GO:0009536	RCA	-	plastid	-	Component
 39947	4327675	GO:0016020	RCA	-	membrane	-	Component
 39947	4327679	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4327679	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4327679	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4327679	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4327680	GO:0009536	RCA	-	plastid	-	Component
 39947	4327682	GO:0016020	RCA	-	membrane	-	Component
@@ -1668,7 +1562,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4328468	GO:0016020	RCA	-	membrane	-	Component
 39947	4328469	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4328469	GO:0005634	RCA	-	nucleus	-	Component
-39947	4328469	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4328469	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4328473	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4328477	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4328480	GO:0016020	RCA	-	membrane	-	Component
@@ -1677,7 +1571,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4328506	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4328512	GO:0003700	IDA	-	DNA-binding transcription factor activity	15047897	Function
 39947	4328512	GO:0005634	IDA	-	nucleus	15047897|16919842	Component
-39947	4328512	GO:0006355	IDA	-	regulation of transcription, DNA-templated	15047897	Process
+39947	4328512	GO:0006355	IDA	-	regulation of DNA-templated transcription	15047897	Process
 39947	4328512	GO:0006952	IMP	-	defense response	16919842	Process
 39947	4328512	GO:0009685	IEP	-	gibberellin metabolic process	15047897	Process
 39947	4328512	GO:0043565	IC	-	sequence-specific DNA binding	-	Function
@@ -1940,7 +1834,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4330178	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4330181	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4330181	GO:0005525	RCA	-	GTP binding	-	Function
-39947	4330181	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4330181	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4330181	GO:0007264	RCA	-	small GTPase mediated signal transduction	-	Process
 39947	4330181	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4330182	GO:0003824	RCA	-	catalytic activity	-	Function
@@ -1949,15 +1843,15 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4330182	GO:0009536	RCA	-	plastid	-	Component
 39947	4330189	GO:0003700	RCA	-	DNA-binding transcription factor activity	-	Function
 39947	4330189	GO:0005634	RCA	-	nucleus	-	Component
-39947	4330189	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4330189	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4330191	GO:0003700	RCA	-	DNA-binding transcription factor activity	-	Function
 39947	4330191	GO:0005634	RCA	-	nucleus	-	Component
-39947	4330191	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4330191	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4330192	GO:0009536	RCA	-	plastid	-	Component
 39947	4330201	GO:0051082	RCA	-	unfolded protein binding	-	Function
 39947	4330202	GO:0003700	RCA	-	DNA-binding transcription factor activity	-	Function
 39947	4330202	GO:0005634	RCA	-	nucleus	-	Component
-39947	4330202	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4330202	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4330202	GO:0009536	RCA	-	plastid	-	Component
 39947	4330207	GO:0005215	RCA	-	transporter activity	-	Function
 39947	4330207	GO:0006810	RCA	-	transport	-	Process
@@ -2004,7 +1898,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4330453	GO:0009536	RCA	-	plastid	-	Component
 39947	4330453	GO:0016020	RCA	-	membrane	-	Component
 39947	4330462	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4330462	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4330462	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4330462	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4330465	GO:0000166	RCA	-	nucleotide binding	-	Function
 39947	4330465	GO:0005524	RCA	-	ATP binding	-	Function
@@ -2241,7 +2135,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4331470	GO:0009536	RCA	-	plastid	-	Component
 39947	4331479	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4331479	GO:0005634	RCA	-	nucleus	-	Component
-39947	4331479	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4331479	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4331483	GO:0016020	RCA	-	membrane	-	Component
 39947	4331483	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4331485	GO:0016020	RCA	-	membrane	-	Component
@@ -2254,7 +2148,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4331492	GO:0016020	RCA	-	membrane	-	Component
 39947	4331493	GO:0008219	RCA	-	cell death	-	Process
 39947	4331493	GO:0016020	RCA	-	membrane	-	Component
-39947	4331493	GO:0016021	RCA	-	integral component of membrane	-	Component
 39947	4331495	GO:0004365	RCA	-	glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity	-	Function
 39947	4331495	GO:0006096	RCA	-	glycolytic process	-	Process
 39947	4331495	GO:0009536	RCA	-	plastid	-	Component
@@ -2307,7 +2200,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4331637	GO:0016020	RCA	-	membrane	-	Component
 39947	4331646	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4331646	GO:0005525	RCA	-	GTP binding	-	Function
-39947	4331646	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4331646	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4331646	GO:0007264	RCA	-	small GTPase mediated signal transduction	-	Process
 39947	4331646	GO:0015031	RCA	-	protein transport	-	Process
 39947	4331651	GO:0009536	RCA	-	plastid	-	Component
@@ -2357,7 +2250,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4331773	GO:0009536	RCA	-	plastid	-	Component
 39947	4331774	GO:0003700	RCA	-	DNA-binding transcription factor activity	-	Function
 39947	4331774	GO:0005634	RCA	-	nucleus	-	Component
-39947	4331774	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4331774	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4331775	GO:0016020	RCA	-	membrane	-	Component
 39947	4331779	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4331784	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -2454,7 +2347,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4332155	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4332156	GO:0003700	RCA	-	DNA-binding transcription factor activity	-	Function
 39947	4332156	GO:0005634	RCA	-	nucleus	-	Component
-39947	4332156	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4332156	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4332158	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4332160	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4332160	GO:0016020	RCA	-	membrane	-	Component
@@ -2474,7 +2367,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4332198	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4332201	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4332201	GO:0005634	RCA	-	nucleus	-	Component
-39947	4332201	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4332201	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4332204	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4332205	GO:0016020	RCA	-	membrane	-	Component
 39947	4332205	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -2717,7 +2610,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4332948	GO:0016020	RCA	-	membrane	-	Component
 39947	4332954	GO:0016020	RCA	-	membrane	-	Component
 39947	4332955	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-39947	4332956	GO:0006520	RCA	-	cellular amino acid metabolic process	-	Process
+39947	4332956	GO:0006520	RCA	-	amino acid metabolic process	-	Process
 39947	4332956	GO:0009536	RCA	-	plastid	-	Component
 39947	4332956	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4332957	GO:0009536	RCA	-	plastid	-	Component
@@ -2904,14 +2797,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4333686	GO:0016020	RCA	-	membrane	-	Component
 39947	4333686	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4333691	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4333691	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4333691	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4333691	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4333694	GO:0009536	RCA	-	plastid	-	Component
 39947	4333703	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4333710	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4333719	GO:0009536	RCA	-	plastid	-	Component
 39947	4333728	GO:0004842	RCA	-	ubiquitin-protein transferase activity	-	Function
-39947	4333728	GO:0006464	RCA	-	cellular protein modification process	-	Process
 39947	4333728	GO:0016579	RCA	-	protein deubiquitination	-	Process
 39947	4333734	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4333736	GO:0003824	RCA	-	catalytic activity	-	Function
@@ -2990,7 +2882,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4333978	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4333980	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4333984	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4333984	GO:0006355	IC	-	regulation of transcription, DNA-templated	-	Process
+39947	4333984	GO:0006355	IC	-	regulation of DNA-templated transcription	-	Process
 39947	4333984	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4333986	GO:0016020	RCA	-	membrane	-	Component
 39947	4333988	GO:0009536	RCA	-	plastid	-	Component
@@ -3015,7 +2907,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4334088	GO:0009536	RCA	-	plastid	-	Component
 39947	4334089	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4334099	GO:0003677	RCA	-	DNA binding	-	Function
-39947	4334099	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4334099	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4334099	GO:0008080	RCA	-	N-acetyltransferase activity	-	Function
 39947	4334100	GO:0009536	RCA	-	plastid	-	Component
 39947	4334102	GO:0005524	RCA	-	ATP binding	-	Function
@@ -3096,7 +2988,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4334293	GO:0009536	RCA	-	plastid	-	Component
 39947	4334298	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4334298	GO:0005634	RCA	-	nucleus	-	Component
-39947	4334298	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4334298	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4334301	GO:0016020	RCA	-	membrane	-	Component
 39947	4334306	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4334311	GO:0016020	RCA	-	membrane	-	Component
@@ -3124,7 +3016,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4334423	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4334424	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4334424	GO:0005634	RCA	-	nucleus	-	Component
-39947	4334424	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4334424	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4334436	GO:0009536	RCA	-	plastid	-	Component
 39947	4334436	GO:0016020	RCA	-	membrane	-	Component
 39947	4334443	GO:0016020	RCA	-	membrane	-	Component
@@ -3268,7 +3160,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4335058	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4335058	GO:0004673	RCA	-	protein histidine kinase activity	-	Function
 39947	4335058	GO:0005524	RCA	-	ATP binding	-	Function
-39947	4335058	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4335058	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4335058	GO:0007165	RCA	-	signal transduction	-	Process
 39947	4335058	GO:0016020	RCA	-	membrane	-	Component
 39947	4335058	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -3426,7 +3318,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4335957	GO:0009536	RCA	-	plastid	-	Component
 39947	4335965	GO:0009536	RCA	-	plastid	-	Component
 39947	4335965	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-39947	4335977	GO:0006520	RCA	-	cellular amino acid metabolic process	-	Process
+39947	4335977	GO:0006520	RCA	-	amino acid metabolic process	-	Process
 39947	4335977	GO:0016831	RCA	-	carboxy-lyase activity	-	Function
 39947	4335980	GO:0009536	RCA	-	plastid	-	Component
 39947	4335984	GO:0004497	RCA	-	monooxygenase activity	-	Function
@@ -3607,7 +3499,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4336684	GO:0016020	RCA	-	membrane	-	Component
 39947	4336685	GO:0005634	IC	-	nucleus	16896230	Component
 39947	4336685	GO:0005739	RCA	-	mitochondrion	-	Component
-39947	4336685	GO:0006355	IC	-	regulation of transcription, DNA-templated	1847888	Process
+39947	4336685	GO:0006355	IC	-	regulation of DNA-templated transcription	1847888	Process
 39947	4336685	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4336696	GO:0016020	RCA	-	membrane	-	Component
 39947	4336712	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -3860,7 +3752,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4337699	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4337699	GO:0005634	IDA	-	nucleus	16051676	Component
 39947	4337699	GO:0005634	RCA	-	nucleus	-	Component
-39947	4337699	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4337699	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4337699	GO:0009536	RCA	-	plastid	-	Component
 39947	4337711	GO:0009536	RCA	-	plastid	-	Component
 39947	4337713	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -3929,7 +3821,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4338151	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4338154	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4338155	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4338155	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4338155	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4338155	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4338160	GO:0009536	RCA	-	plastid	-	Component
 39947	4338168	GO:0009536	RCA	-	plastid	-	Component
@@ -4368,7 +4260,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4340269	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4340271	GO:0009536	RCA	-	plastid	-	Component
 39947	4340273	GO:0005739	RCA	-	mitochondrion	-	Component
-39947	4340283	GO:0006520	RCA	-	cellular amino acid metabolic process	-	Process
+39947	4340283	GO:0006520	RCA	-	amino acid metabolic process	-	Process
 39947	4340283	GO:0009536	RCA	-	plastid	-	Component
 39947	4340299	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4340304	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -4376,7 +4268,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4340310	GO:0003677	IC	-	DNA binding	-	Function
 39947	4340310	GO:0003700	IC	-	DNA-binding transcription factor activity	-	Function
 39947	4340310	GO:0003700	ISS	-	DNA-binding transcription factor activity	15247409	Function
-39947	4340310	GO:0006355	ISS	-	regulation of transcription, DNA-templated	15247409	Process
+39947	4340310	GO:0006355	ISS	-	regulation of DNA-templated transcription	15247409	Process
 39947	4340310	GO:0009901	IMP	-	anther dehiscence	15247409	Process
 39947	4340310	GO:0010152	IMP	-	pollen maturation	15247409	Process
 39947	4340310	GO:0043067	IMP	-	regulation of programmed cell death	15247409	Process
@@ -4583,7 +4475,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4341249	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4341252	GO:0004069	RCA	-	L-aspartate:2-oxoglutarate aminotransferase activity	-	Function
 39947	4341252	GO:0005739	RCA	-	mitochondrion	-	Component
-39947	4341252	GO:0006520	RCA	-	cellular amino acid metabolic process	-	Process
+39947	4341252	GO:0006520	RCA	-	amino acid metabolic process	-	Process
 39947	4341252	GO:0008483	RCA	-	transaminase activity	-	Function
 39947	4341258	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4341281	GO:0016020	RCA	-	membrane	-	Component
@@ -4659,7 +4551,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4341661	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4341661	GO:0003700	RCA	-	DNA-binding transcription factor activity	-	Function
 39947	4341661	GO:0005634	RCA	-	nucleus	-	Component
-39947	4341661	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4341661	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4341663	GO:0009536	RCA	-	plastid	-	Component
 39947	4341663	GO:0016020	RCA	-	membrane	-	Component
 39947	4341667	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -4673,7 +4565,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4341697	GO:0009536	RCA	-	plastid	-	Component
 39947	4341697	GO:0016020	RCA	-	membrane	-	Component
 39947	4341704	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4341704	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4341704	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4341704	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4341713	GO:0009536	RCA	-	plastid	-	Component
 39947	4341714	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -4859,7 +4751,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4342569	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4342570	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4342570	GO:0005634	RCA	-	nucleus	-	Component
-39947	4342570	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4342570	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4342573	GO:0009536	RCA	-	plastid	-	Component
 39947	4342594	GO:0004674	RCA	-	protein serine/threonine kinase activity	-	Function
 39947	4342594	GO:0005524	RCA	-	ATP binding	-	Function
@@ -4908,7 +4800,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4342783	GO:0016020	RCA	-	membrane	-	Component
 39947	4342787	GO:0003700	IC	-	DNA-binding transcription factor activity	-	Function
 39947	4342787	GO:0005634	IC	-	nucleus	-	Component
-39947	4342787	GO:0006355	IC	-	regulation of transcription, DNA-templated	-	Process
+39947	4342787	GO:0006355	IC	-	regulation of DNA-templated transcription	-	Process
 39947	4342787	GO:0010022	IC	-	meristem determinacy	-	Process
 39947	4342787	GO:0010077	IC	-	maintenance of inflorescence meristem identity	-	Process
 39947	4342787	GO:0010092	IC	-	specification of animal organ identity	-	Process
@@ -5001,7 +4893,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4343286	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4343288	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4343288	GO:0005754	IC	-	mitochondrial proton-transporting ATP synthase, catalytic core	-	Component
-39947	4343288	GO:0015986	IC	-	ATP synthesis coupled proton transport	-	Process
+39947	4343288	GO:0015986	IC	-	proton motive force-driven ATP synthesis	-	Process
 39947	4343288	GO:0046933	IC	-	proton-transporting ATP synthase activity, rotational mechanism	-	Function
 39947	4343294	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4343297	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -5215,7 +5107,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4344347	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4344349	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4344349	GO:0005634	RCA	-	nucleus	-	Component
-39947	4344349	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4344349	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4344356	GO:0009536	RCA	-	plastid	-	Component
 39947	4344358	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4344360	GO:0009536	RCA	-	plastid	-	Component
@@ -5297,7 +5189,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4344834	GO:0006810	RCA	-	transport	-	Process
 39947	4344834	GO:0009536	RCA	-	plastid	-	Component
 39947	4344834	GO:0016020	RCA	-	membrane	-	Component
-39947	4344834	GO:0016021	RCA	-	integral component of membrane	-	Component
 39947	4344836	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4344837	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4344838	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -5445,7 +5336,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4345873	GO:0005524	RCA	-	ATP binding	-	Function
 39947	4345873	GO:0006468	RCA	-	protein phosphorylation	-	Process
 39947	4345892	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4345892	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4345892	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4345892	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4345902	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4345926	GO:0004129	IC	-	cytochrome-c oxidase activity	-	Function
@@ -5568,14 +5459,13 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4346642	GO:0004812	RCA	-	aminoacyl-tRNA ligase activity	-	Function
 39947	4346642	GO:0005524	RCA	-	ATP binding	-	Function
 39947	4346642	GO:0006418	RCA	-	tRNA aminoacylation for protein translation	-	Process
-39947	4346642	GO:0008652	RCA	-	cellular amino acid biosynthetic process	-	Process
+39947	4346642	GO:0008652	RCA	-	amino acid biosynthetic process	-	Process
 39947	4346647	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4346650	GO:0009536	RCA	-	plastid	-	Component
 39947	4346653	GO:0005215	RCA	-	transporter activity	-	Function
 39947	4346653	GO:0006810	RCA	-	transport	-	Process
 39947	4346653	GO:0009536	RCA	-	plastid	-	Component
 39947	4346653	GO:0016020	RCA	-	membrane	-	Component
-39947	4346653	GO:0016021	RCA	-	integral component of membrane	-	Component
 39947	4346662	GO:0016020	RCA	-	membrane	-	Component
 39947	4346676	GO:0009536	RCA	-	plastid	-	Component
 39947	4346680	GO:0016020	RCA	-	membrane	-	Component
@@ -5657,7 +5547,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4347141	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4347142	GO:0003700	RCA	-	DNA-binding transcription factor activity	-	Function
 39947	4347142	GO:0005634	RCA	-	nucleus	-	Component
-39947	4347142	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4347142	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4347143	GO:0009536	RCA	-	plastid	-	Component
 39947	4347152	GO:0016020	RCA	-	membrane	-	Component
 39947	4347153	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -5690,7 +5580,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4347242	GO:0009536	RCA	-	plastid	-	Component
 39947	4347249	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4347252	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4347252	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4347252	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4347252	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4347253	GO:0009536	RCA	-	plastid	-	Component
 39947	4347261	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -5964,7 +5854,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4348255	GO:0009536	RCA	-	plastid	-	Component
 39947	4348259	GO:0016020	RCA	-	membrane	-	Component
 39947	4348269	GO:0004842	RCA	-	ubiquitin-protein transferase activity	-	Function
-39947	4348269	GO:0006464	RCA	-	cellular protein modification process	-	Process
 39947	4348269	GO:0016579	RCA	-	protein deubiquitination	-	Process
 39947	4348273	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4348274	GO:0016020	RCA	-	membrane	-	Component
@@ -6004,7 +5893,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4348447	GO:0000160	RCA	-	phosphorelay signal transduction system	-	Process
 39947	4348447	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4348447	GO:0005524	RCA	-	ATP binding	-	Function
-39947	4348447	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4348447	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4348447	GO:0007165	RCA	-	signal transduction	-	Process
 39947	4348447	GO:0016020	RCA	-	membrane	-	Component
 39947	4348447	GO:0016301	RCA	-	kinase activity	-	Function
@@ -6018,7 +5907,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4348493	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4348496	GO:0009536	RCA	-	plastid	-	Component
 39947	4348498	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
-39947	4348505	GO:0006520	RCA	-	cellular amino acid metabolic process	-	Process
+39947	4348505	GO:0006520	RCA	-	amino acid metabolic process	-	Process
 39947	4348505	GO:0016831	RCA	-	carboxy-lyase activity	-	Function
 39947	4348507	GO:0009536	RCA	-	plastid	-	Component
 39947	4348519	GO:0009536	RCA	-	plastid	-	Component
@@ -6031,7 +5920,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4348546	GO:0009536	RCA	-	plastid	-	Component
 39947	4348558	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4348560	GO:0005739	RCA	-	mitochondrion	-	Component
-39947	4348560	GO:0006520	RCA	-	cellular amino acid metabolic process	-	Process
+39947	4348560	GO:0006520	RCA	-	amino acid metabolic process	-	Process
 39947	4348571	GO:0009536	RCA	-	plastid	-	Component
 39947	4348576	GO:0009536	RCA	-	plastid	-	Component
 39947	4348579	GO:0004674	RCA	-	protein serine/threonine kinase activity	-	Function
@@ -6129,7 +6018,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4348919	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4348919	GO:0003700	RCA	-	DNA-binding transcription factor activity	-	Function
 39947	4348919	GO:0005634	RCA	-	nucleus	-	Component
-39947	4348919	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4348919	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4348933	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4348935	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4348938	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -6233,7 +6122,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4349267	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4349267	GO:0051707	RCA	-	response to other organism	-	Process
 39947	4349271	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4349271	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4349271	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4349271	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4349273	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4349276	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -6277,7 +6166,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4349345	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	4349348	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4349351	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4349351	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4349351	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4349351	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4349358	GO:0009536	RCA	-	plastid	-	Component
 39947	4349373	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -6316,7 +6205,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4349475	GO:0005743	RCA	-	mitochondrial inner membrane	-	Component
 39947	4349475	GO:0006810	RCA	-	transport	-	Process
 39947	4349484	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4349484	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4349484	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4349484	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4349490	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4349491	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -6524,7 +6413,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4350218	GO:0009536	RCA	-	plastid	-	Component
 39947	4350219	GO:0009536	RCA	-	plastid	-	Component
 39947	4350228	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4350228	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4350228	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4350228	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4350236	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4350239	GO:0016020	RCA	-	membrane	-	Component
@@ -6669,11 +6558,11 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4350836	GO:0016020	RCA	-	membrane	-	Component
 39947	4350844	GO:0009536	RCA	-	plastid	-	Component
 39947	4350864	GO:0005634	IC	-	nucleus	16896230	Component
-39947	4350864	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	4350864	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	4350864	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	4350865	GO:0003677	RCA	-	DNA binding	-	Function
 39947	4350865	GO:0005634	RCA	-	nucleus	-	Component
-39947	4350865	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4350865	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4350871	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	4350873	GO:0009536	RCA	-	plastid	-	Component
 39947	4350893	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -6749,7 +6638,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	4351240	GO:0004672	RCA	-	protein kinase activity	-	Function
 39947	4351240	GO:0004674	RCA	-	protein serine/threonine kinase activity	-	Function
 39947	4351240	GO:0005524	RCA	-	ATP binding	-	Function
-39947	4351240	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	4351240	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	4351240	GO:0006468	RCA	-	protein phosphorylation	-	Process
 39947	4351240	GO:0007165	RCA	-	signal transduction	-	Process
 39947	4351246	GO:0005739	RCA	-	mitochondrion	-	Component
@@ -7333,7 +7222,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	6450195	GO:0005739	IC	-	mitochondrion	12520024	Component
 39947	6450195	GO:0005739	ISS	-	mitochondrion	2148966|7682174|7915966	Component
 39947	6450195	GO:0016020	RCA	-	membrane	-	Component
-39947	6450195	GO:0042776	IC	-	mitochondrial ATP synthesis coupled proton transport	-	Process
+39947	6450195	GO:0042776	IC	-	proton motive force-driven mitochondrial ATP synthesis	-	Process
 39947	6450195	GO:1902600	IC	-	proton transmembrane transport	-	Process
 39947	6450195	GO:1902600	RCA	-	proton transmembrane transport	-	Process
 39947	6450196	GO:0005739	IC	-	mitochondrion	12520024	Component
@@ -7516,7 +7405,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	9268243	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	9268250	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	9268260	GO:0003677	RCA	-	DNA binding	-	Function
-39947	9268260	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	9268260	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	9268261	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	9268269	GO:0009536	RCA	-	plastid	-	Component
 39947	9268279	GO:0000170	IDA	-	sphingosine hydroxylase activity	17609219	Function
@@ -7751,7 +7640,6 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	9271816	GO:0005385	IC	-	zinc ion transmembrane transporter activity	-	Function
 39947	9271816	GO:0006829	IC	-	zinc ion transport	-	Process
 39947	9271816	GO:0016020	RCA	-	membrane	-	Component
-39947	9271816	GO:0016021	IC	-	integral component of membrane	-	Component
 39947	9271876	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	9271877	GO:0009536	RCA	-	plastid	-	Component
 39947	9271894	GO:0004674	RCA	-	protein serine/threonine kinase activity	-	Function
@@ -7839,7 +7727,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	107275346	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	107275362	GO:0003700	RCA	-	DNA-binding transcription factor activity	-	Function
 39947	107275362	GO:0005634	RCA	-	nucleus	-	Component
-39947	107275362	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	107275362	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	107275368	GO:0016020	RCA	-	membrane	-	Component
 39947	107275368	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	107275370	GO:0016020	RCA	-	membrane	-	Component
@@ -7877,7 +7765,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	107275535	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	107275538	GO:0009536	RCA	-	plastid	-	Component
 39947	107275552	GO:0005634	IC	-	nucleus	16896230	Component
-39947	107275552	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	107275552	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	107275552	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	107275570	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	107275589	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -7994,7 +7882,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	107276350	GO:0016020	RCA	-	membrane	-	Component
 39947	107276354	GO:0003700	RCA	-	DNA-binding transcription factor activity	-	Function
 39947	107276354	GO:0005634	RCA	-	nucleus	-	Component
-39947	107276354	GO:0006355	RCA	-	regulation of transcription, DNA-templated	-	Process
+39947	107276354	GO:0006355	RCA	-	regulation of DNA-templated transcription	-	Process
 39947	107276359	GO:0005739	RCA	-	mitochondrion	-	Component
 39947	107276375	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	107276401	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
@@ -8062,7 +7950,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	107277049	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	107277076	GO:0031410	RCA	-	cytoplasmic vesicle	-	Component
 39947	107277078	GO:0005634	IC	-	nucleus	16896230	Component
-39947	107277078	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	107277078	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	107277078	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	107277087	GO:0004674	RCA	-	protein serine/threonine kinase activity	-	Function
 39947	107277087	GO:0004713	RCA	-	protein tyrosine kinase activity	-	Function
@@ -8109,7 +7997,7 @@ tax_id	GeneID	GO_ID	Evidence	Qualifier	GO_termPubMed	Category
 39947	107277460	GO:0016020	RCA	-	membrane	-	Component
 39947	107277468	GO:0016020	RCA	-	membrane	-	Component
 39947	107277475	GO:0005634	IC	-	nucleus	16896230	Component
-39947	107277475	GO:0006355	IC	-	regulation of transcription, DNA-templated	16896230	Process
+39947	107277475	GO:0006355	IC	-	regulation of DNA-templated transcription	16896230	Process
 39947	107277475	GO:0140110	IC	-	transcription regulator activity	16896230	Function
 39947	107277485	GO:0016020	RCA	-	membrane	-	Component
 39947	107277511	GO:0005509	RCA	-	calcium ion binding	-	Function

@@ -225,6 +225,44 @@ def gene_marker_sets():
                 gs_group.to_gmt_file_format(f'{data_path}/gene_sets/{filename(hierarchy, tax_id)}')
 
 
+def msigdb():
+    file_name_to_hier = {'c1.all.v2022.1.Hs.entrez.gmt': 'positional gene sets',
+                         'c2.all.v2022.1.Hs.entrez.gmt': 'curated gene sets',
+                         'c3.all.v2022.1.Hs.entrez.gmt': 'regulatory target gene sets',
+                         'c4.all.v2022.1.Hs.entrez.gmt': 'computational gene sets',
+                         'c6.all.v2022.1.Hs.entrez.gmt': 'oncogenic signature gene sets',
+                         'c7.all.v2022.1.Hs.entrez.gmt': 'immunologic signature gene sets',
+                         'c8.all.v2022.1.Hs.entrez.gmt': 'cell type signature gene sets',
+                         'h.all.v2022.1.Hs.entrez.gmt': 'hallmark gene sets',
+                         }
+
+    for file_name, hier in file_name_to_hier.items():
+        file_path = f'{data_path}/MSigDB/{file_name}'
+        print(file_path)
+
+        with open(file_path, 'r', encoding='utf-8') as f:
+            gene_sets = []
+
+            for line in f:
+                columns = [column.strip() for column in line.split('\t')]
+                gene_set = GeneSet(
+                    gs_id=columns[0],
+                    name=columns[0],
+                    genes={str(gene) for gene in columns[2:]},
+                    hierarchy=('MSigDB', hier),
+                    organism='9606',
+                    link=columns[1],
+                )
+
+                # print(gene_set)
+                gene_sets.append(gene_set)
+
+            for gs_group in GeneSets(gene_sets).split_by_hierarchy():
+                hierarchy = gs_group.common_hierarchy()
+                gs_group.to_gmt_file_format(f'{data_path}/gene_sets/{filename(hierarchy, "9606")}')
+
+
+
 if __name__ == "__main__":
     for common_tax_id in taxonomy.common_taxids():
         reactome_gene_sets(common_tax_id)
@@ -243,3 +281,4 @@ if __name__ == "__main__":
             pass
 
     gene_marker_sets()
+    msigdb()

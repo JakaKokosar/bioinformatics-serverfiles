@@ -232,15 +232,16 @@ def prepare_taxonomy_serverfiles():
     Path('serverfiles/taxonomy/taxdump.tar.gz').unlink()
 
 
+def start_server():
+    class Handler(SimpleHTTPRequestHandler):
+        def __init__(self, *args, **kwargs):
+            super().__init__(*args, directory='serverfiles/', **kwargs)
+
+    httpd = HTTPServer(('localhost', 8000), Handler)
+    httpd.serve_forever()
+
+
 if __name__ == '__main__':
-    def start_server():
-        class Handler(SimpleHTTPRequestHandler):
-            def __init__(self, *args, **kwargs):
-                super().__init__(*args, directory='serverfiles/', **kwargs)
-
-        httpd = HTTPServer(('localhost', 8000), Handler)
-        httpd.serve_forever()
-
     p = Process(target=start_server)
     p.start()
 
