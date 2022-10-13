@@ -262,6 +262,28 @@ def msigdb():
                 gs_group.to_gmt_file_format(f'{data_path}/gene_sets/{filename(hierarchy, "9606")}')
 
 
+def l1000():
+    file_path = f'{data_path}/L1000/GSE92742_Broad_LINCS_gene_info_delta_landmark.tab'
+
+    with open(file_path, 'r', encoding='utf-8') as f:
+        # skip header
+        next(f)
+        # read ncbi ids in the first column
+        genes = {line.split('\t')[0] for line in f.readlines()}
+
+        gene_set = GeneSet(
+                    gs_id='L1000',
+                    name='L1000 landmark transcripts',
+                    genes=genes,
+                    hierarchy=('L1000',),
+                    organism='9606',
+                    link='https://www.cell.com/cell/fulltext/S0092-8674(17)31309-0',
+                )
+
+        gs = GeneSets([gene_set])
+        gs.to_gmt_file_format(f'{data_path}/gene_sets/{filename(gs.common_hierarchy(), "9606")}')
+
+
 
 if __name__ == "__main__":
     for common_tax_id in taxonomy.common_taxids():
@@ -282,3 +304,4 @@ if __name__ == "__main__":
 
     gene_marker_sets()
     msigdb()
+    l1000()

@@ -26,7 +26,7 @@ gene_history = 'ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene_history.gz'
 gene_to_go = 'ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2go.gz'
 homolog_genes = 'ftp://ftp.ncbi.nlm.nih.gov/pub/HomoloGene/current/homologene.data'
 gene_ontology = 'http://purl.obolibrary.org/obo/go/go-basic.obo'
-cellmarker = 'http://biocc.hrbmu.edu.cn/CellMarker/download/all_cell_markers.txt'
+cellmarker = 'http://xteam.xbio.top/CellMarker/download/all_cell_markers.txt'
 panglaodb = f"https://panglaodb.se/markers/{panglao_fn}"
 
 # dictybase

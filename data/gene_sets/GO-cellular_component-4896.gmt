@@ -43,7 +43,6 @@ GO:1990483	GO:1990483,GO-cellular_component,4896,Clr6 histone deacetylase comple
 GO:0031390	GO:0031390,GO-cellular_component,4896,Ctf18 RFC-like complex,_,_,http://amigo.geneontology.org/amigo/term/GO:0031390	2540215	2541270	2541493	2541908	2542790	2543078	3361556
 GO:0031463	GO:0031463,GO-cellular_component,4896,Cul3-RING ubiquitin ligase complex,_,_,http://amigo.geneontology.org/amigo/term/GO:0031463	2542637
 GO:0080008	GO:0080008,GO-cellular_component,4896,Cul4-RING E3 ubiquitin ligase complex,_,_,http://amigo.geneontology.org/amigo/term/GO:0080008	2538848	2539050	2539420	2539614	2540825	2541121	2541535	2541897	2542207	2542374	2543116	2543123
-GO:0031465	GO:0031465,GO-cellular_component,4896,Cul4B-RING E3 ubiquitin ligase complex,_,_,http://amigo.geneontology.org/amigo/term/GO:0031465	2538848	2539050	2539420	2540825	2541897	2543116
 GO:0035361	GO:0035361,GO-cellular_component,4896,Cul8-RING ubiquitin ligase complex,_,_,http://amigo.geneontology.org/amigo/term/GO:0035361	2543633
 GO:0042729	GO:0042729,GO-cellular_component,4896,DASH complex,_,_,http://amigo.geneontology.org/amigo/term/GO:0042729	2539507	2540249	2540498	2542102	2542311	2542418	2542489	3361558	5802726	5802828
 GO:0033203	GO:0033203,GO-cellular_component,4896,DNA helicase A complex,_,_,http://amigo.geneontology.org/amigo/term/GO:0033203	2539412
